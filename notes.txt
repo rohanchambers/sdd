@@ -1,0 +1,19 @@
+Bower update packages in bower.json:
+ncu -m bower
+
+-----------------
+
+Grunt
+Create package.json and grunfile.js manually and run
+npm install (no working use below)
+Use 
+npm install --legacy-bundling
+(This downloads the correct dependencies or modules that are set in package.json)
+
+-----------------
+to save a package to package.json as dev dependencies,
+
+npm install "$package" --save-dev
+when you run npm install it will install both devDpendencies and dependencies, to avoid install devDependencies run,
+
+npm install --production

@@ -1,0 +1,20 @@
+{
+  "name": "SlamDunkDigital",
+  "version": "0.1.0",
+  "author": "Rohan Chambers",
+  "private": true,
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmllint": "^0.2.7",
+    "jshint-stylish": "*",
+    "matchdep": "*"
+  }
+}

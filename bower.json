@@ -1,0 +1,28 @@
+{
+  "name": "Slam Dunk Digital",
+  "authors": [
+    "Rohan Chambers <rohanchambers888@gmail.com>"
+  ],
+  "description": "Agency site",
+  "main": "index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sdd",
+    "sdd"
+  ],
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "grunt": "^0.4.5",
+    "font-awesome": "fontawesome#^4.5.0",
+    "jquery-validation": "jquery.validate#^1.13.0",
+    "jquery": "^2.2.2",
+    "neat": "^1.7.4",
+    "selectivizr": "^1.0.2"
+  }
+}
