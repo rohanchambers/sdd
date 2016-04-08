@@ -8,12 +8,11 @@
   },
   "devDependencies": {
     "grunt": "~0.4.0",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-sass": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-htmllint": "^0.2.7",
+    "grunt-contrib-watch": "^1.0.0",
     "jshint-stylish": "*",
     "matchdep": "*"
   }
