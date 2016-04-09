@@ -17,3 +17,11 @@ npm install "$package" --save-dev
 when you run npm install it will install both devDpendencies and dependencies, to avoid install devDependencies run,
 
 npm install --production
+
+
+
+
+Questions to figure out
+
+- Node modules ignore using .gitignore
+- How to get rid of the ones already commited from the start

@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: turquoise;
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */

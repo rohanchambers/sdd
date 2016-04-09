@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="assets/css/styles.min.css">
         <script type="text/javascript" src="assets/js/vendors/modernizr-custom.js"></script>
     </head>
-    <body>
-        <button>setup</button>
+    <body> 
 
 
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
