@@ -3,11 +3,72 @@
 @import "../../bower_components/neat/app/assets/stylesheets/neat-helpers";
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
 
-$black: #000;
-$turk: turquoise;
-$badass: #bada55;
+@import "partials/_base";
+@import "partials/_hamburger";
+@import "partials/_nav-overlay";
 
-body {
-	background-color: $turk;
-	display: block;
+section {
+	@include outer-container(1024px);
+	z-index: 0;
 }
+
+#bg-home {
+	position: relative;
+	background-color: $black;
+}
+
+#home {
+	background-color: #000;
+	border-bottom: 1px solid red;
+	color: #FFF;
+	
+	header {
+		h1 {
+			position: relative;
+			z-index: 0;
+			margin: 0;
+			padding-top: 10px;
+			font-family: $font-logo;
+			font-size: rem(30);
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+	}
+
+	#slogan {
+		width: 700px;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+
+		p {
+			font-family: $font-headers;
+			font-size: rem(80);
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: .95em;
+			margin: 20px 0 13px;
+			padding: 0;
+
+			span {
+				font-size: inherit;
+			}
+		}
+
+		span {
+			font-family: $font-text;
+			font-size: rem(45);
+			font-style: italic;
+		}
+
+		span#all-the-time {
+			font-size: rem(35);
+		}
+	}
+
+
+}
+
+
+
