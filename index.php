@@ -10,6 +10,7 @@
         <script type="text/javascript" src="assets/js/vendor/modernizr-full.js"></script>
     </head>
     <body>
+        
 
         <button class="hamburger" id="trigger-overlay" type="button">
             <div id="nav-icon">
@@ -37,8 +38,12 @@
                 </ul>
             </nav>
         </div>
+
+            <!-- <div id="large-header" class="large-header"> -->
                 
+            <!-- </div>                 -->
         <div id="bg-home">
+
             <section id="home">
 
                 <header>
@@ -46,6 +51,7 @@
                 </header>
 
                 <div id="slogan">
+                    <canvas id="demo-canvas"></canvas>
                     <span>We stand for</span>                    
                     <p>
                         Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
@@ -57,6 +63,7 @@
                 </div><!-- End of Slogan -->
 
             </section><!-- End of home -->
+
 
         </div>
 
@@ -72,9 +79,13 @@
             </section><!-- End of home-->
         </div>
 
-        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/js/vendor/classie.js"></script>
-        <script type="text/javascript" src="assets/js/vendor/nav-overlay.js"></script>
-        <script type="text/javascript" src="assets/js/scripts.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="assets/js/vendor/classie.js"></script>
+        <script src="assets/js/vendor/nav-overlay.js"></script>
+        <script src="assets/js/vendor/TweenLite.min.js"></script>
+        <script src="assets/js/vendor/EasePack.min.js"></script>
+        <script src="assets/js/vendor/rAF.js"></script>
+        <script src="assets/js/vendor/emitter.js"></script>        
+        <script src="assets/js/scripts.js"></script>
     </body>
 </html>
