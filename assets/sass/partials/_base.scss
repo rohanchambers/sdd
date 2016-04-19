@@ -2,9 +2,39 @@ $font-logo: Arial black, Verdana, sans-serif;
 $font-text: Helvetica, Verdana, sans-serif;
 $font-headers: Arial, Verdana, sans-serif;
 $black: #000;
+$content-size: rem(16);
 
 .yellow { color: #ffc036;}
 .red { color: #fd070d;}
 .green { color: #009f5e;}
 .blue { color: #0074c0;}
 .white { color: #FFF;}
+
+h2 {
+	font-family: $font-logo;
+	font-size: rem(50);
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+	 h2:after {
+	 	position: absolute;
+	 	bottom: 0;
+	 	left: 0;
+	 	content: '';
+	 	width: 63%;
+	 	height: 5px;
+	 	background-color: #000;
+	 }
+
+p {
+	font-size: $content-size;
+	line-height: 1.5;
+}
+
+.intro {
+	font-size: rem(21);
+	font-family: $font-logo;
+	line-height: 1.2;
+}

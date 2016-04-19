@@ -2,15 +2,11 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "../../bower_components/neat/app/assets/stylesheets/neat-helpers";
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
-
+@import "_grid-settings";
 @import "partials/_base";
+@import "partials/_layout";
 @import "partials/_hamburger";
 @import "partials/_nav-overlay";
-
-section {
-	@include outer-container(1024px);
-	z-index: 0;
-}
 
 #bg-home {
 	position: relative;
@@ -19,18 +15,18 @@ section {
 
 #home {
 	background-color: #000;
-	border-bottom: 1px solid red;
 	color: #FFF;
 	
 	header {
 		h1 {
 			position: relative;
+			width: 350px;
+			left: 25px;
 			z-index: 0;
 			margin: 0;
 			padding-top: 10px;
 			font-family: $font-logo;
 			font-size: rem(30);
-			font-weight: 800;
 			text-transform: uppercase;
 		}
 	}
@@ -66,9 +62,18 @@ section {
 			font-size: rem(35);
 		}
 	}
-
-
 }
 
+// Emitter fountain of colors
+canvas { 
+	position: fixed;
+	top: 50%;
+	left: 0;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
 
-
+#work {
+	height: 800px;
+	background-color: #000;
+}
