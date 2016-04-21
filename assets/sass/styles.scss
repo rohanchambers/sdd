@@ -73,7 +73,47 @@ canvas {
 	z-index: -1;
 }
 
-#work {
+// SERVICES SECTION
+#bg-services {
+	overflow: hidden;
 	height: 800px;
-	background-color: #000;
 }
+
+// WORK SECTION
+#work {
+	margin-top: 100px;
+	min-height: 800px;
+	
+	header {
+		h2 {
+			position: relative;
+			padding-right: 25px;
+		}
+
+		h2, p {
+			float: right;
+			text-align: right;
+		}
+			
+		h2:after {
+			left: auto;
+			right: 25px;
+		}
+
+		h2:before {
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 27%;
+			height: 37px;
+			width: 15px;
+			background-color: #fd070d;
+		}
+
+		p {
+			width: 70%;
+		}	
+	}	
+
+}
+

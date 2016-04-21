@@ -49,8 +49,8 @@
                     <span>We stand for</span>                    
                     <p>
                         Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
-                        Elegance <span class="green">/</span><br>
-                        &amp; Creativity <span class="blue">/</span><br>
+                        Creativity <span class="green">/</span><br>
+                        &amp; style <span class="blue">/</span><br>
                         10 out of 10 <span class="white">/</span><br>
                     </p>
                     <span id="all-the-time">Every time!</span>
@@ -70,67 +70,36 @@
                 </div>
                 
                 <div class="col col-no-skew">
-                    <ul id="pe-thumbs" class="pe-thumbs">
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"><div class="pe-description"><h3>time</h3><p>Since time, and his predestinated end</p></div></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li>
-                        <li><a href="#"><img src="assets/img/rohan.jpg" alt="Rohan"></a></li> 
-                    </ul>
+                     <?php include("incl/proximityThumbs.php"); ?>
                 </div>
             </section><!-- End of home-->
         </div>
 
-        <section id="work"></section>
+        <section id="work">
+            <header>
+                <h2><span></span>Our work</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </header>
+
+            <div class="row">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="row">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="row">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>                        
+
+        </section>
 
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/classie.js"></script>

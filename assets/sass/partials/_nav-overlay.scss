@@ -129,30 +129,6 @@
 	transition: opacity 0.5s;
 }
 
-// .overlay-hugeinc nav {
-// 	-webkit-perspective: 1200px;
-// 	perspective: 1200px;
-// }
-
-// .overlay-hugeinc nav ul {
-// 	opacity: 0.4;
-// 	-webkit-transform: translateY(-25%) rotateX(deg);
-// 	transform: translateY(-25%) rotateX(35deg);
-// 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-// 	transition: transform 0.5s, opacity 0.5s;
-// }
-
-// .overlay-hugeinc.open nav ul {
-// 	opacity: 1;
-// 	-webkit-transform: rotateX(0deg);
-// 	transform: rotateX(0deg);
-// }
-
-// .overlay-hugeinc.close nav ul {
-// 	-webkit-transform: translateY(0%) rotateX(0deg);
-// 	transform: translateY(25%) rotateX(-35deg);
-// }
-
 @media screen and (max-height: 30.5em) {
 	.overlay nav {
 		height: 70%;
