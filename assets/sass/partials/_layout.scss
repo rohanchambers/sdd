@@ -1,144 +1,65 @@
+// NEAT GRID LAYOUT FOR SECTIONS
 #home,
 #work,
 #contact,
-#contact-info {
+#contact-info,
+footer {
 	@include outer-container(1024px);
 }
 
-#services {
-	position: relative;
-    @include clearfix;	
-    background-color: #ffc036;
+#work,
+#contact {
+	margin-top: 100px;
+}
 
-	.intro {
-		font-size: rem(21);
-		font-family: $font-logo;
-		line-height: 1.2;
-	}
-	
-	h2:after {
-		left: 0;
-	}
-
+#what-we-do {
 	.col {
 		@include span-columns(6);
 		@include pad(0);
 		min-height: 800px;
-			
-			p {
-			    position: relative;
-			    z-index: 2;
-			}
 	}
+}
 
-	.col-skew {
-		padding: 25px 30px;
-		background-color: #ffc036;
-	}
-
-	.col-skew:after {
-	    content:"";
-	    position:absolute;
-	    z-index:1;
-	    top:0;
-	    bottom:0;
-	    left:31%;
-	    width:18%;
-	    background:#ffc036;
-	    -webkit-transform:skewX(-8deg);
-	    transform:skewX(-8deg);
-	}
-
-	.col-no-skew {
-
-		.pe-thumbs {
-			margin: 0;
-			@include pad(0);
-		}
-		
-		.pe-thumbs li {
-			// position: relative;
-			@include span-columns(2.62);
-			//width: 16.66%!important; // Fixme
-			@include omega();
-
-			img {
-				display: block;
-				width: 100%;
-				height: 100%;
-			}
-		}
-
-		.pe-thumbs li a,
-		.pe-thumbs li a img {
-			display: block;
-			position: relative;
-		}
-		.pe-thumbs li a img {
-			opacity: 1;
-		}
-		.pe-thumbs li a div.pe-description {
-			width: 200px;
-			height: 100px;
-			background: rgba(0,0,0,0.8);
-			position: absolute;
-			top: 0px;
-			left: -200px;
-			color: white;
-			display: none;
-			z-index: 1001;
-		}		
-		
-		.pe-thumbs li a div.pe-description {
-			width: 200px;
-			height: 100px;
-			background: rgba(0,0,0,0.8);
-			position: absolute;
-			top: 0px;
-			left: -200px;
-			color: white;
-			display: none;
-			z-index: 1001;
-			text-align: left;
-		}
-		.pe-description h3 {
-			padding: 10px 10px 0px 10px;
-			line-height: 20px;
-			font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-			font-size: 22px;
-			margin: 0px;
-		}
-		.pe-description p {
-			padding: 10px 0px;
-			margin: 10px;
-			font-size: 11px;
-			font-style: italic;
-			border-top: 1px solid rgba(255,255,255,0.3);
-		}
-	}
+.col-no-skew {
+	.pe-thumbs li {
+		// position: relative;
+		@include span-columns(2.62); // Same as 16.66%
+		@include omega();
+	}	
 }
 
 #work {
 	.row {
 		@include fill-parent();
-		@include row(table);
-		border-right: 1px solid white;
-		margin-right: 1px;		
+		@include row(table);		
 		
 			div {
 				@include span-columns(4);		
 				@include pad();
 				@include omega(4n);
-				background-color: #000;
-				height: 250px;
-				margin-bottom: 1px;
-				border: 1px solid #FFF;
-				box-sizing: border-box;
-			    	-moz-box-sizing: border-box;
-			    		-webkit-box-sizing: border-box;
 			}
 	}
 }
+
+#contact-info {
+	@include row();
+}
+
+#offices,
+#get-in-touch,
+#follow-us {
+	@include span-columns(4);
+}
+
+footer {
+	@include row();
+	.col {
+		@include span-columns(6);
+	}
+}
+
+
+
 
 
 

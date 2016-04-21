@@ -1,7 +1,8 @@
 $font-logo: Arial black, Verdana, sans-serif;
-$font-text: Helvetica, Verdana, sans-serif;
 $font-headers: Arial, Verdana, sans-serif;
+$font-text: Helvetica, Verdana, sans-serif;
 $black: #000;
+$white: #FFF;
 $content-size: rem(16);
 
 .yellow { color: #ffc036;}
@@ -11,6 +12,7 @@ $content-size: rem(16);
 .white { color: #FFF;}
 
 h2 {
+	@include clearfix();	
 	font-family: $font-logo;
 	font-size: rem(50);
 	text-transform: uppercase;
@@ -27,13 +29,37 @@ h2 {
 	 	background-color: #000;
 	 }
 
+// Section headers with intro paragaph
+header {
+
+	h2 {
+		position: relative;
+		padding-right: 25px;
+	}
+
+	h2, p {
+		float: right;
+		text-align: right;
+	}	
+
+	h2:before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 27%;
+		height: 37px;
+		width: 15px;
+		background-color: #fd070d;
+	}
+
+	p {
+		width: 70%;
+	}	
+}
+
 p {
 	font-size: $content-size;
 	line-height: 1.5;
-}
-
-ul {
-	//margin: 0;
 }
 
 li {

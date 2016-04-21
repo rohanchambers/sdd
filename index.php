@@ -10,34 +10,6 @@
         <script type="text/javascript" src="assets/js/vendor/modernizr-full.js"></script>
     </head>
     <body>
-        
-        <button class="hamburger" id="trigger-overlay" type="button">
-            <div id="nav-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-        </button>
-
-        <div class="overlay overlay-hugeinc">
-            <header>
-                <h1>Slam Dunk Digital</h1>
-            </header>        
-            <nav role='navigation'>
-                <ul>
-                    <li><a href="#"><span>H</span>ome</a></li>
-                    <li><a href="#"><span class="yellow">W</span>hat we do</a></li>
-                    <li><a href="#"><span class="red">O</span>ur work</a></li>
-                    <li><a href="#"><span class="green">C</span>lients</a></li>
-                    <li><a href="#"><span class="blue">C</span>ontact</a></li>
-                    <li id="social">
-                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 
         <div id="bg-home">
             <section id="home">
@@ -58,10 +30,12 @@
             </section><!-- End of home -->
         </div>
 
-        <div id="bg-services">
-            <section id="services">
+
+        <div id="what-we-do-outer">
+            <section id="what-we-do">
                 <div class="col col-skew">
                     <h2>What we do</h2>
+                    
                     <p class="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -74,6 +48,7 @@
                 </div>
             </section><!-- End of home-->
         </div>
+
 
         <section id="work">
             <header>
@@ -100,6 +75,7 @@
             </div>
         </section>
 
+
         <section id="contact">
             <header>
                 <h2>Contact</h2>
@@ -108,7 +84,7 @@
         </section>
 
         <section id="maps"></section>
-
+  
         <section id="contact-info">
             <div id="offices">
                 <h2>Our offices</h2>
@@ -137,38 +113,69 @@
                 </ul>
             </div>
         </section>
+
+
+        <div id="footer-outer">
+            <footer>
+                <div class="col">
+                    <p id="footer-logo">Slam<br>
+                    Dunk<br> 
+                    Digital</p>
+
+                    <p>+44 (0)79 17044058<br>
+                    <a href="#">info@slamdunkdigital.com</a></p>
+
+                    <p>CTB Studios,<br>
+                    New North Rd<br>
+                    London<br>
+                    EC1, TWA</p>
+                </div>
+                <div id="copyright" class="col">
+                    <div id="border-right">
+                    <ul>
+                        <li id="social">
+                            <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
+                            <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
+                            <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
+                        </li>
+                    </ul>
+                    <p>Slam dunk digital Limited<br>
+                    Registered trademark<br>
+                    Registered 882931<br>
+                    ©2016 Slam Dunk Digital. All rights reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
         
-        <footer>
-            <div class="col">
-                <p id="footer-logo">Slam<br>
-                Dunk<br> 
-                Digital</p>
-
-                <p>+44 (0)79 17044058<br>
-                <a href="#">info@slamdunkdigital.com</a></p>
-
-                <p>CTB Studios,<br>
-                New North Rd<br>
-                London<br>
-                EC1, TWA</p>
+        <!-- Full sceen Navigation -->
+        <button class="hamburger" id="trigger-overlay" type="button">
+            <div id="nav-icon">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-            <div id="copyright" class="col">
-                <div id="border-right">
+        </button>
+
+        <div class="overlay overlay-hugeinc">
+            <header>
+                <h1>Slam Dunk Digital</h1>
+            </header>        
+            <nav role='navigation'>
                 <ul>
+                    <li><a href="#"><span>H</span>ome</a></li>
+                    <li><a href="#"><span class="yellow">W</span>hat we do</a></li>
+                    <li><a href="#"><span class="red">O</span>ur work</a></li>
+                    <li><a href="#"><span class="green">C</span>lients</a></li>
+                    <li><a href="#"><span class="blue">C</span>ontact</a></li>
                     <li id="social">
-                        <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
+                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
+                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
+                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
                     </li>
                 </ul>
-                <p>Slam dunk digital Limited<br>
-                Registered trademark<br>
-                Registered 882931<br>
-                ©2016 Slam Dunk Digital. All rights reserved</p>
-                </div>
-            </div>
-        </footer>
-        
+            </nav>
+        </div>        
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
