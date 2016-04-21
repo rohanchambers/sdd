@@ -8,6 +8,42 @@
 @import "partials/_hamburger";
 @import "partials/_nav-overlay";
 
+header {
+	h2 {
+		position: relative;
+		padding-right: 25px;
+	}
+
+	h2, p {
+		float: right;
+		text-align: right;
+	}
+		
+	h2:after {
+		// left: auto;
+		// right: 25px;
+	}
+
+	h2:before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 27%;
+		height: 37px;
+		width: 15px;
+		background-color: #fd070d;
+	}
+
+	p {
+		width: 70%;
+	}	
+}
+
+#work,
+#contact {
+	margin-top: 100px;
+}
+
 #bg-home {
 	position: relative;
 	background-color: $black;
@@ -81,39 +117,140 @@ canvas {
 
 // WORK SECTION
 #work {
-	margin-top: 100px;
 	min-height: 800px;
-	
+
+	h2:after {
+		right: 25px;
+	}
+}
+
+#contact {
 	header {
+		@include clearfix;
+		
 		h2 {
-			position: relative;
-			padding-right: 25px;
+			margin: 0 auto 25px auto;
+			float: none;
+			width: 341px;		
 		}
 
 		h2, p {
-			float: right;
-			text-align: right;
-		}
-			
-		h2:after {
-			left: auto;
-			right: 25px;
+			text-align: center;
 		}
 
-		h2:before {
-			content: "";
-			position: absolute;
-			right: 0;
-			top: 27%;
-			height: 37px;
-			width: 15px;
-			background-color: #fd070d;
-		}
-
-		p {
+		p {		
 			width: 70%;
-		}	
-	}	
+			margin: 0 15%;
+		}
+		
+		h2:before {
+			left: 0;
+			background-color: #0074c0;
+		}
 
+		h2:after {
+			left: 26px;
+		}
+	}
+}
+
+#maps {
+	margin-top: 30px;
+	width: 100%;
+	height: 375px;
+	background-color: #000;
+}
+
+#contact-info {
+	@include row();
+	margin: 30px auto;
+
+	h2 {
+		font-family: $font-logo;
+		font-size: rem(24);
+	}
+
+	h2:after {
+		width: 50%;
+		bottom: -5px;
+		left: 0;
+	}
+}
+
+#offices,
+#get-in-touch,
+#follow-us {
+	@include span-columns(4);
+	min-height: 200px;
+
+	a {
+		color: #000;
+	}
+	
+	a:hover {
+		text-decoration: none; 
+	}
+}
+
+#follow-us ul { 
+	padding: 0;
+	i {
+		position: relative;
+		margin-right: 15px;
+		a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+footer {
+	@include row();
+	min-height: 285px;
+	background-color: #000;
+	
+	p, i, a {
+
+		font-size: rem(12);
+		color: #FFF;
+		font-family: Verdana, Arial, sans-serif;
+	}
+	
+	ul {
+		li {
+			i {
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.col {
+		@include span-columns(6);
+		min-height: 285px;
+		padding: 25px;		
+	}
+	
+	#footer-logo {
+		font-size: 30px;
+		font-family: $font-logo;
+		text-transform: uppercase;
+		line-height: 1em;
+		margin: 0;
+	}
+
+	#copyright {
+		box-sizing: border-box;
+		padding-top: 112px;
+	 	text-align: right;
+	}
+
+	#border-right {
+		padding-right: 15px;
+		border-right: 10px solid #0074c0;
+	}
 }
 

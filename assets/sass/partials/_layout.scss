@@ -1,5 +1,7 @@
 #home,
-#work {
+#work,
+#contact,
+#contact-info {
 	@include outer-container(1024px);
 }
 
@@ -7,6 +9,16 @@
 	position: relative;
     @include clearfix;	
     background-color: #ffc036;
+
+	.intro {
+		font-size: rem(21);
+		font-family: $font-logo;
+		line-height: 1.2;
+	}
+	
+	h2:after {
+		left: 0;
+	}
 
 	.col {
 		@include span-columns(6);
@@ -126,6 +138,8 @@
 			    		-webkit-box-sizing: border-box;
 			}
 	}
-
-
 }
+
+
+
+

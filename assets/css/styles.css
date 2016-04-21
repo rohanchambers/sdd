@@ -29,7 +29,6 @@ h2 {
 h2:after {
   position: absolute;
   bottom: 0;
-  left: 0;
   content: '';
   width: 63%;
   height: 5px;
@@ -39,21 +38,20 @@ p {
   font-size: 1rem;
   line-height: 1.5; }
 
-.intro {
-  font-size: 1.3125rem;
-  font-family: Arial black, Verdana, sans-serif;
-  line-height: 1.2; }
-
 li {
   list-style: none; }
 
 #home,
-#work {
+#work,
+#contact,
+#contact-info {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto; }
   #home::after,
-  #work::after {
+  #work::after,
+  #contact::after,
+  #contact-info::after {
     clear: both;
     content: "";
     display: table; }
@@ -65,6 +63,12 @@ li {
     clear: both;
     content: "";
     display: table; }
+  #services .intro {
+    font-size: 1.3125rem;
+    font-family: Arial black, Verdana, sans-serif;
+    line-height: 1.2; }
+  #services h2:after {
+    left: 0; }
   #services .col {
     float: left;
     display: block;
@@ -171,7 +175,7 @@ li {
 
 .hamburger {
   position: fixed;
-  z-index: 200;
+  z-index: 2000;
   top: 0px;
   right: 0px;
   padding: 12px;
@@ -368,6 +372,27 @@ li {
   .overlay ul li a:hover,
   .overlay ul li:hover span {
     color: #000; } }
+header h2 {
+  position: relative;
+  padding-right: 25px; }
+header h2, header p {
+  float: right;
+  text-align: right; }
+header h2:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 27%;
+  height: 37px;
+  width: 15px;
+  background-color: #fd070d; }
+header p {
+  width: 70%; }
+
+#work,
+#contact {
+  margin-top: 100px; }
+
 #bg-home {
   position: relative;
   background-color: #000; }
@@ -420,26 +445,119 @@ canvas {
   height: 800px; }
 
 #work {
-  margin-top: 100px;
   min-height: 800px; }
-  #work header h2 {
-    position: relative;
-    padding-right: 25px; }
-  #work header h2, #work header p {
-    float: right;
-    text-align: right; }
-  #work header h2:after {
-    left: auto;
+  #work h2:after {
     right: 25px; }
-  #work header h2:before {
+
+#contact header::after {
+  clear: both;
+  content: "";
+  display: table; }
+#contact header h2 {
+  margin: 0 auto 25px auto;
+  float: none;
+  width: 341px; }
+#contact header h2, #contact header p {
+  text-align: center; }
+#contact header p {
+  width: 70%;
+  margin: 0 15%; }
+#contact header h2:before {
+  left: 0;
+  background-color: #0074c0; }
+#contact header h2:after {
+  left: 26px; }
+
+#maps {
+  margin-top: 30px;
+  width: 100%;
+  height: 375px;
+  background-color: #000; }
+
+#contact-info {
+  display: block;
+  margin: 30px auto; }
+  #contact-info::after {
+    clear: both;
     content: "";
-    position: absolute;
-    right: 0;
-    top: 27%;
-    height: 37px;
-    width: 15px;
-    background-color: #fd070d; }
-  #work header p {
-    width: 70%; }
+    display: table; }
+  #contact-info h2 {
+    font-family: Arial black, Verdana, sans-serif;
+    font-size: 1.5rem; }
+  #contact-info h2:after {
+    width: 50%;
+    bottom: -5px;
+    left: 0; }
+
+#offices,
+#get-in-touch,
+#follow-us {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  min-height: 200px; }
+  #offices:last-child,
+  #get-in-touch:last-child,
+  #follow-us:last-child {
+    margin-right: 0; }
+  #offices a,
+  #get-in-touch a,
+  #follow-us a {
+    color: #000; }
+  #offices a:hover,
+  #get-in-touch a:hover,
+  #follow-us a:hover {
+    text-decoration: none; }
+
+#follow-us ul {
+  padding: 0; }
+  #follow-us ul i {
+    position: relative;
+    margin-right: 15px; }
+    #follow-us ul i a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+footer {
+  display: block;
+  min-height: 285px;
+  background-color: #000; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  footer p, footer i, footer a {
+    font-size: 0.75rem;
+    color: #FFF;
+    font-family: Verdana, Arial, sans-serif; }
+  footer ul li i {
+    margin-left: 10px; }
+  footer .col {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    min-height: 285px;
+    padding: 25px; }
+    footer .col:last-child {
+      margin-right: 0; }
+  footer #footer-logo {
+    font-size: 30px;
+    font-family: Arial black, Verdana, sans-serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 0; }
+  footer #copyright {
+    box-sizing: border-box;
+    padding-top: 112px;
+    text-align: right; }
+  footer #border-right {
+    padding-right: 15px;
+    border-right: 10px solid #0074c0; }
 
 /*# sourceMappingURL=styles.css.map */

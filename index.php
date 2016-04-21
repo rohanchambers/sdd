@@ -77,7 +77,7 @@
 
         <section id="work">
             <header>
-                <h2><span></span>Our work</h2>
+                <h2>Our work</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>
 
@@ -97,10 +97,78 @@
                 <div></div>
                 <div></div>
                 <div></div>
-            </div>                        
-
+            </div>
         </section>
 
+        <section id="contact">
+            <header>
+                <h2>Contact</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </header>
+        </section>
+
+        <section id="maps"></section>
+
+        <section id="contact-info">
+            <div id="offices">
+                <h2>Our offices</h2>
+                <p>CTB Studios,<br>
+                New North Rd<br>
+                London<br>
+                EC1, TWA<br>
+                +44 (0)79 17044058</p>
+            </div>
+            <div id="get-in-touch">
+                <h2>Get in touch</h2>
+                <p>
+                    <a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a><br>
+                    <a href="mailto:newbusiness@slamdunkdigital.com">newbusiness@slamdunkdigital.com</a><br>
+                    <a href="mailto:careers@slamdunkdigital.com">careers@slamdunkdigital.com</a>
+                </p>
+            </div>
+            <div id="follow-us">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li id="social">
+                        <i class="fa fa-facebook fa-3x"><a href="#"></a></i>
+                        <i class="fa fa-twitter fa-3x"><a href="#"></a></i>
+                        <i class="fa fa-instagram fa-3x"><a href="#"></a></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="col">
+                <p id="footer-logo">Slam<br>
+                Dunk<br> 
+                Digital</p>
+
+                <p>+44 (0)79 17044058<br>
+                <a href="#">info@slamdunkdigital.com</a></p>
+
+                <p>CTB Studios,<br>
+                New North Rd<br>
+                London<br>
+                EC1, TWA</p>
+            </div>
+            <div id="copyright" class="col">
+                <div id="border-right">
+                <ul>
+                    <li id="social">
+                        <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
+                        <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
+                        <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
+                    </li>
+                </ul>
+                <p>Slam dunk digital Limited<br>
+                Registered trademark<br>
+                Registered 882931<br>
+                ©2016 Slam Dunk Digital. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+        
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
@@ -110,7 +178,7 @@
         <script src="assets/js/vendor/emitter.js"></script>
         <script src="assets/js/vendor/proximity.js"></script>      
         <script src="assets/js/scripts.js"></script>
-<script type="text/javascript">
+        <script type="text/javascript">
             $(function() {
                 
                 var Photo   = (function() {
