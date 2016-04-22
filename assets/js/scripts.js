@@ -27,11 +27,92 @@ $(document).ready(function(){
     	e.preventDefault();
     });
 
+    // What we do proximity effect add relative to li's
     $('.pe-thumbs li').hover( function(){    	
     	$(this).css({position : 'relative'});
     }, function(){
     	$(this).css({position : 'initial'});
     });
+
+    // Proximity effect
+    var Photo   = (function() {
+            
+            // list of thumbs
+            var $list       = $('#pe-thumbs'),
+            // the images
+            $elems      = $list.find('img'),
+            // maxScale : maximum scale value the image will have
+            // minOpacity / maxOpacity : minimum (set in the CSS) and maximum values for the image's opacity
+            settings    = {
+                maxScale    : 1.4,
+                maxOpacity  : 0.9,
+                minOpacity  : Number( $elems.css('opacity') )
+            },
+            init        = function() {
+                
+                // minScale will be set in the CSS
+                settings.minScale = _getScaleVal() || 1;
+                _initEvents();
+            
+            },
+            // Get Value of CSS Scale through JavaScript:
+            // http://css-tricks.com/get-value-of-css-rotation-through-javascript/
+            _getScaleVal= function() {
+            
+                var st = window.getComputedStyle($elems.get(0), null),
+                    tr = st.getPropertyValue('-webkit-transform') ||
+                         st.getPropertyValue('-moz-transform') ||
+                         st.getPropertyValue('-ms-transform') ||
+                         st.getPropertyValue('-o-transform') ||
+                         st.getPropertyValue('transform') ||
+                         'fail...';
+
+                if( tr !== 'none' ) {    
+
+                    var values = tr.split('(')[1].split(')')[0].split(','),
+                        a = values[0],
+                        b = values[1],
+                        c = values[2],
+                        d = values[3];
+
+                    return Math.sqrt( a * a + b * b );
+                
+                }
+                
+            },
+            _initEvents = function() {
+                
+                // the proximity event
+                $elems.on('proximity.Photo', { max: 80, throttle: 10, fireOutOfBounds : true }, function( event, proximity, distance ) {
+                    
+                    var $el         = $(this),
+                        $li         = $el.closest('li'),
+                        scaleVal    = proximity * ( settings.maxScale - settings.minScale ) + settings.minScale,
+                        scaleExp    = 'scale(' + scaleVal + ')';
+                    
+                    // change the z-index of the element once it reaches the maximum scale value
+                    ( scaleVal === settings.maxScale ) ? $li.css( 'z-index', 1000 ) : $li.css( 'z-index', 1 );
+                    
+                    $el.css({
+                        '-webkit-transform' : scaleExp,
+                        '-moz-transform'    : scaleExp,
+                        '-o-transform'      : scaleExp,
+                        '-ms-transform'     : scaleExp,
+                        'transform'         : scaleExp,
+                        'opacity'           : ( proximity * ( settings.maxOpacity - settings.minOpacity ) + settings.minOpacity )
+                    });
+
+                });
+            }
+        
+        return {
+            init    : init
+        };
+    
+    })();
+    
+    Photo.init();
+
 });
 
 // Toggle with hitting of ESC
@@ -41,3 +122,45 @@ $(document).keyup(function(e) {
         $('#nav-icon').toggleClass('open');
     }
 });
+
+// Load Google maps
+function initMap() {
+    var slamDunkDigital = {lat: 51.532659, lng: -0.105980};
+
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: slamDunkDigital
+    });
+
+    // var image = 'https://phoneresq.com/wp-content/themes/phoneResq/assets/images/global/mapPin.png';
+    // var slamDunkDigitalMarker = new google.maps.Marker({
+    //     position: slamDunkDigital,
+    //     map: map,
+    //     icon: image,
+    //     title: 'Phone ResQ'     
+    // });
+
+    // var contentString = '<div id="map-info">'+
+    //       '<div id="siteNotice">'+
+    //       '</div>'+
+    //       '<h1 id="firstHeading" class="firstHeading">Welcome to Phone ResQ</h1>'+
+    //       '<div id="bodyContent">'+
+    //       '<p>We repair and improve all of your handheld devices and home computers. ' +
+    //       '<p>1001 Atlantic Avenue,<br> Suite B,<br> Fernandina Beach,<br> Florida, 32034</p>'+
+    //       '<p>Website: <a href="http://phoneResq.com/" target="_blank">'+
+    //       'http://phoneresq.com/</a> <br>'+
+    //       'Email: <a href="@mailto:phoneresq@gmail.com">'+
+    //       'phoneresq@gmail.com</a><br>'+
+    //       'Phone: <a href="tel:9043100059">(904) 310-0059</a>'+   
+    //       '</div>'+
+    //   '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 450
+    });
+
+    slamDunkDigitalMarker.addListener('click', function() {
+        infowindow.open(map, slamDunkDigitalMarker);
+    });
+}

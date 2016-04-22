@@ -75,12 +75,12 @@ module.exports = function(grunt){
 			css: {
 				files: 'assets/sass/**/*.scss',
 				tasks: ['sass', 'cssmin']
-			},
+			}
 
-            javaScript: {
-                files: 'assets/js/**.js',
-                tasks: 'jshint'
-            }
+            // javaScript: {
+            //     files: 'assets/js/**.js',
+            //     tasks: 'jshint'
+            // }
 		}
 
 	});

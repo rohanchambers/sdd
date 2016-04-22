@@ -57,21 +57,84 @@
             </header>
 
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/phoneResq.jpg" alt="Phone Resq." /> 
+                    <div class="mask">
+                        <h2>Phone ResQ.</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, The Beauty of Brewing" /> 
+                    <div class="mask">
+                        <h2>Heinken, The Beauty of Brewing</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/jaguaruk_fearless.jpg" alt="Jaguar Live Fearless" />
+                    <div class="mask">
+                        <h2>Jaguar, Live Fearless</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
             </div>
 
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/redbull.jpg" alt="Redbull" /> 
+                    <div class="mask">
+                        <h2>Redbull, Instagram your Inspiration</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/spoilerfoiler.jpg" alt="Breaking Bad, Spoiler Foiler" /> 
+                    <div class="mask">
+                        <h2>Breaking Bad, Spoiler Foiler</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/supportyourteam.jpg" alt="Olympics, Support your Team" /> 
+                    <div class="mask">
+                        <h2>Olympics, Support your Team</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
             </div>
 
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/moetMomente.jpg" alt="Jaguar Live Fearless" /> 
+                    <div class="mask">
+                        <h2>Moet &amp; Chaddon, Champagne</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/harrypotter-part2.jpg" alt="Harry Potter, Deathly Hallows Part 2" /> 
+                    <div class="mask">
+                        <h2>EA, Harry Potter, Deathly Hallows Part 2</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
+                    <div class="mask">
+                        <h2>Playboy UK</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
             </div>
         </section>
 
@@ -83,16 +146,16 @@
             </header>
         </section>
 
-        <section id="maps"></section>
-  
+        <div id="map"></div>
+
         <section id="contact-info">
             <div id="offices">
                 <h2>Our offices</h2>
                 <p>CTB Studios,<br>
-                New North Rd<br>
+                Angel, Islington High Street<br>
                 London<br>
-                EC1, TWA<br>
-                +44 (0)79 17044058</p>
+                N1 0YL, UK</p>
+                <p><a href="tel:+4407917044058"><i class="fa fa-phone fa-lg"></i>+44 (0)79 17044058</a></p>
             </div>
             <div id="get-in-touch">
                 <h2>Get in touch</h2>
@@ -103,7 +166,7 @@
                 </p>
             </div>
             <div id="follow-us">
-                <h2>Get in touch</h2>
+                <h2>Follow us on</h2>
                 <ul>
                     <li id="social">
                         <i class="fa fa-facebook fa-3x"><a href="#"></a></i>
@@ -117,18 +180,18 @@
 
         <div id="footer-outer">
             <footer>
-                <div class="col">
+                <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
                     Dunk<br> 
                     Digital</p>
 
                     <p>+44 (0)79 17044058<br>
-                    <a href="#">info@slamdunkdigital.com</a></p>
+                    <a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
 
                     <p>CTB Studios,<br>
-                    New North Rd<br>
+                    Angel, Islington High Street<br>
                     London<br>
-                    EC1, TWA</p>
+                    N1 0YL, UK</p>
                 </div>
                 <div id="copyright" class="col">
                     <div id="border-right">
@@ -139,7 +202,7 @@
                             <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
                         </li>
                     </ul>
-                    <p>Slam dunk digital Limited<br>
+                    <p>Slam Dunk Digital Limited<br>
                     Registered trademark<br>
                     Registered 882931<br>
                     ©2016 Slam Dunk Digital. All rights reserved</p>
@@ -179,95 +242,13 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
-        <script src="assets/js/vendor/TweenLite.min.js"></script>
-        <script src="assets/js/vendor/EasePack.min.js"></script>
+        <script src="assets/js/vendor/tweenLite.min.js"></script>
+        <script src="assets/js/vendor/easePack.min.js"></script>
         <script src="assets/js/vendor/rAF.js"></script>
         <script src="assets/js/vendor/emitter.js"></script>
-        <script src="assets/js/vendor/proximity.js"></script>      
+        <script src="assets/js/vendor/proximity.js"></script>
+        <!-- Google Maps api -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap" async defer></script>
         <script src="assets/js/scripts.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                
-                var Photo   = (function() {
-                        
-                        // list of thumbs
-                    var $list       = $('#pe-thumbs'),
-                        // the images
-                        $elems      = $list.find('img'),
-                        // maxScale : maximum scale value the image will have
-                        // minOpacity / maxOpacity : minimum (set in the CSS) and maximum values for the image's opacity
-                        settings    = {
-                            maxScale    : 1.4,
-                            maxOpacity  : 0.9,
-                            minOpacity  : Number( $elems.css('opacity') )
-                        },
-                        init        = function() {
-                            
-                            // minScale will be set in the CSS
-                            settings.minScale = _getScaleVal() || 1;
-                            _initEvents();
-                        
-                        },
-                        // Get Value of CSS Scale through JavaScript:
-                        // http://css-tricks.com/get-value-of-css-rotation-through-javascript/
-                        _getScaleVal= function() {
-                        
-                            var st = window.getComputedStyle($elems.get(0), null),
-                                tr = st.getPropertyValue("-webkit-transform") ||
-                                     st.getPropertyValue("-moz-transform") ||
-                                     st.getPropertyValue("-ms-transform") ||
-                                     st.getPropertyValue("-o-transform") ||
-                                     st.getPropertyValue("transform") ||
-                                     "fail...";
-
-                            if( tr !== 'none' ) {    
-
-                                var values = tr.split('(')[1].split(')')[0].split(','),
-                                    a = values[0],
-                                    b = values[1],
-                                    c = values[2],
-                                    d = values[3];
-
-                                return Math.sqrt( a * a + b * b );
-                            
-                            }
-                            
-                        },
-                        _initEvents = function() {
-                            
-                            // the proximity event
-                            $elems.on('proximity.Photo', { max: 80, throttle: 10, fireOutOfBounds : true }, function( event, proximity, distance ) {
-                                
-                                var $el         = $(this),
-                                    $li         = $el.closest('li'),
-                                    scaleVal    = proximity * ( settings.maxScale - settings.minScale ) + settings.minScale,
-                                    scaleExp    = 'scale(' + scaleVal + ')';
-                                
-                                // change the z-index of the element once it reaches the maximum scale value
-                                ( scaleVal === settings.maxScale ) ? $li.css( 'z-index', 1000 ) : $li.css( 'z-index', 1 );
-                                
-                                $el.css({
-                                    '-webkit-transform' : scaleExp,
-                                    '-moz-transform'    : scaleExp,
-                                    '-o-transform'      : scaleExp,
-                                    '-ms-transform'     : scaleExp,
-                                    'transform'         : scaleExp,
-                                    'opacity'           : ( proximity * ( settings.maxOpacity - settings.minOpacity ) + settings.minOpacity )
-                                });
-
-                            });
-                        
-                        }
-                    
-                    return {
-                        init    : init
-                    };
-                
-                })();
-                
-                Photo.init();
-                
-            });
-            </script>        
     </body>
 </html>

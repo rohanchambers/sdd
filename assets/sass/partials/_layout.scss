@@ -31,11 +31,11 @@ footer {
 #work {
 	.row {
 		@include fill-parent();
-		@include row(table);		
+		@include row(table);
 		
-			div {
-				@include span-columns(4);		
-				@include pad();
+			.view {
+				@include span-columns(4);
+				//@include pad();
 				@include omega(4n);
 			}
 	}
