@@ -15,13 +15,22 @@ $blue: #0074c0;
 .blue { color: #0074c0;}
 .white { color: #FFF;}
 
+p {
+	font-size: $text-size;
+	line-height: 1.5;
+}
+
+li {
+	list-style: none;
+}
+
 h2 {
-	@include clearfix();	
+	position: relative;
+	margin: 0;	
 	font-family: $font-logo;
 	font-size: rem(36);
 	text-transform: uppercase;
-	margin: 0 0 0px 0;
-	position: relative;
+	@include clearfix();
 }
 
 	 h2:after {
@@ -61,11 +70,3 @@ header {
 	}	
 }
 
-p {
-	font-size: $text-size;
-	line-height: 1.5;
-}
-
-li {
-	list-style: none;
-}

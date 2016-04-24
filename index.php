@@ -39,9 +39,10 @@
         <div id="what-we-do-outer">
             <section id="what-we-do">
                 <div class="col col-skew">
-                    <h2>What we do</h2>
-                    
-                    <p class="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <header>
+                        <h2>What we do</h2>
+                        <p class="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </header>
 
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
@@ -227,15 +228,15 @@
 
         <div class="overlay overlay-hugeinc">
             <header>
-                <h1>Slam Dunk Digital</h1>
+                <h2>Slam Dunk Digital</h2>
             </header>        
             <nav role='navigation'>
                 <ul>
-                    <li class=""><a href="#"><span>H</span>ome</a></li>
-                    <li class="yellow"><a href="#"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="red"><a href="#"><span class="red">O</span>ur work</a></li>
-                    <li class="green"><a href="#"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="#"><span class="blue">C</span>ontact</a></li>
+                    <li class="#home"><a href="#"><span>H</span>ome</a></li>
+                    <li class="yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="red"><a href="#work"><span class="red">O</span>ur work</a></li>
+                    <li class="green"><a href="#clients"><span class="green">C</span>lients</a></li>
+                    <li class="blue"><a href="#"contact><span class="blue">C</span>ontact</a></li>
                     <li id="social">
                         <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
                         <i class="fa fa-twitter fa-1x"><a href="#"></a></i>

@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+    // For texting only: On load scroll to position | fixme
+    //$('html, body').animate({ scrollTop: $('#contact').offset().top + 800 }, 1000);
+
 	// Defining a function to set size for #hero 
 	function fullscreen(){
 	    $('#home').css({
@@ -40,11 +44,28 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop : goToNextSlide}, 800);
     });
 
+    $('.overlay ul li a').click( function(){
+          $('body').toggleClass('show-nav');
+          $('#nav-icon, .overlay').toggleClass('open');
+    });
+
+    // Scroll to sections
+    $('.overlay ul li a').find('a').click(function(e) {
+        e.preventDefault();
+        
+        var section = $(this).attr('href');
+        
+        $('html, body').animate({
+            scrollTop: $(section).offset().top
+        });
+    });
+
+
     // Proximity effect
     var Photo   = (function() {
         
             // list of thumbs
-        var $list       = $('#pe-thumbs'),
+            var $list   = $('#pe-thumbs'),
             // list's width and offset left.
             // this will be used to know the position of the description container
             listW       = $list.width(),
@@ -189,7 +210,7 @@ $(document).ready(function(){
             };
         
         return {
-            init    : init
+            init:init
         };
     
     })();
@@ -197,8 +218,6 @@ $(document).ready(function(){
     Photo.init();
 
 });
-
-
 
 // Toggle with hitting of ESC
 $(document).keyup(function(e) {
@@ -210,42 +229,17 @@ $(document).keyup(function(e) {
 
 // Load Google maps
 function initMap() {
-    var slamDunkDigital = {lat: 51.532659, lng: -0.105980};
+  var myLatLng = {lat: -25.363, lng: 131.044};
 
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: slamDunkDigital
-    });
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
 
-    // var image = 'https://phoneresq.com/wp-content/themes/phoneResq/assets/images/global/mapPin.png';
-    // var slamDunkDigitalMarker = new google.maps.Marker({
-    //     position: slamDunkDigital,
-    //     map: map,
-    //     icon: image,
-    //     title: 'Phone ResQ'     
-    // });
-
-    // var contentString = '<div id="map-info">'+
-    //       '<div id="siteNotice">'+
-    //       '</div>'+
-    //       '<h1 id="firstHeading" class="firstHeading">Welcome to Phone ResQ</h1>'+
-    //       '<div id="bodyContent">'+
-    //       '<p>We repair and improve all of your handheld devices and home computers. ' +
-    //       '<p>1001 Atlantic Avenue,<br> Suite B,<br> Fernandina Beach,<br> Florida, 32034</p>'+
-    //       '<p>Website: <a href="http://phoneResq.com/" target="_blank">'+
-    //       'http://phoneresq.com/</a> <br>'+
-    //       'Email: <a href="@mailto:phoneresq@gmail.com">'+
-    //       'phoneresq@gmail.com</a><br>'+
-    //       'Phone: <a href="tel:9043100059">(904) 310-0059</a>'+   
-    //       '</div>'+
-    //   '</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-    content: contentString,
-    maxWidth: 450
-    });
-
-    slamDunkDigitalMarker.addListener('click', function() {
-        infowindow.open(map, slamDunkDigitalMarker);
-    });
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
 }
+
