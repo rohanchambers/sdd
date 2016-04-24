@@ -1,7 +1,7 @@
 /* Overlay style */
 .overlay {
 	position: fixed;
-	z-index: 100;
+	z-index: 2000;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -74,13 +74,13 @@
 	margin-bottom: 10px;
 }
 
-.overlay ul li:hover {
-  background-color: #000;
-}
+// .overlay ul li:hover {
+//   background-color: #000;
+// }
 
-.overlay ul li#social:hover {
-  background-color: transparent;
-}
+// .overlay ul li#social:hover {
+//   background-color: transparent;
+// }
 
 .overlay ul li a {
     font-family: $font-headers;
@@ -99,19 +99,33 @@
             transition:all 800ms ease;
 }
 
-.overlay ul li:hover a {
-  color: #FFF;
+.overlay ul li.yellow:hover a {
+  color: $yellow;
   font-weight: bold;
 }
 
-.overlay ul li:hover span {
-  	color: #FFF;
-	-webkit-transition:all 500ms ease;
-	    -moz-transition:all 500ms ease;
-	        transition:all 500ms ease;
+.overlay ul li.red:hover a {
+  color: $red;
+  font-weight: bold;
 }
+.overlay ul li.green:hover a {
+  color: $green;
+  font-weight: bold;
+}
+.overlay ul li.blue:hover a {
+  color: $blue;
+  font-weight: bold;
+}
+
+// .overlay ul li:hover span {
+//   	color: #FFF;
+// 	-webkit-transition:all 500ms ease;
+// 	    -moz-transition:all 500ms ease;
+// 	        transition:all 500ms ease;
+// }
+
 .show-nav #body-nav ul li a {
-  opacity:1;
+	opacity:1;
 }
 
 /* Effects */

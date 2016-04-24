@@ -1,10 +1,13 @@
 $font-logo: Arial black, Verdana, sans-serif;
 $font-headers: Arial, Verdana, sans-serif;
 $font-text: Helvetica, Verdana, sans-serif;
+$text-size: rem(16);
 $black: #000;
 $white: #FFF;
+$yellow: #ffc036;
+$red: #fd070d;
+$green: #009f5e;
 $blue: #0074c0;
-$content-size: rem(16);
 
 .yellow { color: #ffc036;}
 .red { color: #fd070d;}
@@ -15,9 +18,9 @@ $content-size: rem(16);
 h2 {
 	@include clearfix();	
 	font-family: $font-logo;
-	font-size: rem(50);
+	font-size: rem(36);
 	text-transform: uppercase;
-	margin: 0 0 20px 0;
+	margin: 0 0 0px 0;
 	position: relative;
 }
 
@@ -25,7 +28,6 @@ h2 {
 	 	position: absolute;
 	 	bottom: 0;
 	 	content: '';
-	 	width: 63%;
 	 	height: 5px;
 	 	background-color: #000;
 	 }
@@ -41,6 +43,7 @@ header {
 	h2, p {
 		float: right;
 		text-align: right;
+		clear: both;
 	}	
 
 	h2:before {
@@ -59,7 +62,7 @@ header {
 }
 
 p {
-	font-size: $content-size;
+	font-size: $text-size;
 	line-height: 1.5;
 }
 

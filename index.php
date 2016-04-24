@@ -25,8 +25,13 @@
                         &amp; style <span class="blue">/</span><br>
                         10 out of 10 <span class="white">/</span><br>
                     </p>
-                    <span id="all-the-time">Every time!</span>
+                    <span id="all-the-time">Every time!</span>                    
                 </div><!-- End of Slogan -->
+                <div id="mouse-scroll">
+                    <div class='icon-animate'></div>
+                    <i class="fa fa-angle-down fa-3x angle-down-1"></i>
+                    <i class="fa fa-angle-down fa-3x  angle-down-2"></i>
+                </div>                
             </section><!-- End of home -->
         </div>
 
@@ -226,11 +231,11 @@
             </header>        
             <nav role='navigation'>
                 <ul>
-                    <li><a href="#"><span>H</span>ome</a></li>
-                    <li><a href="#"><span class="yellow">W</span>hat we do</a></li>
-                    <li><a href="#"><span class="red">O</span>ur work</a></li>
-                    <li><a href="#"><span class="green">C</span>lients</a></li>
-                    <li><a href="#"><span class="blue">C</span>ontact</a></li>
+                    <li class=""><a href="#"><span>H</span>ome</a></li>
+                    <li class="yellow"><a href="#"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="red"><a href="#"><span class="red">O</span>ur work</a></li>
+                    <li class="green"><a href="#"><span class="green">C</span>lients</a></li>
+                    <li class="blue"><a href="#"><span class="blue">C</span>ontact</a></li>
                     <li id="social">
                         <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
                         <i class="fa fa-twitter fa-1x"><a href="#"></a></i>

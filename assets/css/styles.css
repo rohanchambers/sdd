@@ -21,9 +21,9 @@ html {
 
 h2 {
   font-family: Arial black, Verdana, sans-serif;
-  font-size: 3.125rem;
+  font-size: 2.25rem;
   text-transform: uppercase;
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
   position: relative; }
   h2::after {
     clear: both;
@@ -34,7 +34,6 @@ h2:after {
   position: absolute;
   bottom: 0;
   content: '';
-  width: 63%;
   height: 5px;
   background-color: #000; }
 
@@ -43,7 +42,8 @@ header h2 {
   padding-right: 25px; }
 header h2, header p {
   float: right;
-  text-align: right; }
+  text-align: right;
+  clear: both; }
 header h2:before {
   content: "";
   position: absolute;
@@ -150,7 +150,7 @@ footer {
 
 .hamburger {
   position: fixed;
-  z-index: 2000;
+  z-index: 2001;
   top: 0px;
   right: 0px;
   padding: 12px;
@@ -226,7 +226,7 @@ footer {
 /* Overlay style */
 .overlay {
   position: fixed;
-  z-index: 100;
+  z-index: 2000;
   width: 100%;
   height: 100%;
   top: 0;
@@ -286,12 +286,6 @@ footer {
   padding: 5px 0;
   margin-bottom: 10px; }
 
-.overlay ul li:hover {
-  background-color: #000; }
-
-.overlay ul li#social:hover {
-  background-color: transparent; }
-
 .overlay ul li a {
   font-family: Arial, Verdana, sans-serif;
   display: block;
@@ -307,15 +301,21 @@ footer {
   -moz-transition: all 800ms ease;
   transition: all 800ms ease; }
 
-.overlay ul li:hover a {
-  color: #FFF;
+.overlay ul li.yellow:hover a {
+  color: #ffc036;
   font-weight: bold; }
 
-.overlay ul li:hover span {
-  color: #FFF;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  transition: all 500ms ease; }
+.overlay ul li.red:hover a {
+  color: #fd070d;
+  font-weight: bold; }
+
+.overlay ul li.green:hover a {
+  color: #009f5e;
+  font-weight: bold; }
+
+.overlay ul li.blue:hover a {
+  color: #0074c0;
+  font-weight: bold; }
 
 .show-nav #body-nav ul li a {
   opacity: 1; }
@@ -465,7 +465,56 @@ footer {
       font-style: italic; }
     #home #slogan span#all-the-time {
       font-size: 2.1875rem; }
-
+  #home #mouse-scroll {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    display: block;
+    margin: 15px auto 15px auto;
+    width: 25px;
+    height: 72px;
+    background-image: url(../img/global/iconMouseDown.png);
+    clear: both;
+    cursor: pointer; }
+  #home .fa-angle-down {
+    display: none;
+    position: absolute;
+    left: -1px;
+    color: #ddd; }
+  #home .angle-down-1 {
+    bottom: -5px; }
+  #home .angle-down-2 {
+    bottom: -15px; }
+  #home .icon-animate,
+  #home .icon-animate:before {
+    position: absolute;
+    top: 0; }
+  #home .icon-animate {
+    width: 25px;
+    height: 45px;
+    top: 0%;
+    border-radius: 20px; }
+  #home .icon-animate:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #FFF;
+    margin-left: 10px;
+    top: 10px;
+    border-radius: 3px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll; }
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); } }
 canvas {
   position: fixed;
   top: 50%;
@@ -490,7 +539,7 @@ canvas {
     line-height: 1.2; }
   #what-we-do h2:after {
     left: 0;
-    width: 60%; }
+    width: 42%; }
   #what-we-do .col p {
     position: relative;
     z-index: 2; }
@@ -551,7 +600,8 @@ canvas {
 #work {
   min-height: 800px; }
   #work h2:after {
-    right: 25px; }
+    right: 25px;
+    width: 72%; }
 
 #work .row {
   border-right: 1px solid white;
@@ -570,20 +620,21 @@ canvas {
   content: "";
   display: table; }
 #contact header h2 {
-  margin: 0 auto 25px auto;
+  margin: 0 auto 18px auto;
   float: none;
   padding: 0;
-  width: 341px; }
+  width: 245px; }
 #contact header h2, #contact header p {
   text-align: center; }
 #contact header p {
   width: 70%;
   margin: 0 15%; }
 #contact header h2:before {
-  left: 9px;
+  left: 0;
   background-color: #0074c0; }
 #contact header h2:after {
-  left: 37px; }
+  left: 26px;
+  width: 65%; }
 
 #map {
   margin-top: 30px;
@@ -608,10 +659,16 @@ canvas {
 #get-in-touch,
 #follow-us {
   min-height: 200px; }
+  #offices h2:after,
+  #get-in-touch h2:after,
+  #follow-us h2:after {
+    height: 3px;
+    bottom: -3px; }
   #offices a,
   #get-in-touch a,
   #follow-us a {
-    color: #000; }
+    color: #000;
+    padding: 2px 5px; }
 
 #offices i {
   padding-right: 5px; }
@@ -621,7 +678,10 @@ canvas {
   text-decoration: none;
   background-color: #0074c0;
   color: #FFF;
-  padding: 2px 5px; }
+  padding: 2px 5px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease; }
 
 #follow-us ul {
   padding: 0; }

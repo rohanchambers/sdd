@@ -64,6 +64,76 @@
 			font-size: rem(35);
 		}
 	}
+
+    // Mouse scroll down animate
+    #mouse-scroll {
+        position: absolute;
+        bottom: 2%;
+        left: 50%;
+        display: block;
+        margin: 15px auto 15px auto;
+        width: 25px;
+        height: 72px;
+        background-image: url(../img/global/iconMouseDown.png);
+        clear: both;
+        cursor: pointer;
+    }
+
+        .fa-angle-down {
+            display: none;
+            position: absolute;        
+            left: -1px; 
+            color: #ddd;
+        }
+
+            .angle-down-1 {            
+                bottom: -5px;            
+            }
+
+            .angle-down-2 {
+                bottom: -15px;
+            }
+
+        .icon-animate,
+        .icon-animate:before {
+            position: absolute;
+            top: 0;
+        }
+         
+        .icon-animate {
+            width: 25px;
+            height: 45px;
+            top: 0%;
+            //box-shadow: inset 0 0 0 1px #999;
+            border-radius: 20px;
+        }
+         
+        .icon-animate:before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            background: $white;
+            margin-left: 10px;
+            top: 10px;
+            border-radius: 3px;
+              -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+              -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+              -webkit-animation-name: scroll;
+                animation-name: scroll;
+            }
+         
+        @-webkit-keyframes scroll {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+            }
+        }	
 }
 
 
@@ -96,7 +166,7 @@ canvas {
 	
 	h2:after {
 		left: 0;
-		width: 60%;
+		width: 42%;
 	}
 
 	.col {
@@ -187,6 +257,7 @@ canvas {
 
 	h2:after {
 		right: 25px;
+	 	width: 72%;		
 	}
 }
 
@@ -214,10 +285,10 @@ canvas {
 		@include clearfix;
 		
 		h2 {
-			margin: 0 auto 25px auto;
+			margin: 0 auto 18px auto;
 			float: none;
 			padding: 0;
-			width: 341px;		
+			width: 245px;		
 		}
 
 		h2, p {
@@ -230,12 +301,13 @@ canvas {
 		}
 		
 		h2:before {
-			left: 9px;
+			left: 0;
 			background-color: #0074c0;
 		}
 
 		h2:after {
-			left: 37px;
+			left: 26px;
+			width: 65%;
 		}
 	}
 }
@@ -272,8 +344,14 @@ canvas {
 #follow-us {
 	min-height: 200px;
 
+	h2:after {
+		height: 3px;
+		bottom: -3px;
+	}
+
 	a {
 		color: $black;
+		padding: 2px 5px;
 	}
 }
 
@@ -287,6 +365,9 @@ canvas {
 	background-color: #0074c0;
 	color: $white;
 	padding: 2px 5px;
+	-webkit-transition:all 300ms ease;
+		-moz-transition:all 300ms ease;
+			transition:all 300ms ease;	
 }
 
 #follow-us ul { 
@@ -311,7 +392,7 @@ canvas {
 		color: #0074c0;
 		-webkit-transition:all 300ms ease;
 			-moz-transition:all 300ms ease;
-				transition:all 300ms ease;			
+				transition:all 300ms ease;		
 	}
 
 }
