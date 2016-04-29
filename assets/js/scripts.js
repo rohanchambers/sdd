@@ -1,7 +1,7 @@
-$(document).ready(function(){
-
+$(function(){
+    
     // For texting only: On load scroll to position | fixme
-    //$('html, body').animate({ scrollTop: $('#contact').offset().top + 800 }, 1000);
+    //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
 
 	// Defining a function to set size for #hero 
 	function fullscreen(){
@@ -11,21 +11,59 @@ $(document).ready(function(){
 	    });
 	}
 
-	fullscreen();
+    // Scroll to sections 
+    function scrollToSections() {
+        // Scroll to sections
+        $('.overlay ul li, #nav-mini ul li').find('a').click(function(e) {
+            e.preventDefault();
+            
+            var section = $(this).attr('href');
+            
+            $('html, body').animate({
+                scrollTop: $(section).offset().top
+            });
+        });
 
-	// Run the function in case of window resize
-	$(window).resize(function() {
-	   fullscreen();         
-	});
+        $('.overlay ul li a, #nav-mini ul li a').click( function(){
+            $('.overlay ul li a, #nav-mini ul li a').removeClass('active');
+            $(this).addClass('active');
+        });
+    }
+
+    function hideNav() {
+        $('body').toggleClass('show-nav');
+        $('#nav-icon, .overlay').toggleClass('open');
+        $('.overlay ul li').removeClass('active');
+        $(this).parent().addClass('active');    
+    }
+
+    fullscreen();
+
+
+    // Run the function in case of window resize
+    $(window).resize(function() {
+       fullscreen();         
+    });
+
+    // Show fullscreen nav and hover active states
+    $('.overlay ul li a').click( function(){
+        hideNav();
+    });
+
+    scrollToSections();
 
     // Bind a click event to anything with the class 'toggle-nav'
     $('.hamburger').click(function() {  
-          // Toggle the Body Class 'show-nav'
-          $('body').toggleClass('show-nav');
-          $('#nav-icon').toggleClass('open');
-          // Deactivate the default behavior of going to the next page on click 
-          return false;
-    });   
+        // Toggle the Body Class 'show-nav'
+        $('body').toggleClass('show-nav');
+        $('#nav-icon').toggleClass('open');
+        // Hide social sharing on nav open 
+        $('#share-me').removeClass('go');
+        $('#share-me').addClass('goAway');
+        $('.overlay ul li.overlay-share').toggleClass('show-hide');
+        // Deactivate the default behavior of going to the next page on click
+        return false;
+    });
 
     $('.pe-thumbs li').click( function(e){    	
     	e.preventDefault();
@@ -44,21 +82,6 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop : goToNextSlide}, 800);
     });
 
-    $('.overlay ul li a').click( function(){
-          $('body').toggleClass('show-nav');
-          $('#nav-icon, .overlay').toggleClass('open');
-    });
-
-    // Scroll to sections
-    $('.overlay ul li a').find('a').click(function(e) {
-        e.preventDefault();
-        
-        var section = $(this).attr('href');
-        
-        $('html, body').animate({
-            scrollTop: $(section).offset().top
-        });
-    });
 
 
     // Proximity effect
@@ -217,6 +240,23 @@ $(document).ready(function(){
     
     Photo.init();
 
+}); // End of Document ready
+
+// Document on scroll change nav state
+$(document).on('scroll',function(){
+    // If scroll top is 400 + show hide intro paragraph
+    if($(document).scrollTop() > 400) {
+        // Hide social sharing on nav open 
+        $('#share-me').removeClass('go');
+        $('#share-me').addClass('goAway');
+    }
+
+    // Change nav to dark version when sections have white BG
+    if( $(document).scrollTop() > 1135){
+        $('.hamburger, #nav-mini').addClass('darkNav');
+    } else {
+        $('.hamburger, #nav-mini').removeClass('darkNav');
+    }
 });
 
 // Toggle with hitting of ESC
@@ -229,17 +269,44 @@ $(document).keyup(function(e) {
 
 // Load Google maps
 function initMap() {
-  var myLatLng = {lat: -25.363, lng: 131.044};
+     
+    var slamDunkDigital = {lat: 51.534377, lng: -0.105573};
 
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
-    center: myLatLng
-  });
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: slamDunkDigital
+    });
 
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Hello World!'
-  });
+    var image = '../assets/img/global/map_icon.png';
+
+    var slamDunkDigitalMarker = new google.maps.Marker({
+        position: slamDunkDigital,
+        map: map,
+        icon: image,
+        title: 'Slamu Dunk Digital'   
+    });
+
+    var contentString = '<div id="map-info">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">Welcome to Slam Dunk Digital</h1>'+
+          '<div id="bodyContent">'+
+          '<p>We repair and improve all of your handheld devices and home computers. ' +
+          '<p>CTB Studios,<br> Angel High Street<br> London,<br> N1 0YL, UK</p>'+
+          '<p>Website: <a href="http://slamDunkDigital.co.uk/" target="_blank">'+
+          'http://slamDunkDigital.co.uk/</a> <br>'+
+          'Email: <a href="@mailto:info@slamDunkDigital.co.uk/">'+
+          'info@slamDunkDigital.co.uk</a><br>'+
+          'Phone: <a href="tel:+447917044058">+44 (0)79 170 44 058</a>'+   
+          '</div>'+
+      '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 450
+    });
+
+    slamDunkDigitalMarker.addListener('click', function() {
+        infowindow.open(map, slamDunkDigitalMarker);
+    });
 }
-

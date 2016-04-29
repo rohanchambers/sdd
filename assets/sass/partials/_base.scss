@@ -1,7 +1,8 @@
-$font-logo: Arial black, Verdana, sans-serif;
-$font-headers: Arial, Verdana, sans-serif;
+$font-thick: 'Arial black', Verdana, sans-serif;
+$font-med: Arial, Verdana, sans-serif;
 $font-text: Helvetica, Verdana, sans-serif;
-$text-size: rem(16);
+$text-size: rem(15);
+
 $black: #000;
 $white: #FFF;
 $yellow: #ffc036;
@@ -14,59 +15,3 @@ $blue: #0074c0;
 .green { color: #009f5e;}
 .blue { color: #0074c0;}
 .white { color: #FFF;}
-
-p {
-	font-size: $text-size;
-	line-height: 1.5;
-}
-
-li {
-	list-style: none;
-}
-
-h2 {
-	position: relative;
-	margin: 0;	
-	font-family: $font-logo;
-	font-size: rem(36);
-	text-transform: uppercase;
-	@include clearfix();
-}
-
-	 h2:after {
-	 	position: absolute;
-	 	bottom: 0;
-	 	content: '';
-	 	height: 5px;
-	 	background-color: #000;
-	 }
-
-// Section headers with intro paragaph
-header {
-
-	h2 {
-		position: relative;
-		padding-right: 25px;
-	}
-
-	h2, p {
-		float: right;
-		text-align: right;
-		clear: both;
-	}	
-
-	h2:before {
-		content: "";
-		position: absolute;
-		right: 0;
-		top: 27%;
-		height: 37px;
-		width: 15px;
-		background-color: #fd070d;
-	}
-
-	p {
-		width: 70%;
-	}	
-}
-

@@ -2,12 +2,52 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "../../bower_components/neat/app/assets/stylesheets/neat-helpers";
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
-@import "_grid-settings";
+@import "grid-settings";
 @import "partials/_base";
+@import "partials/_mixins";
+@import "partials/_typography";
 @import "partials/_layout";
-@import "partials/_hamburger";
-@import "partials/_nav-overlay";
+@import "modules/_hamburger";
+@import "modules/_nav-overlay";
+@import "vendor/_animations";
 @import "vendor/_work-view";
+@import "vendor/_loader";
+
+
+// NAV MINI
+#nav-mini {
+	position: fixed;
+	top: 50%;
+	z-index: 1;
+	margin-top: -50px;
+
+	li {
+		display: block;
+		width: 10px;
+		height: 10px;			
+		margin-bottom: 10px;
+		a {
+			display: block;
+			width: 10px;
+			height: 10px;
+			background-color: $white;
+			border-radius: 10px;
+			text-decoration: none;
+		}
+
+		a.black:hover, a.black.active { background-color: $black; border: 1px solid $white;}
+		a.yellow:hover, a.yellow.active { background-color: $yellow; border: 1px solid $white;}
+		a.red:hover, a.red.active { background-color: $red;}
+		a.green:hover, a.green.active { background-color: $green;}
+		a.blue:hover, a.blue.active { background-color: $blue;}
+	}
+}
+
+#nav-mini.darkNav {
+	li a {
+		background-color: $black;
+	}
+}
 
 // HOME SECTION
 #bg-home {
@@ -18,23 +58,49 @@
 #home {
 	background-color: $black;
 	color: $white;
-	
-	header {
-		h1 {
-			position: relative;
-			width: 350px;
-			left: 25px;
-			z-index: 0;
-			margin: 0;
-			padding-top: 10px;
-			font-family: $font-logo;
-			font-size: rem(30);
-			text-transform: uppercase;
-			font-weight: normal;
-		}
-	}
+
+    // Social media links
+    #social-links {
+    	position: absolute;
+    	z-index: 100;
+    	top: 0;
+    	right: 90px;
+
+        li {
+        	float: left;
+            margin: 0 10px 0 0;
+
+	        a {
+	            color: $white;
+
+	            i {
+	            	font-size: rem(24);
+	            }
+	        }
+	                
+	        a:hover {
+	            color: $blue;
+				@include hover-links();	            
+	        }  
+        }
+    }
+
+    #social-links ul#share-me {	
+        position: absolute;
+        top: 55px;
+        right: -30px;
+        height: auto;
+        width: 320px;
+        padding: 0;
+
+        li {
+            display: block;
+            width: auto;          
+        }
+    }
 
 	#slogan {
+		//display: none;
 		width: 700px;
 		position: absolute;
 		top: 55%;
@@ -42,7 +108,7 @@
 		transform: translate(-50%, -55%);
 
 		p {
-			font-family: $font-headers;
+			font-family: $font-med;
 			font-size: rem(80);
 			font-weight: bold;
 			text-transform: uppercase;
@@ -105,7 +171,6 @@
             width: 25px;
             height: 45px;
             top: 0%;
-            //box-shadow: inset 0 0 0 1px #999;
             border-radius: 20px;
         }
          
@@ -134,19 +199,17 @@
             -webkit-transform: translateY(20px);
                 transform: translateY(20px);
             }
-        }	
+        }
+		
+		// EMMITER SECTION: Fountain of colors
+		canvas { 
+			position: fixed;
+			top: 50%;
+			left: 0;
+			transform: translate(-50%, -50%);
+			z-index: -1;
+		}        	
 }
-
-
-// EMMITER SECTION: Fountain of colors
-canvas { 
-	position: fixed;
-	top: 50%;
-	left: 0;
-	transform: translate(-50%, -50%);
-	z-index: -1;
-}
-
 
 // WHAT WE DO SECTION
 #what-we-do-outer {
@@ -155,29 +218,13 @@ canvas {
 }
 
 #what-we-do {
-	position: relative;    
-    background-color: #ffc036;
+	position: relative;
     @include clearfix;
 
 	.intro {
 		font-size: rem(21);
-		font-family: $font-logo;
+		font-family: $font-thick;
 		line-height: 1.2;
-	}
-
-	h2, p {
-		float: left;
-		text-align: left;
-		width: 100%;
-	}
-	
-	h2:before {
-		display: none;
-	}
-
-	h2:after {
-		left: 0;
-		width: 42%;
 	}
 
 	.col {
@@ -188,8 +235,8 @@ canvas {
 	}
 
 	.col-skew {
-		padding: 25px 30px;
-		background-color: #ffc036;
+		padding: 25px 30px 25px 65px;
+		background-color: $yellow;
 	}
 
 	.col-skew:after {
@@ -200,7 +247,7 @@ canvas {
 	    bottom:0;
 	    left:38%;
 	    width:18%;
-	    background:#ffc036;
+	    background: $yellow;
 	    -webkit-transform:skewX(-8deg);
 	    	transform:skewX(-8deg);
 	}
@@ -239,22 +286,23 @@ canvas {
 			top: 0px;
 			left: -200px;
 			color: white;
-			display: none;
+			display: block;
 			z-index: 1001;
 			text-align: left;
 		}
 
-		.pe-description h3 {
+		.pe-description h2 {
 			padding: 10px 10px 0px 10px;
 			line-height: 20px;
 			font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-			font-size: 22px;
+			text-transform: uppercase;
+			font-size: rem(16);
 			margin: 0px;
 		}
 		.pe-description p {
 			padding: 10px 0px;
 			margin: 10px;
-			font-size: 11px;
+			font-size: rem(12);
 			font-style: italic;
 			border-top: 1px solid rgba(255,255,255,0.3);
 		}
@@ -265,8 +313,9 @@ canvas {
 // WORK SECTION
 #work {
 	min-height: 800px;
-
-	h2:after {
+	h1:after {
+		float: right;
+		text-align: right;		
 		right: 25px;
 	 	width: 72%;		
 	}
@@ -289,40 +338,24 @@ canvas {
 	}
 }
 
-
-// CONTACT SECTION
-#contact {
-	header {
-		@include clearfix;
+#clients {
+	.row {
+		// border-right: 1px solid white;
+		// margin-right: 1px;		
 		
-		h2 {
-			margin: 0 auto 18px auto;
-			float: none;
-			padding: 0;
-			width: 245px;		
-		}
-
-		h2, p {
-			text-align: center;
-		}
-
-		p {		
-			width: 70%;
-			margin: 0 15%;
-		}
-		
-		h2:before {
-			left: 0;
-			background-color: #0074c0;
-		}
-
-		h2:after {
-			left: 26px;
-			width: 65%;
-		}
+			.client {
+				background-color: $black;
+				height: 150px;
+				margin-bottom: 1px;
+				border: 1px solid $white;
+				box-sizing: border-box;
+			    	-moz-box-sizing: border-box;
+			    		-webkit-box-sizing: border-box;
+			}
 	}
 }
 
+// CONTACT SECTION
 #map {
 	margin-top: 30px;
 	width: 100%;
@@ -354,25 +387,9 @@ canvas {
 	    }
 }
 
+
 #contact-info {
 	margin: 30px auto;
-
-	h2 {
-		font-family: $font-logo;
-		font-size: rem(24);
-		text-align: center;
-	}
-
-	h2:after {
-		width: 50%;
-		bottom: -5px;
-		left: 50%;
-		margin-left: -80px;
-	}
-
-	p {
-		text-align: center;
-	}	
 }
 
 #offices,
@@ -380,7 +397,7 @@ canvas {
 #follow-us {
 	min-height: 200px;
 
-	h2:after {
+	h1:after {
 		height: 3px;
 		bottom: -3px;
 	}
@@ -398,12 +415,10 @@ canvas {
 #get-in-touch a:hover, 
 #offices a:hover {
 	text-decoration: none;
-	background-color: #0074c0;
+	background-color: $blue;
 	color: $white;
 	padding: 2px 5px;
-	-webkit-transition:all 300ms ease;
-		-moz-transition:all 300ms ease;
-			transition:all 300ms ease;	
+	@include hover-links();
 }
 
 #follow-us ul { 
@@ -426,9 +441,7 @@ canvas {
 
 	i:hover {
 		color: #0074c0;
-		-webkit-transition:all 300ms ease;
-			-moz-transition:all 300ms ease;
-				transition:all 300ms ease;		
+		@include hover-links();
 	}
 
 }
@@ -471,16 +484,14 @@ footer {
 
 			i:hover {
 				color: #0074c0;
-				-webkit-transition:all 300ms ease;
-					-moz-transition:all 300ms ease;
-						transition:all 300ms ease;
+				@include hover-links();
 			}
 		}
 	}
 	
 	#footer-logo {
 		font-size: 30px;
-		font-family: $font-logo;
+		font-family: $font-thick;
 		text-transform: uppercase;
 		line-height: 1em;
 		margin: 0;
@@ -488,7 +499,7 @@ footer {
 
 	#footer-info {
 		a:hover {
-			color: #0074c0;
+			color: $blue;
 			text-decoration: none;
 		}
 	}
@@ -501,7 +512,6 @@ footer {
 
 	#border-right {
 		padding-right: 15px;
-		border-right: 10px solid #0074c0;
+		border-right: 10px solid $blue;
 	}
 }
-

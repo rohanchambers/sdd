@@ -10,6 +10,7 @@
 }
 
 #nav-icon {
+    display: block;
     width: 50px;
     height: 33px;
     position: relative;
@@ -82,3 +83,13 @@
 .show-nav .hamburger {
   background-color: #000;
 }
+
+// Dark side of Nav for white BG sections
+.hamburger.darkNav {
+  background-color: #000;
+
+  #nav-icon span {
+    background-color: #FFF;
+  }  
+}
+
