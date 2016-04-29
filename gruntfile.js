@@ -45,11 +45,22 @@ module.exports = function(grunt){
             }
         },
 
+		concat: {
+			options: {
+			  separator: ';',
+			},
+			dist: {			  
+			  src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/**/*.js'],
+			  dest: 'assets/js/plugins.js'
+			},
+		},
+
         // Minify JS
         uglify: {
             all: {
                 files: {
-                    'assets/js/scripts.min.js': 'assets/js/scripts.js'
+                    'assets/js/scripts.min.js': 'assets/js/scripts.js',
+                    'assets/js/plugins.min.js': 'assets/js/plugins.js',
                 }
             }
         },
@@ -92,8 +103,9 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-sass');	
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.loadNpmTasks('grunt-contrib-watch');	
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-concat');	
 
-	grunt.registerTask('default', ['browserSync', 'watch', 'uglify']);
+	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'watch']);
 
 };
