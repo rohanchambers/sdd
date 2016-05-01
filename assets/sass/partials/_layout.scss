@@ -1,7 +1,7 @@
 // NEAT GRID LAYOUT FOR SECTIONS
 #home,
-#work,
-#clients,
+#work header,
+#clients header,
 #contact,
 #contact-info,
 footer {
@@ -12,34 +12,35 @@ footer {
 #clients,
 #contact {
 	margin-top: 100px;
+	@include clearfix();
 }
 
 #what-we-do {
 	.col {
 		@include span-columns(6);
 		@include pad(0);
-		min-height: 800px;
+		@include omega();
+		min-height: 1000px;
 	}
 }
 
 .col-no-skew {
 	.pe-thumbs li {
 		// position: relative;
-		@include span-columns(2.62); // Same as 16.66% per item
+		@include span-columns(3);
 		@include omega();
 	}	
 }
 
-#work,
-#clients {
+#work {
 	.row {
-		@include fill-parent();
-		@include row(table);
-		
-			.view {
-				@include span-columns(4);
-				@include omega(4n);
-			}
+		.view {
+			// Height of 
+			@include span-columns(4);
+			@include omega(3n);
+			margin-bottom: 1px;
+			border: 1px solid $white;
+		}
 	}
 }
 
@@ -47,7 +48,9 @@ footer {
 	.row {
 		.client {
 			@include span-columns(3);
-			@include omega(3n);
+			@include omega(4n);
+			margin-bottom: 1px;
+			border: 1px solid $white;			
 		}		
 	}
 }

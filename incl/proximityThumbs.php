@@ -48,4 +48,15 @@
                         <li><a href="#"><img src="assets/img/work/playboyU.jpg" alt="Playboy U"><div class="pe-description"><h2>Playboy U</h2><p>Playboy University</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/playboyCorp.jpg" alt="Playboy UK Corporate"><div class="pe-description"><h2>Playboy UK</h2><p>Corporate site</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/playboy-thinking-is-sexy.jpg" alt="Playboy Thinking is Sexy"><div class="pe-description"><h2>Playboy UK</h2><p>Thinking is Sexy</p></div></a></li>
+
+                        <li><a href="#"><img src="assets/img/work/harrypotter-part1.jpg" alt="Harry Potter Part-1"><div class="pe-description"><h2>EA</h2><p>Harry Potter Deathly Hallows, Part-1</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/pringles.jpg" alt="Pringle Help the Oversharers"><div class="pe-description"><h2>Pringle </h2><p>Help the Oversharers</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/debenhams.jpg" alt="Debenhams"><div class="pe-description"><h2>Debenhams</h2><p>Personal Finance</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/playboyUK.jpg" alt="Playboy UK"><div class="pe-description"><h2>Playboy</h2><p>Playboy UK site</p></div></a></li>
+                        
+                        <li><a href="#"><img src="assets/img/work/playboyU.jpg" alt="Playboy U"><div class="pe-description"><h2>Playboy U</h2><p>Playboy University</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/playboyCorp.jpg" alt="Playboy UK Corporate"><div class="pe-description"><h2>Playboy UK</h2><p>Corporate site</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/playboy-thinking-is-sexy.jpg" alt="Playboy Thinking is Sexy"><div class="pe-description"><h2>Playboy UK</h2><p>Thinking is Sexy</p></div></a></li> 
+                        
+                        <li><a href="#"><img src="assets/img/work/playboy-thinking-is-sexy.jpg" alt="Playboy Thinking is Sexy"><div class="pe-description"><h2>Playboy UK</h2><p>Thinking is Sexy</p></div></a></li>                                                
                     </ul>

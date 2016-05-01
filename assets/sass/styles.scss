@@ -1,6 +1,6 @@
 // Run from root of project: sass --watch assets/sass/styles.scss:assets/css/styles.css
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
-@import "../../bower_components/neat/app/assets/stylesheets/neat-helpers";
+@import "grid-settings";
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
 @import "grid-settings";
 @import "partials/_base";
@@ -18,6 +18,7 @@
 #nav-mini {
 	position: fixed;
 	top: 50%;
+	left: -15px;
 	z-index: 1;
 	margin-top: -50px;
 
@@ -214,7 +215,7 @@
 // WHAT WE DO SECTION
 #what-we-do-outer {
 	overflow: hidden;
-	height: 800px;
+	height: 1000px;
 }
 
 #what-we-do {
@@ -312,7 +313,6 @@
 
 // WORK SECTION
 #work {
-	min-height: 800px;
 	h1:after {
 		float: right;
 		text-align: right;		
@@ -322,36 +322,33 @@
 }
 
 #work {
-	.row {
-		border-right: 1px solid white;
-		margin-right: 1px;		
-		
-			.view {
-				background-color: $black;
-				height: 250px;
-				margin-bottom: 1px;
-				border: 1px solid $white;
-				box-sizing: border-box;
-			    	-moz-box-sizing: border-box;
-			    		-webkit-box-sizing: border-box;
-			}
+	.row {		
+		.view {
+			background-color: $black;
+	    		
+	    		img {
+	    			display: block;
+	    			width: 100%;
+	    			height: auto;
+	    		}			    		
+		}
+
+		.mask {
+			//display: none!important;
+		}
+
 	}
 }
 
 #clients {
-	.row {
-		// border-right: 1px solid white;
-		// margin-right: 1px;		
-		
-			.client {
-				background-color: $black;
-				height: 150px;
-				margin-bottom: 1px;
-				border: 1px solid $white;
-				box-sizing: border-box;
-			    	-moz-box-sizing: border-box;
-			    		-webkit-box-sizing: border-box;
-			}
+	.row {		
+		.client {
+    		img {
+    			display: block;
+    			width: 100%;
+    			height: auto;
+    		}
+		}
 	}
 }
 

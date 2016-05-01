@@ -52,11 +52,11 @@
 
         <nav id="nav-mini">
             <ul>
-                <li><a href="#home" class="black">&nbsp;</a></li>
-                <li><a href="#what-we-do" class="yellow">&nbsp;</a></li>
-                <li><a href="#work" class="red">&nbsp;</a></li>
-                <li><a href="#clients" class="green">&nbsp;</a></li>
-                <li><a href="#contact" class="blue">&nbsp;</a></li>
+                <li class="home"><a href="#home" class="black">&nbsp;</a></li>
+                <li class="what-we-do"><a href="#what-we-do" class="yellow">&nbsp;</a></li>
+                <li class="work"><a href="#work" class="red">&nbsp;</a></li>
+                <li class="clients"><a href="#clients" class="green">&nbsp;</a></li>
+                <li class="contact"><a href="#contact" class="blue">&nbsp;</a></li>
             </ul>
         </nav>
 
@@ -109,6 +109,9 @@
                     </header>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
                 
                 <div class="col col-no-skew">
@@ -126,15 +129,16 @@
 
             <div class="row">
                 <div class="view view-first">  
-                    <img src="assets/img/work/phoneresq.jpg" alt="Phone Resq." />
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
-                        <h2>Phone ResQ.</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <h2>Heinz, Get Well Soup</h2>
+                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.</p>
+                        <p>Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, The Beauty of Brewing" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>Heinken, The Beauty of Brewing</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -142,18 +146,16 @@
                     </div>
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/jaguaruk_fearless.jpg" alt="Jaguar Live Fearless" />
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>Jaguar, Live Fearless</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="view view-first">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>Redbull, Instagram your Inspiration</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -161,7 +163,7 @@
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/spoilerfoiler.jpg" alt="Breaking Bad, Spoiler Foiler" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
                     <div class="mask">
                         <h2>Breaking Bad, Spoiler Foiler</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -169,18 +171,16 @@
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/supportyourteam.jpg" alt="Olympics, Support your Team" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
                     <div class="mask">
                         <h2>Olympics, Support your Team</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="view view-first">  
-                    <img src="assets/img/work/moetMomente.jpg" alt="Jaguar Live Fearless" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
                     <div class="mask">
                         <h2>Moet &amp; Chaddon, Champagne</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -188,7 +188,7 @@
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/harrypotter-part2.jpg" alt="Harry Potter, Deathly Hallows Part 2" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>EA, Harry Potter, Deathly Hallows Part 2</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -196,7 +196,7 @@
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
+                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>Playboy UK</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -213,31 +213,29 @@
             </header>        
             <div class="row">
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" /> 
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
                 <div class="client">
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" /> 
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" /> 
                 </div>
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
                 <div class="client">  
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>
                 <div class="client">
-                    <img src="assets/img/work/redbull.jpg" alt="Redbull" />
+                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
                 </div>                
             </div>
         </section>
@@ -354,8 +352,9 @@
         </div>
                
         <script src="bower_components/jquery/dist/jquery.min.js"></script>        
-        <script src="assets/js/plugins.min.js"></script>        
-<!--         <script src="assets/js/vendor/classie.js"></script>
+        <script src="assets/js/plugins.min.js"></script>
+
+<!--    <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/tweenLite.min.js"></script>
         <script src="assets/js/vendor/easePack.min.js"></script>

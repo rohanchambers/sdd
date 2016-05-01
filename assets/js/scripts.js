@@ -45,6 +45,31 @@ $(function(){
        fullscreen();         
     });
 
+
+    $('#home, #what-we-do, #work, #clients, #contact').on('inview', function(event, isInView) {
+        //console.log(this)
+    if (isInView) {
+        console.log('In view');
+        //console.log(this);
+
+        var currentSectionId = $(this).attr('id');
+        console.log(currentSectionId)
+        
+        var navMiniClass = $('#nav-mini ul li').has(currentSectionId);
+        console.log(navMiniClass);
+
+        if(navMiniClass) {
+            // element is now visible in the viewport
+            $('#nav-mini ul li' + '.' + currentSectionId + ' a').addClass('active');            
+        }
+    } else {
+        // element has gone out of viewport
+        console.log('Out of view');
+        //alert(333)
+        //$('#nav-mini ul li a').removeClass('active');
+    }
+    });
+
     // Show fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){
         hideNav();

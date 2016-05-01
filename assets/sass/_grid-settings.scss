@@ -1,9 +1,9 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat-helpers';
 // Override the grid
-$column: 90px;
-$gutter: 15px;
+$column: 39px;
+$gutter: 0px;
 $grid-columns: 12;
-$max-width: 1000px;
+$max-width: 1024px;
 
 // Define your breakpoints
 $desktop-lrg: new-breakpoint(min-width 1200px);
@@ -15,4 +15,4 @@ $mobile: new-breakpoint(max-width 667px);
 $visual-grid: true;
 $visual-grid-color: red;
 $visual-grid-index: front;
-$visual-grid-opacity: 0.3;
+$visual-grid-opacity: 0.1;
