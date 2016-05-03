@@ -46,7 +46,7 @@
                   <div class="sk-cube sk-cube7"></div>
                   <div class="sk-cube sk-cube8"></div>
                   <div class="sk-cube sk-cube9"></div>
-                </div>                
+                </div>
             </div>
         </div>
 
@@ -132,8 +132,8 @@
                     <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
                     <div class="mask">
                         <h2>Heinz, Get Well Soup</h2>
-                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.</p>
-                        <p>Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
+                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
+                        Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
@@ -278,7 +278,7 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section><!-- End of contact info -->
 
 
         <div id="footer-outer">
@@ -351,8 +351,13 @@
             </nav>
         </div>
                
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>        
+        <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+<!--         <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/js/vendor/inview.min.js"></script>
+        <script src="assets/js/vendor/notify.min.js"></script>         -->
+
         <script src="assets/js/plugins.min.js"></script>
+        <script src="assets/js/jquery.scrollify.min.js"></script>
 
 <!--    <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>

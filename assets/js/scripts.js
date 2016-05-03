@@ -1,81 +1,54 @@
+// Defining a function to set size for #home (Home page) 
+function fullscreen(){
+    $('#home').css({
+        width: jQuery(window).width(),
+        height: jQuery(window).height()
+    });
+}
+
+// Scroll to sections 
+function scrollToSections() {
+    // Scroll to sections
+    $('.overlay ul li, #nav-mini ul li').find('a').click(function(e) {
+        e.preventDefault();
+        
+        var section = $(this).attr('href');
+        
+        $('html, body').animate({
+            scrollTop: $(section).offset().top
+        });
+    });
+
+    // Add class of active on items for main and mini nav.
+    // Hide sharing functionality as zindex would be too higher. Fixme
+    $('.overlay ul li a, #nav-mini ul li a').click( function(){
+        $('.overlay ul li a, #nav-mini ul li a').removeClass('active');
+        $(this).addClass('active');
+    });
+}
+
+function hideNav() {
+    $('body').toggleClass('show-nav');
+    $('#nav-icon, .overlay').toggleClass('open');
+    $('.overlay ul li').removeClass('active');
+    $(this).parent().addClass('active');    
+}
+
+// Document ready
 $(function(){
     
-    // For texting only: On load scroll to position | fixme
+    // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
 
-	// Defining a function to set size for #hero 
-	function fullscreen(){
-	    $('#home').css({
-	        width: jQuery(window).width(),
-	        height: jQuery(window).height()
-	    });
-	}
-
-    // Scroll to sections 
-    function scrollToSections() {
-        // Scroll to sections
-        $('.overlay ul li, #nav-mini ul li').find('a').click(function(e) {
-            e.preventDefault();
-            
-            var section = $(this).attr('href');
-            
-            $('html, body').animate({
-                scrollTop: $(section).offset().top
-            });
-        });
-
-        $('.overlay ul li a, #nav-mini ul li a').click( function(){
-            $('.overlay ul li a, #nav-mini ul li a').removeClass('active');
-            $(this).addClass('active');
-        });
-    }
-
-    function hideNav() {
-        $('body').toggleClass('show-nav');
-        $('#nav-icon, .overlay').toggleClass('open');
-        $('.overlay ul li').removeClass('active');
-        $(this).parent().addClass('active');    
-    }
-
-    fullscreen();
-
-
-    // Run the function in case of window resize
-    $(window).resize(function() {
-       fullscreen();         
+    // Initiate scrollify
+    $.scrollify({
+        section : "#home, #what-we-do, #work",
     });
 
-
-    $('#home, #what-we-do, #work, #clients, #contact').on('inview', function(event, isInView) {
-        //console.log(this)
-    if (isInView) {
-        console.log('In view');
-        //console.log(this);
-
-        var currentSectionId = $(this).attr('id');
-        console.log(currentSectionId)
-        
-        var navMiniClass = $('#nav-mini ul li').has(currentSectionId);
-        console.log(navMiniClass);
-
-        if(navMiniClass) {
-            // element is now visible in the viewport
-            $('#nav-mini ul li' + '.' + currentSectionId + ' a').addClass('active');            
-        }
-    } else {
-        // element has gone out of viewport
-        console.log('Out of view');
-        //alert(333)
-        //$('#nav-mini ul li a').removeClass('active');
-    }
-    });
-
-    // Show fullscreen nav and hover active states
+    // Hide fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){
         hideNav();
     });
-
-    scrollToSections();
 
     // Bind a click event to anything with the class 'toggle-nav'
     $('.hamburger').click(function() {  
@@ -90,23 +63,61 @@ $(function(){
         return false;
     });
 
-    $('.pe-thumbs li').click( function(e){    	
-    	e.preventDefault();
+    // Disable clicks of thumbs on the  'what-we-do' section
+    $('.pe-thumbs li').click( function(e){      
+        e.preventDefault();
     });
 
-    // What we do proximity effect add relative to li's
+    // Small hack | What we do proximity effect add relative to li's
     $('.pe-thumbs li').hover( function(){
-    	$(this).css({position : 'relative'});
+        $(this).css({position : 'relative'});
     }, function(){
-    	$(this).css({position : 'initial'});
+        $(this).css({position : 'initial'});
     });
 
     // Icon mouse show hide intro text only if it hasn't scrolled down
     $('.icon-animate').click( function(){
+        //$.scrollify.next()
         var goToNextSlide = jQuery(window).height();
         $('html, body').animate({scrollTop : goToNextSlide}, 800);
     });
 
+    
+    // FUNCTION CALLS
+
+    // Home page to be fulld Height at all resolutionss
+    fullscreen();
+
+    // Run the function in case of window resize
+    $(window).resize(function() {
+        fullscreen();
+    });
+
+    // On click of Main Nav and Mini items 
+    scrollToSections();
+
+
+    // $('#home, #what-we-do, #work, #clients, #contact').on('inview', function(event, isInView) {
+    //     //console.log(this)
+    // if (isInView) {
+    //     console.log('In view');
+    //     //console.log(this);
+
+    //     var currentSectionId = $(this).attr('id');
+    //     console.log(currentSectionId)
+        
+    //     var navMiniClass = $('#nav-mini ul li').has(currentSectionId);
+    //     console.log(navMiniClass);
+
+    //     if(navMiniClass) {
+    //         // element is now visible in the viewport
+    //         $('#nav-mini ul li' + '.' + currentSectionId + ' a').addClass('active');            
+    //     }
+    // } else {
+    //     // element has gone out of viewport
+    //     console.log('Out of view');
+    // }
+    // });
 
 
     // Proximity effect
@@ -266,6 +277,7 @@ $(function(){
     Photo.init();
 
 }); // End of Document ready
+
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){

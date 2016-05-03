@@ -16,11 +16,12 @@
                         <li><a href="#"><img src="assets/img/work/volvic-postcards.jpg" alt="Volvic, Touch of Tropical Postcards"><div class="pe-description"><h2>time</h2><p>Since time, and his predestinated end</p></div></a></li>
                         
                         <li><a href="#"><img src="assets/img/work/enotria-thesocialwine.jpg" alt="Enotria, The Social Wine"><div class="pe-description"><h2>Enotria</h2><p>The Social Wine</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/work/cuppaclub.jpg" alt="PG tips, Cuppa Club"><div class="pe-description"><h2>PG tips</h2><p>Cuppa Club</p></div></a></li>
+
+                        <li><a href="#"><img src="assets/img/work/kleenex-collage.jpg" alt="Kleenex Collection"><div class="pe-description"><h2>Kleenex</h2><p>Kleenex Collection</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/kleenex-vote.jpg" alt="Kleenex Vote"><div class="pe-description"><h2>Kleenex</h2><p>Kleenex Vote</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/bulmers-begin.jpg" alt="Bulmers, Begin with a Bulmers"><div class="pe-description"><h2>Bulmers</h2><p>Begin with a Bulmers</p></div></a></li>
                         
-                        <li><a href="#"><img src="assets/img/work/kleenex-collage.jpg" alt="Kleenex Collection"><div class="pe-description"><h2>Kleenex</h2><p>Kleenex Collection</p></div></a></li>
+                        <li><a href="#"><img src="assets/img/work/cuppaclub.jpg" alt="PG tips, Cuppa Club"><div class="pe-description"><h2>PG tips</h2><p>Cuppa Club</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/redbull.jpg" alt="Redbull, Our Editions"><div class="pe-description"><h2>Redbull </h2><p>Our Editions</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/jaguar_calendar.jpg" alt="Jaguar Desire Calendar"><div class="pe-description"><h2>Jaguar UK</h2><p>Desire Calendar</p></div></a></li>
                         <li><a href="#"><img src="assets/img/work/tiger.jpg" alt="Tiger Beer Zodia Pairs"><div class="pe-description"><h2>Tiger Beer</h2><p>Zodia Pairs</p></div></a></li>
