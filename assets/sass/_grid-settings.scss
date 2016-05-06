@@ -5,12 +5,9 @@ $gutter: 0px;
 $grid-columns: 12;
 $max-width: 1024px;
 
-// Define your breakpoints
-$desktop-lrg: new-breakpoint(min-width 1200px);
-$desktop-med: new-breakpoint(max-width 1030px);
-$desktop-sml: new-breakpoint(max-width 867px);
-$tablet: new-breakpoint(max-width 768px);
-$mobile: new-breakpoint(max-width 667px);
+// Define your breakpoints/
+$mobile: new-breakpoint(max-width 480px 12);
+$tablet: new-breakpoint(max-width 800px 12);
 
 $visual-grid: false;
 $visual-grid-color: red;

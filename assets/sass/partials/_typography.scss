@@ -173,7 +173,6 @@ header {
 	}
 
 		h1:before {
-			left: 0;
-			background-color: $blue;
+			display: none;
 		}	
 }

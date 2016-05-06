@@ -14,6 +14,7 @@
 @import "vendor/_loader";
 
 
+
 // NAV MINI
 #nav-mini {
 	position: fixed;
@@ -512,3 +513,5 @@ footer {
 		border-right: 10px solid $blue;
 	}
 }
+
+@import "partials/_mobile";

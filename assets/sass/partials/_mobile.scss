@@ -1,0 +1,204 @@
+$desktop: new-breakpoint(max-width 1023px);
+
+// Logo spacing
+#home {
+	h1 {
+	    @include media($desktop) {
+			padding: 5px 3%;
+			width: auto;
+	    }
+	}
+
+}
+
+@include media($tablet) {
+	#home,
+	#work,
+	#clients,
+	#contact,
+	#contact-info,
+	footer {
+		//background-color: blue;
+	}
+	
+	section header {
+		padding: 5px 3%;
+	}
+
+	#home h1 {
+		padding: 5px 0%;
+	}
+
+	#what-we-do header {
+		padding: 0;
+	}
+
+	canvas, 
+	#nav-mini {
+		display: none;
+	}
+
+	#home {
+		#slogan {
+			width: 80%;
+	
+			p {
+				font-size: rem(60);
+			}
+		}
+	}
+
+	#what-we-do-outer {
+		height: auto !important;
+	}
+
+	#what-we-do {
+		background-color: $yellow;
+		
+		.col {
+			min-height: auto;
+		}
+
+		.col-skew {
+			width: 100%;
+			height: auto;
+			padding: 5% 10%;			
+		}
+
+		.col-no-skew,
+		.col-skew:after {
+			display: none;
+		}	
+	}
+
+	#work {
+		.row {
+			.view {
+				@include span-columns(6);
+				@include omega-reset(3n);
+			}
+		}
+
+		h1, p {
+			float: left;
+			text-align: left;
+		}
+
+		h1 {
+			padding-left: 25px;
+		}
+
+		h1:before {
+			left: 0;
+			right: auto;
+		}
+
+		h1:after {
+			left: 25px;
+		}
+	}
+
+	#clients {
+		.row {
+			.client {
+				@include span-columns(4);
+				@include omega-reset(4n);
+			}		
+		}
+	}
+
+	#contact-info h2 {
+		font-size: rem(20);
+	}
+
+	#offices, #get-in-touch, #follow-us {
+		min-height: auto;
+		@include span-columns(12);		
+	}
+
+	footer {
+		padding: 0 2%;
+	}
+
+	#contact-info h2:after {
+		display: none;
+		width: 30%;
+		left: 53%;
+	}	
+}	
+
+// Logo stack
+$tablet-637: new-breakpoint(max-width 637px);
+
+footer #copyright {
+	padding-top: 93px;
+}
+
+// Logo stack
+$tablet-600: new-breakpoint(max-width 600px);
+
+#home,
+.overlay {
+	h1 {
+	    @include media($tablet-600) {
+			width: 150px;
+			line-height: 1em;
+			font-size: rem(30);
+			padding-left: 0;
+	    }
+	}
+}
+
+.overlay {
+	h1 {
+	    @include media($tablet-600) {
+			left: 10px;
+	    }
+	}
+}
+
+
+@include media($mobile) {
+	#home,
+	#work,
+	#clients,
+	#contact,
+	#contact-info,
+	footer {
+		// background-color: red;
+	}
+	
+	header p {
+		width: 100%	;
+	}
+
+	#contact p {
+		margin: 0;
+	}
+
+	#home {
+		#slogan {
+			width: 90%;
+
+			p {
+				font-size: rem(48);
+			}
+		}
+	}
+
+	#work {
+		.row {
+			.view {
+				@include span-columns(12);
+			}
+		}
+	}
+
+	#clients {
+		.row {
+			.client {
+				@include span-columns(6);
+			}		
+		}
+	}
+}	

@@ -135,8 +135,7 @@ header p {
   font-family: "Arial black", Verdana, sans-serif;
   font-size: 1.875rem; }
 .overlay h1:before {
-  left: 0;
-  background-color: #0074c0; }
+  display: none; }
 
 #home,
 #work header,
@@ -197,10 +196,6 @@ footer {
   border: 1px solid #FFF; }
   #work .row .view:last-child {
     margin-right: 0; }
-  #work .row .view:nth-child(3n) {
-    margin-right: 0; }
-  #work .row .view:nth-child(3n+1) {
-    clear: left; }
 
 #clients .row .client {
   float: left;
@@ -2521,5 +2516,140 @@ footer {
   footer #border-right {
     padding-right: 15px;
     border-right: 10px solid #0074c0; }
+
+@media screen and (max-width: 1023px) {
+  #home h1 {
+    padding: 5px 3%;
+    width: auto; } }
+
+@media screen and (max-width: 800px) {
+  section header {
+    padding: 5px 3%; }
+
+  #home h1 {
+    padding: 5px 0%; }
+
+  #what-we-do header {
+    padding: 0; }
+
+  canvas,
+  #nav-mini {
+    display: none; }
+
+  #home #slogan {
+    width: 80%; }
+    #home #slogan p {
+      font-size: 3.75rem; }
+
+  #what-we-do-outer {
+    height: auto !important; }
+
+  #what-we-do {
+    background-color: #ffc036; }
+    #what-we-do .col {
+      min-height: auto; }
+    #what-we-do .col-skew {
+      width: 100%;
+      height: auto;
+      padding: 5% 10%; }
+    #what-we-do .col-no-skew,
+    #what-we-do .col-skew:after {
+      display: none; }
+
+  #work .row .view {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #work .row .view:last-child {
+      margin-right: 0; }
+    #work .row .view:nth-child(3n) {
+      margin-right: 0%; }
+    #work .row .view:nth-child(3n+1) {
+      clear: none; }
+  #work h1, #work p {
+    float: left;
+    text-align: left; }
+  #work h1 {
+    padding-left: 25px; }
+  #work h1:before {
+    left: 0;
+    right: auto; }
+  #work h1:after {
+    left: 25px; }
+
+  #clients .row .client {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 33.33333%; }
+    #clients .row .client:last-child {
+      margin-right: 0; }
+    #clients .row .client:nth-child(4n) {
+      margin-right: 0%; }
+    #clients .row .client:nth-child(4n+1) {
+      clear: none; }
+
+  #contact-info h2 {
+    font-size: 1.25rem; }
+
+  #offices, #get-in-touch, #follow-us {
+    min-height: auto;
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #offices:last-child, #get-in-touch:last-child, #follow-us:last-child {
+      margin-right: 0; }
+
+  footer {
+    padding: 0 2%; }
+
+  #contact-info h2:after {
+    display: none;
+    width: 30%;
+    left: 53%; } }
+footer #copyright {
+  padding-top: 93px; }
+
+@media screen and (max-width: 600px) {
+  #home h1,
+  .overlay h1 {
+    width: 150px;
+    line-height: 1em;
+    font-size: 1.875rem;
+    padding-left: 0; } }
+
+@media screen and (max-width: 600px) {
+  .overlay h1 {
+    left: 10px; } }
+
+@media screen and (max-width: 480px) {
+  header p {
+    width: 100%; }
+
+  #contact p {
+    margin: 0; }
+
+  #home #slogan {
+    width: 90%; }
+    #home #slogan p {
+      font-size: 3rem; }
+
+  #work .row .view {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #work .row .view:last-child {
+      margin-right: 0; }
+
+  #clients .row .client {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #clients .row .client:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

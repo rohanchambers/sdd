@@ -10,7 +10,7 @@ function fullscreen(){
 function scrollToSections() {
     // Scroll to sections
     $('.overlay ul li, #nav-mini ul li').find('a').click(function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         
         var section = $(this).attr('href');
         
@@ -41,9 +41,10 @@ $(function(){
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
 
     // Initiate scrollify
-    $.scrollify({
-        section : "#home, #what-we-do, #work",
-    });
+    // $.scrollify({
+    //     section : "#home, #what-we-do, #work",
+    //     sectionName : false
+    // });
 
     // Hide fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){
@@ -77,7 +78,6 @@ $(function(){
 
     // Icon mouse show hide intro text only if it hasn't scrolled down
     $('.icon-animate').click( function(){
-        //$.scrollify.next()
         var goToNextSlide = jQuery(window).height();
         $('html, body').animate({scrollTop : goToNextSlide}, 800);
     });
