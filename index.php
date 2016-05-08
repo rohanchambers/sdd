@@ -297,18 +297,19 @@
                     N1 0YL, UK</p>
                 </div>
                 <div id="copyright" class="col">
-                    <div id="border-right">
-                    <ul>
-                        <li class="social">
-                            <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
-                            <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
-                            <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
-                        </li>
-                    </ul>
-                    <p>Slam Dunk Digital Limited<br>
-                    Registered trademark<br>
-                    Registered 882931<br>
-                    ©2016 Slam Dunk Digital. All rights reserved</p>
+                    <div id="copyright-info">
+                        <ul>
+                            <li class="social">
+                                <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
+                                <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
+                                <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
+                            </li>
+                        </ul>
+                        <p>Slam Dunk Digital Limited<br>
+                        Registered trademark<br>
+                        Registered 882931<br>
+                        ©2016 Slam Dunk Digital. All rights reserved</p>
+                        <span id="border-blue">
                     </div>
                 </div>
             </footer>

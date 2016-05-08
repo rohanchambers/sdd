@@ -90,9 +90,9 @@
     #social-links ul#share-me {	
         position: absolute;
         top: 55px;
-        right: -30px;
+        right: -3px;
         height: auto;
-        width: 320px;
+        width: 290px;
         padding: 0;
 
         li {
@@ -398,6 +398,7 @@
 	h1:after {
 		height: 3px;
 		bottom: -3px;
+		background-color: red;
 	}
 
 	a {
@@ -451,11 +452,10 @@
 }
 
 footer {
-	min-height: 285px;
+	height: auto;
 	background-color: $black;
 
 	.col {
-		min-height: 285px;
 		padding: 25px 0;
 	}
 
@@ -488,7 +488,7 @@ footer {
 	}
 	
 	#footer-logo {
-		font-size: 30px;
+		font-size: 24px;
 		font-family: $font-thick;
 		text-transform: uppercase;
 		line-height: 1em;
@@ -503,14 +503,30 @@ footer {
 	}
 
 	#copyright {
-		box-sizing: border-box;
-		padding-top: 112px;
+		display: table;
+		height: auto;
+		height: 100%;
 	 	text-align: right;
 	}
 
-	#border-right {
-		padding-right: 15px;
-		border-right: 10px solid $blue;
+	#copyright-info {
+		position: relative;
+		display: table-cell;
+		height: 215px;
+		vertical-align: bottom;
+		padding-right: 20px;
+			
+			#border-blue {
+				position: absolute;
+				right: 0;
+				bottom: 14px;
+				height: 114px;
+				border-right: 10px solid $blue;
+			}
+
+			ul {
+				margin: 0
+			}
 	}
 }
 

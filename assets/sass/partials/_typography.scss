@@ -149,7 +149,7 @@ header {
 	h2:after {
 		position: absolute;
 		height: 3px;
-		width: 50%;
+		width: 160px;
 		bottom: -2px;
 		left: 50%;
 		margin-left: -80px;
@@ -164,10 +164,7 @@ header {
 
 .overlay {
 	h1 {
-		position: absolute;
-		top: 0;
-		left: 30px;
-		padding: 10px 0 0 25px;
+		padding-top: 5px;
 		font-family: $font-thick;
 		font-size: rem(30);
 	}

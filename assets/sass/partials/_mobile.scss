@@ -1,55 +1,47 @@
-$desktop: new-breakpoint(max-width 1023px);
+// DESKTOP | Max 1024px
+@include media($desktop) {
 
-// Logo spacing
-#home {
-	h1 {
-	    @include media($desktop) {
-			padding: 5px 3%;
+	// Logo spacing
+	#home {
+		h1 {
 			width: auto;
-	    }
-	}
-
-}
-
-@include media($tablet) {
-	#home,
-	#work,
-	#clients,
-	#contact,
-	#contact-info,
-	footer {
-		//background-color: blue;
+		}
 	}
 	
-	section header {
-		padding: 5px 3%;
+	// Spacing for header sections
+	section header,
+	.overlay h1 {
+		padding: 0 3%;
+	}
+	
+	.overlay {
+		padding-top: 5px;
 	}
 
-	#home h1 {
-		padding: 5px 0%;
+	footer .col {
+		padding: 2% 3%;
 	}
+}
+
+// TABLET | Max width 800px
+@include media($tablet) {
 
 	#what-we-do header {
 		padding: 0;
 	}
 
-	canvas, 
-	#nav-mini {
-		display: none;
-	}
-
 	#home {
 		#slogan {
-			width: 80%;
+			width: 82%;
 	
 			p {
-				font-size: rem(60);
+				font-size: rem(72);
 			}
 		}
 	}
 
 	#what-we-do-outer {
-		height: auto !important;
+		height: auto;
 	}
 
 	#what-we-do {
@@ -62,7 +54,7 @@ $desktop: new-breakpoint(max-width 1023px);
 		.col-skew {
 			width: 100%;
 			height: auto;
-			padding: 5% 10%;			
+			padding: 5%;			
 		}
 
 		.col-no-skew,
@@ -107,65 +99,69 @@ $desktop: new-breakpoint(max-width 1023px);
 		}
 	}
 
-	#contact-info h2 {
-		font-size: rem(20);
-	}
-
 	#offices, #get-in-touch, #follow-us {
 		min-height: auto;
 		@include span-columns(12);		
 	}
 
-	footer {
-		padding: 0 2%;
+	canvas, 
+	#nav-mini {
+		display: none;
 	}
 
-	#contact-info h2:after {
-		display: none;
-		width: 30%;
-		left: 53%;
-	}	
 }	
 
-// Logo stack
-$tablet-637: new-breakpoint(max-width 637px);
-
-footer #copyright {
-	padding-top: 93px;
-}
-
-// Logo stack
+// TABLET 600PX | Logo stack: ;
 $tablet-600: new-breakpoint(max-width 600px);
 
-#home,
-.overlay {
-	h1 {
-	    @include media($tablet-600) {
+@include media($tablet-600) {
+	#home,
+	.overlay {
+		h1 {
 			width: 150px;
 			line-height: 1em;
 			font-size: rem(30);
 			padding-left: 0;
-	    }
+		}
+	} 
+
+	#home {
+		// h1 {
+		// 	padding-top: 10px;
+		//  }
+
+		#slogan p {
+			font-size: rem(64);
+		}
+
+	}
+
+	.overlay {
+		h1 {		  
+	    	position: absolute;
+			left: 10px;		 
+		}
+	}
+
+	#home {
+		#social-links ul#share-me {
+			@include media($tablet-600) {
+				top: 120px;
+				right: -15px;
+			}
+		}		
 	}
 }
 
-.overlay {
-	h1 {
-	    @include media($tablet-600) {
-			left: 10px;
-	    }
-	}
-}
 
-
+// MOBILE | max width 479px
 @include media($mobile) {
-	#home,
+
 	#work,
 	#clients,
-	#contact,
-	#contact-info,
-	footer {
-		// background-color: red;
+	#contact {
+		margin-top: 25px;
+		@include clearfix();
 	}
 	
 	header p {
@@ -178,10 +174,14 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 	#home {
 		#slogan {
-			width: 90%;
 
 			p {
-				font-size: rem(48);
+				font-size: rem(36);
+			}
+
+			span, 
+			span#all-the-time {
+				font-size: rem(30);	
 			}
 		}
 	}
@@ -201,4 +201,52 @@ $tablet-600: new-breakpoint(max-width 600px);
 			}		
 		}
 	}
-}	
+
+	.fa-2x {
+		font-size: 1.75em;
+	}
+
+}
+
+// MOBILE SMALL | max width 320px
+@include media($small-mobile) {
+	#social-links {
+		display: none;
+	}
+
+	#what-we-do h1 {
+		font-size: rem(34);
+	}
+}
+
+
+$mobile-home: new-breakpoint(max-height 414px);
+
+@include media($mobile-home) {
+	#home {
+
+		#slogan {
+			width: 40%;
+
+			p {
+				font-size: rem(30);
+				line-height: 1.1em;
+			}
+
+			span, 
+			span#all-the-time {
+				font-size: rem(30);	
+			}			
+		}
+		
+		#mouse-scroll {
+			display: none;
+		}
+	}
+	
+	#home h1, 
+	.overlay h1 {
+		font-size: rem(20);
+	}
+}
+

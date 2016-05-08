@@ -1,7 +1,7 @@
 // Defining a function to set size for #home (Home page) 
 function fullscreen(){
     $('#home').css({
-        width: jQuery(window).width(),
+        //width: jQuery(window).width(),
         height: jQuery(window).height()
     });
 }
@@ -42,7 +42,7 @@ $(function(){
 
     // Initiate scrollify
     // $.scrollify({
-    //     section : "#home, #what-we-do, #work",
+    //     section : "#home, #what-we-do",
     //     sectionName : false
     // });
 
@@ -59,7 +59,7 @@ $(function(){
         // Hide social sharing on nav open 
         $('#share-me').removeClass('go');
         $('#share-me').addClass('goAway');
-        $('.overlay ul li.overlay-share').toggleClass('show-hide');
+        //$('.overlay ul li.overlay-share').toggleClass('show-hide');
         // Deactivate the default behavior of going to the next page on click
         return false;
     });
