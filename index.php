@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <script src="assets/js/vendor/modernizr-custom.js"></script>
+        <!-- <script src="assets/js/vendor/modernizr-custom.js"></script> -->
 
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
@@ -33,7 +33,7 @@
         <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">       
     </head>
     <body>
-         <!-- Preloader -->
+        <!-- Preloader -->
         <div id="preloader">
             <div id="status">
                 <div class="sk-cube-grid">
@@ -50,18 +50,9 @@
             </div>
         </div>
 
-        <nav id="nav-mini">
-            <ul>
-                <li class="home"><a href="#home" class="black">&nbsp;</a></li>
-                <li class="what-we-do"><a href="#what-we-do" class="yellow">&nbsp;</a></li>
-                <li class="work"><a href="#work" class="red">&nbsp;</a></li>
-                <li class="clients"><a href="#clients" class="green">&nbsp;</a></li>
-                <li class="contact"><a href="#contact" class="blue">&nbsp;</a></li>
-            </ul>
-        </nav>
-
+        <!-- Home section -->
         <div id="bg-home">
-            <section id="home">
+            <section id="home" class="hero home full eavesdrop">
                 <header id="logo">
                     <h1>Slam Dunk Digital</h1>
                 </header>
@@ -101,7 +92,7 @@
 
 
         <div id="what-we-do-outer">
-            <section id="what-we-do">
+            <section id="what-we-do" class="what-we-do full eavesdrop">
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
@@ -121,7 +112,7 @@
         </div>
 
 
-        <section id="work">
+        <section id="work" class="work full eavesdrop">
             <header>
                 <h1>Our work</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -129,24 +120,49 @@
 
             <div class="row">
                 <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
+                    <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
                     <div class="mask">
-                        <h2>Heinz, Get Well Soup</h2>
+                        <h2>Heineken, Beauty of Brewing</h2>
                         <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
                         Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
+                    <img src="assets/img/work/redSilverBlue.jpg" alt="Redbull, Editions" /> 
+                    <div class="mask">
+                        <h2>Redbull, Editions</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />
                     <div class="mask">
                         <h2>Heinken, The Beauty of Brewing</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div>
+                </div>                               
+
+                <div class="view view-first">  
+                    <img src="assets/img/work/deathlyHallowsPart2.jpg" alt="EA, Harry Potter Deathly Hallows Part 2." /> 
+                    <div class="mask">
+                        <h2>EA, Harry Potter Deathly Hallows Part 2.</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
                 </div>
                 <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
+                    <img src="assets/img/work/toughmudder.jpg" alt="Volvic, Toughmudder" />
+                    <div class="mask">
+                        <h2>Volvic, Toughmudder</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>                
+                <div class="view view-first">  
+                    <img src="assets/img/work/liveFearless.jpg" alt="Jaguar, Live Fearless" />
                     <div class="mask">
                         <h2>Jaguar, Live Fearless</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -155,105 +171,120 @@
                 </div>
 
                 <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
-                    <div class="mask">
-                        <h2>Redbull, Instagram your Inspiration</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
-                    <div class="mask">
-                        <h2>Breaking Bad, Spoiler Foiler</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
-                    <div class="mask">
-                        <h2>Olympics, Support your Team</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-
-                <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" /> 
-                    <div class="mask">
-                        <h2>Moet &amp; Chaddon, Champagne</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
-                    <div class="mask">
-                        <h2>EA, Harry Potter, Deathly Hallows Part 2</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">  
-                    <img src="assets/img/clients/getWellSoup_380.jpg" alt="Heinz" />
+                    <img src="assets/img/work/cuppaclub.jpg" alt="PG Tips, Cuppaclub" />
                     <div class="mask">
                         <h2>Playboy UK</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/movember.jpg" alt="HP Sauce, Movember Challenge" />
+                    <div class="mask">
+                        <h2>HP Sauce, Movember Challenge</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/kleenexCollection.jpg" alt="Kleenex, Collection" /> 
+                    <div class="mask">
+                        <h2>Kleenex, Collection</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+
+                <div class="view view-first">  
+                    <img src="assets/img/work/beginBulmers.jpg" alt="Bulmers, Begin with a Bulmers" />
+                    <div class="mask">
+                        <h2>Playboy UK</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
+                    <div class="mask">
+                        <h2>Olympics 2012, #supportYourTeam</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>
+                <div class="view view-first">  
+                    <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
+                    <div class="mask">
+                        <h2>Playboy UK</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div> 
+                </div>             
             </div>
         </section>
 
-        <section id="clients">
+        <section id="clients" class="clients full eavesdrop">
             <header>
                 <h1>Clients</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>        
             <div class="row">
                 <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
+                    <img src="assets/img/clients/heineken.jpg" alt="Heineken" />
                 </div>
                 <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
+                    <img src="assets/img/clients/Redbull.jpg" alt="Redbull" />
                 </div>
                 <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
+                    <img src="assets/img/clients/jaguar.jpg" alt="Jaguar" />
                 </div>
                 <div class="client">
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
+                    <img src="assets/img/clients/Heinz.jpg" alt="Heinz" />
                 </div>
 
-                <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" /> 
-                </div>
-                <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
-                </div>
-                <div class="client">  
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
+                <div class="client">
+                    <img src="assets/img/clients/hp.jpg" alt="HP Sauce" />
                 </div>
                 <div class="client">
-                    <img src="assets/img/clients/getWellSoup_350.jpg" alt="Heinz" />
-                </div>                
+                    <img src="assets/img/clients/honda.jpg" alt="Honda" />
+                </div>
+                <div class="client">
+                    <img src="assets/img/clients/harrods.jpg" alt="Haroods" />
+                </div>
+                <div class="client">
+                    <img src="assets/img/clients/bulmers.jpg" alt="Bulmers" />
+                </div>  
+
+                <div class="client">  
+                    <img src="assets/img/clients/playboyBlack.jpg" alt="Playboy UK" /> 
+                </div>
+                <div class="client">  
+                    <img src="assets/img/clients/eaBlack.jpg" alt="EA" />
+                </div>
+                <div class="client">  
+                    <img src="assets/img/clients/volvic.jpg" alt="Volvic" />
+                </div>
+                <div class="client">  
+                    <img src="assets/img/clients/evian.jpg" alt="Evian" />
+                </div>
+
+                                                            
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="contact full eavesdrop">
             <header>
                 <h1>Contact</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>
         </section>
-        
+
         <div id="map"></div>
         
         <section id="contact-info">
             <div id="offices">
                 <h2>Our offices</h2>
-                <p>CTB Studios,<br>
-                Angel, Islington High Street<br>
+                <p>CMB Studios,<br>
+                Angel, Upper High Street<br>
                 London<br>
                 N1 0YL, UK</p>
                 <p><a href="tel:+4407917044058"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 058</a></p>
@@ -281,6 +312,66 @@
         </section><!-- End of contact info -->
 
 
+        <section id="quick-message">
+            <header>
+                <h1>Quick message</h1>
+            </header>         
+            <?php
+                //if "email" variable is filled out, send email
+                  if (isset($_REQUEST['email']))  {
+                  
+                  //Email information
+                  $admin_email = "info@rohanchambers.net";
+                  $email = $_REQUEST['email'];
+                  $subject = "Slam Dunk Message. message: " . $_REQUEST['subject'];
+                  $comment = $_REQUEST['comment'].$phone;
+                  $phone = $_REQUEST['phone'];
+                  $comment_phone = $comment . "\n\n Phone: ".$phone;
+
+                  //send email
+                  mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
+                  
+                  //Email response
+                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.</p>";
+                  }
+                  
+                  //if "email" variable is not filled out, display the form
+                  else  {
+                ?>
+                <p>Send us a quick meassage. <br>Please fill in all the fields below to send us a message online.</p>
+                <form id="contact-form" method="post" action="index.php#quick-message">
+                    <fieldset>
+                        <p>
+                            <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
+                            <span></span>
+                            <label for="resqFullname"></label>
+                        </p>
+                        <p>
+                            <input type="email" placeholder="Email" name="email" id="resqEmail" required>
+                            <span></span>
+                            <label for="resqEmail"></label>
+                        </p>
+                        <p>
+                            <input type="numbers" placeholder="Phone number (optional)" name="phone" id="resqPhone">
+                            <span></span>
+                            <label for="resqPhone"></label>
+                        </p>        
+                        <p id="textarea">
+                            <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
+                            <span></span>
+                            <label for="resqMessage"></label>
+                        </p>
+                        <p>
+                            <button type="submit" id="btn-submit" class="btn-animate">Send</button>
+                        </p>
+                    </fieldset>
+                </form>
+            <?php
+              }
+            ?>
+        </section>
+
+
         <div id="footer-outer">
             <footer>
                 <div id="footer-info" class="col">
@@ -296,6 +387,7 @@
                     London<br>
                     N1 0YL, UK</p>
                 </div>
+
                 <div id="copyright" class="col">
                     <div id="copyright-info">
                         <ul>
@@ -309,12 +401,23 @@
                         Registered trademark<br>
                         Registered 882931<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
-                        <span id="border-blue">
+                        <span id="border-blue"></span>
                     </div>
                 </div>
             </footer>
         </div>
-        
+            
+        <!-- Nav mini bullets -->
+        <nav id="nav-mini">
+            <ul>
+                <li class="home"><a href="#home" class="black tooltip animate right" data-tool="Home">&nbsp;</a></li>
+                <li class="what-we-do"><a href="#what-we-do" class="yellow tooltip animate right" data-tool="What we do">&nbsp;</a></li>
+                <li class="work"><a href="#work" class="red tooltip animate right" data-tool="Our work">&nbsp;</a></li>
+                <li class="clients"><a href="#clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
+                <li class="contact"><a href="#contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
+            </ul>
+        </nav>
+
         <!-- Full sceen Navigation -->
         <button class="hamburger" id="trigger-overlay" type="button">
             <span id="nav-icon">
@@ -325,16 +428,24 @@
         </button>
 
         <div class="overlay overlay-hugeinc">
+        <div class="overlay-layer"></div>
+            <img src="assets/img/video/space.jpg" align="Space">
+            <video loop muted autoplay poster="assets/img/video/space.jpg">
+                <source src="assets/img/video/space.webm" type="video/webm">
+                <source src="assets/img/video/space.mp4" type="video/mp4">
+                <source src="assets/img/video/space.ogv" type="video/ogg">
+            </video>
+            
             <header>
                 <h1>Slam Dunk Digital</h1>
             </header>
             <nav>
                 <ul>
                     <li class="home"><a href="#home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="red"><a href="#work"><span class="red">O</span>ur work</a></li>
-                    <li class="green"><a href="#clients"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
+                    <li class="what-we-do yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="work red"><a href="#work"><span class="red">O</span>ur work</a></li>
+                    <li class="clients green"><a href="#clients"><span class="green">C</span>lients</a></li>
+                    <li class="contact blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
                         <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
                         <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
@@ -352,15 +463,12 @@
             </nav>
         </div>
                
-        <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
-<!--         <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
-        <script src="assets/js/vendor/inview.min.js"></script>
-        <script src="assets/js/vendor/notify.min.js"></script>         -->
-
-        <script src="assets/js/plugins.min.js"></script>
-        <script src="assets/js/jquery.scrollify.min.js"></script>
-
-<!--    <script src="assets/js/vendor/classie.js"></script>
+<!--    <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+        <script src="assets/js/plugins.js"></script>
+<!--    
+        <script src="assets/js/jquery.alton.min.js"></script>
+        <script src="assets/js/jquery.eavesdrop.js"></script>
+        <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/tweenLite.min.js"></script>
         <script src="assets/js/vendor/easePack.min.js"></script>
@@ -369,7 +477,6 @@
         <script src="assets/js/vendor/proximity.js"></script>
         <script src="assets/js/vendor/css3-animate-it.min.js"></script> -->
         <script src="assets/js/scripts.js"></script>
-
 
         <!-- Google Maps api -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
@@ -389,16 +496,15 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <!-- Linkedin Share -->
         <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-        <!-- Google Maps api -->  
-        <!-- Preloader -->
+        <!-- Google Maps api -->        
         <script>
-            //<![CDATA[
-                $(window).load(function() { // makes sure the whole site is loaded
-                    $('#status').fadeOut(); // will first fade out the loading animation
-                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                    $('body').delay(350).css({'overflow':'visible'});
-                })
-            //]]>
+        //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow':'visible'});
+            })
+        //]]>
         </script>        
     </body> 
 </html>

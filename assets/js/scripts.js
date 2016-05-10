@@ -9,8 +9,8 @@ function fullscreen(){
 // Scroll to sections 
 function scrollToSections() {
     // Scroll to sections
-    $('.overlay ul li, #nav-mini ul li').find('a').click(function(e) {
-        //e.preventDefault();
+    $('.overlay ul li').find('a').click(function(e) {
+        e.preventDefault();
         
         var section = $(this).attr('href');
         
@@ -21,8 +21,9 @@ function scrollToSections() {
 
     // Add class of active on items for main and mini nav.
     // Hide sharing functionality as zindex would be too higher. Fixme
-    $('.overlay ul li a, #nav-mini ul li a').click( function(){
-        $('.overlay ul li a, #nav-mini ul li a').removeClass('active');
+    $('.overlay ul li a, #nav-mini a').click( function(){
+        $('.overlay ul li.overlay-share').toggleClass('show-hide');
+        $('.overlay ul li a').removeClass('active');
         $(this).addClass('active');
     });
 }
@@ -34,17 +35,24 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
+$(document).alton({
+    firstClass : 'hero', // Set the first container class
+    bodyContainer: 'what-we-do', // Set the body container
+    scrollMode: 'headerScroll', // Set the scroll mode
+});
+
 // Document ready
 $(function(){
-    
+
+    // Mini Nav bullets section scroll
+    $('#nav-mini ul').eavesdrop({
+        watchClass: 'eavesdrop',
+        activeClass: 'active',
+        trackUrl: true        
+    });
+
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
-
-    // Initiate scrollify
-    // $.scrollify({
-    //     section : "#home, #what-we-do",
-    //     sectionName : false
-    // });
 
     // Hide fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){
@@ -59,7 +67,7 @@ $(function(){
         // Hide social sharing on nav open 
         $('#share-me').removeClass('go');
         $('#share-me').addClass('goAway');
-        //$('.overlay ul li.overlay-share').toggleClass('show-hide');
+        $('.overlay ul li.overlay-share').toggleClass('show-hide');
         // Deactivate the default behavior of going to the next page on click
         return false;
     });
@@ -82,6 +90,29 @@ $(function(){
         $('html, body').animate({scrollTop : goToNextSlide}, 800);
     });
 
+    // Show hide value of form inputs and textarea
+    $('#contact-form input, #contact-form textarea').each(function(){
+        var txtval = $(this).val();
+        $(this).focus(function(){
+            if($(this).val() == txtval){
+                $(this).val('');
+                $(this).siblings('span').css({width: '100%'});
+            }
+        });
+        $(this).blur(function(){
+            if($(this).val() == ""){
+                $(this).val(txtval);
+                $(this).siblings('span').css({width: '0%'});
+            }
+        });
+    });
+
+    // Validate form
+    $("#contact-form").validate();
+
+    $('#btn-submit').click( function(){
+        $('#contact-form').submit();
+    });
     
     // FUNCTION CALLS
 
@@ -95,30 +126,6 @@ $(function(){
 
     // On click of Main Nav and Mini items 
     scrollToSections();
-
-
-    // $('#home, #what-we-do, #work, #clients, #contact').on('inview', function(event, isInView) {
-    //     //console.log(this)
-    // if (isInView) {
-    //     console.log('In view');
-    //     //console.log(this);
-
-    //     var currentSectionId = $(this).attr('id');
-    //     console.log(currentSectionId)
-        
-    //     var navMiniClass = $('#nav-mini ul li').has(currentSectionId);
-    //     console.log(navMiniClass);
-
-    //     if(navMiniClass) {
-    //         // element is now visible in the viewport
-    //         $('#nav-mini ul li' + '.' + currentSectionId + ' a').addClass('active');            
-    //     }
-    // } else {
-    //     // element has gone out of viewport
-    //     console.log('Out of view');
-    // }
-    // });
-
 
     // Proximity effect
     var Photo   = (function() {
@@ -289,10 +296,11 @@ $(document).on('scroll',function(){
     }
 
     // Change nav to dark version when sections have white BG
-    if( $(document).scrollTop() > 1135){
-        $('.hamburger, #nav-mini').addClass('darkNav');
+    if( $(document).scrollTop() > 1630){
+        $('.hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
+
     } else {
-        $('.hamburger, #nav-mini').removeClass('darkNav');
+        $('.hamburger, #nav-mini, #nav-mini a').removeClass('darkNav');
     }
 });
 

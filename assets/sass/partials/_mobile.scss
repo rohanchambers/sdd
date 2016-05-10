@@ -104,6 +104,10 @@
 		@include span-columns(12);		
 	}
 
+	#quick-message #contact-form {
+	    width: 100%;
+	}	
+
 	canvas, 
 	#nav-mini {
 		display: none;
@@ -126,14 +130,9 @@ $tablet-600: new-breakpoint(max-width 600px);
 	} 
 
 	#home {
-		// h1 {
-		// 	padding-top: 10px;
-		//  }
-
 		#slogan p {
 			font-size: rem(64);
 		}
-
 	}
 
 	.overlay {

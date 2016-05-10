@@ -12,7 +12,7 @@
 @import "vendor/_animations";
 @import "vendor/_work-view";
 @import "vendor/_loader";
-
+@import "vendor/_section-scroll";
 
 
 // NAV MINI
@@ -20,14 +20,15 @@
 	position: fixed;
 	top: 50%;
 	left: -15px;
-	z-index: 1;
+	z-index: 3;
 	margin-top: -50px;
 
 	li {
 		display: block;
 		width: 10px;
 		height: 10px;			
-		margin-bottom: 10px;
+		margin-bottom: 12px;
+		
 		a {
 			display: block;
 			width: 10px;
@@ -35,14 +36,15 @@
 			background-color: $white;
 			border-radius: 10px;
 			text-decoration: none;
+			border: 1px solid $white;
 		}
-
-		a.black:hover, a.black.active { background-color: $black; border: 1px solid $white;}
-		a.yellow:hover, a.yellow.active { background-color: $yellow; border: 1px solid $white;}
-		a.red:hover, a.red.active { background-color: $red;}
-		a.green:hover, a.green.active { background-color: $green;}
-		a.blue:hover, a.blue.active { background-color: $blue;}
 	}
+
+	a.black:hover, li.active a.black { background-color: $black;}
+	a.yellow:hover, li.active a.yellow { background-color: $yellow;}
+	a.red:hover, li.active a.red { background-color: $red;}
+	a.green:hover, li.active a.green { background-color: $green;}
+	a.blue:hover, li.active a.blue { background-color: $blue;}	
 }
 
 #nav-mini.darkNav {
@@ -342,6 +344,7 @@
 }
 
 #clients {
+	//background: url(../img/bg-stripes.jpg) no-repeat bottom center;
 	.row {		
 		.client {
     		img {
@@ -442,6 +445,125 @@
 		color: #0074c0;
 		@include hover-links();
 	}
+
+}
+
+// QUICK MESSAGE SECTION
+#quick-message {
+	padding: 25px 0;
+	background: #005994 url(../img/global/bg-water.jpg) no-repeat top center;
+	
+	h1, p {
+		color: $white;
+		text-align: center;			
+	}
+
+	#contact-form {
+	    position: relative;
+	    margin: 20px auto 0 auto;
+	    width: 50%;
+	    
+	    fieldset {
+	        border: none;
+	    }
+
+	    legend {
+	        color: $white;
+	        margin-bottom: 30px;
+	    }
+
+	    p {
+	        position: relative;
+	        margin-bottom: 20px;
+	    }
+
+	    input, textarea {
+	        width: 100%;
+	        height: 40px;
+	        padding: 0 10px;
+	        background-color: transparent;
+	        border: 0;
+	        border-bottom: 2px solid $white;
+	        color: $white;            
+	        -webkit-appearance: none;
+	    }
+
+	        span {
+	            position: absolute;
+	            bottom: 0;
+	            left: 0;
+	            display: block;
+	            width: 0%;
+	            height: 2px;
+	            border-bottom: 2px solid $red;
+	            background-color: $red;
+	                -moz-transition: width 0.5s ease;
+	                    -webkit-transition: width 0.5s ease;
+	                        transition: width 0.5s ease;                  
+	        }
+
+	        label {
+	            position: absolute;
+	            right: 0;
+	            display: block;
+	            color: $white;
+	            font-size: rem(12);
+	        }
+	    
+	    #textarea span {
+	        bottom: 6px;
+	    }
+
+	    input, 
+	    input[type=submit],
+	    textarea,
+	    button,
+	    select,
+	    option {
+	        // Remove focus glow
+	        outline-color: transparent;
+	        outline-style: none;        
+	    }
+
+	    textarea {
+	        height: 40px;
+
+	        -webkit-transition: height 0.3s;
+	        -o-transition: height 0.3s;
+	        transition: height 0.3s;                      
+	    }
+
+	    textarea:focus {
+	        height: 150px;
+	    }
+	    
+	    // Change color for textarea placeholder (value)
+	    ::-webkit-input-placeholder { color: $white;}
+	    ::-moz-placeholder {color: $white;}
+	    :-ms-input-placeholder { color: $white;} 
+	    :-o-input-placeholder { color: $white;} 
+
+	    #btn-submit {
+	        margin-top: 15px;
+	        width: auto;
+	        font-size: rem(25);
+	        color: #FFF;
+	        text-transform: uppercase;
+	        background-color: transparent;
+	        border: 3px solid $white;
+	        height: 60px;
+	        padding: 7px 15px;
+	        line-height: 40px;
+	        border-radius: 5px;
+	    }
+
+	    #btn-submit:hover {
+	        background-color: $blue;                   
+	        border: 3px solid $blue;
+	        border-radius: 5px;
+	    }
+	}
+
 
 }
 
