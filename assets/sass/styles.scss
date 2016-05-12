@@ -59,7 +59,8 @@
 	background-color: $black;
 }
 
-#home {
+#home,
+#case-study #logo {
 	background-color: $black;
 	color: $white;
 
@@ -215,6 +216,15 @@
 		}        	
 }
 
+// CASE STUDY SECTION
+#case-study {
+	background-color: $black;
+	#logo {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+}
+
 // WHAT WE DO SECTION
 #what-we-do-outer {
 	overflow: hidden;
@@ -340,6 +350,9 @@
 			//display: none!important;
 		}
 
+		.view:last-child {
+			display: none;
+		}
 	}
 }
 
@@ -347,13 +360,30 @@
 	//background: url(../img/bg-stripes.jpg) no-repeat bottom center;
 	.row {		
 		.client {
+			position:relative;
+
     		img {
-    			display: block;
-    			width: 100%;
-    			height: auto;
+				display: block;
+				width: 100%;
+				height: auto;
     		}
+
+    		img.top,
+    		img.bottom {
+				position:absolute;
+				top: 0;
+				left:0;
+				-webkit-transition: opacity .5s ease-in-out;
+					-moz-transition: opacity .5s ease-in-out;
+						-o-transition: opacity .5s ease-in-out;
+							transition: opacity .5s ease-in-out;				
+    		}
+
+			img.top:hover {
+				opacity:0;
+			}	
 		}
-	}
+	}	
 }
 
 // CONTACT SECTION
@@ -451,7 +481,7 @@
 // QUICK MESSAGE SECTION
 #quick-message {
 	padding: 25px 0;
-	background: #005994 url(../img/global/bg-water.jpg) no-repeat top center;
+	background: #054B79;
 	
 	h1, p {
 		color: $white;
@@ -563,8 +593,6 @@
 	        border-radius: 5px;
 	    }
 	}
-
-
 }
 
 // FOOTER SECTION

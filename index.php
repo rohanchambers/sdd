@@ -18,7 +18,7 @@
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
         <meta property="og:title"           content="Welcome to Slam Dunk Digital" />
         <meta property="og:description"     content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
-        <meta property="og:url"             content="http://slamdunkdigital.co.uk/" />    
+        <meta property="og:url"             content="http://slamdunkdigital.co.uk/" />
         <meta property="og:image:width"     content="600" />
         <meta property="og:image:height"    content="600" />
         <meta property="og:image:type"      content="image/jpg" /> 
@@ -30,7 +30,7 @@
         <meta name="twitter:description"    content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">       
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">
     </head>
     <body>
         <!-- Preloader -->
@@ -73,20 +73,20 @@
                 </nav>
                 <div id="slogan">
                     <canvas id="demo-canvas"></canvas>
-                    <span>We stand for</span>                    
+                    <span>We stand for</span>
                     <p>
                         Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
                         Creativity <span class="green">/</span><br>
                         &amp; style <span class="blue">/</span><br>
                         10 out of 10 <span class="white">/</span><br>
                     </p>
-                    <span id="all-the-time">Every time!</span>                    
+                    <span id="all-the-time">Every time!</span>
                 </div><!-- End of Slogan -->
                 <div id="mouse-scroll">
                     <div class='icon-animate'></div>
                     <i class="fa fa-angle-down fa-3x angle-down-1"></i>
                     <i class="fa fa-angle-down fa-3x  angle-down-2"></i>
-                </div>                
+                </div>
             </section><!-- End of home -->
         </div>
 
@@ -119,49 +119,58 @@
             </header>
 
             <div class="row">
-                <div class="view view-first">  
+                <div class="view view-first">
+                    <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
+                    <div class="mask">
+                        <h2>Heineken, Beauty of Brewing</h2>
+                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
+                        Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-first">
                     <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
                     <div class="mask">
                         <h2>Heineken, Beauty of Brewing</h2>
                         <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
                         Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
                         <a href="#" class="info">Read More</a>
-                    </div> 
+                    </div>
                 </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/redSilverBlue.jpg" alt="Redbull, Editions" /> 
                     <div class="mask">
                         <h2>Redbull, Editions</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
-                    </div> 
+                    </div>
                 </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />
                     <div class="mask">
                         <h2>Heinken, The Beauty of Brewing</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div>
-                </div>                               
+                </div>
 
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/deathlyHallowsPart2.jpg" alt="EA, Harry Potter Deathly Hallows Part 2." /> 
                     <div class="mask">
                         <h2>EA, Harry Potter Deathly Hallows Part 2.</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
-                    </div> 
+                    </div>
                 </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/toughmudder.jpg" alt="Volvic, Toughmudder" />
                     <div class="mask">
                         <h2>Volvic, Toughmudder</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
-                </div>                
-                <div class="view view-first">  
+                </div>
+                <div class="view view-first">
                     <img src="assets/img/work/liveFearless.jpg" alt="Jaguar, Live Fearless" />
                     <div class="mask">
                         <h2>Jaguar, Live Fearless</h2>
@@ -170,23 +179,23 @@
                     </div> 
                 </div>
 
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/cuppaclub.jpg" alt="PG Tips, Cuppaclub" />
                     <div class="mask">
                         <h2>Playboy UK</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
-                    </div> 
+                    </div>
                 </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/movember.jpg" alt="HP Sauce, Movember Challenge" />
                     <div class="mask">
                         <h2>HP Sauce, Movember Challenge</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
-                    </div> 
+                    </div>
                 </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/kleenexCollection.jpg" alt="Kleenex, Collection" /> 
                     <div class="mask">
                         <h2>Kleenex, Collection</h2>
@@ -195,7 +204,7 @@
                     </div> 
                 </div>
 
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/beginBulmers.jpg" alt="Bulmers, Begin with a Bulmers" />
                     <div class="mask">
                         <h2>Playboy UK</h2>
@@ -203,22 +212,22 @@
                         <a href="#" class="info">Read More</a>
                     </div> 
                 </div>
-                <div class="view view-first">  
-                    <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
-                    <div class="mask">
-                        <h2>Olympics 2012, #supportYourTeam</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">  
+                <div class="view view-first">
                     <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
                     <div class="mask">
                         <h2>Playboy UK</h2>
                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                         <a href="#" class="info">Read More</a>
                     </div> 
-                </div>             
+                </div>
+                <div class="view view-first">
+                    <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
+                    <div class="mask">
+                        <h2>Olympics 2012, #supportYourTeam</h2>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -226,48 +235,70 @@
             <header>
                 <h1>Clients</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </header>        
+            </header>
             <div class="row">
-                <div class="client">  
-                    <img src="assets/img/clients/heineken.jpg" alt="Heineken" />
-                </div>
-                <div class="client">  
-                    <img src="assets/img/clients/Redbull.jpg" alt="Redbull" />
-                </div>
-                <div class="client">  
-                    <img src="assets/img/clients/jaguar.jpg" alt="Jaguar" />
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/phoneResq.png" alt="Phone ResQ">
+                    <img class="top" src="assets/img/clients/phoneResq.png" alt="Phone ResQ">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
-                    <img src="assets/img/clients/Heinz.jpg" alt="Heinz" />
+                    <img class="bottom" src="assets/img/clients/hover/heineken.png" alt="Heineken">
+                    <img class="top" src="assets/img/clients/heineken.png" alt="Heineken">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/Redbull.png" alt="Redbull">
+                    <img class="top" src="assets/img/clients/Redbull.png" alt="Redbull">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/jaguar.png" alt="heinz">
+                    <img class="top" src="assets/img/clients/jaguar.png" alt="Jaguar">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
 
                 <div class="client">
-                    <img src="assets/img/clients/hp.jpg" alt="HP Sauce" />
+                    <img class="bottom" src="assets/img/clients/hover/heinz.png" alt="heinz">
+                    <img class="top" src="assets/img/clients/heinz.png" alt="heinz">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div> 
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/tesco.png" alt="tesco">
+                    <img class="top" src="assets/img/clients/tesco.png" alt="tesco">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
-                    <img src="assets/img/clients/honda.jpg" alt="Honda" />
+                    <img class="bottom" src="assets/img/clients/hover/honda.png" alt="honda">
+                    <img class="top" src="assets/img/clients/honda.png" alt="honda">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
-                    <img src="assets/img/clients/harrods.jpg" alt="Haroods" />
+                    <img class="bottom" src="assets/img/clients/hover/harrods.png" alt="harrods">
+                    <img class="top" src="assets/img/clients/harrods.png" alt="harrods"> 
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
+
                 <div class="client">
-                    <img src="assets/img/clients/bulmers.jpg" alt="Bulmers" />
+                    <img class="bottom" src="assets/img/clients/hover/bulmers_white.png" alt="Bulmers">
+                    <img class="top" src="assets/img/clients/bulmers.png" alt="Bulmers">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>  
-
-                <div class="client">  
-                    <img src="assets/img/clients/playboyBlack.jpg" alt="Playboy UK" /> 
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/playboy.png" alt="Playboy UK">
+                    <img class="top" src="assets/img/clients/playboy.png" alt="Playboy UK">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">  
-                    <img src="assets/img/clients/eaBlack.jpg" alt="EA" />
+                    <img class="bottom" src="assets/img/clients/hover/ea.png" alt="EA">
+                    <img class="top" src="assets/img/clients/ea.png" alt="EA">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">  
-                    <img src="assets/img/clients/volvic.jpg" alt="Volvic" />
+                    <img class="bottom" src="assets/img/clients/hover/volvic.png" alt="Volvic">
+                    <img class="top" src="assets/img/clients/volvic.png" alt="Volvic">
+                    <img src="assets/img/clients/transparent.png" alt="">
                 </div>
-                <div class="client">  
-                    <img src="assets/img/clients/evian.jpg" alt="Evian" />
-                </div>
-
-                                                            
             </div>
         </section>
 
@@ -315,7 +346,7 @@
         <section id="quick-message">
             <header>
                 <h1>Quick message</h1>
-            </header>         
+            </header>
             <?php
                 //if "email" variable is filled out, send email
                   if (isset($_REQUEST['email']))  {
@@ -352,7 +383,7 @@
                             <label for="resqEmail"></label>
                         </p>
                         <p>
-                            <input type="numbers" placeholder="Phone number (optional)" name="phone" id="resqPhone">
+                            <input type="number" placeholder="Phone number (optional)" name="phone" id="resqPhone">
                             <span></span>
                             <label for="resqPhone"></label>
                         </p>        
@@ -428,8 +459,8 @@
         </button>
 
         <div class="overlay overlay-hugeinc">
-        <div class="overlay-layer"></div>
-            <img src="assets/img/video/space.jpg" align="Space">
+            <div class="overlay-layer"></div>
+            <img src="assets/img/video/space.jpg" alt="Space">
             <video loop muted autoplay poster="assets/img/video/space.jpg">
                 <source src="assets/img/video/space.webm" type="video/webm">
                 <source src="assets/img/video/space.mp4" type="video/mp4">
@@ -449,7 +480,7 @@
                     <li class="social">
                         <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
                         <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>                       
+                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
                     </li>
                     <li class="overlay-share show-hide">
                         <ul>
@@ -488,7 +519,7 @@
           js = d.createElement(s); js.id = id;
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=168519230210632";
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));   
+        }(document, 'script', 'facebook-jssdk'));
         </script>  
         <!-- Twitter share -->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -496,7 +527,7 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <!-- Linkedin Share -->
         <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-        <!-- Google Maps api -->        
+        <!-- Google Maps api -->
         <script>
         //<![CDATA[
             $(window).load(function() { // makes sure the whole site is loaded
@@ -505,6 +536,6 @@
                 $('body').delay(350).css({'overflow':'visible'});
             })
         //]]>
-        </script>        
+        </script>
     </body> 
 </html>

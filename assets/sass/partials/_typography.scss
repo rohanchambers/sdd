@@ -90,7 +90,8 @@ header {
 	}
 }
 
-#clients {
+#clients,
+#case-study #case-study-intro {
 	h1, p {
 		float: left;
 		text-align: left;
@@ -109,6 +110,20 @@ header {
 		left: 0;
 		background-color: $green;
 	}	
+}
+
+#case-study #case-study-intro {
+	h1 {
+		font-size: rem(28);
+	}
+	
+	h1:before {
+		background-color: orange;
+	}
+
+	p {
+		width: 100%;
+	}
 }
 
 #contact,

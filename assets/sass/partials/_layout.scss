@@ -5,6 +5,7 @@
 #clients header,
 #contact,
 #contact-info,
+#case-study header,
 footer {
 	@include outer-container(1024px);
 }
@@ -23,6 +24,25 @@ footer {
 		@include omega();
 		min-height: 1300px;
 	}
+}
+
+#case-study {
+	.col {		
+		@include pad(0);
+		@include omega();
+		padding: 2%;		
+		min-height: 1300px;
+	}
+
+	#case-study-info {
+		@include span-columns(5);
+		background-color: red;
+	}
+
+	#case-study-img {
+		@include span-columns(7);
+		background-color: blue;	
+	}	
 }
 
 .col-no-skew {
@@ -45,8 +65,9 @@ footer {
 }
 
 #clients {
-	min-height: 800px;	
+	min-height: 800px;
 	.row {
+		@include row();			
 		.client {
 			@include span-columns(3);
 			@include omega(4n);

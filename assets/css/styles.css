@@ -82,17 +82,29 @@ header p {
   right: 25px;
   width: 72%; }
 
-#clients h1, #clients p {
+#clients h1, #clients p,
+#case-study #case-study-intro h1,
+#case-study #case-study-intro p {
   float: left;
   text-align: left; }
-#clients h1 {
+#clients h1,
+#case-study #case-study-intro h1 {
   padding-left: 25px; }
-#clients h1:after {
+#clients h1:after,
+#case-study #case-study-intro h1:after {
   left: 25px;
   width: 61%; }
-#clients h1:before {
+#clients h1:before,
+#case-study #case-study-intro h1:before {
   left: 0;
   background-color: #009f5e; }
+
+#case-study #case-study-intro h1 {
+  font-size: 1.75rem; }
+#case-study #case-study-intro h1:before {
+  background-color: orange; }
+#case-study #case-study-intro p {
+  width: 100%; }
 
 #contact h1,
 #quick-message h1 {
@@ -158,6 +170,7 @@ header p {
 #clients header,
 #contact,
 #contact-info,
+#case-study header,
 footer {
   max-width: 1024px;
   margin-left: auto;
@@ -168,6 +181,7 @@ footer {
   #clients header::after,
   #contact::after,
   #contact-info::after,
+  #case-study header::after,
   footer::after {
     clear: both;
     content: "";
@@ -195,6 +209,28 @@ footer {
   #what-we-do .col:last-child {
     margin-right: 0; }
 
+#case-study .col {
+  padding: 0;
+  margin-right: 0;
+  padding: 2%;
+  min-height: 1300px; }
+#case-study #case-study-info {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 41.66667%;
+  background-color: red; }
+  #case-study #case-study-info:last-child {
+    margin-right: 0; }
+#case-study #case-study-img {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 58.33333%;
+  background-color: blue; }
+  #case-study #case-study-img:last-child {
+    margin-right: 0; }
+
 .col-no-skew .pe-thumbs li {
   float: left;
   display: block;
@@ -216,19 +252,25 @@ footer {
 
 #clients {
   min-height: 800px; }
-  #clients .row .client {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 25%;
-    margin-bottom: 1px;
-    border: 1px solid #FFF; }
-    #clients .row .client:last-child {
-      margin-right: 0; }
-    #clients .row .client:nth-child(4n) {
-      margin-right: 0; }
-    #clients .row .client:nth-child(4n+1) {
-      clear: left; }
+  #clients .row {
+    display: block; }
+    #clients .row::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #clients .row .client {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 25%;
+      margin-bottom: 1px;
+      border: 1px solid #FFF; }
+      #clients .row .client:last-child {
+        margin-right: 0; }
+      #clients .row .client:nth-child(4n) {
+        margin-right: 0; }
+      #clients .row .client:nth-child(4n+1) {
+        clear: left; }
 
 #contact-info {
   display: block; }
@@ -2415,44 +2457,54 @@ a.tooltip.animate:after, a.tooltip.animate:before {
   position: relative;
   background-color: #000; }
 
-#home {
+#home,
+#case-study #logo {
   background-color: #000;
   color: #FFF; }
-  #home #social-links {
+  #home #social-links,
+  #case-study #logo #social-links {
     position: absolute;
     z-index: 100;
     top: 0;
     right: 90px; }
-    #home #social-links li {
+    #home #social-links li,
+    #case-study #logo #social-links li {
       float: left;
       margin: 0 10px 0 0; }
-      #home #social-links li a {
+      #home #social-links li a,
+      #case-study #logo #social-links li a {
         color: #FFF; }
-        #home #social-links li a i {
+        #home #social-links li a i,
+        #case-study #logo #social-links li a i {
           font-size: 1.5rem; }
-      #home #social-links li a:hover {
+      #home #social-links li a:hover,
+      #case-study #logo #social-links li a:hover {
         color: #0074c0;
         -webkit-transition: all 300ms ease;
         -moz-transition: all 300ms ease;
         -ms-border-radius: all 300ms ease;
         transition: all 300ms ease; }
-  #home #social-links ul#share-me {
+  #home #social-links ul#share-me,
+  #case-study #logo #social-links ul#share-me {
     position: absolute;
     top: 55px;
     right: -3px;
     height: auto;
     width: 290px;
     padding: 0; }
-    #home #social-links ul#share-me li {
+    #home #social-links ul#share-me li,
+    #case-study #logo #social-links ul#share-me li {
       display: block;
       width: auto; }
-  #home #slogan {
+  #home #slogan,
+  #case-study #logo #slogan {
     width: 700px;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -55%); }
-    #home #slogan p {
+    #home #slogan p,
+    #case-study #logo #slogan p {
       font-family: Arial, Verdana, sans-serif;
       font-size: 5rem;
       font-weight: bold;
@@ -2460,15 +2512,19 @@ a.tooltip.animate:after, a.tooltip.animate:before {
       line-height: .95em;
       margin: 20px 0 13px;
       padding: 0; }
-      #home #slogan p span {
+      #home #slogan p span,
+      #case-study #logo #slogan p span {
         font-size: inherit; }
-    #home #slogan span {
+    #home #slogan span,
+    #case-study #logo #slogan span {
       font-family: Helvetica, Verdana, sans-serif;
       font-size: 2.8125rem;
       font-style: italic; }
-    #home #slogan span#all-the-time {
+    #home #slogan span#all-the-time,
+    #case-study #logo #slogan span#all-the-time {
       font-size: 2.1875rem; }
-  #home #mouse-scroll {
+  #home #mouse-scroll,
+  #case-study #logo #mouse-scroll {
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -2479,25 +2535,32 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     background-image: url(../img/global/iconMouseDown.png);
     clear: both;
     cursor: pointer; }
-  #home .fa-angle-down {
+  #home .fa-angle-down,
+  #case-study #logo .fa-angle-down {
     display: none;
     position: absolute;
     left: -1px;
     color: #ddd; }
-  #home .angle-down-1 {
+  #home .angle-down-1,
+  #case-study #logo .angle-down-1 {
     bottom: -5px; }
-  #home .angle-down-2 {
+  #home .angle-down-2,
+  #case-study #logo .angle-down-2 {
     bottom: -15px; }
   #home .icon-animate,
-  #home .icon-animate:before {
+  #home .icon-animate:before,
+  #case-study #logo .icon-animate,
+  #case-study #logo .icon-animate:before {
     position: absolute;
     top: 0; }
-  #home .icon-animate {
+  #home .icon-animate,
+  #case-study #logo .icon-animate {
     width: 25px;
     height: 45px;
     top: 0%;
     border-radius: 20px; }
-  #home .icon-animate:before {
+  #home .icon-animate:before,
+  #case-study #logo .icon-animate:before {
     content: '';
     width: 5px;
     height: 5px;
@@ -2518,12 +2581,19 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     opacity: 0;
     -webkit-transform: translateY(20px);
     transform: translateY(20px); } }
-  #home canvas {
+  #home canvas,
+  #case-study #logo canvas {
     position: fixed;
     top: 50%;
     left: 0;
     transform: translate(-50%, -50%);
     z-index: -1; }
+
+#case-study {
+  background-color: #000; }
+  #case-study #logo {
+    margin-bottom: 0;
+    padding-bottom: 10px; }
 
 #what-we-do-outer {
   overflow: hidden;
@@ -2609,11 +2679,26 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     display: block;
     width: 100%;
     height: auto; }
+#work .row .view:last-child {
+  display: none; }
 
-#clients .row .client img {
-  display: block;
-  width: 100%;
-  height: auto; }
+#clients .row .client {
+  position: relative; }
+  #clients .row .client img {
+    display: block;
+    width: 100%;
+    height: auto; }
+  #clients .row .client img.top,
+  #clients .row .client img.bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out; }
+  #clients .row .client img.top:hover {
+    opacity: 0; }
 
 #map {
   margin-top: 30px;
@@ -2692,7 +2777,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 
 #quick-message {
   padding: 25px 0;
-  background: #005994 url(../img/global/bg-water.jpg) no-repeat top center; }
+  background: #054B79; }
   #quick-message h1, #quick-message p {
     color: #FFF;
     text-align: center; }
@@ -2923,7 +3008,8 @@ footer {
     display: none; } }
 @media screen and (max-width: 600px) {
   #home h1,
-  .overlay h1 {
+  .overlay h1,
+  #case-study h1 {
     width: 150px;
     line-height: 1em;
     font-size: 1.875rem;
@@ -2936,7 +3022,8 @@ footer {
     position: absolute;
     left: 10px; } }
 @media screen and (max-width: 600px) and (max-width: 600px) {
-  #home #social-links ul#share-me {
+  #home #social-links ul#share-me,
+  #case-study #social-links ul#share-me {
     top: 120px;
     right: -15px; } }
 
@@ -2983,9 +3070,6 @@ footer {
   .fa-2x {
     font-size: 1.75em; } }
 @media screen and (min-width: 320px) {
-  #social-links {
-    display: none; }
-
   #what-we-do h1 {
     font-size: 2.125rem; } }
 @media screen and (max-height: 414px) {
@@ -2999,9 +3083,12 @@ footer {
       font-size: 1.875rem; }
   #home #mouse-scroll {
     display: none; }
+  #home #social-links {
+    display: none; }
 
   #home h1,
-  .overlay h1 {
+  .overlay h1,
+  #case-study h1 {
     font-size: 1.25rem; } }
 
 /*# sourceMappingURL=styles.css.map */

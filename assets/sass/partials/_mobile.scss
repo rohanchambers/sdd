@@ -120,7 +120,8 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 @include media($tablet-600) {
 	#home,
-	.overlay {
+	.overlay,
+	#case-study {
 		h1 {
 			width: 150px;
 			line-height: 1em;
@@ -142,7 +143,8 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	#home {
+	#home,
+	#case-study {
 		#social-links ul#share-me {
 			@include media($tablet-600) {
 				top: 120px;
@@ -209,10 +211,6 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
-	#social-links {
-		display: none;
-	}
-
 	#what-we-do h1 {
 		font-size: rem(34);
 	}
@@ -223,7 +221,6 @@ $mobile-home: new-breakpoint(max-height 414px);
 
 @include media($mobile-home) {
 	#home {
-
 		#slogan {
 			width: 40%;
 
@@ -241,10 +238,15 @@ $mobile-home: new-breakpoint(max-height 414px);
 		#mouse-scroll {
 			display: none;
 		}
+		
+		#social-links {
+			display: none;
+		}		
 	}
 	
 	#home h1, 
-	.overlay h1 {
+	.overlay h1,
+	#case-study h1 {
 		font-size: rem(20);
 	}
 }

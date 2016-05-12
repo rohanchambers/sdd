@@ -296,7 +296,7 @@ $(document).on('scroll',function(){
     }
 
     // Change nav to dark version when sections have white BG
-    if( $(document).scrollTop() > 1630){
+    if( $(document).scrollTop() > 2050){
         $('.hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
 
     } else {
