@@ -21,6 +21,7 @@ header {
 		font-family: $font-thick;
 		font-size: rem(36);
 		text-transform: uppercase;
+		@extend .antialiased;
 	}
 		
 		// Color bar
@@ -101,28 +102,46 @@ header {
 		padding-left: 25px;
 	}
 
-	h1:after {
-		left: 25px;
-	 	width: 61%;		
-	}
-
 	h1:before {
 		left: 0;
 		background-color: $green;
 	}	
+
+	h1:after {
+		left: 25px;
+	 	width: 61%;		
+	}
 }
 
-#case-study #case-study-intro {
-	h1 {
-		font-size: rem(28);
+#case-study {
+	.col {		
+		h2 {
+			text-transform: uppercase;	
+		}
+
+		p {
+			font-size: rem(14);
+		}
 	}
 	
-	h1:before {
-		background-color: orange;
-	}
+	#case-study-intro {
+		h1 {
+			font-size: rem(28);
+			margin-bottom: 30px;
+		}
 
-	p {
-		width: 100%;
+		h1:before {
+			height: 30px;
+			background-color: $blue;
+		}
+
+		h1:after  {
+			width: 68%;
+		}
+
+		p {
+			width: 100%;
+		}
 	}
 }
 

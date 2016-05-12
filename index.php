@@ -32,7 +32,7 @@
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
         <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">
     </head>
-    <body>
+    <body class="page-home">
         <!-- Preloader -->
         <div id="preloader">
             <div id="status">
@@ -106,7 +106,7 @@
                 </div>
                 
                 <div class="col col-no-skew">
-                     <?php include("incl/proximityThumbs.php"); ?>
+                     <?php include("incl/inc-what-we-do-thumbs.php"); ?>
                 </div>
             </section><!-- End of home-->
         </div>
@@ -117,119 +117,12 @@
                 <h1>Our work</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>
-
             <div class="row">
-                <div class="view view-first">
-                    <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
-                    <div class="mask">
-                        <h2>Heineken, Beauty of Brewing</h2>
-                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
-                        Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
-                    <div class="mask">
-                        <h2>Heineken, Beauty of Brewing</h2>
-                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
-                        Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/redSilverBlue.jpg" alt="Redbull, Editions" /> 
-                    <div class="mask">
-                        <h2>Redbull, Editions</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />
-                    <div class="mask">
-                        <h2>Heinken, The Beauty of Brewing</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-
-                <div class="view view-first">
-                    <img src="assets/img/work/deathlyHallowsPart2.jpg" alt="EA, Harry Potter Deathly Hallows Part 2." /> 
-                    <div class="mask">
-                        <h2>EA, Harry Potter Deathly Hallows Part 2.</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/toughmudder.jpg" alt="Volvic, Toughmudder" />
-                    <div class="mask">
-                        <h2>Volvic, Toughmudder</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/liveFearless.jpg" alt="Jaguar, Live Fearless" />
-                    <div class="mask">
-                        <h2>Jaguar, Live Fearless</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-
-                <div class="view view-first">
-                    <img src="assets/img/work/cuppaclub.jpg" alt="PG Tips, Cuppaclub" />
-                    <div class="mask">
-                        <h2>Playboy UK</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/movember.jpg" alt="HP Sauce, Movember Challenge" />
-                    <div class="mask">
-                        <h2>HP Sauce, Movember Challenge</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/kleenexCollection.jpg" alt="Kleenex, Collection" /> 
-                    <div class="mask">
-                        <h2>Kleenex, Collection</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-
-                <div class="view view-first">
-                    <img src="assets/img/work/beginBulmers.jpg" alt="Bulmers, Begin with a Bulmers" />
-                    <div class="mask">
-                        <h2>Playboy UK</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
-                    <div class="mask">
-                        <h2>Playboy UK</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div> 
-                </div>
-                <div class="view view-first">
-                    <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
-                    <div class="mask">
-                        <h2>Olympics 2012, #supportYourTeam</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
-                </div>
+                <!-- Work project list -->
+                <?php include("incl/inc-work-list.php"); ?>
             </div>
         </section>
+
 
         <section id="clients" class="clients full eavesdrop">
             <header>
@@ -237,70 +130,11 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>
             <div class="row">
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/phoneResq.png" alt="Phone ResQ">
-                    <img class="top" src="assets/img/clients/phoneResq.png" alt="Phone ResQ">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/heineken.png" alt="Heineken">
-                    <img class="top" src="assets/img/clients/heineken.png" alt="Heineken">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/Redbull.png" alt="Redbull">
-                    <img class="top" src="assets/img/clients/Redbull.png" alt="Redbull">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/jaguar.png" alt="heinz">
-                    <img class="top" src="assets/img/clients/jaguar.png" alt="Jaguar">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/heinz.png" alt="heinz">
-                    <img class="top" src="assets/img/clients/heinz.png" alt="heinz">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div> 
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/tesco.png" alt="tesco">
-                    <img class="top" src="assets/img/clients/tesco.png" alt="tesco">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/honda.png" alt="honda">
-                    <img class="top" src="assets/img/clients/honda.png" alt="honda">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/harrods.png" alt="harrods">
-                    <img class="top" src="assets/img/clients/harrods.png" alt="harrods"> 
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/bulmers_white.png" alt="Bulmers">
-                    <img class="top" src="assets/img/clients/bulmers.png" alt="Bulmers">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>  
-                <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/playboy.png" alt="Playboy UK">
-                    <img class="top" src="assets/img/clients/playboy.png" alt="Playboy UK">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">  
-                    <img class="bottom" src="assets/img/clients/hover/ea.png" alt="EA">
-                    <img class="top" src="assets/img/clients/ea.png" alt="EA">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-                <div class="client">  
-                    <img class="bottom" src="assets/img/clients/hover/volvic.png" alt="Volvic">
-                    <img class="top" src="assets/img/clients/volvic.png" alt="Volvic">
-                    <img src="assets/img/clients/transparent.png" alt="">
-                </div>
+                <!-- Client list -->          
+                <?php include("incl/inc-client-list.php"); ?>
             </div>
         </section>
+
 
         <section id="contact" class="contact full eavesdrop">
             <header>
@@ -370,6 +204,7 @@
                   else  {
                 ?>
                 <p>Send us a quick meassage. <br>Please fill in all the fields below to send us a message online.</p>
+                
                 <form id="contact-form" method="post" action="index.php#quick-message">
                     <fieldset>
                         <p>
@@ -438,61 +273,8 @@
             </footer>
         </div>
             
-        <!-- Nav mini bullets -->
-        <nav id="nav-mini">
-            <ul>
-                <li class="home"><a href="#home" class="black tooltip animate right" data-tool="Home">&nbsp;</a></li>
-                <li class="what-we-do"><a href="#what-we-do" class="yellow tooltip animate right" data-tool="What we do">&nbsp;</a></li>
-                <li class="work"><a href="#work" class="red tooltip animate right" data-tool="Our work">&nbsp;</a></li>
-                <li class="clients"><a href="#clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
-                <li class="contact"><a href="#contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
-            </ul>
-        </nav>
-
-        <!-- Full sceen Navigation -->
-        <button class="hamburger" id="trigger-overlay" type="button">
-            <span id="nav-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-        </button>
-
-        <div class="overlay overlay-hugeinc">
-            <div class="overlay-layer"></div>
-            <img src="assets/img/video/space.jpg" alt="Space">
-            <video loop muted autoplay poster="assets/img/video/space.jpg">
-                <source src="assets/img/video/space.webm" type="video/webm">
-                <source src="assets/img/video/space.mp4" type="video/mp4">
-                <source src="assets/img/video/space.ogv" type="video/ogg">
-            </video>
-            
-            <header>
-                <h1>Slam Dunk Digital</h1>
-            </header>
-            <nav>
-                <ul>
-                    <li class="home"><a href="#home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="what-we-do yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="work red"><a href="#work"><span class="red">O</span>ur work</a></li>
-                    <li class="clients green"><a href="#clients"><span class="green">C</span>lients</a></li>
-                    <li class="contact blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
-                    <li class="social">
-                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
-                    </li>
-                    <li class="overlay-share show-hide">
-                        <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
-                            <li><div class="g-plusone" data-annotation="none"></div></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <!-- Main nav / Sharing nav / nav mini bullets -->
+        <?php include("incl/inc-navs.php"); ?>
                
 <!--    <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
         <script src="assets/js/plugins.js"></script>

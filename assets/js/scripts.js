@@ -35,21 +35,21 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
-$(document).alton({
-    firstClass : 'hero', // Set the first container class
-    bodyContainer: 'what-we-do', // Set the body container
-    scrollMode: 'headerScroll', // Set the scroll mode
-});
+// $(document).alton({
+//     firstClass : 'hero', // Set the first container class
+//     bodyContainer: 'what-we-do', // Set the body container
+//     scrollMode: 'headerScroll', // Set the scroll mode
+// });
 
 // Document ready
 $(function(){
 
     // Mini Nav bullets section scroll
-    $('#nav-mini ul').eavesdrop({
-        watchClass: 'eavesdrop',
-        activeClass: 'active',
-        trackUrl: true        
-    });
+    // $('#nav-mini ul').eavesdrop({
+    //     watchClass: 'eavesdrop',
+    //     activeClass: 'active',
+    //     trackUrl: true        
+    // });
 
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
@@ -108,7 +108,7 @@ $(function(){
     });
 
     // Validate form
-    $("#contact-form").validate();
+    //$("#contact-form").validate();
 
     $('#btn-submit').click( function(){
         $('#contact-form').submit();
@@ -297,10 +297,10 @@ $(document).on('scroll',function(){
 
     // Change nav to dark version when sections have white BG
     if( $(document).scrollTop() > 2050){
-        $('.hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
+        $('.page-home .hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
 
     } else {
-        $('.hamburger, #nav-mini, #nav-mini a').removeClass('darkNav');
+        $('.page-home .hamburger, #nav-mini, #nav-mini a').removeClass('darkNav');
     }
 });
 

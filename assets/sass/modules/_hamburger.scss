@@ -6,7 +6,7 @@
     padding: 12px;
     outline: 0;
     border: none;
-    background-color: #FFF;
+    background-color: $white;
 }
 
 #nav-icon {
@@ -28,9 +28,9 @@
 #nav-icon span {
     display: block;
     position: absolute;
-    height: 4px;
+    height: .25em;
     width: 90%;
-    background-color: #000;
+    background-color: $black;
     border-radius: 9px;
     opacity: 1;
     left: 4%;
@@ -42,6 +42,7 @@
     -moz-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
+    @extend .antialiased;      
 }
 
 #nav-icon span:nth-child(1) {
@@ -62,34 +63,43 @@
       -moz-transform: rotate(135deg);
       -o-transform: rotate(135deg);
       transform: rotate(135deg);
-      background-color: #FFF;
+      background-color: $black;
 }
 
 #nav-icon.open span:nth-child(2) {
-      opacity: 0;
-      left: -60px;
-      background-color: #FFF;
+   opacity: 0;
+   left: -60px;
+   background-color: $black;
 }
 
 #nav-icon.open span:nth-child(3) {
-      top: 14px;
-      background-color: #FFF;
-      -webkit-transform: rotate(-135deg);
-      -moz-transform: rotate(-135deg);
-      -o-transform: rotate(-135deg);
-      transform: rotate(-135deg);
+   top: 14px;
+   background-color: $black;
+   -webkit-transform: rotate(-135deg);
+   -moz-transform: rotate(-135deg);
+   -o-transform: rotate(-135deg);
+   transform: rotate(-135deg);
 }
 
 .show-nav .hamburger {
-  background-color: #000;
+   background-color: $white;
 }
 
 // Dark side of Nav for white BG sections
-.hamburger.darkNav {
-  background-color: #000;
-
-  #nav-icon span {
-    background-color: #FFF;
-  }  
+.show-nav .hamburger.darkNav {
+   background-color: $white;
 }
+
+.hamburger.darkNav {
+   background-color: $black;
+
+   #nav-icon span {
+     background-color: $white;
+   }
+
+   #nav-icon.open span {
+     background-color: $black;
+   }
+}
+
 

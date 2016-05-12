@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <!-- <script src="assets/js/vendor/modernizr-custom.js"></script> -->
+        <script src="assets/js/vendor/modernizr-custom.js"></script>
 
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
@@ -32,7 +32,7 @@
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
         <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">       
     </head>
-    <body>
+    <body class="page-case-study">
         <!-- Preloader -->
         <div id="preloader">
             <div id="status">
@@ -70,61 +70,39 @@
                     </ul>
                 </nav>
             </header>
+
             <div id="case-study-info" class="col">
                 <header id="case-study-intro">
                     <h1>Case study</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                    
-                </header>                
+                </header> 
+
+                <ul id="controls">
+                    <li><a href="/portfolio" class="go-all" title="All Projects"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
+                    <li><a href="/portfolio" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="../heineken/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
+                </ul>
+
+                <div class="hr"></div>
+
+                <h2>PhoneResQ</h2>                
+                <p><strong>Client: </strong>PhoneResQ</p>                      
+                <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
+                <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>
+                
+                <p><strong>Summary: </strong></p>
+                
+                <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
+                <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
+                <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
+
+                <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+
+                <div class="hr"></div>  
             </div>
             <div id="case-study-img" class="col">
                 <img src="../assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
             </div>
         </section><!-- End of Case Study -->
-
-        <!-- Full sceen Navigation -->
-        <button class="hamburger" id="trigger-overlay" type="button">
-            <span id="nav-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-        </button>
-
-        <div class="overlay overlay-hugeinc">
-            <div class="overlay-layer"></div>
-            <img src="assets/img/video/space.jpg" alt="Space">
-            <video loop muted autoplay poster="assets/img/video/space.jpg">
-                <source src="assets/img/video/space.webm" type="video/webm">
-                <source src="assets/img/video/space.mp4" type="video/mp4">
-                <source src="assets/img/video/space.ogv" type="video/ogg">
-            </video>
-            
-            <header>
-                <h1>Slam Dunk Digital</h1>
-            </header>
-            <nav>
-                <ul>
-                    <li class="home"><a href="#home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="what-we-do yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="work red"><a href="#work"><span class="red">O</span>ur work</a></li>
-                    <li class="clients green"><a href="#clients"><span class="green">C</span>lients</a></li>
-                    <li class="contact blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
-                    <li class="social">
-                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>                       
-                    </li>
-                    <li class="overlay-share show-hide">
-                        <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
-                            <li><div class="g-plusone" data-annotation="none"></div></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 
         <section id="quick-message">
             <header>
@@ -146,13 +124,14 @@
                   mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
                   
                   //Email response
-                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.</p>";
+                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.<p>";
                   }
                   
                   //if "email" variable is not filled out, display the form
                   else  {
                 ?>
                 <p>Send us a quick meassage. <br>Please fill in all the fields below to send us a message online.</p>
+
                 <form id="contact-form" method="post" action="index.php#quick-message">
                     <fieldset>
                         <p>
@@ -220,20 +199,55 @@
                 </div>
             </footer>
         </div>
-               
-<!--    <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
-        <script src="assets/js/plugins.js"></script>
-<!--    
-        <script src="assets/js/jquery.alton.min.js"></script>
-        <script src="assets/js/jquery.eavesdrop.js"></script>
-        <script src="assets/js/vendor/classie.js"></script>
+
+        <!-- Full sceen Navigation -->
+        <button class="hamburger darkNav" id="trigger-overlay" type="button">
+            <span id="nav-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+        </button>
+
+        <div class="overlay overlay-hugeinc">
+            <div class="overlay-layer"></div>
+            <img src="assets/img/video/space.jpg" alt="Space">
+            <video loop muted autoplay poster="assets/img/video/space.jpg">
+                <source src="assets/img/video/space.webm" type="video/webm">
+                <source src="assets/img/video/space.mp4" type="video/mp4">
+                <source src="assets/img/video/space.ogv" type="video/ogg">
+            </video>
+            
+            <header>
+                <h1>Slam Dunk Digital</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li class="home"><a href="#home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
+                    <li class="what-we-do yellow"><a href="#what-we-do"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="work red"><a href="#work"><span class="red">O</span>ur work</a></li>
+                    <li class="clients green"><a href="#clients"><span class="green">C</span>lients</a></li>
+                    <li class="contact blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
+                    <li class="social">
+                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
+                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
+                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
+                    </li>
+                    <li class="overlay-share show-hide">
+                        <ul>
+                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                            <li><div class="g-plusone" data-annotation="none"></div></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
-        <script src="assets/js/vendor/tweenLite.min.js"></script>
-        <script src="assets/js/vendor/easePack.min.js"></script>
-        <script src="assets/js/vendor/rAF.js"></script>
-        <script src="assets/js/vendor/emitter.js"></script>
-        <script src="assets/js/vendor/proximity.js"></script>
-        <script src="assets/js/vendor/css3-animate-it.min.js"></script> -->
+        <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/scripts.js"></script>
 
         <!-- Google Maps api -->
@@ -254,7 +268,6 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <!-- Linkedin Share -->
         <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-        <!-- Google Maps api -->        
         <script>
         //<![CDATA[
             $(window).load(function() { // makes sure the whole site is loaded

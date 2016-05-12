@@ -112,6 +112,12 @@
 	#nav-mini {
 		display: none;
 	}
+	.overlay {
+	 	ul li a.active {
+			background-color: transparent;
+		}
+	}
+	
 
 }	
 
@@ -203,16 +209,50 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	.fa-2x {
-		font-size: 1.75em;
+	.fa-1x {
+		font-size: rem(40);
 	}
 
+	#quick-message {
+		h1 {
+			width: 100%;
+			font-size: rem(30);
+			text-align: left;
+		}
+
+		h1:after {
+			bottom: -4px;
+		}
+	}
+
+	footer #copyright-info ul {
+		padding: 0;
+	}
+
+	.overlay ul li { 
+		height: calc(100% / 12);
+			a {
+				font-size: rem(30);
+			}
+	}
+
+	li.overlay-share ul li {
+		margin-bottom: 20px;
+	}
 }
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
 	#what-we-do h1 {
 		font-size: rem(34);
+	}
+
+	#social-links {
+		display: none;
+	}
+
+	#quick-message h1 {
+		font-size: 1.7rem;
 	}
 }
 
@@ -248,6 +288,34 @@ $mobile-home: new-breakpoint(max-height 414px);
 	.overlay h1,
 	#case-study h1 {
 		font-size: rem(20);
+	}
+
+
+	.overlay {
+		nav {
+			top: 40%;
+		}
+
+		ul li { 
+			height: calc(100% / 10);
+
+			a {
+				font-size: rem(26);
+			}
+		}
+		
+		li.overlay-share ul li {
+			margin-bottom: 20px;
+		}
+
+		li.social {
+			margin-top: 20px;
+		}
+
+		ul li a.active {
+			background-color: transparent;
+		}	
+
 	}
 }
 

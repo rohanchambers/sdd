@@ -19,6 +19,11 @@ html {
 .white {
   color: #FFF; }
 
+.antialiased, header h1, #nav-icon span {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased; }
+
 section header {
   margin-bottom: 10px; }
   section header::after {
@@ -90,19 +95,27 @@ header p {
 #clients h1,
 #case-study #case-study-intro h1 {
   padding-left: 25px; }
-#clients h1:after,
-#case-study #case-study-intro h1:after {
-  left: 25px;
-  width: 61%; }
 #clients h1:before,
 #case-study #case-study-intro h1:before {
   left: 0;
   background-color: #009f5e; }
+#clients h1:after,
+#case-study #case-study-intro h1:after {
+  left: 25px;
+  width: 61%; }
 
+#case-study .col h2 {
+  text-transform: uppercase; }
+#case-study .col p {
+  font-size: 0.875rem; }
 #case-study #case-study-intro h1 {
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  margin-bottom: 30px; }
 #case-study #case-study-intro h1:before {
-  background-color: orange; }
+  height: 30px;
+  background-color: #0074c0; }
+#case-study #case-study-intro h1:after {
+  width: 68%; }
 #case-study #case-study-intro p {
   width: 100%; }
 
@@ -218,16 +231,15 @@ footer {
   float: left;
   display: block;
   margin-right: 0%;
-  width: 41.66667%;
-  background-color: red; }
+  width: 41.66667%; }
   #case-study #case-study-info:last-child {
     margin-right: 0; }
 #case-study #case-study-img {
+  padding: 0%;
   float: left;
   display: block;
   margin-right: 0%;
-  width: 58.33333%;
-  background-color: blue; }
+  width: 58.33333%; }
   #case-study #case-study-img:last-child {
     margin-right: 0; }
 
@@ -333,7 +345,7 @@ footer {
 #nav-icon span {
   display: block;
   position: absolute;
-  height: 4px;
+  height: .25em;
   width: 90%;
   background-color: #000;
   border-radius: 9px;
@@ -363,28 +375,33 @@ footer {
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
-  background-color: #FFF; }
+  background-color: #000; }
 
 #nav-icon.open span:nth-child(2) {
   opacity: 0;
   left: -60px;
-  background-color: #FFF; }
+  background-color: #000; }
 
 #nav-icon.open span:nth-child(3) {
   top: 14px;
-  background-color: #FFF;
+  background-color: #000;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
 .show-nav .hamburger {
-  background-color: #000; }
+  background-color: #FFF; }
+
+.show-nav .hamburger.darkNav {
+  background-color: #FFF; }
 
 .hamburger.darkNav {
   background-color: #000; }
   .hamburger.darkNav #nav-icon span {
     background-color: #FFF; }
+  .hamburger.darkNav #nav-icon.open span {
+    background-color: #000; }
 
 /* Overlay style */
 .overlay {
@@ -2101,7 +2118,7 @@ footer {
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.8);
+  background: #fd070d;
   margin: 20px 0 0 0; }
 #work .view p {
   font-family: Helvetica, Verdana, sans-serif;
@@ -2589,11 +2606,48 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     transform: translate(-50%, -50%);
     z-index: -1; }
 
+.page-case-study #nav-mini {
+  display: none; }
+
 #case-study {
   background-color: #000; }
+  #case-study::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #case-study .col {
+    background-color: #FFF; }
   #case-study #logo {
     margin-bottom: 0;
     padding-bottom: 10px; }
+  #case-study #case-study-img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 580px;
+    height: auto; }
+  #case-study #controls {
+    margin: 0;
+    padding: 0; }
+    #case-study #controls::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #case-study #controls li {
+      display: inline-block;
+      float: left;
+      margin-right: 10px; }
+      #case-study #controls li i {
+        color: #000; }
+      #case-study #controls li .fa-th {
+        margin-top: 2px;
+        font-size: 1.875rem; }
+    #case-study #controls a:hover i {
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-border-radius: all 300ms ease;
+      transition: all 300ms ease;
+      color: #0074c0; }
 
 #what-we-do-outer {
   overflow: hidden;
@@ -2696,7 +2750,8 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out; }
+    transition: opacity .5s ease-in-out;
+    -webkit-backface-visibility: hidden; }
   #clients .row .client img.top:hover {
     opacity: 0; }
 
@@ -3005,7 +3060,10 @@ footer {
 
   canvas,
   #nav-mini {
-    display: none; } }
+    display: none; }
+
+  .overlay ul li a.active {
+    background-color: transparent; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,
@@ -3067,11 +3125,35 @@ footer {
     #clients .row .client:last-child {
       margin-right: 0; }
 
-  .fa-2x {
-    font-size: 1.75em; } }
+  .fa-1x {
+    font-size: 2.5rem; }
+
+  #quick-message h1 {
+    width: 100%;
+    font-size: 1.875rem;
+    text-align: left; }
+  #quick-message h1:after {
+    bottom: -4px; }
+
+  footer #copyright-info ul {
+    padding: 0; }
+
+  .overlay ul li {
+    height: calc(100% / 12); }
+    .overlay ul li a {
+      font-size: 1.875rem; }
+
+  li.overlay-share ul li {
+    margin-bottom: 20px; } }
 @media screen and (min-width: 320px) {
   #what-we-do h1 {
-    font-size: 2.125rem; } }
+    font-size: 2.125rem; }
+
+  #social-links {
+    display: none; }
+
+  #quick-message h1 {
+    font-size: 1.7rem; } }
 @media screen and (max-height: 414px) {
   #home #slogan {
     width: 40%; }
@@ -3089,6 +3171,19 @@ footer {
   #home h1,
   .overlay h1,
   #case-study h1 {
-    font-size: 1.25rem; } }
+    font-size: 1.25rem; }
+
+  .overlay nav {
+    top: 40%; }
+  .overlay ul li {
+    height: calc(100% / 10); }
+    .overlay ul li a {
+      font-size: 1.625rem; }
+  .overlay li.overlay-share ul li {
+    margin-bottom: 20px; }
+  .overlay li.social {
+    margin-top: 20px; }
+  .overlay ul li a.active {
+    background-color: transparent; } }
 
 /*# sourceMappingURL=styles.css.map */

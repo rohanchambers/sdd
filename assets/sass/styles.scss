@@ -216,14 +216,60 @@
 		}        	
 }
 
+
 // CASE STUDY SECTION
+.page-case-study #nav-mini {
+	display: none;
+}
+
 #case-study {
 	background-color: $black;
+	@include clearfix;
+	
+	.col {
+		background-color: $white;
+	}
+
 	#logo {
 		margin-bottom: 0;
 		padding-bottom: 10px;
 	}
+
+	#case-study-img img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 580px;
+		height: auto;
+	}
+
+	#controls {
+		@include clearfix;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			float: left;
+			margin-right: 10px;
+
+			i {
+				color: $black;
+			}
+
+			.fa-th {
+				margin-top: 2px;
+				font-size: rem(30);
+			}
+		}
+
+		a:hover i {
+			@include hover-links();
+			color: $blue;
+		}
+	}
 }
+
 
 // WHAT WE DO SECTION
 #what-we-do-outer {
@@ -376,7 +422,8 @@
 				-webkit-transition: opacity .5s ease-in-out;
 					-moz-transition: opacity .5s ease-in-out;
 						-o-transition: opacity .5s ease-in-out;
-							transition: opacity .5s ease-in-out;				
+							transition: opacity .5s ease-in-out;
+							-webkit-backface-visibility: hidden;				
     		}
 
 			img.top:hover {

@@ -6,6 +6,13 @@
 				transition: all 300ms ease;
 }
 
+// Extends
+.antialiased {
+	-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+			-o-font-smoothing: antialiased;		
+}
+
 // -------------------------------------------------------------------
 // Omega Reset for Bourbon Neat
 //
