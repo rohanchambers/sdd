@@ -115,8 +115,12 @@ header {
 
 #case-study {
 	.col {		
-		h2 {
-			text-transform: uppercase;	
+		h1 {
+			font-family: $font-med;
+			font-size: rem(24);	
+			text-transform: uppercase;
+			color: $white;
+			background-color: $blue;
 		}
 
 		p {

@@ -52,39 +52,39 @@
 
         <!-- Case study section -->
         <section id="case-study">
-            <header id="logo">
-                <h1>Slam Dunk Digital</h1>            
-                <nav id="social-links" class="nav-global">
-                    <ul>
-                        <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
-                        <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
-                            <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                                <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
-                                <li><div class="g-plusone" data-annotation="none"></div></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+            <div id="logo-outer">
+                <header id="logo">
+                    <h1>Slam Dunk Digital</h1>            
+                    <nav id="social-links" class="nav-global">
+                        <ul>
+                            <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
+                            <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
+                            <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
+                            <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
+                                <ul id="share-me" class="animated fadeInDown fast share-me-panel">
+                                    <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
+                                    <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                                    <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                                    <li><div class="g-plusone" data-annotation="none"></div></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
 
             <div id="case-study-info" class="col">
-                <header id="case-study-intro">
-                    <h1>Case study</h1>
-                </header> 
-
-                <ul id="controls">
-                    <li><a href="/portfolio" class="go-all" title="All Projects"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
-                    <li><a href="/portfolio" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="../heineken/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
-                </ul>
-
-                <div class="hr"></div>
-
-                <h2>PhoneResQ</h2>                
+                <header>
+                    <h1>PhoneResQ</h1>
+                    <nav>
+                        <ul id="controls">
+                            <li><a href="#" class="go-all" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </nav>
+                </header>
+                                
                 <p><strong>Client: </strong>PhoneResQ</p>                      
                 <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                 <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>

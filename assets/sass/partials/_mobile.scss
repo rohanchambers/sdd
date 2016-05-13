@@ -14,6 +14,11 @@
 		padding: 0 3%;
 	}
 	
+	// Reset padding to even out columns
+	#case-study-intro {
+		padding: 0;
+	}
+	
 	.overlay {
 		padding-top: 5px;
 	}
@@ -117,9 +122,15 @@
 			background-color: transparent;
 		}
 	}
-	
 
-}	
+	#case-study {
+		.col,
+		#case-study-info,
+		#case-study-img  {
+			@include span-columns(12);
+		}
+	}
+}
 
 // TABLET 600PX | Logo stack: ;
 $tablet-600: new-breakpoint(max-width 600px);
@@ -148,6 +159,18 @@ $tablet-600: new-breakpoint(max-width 600px);
 			left: 10px;		 
 		}
 	}
+
+	#case-study #case-study-intro {
+		h1 {
+			line-height: normal;
+			width: 100%;
+		}
+
+		h1:after {
+			width: 170px;
+		}
+	}
+
 
 	#home,
 	#case-study {

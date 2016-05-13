@@ -104,8 +104,12 @@ header p {
   left: 25px;
   width: 61%; }
 
-#case-study .col h2 {
-  text-transform: uppercase; }
+#case-study .col h1 {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #0074c0; }
 #case-study .col p {
   font-size: 0.875rem; }
 #case-study #case-study-intro h1 {
@@ -225,8 +229,8 @@ footer {
 #case-study .col {
   padding: 0;
   margin-right: 0;
-  padding: 2%;
-  min-height: 1300px; }
+  padding: 3%;
+  height: auto; }
 #case-study #case-study-info {
   float: left;
   display: block;
@@ -235,6 +239,7 @@ footer {
   #case-study #case-study-info:last-child {
     margin-right: 0; }
 #case-study #case-study-img {
+  border-left: 10px solid #000;
   padding: 0%;
   float: left;
   display: block;
@@ -2609,45 +2614,50 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 .page-case-study #nav-mini {
   display: none; }
 
-#case-study {
+#case-study::after {
+  clear: both;
+  content: "";
+  display: table; }
+#case-study #logo-outer {
   background-color: #000; }
-  #case-study::after {
-    clear: both;
-    content: "";
-    display: table; }
-  #case-study .col {
-    background-color: #FFF; }
-  #case-study #logo {
-    margin-bottom: 0;
-    padding-bottom: 10px; }
-  #case-study #case-study-img img {
-    display: block;
-    margin: 0 auto;
+#case-study .col {
+  background-color: #FFF; }
+#case-study #logo {
+  margin-bottom: 0;
+  padding-bottom: 10px; }
+#case-study #case-study-img img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
+#case-study #case-study-info header {
+  position: relative;
+  padding: 0; }
+  #case-study #case-study-info header h1 {
     width: 100%;
-    max-width: 580px;
-    height: auto; }
-  #case-study #controls {
-    margin: 0;
+    padding: 8px; }
+  #case-study #case-study-info header h1:before {
+    display: none; }
+  #case-study #case-study-info header #controls {
+    position: absolute;
+    top: -10px;
+    right: 0;
     padding: 0; }
-    #case-study #controls::after {
-      clear: both;
-      content: "";
-      display: table; }
-    #case-study #controls li {
+    #case-study #case-study-info header #controls li {
       display: inline-block;
       float: left;
       margin-right: 10px; }
-      #case-study #controls li i {
-        color: #000; }
-      #case-study #controls li .fa-th {
+      #case-study #case-study-info header #controls li i {
+        color: #FFF; }
+      #case-study #case-study-info header #controls li .fa-th {
         margin-top: 2px;
         font-size: 1.875rem; }
-    #case-study #controls a:hover i {
+    #case-study #case-study-info header #controls a:hover i {
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease;
-      color: #0074c0; }
+      color: #000; }
 
 #what-we-do-outer {
   overflow: hidden;
@@ -2983,6 +2993,9 @@ footer {
   .overlay h1 {
     padding: 0 3%; }
 
+  #case-study-intro {
+    padding: 0; }
+
   .overlay {
     padding-top: 5px; }
 
@@ -3063,7 +3076,19 @@ footer {
     display: none; }
 
   .overlay ul li a.active {
-    background-color: transparent; } }
+    background-color: transparent; }
+
+  #case-study .col,
+  #case-study #case-study-info,
+  #case-study #case-study-img {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #case-study .col:last-child,
+    #case-study #case-study-info:last-child,
+    #case-study #case-study-img:last-child {
+      margin-right: 0; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,
@@ -3078,7 +3103,13 @@ footer {
 
   .overlay h1 {
     position: absolute;
-    left: 10px; } }
+    left: 10px; }
+
+  #case-study #case-study-intro h1 {
+    line-height: normal;
+    width: 100%; }
+  #case-study #case-study-intro h1:after {
+    width: 170px; } }
 @media screen and (max-width: 600px) and (max-width: 600px) {
   #home #social-links ul#share-me,
   #case-study #social-links ul#share-me {
@@ -3145,7 +3176,7 @@ footer {
 
   li.overlay-share ul li {
     margin-bottom: 20px; } }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   #what-we-do h1 {
     font-size: 2.125rem; }
 

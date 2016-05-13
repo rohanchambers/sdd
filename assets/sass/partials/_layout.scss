@@ -30,8 +30,8 @@ footer {
 	.col {		
 		@include pad(0);
 		@include omega();
-		padding: 2%;
-		min-height: 1300px;
+		padding: 3%;
+		height: auto;
 	}
 
 	#case-study-info {
@@ -39,6 +39,7 @@ footer {
 	}
 
 	#case-study-img {
+		border-left: 10px solid $black;
 		padding: 0%;
 		@include span-columns(7);
 	}	
@@ -46,7 +47,6 @@ footer {
 
 .col-no-skew {
 	.pe-thumbs li {
-		// position: relative;
 		@include span-columns(3);
 		@include omega();
 	}	
