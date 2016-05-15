@@ -60,7 +60,7 @@
 }
 
 #home,
-#case-study #logo {
+#logo {
 	background-color: $black;
 	color: $white;
 
@@ -217,77 +217,6 @@
 }
 
 
-// CASE STUDY SECTION
-.page-case-study #nav-mini {
-	display: none;
-}
-
-#case-study {	
-	@include clearfix;
-
-	#logo-outer	{
-		background-color: $black;
-	}
-
-	.col {
-		background-color: $white;
-	}
-
-	#logo {
-		margin-bottom: 0;
-		padding-bottom: 10px;
-	}
-
-	#case-study-img img {
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-		height: auto;
-	}
-
-	#case-study-info header {
-		position: relative;
-		padding: 0;
-		
-		h1 {
-			width: 100%;
-			padding: 8px;
-		}
-	
-		h1:before {
-			display: none;
-		}
-
-		#controls {
-			position: absolute;
-			top: -10px;
-			right: 0;
-			padding: 0;
-
-			li {
-				display: inline-block;
-				float: left;
-				margin-right: 10px;
-
-				i {
-					color: $white;
-				}
-
-				.fa-th {
-					margin-top: 2px;
-					font-size: rem(30);
-				}
-			}
-
-			a:hover i {
-				@include hover-links();
-				color: $black;
-			}
-		}
-	}
-}
-
-
 // WHAT WE DO SECTION
 #what-we-do-outer {
 	overflow: hidden;
@@ -296,6 +225,7 @@
 
 #what-we-do {
 	position: relative;
+	background-color: $yellow;
     @include clearfix;
 
 	.intro {
@@ -309,10 +239,15 @@
 		    position: relative;
 		    z-index: 2;
 		}
+
+		img {
+			width: 100%;
+			height: auto;	
+		}
 	}
 
 	.col-skew {
-		padding: 25px 30px 25px 65px;
+		padding: 2% 4%;//25px 30px 25px 65px;
 		background-color: $yellow;
 	}
 
@@ -322,8 +257,8 @@
 	    z-index:1;
 	    top:0;
 	    bottom:0;
-	    left:38%;
-	    width:18%;
+	    left:22%;
+	    width:30%;
 	    background: $yellow;
 	    -webkit-transform:skewX(-8deg);
 	    	transform:skewX(-8deg);
@@ -385,6 +320,147 @@
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CASE STUDY SECTION
+.page-case-study #nav-mini {
+	display: none;
+}
+
+// Logo full width styles for case study page 
+#logo-outer	{
+	background-color: $black;
+	
+	#logo {
+		@include clearfix;
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+}
+
+// CASE STUDY SECTION
+#case-study-outer {
+	height: auto;
+	background-color: $yellow;
+
+	#case-study {
+		position: relative;
+		@include clearfix;		
+
+		p {
+			position: relative;
+			z-index: 2;
+			clear: none;
+		}
+
+		.col-skew {
+			padding: 2% 2% 2% 3%;
+			background-color: $yellow;
+		}
+
+		.col-skew:after {
+		    content:"";
+		    position:absolute;
+		    z-index:1;
+		    top:0;
+		    bottom:0;
+		    left: 11%;
+		    width: 32%;
+		    background: $yellow;
+		    -webkit-transform:skewX(-8deg);
+		    	transform:skewX(-8deg);
+		}	
+
+		// Left column
+		#case-study-info {
+			a {
+				color: $black;
+				font-size: inherit;
+			}
+
+			header {
+				position: relative;
+				z-index: 2;	
+				padding: 0;
+
+				img {
+					float: left;
+					width: 110px;
+					height: 99px;
+					margin: 0 10px 0 0;
+					padding: 5px;
+					background-color: $white;
+				}
+
+				
+
+				#controls {
+					position: absolute;
+					top: -6px;
+					right: 0;
+					padding: 0;
+
+					li {
+						display: inline-block;
+						float: left;
+						margin-right: 10px;
+
+						i {
+							color: $white;
+						}
+
+						.fa-th {
+							margin-top: 2px;
+							font-size: rem(30);
+						}
+					}
+
+					a:hover i {
+						@include hover-links();
+						color: $black;
+					}
+				}
+			}			
+		}// End of case study info
+		
+		// Right column
+		#case-study-img img {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			height: auto;
+		}			
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // WORK SECTION
@@ -545,7 +621,9 @@
 // QUICK MESSAGE SECTION
 #quick-message {
 	padding: 25px 0;
-	background: #054B79;
+	// background: url(../img/global/smoke.jpg) center center;	
+	// background-size: cover;
+	background-color: #054B79;
 	
 	h1, p {
 		color: $white;
@@ -662,12 +740,12 @@
 // FOOTER SECTION
 #footer-outer {
 	width: 100%;
+	background-size: cover;
 	background-color: $black;
 }
 
 footer {
-	height: auto;
-	background-color: $black;
+	height: auto;	
 
 	.col {
 		padding: 25px 0;

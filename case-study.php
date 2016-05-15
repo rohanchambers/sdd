@@ -45,125 +45,66 @@
                   <div class="sk-cube sk-cube6"></div>
                   <div class="sk-cube sk-cube7"></div>
                   <div class="sk-cube sk-cube8"></div>
+                  </div>
                   <div class="sk-cube sk-cube9"></div>
-                </div>
+                
             </div>
         </div>
 
         <!-- Case study section -->
-        <section id="case-study">
-            <div id="logo-outer">
-                <header id="logo">
-                    <h1>Slam Dunk Digital</h1>            
-                    <nav id="social-links" class="nav-global">
-                        <ul>
-                            <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
-                            <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
-                            <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
-                            <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
-                                <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                    <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                    <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                                    <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
-                                    <li><div class="g-plusone" data-annotation="none"></div></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-            </div>
-
-            <div id="case-study-info" class="col">
-                <header>
-                    <h1>PhoneResQ</h1>
-                    <nav>
-                        <ul id="controls">
-                            <li><a href="#" class="go-all" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </nav>
-                </header>
-                                
-                <p><strong>Client: </strong>PhoneResQ</p>                      
-                <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
-                <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>
-                
-                <p><strong>Summary: </strong></p>
-                
-                <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-
-                <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
-
-                <div class="hr"></div>  
-            </div>
-            <div id="case-study-img" class="col">
-                <img src="../assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
-            </div>
-        </section><!-- End of Case Study -->
-
-        <section id="quick-message">
-            <header>
-                <h1>Quick message</h1>
+        <div id="logo-outer">
+            <header id="logo">
+                <h1>Slam Dunk Digital</h1>
+                <nav id="social-links" class="nav-global">                    
+                    <ul>
+                        <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
+                        <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
+                        <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
+                        <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
+                            <ul id="share-me" class="animated fadeInDown fast share-me-panel">
+                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                                <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                                <li><div class="g-plusone" data-annotation="none"></div></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </header>
-            <?php
-                //if "email" variable is filled out, send email
-                  if (isset($_REQUEST['email']))  {
-                  
-                  //Email information
-                  $admin_email = "info@rohanchambers.net";
-                  $email = $_REQUEST['email'];
-                  $subject = "Slam Dunk Message. message: " . $_REQUEST['subject'];
-                  $comment = $_REQUEST['comment'].$phone;
-                  $phone = $_REQUEST['phone'];
-                  $comment_phone = $comment . "\n\n Phone: ".$phone;
+        </div><!-- End of Nav main -->
+        
+        <div id="case-study-outer">
+            <section id="case-study">
+                <div id="case-study-info" class="col col-skew">
+                    <header>                    
+                        <h1>PhoneResQ</h1>
+                        <img src="../assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
+                        <nav>
+                            <ul id="controls">
+                                <li><a href="#" class="go-all" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
+                                <li><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
+                                <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </nav>
+                        <p><strong>Client: </strong>PhoneResQ</p>
+                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
+                    </header>
 
-                  //send email
-                  mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
-                  
-                  //Email response
-                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.<p>";
-                  }
-                  
-                  //if "email" variable is not filled out, display the form
-                  else  {
-                ?>
-                <p>Send us a quick meassage. <br>Please fill in all the fields below to send us a message online.</p>
+                    <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                
+                    <p><strong>Summary:</strong></p>
 
-                <form id="contact-form" method="post" action="index.php#quick-message">
-                    <fieldset>
-                        <p>
-                            <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
-                            <span></span>
-                            <label for="resqFullname"></label>
-                        </p>
-                        <p>
-                            <input type="email" placeholder="Email" name="email" id="resqEmail" required>
-                            <span></span>
-                            <label for="resqEmail"></label>
-                        </p>
-                        <p>
-                            <input type="number" placeholder="Phone number (optional)" name="phone" id="resqPhone">
-                            <span></span>
-                            <label for="resqPhone"></label>
-                        </p>        
-                        <p id="textarea">
-                            <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
-                            <span></span>
-                            <label for="resqMessage"></label>
-                        </p>
-                        <p>
-                            <button type="submit" id="btn-submit" class="btn-animate">Send</button>
-                        </p>
-                    </fieldset>
-                </form>
-            <?php
-              }
-            ?>
-        </section>
+                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
+                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
+                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
 
+                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                
+                </div>
+                
+                <div id="case-study-img" class="col col-no-skew">
+                     <img src="../assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
+                </div>
+            </section><!-- End of home-->
+        </div>
 
         <div id="footer-outer">
             <footer>

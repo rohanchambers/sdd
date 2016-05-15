@@ -64,13 +64,14 @@ header {
 	}
 }
 
-#what-we-do {
+#what-we-do,
+#case-study {
 	h1, p {
 		width: 100%;
 	}
 	
 	h1:before {
-		display: none;
+		//display: none;
 	}
 
 	h1:after {
@@ -91,8 +92,7 @@ header {
 	}
 }
 
-#clients,
-#case-study #case-study-intro {
+#clients {
 	h1, p {
 		float: left;
 		text-align: left;
@@ -114,38 +114,31 @@ header {
 }
 
 #case-study {
-	.col {		
-		h1 {
-			font-family: $font-med;
-			font-size: rem(24);	
-			text-transform: uppercase;
-			color: $white;
-			background-color: $blue;
-		}
+	#case-study-info {
+		header {
+			h1 {
+				font-size: rem(28);
+				margin-bottom: 20px;
+				color: $white;
+				text-transform: none;
+			}
+			
+			h1:before {
+				display: none;
+			}
 
-		p {
-			font-size: rem(14);
-		}
-	}
-	
-	#case-study-intro {
-		h1 {
-			font-size: rem(28);
-			margin-bottom: 30px;
-		}
-
-		h1:before {
-			height: 30px;
-			background-color: $blue;
-		}
-
-		h1:after  {
-			width: 68%;
+			h1:after  {
+				left: 0;
+				width: 165px;
+				height: 3px;
+				background-color: $white;
+			}
 		}
 
 		p {
 			width: 100%;
-		}
+			font-size: rem(14);
+		}		
 	}
 }
 

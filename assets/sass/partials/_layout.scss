@@ -1,11 +1,11 @@
-// NEAT GRID LAYOUT FOR SECTIONS
+// NEAT GRID LAYOUT FOR SECTIONS (desktop version only)
 #home,
 .overlay h1,
 #work header,
 #clients header,
 #contact,
 #contact-info,
-#case-study header,
+#logo,
 footer {
 	@include outer-container(1024px);
 }
@@ -17,32 +17,14 @@ footer {
 	@include clearfix();
 }
 
-#what-we-do {
+#what-we-do,
+#case-study {
 	.col {
 		@include span-columns(6);
 		@include pad(0);
 		@include omega();
 		min-height: 1300px;
 	}
-}
-
-#case-study {
-	.col {		
-		@include pad(0);
-		@include omega();
-		padding: 3%;
-		height: auto;
-	}
-
-	#case-study-info {
-		@include span-columns(5);
-	}
-
-	#case-study-img {
-		border-left: 10px solid $black;
-		padding: 0%;
-		@include span-columns(7);
-	}	
 }
 
 .col-no-skew {

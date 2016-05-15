@@ -72,11 +72,12 @@ header p {
 #logo h1:before {
   display: none; }
 
-#what-we-do h1, #what-we-do p {
+#what-we-do h1, #what-we-do p,
+#case-study h1,
+#case-study p {
   width: 100%; }
-#what-we-do h1:before {
-  display: none; }
-#what-we-do h1:after {
+#what-we-do h1:after,
+#case-study h1:after {
   left: 0;
   width: 222px; }
 
@@ -87,41 +88,33 @@ header p {
   right: 25px;
   width: 72%; }
 
-#clients h1, #clients p,
-#case-study #case-study-intro h1,
-#case-study #case-study-intro p {
+#clients h1, #clients p {
   float: left;
   text-align: left; }
-#clients h1,
-#case-study #case-study-intro h1 {
+#clients h1 {
   padding-left: 25px; }
-#clients h1:before,
-#case-study #case-study-intro h1:before {
+#clients h1:before {
   left: 0;
   background-color: #009f5e; }
-#clients h1:after,
-#case-study #case-study-intro h1:after {
+#clients h1:after {
   left: 25px;
   width: 61%; }
 
-#case-study .col h1 {
-  font-family: Arial, Verdana, sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  color: #FFF;
-  background-color: #0074c0; }
-#case-study .col p {
-  font-size: 0.875rem; }
-#case-study #case-study-intro h1 {
+#case-study #case-study-info header h1 {
   font-size: 1.75rem;
-  margin-bottom: 30px; }
-#case-study #case-study-intro h1:before {
-  height: 30px;
-  background-color: #0074c0; }
-#case-study #case-study-intro h1:after {
-  width: 68%; }
-#case-study #case-study-intro p {
-  width: 100%; }
+  margin-bottom: 20px;
+  color: #FFF;
+  text-transform: none; }
+#case-study #case-study-info header h1:before {
+  display: none; }
+#case-study #case-study-info header h1:after {
+  left: 0;
+  width: 165px;
+  height: 3px;
+  background-color: #FFF; }
+#case-study #case-study-info p {
+  width: 100%;
+  font-size: 0.875rem; }
 
 #contact h1,
 #quick-message h1 {
@@ -187,7 +180,7 @@ header p {
 #clients header,
 #contact,
 #contact-info,
-#case-study header,
+#logo,
 footer {
   max-width: 1024px;
   margin-left: auto;
@@ -198,7 +191,7 @@ footer {
   #clients header::after,
   #contact::after,
   #contact-info::after,
-  #case-study header::after,
+  #logo::after,
   footer::after {
     clear: both;
     content: "";
@@ -215,7 +208,8 @@ footer {
     content: "";
     display: table; }
 
-#what-we-do .col {
+#what-we-do .col,
+#case-study .col {
   float: left;
   display: block;
   margin-right: 0%;
@@ -223,29 +217,8 @@ footer {
   padding: 0;
   margin-right: 0;
   min-height: 1300px; }
-  #what-we-do .col:last-child {
-    margin-right: 0; }
-
-#case-study .col {
-  padding: 0;
-  margin-right: 0;
-  padding: 3%;
-  height: auto; }
-#case-study #case-study-info {
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 41.66667%; }
-  #case-study #case-study-info:last-child {
-    margin-right: 0; }
-#case-study #case-study-img {
-  border-left: 10px solid #000;
-  padding: 0%;
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 58.33333%; }
-  #case-study #case-study-img:last-child {
+  #what-we-do .col:last-child,
+  #case-study .col:last-child {
     margin-right: 0; }
 
 .col-no-skew .pe-thumbs li {
@@ -2480,34 +2453,34 @@ a.tooltip.animate:after, a.tooltip.animate:before {
   background-color: #000; }
 
 #home,
-#case-study #logo {
+#logo {
   background-color: #000;
   color: #FFF; }
   #home #social-links,
-  #case-study #logo #social-links {
+  #logo #social-links {
     position: absolute;
     z-index: 100;
     top: 0;
     right: 90px; }
     #home #social-links li,
-    #case-study #logo #social-links li {
+    #logo #social-links li {
       float: left;
       margin: 0 10px 0 0; }
       #home #social-links li a,
-      #case-study #logo #social-links li a {
+      #logo #social-links li a {
         color: #FFF; }
         #home #social-links li a i,
-        #case-study #logo #social-links li a i {
+        #logo #social-links li a i {
           font-size: 1.5rem; }
       #home #social-links li a:hover,
-      #case-study #logo #social-links li a:hover {
+      #logo #social-links li a:hover {
         color: #0074c0;
         -webkit-transition: all 300ms ease;
         -moz-transition: all 300ms ease;
         -ms-border-radius: all 300ms ease;
         transition: all 300ms ease; }
   #home #social-links ul#share-me,
-  #case-study #logo #social-links ul#share-me {
+  #logo #social-links ul#share-me {
     position: absolute;
     top: 55px;
     right: -3px;
@@ -2515,18 +2488,18 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     width: 290px;
     padding: 0; }
     #home #social-links ul#share-me li,
-    #case-study #logo #social-links ul#share-me li {
+    #logo #social-links ul#share-me li {
       display: block;
       width: auto; }
   #home #slogan,
-  #case-study #logo #slogan {
+  #logo #slogan {
     width: 700px;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -55%); }
     #home #slogan p,
-    #case-study #logo #slogan p {
+    #logo #slogan p {
       font-family: Arial, Verdana, sans-serif;
       font-size: 5rem;
       font-weight: bold;
@@ -2535,18 +2508,18 @@ a.tooltip.animate:after, a.tooltip.animate:before {
       margin: 20px 0 13px;
       padding: 0; }
       #home #slogan p span,
-      #case-study #logo #slogan p span {
+      #logo #slogan p span {
         font-size: inherit; }
     #home #slogan span,
-    #case-study #logo #slogan span {
+    #logo #slogan span {
       font-family: Helvetica, Verdana, sans-serif;
       font-size: 2.8125rem;
       font-style: italic; }
     #home #slogan span#all-the-time,
-    #case-study #logo #slogan span#all-the-time {
+    #logo #slogan span#all-the-time {
       font-size: 2.1875rem; }
   #home #mouse-scroll,
-  #case-study #logo #mouse-scroll {
+  #logo #mouse-scroll {
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -2558,31 +2531,31 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     clear: both;
     cursor: pointer; }
   #home .fa-angle-down,
-  #case-study #logo .fa-angle-down {
+  #logo .fa-angle-down {
     display: none;
     position: absolute;
     left: -1px;
     color: #ddd; }
   #home .angle-down-1,
-  #case-study #logo .angle-down-1 {
+  #logo .angle-down-1 {
     bottom: -5px; }
   #home .angle-down-2,
-  #case-study #logo .angle-down-2 {
+  #logo .angle-down-2 {
     bottom: -15px; }
   #home .icon-animate,
   #home .icon-animate:before,
-  #case-study #logo .icon-animate,
-  #case-study #logo .icon-animate:before {
+  #logo .icon-animate,
+  #logo .icon-animate:before {
     position: absolute;
     top: 0; }
   #home .icon-animate,
-  #case-study #logo .icon-animate {
+  #logo .icon-animate {
     width: 25px;
     height: 45px;
     top: 0%;
     border-radius: 20px; }
   #home .icon-animate:before,
-  #case-study #logo .icon-animate:before {
+  #logo .icon-animate:before {
     content: '';
     width: 5px;
     height: 5px;
@@ -2604,67 +2577,20 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     -webkit-transform: translateY(20px);
     transform: translateY(20px); } }
   #home canvas,
-  #case-study #logo canvas {
+  #logo canvas {
     position: fixed;
     top: 50%;
     left: 0;
     transform: translate(-50%, -50%);
     z-index: -1; }
 
-.page-case-study #nav-mini {
-  display: none; }
-
-#case-study::after {
-  clear: both;
-  content: "";
-  display: table; }
-#case-study #logo-outer {
-  background-color: #000; }
-#case-study .col {
-  background-color: #FFF; }
-#case-study #logo {
-  margin-bottom: 0;
-  padding-bottom: 10px; }
-#case-study #case-study-img img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: auto; }
-#case-study #case-study-info header {
-  position: relative;
-  padding: 0; }
-  #case-study #case-study-info header h1 {
-    width: 100%;
-    padding: 8px; }
-  #case-study #case-study-info header h1:before {
-    display: none; }
-  #case-study #case-study-info header #controls {
-    position: absolute;
-    top: -10px;
-    right: 0;
-    padding: 0; }
-    #case-study #case-study-info header #controls li {
-      display: inline-block;
-      float: left;
-      margin-right: 10px; }
-      #case-study #case-study-info header #controls li i {
-        color: #FFF; }
-      #case-study #case-study-info header #controls li .fa-th {
-        margin-top: 2px;
-        font-size: 1.875rem; }
-    #case-study #case-study-info header #controls a:hover i {
-      -webkit-transition: all 300ms ease;
-      -moz-transition: all 300ms ease;
-      -ms-border-radius: all 300ms ease;
-      transition: all 300ms ease;
-      color: #000; }
-
 #what-we-do-outer {
   overflow: hidden;
   height: 1300px; }
 
 #what-we-do {
-  position: relative; }
+  position: relative;
+  background-color: #ffc036; }
   #what-we-do::after {
     clear: both;
     content: "";
@@ -2676,8 +2602,11 @@ a.tooltip.animate:after, a.tooltip.animate:before {
   #what-we-do .col p {
     position: relative;
     z-index: 2; }
+  #what-we-do .col img {
+    width: 100%;
+    height: auto; }
   #what-we-do .col-skew {
-    padding: 25px 30px 25px 65px;
+    padding: 2% 4%;
     background-color: #ffc036; }
   #what-we-do .col-skew:after {
     content: "";
@@ -2685,8 +2614,8 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     z-index: 1;
     top: 0;
     bottom: 0;
-    left: 38%;
-    width: 18%;
+    left: 22%;
+    width: 30%;
     background: #ffc036;
     -webkit-transform: skewX(-8deg);
     transform: skewX(-8deg); }
@@ -2730,6 +2659,86 @@ a.tooltip.animate:after, a.tooltip.animate:before {
       font-size: 0.75rem;
       font-style: italic;
       border-top: 1px solid rgba(255, 255, 255, 0.3); }
+
+.page-case-study #nav-mini {
+  display: none; }
+
+#logo-outer {
+  background-color: #000; }
+  #logo-outer #logo {
+    margin-bottom: 0;
+    padding-bottom: 10px; }
+    #logo-outer #logo::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+#case-study-outer {
+  height: auto;
+  background-color: #ffc036; }
+  #case-study-outer #case-study {
+    position: relative; }
+    #case-study-outer #case-study::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #case-study-outer #case-study p {
+      position: relative;
+      z-index: 2;
+      clear: none; }
+    #case-study-outer #case-study .col-skew {
+      padding: 2% 2% 2% 3%;
+      background-color: #ffc036; }
+    #case-study-outer #case-study .col-skew:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 11%;
+      width: 32%;
+      background: #ffc036;
+      -webkit-transform: skewX(-8deg);
+      transform: skewX(-8deg); }
+    #case-study-outer #case-study #case-study-info a {
+      color: #000;
+      font-size: inherit; }
+    #case-study-outer #case-study #case-study-info header {
+      position: relative;
+      z-index: 2;
+      padding: 0; }
+      #case-study-outer #case-study #case-study-info header img {
+        float: left;
+        width: 110px;
+        height: 99px;
+        margin: 0 10px 0 0;
+        padding: 5px;
+        background-color: #FFF; }
+      #case-study-outer #case-study #case-study-info header #controls {
+        position: absolute;
+        top: -6px;
+        right: 0;
+        padding: 0; }
+        #case-study-outer #case-study #case-study-info header #controls li {
+          display: inline-block;
+          float: left;
+          margin-right: 10px; }
+          #case-study-outer #case-study #case-study-info header #controls li i {
+            color: #FFF; }
+          #case-study-outer #case-study #case-study-info header #controls li .fa-th {
+            margin-top: 2px;
+            font-size: 1.875rem; }
+        #case-study-outer #case-study #case-study-info header #controls a:hover i {
+          -webkit-transition: all 300ms ease;
+          -moz-transition: all 300ms ease;
+          -ms-border-radius: all 300ms ease;
+          transition: all 300ms ease;
+          color: #000; }
+    #case-study-outer #case-study #case-study-img img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: auto; }
 
 #work h1:after {
   float: right;
@@ -2842,7 +2851,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 
 #quick-message {
   padding: 25px 0;
-  background: #054B79; }
+  background-color: #054B79; }
   #quick-message h1, #quick-message p {
     color: #FFF;
     text-align: center; }
@@ -2929,11 +2938,11 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 
 #footer-outer {
   width: 100%;
+  background-size: cover;
   background-color: #000; }
 
 footer {
-  height: auto;
-  background-color: #000; }
+  height: auto; }
   footer .col {
     padding: 25px 0; }
   footer p, footer i, footer a {
@@ -2990,6 +2999,7 @@ footer {
     width: auto; }
 
   section header,
+  #logo,
   .overlay h1 {
     padding: 0 3%; }
 
@@ -3088,11 +3098,19 @@ footer {
     #case-study .col:last-child,
     #case-study #case-study-info:last-child,
     #case-study #case-study-img:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+  #case-study .col-no-skew,
+  #case-study .col-skew:after {
+    display: none; }
+
+  #logo-outer #logo .col-skew,
+  #case-study-outer #case-study .col-skew {
+    min-height: auto;
+    padding: 2% 4%; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,
-  #case-study h1 {
+  #logo h1 {
     width: 150px;
     line-height: 1em;
     font-size: 1.875rem;
@@ -3112,7 +3130,7 @@ footer {
     width: 170px; } }
 @media screen and (max-width: 600px) and (max-width: 600px) {
   #home #social-links ul#share-me,
-  #case-study #social-links ul#share-me {
+  #logo #social-links ul#share-me {
     top: 120px;
     right: -15px; } }
 
