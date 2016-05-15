@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <!-- <script src="assets/js/vendor/modernizr-custom.js"></script> -->
+        <script src="assets/js/vendor/modernizr-custom.js"></script>
 
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
@@ -276,11 +276,11 @@
         <!-- Main nav / Sharing nav / nav mini bullets -->
         <?php include("incl/inc-navs.php"); ?>
                
-<!--    <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+   <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
         <script src="assets/js/plugins.js"></script>
-<!--    
-        <script src="assets/js/jquery.alton.min.js"></script>
-        <script src="assets/js/jquery.eavesdrop.js"></script>
+   
+<!--         <script src="assets/js/vendor/jquery.alton.min.js"></script>
+        <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/tweenLite.min.js"></script>
@@ -288,8 +288,9 @@
         <script src="assets/js/vendor/rAF.js"></script>
         <script src="assets/js/vendor/emitter.js"></script>
         <script src="assets/js/vendor/proximity.js"></script>
-        <script src="assets/js/vendor/css3-animate-it.min.js"></script> -->
-        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/vendor/proximity-trigger.js"></script>
+        <script src="assets/js/vendor/css3-animate-it.js"></script> -->
+        <script src="assets/js/main.js"></script>
 
         <!-- Google Maps api -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>

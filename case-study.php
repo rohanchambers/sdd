@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - London Design &amp; Development Agency</title>
+        <title>Slam Dunk Digital - Phone ResQ.</title>
         <meta name="title" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
@@ -185,14 +185,11 @@
                 </ul>
             </nav>
         </div>
-
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
-        <script src="assets/js/scripts.js"></script>
-
-        <!-- Google Maps api -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
+        <script src="assets/js/vendor/css3-animate-it.js"></script>
+        <script src="assets/js/main-pages.js"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
