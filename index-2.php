@@ -11,12 +11,10 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-        <!--(if target dev)><!-->
-          <link rel="stylesheet" href="assets/css/styles.css">
-        <!--<!(endif)-->
-        <!--(if target dist)>
+        
+        
         <link rel="stylesheet" href="assets/css/styles.min.css">
-        <!(endif)-->        
+                
         <script src="assets/js/vendor/modernizr-custom.js"></script>
 
         <!-- Open graph tags -->

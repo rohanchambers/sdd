@@ -36,6 +36,26 @@
         text-align: left;
         float: none;
     }
+    .view.coming-soon p {
+        font-family: $font-thick;
+        font-size: rem(30);
+        position: relative;
+        color: #fff;
+        margin: 0;
+        padding: 45px 20px 0px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        float: none;        
+    }   
+    .coming-soon p::after {
+        display: inline-block;
+        width: 50%;
+        height: 3px;
+        padding-bottom: 3px;
+        background-color: $white;
+        content:"~";
+        text-align: center;
+    } 
     .view a.info {
         display: inline-block;
         text-decoration: none;

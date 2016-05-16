@@ -235,7 +235,6 @@ footer {
   display: block;
   margin-right: 0%;
   width: 33.33333%;
-  margin-bottom: 1px;
   border: 1px solid #FFF; }
   #work .row .view:last-child {
     margin-right: 0; }
@@ -253,7 +252,6 @@ footer {
       display: block;
       margin-right: 0%;
       width: 25%;
-      margin-bottom: 1px;
       border: 1px solid #FFF; }
       #clients .row .client:last-child {
         margin-right: 0; }
@@ -2107,6 +2105,24 @@ footer {
   padding: 10px 20px 0px 20px;
   text-align: left;
   float: none; }
+#work .view.coming-soon p {
+  font-family: "Arial black", Verdana, sans-serif;
+  font-size: 1.875rem;
+  position: relative;
+  color: #fff;
+  margin: 0;
+  padding: 45px 20px 0px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  float: none; }
+#work .coming-soon p::after {
+  display: inline-block;
+  width: 50%;
+  height: 3px;
+  padding-bottom: 3px;
+  background-color: #FFF;
+  content: "~";
+  text-align: center; }
 #work .view a.info {
   display: inline-block;
   text-decoration: none;
@@ -2493,7 +2509,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
       width: auto; }
   #home #slogan,
   #logo #slogan {
-    width: 700px;
+    width: 55%;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -3056,6 +3072,8 @@ footer {
     right: auto; }
   #work h1:after {
     left: 25px; }
+  #work .view.coming-soon p {
+    font-size: 1.625rem; }
 
   #clients .row .client {
     float: left;

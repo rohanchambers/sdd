@@ -39,7 +39,7 @@ footer {
 		.view {
 			// Height determined by image size
 			@include span-columns(4);
-			margin-bottom: 1px;
+			//margin-bottom: 1px;
 			border: 1px solid $white;
 		}
 	}
@@ -52,7 +52,7 @@ footer {
 		.client {
 			@include span-columns(3);
 			@include omega(4n);
-			margin-bottom: 1px;
+			//margin-bottom: 1px;
 			border: 1px solid $white;
 		}		
 	}

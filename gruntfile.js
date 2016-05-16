@@ -94,7 +94,15 @@ module.exports = function(grunt){
             //     files: 'assets/js/**.js',
             //     tasks: 'jshint'
             // }
-		}
+		},
+
+		targethtml: {
+		  dist: {
+		    files: {
+		      'index-2.php': 'index.php'
+		    }
+		  }
+		}		
 
 	});
 
@@ -104,7 +112,8 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-sass');	
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-concat');	
+	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-targethtml');	
 
 	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'watch']);
 
