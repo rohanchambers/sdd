@@ -21,12 +21,9 @@
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
             <img src="assets/img/video/space.jpg" alt="Space">
-            <video loop muted autoplay poster="assets/img/video/space.jpg">
-                <source src="assets/img/video/space.webm" type="video/webm">
-                <source src="assets/img/video/space.mp4" type="video/mp4">
-                <source src="assets/img/video/space.ogv" type="video/ogg">
-            </video>
-            
+            <div id="bg-video">
+                <?php include("inc-nav-bg-video.php"); ?>
+            </div>            
             <header>
                 <h1>Slam Dunk Digital</h1>
             </header>

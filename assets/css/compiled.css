@@ -570,7 +570,7 @@ header p {
   padding-left: 25px; }
 #quick-message h1:before {
   left: 0;
-  background-color: #FFF; }
+  background-color: #0074c0; }
 #quick-message h1:after {
   width: 73%;
   left: 29px;
@@ -903,12 +903,6 @@ footer {
       margin-right: 10px;
       display: block; }
 
-.overlay ul li.overlay-share.show-hide {
-  display: none; }
-
-.overlay ul li#nav-share {
-  display: block; }
-
 .overlay ul li.social a:hover {
   background-color: transparent; }
 
@@ -948,18 +942,25 @@ footer {
 .show-nav #body-nav ul li a {
   opacity: 1; }
 
+.overlay ul li#nav-share {
+  display: block; }
+
 /* Effects */
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s; }
+  .overlay-hugeinc li.overlay-share {
+    display: none; }
 
 .overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
+  .overlay-hugeinc.open li.overlay-share {
+    display: block; }
 
 @media screen and (max-height: 30.5em) {
   .overlay nav {

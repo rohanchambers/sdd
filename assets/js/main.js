@@ -69,7 +69,7 @@ $(function(){
         // Hide social sharing on nav open 
         $('#share-me').removeClass('go');
         $('#share-me').addClass('goAway');
-        $('.overlay ul li.overlay-share').toggleClass('show-hide');
+        //$('.overlay ul li.overlay-share').toggleClass('show-hide');
         // Deactivate the default behavior of going to the next page on click
         return false;
     });
@@ -135,7 +135,7 @@ $(function(){
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){
-    // If scroll top is 400 + show hide intro paragraph
+    // If scroll top is 400 hide share me from top right of screen
     if($(document).scrollTop() > 400) {
         // Hide social sharing on nav open 
         $('#share-me').removeClass('go');
