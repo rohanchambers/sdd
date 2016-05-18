@@ -14,7 +14,34 @@ module.exports = function(grunt){
 				}
 			}
 		},
-		
+
+ 		// Watch task config
+		watch: {
+			css: {
+				files: 'assets/sass/**/*.scss',
+				tasks: ['sass', 'cssmin']
+			}
+
+            // javaScript: {
+            //     files: 'assets/js/**.js',
+            //     tasks: 'jshint'
+            // }
+		},
+
+		concat: {
+			css: {
+				src: ['bower_components/normalize-css/normalize.css', 'assets/css/styles.css'],
+				dest: 'assets/css/compiled.css'
+			},
+			js: {
+				options: {
+					separator: '\n;',
+				},
+				src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/**/*.js', 'assets/js/main.js'],
+				dest: 'assets/js/compiled.js'
+			}
+		},
+
 		// CSS min styles.css 
 		cssmin : {
 			minify : {
@@ -25,6 +52,15 @@ module.exports = function(grunt){
 				ext : '.min.css'
 			}
 		},
+
+        // Minify JS
+        uglify: {
+            all: {
+                files: {
+                    'assets/js/compiled.min.js': 'assets/js/compiled.js',
+                }
+            }
+        },
 
 		// JShint for scripts
         jshint: {
@@ -42,26 +78,6 @@ module.exports = function(grunt){
 				      jQuery: true
 				    }
 				}
-            }
-        },
-
-		concat: {
-			options: {
-			  separator: ';',
-			},
-			dist: {			  
-			  src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/**/*.js'],
-			  dest: 'assets/js/plugins.js'
-			},
-		},
-
-        // Minify JS
-        uglify: {
-            all: {
-                files: {
-                    'assets/js/main.min.js': 'assets/js/main.js',
-                    'assets/js/plugins.min.js': 'assets/js/plugins.js',
-                }
             }
         },
 
@@ -83,38 +99,38 @@ module.exports = function(grunt){
 		  }
 		},
 
- 		// Watch task config
-		watch: {
-			css: {
-				files: 'assets/sass/**/*.scss',
-				tasks: ['sass', 'cssmin']
-			}
-
-            // javaScript: {
-            //     files: 'assets/js/**.js',
-            //     tasks: 'jshint'
-            // }
-		},
-
 		targethtml: {
 		  dist: {
 		    files: {
-		      'index-2.php': 'index.php'
+		      'index.php': 'index-dev.php'
 		    }
 		  }
-		}		
+		},
+
+		htmlmin: {                                     	 // Task
+			dist: {                                      // Target
+			  options: {                                 // Target options
+			    removeComments: false,
+			    collapseWhitespace: true
+			  },
+			  files: {                           // Dictionary of files
+			    'index.php': 'index-dev.php'     // 'destination': 'source'
+			  }
+			}
+		}			
 
 	});
 
 	grunt.loadNpmTasks('grunt-browser-sync');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-sass');	
+	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-concat');
-	grunt.loadNpmTasks('grunt-targethtml');	
+	grunt.loadNpmTasks('grunt-targethtml');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');	
 
-	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'watch']);
+	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'targethtml', 'htmlmin', 'watch']);
 
 };

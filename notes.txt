@@ -1,3 +1,7 @@
+Running this project:
+Run grunt and it will go through all the task .
+*NB if you are changing minified file names you will have to run grunt targethtml
+
 Bower update packages in bower.json:
 ncu -m bower
 

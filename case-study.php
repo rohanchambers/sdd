@@ -73,11 +73,11 @@
             </header>
         </div><!-- End of Nav main -->
         
-        <div id="case-study-outer">
+        <div id="case-study-outer" class="theme-red">
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">
                     <header>                    
-                        <h1>PhoneResQ</h1>
+                        <h1>Phone ResQ.</h1>
                         <img src="../assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
                         <nav>
                             <ul id="controls">
@@ -86,7 +86,7 @@
                                 <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
                             </ul>
                         </nav>
-                        <p><strong>Client: </strong>PhoneResQ</p>
+                        <p><strong>Client: </strong>Phone ResQ.</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
 

@@ -38,9 +38,11 @@
                     <li class="clients green"><a href="#clients"><span class="green">C</span>lients</a></li>
                     <li class="contact blue"><a href="#contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
-                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
+                        <div>
+                            <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
+                            <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
+                            <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
+                        </div>
                     </li>
                     <li class="overlay-share show-hide">
                         <ul>

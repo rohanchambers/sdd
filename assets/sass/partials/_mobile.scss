@@ -31,14 +31,33 @@
 
 // TABLET | Max width 800px
 @include media($tablet) {
+	
+	header h1 {
+		font-size: rem(30);
+	}
+	
+	header h1:before {
+		height: 31px;
+	}
+	
+	#contact h1 {
+		padding-left: 25px;
+		text-align: left;
+	}
+
+	p {
+		font-size: rem(14);
+	}
 
 	#what-we-do header {
 		padding: 0;
 	}
 
 	#home {
+		background: url(../img/global/bg-emitter.png) center center no-repeat;
+		background-size: contain;
 		#slogan {
-			width: 82%;
+			width: 82%;			
 	
 			p {
 				font-size: rem(72);
@@ -161,7 +180,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		h1 {
 			width: 150px;
 			line-height: 1em;
-			font-size: rem(30);
+			font-size: rem(25);
 			padding-left: 0;
 		}
 	} 

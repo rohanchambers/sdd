@@ -5,7 +5,7 @@
                         <li><a href="#"><img src="assets/img/what-we-do/jaguaruk_fearless.jpg" alt="Phone Resq." /><div class="pe-description"><h2>Jaguar UK</h2><p>Since time, and his predestinated end</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/toughmudder.jpg" alt="Toughmudder, Got the bottle"><div class="pe-description"><h2>Volvic</h2><p>Toughmudder, Got the bottle</p></div></a></li>
                         
-                        <li><a href="#"><img src="assets/img/what-we-do/getwellsoup.jpg" alt="Heinz, Get Well Soup" /><div class="pe-description"><h2>Heinz</h2><p>, Get Well Soup</p></div></a></li>§
+                        <li><a href="#"><img src="assets/img/what-we-do/getwellsoup.jpg" alt="Heinz, Get Well Soup" /><div class="pe-description"><h2>Heinz</h2><p>, Get Well Soup</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/hotelsdotcom.jpg" alt="Hotels.com Photo competition"><div class="pe-description"><h2>Hotels.com</h2><p>Photo competition</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/cadbury-advent-2.jpg" alt="Cadbury Advent Calendar"><div class="pe-description"><h2>Cadbury</h2><p>Advent Calendar</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/spoilerfoiler.jpg" alt="Breaking Bad Spoiler Foiler"><div class="pe-description"><h2>Netflix</h2><p>Breaking Bad Spoiler Foiler</p></div></a></li>

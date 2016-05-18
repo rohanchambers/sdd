@@ -44,7 +44,7 @@ $(document).alton({
 // Document ready
 $(function(){
 
-    $("#slogan p").fitText();
+    $('.coming-soon p, #slogan p').fitText();
 
     // Mini Nav bullets section scroll
     $('#nav-mini ul').eavesdrop({
@@ -175,7 +175,7 @@ function initMap() {
         position: slamDunkDigital,
         map: map,
         icon: image,
-        title: 'Slamu Dunk Digital'   
+        title: 'Slam Dunk Digital'   
     });
 
     var contentString = '<div id="map-info">'+

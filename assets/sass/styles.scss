@@ -142,7 +142,7 @@
         bottom: 2%;
         left: 50%;
         display: block;
-        margin: 15px auto 15px auto;
+        margin: 15px 0 15px -12px;
         width: 25px;
         height: 72px;
         background-image: url(../img/global/iconMouseDown.png);
@@ -219,7 +219,7 @@
 // WHAT WE DO SECTION
 #what-we-do-outer {
 	overflow: hidden;
-	height: 1300px;
+	min-height: 1118px;
 }
 
 #what-we-do {
@@ -234,7 +234,7 @@
 	}
 
 	.col {
-		p {
+		header, p {
 		    position: relative;
 		    z-index: 2;
 		}
@@ -321,20 +321,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // CASE STUDY SECTION
 .page-case-study #nav-mini {
 	display: none;
@@ -351,10 +337,61 @@
 	}
 }
 
-// CASE STUDY SECTION
+// BG THeme color case study
+
+// THEME RED
+#case-study-outer.theme-red {
+	background-color: $red;
+
+	.col-skew, 
+	.col-skew:after {
+		background-color: $red;
+	}
+
+	p, 
+	#case-study #case-study-info a {
+		color: $white;
+	}
+
+	#case-study #case-study-info p a:hover {
+		background-color: $white;
+		color: $black;
+		padding: 3px;
+	}	
+}
+
+// THEME YELLLOW
+#case-study-outer.theme-yellow {
+	background-color: $yellow;
+
+	.col-skew, 
+	.col-skew:after {
+		background-color: $yellow;
+	}
+	
+ 	p,
+ 	#case-study #case-study-info a, 
+ 	#case-study #case-study-info header h1 {
+		color: $black;
+	}
+
+	#case-study #case-study-info header h1:after {
+		background-color: $black;
+	}
+
+	#case-study #case-study-info #controls i {
+		color: $black;
+	}
+	
+	#case-study #case-study-info #controls i:hover {
+		color: $white;
+	}	
+}
+
+
+
 #case-study-outer {
 	height: auto;
-	background-color: $yellow;
 
 	#case-study {
 		position: relative;
@@ -368,7 +405,6 @@
 
 		.col-skew {
 			padding: 2% 2% 2% 3%;
-			background-color: $yellow;
 		}
 
 		.col-skew:after {
@@ -379,7 +415,6 @@
 		    bottom:0;
 		    left: 11%;
 		    width: 32%;
-		    background: $yellow;
 		    -webkit-transform:skewX(-8deg);
 		    	transform:skewX(-8deg);
 		}	
@@ -390,6 +425,10 @@
 				color: $black;
 				font-size: inherit;
 			}
+			
+			a:hover {
+				text-decoration: none;
+			}			
 
 			header {
 				position: relative;
@@ -404,8 +443,6 @@
 					padding: 5px;
 					background-color: $white;
 				}
-
-				
 
 				#controls {
 					position: absolute;
@@ -422,15 +459,15 @@
 							color: $white;
 						}
 
+						i:hover {
+							color: $black;
+							@include hover-links();
+						}
+
 						.fa-th {
 							margin-top: 2px;
 							font-size: rem(30);
 						}
-					}
-
-					a:hover i {
-						@include hover-links();
-						color: $black;
 					}
 				}
 			}			
@@ -446,20 +483,6 @@
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // WORK SECTION
