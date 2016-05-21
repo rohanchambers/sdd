@@ -24,7 +24,7 @@
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />
                     <div class="mask">
-                        <h2>Heinken, The Beauty of Brewing</h2>
+                        <h2>Heinz, Get Well Soup</h2>
                         <p><span class="red">Coming</span> soon!</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/cuppaclub.jpg" alt="PG Tips, Cuppaclub" />
                     <div class="mask">
-                        <h2>Playboy UK</h2>
+                        <h2>PG Tips, Cuppaclub</h2>
                         <p><span class="red">Coming</span> soon!</p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/beginBulmers.jpg" alt="Bulmers, Begin with a Bulmers" />
                     <div class="mask">
-                        <h2>Playboy UK</h2>
+                        <h2>Bulmers, begin with a Bulmers</h2>
                         <p><span class="red">Coming</span> soon!</p>
                     </div> 
                 </div>

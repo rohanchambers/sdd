@@ -60,15 +60,16 @@
         display: inline-block;
         text-decoration: none;
         padding: 7px 14px;
-        background: #000;
+        background: $red;
         color: #fff;
         box-shadow: 0 0 1px #000;
         margin-top: 20px;
     }
     .view a.info:hover {
-        box-shadow: 0 0 5px $red;
-        background: $red;
-        @include hover-links();
+        box-shadow: 0 0 5px $black;
+        background: $white;
+        color: $black;
+        
     }
     
     // View first example
@@ -92,7 +93,7 @@
     }
     .view-first a.info{
         opacity: 0;
-        transition: all 0.2s ease-in-out;
+        @include hover-links();        
     } 
     .view-first:hover img { 
         transform: scale(1.1);
@@ -110,6 +111,6 @@
         transition-delay: 0.1s;
     }
     .view-first:hover a.info {
-        transition-delay: 0.2s;       
+        //transition-delay: 0.2s;       
     }       
 }

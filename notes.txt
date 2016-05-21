@@ -1,7 +1,8 @@
 Running this project:
-Run grunt and it will go through all the task .
-*NB if you are changing minified file names you will have to run grunt targethtml
-
+Run grunt and it will go through all the tasks.
+*N.B. If you are changing minified file names you will have to run grunt targethtml 
+- Any css/js changes done for index-dev.php will only be transfer index.php when grunt is run.
+w
 Bower update packages in bower.json:
 ncu -m bower
 
@@ -29,3 +30,15 @@ Questions to figure out
 
 - Node modules ignore using .gitignore
 - How to get rid of the ones already commited from the start
+
+
+SNIPPETS OF CODE THAT MIGHT BE USEFUL
+// <!-- Don't download these scripts on mobile | See emmiter.js -->
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+if (!isMobile()) {
+    document.write('<script type="text/javascript" src="assets/js/vendor/tweenLite.min.js"><\/script>');
+    document.write('<script type="text/javascript" src="assets/js/vendor/easePack.min.js"><\/script>');
+    document.write('<script type="text/javascript" src="assets/js/vendor/rAF.js"><\/script>');
+}

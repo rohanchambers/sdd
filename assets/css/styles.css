@@ -24,8 +24,15 @@ html {
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased; }
 
+@font-face {
+  font-family: 'arial_blackregular';
+  src: url("../fonts/arial_black-webfont.eot");
+  src: url("../fonts/arial_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arial_black-webfont.woff2") format("woff2"), url("../fonts/arial_black-webfont.woff") format("woff"), url("../fonts/arial_black-webfont.svg#arial_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 section header {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  overflow: hidden; }
   section header::after {
     clear: both;
     content: "";
@@ -42,7 +49,7 @@ header h1 {
   position: relative;
   margin: 0px;
   padding-right: 25px;
-  font-family: "Arial black", Verdana, sans-serif;
+  font-family: "Arial black", Arial, Verdana, sans-serif;
   font-size: 2.25rem;
   text-transform: uppercase; }
 header h1:before {
@@ -153,7 +160,7 @@ header p {
 
 #contact-info h2 {
   position: relative;
-  font-family: "Arial black", Verdana, sans-serif;
+  font-family: "Arial black", Arial, Verdana, sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center; }
@@ -171,7 +178,7 @@ header p {
 
 .overlay h1 {
   padding-top: 5px;
-  font-family: "Arial black", Verdana, sans-serif;
+  font-family: "Arial black", Arial, Verdana, sans-serif;
   font-size: 1.875rem;
   color: #FFF; }
 .overlay h1:before {
@@ -203,7 +210,8 @@ footer {
 #work,
 #clients,
 #contact {
-  margin-top: 100px; }
+  margin-top: 100px;
+  overflow: hidden; }
   #work::after,
   #clients::after,
   #contact::after {
@@ -227,7 +235,7 @@ footer {
   float: left;
   display: block;
   margin-right: 0%;
-  width: 25%;
+  width: 33.33333%;
   margin-right: 0; }
   .col-no-skew .pe-thumbs li:last-child {
     margin-right: 0; }
@@ -430,7 +438,7 @@ footer {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../img/video/space.jpg) no-repeat;
+    background: #000 url(../img/video/space.jpg) no-repeat;
     background-size: cover; }
   .overlay header, .overlay nav {
     position: relative;
@@ -2109,7 +2117,7 @@ footer {
   text-align: left;
   float: none; }
 #work .view.coming-soon p {
-  font-family: "Arial black", Verdana, sans-serif;
+  font-family: "Arial black", Arial, Verdana, sans-serif;
   font-size: 1.875rem;
   position: relative;
   color: #fff;
@@ -2130,17 +2138,14 @@ footer {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  background: #000;
+  background: #fd070d;
   color: #fff;
   box-shadow: 0 0 1px #000;
   margin-top: 20px; }
 #work .view a.info:hover {
-  box-shadow: 0 0 5px #fd070d;
-  background: #fd070d;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-border-radius: all 300ms ease;
-  transition: all 300ms ease; }
+  box-shadow: 0 0 5px #000;
+  background: #FFF;
+  color: #000; }
 #work .view-first img {
   transition: all 0.2s linear; }
 #work .view-first .mask {
@@ -2157,7 +2162,10 @@ footer {
   transition: all 0.2s linear; }
 #work .view-first a.info {
   opacity: 0;
-  transition: all 0.2s ease-in-out; }
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-border-radius: all 300ms ease;
+  transition: all 300ms ease; }
 #work .view-first:hover img {
   transform: scale(1.1); }
 #work .view-first:hover .mask {
@@ -2169,8 +2177,6 @@ footer {
   transform: translateY(0px); }
 #work .view-first:hover p {
   transition-delay: 0.1s; }
-#work .view-first:hover a.info {
-  transition-delay: 0.2s; }
 
 /* Preloader */
 body {
@@ -2605,7 +2611,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 
 #what-we-do-outer {
   overflow: hidden;
-  min-height: 1118px; }
+  height: auto; }
 
 #what-we-do {
   position: relative;
@@ -2616,7 +2622,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     display: table; }
   #what-we-do .intro {
     font-size: 1.3125rem;
-    font-family: "Arial black", Verdana, sans-serif;
+    font-family: "Arial black", Arial, Verdana, sans-serif;
     line-height: 1.2; }
   #what-we-do .col header, #what-we-do .col p {
     position: relative;
@@ -2643,17 +2649,12 @@ a.tooltip.animate:after, a.tooltip.animate:before {
     #what-we-do .col-no-skew .pe-thumbs {
       margin: 0;
       padding: 0; }
-    #what-we-do .col-no-skew .pe-thumbs li img {
-      display: block;
-      width: 100%;
-      height: 100%; }
     #what-we-do .col-no-skew .pe-thumbs li a,
     #what-we-do .col-no-skew .pe-thumbs li a img {
       display: block;
       position: relative; }
     #what-we-do .col-no-skew .pe-thumbs li a img {
-      opacity: 1;
-      height: 125px; }
+      opacity: 0.5; }
     #what-we-do .col-no-skew .pe-thumbs li a div.pe-description {
       width: 200px;
       height: 100px;
@@ -2662,7 +2663,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
       top: 0px;
       left: -200px;
       color: white;
-      display: block;
+      display: none !important;
       z-index: 1001;
       text-align: left; }
     #what-we-do .col-no-skew .pe-description h2 {
@@ -3014,7 +3015,7 @@ footer {
     transition: all 300ms ease; }
   footer #footer-logo {
     font-size: 24px;
-    font-family: "Arial black", Verdana, sans-serif;
+    font-family: "Arial black", Arial, Verdana, sans-serif;
     text-transform: uppercase;
     line-height: 1em;
     margin: 0; }
@@ -3041,6 +3042,10 @@ footer {
     footer #copyright-info ul {
       margin: 0; }
 
+@media screen and (min-width: 1025px) {
+  #what-we-do-outer {
+    overflow: hidden;
+    height: 1000px; } }
 @media screen and (max-width: 1024px) {
   #home h1 {
     width: auto; }
@@ -3059,6 +3064,13 @@ footer {
   footer .col {
     padding: 2% 3%; } }
 @media screen and (max-width: 800px) {
+  header h1,
+  header .intro,
+  #contact-info h2,
+  #footer-logo,
+  .mask p {
+    font-family: arial_blackregular, Arial, Verdana, sans-serif; }
+
   header h1 {
     font-size: 1.875rem; }
 
@@ -3068,9 +3080,6 @@ footer {
   #contact h1 {
     padding-left: 25px;
     text-align: left; }
-
-  p {
-    font-size: 0.875rem; }
 
   #what-we-do header {
     padding: 0; }

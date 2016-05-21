@@ -219,7 +219,7 @@
 // WHAT WE DO SECTION
 #what-we-do-outer {
 	overflow: hidden;
-	min-height: 1118px;
+	height: auto;
 }
 
 #what-we-do {
@@ -269,24 +269,16 @@
 		.pe-thumbs {
 			margin: 0;
 			padding: 0;
-		}
-		
-		.pe-thumbs li {
-			img {
-				display: block;
-				width: 100%;
-				height: 100%;
-			}
-		}
+		}	
 
 		.pe-thumbs li a,
 		.pe-thumbs li a img {
 			display: block;
 			position: relative;
 		}
+
 		.pe-thumbs li a img {
-			opacity: 1;
-			height: 125px;
+			opacity: 0.5;
 		}
 		
 		.pe-thumbs li a div.pe-description {
@@ -297,7 +289,7 @@
 			top: 0px;
 			left: -200px;
 			color: white;
-			display: block;
+			display: none!important;
 			z-index: 1001;
 			text-align: left;
 		}

@@ -16,7 +16,7 @@ function scrollToSections() {
         
         $('html, body').animate({
             scrollTop: $(section).offset().top
-        });
+        }, 750);
     });
 
     // Add class of active on items for main and mini nav.
@@ -35,11 +35,11 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
-$(document).alton({
-    firstClass : 'hero', // Set the first container class
-    bodyContainer: 'what-we-do', // Set the body container
-    scrollMode: 'headerScroll', // Set the scroll mode
-});
+// $(document).alton({
+//     firstClass : 'hero', // Set the first container class
+//     bodyContainer: 'what-we-do', // Set the body container
+//     scrollMode: 'headerScroll', // Set the scroll mode
+// });
 
 // Document ready
 $(function(){
@@ -143,7 +143,7 @@ $(document).on('scroll',function(){
     }
 
     // Change nav to dark version when sections have white BG
-    if( $(document).scrollTop() > 2050){
+    if( $(document).scrollTop() > 1350){
         $('.page-home .hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
 
     } else {

@@ -1,22 +1,29 @@
+// <!-- Don't download these scripts on mobile | See emmiter.js -->
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 (function() {
 
     var width, height, largeHeader, canvas, ctx, triangles, target, animateHeader = true;
     var colors = ['72,35,68', '43,81,102', '66,152,103', '250,178,67', '224,33,48'];
 
     // Main
-    initHeader();
-    addListeners();
-    initAnimation();
+    if (!isMobile()) {
+        initHeader();
+        addListeners();
+        initAnimation();
+    }
 
     function initHeader() {
         width = window.innerWidth;
         height = window.innerHeight;
         target = {x: 0, y: height};
 
-        largeHeader = document.getElementById('large-header');
+        //largeHeader = document.getElementById('large-header');
         //largeHeader.style.height = height+'px';
 
-        canvas = document.getElementById('demo-canvas');
+        canvas = document.getElementById('emitter');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
