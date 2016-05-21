@@ -1,6 +1,7 @@
 // NEAT GRID LAYOUT FOR SECTIONS (desktop version only)
 #home,
 .overlay h1,
+#services header,
 #work header,
 #clients header,
 #contact,
@@ -10,6 +11,7 @@ footer {
 	@include outer-container(1024px);
 }
 
+#services,
 #work,
 #clients,
 #contact {

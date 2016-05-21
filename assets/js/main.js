@@ -53,6 +53,11 @@ $(function(){
         trackUrl: true        
     });
 
+
+    // Responsive carousel
+    $('.bxslider').bxSlider({
+        default: true       
+    });
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
 

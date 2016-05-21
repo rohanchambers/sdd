@@ -104,6 +104,7 @@ header {
 	}
 }
 
+#services,
 #clients {
 	h1, p {
 		float: left;
@@ -117,12 +118,19 @@ header {
 	h1:before {
 		left: 0;
 		background-color: $green;
-	}	
+	}
 
 	h1:after {
 		left: 25px;
 	 	width: 61%;		
 	}
+}
+
+#services {
+	h1:before {
+		left: 0;
+		background-color: $yellow;
+	}		
 }
 
 #case-study {

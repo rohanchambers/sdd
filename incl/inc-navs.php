@@ -3,6 +3,7 @@
             <ul>
                 <li class="home"><a href="#home" class="black tooltip animate right" data-tool="Home">&nbsp;</a></li>
                 <li class="what-we-do"><a href="#what-we-do" class="yellow tooltip animate right" data-tool="What we do">&nbsp;</a></li>
+                <li class="services"><a href="#services" class="yellow tooltip animate right" data-tool="Services">&nbsp;</a></li>                
                 <li class="work"><a href="#work" class="red tooltip animate right" data-tool="Our work">&nbsp;</a></li>
                 <li class="clients"><a href="#clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
                 <li class="contact"><a href="#contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
