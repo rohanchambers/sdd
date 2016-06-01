@@ -463,17 +463,17 @@ footer {
   position: relative;
   top: 50%;
   height: 60%;
-  font-size: 54px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .overlay ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
+  position: relative;
   display: inline-block;
   height: 100%;
-  position: relative; }
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 54px; }
 
 .overlay ul li {
   display: block;
@@ -544,6 +544,7 @@ footer {
 /* Effects */
 .overlay-hugeinc {
   opacity: 0;
+  display: block !important;
   visibility: hidden;
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s; }
@@ -564,7 +565,20 @@ footer {
     font-size: 34px; }
 
   .overlay ul li a {
-    font-size: 2.25rem; } }
+    font-size: 2.25rem; }
+
+  .overlay ul {
+    width: 100%;
+    font-size: inherit; }
+    .overlay ul li.social i {
+      font-size: 1.875rem; }
+
+  .overlay ul li.overlay-share {
+    margin: 0; }
+    .overlay ul li.overlay-share ul {
+      width: 45%;
+      position: relative;
+      left: auto; } }
 /*animations*/
 /******************
 * Bounce in right *
@@ -2544,7 +2558,7 @@ ul.bxslider {
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 10px;
+  left: 50px;
   background: url("../img/global/controls.png") no-repeat 0 -32px; }
 
 .bx-wrapper .bx-prev:hover,
@@ -2552,7 +2566,7 @@ ul.bxslider {
   background-position: 0 0; }
 
 .bx-wrapper .bx-next {
-  right: 10px;
+  right: 50px;
   background: url("../img/global/controls.png") no-repeat -43px -32px; }
 
 .bx-wrapper .bx-next:hover,
@@ -2567,7 +2581,7 @@ ul.bxslider {
   width: 32px;
   height: 32px;
   text-indent: -9999px;
-  z-index: 9999; }
+  z-index: 500; }
 
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none; }
@@ -2596,7 +2610,7 @@ ul.bxslider {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url("images/controls.png") -86px -44px no-repeat;
+  background: url("../img/global/controls.png") -86px -44px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -3254,10 +3268,12 @@ footer {
     padding: 2% 3%; } }
 @media screen and (max-width: 800px) {
   header h1,
+  .overlay h1,
   header .intro,
+  #what-we-do .intro,
   #contact-info h2,
-  #footer-logo,
-  .mask p {
+  footer #footer-logo,
+  #work .row .view .mask p span {
     font-family: arial_blackregular, Arial, Verdana, sans-serif; }
 
   header h1 {
@@ -3447,8 +3463,10 @@ footer {
   #quick-message h1:after {
     bottom: -4px; }
 
-  footer #copyright-info ul {
-    padding: 0; }
+  footer #copyright-info {
+    height: 233px; }
+    footer #copyright-info ul {
+      padding: 0; }
 
   .overlay ul li {
     height: calc(100% / 12); }
@@ -3456,7 +3474,15 @@ footer {
       font-size: 1.875rem; }
 
   li.overlay-share ul li {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .overlay ul li.overlay-share {
+    margin: 0; }
+    .overlay ul li.overlay-share ul {
+      width: 100%;
+      margin: 0;
+      position: relative;
+      left: auto; } }
 @media screen and (max-width: 320px) {
   #what-we-do h1 {
     font-size: 2.125rem; }

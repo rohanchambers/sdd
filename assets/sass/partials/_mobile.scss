@@ -40,11 +40,13 @@
 // TABLET | Max width 800px
 @include media($tablet) {
 
-	header h1, 
-	header .intro, 
+	header h1,
+	.overlay h1, 
+	header .intro,
+	#what-we-do .intro, 
 	#contact-info h2, 
-	#footer-logo, 
-	.mask p {
+	footer #footer-logo, 
+	#work .row .view .mask p span {
 		font-family: arial_blackregular, Arial, Verdana, sans-serif;
 	}
 
@@ -297,8 +299,11 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	footer #copyright-info ul {
-		padding: 0;
+	footer #copyright-info {
+		height: 233px;
+		ul {
+			padding: 0;
+		}
 	}
 
 	.overlay ul li { 
@@ -310,6 +315,16 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 	li.overlay-share ul li {
 		margin-bottom: 20px;
+	}
+
+	.overlay ul li.overlay-share {
+		margin: 0;
+		ul {
+			width: 100%;
+			margin: 0;
+			position: relative;
+			left: auto;
+		}		
 	}
 }
 

@@ -838,11 +838,12 @@ function fullscreen(){
 // Scroll to sections 
 function scrollToSections() {
     // Scroll to sections
-    $('.overlay ul li').find('a').click(function(e) {
+    $('.overlay ul li').find('a').click(function(e) {    
         e.preventDefault();
         
         var section = $(this).attr('href');
-        
+        console.log(section)
+
         $('html, body').animate({
             scrollTop: $(section).offset().top
         }, 750);
@@ -866,25 +867,29 @@ function hideNav() {
 
 // $(document).alton({
 //     firstClass : 'hero', // Set the first container class
-//     bodyContainer: 'what-we-do', // Set the body container
+//     bodyContainer: 'section-what-we-do', // Set the body container
 //     scrollMode: 'headerScroll', // Set the scroll mode
 // });
 
 // Document ready
 $(function(){
-
+    // Fit text plugin
     $('.coming-soon p, #slogan p').fitText();
 
     // Mini Nav bullets section scroll
-    $('#nav-mini ul').eavesdrop({
-        watchClass: 'eavesdrop',
-        activeClass: 'active',
-        trackUrl: true        
-    });
+    $('#nav-mini').eavesdrop();
 
+    // Main Nav section scroll
+    $('#nav-main').eavesdrop();
 
     // Responsive carousel
-    $('.bxslider').bxSlider();
+    $('.bxslider').bxSlider({
+        mode: 'horizontal',
+        captions: true,
+        easing: 'ease-out',
+        auto: true
+    });
+
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);
 
@@ -942,7 +947,7 @@ $(function(){
     });
 
     // Validate form
-    //$("#contact-form").validate();
+    $("#contact-form").validate();
 
     $('#btn-submit').click( function(){
         $('#contact-form').submit();
@@ -959,8 +964,7 @@ $(function(){
     });
 
     // On click of Main Nav and Mini items 
-    scrollToSections();
-
+    //scrollToSections();
 
 }); // End of Document ready
 

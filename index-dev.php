@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">        
         <title>Slam Dunk Digital - London Design &amp; Development Agency</title>
         <meta name="title" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
         <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--(if target dev)><!-->
@@ -59,7 +60,7 @@
 
         <!-- Home section -->
         <div id="bg-home">
-            <section id="home" class="hero home full eavesdrop">
+            <section id="home" class="hero section-home full eavesdrop">
                 <header id="logo">
                     <h1>Slam Dunk Digital</h1>
                 </header>
@@ -99,7 +100,7 @@
 
 
         <div id="what-we-do-outer">
-            <section id="what-we-do" class="what-we-do full eavesdrop">
+            <section id="what-we-do" class="section-what-we-do full eavesdrop">
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
@@ -116,22 +117,21 @@
             </section><!-- End of home-->
         </div>
 
-        <section id="services" class="services full eavesdrop animatedParent animateOnce" data-sequence='500'>
+<!--         <section id="services" class="section-services full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Services</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </header>
             
             <ul class="bxslider">
-              <li><img src="assets/img/services/beautyofbeer.jpg"></li>
+              <li><img src="assets/img/services/beautyofbeer.jpg" alt="Heinken's Beauty of Beer"></li>
               <li><img src="assets/img/services/harry-potter-part-2.jpg"></li>
               <li><img src="assets/img/services/redbull.jpg"></li>
               <li><img src="assets/img/services/spoilerfoiler.jpg"></li>
             </ul>
+        </section> -->
 
-        </section>
-
-        <section id="work" class="work full eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -143,7 +143,7 @@
         </section>
 
 
-        <section id="clients" class="clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="clients" class="section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -155,7 +155,7 @@
         </section>
 
 
-        <section id="contact" class="contact full eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="contact" class="section-contact full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInUp" data-id='1' data-appear-top-offset='500'>Contact</h1>
                 <p class="animated fadeIn" data-id='1' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -297,6 +297,7 @@
 
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="assets/js/vendor/jquery.validate.min.js"></script>
         <script src="assets/js/vendor/jquery.alton.min.js"></script>
         <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
         <script src="assets/js/vendor/classie.js"></script>

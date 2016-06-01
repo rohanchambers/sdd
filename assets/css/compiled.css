@@ -888,17 +888,17 @@ footer {
   position: relative;
   top: 50%;
   height: 60%;
-  font-size: 54px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .overlay ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
+  position: relative;
   display: inline-block;
   height: 100%;
-  position: relative; }
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 54px; }
 
 .overlay ul li {
   display: block;
@@ -969,6 +969,7 @@ footer {
 /* Effects */
 .overlay-hugeinc {
   opacity: 0;
+  display: block !important;
   visibility: hidden;
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s; }
@@ -2898,7 +2899,7 @@ a.tooltip.animate:after, a.tooltip.animate:before {
   touch-action: pan-y; }
 
 .bx-wrapper img {
-  max-width: 100%;
+  width: 100%;
   display: block; }
 
 .bxslider {
@@ -2914,13 +2915,6 @@ ul.bxslider {
 
 /** THEME
 ===================================*/
-.bx-wrapper {
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff; }
-
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
@@ -2930,7 +2924,7 @@ ul.bxslider {
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url("images/bx_loader.gif") center center no-repeat #ffffff;
+  background: url("../img/global/bx_loader.gif") center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -2948,21 +2942,21 @@ ul.bxslider {
   padding-top: 20px; }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #000;
   text-indent: -9999px;
   display: block;
   width: 10px;
   height: 10px;
   margin: 0 5px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; }
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000; }
+  background: #ffc036; }
 
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -2976,16 +2970,16 @@ ul.bxslider {
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 10px;
-  background: url("images/controls.png") no-repeat 0 -32px; }
+  left: 50px;
+  background: url("../img/global/controls.png") no-repeat 0 -32px; }
 
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
   background-position: 0 0; }
 
 .bx-wrapper .bx-next {
-  right: 10px;
-  background: url("images/controls.png") no-repeat -43px -32px; }
+  right: 50px;
+  background: url("../img/global/controls.png") no-repeat -43px -32px; }
 
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
@@ -2999,7 +2993,7 @@ ul.bxslider {
   width: 32px;
   height: 32px;
   text-indent: -9999px;
-  z-index: 9999; }
+  z-index: 500; }
 
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none; }
@@ -3014,7 +3008,7 @@ ul.bxslider {
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url("images/controls.png") -86px -11px no-repeat;
+  background: url("../img/global/controls.png") -86px -11px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -3028,7 +3022,7 @@ ul.bxslider {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url("images/controls.png") -86px -44px no-repeat;
+  background: url("../img/global/controls.png") -86px -44px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,

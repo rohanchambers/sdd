@@ -69,18 +69,18 @@
 	position: relative;
 	top: 50%;
 	height: 60%;
-	font-size: 54px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
 .overlay ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
+	position: relative;
 	display: inline-block;
 	height: 100%;
-	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	font-size: 54px;	
 }
 
 .overlay ul li {
@@ -160,6 +160,7 @@
 /* Effects */
 .overlay-hugeinc {
 	opacity: 0;
+	display: block!important;
 	visibility: hidden;
 	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
 	transition: opacity 0.5s, visibility 0s 0.5s;
@@ -189,5 +190,27 @@
 	.overlay ul li a {
 		font-size: rem(36);
 	}
+
+	.overlay ul {
+		width: 100%;
+		font-size: inherit;
+ 		li.social i {
+			font-size: rem(30);
+		}			
+	}
+	
+	.overlay ul li.overlay-share {
+		margin: 0;
+		ul {
+			width: 45%;
+			position: relative;
+			left: auto;
+		}		
+	}
+
+	// .overlay .social,
+	// .overlay .overaly-share {
+	// 	background-color: red;
+	// } 
 
 }

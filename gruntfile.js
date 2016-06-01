@@ -94,7 +94,7 @@ module.exports = function(grunt){
 		    },
 		    options: {
 		      watchTask: true,
-				proxy: "sdd.dev"
+				proxy: "sdd.dev/index-dev.php"
 		    }
 		  }
 		},
