@@ -120,10 +120,9 @@ header p {
   background-color: #ffc036; }
 
 #case-study #case-study-info header h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #FFF;
-  text-transform: none; }
+  color: #FFF; }
 #case-study #case-study-info header h1:before {
   display: none; }
 #case-study #case-study-info header h1:after {
@@ -197,6 +196,7 @@ header p {
 .overlay h1,
 #services header,
 #work header,
+#clients,
 #clients header,
 #contact,
 #contact-info,
@@ -209,6 +209,7 @@ footer {
   .overlay h1::after,
   #services header::after,
   #work header::after,
+  #clients::after,
   #clients header::after,
   #contact::after,
   #contact-info::after,
@@ -2935,7 +2936,7 @@ ul.bxslider {
       display: table; }
     #case-study-outer #case-study p {
       position: relative;
-      z-index: 2;
+      z-index: 3;
       clear: none; }
     #case-study-outer #case-study .col-skew {
       padding: 2% 2% 2% 3%; }
@@ -2956,7 +2957,7 @@ ul.bxslider {
       text-decoration: none; }
     #case-study-outer #case-study #case-study-info header {
       position: relative;
-      z-index: 2;
+      z-index: 3;
       padding: 0; }
       #case-study-outer #case-study #case-study-info header img {
         float: left;
@@ -2985,6 +2986,17 @@ ul.bxslider {
           #case-study-outer #case-study #case-study-info header #controls li .fa-th {
             margin-top: 2px;
             font-size: 1.875rem; }
+    #case-study-outer #case-study #case-study-info #particle-canvas {
+      position: absolute !important;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%; }
+      #case-study-outer #case-study #case-study-info #particle-canvas div {
+        background: transparent !important; }
+      #case-study-outer #case-study #case-study-info #particle-canvas canvas {
+        width: 100%; }
     #case-study-outer #case-study #case-study-img img {
       display: block;
       margin: 0 auto;

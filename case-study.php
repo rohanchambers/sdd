@@ -75,7 +75,8 @@
         
         <div id="case-study-outer" class="theme-red">
             <section id="case-study">
-                <div id="case-study-info" class="col col-skew">
+                <div id="case-study-info" class="col col-skew">                    
+                    <div id="particle-canvas"></div>                
                     <header>                    
                         <h1>Phone ResQ.</h1>
                         <img src="../assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
@@ -89,21 +90,18 @@
                         <p><strong>Client: </strong>Phone ResQ.</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
-
                     <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                
                     <p><strong>Summary:</strong></p>
-
                     <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
                     <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
                     <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-
-                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                
-                </div>
+                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                    
+                </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
                      <img src="../assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
                 </div>
-            </section><!-- End of home-->
+            </section><!-- End of Case study-->
         </div>
 
         <div id="footer-outer">
@@ -188,7 +186,8 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
-        <script src="assets/js/vendor/css3-animate-it.js"></script>
+        <script src="assets/js/vendor/css3-animate-it.min.js"></script>
+        <script src="assets/js/vendor/constellations.js"></script>
         <script src="assets/js/main-pages.js"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>

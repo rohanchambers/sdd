@@ -117,20 +117,6 @@
             </section><!-- End of home-->
         </div>
 
-<!--         <section id="services" class="section-services full eavesdrop animatedParent animateOnce" data-sequence='500'>
-            <header>
-                <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Services</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </header>
-            
-            <ul class="bxslider">
-              <li><img src="assets/img/services/beautyofbeer.jpg" alt="Heinken's Beauty of Beer"></li>
-              <li><img src="assets/img/services/harry-potter-part-2.jpg"></li>
-              <li><img src="assets/img/services/redbull.jpg"></li>
-              <li><img src="assets/img/services/spoilerfoiler.jpg"></li>
-            </ul>
-        </section> -->
-
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
@@ -277,9 +263,11 @@
                     <div id="copyright-info">
                         <ul>
                             <li class="social">
-                                <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
-                                <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
-                                <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
+
+
+                                <i class="fa fa-facebook fa-2x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
+                                <i class="fa fa-twitter fa-2x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
+                                <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>                                
                             </li>
                         </ul>
                         <p>Slam Dunk Digital Limited<br>
