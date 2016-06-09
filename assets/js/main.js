@@ -97,7 +97,7 @@ $(function(){
     // Icon mouse show hide intro text only if it hasn't scrolled down
     $('.icon-animate').click( function(){
         var goToNextSlide = jQuery(window).height();
-        $('html, body').animate({scrollTop : goToNextSlide}, 800);
+        $('html, body').animate({scrollTop : goToNextSlide}, 350);
     });
 
     // Show hide value of form inputs and textarea

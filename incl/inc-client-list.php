@@ -4,6 +4,11 @@
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/perfectPeaksBrews.png" alt="Perfect Peaks Brews">
+                    <img class="top" src="assets/img/clients/perfectPeaksBrews.png" alt="Perfect Peaks Brews">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>                
+                <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/heineken.png" alt="Heineken">
                     <img class="top" src="assets/img/clients/heineken.png" alt="Heineken">
                     <img src="assets/img/clients/transparent.png" alt="">
@@ -55,8 +60,8 @@
                     <img class="top" src="assets/img/clients/ea.png" alt="EA">
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
-                <div class="client">  
+<!--                 <div class="client">  
                     <img class="bottom" src="assets/img/clients/hover/volvic.png" alt="Volvic">
                     <img class="top" src="assets/img/clients/volvic.png" alt="Volvic">
                     <img src="assets/img/clients/transparent.png" alt="">
-                </div>
+                </div> -->
