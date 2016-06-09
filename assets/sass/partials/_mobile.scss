@@ -142,6 +142,13 @@
 		}
 	}
 
+	#contact {
+		p {
+			width: 100%;
+			margin: 0%;
+		}
+	}
+
 	#offices, #get-in-touch, #follow-us {
 		min-height: auto;
 		@include span-columns(12);		
@@ -247,10 +254,6 @@ $tablet-600: new-breakpoint(max-width 600px);
 	
 	header p {
 		width: 100%	;
-	}
-
-	#contact p {
-		margin: 0;
 	}
 
 	#home {

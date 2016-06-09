@@ -1,10 +1,8 @@
-                <div class="view view-first">
+                <div class="view view-first coming-soon">
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
                         <h2>Phone ResQ.</h2>
-                        <p>I developed all of the front end build for the Heinz, Get Well Soup app.<br>
-                        Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
-                        <a href="#" class="info">Read More</a>
+                        <p><span class="red">Coming</span> soon!</p>
                     </div>
                 </div>
                 <div class="view view-first coming-soon">

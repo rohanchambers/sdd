@@ -128,7 +128,7 @@
 
 		span {
 			font-family: $font-text;
-			font-size: rem(45);
+			font-size: rem(35);
 			font-style: italic;
 		}
 
@@ -276,6 +276,7 @@
 		.pe-thumbs li a img {
 			display: block;
 			position: relative;
+			cursor: default;
 		}
 
 		.pe-thumbs li a img {
@@ -383,11 +384,97 @@
 
 
 
+#case-study-intro {
+    @include row( $display: default, $direction: RTL);
+    margin: 0;
+}
+
+
+// Top section of Case study
+#about-row {
+    @include span-columns(6 of 12, block-collapse);
+    min-height: 350px;
+    position: relative;
+    z-index: 1;    	
+	float: right;
+
+    article {
+        float: left;
+        width: 80%;
+        margin-left: 13%;
+        padding: 30px 0;
+
+        h1, p {
+            color: $white;
+        }
+
+        h1 {
+            font-size: rem(60);
+            font-weight: 600;
+            //text-transform: uppercase;
+            margin: 0;
+        }
+
+		p {
+			font-family: $font-med;
+			font-size: rem(20);
+			font-weight: bold;
+			line-height: 1.1em;
+			margin: 10px 0 13px;
+			padding: 0;
+
+			span {
+				font-size: inherit;
+			}
+		}	        
+    }
+}            
+
+.about-row-img {
+    width: 50%;
+    min-height: 350px;
+    position: absolute;
+    left: 0;
+    background: $black url(../img/case-study/phoneResq/bg-section-three-2.jpg) no-repeat top right;
+    background-size: cover;       
+}
+
+.bg-color {
+    position: absolute;
+    z-index: 0;
+    width: 50%;
+    min-height: 650px;
+    background-color: #475573;
+}
+
+    .bg-color-left {
+        left: 0;
+    }
+
+    .bg-color-right {
+        right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Case study content / Constellations / images
 #case-study-outer {
 	height: auto;
 
 	#case-study {
 		position: relative;
+		border-top: 1px solid $white;
 		@include clearfix;		
 
 		p {

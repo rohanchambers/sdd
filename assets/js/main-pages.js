@@ -5,8 +5,20 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
+// Initialisation
+var canvasDiv = document.getElementById('particle-canvas');
+var options = {
+  particleColor: '#FFF',
+  interactive: true,
+  speed: 'high',
+  density: 'high'
+};
+var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
 // Document ready
-$(function(){
+$(function(){    
+    // Fit text plugin
+    $('#about-row h1').fitText();
 
     // Hide fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){

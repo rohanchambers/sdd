@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">        
-        <title>Slam Dunk Digital - London Design &amp; Development Agency</title>
-        <meta name="title" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
+        <title>Slam Dunk Digital | Home</title>
+        <meta name="title" content="Slam Dunk Digital | Home">
         <meta name="author" content="Slam Dunk Digital">
-        <meta name="description" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
-        <meta name="keywords" content="">
+        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them Young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
+        <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -20,7 +20,7 @@
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
         <meta property="og:title"           content="Welcome to Slam Dunk Digital" />
-        <meta property="og:description"     content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
+        <meta property="og:description"     content="<meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them Young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
         <meta property="og:url"             content="http://slamdunkdigital.co.uk/" />
         <meta property="og:image:width"     content="600" />
         <meta property="og:image:height"    content="600" />
@@ -29,11 +29,11 @@
 
         <meta name="twitter:card"           content="summary">
         <meta name="twitter:site"           content="@slamdunkdigital">
-        <meta name="twitter:title"          content="Welcome to slamdunkdigital">
+        <meta name="twitter:title"          content="Welcome to Slam Dunk Digital">
         <meta name="twitter:description"    content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -99,7 +99,7 @@
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
-                        <p class="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="intro">Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development, based in London. <br>We transform brands to make them young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.</p>
                     </header>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                    
@@ -115,7 +115,7 @@
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of our finest work that our team of designers and developers have perfectly blended to create beautiful and engaging user experiences.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->
@@ -127,7 +127,7 @@
         <section id="clients" class="section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We've had the pleasure of working with some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Elvis communications, Collective London and We Are Social.</p>
             </header>
             <div class="row">
                 <!-- Client list -->          
@@ -139,7 +139,7 @@
         <section id="contact" class="section-contact full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInUp" data-id='1' data-appear-top-offset='500'>Contact</h1>
-                <p class="animated fadeIn" data-id='1' data-appear-top-offset='500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="animated fadeIn" data-id='1' data-appear-top-offset='500'>Please feel free to get in touch with us with any queries via email or send us a quick message using the form below, even if it's just to say hello.</p>
             </header>
         </section>
 
@@ -258,8 +258,6 @@
                     <div id="copyright-info">
                         <ul>
                             <li class="social">
-
-
                                 <i class="fa fa-facebook fa-2x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
                                 <i class="fa fa-twitter fa-2x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
                                 <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>                                
@@ -284,7 +282,7 @@
               
 
         <!-- Google Maps api -->
-        <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script> -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function(d, s, id) {

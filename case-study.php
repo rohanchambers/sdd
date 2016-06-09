@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Phone ResQ.</title>
-        <meta name="title" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
+        <meta name="title" content="Case study | Phone ResQ.">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
         <meta name="keywords" content="" />
@@ -72,8 +72,21 @@
                 </nav>
             </header>
         </div><!-- End of Nav main -->
-        
+
+
+
         <div id="case-study-outer" class="theme-red">
+            <div id="case-study-intro">
+                <div class="bg-color bg-color-right"></div>
+                <div id="about-row">
+                    <article class="left">
+                        <h1>Phone ResQ</h1>
+                        <p>Strives to create a new and unique experience for its customers</p>
+                    </article>
+                </div>
+                <div id="about-row-img" class="about-row-img"></div>
+            </div><!-- End of case study intro -->
+
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
@@ -187,7 +200,8 @@
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/css3-animate-it.min.js"></script>
-        <script src="assets/js/vendor/constellations.js"></script>
+        <script src="assets/js/vendor/jquery.fittext.js"></script>
+        <script src="assets/js/misc/constellations.js"></script>
         <script src="assets/js/main-pages.js"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
