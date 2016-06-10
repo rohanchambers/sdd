@@ -99,7 +99,7 @@
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
-                        <p class="intro">Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development, based in London. <br>We transform brands to make them young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.</p>
+                        <p class="intro">Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creatives technologists.</p>
                     </header>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                    
@@ -127,7 +127,7 @@
         <section id="clients" class="section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We've had the pleasure of working with some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Elvis communications, Collective London and We Are Social.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Elvis communications, Collective London and We Are Social.</p>
             </header>
             <div class="row">
                 <!-- Client list -->          

@@ -16,13 +16,14 @@
         left: 0;
     }
     .view h2 {
-        font-family: $font-med;
+        font-family: futuraLT, arial_black, Arial;
         text-transform: uppercase;
         color: #fff;
+        line-height: 1em;
         text-align: center;
         position: relative;
-        font-size: 17px;
-        padding: 10px;
+        font-size: rem(20);
+        padding: 1%;
         background: $red;
         margin: 20px 0 0 0
     }
@@ -37,16 +38,25 @@
         float: none;
     }
     .view.coming-soon p {
+        position: relative;
         font-family: $font-thick;
         font-size: rem(30);
         position: relative;
         color: #fff;
-        //line-height: 1.3;
         margin: 0;
         padding: 45px 20px 0px 20px;
         text-align: center;
         text-transform: uppercase;
-        float: none;        
+        float: none;
+            
+            .case-study {
+                position: absolute;
+                top: 12%;
+                left: 50%;
+                margin-left: -52px;
+                font-size: rem(18);
+                display: block;
+            }
     }   
     .coming-soon p::after {
         display: inline-block;

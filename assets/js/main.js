@@ -45,7 +45,7 @@ $(document).alton({
 // Document ready
 $(function(){
     // Fit text plugin
-    $('.coming-soon p, #slogan p').fitText();
+    $('.coming-soon p, #slogan p, .view .mask h2').fitText();
 
     // Mini Nav bullets section scroll
     $('#nav-mini').eavesdrop();
