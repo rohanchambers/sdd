@@ -84,6 +84,10 @@ header p {
   z-index: 1; }
 #logo h1:before {
   display: none; }
+#logo p {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap; }
 
 #what-we-do h1, #what-we-do p,
 #case-study h1,
@@ -2859,7 +2863,8 @@ ul.bxslider {
   #what-we-do .intro {
     font-size: 1.3125rem;
     font-family: "Arial black", Arial, Verdana, sans-serif;
-    line-height: 1.2; }
+    line-height: 1.2;
+    margin-bottom: 0; }
   #what-we-do .col header, #what-we-do .col p {
     position: relative;
     z-index: 3; }
@@ -2971,7 +2976,7 @@ ul.bxslider {
   float: right;
   display: block;
   width: 50%;
-  min-height: 350px;
+  min-height: 200px;
   position: relative;
   z-index: 1;
   float: right; }
@@ -3357,7 +3362,7 @@ footer {
       position: absolute;
       right: 0;
       bottom: 14px;
-      height: 114px;
+      height: 80px;
       border-right: 10px solid #0074c0; }
     footer #copyright-info ul {
       margin: 0; }

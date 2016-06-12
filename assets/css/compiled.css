@@ -3396,7 +3396,7 @@ ul.bxslider {
   float: right;
   display: block;
   width: 50%;
-  min-height: 350px;
+  min-height: 200px;
   position: relative;
   z-index: 1;
   float: right; }
