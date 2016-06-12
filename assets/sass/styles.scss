@@ -251,6 +251,7 @@
 		font-size: rem(21);
 		font-family: $font-thick;
 		line-height: 1.2;
+		margin-bottom: 0;
 	}
 
 	.col {
@@ -412,7 +413,7 @@
 // Top section of Case study
 #about-row {
     @include span-columns(6 of 12, block-collapse);
-    min-height: 350px;
+    min-height: 200px;
     position: relative;
     z-index: 1;    	
 	float: right;
