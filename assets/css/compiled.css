@@ -451,8 +451,14 @@ html {
 
 @font-face {
   font-family: 'arial_blackregular';
-  src: url("../fonts/arial_black-webfont.eot");
-  src: url("../fonts/arial_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arial_black-webfont.woff2") format("woff2"), url("../fonts/arial_black-webfont.woff") format("woff"), url("../fonts/arial_black-webfont.svg#arial_blackregular") format("svg");
+  src: url("../fonts/arial_black/arial_black-webfont.eot");
+  src: url("../fonts/arial_black/arial_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arial_black/arial_black-webfont.woff2") format("woff2"), url("../fonts/arial_black/arial_black-webfont.woff") format("woff"), url("../fonts/arial_black/arial_black-webfont.svg#arial_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'futuraLT';
+  src: url("../fonts/futuraLT/futuraLT-CondensedBold.eot");
+  src: url("../fonts/futuraLT/futuraLT-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futuraLT/futuraLT-CondensedBold.woff") format("woff"), url("../fonts/futuraLT/futuraLT-CondensedBold.svg#arial_blackregular#futuraLT") format("svg");
   font-weight: normal;
   font-style: normal; }
 section header {
@@ -625,8 +631,8 @@ header p {
 .overlay h1,
 #services header,
 #work header,
-#clients,
 #clients header,
+#clients,
 #contact,
 #contact-info,
 #logo,
@@ -638,8 +644,8 @@ footer {
   .overlay h1::after,
   #services header::after,
   #work header::after,
-  #clients::after,
   #clients header::after,
+  #clients::after,
   #contact::after,
   #contact-info::after,
   #logo::after,
@@ -754,6 +760,7 @@ footer {
   padding: 12px;
   outline: 0;
   border: none;
+  cursor: pointer;
   background-color: #FFF; }
 
 #nav-icon {
@@ -761,6 +768,7 @@ footer {
   width: 50px;
   height: 33px;
   position: relative;
+  cursor: pointer;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -768,8 +776,7 @@ footer {
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer; }
+  transition: .5s ease-in-out; }
 
 #nav-icon span {
   display: block;
@@ -780,6 +787,7 @@ footer {
   border-radius: 9px;
   opacity: 1;
   left: 4%;
+  cursor: pointer;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -2555,13 +2563,14 @@ footer {
   top: 0;
   left: 0; }
 #work .view h2 {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: futuraLT, arial_black, Arial;
   text-transform: uppercase;
   color: #fff;
+  line-height: 1em;
   text-align: center;
   position: relative;
-  font-size: 17px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 1%;
   background: #fd070d;
   margin: 20px 0 0 0; }
 #work .view p {
@@ -2574,6 +2583,7 @@ footer {
   text-align: left;
   float: none; }
 #work .view.coming-soon p {
+  position: relative;
   font-family: "Arial black", Arial, Verdana, sans-serif;
   font-size: 1.875rem;
   position: relative;
@@ -2583,6 +2593,13 @@ footer {
   text-align: center;
   text-transform: uppercase;
   float: none; }
+  #work .view.coming-soon p .case-study {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    margin-left: -52px;
+    font-size: 1.125rem;
+    display: block; }
 #work .coming-soon p::after {
   display: inline-block;
   width: 50%;
@@ -3245,6 +3262,17 @@ ul.bxslider {
 #what-we-do-outer {
   overflow: hidden;
   height: auto; }
+  #what-we-do-outer #particle-canvas {
+    position: absolute !important;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%; }
+    #what-we-do-outer #particle-canvas div {
+      background: transparent !important; }
+    #what-we-do-outer #particle-canvas canvas {
+      width: 100%; }
 
 #what-we-do {
   position: relative;
@@ -3259,7 +3287,7 @@ ul.bxslider {
     line-height: 1.2; }
   #what-we-do .col header, #what-we-do .col p {
     position: relative;
-    z-index: 2; }
+    z-index: 3; }
   #what-we-do .col img {
     width: 100%;
     height: auto; }
@@ -3506,8 +3534,6 @@ ul.bxslider {
     display: block;
     width: 100%;
     height: auto; }
-#work .row .view:last-child {
-  display: none; }
 
 #clients .row .client {
   position: relative; }
@@ -3604,13 +3630,26 @@ ul.bxslider {
     transition: all 300ms ease; }
 
 #quick-message {
+  position: relative;
   padding: 25px 0;
   background-color: #054B79; }
   #quick-message h1, #quick-message p {
     color: #FFF;
     text-align: center; }
+  #quick-message #particle-canvas {
+    position: absolute !important;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #quick-message #particle-canvas div {
+      background: transparent !important; }
+    #quick-message #particle-canvas canvas {
+      width: 100%; }
   #quick-message #contact-form {
     position: relative;
+    z-index: 1;
     margin: 20px auto 0 auto;
     width: 50%; }
     #quick-message #contact-form fieldset {

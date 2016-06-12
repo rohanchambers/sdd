@@ -99,23 +99,30 @@
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
-                        <p class="intro">Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creatives technologists.</p>
+                        <p class="intro">Slam Dunk Digital is a creative and digital startup that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creatives technologists.</p>
                     </header>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>                    
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>        
+                    <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for some high profile brands from around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co workers.</p>
+
+                    <p>Slam Dunk Digital was founded to bring all these talented people together as a collective, comprising of graphic / digital designers, creative developers, user experience and planners to collaborate as one. Being a startup we are still relatively small currently 12 people strong but growing steadily as we win more and more accounts.</p>
+
+                    <p>Together we try to be innovative and passionate when we work on our clients projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
+
+                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types of brand and businesses of all sizes. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>        
+                    
                 </div>
                 
                 <div class="col col-no-skew">
                      <?php include("incl/inc-what-we-do-thumbs.php"); ?>
                 </div>
+
+                <div id="particle-canvas"></div> 
             </section><!-- End of home-->
         </div>
 
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of our finest work that our team of designers and developers have perfectly blended to create beautiful and engaging user experiences.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team have created. We try to be innovative and passionate when we work on our clients projects; expectations are high but we always deliver a unique sense of style and digital marketing, perfectly blended to create engaging user experiences.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->
@@ -127,7 +134,7 @@
         <section id="clients" class="section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Elvis communications, Collective London and We Are Social.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
             </header>
             <div class="row">
                 <!-- Client list -->          
@@ -203,8 +210,8 @@
                   //if "email" variable is not filled out, display the form
                   else  {
                 ?>
-                <p>Send us a quick meassage. <br>Please fill in all the fields below to send us a message online.</p>
-                
+                <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
+
                 <form id="contact-form" method="post" action="index.php#quick-message">
                     <fieldset>
                         <p>
@@ -234,7 +241,7 @@
                 </form>
             <?php
               }
-            ?>
+            ?>           
         </section>
 
 
