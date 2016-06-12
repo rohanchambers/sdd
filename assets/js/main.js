@@ -42,6 +42,16 @@ $(document).alton({
     scrollMode: 'headerScroll', // Set the scroll mode
 });
 
+// Initialisation
+var canvasDiv = document.getElementById('particle-canvas');
+var options = {
+  particleColor: '#FFF',
+  interactive: false,
+  speed: 'high',
+  density: 'high'
+};
+var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
 // Document ready
 $(function(){
     // Fit text plugin
@@ -54,12 +64,12 @@ $(function(){
     //$('#nav-main').eavesdrop();
 
     // Responsive carousel
-    $('.bxslider').bxSlider({
-        mode: 'horizontal',
-        captions: true,
-        easing: 'ease-out',
-        auto: true
-    });
+    // $('.bxslider').bxSlider({
+    //     mode: 'horizontal',
+    //     captions: true,
+    //     easing: 'ease-out',
+    //     auto: true
+    // });
 
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);

@@ -47,7 +47,6 @@
                   <div class="sk-cube sk-cube8"></div>
                   </div>
                   <div class="sk-cube sk-cube9"></div>
-                
             </div>
         </div>
 
@@ -72,7 +71,6 @@
                 </nav>
             </header>
         </div><!-- End of Nav main -->
-
 
 
         <div id="case-study-outer" class="theme-red">

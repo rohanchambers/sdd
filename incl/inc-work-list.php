@@ -1,7 +1,7 @@
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
-                        <h2>Phone ResQ.</h2>
+                        <h2>Phone ResQ</h2>
                         <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
                     </div>
                 </div>
@@ -96,6 +96,13 @@
                     <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
                     <div class="mask">
                         <h2>Olympics 2012, #supportYourTeam</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                    </div>
+                </div>
+                <div class="view view-first coming-soon">
+                    <img src="assets/img/work/enotria.jpg" alt="Olympics 2012, #supportYourTeam" />
+                    <div class="mask">
+                        <h2>Tesco, Enotria</h2>
                         <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
                     </div>
                 </div>

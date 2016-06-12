@@ -221,6 +221,25 @@
 #what-we-do-outer {
 	overflow: hidden;
 	height: auto;
+
+		#particle-canvas {
+			position: absolute!important;
+			z-index: 2;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+
+
+			div {
+				background: transparent!important;
+			}
+
+			canvas {
+				width: 100%;
+				//height: 2000px;
+			}				
+		}		
 }
 
 #what-we-do {
@@ -237,7 +256,7 @@
 	.col {
 		header, p {
 		    position: relative;
-		    z-index: 2;
+		    z-index: 3;
 		}
 
 		img {
@@ -610,9 +629,9 @@
 			//display: none!important;
 		}
 
-		.view:last-child {
-			display: none;
-		}
+		// .view:last-child {
+		// 	display: none;
+		// }
 	}
 }
 
@@ -741,6 +760,7 @@
 
 // QUICK MESSAGE SECTION
 #quick-message {
+	position: relative;
 	padding: 25px 0;
 	// background: url(../img/global/smoke.jpg) center center;	
 	// background-size: cover;
@@ -751,11 +771,31 @@
 		text-align: center;			
 	}
 
+	#particle-canvas {
+		position: absolute!important;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+
+		div {
+			background: transparent!important;
+		}
+
+		canvas {
+			width: 100%;
+		}
+    }
+
 	#contact-form {
 	    position: relative;
+	    z-index: 1;
 	    margin: 20px auto 0 auto;
 	    width: 50%;
-	    
+	    //background-color: rgba(255, 255, 255, 0.2);
+
 	    fieldset {
 	        border: none;
 	    }

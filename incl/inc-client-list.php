@@ -4,8 +4,8 @@
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/perfectPeaksBrews.png" alt="Perfect Peaks Brews">
-                    <img class="top" src="assets/img/clients/perfectPeaksBrews.png" alt="Perfect Peaks Brews">
+                    <img class="bottom" src="assets/img/clients/hover/perfectPeaksBrewsLight.png" alt="Perfect Peaks Brews">
+                    <img class="top" src="assets/img/clients/perfectPeaksBrewsLight.png" alt="Perfect Peaks Brews">
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>                
                 <div class="client">
