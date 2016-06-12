@@ -6,7 +6,7 @@
         <title>Slam Dunk Digital | Home</title>
         <meta name="title" content="Slam Dunk Digital | Home">
         <meta name="author" content="Slam Dunk Digital">
-        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them Young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
+        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -20,7 +20,7 @@
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
         <meta property="og:title"           content="Welcome to Slam Dunk Digital" />
-        <meta property="og:description"     content="<meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them Young, fresh and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
+        <meta property="og:description"     content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists." />
         <meta property="og:url"             content="http://slamdunkdigital.co.uk/" />
         <meta property="og:image:width"     content="600" />
         <meta property="og:image:height"    content="600" />
@@ -30,7 +30,7 @@
         <meta name="twitter:card"           content="summary">
         <meta name="twitter:site"           content="@slamdunkdigital">
         <meta name="twitter:title"          content="Welcome to Slam Dunk Digital">
-        <meta name="twitter:description"    content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
+        <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
         <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
@@ -58,6 +58,7 @@
             <section id="home" class="hero section-home full eavesdrop">
                 <header id="logo">
                     <h1>Slam Dunk Digital</h1>
+                    <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
                     <ul>
@@ -107,7 +108,7 @@
 
                     <p>Together we try to be innovative and passionate when we work on our clients projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
-                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types of brand and businesses of all sizes. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>        
+                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types of brands and businesses of all sizes. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>        
                     
                 </div>
                 
@@ -175,9 +176,9 @@
                 <h2>Follow us on</h2>
                 <ul>
                     <li class="social">
-                        <i class="fa fa-facebook fa-3x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-3x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-3x"><a href="#"></a></i>
+                        <i class="fa fa-facebook fa-3x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
+                        <i class="fa fa-twitter fa-3x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
+                        <i class="fa fa-instagram fa-3x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
                     </li>
                 </ul>
             </div>
@@ -271,8 +272,6 @@
                             </li>
                         </ul>
                         <p>Slam Dunk Digital Limited<br>
-                        Registered trademark<br>
-                        Registered 882931<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
@@ -317,5 +316,22 @@
             })
         //]]>
         </script>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=11006368; 
+        var sc_invisible=1; 
+        var sc_security="096fd4e3"; 
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="free hit
+        counter" href="http://statcounter.com/" target="_blank"><img
+        class="statcounter"
+        src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
+        hit counter"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->        
     </body> 
 </html>
