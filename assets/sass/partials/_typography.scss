@@ -154,6 +154,7 @@ header {
 				font-size: rem(24);
 				margin-bottom: 20px;
 				color: $white;
+				line-height: 1;
 			}
 			
 			h1:before {
@@ -161,10 +162,10 @@ header {
 			}
 
 			h1:after  {
-				left: 0;
-				width: 165px;
-				height: 3px;
-				background-color: $white;
+				// left: 0;
+				// width: 165px;
+				// height: 3px;
+				background-color: transparent;
 			}
 		}
 

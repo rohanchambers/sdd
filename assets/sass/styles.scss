@@ -400,7 +400,36 @@
 	}	
 }
 
+// THEME TURQUOISE
+#case-study-outer.theme-turquoise {
+	background-color: #049bf4;
 
+	.col-skew, 
+	.col-skew:after {
+		background-color: #049bf4;
+	}
+
+	p, 
+	#case-study #case-study-info a {
+		color: $white;
+	}
+
+	#case-study #case-study-info p a:hover {
+		background-color: $white;
+		color: $black;
+		padding: 3px;
+	}	
+}
+
+.theme-red .about-row-img {
+	background: $black url(../img/case-study/phoneResq/phoneResq_shop.jpg) no-repeat top right;
+    background-size: cover;	
+}
+
+.theme-turquoise .about-row-img {
+	background: $black url(../img/case-study/perfectPeaksBrews/ppb_bottle.jpg) no-repeat center -150px;
+    background-size: cover;		
+}
 
 #case-study-intro {
     @include row( $display: default, $direction: RTL);
@@ -429,14 +458,15 @@
         h1 {
             font-size: rem(60);
             font-weight: 600;
-            //text-transform: uppercase;
+            text-transform: uppercase;
+            line-height: 1em;
             margin: 0;
         }
 
 		p {
 			font-family: $font-med;
-			font-size: rem(20);
-			font-weight: bold;
+			font-size: rem(16);
+			//font-weight: bold;
 			line-height: 1.1em;
 			margin: 10px 0 13px;
 			padding: 0;
@@ -453,8 +483,6 @@
     min-height: 350px;
     position: absolute;
     left: 0;
-    background: $black url(../img/case-study/phoneResq/bg-section-three-2.jpg) no-repeat top right;
-    background-size: cover;       
 }
 
 .bg-color {
@@ -532,6 +560,7 @@
 				position: relative;
 				z-index: 3;	
 				padding: 0;
+				
 
 				img {
 					float: left;

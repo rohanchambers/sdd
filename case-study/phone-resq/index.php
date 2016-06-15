@@ -2,35 +2,44 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Phone ResQ.</title>
-        <meta name="title" content="Case study | Phone ResQ.">
+        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
         <meta name="author" content="Slam Dunk Digital">
-        <meta name="description" content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
-        <meta name="keywords" content="" />
+        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
+        <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <script src="assets/js/vendor/modernizr-custom.js"></script>
+        <!--(if target dev)><!-->
+        <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <!--<!(endif)-->
+        <!--(if target dist)>
+        <link rel="stylesheet" href="assets/css/compiled.min.css">
+        <!(endif)-->
+        <!--(if target dev)><!-->
+        <script src="/assets/js/vendor/modernizr-custom.js"></script>
+        <!--<!(endif)-->
 
         <!-- Open graph tags -->
-        <meta property="og:image"           content="http://slamdunkdigital.co.uk/" />
-        <meta property="og:title"           content="Welcome to Slam Dunk Digital" />
-        <meta property="og:description"     content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" />
-        <meta property="og:url"             content="http://slamdunkdigital.co.uk/" />    
-        <meta property="og:image:width"     content="600" />
-        <meta property="og:image:height"    content="600" />
-        <meta property="og:image:type"      content="image/jpg" /> 
-        <meta property="fb:app_id"          content="168519230210632" />
+        <meta property="og:image"           content="http://slamdunkdigital.co.uk/">
+        <meta property="og:title"           content="Welcome to Slam Dunk Digital">
+        <meta property="og:description"     content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
+        <meta property="og:url"             content="http://slamdunkdigital.co.uk/">
+        <meta property="og:image:width"     content="600">
+        <meta property="og:image:height"    content="600">
+        <meta property="og:image:type"      content="image/jpg">
+        <meta property="fb:app_id"          content="168519230210632">
 
         <meta name="twitter:card"           content="summary">
         <meta name="twitter:site"           content="@slamdunkdigital">
-        <meta name="twitter:title"          content="Welcome to slamdunkdigital">
-        <meta name="twitter:description"    content="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!">
+        <meta name="twitter:title"          content="Welcome to Slam Dunk Digital">
+        <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk/">       
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">    
     </head>
     <body class="page-case-study">
         <!-- Preloader -->
@@ -90,7 +99,7 @@
                     <div id="particle-canvas"></div>                
                     <header>                    
                         <h1>Phone ResQ.</h1>
-                        <img src="../assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
+                        <img src="/assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
                         <nav>
                             <ul id="controls">
                                 <li><a href="#" class="go-all" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
@@ -110,7 +119,7 @@
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
-                     <img src="../assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
+                     <img src="/assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="PhoneResQ.">
                 </div>
             </section><!-- End of Case study-->
         </div>
@@ -141,8 +150,6 @@
                             </li>
                         </ul>
                         <p>Slam Dunk Digital Limited<br>
-                        Registered trademark<br>
-                        Registered 882931<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
@@ -161,11 +168,11 @@
 
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
-            <img src="assets/img/video/space.jpg" alt="Space">
-            <video loop muted autoplay poster="assets/img/video/space.jpg">
-                <source src="assets/img/video/space.webm" type="video/webm">
-                <source src="assets/img/video/space.mp4" type="video/mp4">
-                <source src="assets/img/video/space.ogv" type="video/ogg">
+            <img src="/assets/img/video/space.jpg" alt="Space">
+            <video loop muted autoplay poster="/assets/img/video/space.jpg">
+                <source src="/assets/img/video/space.webm" type="video/webm">
+                <source src="/assets/img/video/space.mp4" type="video/mp4">
+                <source src="//assets/img/video/space.ogv" type="video/ogg">
             </video>
             
             <header>
@@ -194,13 +201,13 @@
                 </ul>
             </nav>
         </div>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="assets/js/vendor/nav-overlay.js"></script>
-        <script src="assets/js/vendor/classie.js"></script>
-        <script src="assets/js/vendor/css3-animate-it.min.js"></script>
-        <script src="assets/js/vendor/jquery.fittext.js"></script>
-        <script src="assets/js/misc/constellations.js"></script>
-        <script src="assets/js/main-pages.js"></script>
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/js/vendor/nav-overlay.js"></script>
+        <script src="/assets/js/vendor/classie.js"></script>
+        <script src="/assets/js/vendor/css3-animate-it.min.js"></script>
+        <script src="/assets/js/vendor/jquery.fittext.js"></script>
+        <script src="/assets/js/misc/constellations.js"></script>
+        <script src="/assets/js/main-pages.js"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function(d, s, id) {

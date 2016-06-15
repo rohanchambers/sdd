@@ -132,14 +132,12 @@ header p {
 #case-study #case-study-info header h1 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #FFF; }
+  color: #FFF;
+  line-height: 1; }
 #case-study #case-study-info header h1:before {
   display: none; }
 #case-study #case-study-info header h1:after {
-  left: 0;
-  width: 165px;
-  height: 3px;
-  background-color: #FFF; }
+  background-color: transparent; }
 #case-study #case-study-info p {
   width: 100%;
   font-size: 0.875rem; }
@@ -2964,6 +2962,27 @@ ul.bxslider {
   #case-study-outer.theme-yellow #case-study #case-study-info #controls i:hover {
     color: #FFF; }
 
+#case-study-outer.theme-turquoise {
+  background-color: #049bf4; }
+  #case-study-outer.theme-turquoise .col-skew,
+  #case-study-outer.theme-turquoise .col-skew:after {
+    background-color: #049bf4; }
+  #case-study-outer.theme-turquoise p,
+  #case-study-outer.theme-turquoise #case-study #case-study-info a {
+    color: #FFF; }
+  #case-study-outer.theme-turquoise #case-study #case-study-info p a:hover {
+    background-color: #FFF;
+    color: #000;
+    padding: 3px; }
+
+.theme-red .about-row-img {
+  background: #000 url(../img/case-study/phoneResq/phoneResq_shop.jpg) no-repeat top right;
+  background-size: cover; }
+
+.theme-turquoise .about-row-img {
+  background: #000 url(../img/case-study/perfectPeaksBrews/ppb_bottle.jpg) no-repeat center -150px;
+  background-size: cover; }
+
 #case-study-intro {
   display: block;
   margin: 0; }
@@ -2992,11 +3011,12 @@ ul.bxslider {
     #about-row article h1 {
       font-size: 3.75rem;
       font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1em;
       margin: 0; }
     #about-row article p {
       font-family: Arial, Verdana, sans-serif;
-      font-size: 1.25rem;
-      font-weight: bold;
+      font-size: 1rem;
       line-height: 1.1em;
       margin: 10px 0 13px;
       padding: 0; }
@@ -3007,9 +3027,7 @@ ul.bxslider {
   width: 50%;
   min-height: 350px;
   position: absolute;
-  left: 0;
-  background: #000 url(../img/case-study/phoneResq/bg-section-three-2.jpg) no-repeat top right;
-  background-size: cover; }
+  left: 0; }
 
 .bg-color {
   position: absolute;
