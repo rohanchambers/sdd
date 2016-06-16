@@ -14,13 +14,14 @@
 @import "vendor/_loader";
 @import "vendor/_section-scroll";
 @import "vendor/_bxslider";
+@import "vendor/_slinky";
 
 
 // NAV MINI
 #nav-mini {
 	position: fixed;
 	top: 50%;
-	left: -15px;
+	left: -30px;
 	z-index: 3;
 	margin-top: -50px;
 
@@ -28,14 +29,14 @@
 		display: block;
 		width: 10px;
 		height: 10px;			
-		margin-bottom: 12px;
+		margin-bottom: 13px;
 		
 		a {
 			display: block;
-			width: 10px;
-			height: 10px;
+			width: 12px;
+			height: 12px;
 			background-color: $white;
-			border-radius: 10px;
+			border-radius: 12px;
 			text-decoration: none;
 			border: 1px solid $white;
 		}
@@ -221,23 +222,7 @@
 #what-we-do-outer {
 	overflow: hidden;
 	height: auto;
-
-		#particle-canvas {
-			position: absolute!important;
-			z-index: 2;
-			top: 0;
-			left: 0;
-			width: 50%;
-			height: 100%;
-
-			div {
-				background: transparent!important;
-			}
-
-			canvas {
-				width: 100%;
-			}				
-		}		
+	@include particles;
 }
 
 #what-we-do {
@@ -432,7 +417,7 @@
 }
 
 #case-study-intro {
-    @include row( $display: default, $direction: RTL);
+    @include row( $display: default);
     margin: 0;
 }
 
@@ -598,25 +583,7 @@
 					}
 				}
 			}
-
-			#particle-canvas {
-				position: absolute!important;
-				z-index: 2;
-				top: 0;
-				left: 0;
-				width: 50%;
-				height: 100%;
-
-
-				div {
-					background: transparent!important;
-				}
-
-				canvas {
-					width: 100%;
-					//height: 2000px;
-				}				
-			}
+			@include particles;
 		}// End of case study info
 
 		// Right column
@@ -798,24 +765,6 @@
 		color: $white;
 		text-align: center;			
 	}
-
-	#particle-canvas {
-		position: absolute!important;
-		z-index: 0;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-
-
-		div {
-			background: transparent!important;
-		}
-
-		canvas {
-			width: 100%;
-		}
-    }
 
 	#contact-form {
 	    position: relative;
@@ -1011,4 +960,54 @@ footer {
 	}
 }
 
+// 404 SECTION
+.page-error-404 {
+	width: 100%;
+	height: 100%;
+
+	#particle-canvas {
+		position: absolute!important;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		div {
+			background: transparent!important;
+		}
+
+		canvas {
+			width: 100%;
+		}
+	}
+}
+
+#error-404 {
+	position: relative;
+	z-index: 1;
+	
+	header {
+		background-color: $white;
+		opacity: 0.8;
+	}
+
+	ul {
+		clear: both;
+		
+		li {
+			margin-bottom: 5px;
+			list-style-type: disc;
+
+			a {
+				color: $blue;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}	
+		}
+
+	}
+}
 @import "partials/_mobile";

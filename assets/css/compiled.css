@@ -535,18 +535,23 @@ header p {
 
 #services h1, #services p,
 #clients h1,
-#clients p {
+#clients p,
+#error-404 h1,
+#error-404 p {
   float: left;
   text-align: left; }
 #services h1,
-#clients h1 {
+#clients h1,
+#error-404 h1 {
   padding-left: 25px; }
 #services h1:before,
-#clients h1:before {
+#clients h1:before,
+#error-404 h1:before {
   left: 0;
   background-color: #009f5e; }
 #services h1:after,
-#clients h1:after {
+#clients h1:after,
+#error-404 h1:after {
   left: 25px;
   width: 61%; }
 
@@ -554,17 +559,19 @@ header p {
   left: 0;
   background-color: #ffc036; }
 
+#error-404 h1:before {
+  left: 0;
+  background-color: #fd070d; }
+
 #case-study #case-study-info header h1 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #FFF; }
+  color: #FFF;
+  line-height: 1; }
 #case-study #case-study-info header h1:before {
   display: none; }
 #case-study #case-study-info header h1:after {
-  left: 0;
-  width: 165px;
-  height: 3px;
-  background-color: #FFF; }
+  background-color: transparent; }
 #case-study #case-study-info p {
   width: 100%;
   font-size: 0.875rem; }
@@ -640,6 +647,7 @@ header p {
 #contact,
 #contact-info,
 #logo,
+#error-404,
 footer {
   max-width: 1024px;
   margin-left: auto;
@@ -653,6 +661,7 @@ footer {
   #contact::after,
   #contact-info::after,
   #logo::after,
+  #error-404::after,
   footer::after {
     clear: both;
     content: "";
@@ -3094,23 +3103,284 @@ ul.bxslider {
   font-size: .85em;
   padding: 10px; }
 
+#cssplay-slinky {
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto 250px auto; }
+
+.plain {
+  width: 100%;
+  height: 0;
+  padding-bottom: 30%;
+  position: relative;
+  perspective: 1600px; }
+
+.plain .table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(80deg) rotateZ(45deg);
+  animation: rotate 8s steps(4, end) infinite; }
+
+.plain .table .coil {
+  width: 40%;
+  height: 0;
+  padding-bottom: 40%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 100%;
+  left: 0;
+  box-shadow: 0 0 0 3px #c0c0c0, inset 0 0 0 4px #000;
+  backface-visibility: visible;
+  transform-style: preserve-3d; }
+
+.plain .table .coil:nth-of-type(1) {
+  transform: translateZ(0);
+  transform-origin: 125% 50% 21px;
+  animation: c1 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(2) {
+  transform: translateZ(2px);
+  transform-origin: 125% 50% 19px;
+  animation: c2 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(3) {
+  transform: translateZ(4px);
+  transform-origin: 125% 50% 17px;
+  animation: c3 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(4) {
+  transform: translateZ(6px);
+  transform-origin: 125% 50% 15px;
+  animation: c4 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(5) {
+  transform: translateZ(8px);
+  transform-origin: 125% 50% 13px;
+  animation: c5 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(6) {
+  transform: translateZ(10px);
+  transform-origin: 125% 50% 11px;
+  animation: c6 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(7) {
+  transform: translateZ(12px);
+  transform-origin: 125% 50% 9px;
+  animation: c7 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(8) {
+  transform: translateZ(14px);
+  transform-origin: 125% 50% 7px;
+  animation: c8 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(9) {
+  transform: translateZ(16px);
+  transform-origin: 125% 50% 5px;
+  animation: c9 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(10) {
+  transform: translateZ(18px);
+  transform-origin: 125% 50% 3px;
+  animation: c10 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(11) {
+  transform: translateZ(20px);
+  transform-origin: 125% 50% 1px;
+  animation: c11 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(12) {
+  transform: translateZ(22px);
+  transform-origin: 125% 50% -1px;
+  animation: c12 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(13) {
+  transform: translateZ(24px);
+  transform-origin: 125% 50% -3px;
+  animation: c13 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(14) {
+  transform: translateZ(26px);
+  transform-origin: 125% 50% -5px;
+  animation: c14 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(15) {
+  transform: translateZ(28px);
+  transform-origin: 125% 50% -7px;
+  animation: c15 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(16) {
+  transform: translateZ(30px);
+  transform-origin: 125% 50% -9px;
+  animation: c16 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(17) {
+  transform: translateZ(32px);
+  transform-origin: 125% 50% -11px;
+  animation: c17 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(18) {
+  transform: translateZ(34px);
+  transform-origin: 125% 50% -13px;
+  animation: c18 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(19) {
+  transform: translateZ(36px);
+  transform-origin: 125% 50% -15px;
+  animation: c19 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(20) {
+  transform: translateZ(38px);
+  transform-origin: 125% 50% -17px;
+  animation: c20 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(21) {
+  transform: translateZ(40px);
+  transform-origin: 125% 50% -19px;
+  animation: c21 2s linear infinite; }
+
+.plain .table .coil:nth-of-type(22) {
+  transform: translateZ(42px);
+  transform-origin: 125% 50% -21px;
+  animation: c22 2s linear infinite; }
+
+@keyframes c1 {
+  0%, 84% {
+    transform: translateZ(0) rotateY(0deg); }
+  99%, 100% {
+    transform: translateZ(0) rotateY(179.9deg); } }
+@keyframes c2 {
+  0%, 80% {
+    transform: translateZ(2px) rotateY(0deg); }
+  95%, 100% {
+    transform: translateZ(2px) rotateY(179.9deg); } }
+@keyframes c3 {
+  0%, 76% {
+    transform: translateZ(4px) rotateY(0deg); }
+  91%, 100% {
+    transform: translateZ(4px) rotateY(179.9deg); } }
+@keyframes c4 {
+  0%, 72% {
+    transform: translateZ(6px) rotateY(0deg); }
+  87%, 100% {
+    transform: translateZ(6px) rotateY(179.9deg); } }
+@keyframes c5 {
+  0%, 68% {
+    transform: translateZ(8px) rotateY(0deg); }
+  83%, 100% {
+    transform: translateZ(8px) rotateY(179.9deg); } }
+@keyframes c6 {
+  0%, 64% {
+    transform: translateZ(10px) rotateY(0deg); }
+  79%, 100% {
+    transform: translateZ(10px) rotateY(179.9deg); } }
+@keyframes c7 {
+  0%, 60% {
+    transform: translateZ(12px) rotateY(0deg); }
+  75%, 100% {
+    transform: translateZ(12px) rotateY(179.9deg); } }
+@keyframes c8 {
+  0%, 56% {
+    transform: translateZ(14px) rotateY(0deg); }
+  71%, 100% {
+    transform: translateZ(14px) rotateY(179.9deg); } }
+@keyframes c9 {
+  0%, 52% {
+    transform: translateZ(16px) rotateY(0deg); }
+  67%, 100% {
+    transform: translateZ(16px) rotateY(179.9deg); } }
+@keyframes c10 {
+  0%, 48% {
+    transform: translateZ(18px) rotateY(0deg); }
+  63%, 100% {
+    transform: translateZ(18px) rotateY(179.9deg); } }
+@keyframes c11 {
+  0%, 44% {
+    transform: translateZ(20px) rotateY(0deg); }
+  59%, 100% {
+    transform: translateZ(20px) rotateY(179.9deg); } }
+@keyframes c12 {
+  0%, 40% {
+    transform: translateZ(22px) rotateY(0deg); }
+  55%, 100% {
+    transform: translateZ(22px) rotateY(179.9deg); } }
+@keyframes c13 {
+  0%, 36% {
+    transform: translateZ(24px) rotateY(0deg); }
+  51%, 100% {
+    transform: translateZ(24px) rotateY(179.9deg); } }
+@keyframes c14 {
+  0%, 32% {
+    transform: translateZ(26px) rotateY(0deg); }
+  47%, 100% {
+    transform: translateZ(26px) rotateY(179.9deg); } }
+@keyframes c15 {
+  0%, 28% {
+    transform: translateZ(28px) rotateY(0deg); }
+  43%, 100% {
+    transform: translateZ(28px) rotateY(179.9deg); } }
+@keyframes c16 {
+  0%, 24% {
+    transform: translateZ(30px) rotateY(0deg); }
+  39%, 100% {
+    transform: translateZ(30px) rotateY(179.9deg); } }
+@keyframes c17 {
+  0%, 20% {
+    transform: translateZ(32px) rotateY(0deg); }
+  35%, 100% {
+    transform: translateZ(32px) rotateY(179.9deg); } }
+@keyframes c18 {
+  0%, 16% {
+    transform: translateZ(34px) rotateY(0deg); }
+  31%, 100% {
+    transform: translateZ(34px) rotateY(179.9deg); } }
+@keyframes c19 {
+  0%, 12% {
+    transform: translateZ(36px) rotateY(0deg); }
+  27%, 100% {
+    transform: translateZ(36px) rotateY(179.9deg); } }
+@keyframes c20 {
+  0%, 8% {
+    transform: translateZ(38px) rotateY(0deg); }
+  23%, 100% {
+    transform: translateZ(38px) rotateY(179.9deg); } }
+@keyframes c21 {
+  0%, 4% {
+    transform: translateZ(40px) rotateY(0deg); }
+  19%, 100% {
+    transform: translateZ(40px) rotateY(179.9deg); } }
+@keyframes c22 {
+  0% {
+    transform: translateZ(42px) rotateY(0deg); }
+  15%, 100% {
+    transform: translateZ(42px) rotateY(179.9deg); } }
+@keyframes rotate {
+  0% {
+    transform: rotateX(80deg) rotateZ(-45deg); }
+  100% {
+    transform: rotateX(80deg) rotateZ(-405deg); } }
 #nav-mini {
   position: fixed;
   top: 50%;
-  left: -15px;
+  left: -30px;
   z-index: 3;
   margin-top: -50px; }
   #nav-mini li {
     display: block;
     width: 10px;
     height: 10px;
-    margin-bottom: 12px; }
+    margin-bottom: 13px; }
     #nav-mini li a {
       display: block;
-      width: 10px;
-      height: 10px;
+      width: 12px;
+      height: 12px;
       background-color: #FFF;
-      border-radius: 10px;
+      border-radius: 12px;
       text-decoration: none;
       border: 1px solid #FFF; }
   #nav-mini a.black:hover, #nav-mini li.active a.black {
@@ -3389,6 +3659,27 @@ ul.bxslider {
   #case-study-outer.theme-yellow #case-study #case-study-info #controls i:hover {
     color: #FFF; }
 
+#case-study-outer.theme-turquoise {
+  background-color: #049bf4; }
+  #case-study-outer.theme-turquoise .col-skew,
+  #case-study-outer.theme-turquoise .col-skew:after {
+    background-color: #049bf4; }
+  #case-study-outer.theme-turquoise p,
+  #case-study-outer.theme-turquoise #case-study #case-study-info a {
+    color: #FFF; }
+  #case-study-outer.theme-turquoise #case-study #case-study-info p a:hover {
+    background-color: #FFF;
+    color: #000;
+    padding: 3px; }
+
+.theme-red .about-row-img {
+  background: #000 url(../img/case-study/phoneResq/phoneResq_shop.jpg) no-repeat top right;
+  background-size: cover; }
+
+.theme-turquoise .about-row-img {
+  background: #000 url(../img/case-study/perfectPeaksBrews/ppb_bottle.jpg) no-repeat center -150px;
+  background-size: cover; }
+
 #case-study-intro {
   display: block;
   margin: 0; }
@@ -3398,7 +3689,7 @@ ul.bxslider {
     display: table; }
 
 #about-row {
-  float: right;
+  float: left;
   display: block;
   width: 50%;
   min-height: 200px;
@@ -3417,11 +3708,12 @@ ul.bxslider {
     #about-row article h1 {
       font-size: 3.75rem;
       font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1em;
       margin: 0; }
     #about-row article p {
       font-family: Arial, Verdana, sans-serif;
-      font-size: 1.25rem;
-      font-weight: bold;
+      font-size: 1rem;
       line-height: 1.1em;
       margin: 10px 0 13px;
       padding: 0; }
@@ -3432,9 +3724,7 @@ ul.bxslider {
   width: 50%;
   min-height: 350px;
   position: absolute;
-  left: 0;
-  background: #000 url(../img/case-study/phoneResq/bg-section-three-2.jpg) no-repeat top right;
-  background-size: cover; }
+  left: 0; }
 
 .bg-color {
   position: absolute;
@@ -3641,17 +3931,6 @@ ul.bxslider {
   #quick-message h1, #quick-message p {
     color: #FFF;
     text-align: center; }
-  #quick-message #particle-canvas {
-    position: absolute !important;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-    #quick-message #particle-canvas div {
-      background: transparent !important; }
-    #quick-message #particle-canvas canvas {
-      width: 100%; }
   #quick-message #contact-form {
     position: relative;
     z-index: 1;
@@ -3792,6 +4071,36 @@ footer {
     footer #copyright-info ul {
       margin: 0; }
 
+.page-error-404 {
+  width: 100%;
+  height: 100%; }
+  .page-error-404 #particle-canvas {
+    position: absolute !important;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .page-error-404 #particle-canvas div {
+      background: transparent !important; }
+    .page-error-404 #particle-canvas canvas {
+      width: 100%; }
+
+#error-404 {
+  position: relative;
+  z-index: 1; }
+  #error-404 header {
+    background-color: #FFF; }
+  #error-404 ul {
+    clear: both; }
+    #error-404 ul li {
+      margin-bottom: 5px;
+      list-style-type: disc; }
+      #error-404 ul li a {
+        color: #0074c0; }
+      #error-404 ul li a:hover {
+        text-decoration: none; }
+
 @media screen and (min-width: 1025px) {
   #what-we-do-outer {
     overflow: hidden;
@@ -3860,12 +4169,12 @@ footer {
       display: none; }
 
   #work .row .view {
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 50%; }
     #work .row .view:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
     #work .row .view:nth-child(3n) {
       margin-right: 0%; }
     #work .row .view:nth-child(3n+1) {
@@ -3884,12 +4193,12 @@ footer {
     font-size: 1.625rem; }
 
   #clients .row .client {
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 33.33333%; }
     #clients .row .client:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
     #clients .row .client:nth-child(4n) {
       margin-right: 0%; }
     #clients .row .client:nth-child(4n+1) {
@@ -3901,12 +4210,12 @@ footer {
 
   #offices, #get-in-touch, #follow-us {
     min-height: auto;
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 100%; }
     #offices:last-child, #get-in-touch:last-child, #follow-us:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
 
   #quick-message #contact-form {
     width: 100%; }
@@ -3921,14 +4230,14 @@ footer {
   #case-study .col,
   #case-study #case-study-info,
   #case-study #case-study-img {
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 100%; }
     #case-study .col:last-child,
     #case-study #case-study-info:last-child,
     #case-study #case-study-img:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
   #case-study .col-no-skew,
   #case-study .col-skew:after {
     display: none; }
@@ -3986,20 +4295,20 @@ footer {
     font-size: 1.875rem; }
 
   #work .row .view {
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 100%; }
     #work .row .view:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
 
   #clients .row .client {
-    float: right;
+    float: left;
     display: block;
-    margin-left: 0%;
+    margin-right: 0%;
     width: 50%; }
     #clients .row .client:last-child {
-      margin-left: 0; }
+      margin-right: 0; }
 
   .fa-1x {
     font-size: 2.5rem; }
