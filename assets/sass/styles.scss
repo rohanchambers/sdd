@@ -990,6 +990,15 @@ footer {
 	header {
 		background-color: $white;
 		opacity: 0.8;
+		padding: 5px;
+			
+		p {
+			font-weight: bold;
+		}
+
+		::after {
+			width: 76%;
+		}
 	}
 
 	ul {

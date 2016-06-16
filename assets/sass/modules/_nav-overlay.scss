@@ -136,8 +136,8 @@
 
 .overlay ul li a:hover,
 .overlay ul li a.active {
-	color: $white;
-	background-color: $black;
+	color: #333;
+	background-color: $white;
 }
 
 .overlay ul li a:hover span.letter-yellow { color: $yellow;}
@@ -146,7 +146,7 @@
 .overlay ul li a:hover span.letter-blue { color: $blue;}
 
 .show-nav #body-nav ul li a {
-	opacity:1;
+	opacity: 1;
 }
 
 .overlay ul li.overlay-share.show-hide { 

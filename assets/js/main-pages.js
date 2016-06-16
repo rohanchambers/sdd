@@ -20,7 +20,7 @@ $(function(){
     });
 
     // Fit text plugin
-    $('#about-row h1').fitText();    
+    $('#about-row h1').fitText();
 
 }); // End of Document ready
 
@@ -60,10 +60,16 @@ function hideNav() {
 
 // Initialisation
 var canvasDiv = document.getElementById('particle-canvas');
+
 var options = {
-  particleColor: '#000',
-  interactive: true,
-  speed: 'high',
-  density: 'high'
+    particleColor: '#FFF',    
+    interactive: true,
+    speed: 'high',
+    density: 'high'
 };
+
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
+
+
+

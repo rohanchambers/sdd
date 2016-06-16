@@ -546,8 +546,8 @@ footer {
 
 .overlay ul li a:hover,
 .overlay ul li a.active {
-  color: #FFF;
-  background-color: #000; }
+  color: #333;
+  background-color: #FFF; }
 
 .overlay ul li a:hover span.letter-yellow {
   color: #ffc036; }
@@ -3666,7 +3666,12 @@ footer {
   z-index: 1; }
   #error-404 header {
     background-color: #FFF;
-    opacity: 0.8; }
+    opacity: 0.8;
+    padding: 5px; }
+    #error-404 header p {
+      font-weight: bold; }
+    #error-404 header ::after {
+      width: 76%; }
   #error-404 ul {
     clear: both; }
     #error-404 ul li {

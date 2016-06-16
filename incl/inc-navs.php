@@ -30,11 +30,11 @@
             </header>
             <nav>
                 <ul id="nav-main">
-                    <li><a href="#section-home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="yellow"><a href="#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="red"><a href="#section-work"><span class="red">O</span>ur work</a></li>
-                    <li class="green"><a href="#section-clients"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="#section-contact"><span class="blue">C</span>ontact</a></li>
+                    <li><a href="/#section-home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
+                    <li class="yellow"><a href="/#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="red"><a href="/#section-work"><span class="red">O</span>ur work</a></li>
+                    <li class="green"><a href="/#section-clients"><span class="green">C</span>lients</a></li>
+                    <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
                         <div>
                             <i class="fa fa-facebook fa-1x"><a href="http://facebook.com/slamdunkdigital" target="_blank">&nbsp;</a></i>

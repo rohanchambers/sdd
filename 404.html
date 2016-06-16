@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital | 404 Error!</title>
+        <title>Slam Dunk Digital | 404 (Page not found)</title>
         <meta name="title" content="Slam Dunk Digital | Home">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -33,8 +33,9 @@
         <!-- 404 section -->
         <section id="error-404">            
             <header>
-                <h1>404 Error!</h1>
-                <p>Ooops, sorry we couldn't find the page you were looking for!<br> Please use the links below to get back home.</p>
+                <h1>404 Page not found</h1>
+                <p>I'm afraid you've found a page that doesn't really exist. That can happen when you follow a link to something that has since been deleted. Or the link was incorrect to begin with.
+                <br> Please use the links below to get back home.</p>
                 <ul>
                     <li><a href="/index.php#section-home">Home</a></li>
                     <li><a href="/index.php#section-what-we-do">What we do</a></li>
@@ -44,7 +45,6 @@
                 </ul>
             </header>         
         </section>
-
 
         <!-- Full sceen Navigation -->
         <button class="hamburger" id="trigger-overlay" type="button">
@@ -70,11 +70,11 @@
             </header>
             <nav>
                 <ul id="nav-main">
-                    <li><a href="#section-home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="yellow"><a href="#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="red"><a href="#section-work"><span class="red">O</span>ur work</a></li>
-                    <li class="green"><a href="#section-clients"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="#section-contact"><span class="blue">C</span>ontact</a></li>
+                    <li><a href="/#section-home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
+                    <li class="yellow"><a href="/#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
+                    <li class="red"><a href="/#section-work"><span class="red">O</span>ur work</a></li>
+                    <li class="green"><a href="/#section-clients"><span class="green">C</span>lients</a></li>
+                    <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
                         <div>
                             <i class="fa fa-facebook fa-1x"><a href="http://facebook.com/slamdunkdigital" target="_blank">&nbsp;</a></i>
@@ -91,6 +91,28 @@
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="/assets/js/misc/constellations.js"></script>                 
-        <script src="assets/js/main-pages.js"></script>
+        <script>
+            // Initialisation
+            var canvasDiv = document.getElementById('particle-canvas');
+
+            var options = {
+                particleColor: '#000',    
+                interactive: true,
+                speed: 'high',
+                density: 'high'
+            };
+
+            var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
+            // Document ready
+            $(function(){
+                // Bind a click event to anything with the class 'toggle-nav'
+                $('.hamburger').click(function() {  
+                    // Toggle the Body Class 'show-nav'
+                    $('body').toggleClass('show-nav');
+                    $('#nav-icon').toggleClass('open');
+                });
+            }); // End of Document ready                         
+        </script>
     </body> 
 </html>
