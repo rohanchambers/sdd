@@ -346,11 +346,11 @@
 	}
 
 	p, 
-	#case-study #case-study-info a {
+	#case-study-info a {
 		color: $white;
 	}
 
-	#case-study #case-study-info p a:hover {
+	#case-study-info p a:hover {
 		background-color: $white;
 		color: $black;
 		padding: 3px;
@@ -367,20 +367,20 @@
 	}
 	
  	p,
- 	#case-study #case-study-info a, 
- 	#case-study #case-study-info header h1 {
+ 	#case-study-info a, 
+ 	#case-study-info header h1 {
 		color: $black;
 	}
 
-	#case-study #case-study-info header h1:after {
+	#case-study-info header h1:after {
 		background-color: $black;
 	}
 
-	#case-study #case-study-info #controls i {
+	#case-study-info #controls i {
 		color: $black;
 	}
 	
-	#case-study #case-study-info #controls i:hover {
+	#case-study-info #controls i:hover {
 		color: $white;
 	}	
 }
@@ -395,11 +395,11 @@
 	}
 
 	p, 
-	#case-study #case-study-info a {
+	#case-study-info a {
 		color: $white;
 	}
 
-	#case-study #case-study-info p a:hover {
+	#case-study-info p a:hover {
 		background-color: $white;
 		color: $black;
 		padding: 3px;
@@ -451,7 +451,6 @@
 		p {
 			font-family: $font-med;
 			font-size: rem(16);
-			//font-weight: bold;
 			line-height: 1.1em;
 			margin: 10px 0 13px;
 			padding: 0;
@@ -533,19 +532,19 @@
 		// Left column
 		#case-study-info {
 			a {
-				color: $black;
+				color: $white;
 				font-size: inherit;
 			}
 			
 			a:hover {
 				text-decoration: none;
+				color: $black;
 			}			
 
 			header {
 				position: relative;
 				z-index: 3;	
 				padding: 0;
-				
 
 				img {
 					float: left;
@@ -558,9 +557,10 @@
 
 				#controls {
 					position: absolute;
-					top: -6px;
+					top: -18px;
 					right: 0;
 					padding: 0;
+					z-index: 10;
 
 					li {
 						display: inline-block;
@@ -760,11 +760,6 @@
 	// background: url(../img/global/smoke.jpg) center center;	
 	// background-size: cover;
 	background-color: #054B79;
-	
-	h1, p {
-		color: $white;
-		text-align: center;			
-	}
 
 	#contact-form {
 	    position: relative;

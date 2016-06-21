@@ -458,7 +458,7 @@ html {
 @font-face {
   font-family: 'futuraLT';
   src: url("../fonts/futuraLT/futuraLT-CondensedBold.eot");
-  src: url("../fonts/futuraLT/futuraLT-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futuraLT/futuraLT-CondensedBold.woff") format("woff"), url("../fonts/futuraLT/futuraLT-CondensedBold.svg#arial_blackregular#futuraLT") format("svg");
+  src: url("../fonts/futuraLT/futuraLT-CondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futuraLT/futuraLT-CondensedBold.woff") format("woff"), url("../fonts/futuraLT/futuraLT-CondensedBold.svg#futuraLT") format("svg");
   font-weight: normal;
   font-style: normal; }
 section header {
@@ -480,7 +480,7 @@ header h1 {
   position: relative;
   margin: 0px;
   padding-right: 25px;
-  font-family: "Arial black", Arial, Verdana, sans-serif;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-size: 2.25rem;
   text-transform: uppercase; }
 header h1:before {
@@ -572,6 +572,8 @@ header p {
   display: none; }
 #case-study #case-study-info header h1:after {
   background-color: transparent; }
+#case-study #case-study-info header p.first-p {
+  margin: 0; }
 #case-study #case-study-info p {
   width: 100%;
   font-size: 0.875rem; }
@@ -580,7 +582,8 @@ header p {
 #quick-message h1 {
   margin: 0 auto 18px auto;
   padding: 0;
-  width: 245px; }
+  width: 245px;
+  text-align: center; }
 #contact h1:before,
 #quick-message h1:before {
   left: 0;
@@ -589,21 +592,20 @@ header p {
 #quick-message h1:after {
   left: 26px;
   width: 65%; }
-#contact h1, #contact p,
-#quick-message h1,
-#quick-message p {
-  text-align: center; }
 #contact p,
 #quick-message p {
-  margin: 0 15%; }
+  margin: 0 15%;
+  text-align: center; }
 
 #contact p {
   width: 50%;
   margin: 0 22%; }
 
 #quick-message h1 {
-  width: 370px;
-  padding-left: 25px; }
+  width: 400px;
+  padding-left: 25px;
+  text-align: left;
+  color: #FFF; }
 #quick-message h1:before {
   left: 0;
   background-color: #0074c0; }
@@ -611,10 +613,13 @@ header p {
   width: 73%;
   left: 29px;
   background-color: #FFF; }
+#quick-message p {
+  color: #FFF;
+  text-align: center; }
 
 #contact-info h2 {
   position: relative;
-  font-family: "Arial black", Arial, Verdana, sans-serif;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center; }
@@ -632,7 +637,7 @@ header p {
 
 .overlay h1 {
   padding-top: 5px;
-  font-family: "Arial black", Arial, Verdana, sans-serif;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-size: 1.875rem;
   color: #FFF; }
 .overlay h1:before {
@@ -902,7 +907,9 @@ footer {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: #000 url(../img/video/space.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; }
   .overlay header, .overlay nav {
     position: relative;
@@ -2597,7 +2604,7 @@ footer {
   float: none; }
 #work .view.coming-soon p {
   position: relative;
-  font-family: "Arial black", Arial, Verdana, sans-serif;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-size: 1.875rem;
   position: relative;
   color: #fff;
@@ -3557,7 +3564,7 @@ ul.bxslider {
     display: table; }
   #what-we-do .intro {
     font-size: 1.3125rem;
-    font-family: "Arial black", Arial, Verdana, sans-serif;
+    font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     line-height: 1.2;
     margin-bottom: 0; }
   #what-we-do .col header, #what-we-do .col p {
@@ -3636,9 +3643,9 @@ ul.bxslider {
   #case-study-outer.theme-red .col-skew:after {
     background-color: #fd070d; }
   #case-study-outer.theme-red p,
-  #case-study-outer.theme-red #case-study #case-study-info a {
+  #case-study-outer.theme-red #case-study-info a {
     color: #FFF; }
-  #case-study-outer.theme-red #case-study #case-study-info p a:hover {
+  #case-study-outer.theme-red #case-study-info p a:hover {
     background-color: #FFF;
     color: #000;
     padding: 3px; }
@@ -3649,14 +3656,14 @@ ul.bxslider {
   #case-study-outer.theme-yellow .col-skew:after {
     background-color: #ffc036; }
   #case-study-outer.theme-yellow p,
-  #case-study-outer.theme-yellow #case-study #case-study-info a,
-  #case-study-outer.theme-yellow #case-study #case-study-info header h1 {
+  #case-study-outer.theme-yellow #case-study-info a,
+  #case-study-outer.theme-yellow #case-study-info header h1 {
     color: #000; }
-  #case-study-outer.theme-yellow #case-study #case-study-info header h1:after {
+  #case-study-outer.theme-yellow #case-study-info header h1:after {
     background-color: #000; }
-  #case-study-outer.theme-yellow #case-study #case-study-info #controls i {
+  #case-study-outer.theme-yellow #case-study-info #controls i {
     color: #000; }
-  #case-study-outer.theme-yellow #case-study #case-study-info #controls i:hover {
+  #case-study-outer.theme-yellow #case-study-info #controls i:hover {
     color: #FFF; }
 
 #case-study-outer.theme-turquoise {
@@ -3665,9 +3672,9 @@ ul.bxslider {
   #case-study-outer.theme-turquoise .col-skew:after {
     background-color: #049bf4; }
   #case-study-outer.theme-turquoise p,
-  #case-study-outer.theme-turquoise #case-study #case-study-info a {
+  #case-study-outer.theme-turquoise #case-study-info a {
     color: #FFF; }
-  #case-study-outer.theme-turquoise #case-study #case-study-info p a:hover {
+  #case-study-outer.theme-turquoise #case-study-info p a:hover {
     background-color: #FFF;
     color: #000;
     padding: 3px; }
@@ -3765,10 +3772,11 @@ ul.bxslider {
       -webkit-transform: skewX(-8deg);
       transform: skewX(-8deg); }
     #case-study-outer #case-study #case-study-info a {
-      color: #000;
+      color: #FFF;
       font-size: inherit; }
     #case-study-outer #case-study #case-study-info a:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #000; }
     #case-study-outer #case-study #case-study-info header {
       position: relative;
       z-index: 3;
@@ -3782,9 +3790,10 @@ ul.bxslider {
         background-color: #FFF; }
       #case-study-outer #case-study #case-study-info header #controls {
         position: absolute;
-        top: -6px;
+        top: -18px;
         right: 0;
-        padding: 0; }
+        padding: 0;
+        z-index: 10; }
         #case-study-outer #case-study #case-study-info header #controls li {
           display: inline-block;
           float: left;
@@ -3928,9 +3937,6 @@ ul.bxslider {
   position: relative;
   padding: 25px 0;
   background-color: #054B79; }
-  #quick-message h1, #quick-message p {
-    color: #FFF;
-    text-align: center; }
   #quick-message #contact-form {
     position: relative;
     z-index: 1;
@@ -4044,7 +4050,7 @@ footer {
     transition: all 300ms ease; }
   footer #footer-logo {
     font-size: 24px;
-    font-family: "Arial black", Arial, Verdana, sans-serif;
+    font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     text-transform: uppercase;
     line-height: 1em;
     margin: 0; }
@@ -4345,7 +4351,11 @@ footer {
       width: 100%;
       margin: 0;
       position: relative;
-      left: auto; } }
+      left: auto; }
+
+  #case-study-outer #case-study #case-study-info header #controls {
+    position: relative;
+    float: right; } }
 @media screen and (max-width: 320px) {
   #what-we-do h1 {
     font-size: 2.125rem; }

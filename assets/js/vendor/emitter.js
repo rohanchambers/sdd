@@ -1,6 +1,7 @@
 // <!-- Don't download these scripts on mobile | See emmiter.js -->
+// Remove iPad to get emmiter working on home page
 function isMobile() {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 (function() {

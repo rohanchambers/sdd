@@ -1,6 +1,6 @@
 // Defining a function to set size for #home (Home page) 
 function fullscreen(){
-    $('#home').css({
+    $('#home, .overlay').css({
         //width: jQuery(window).width(),
         height: jQuery(window).height()
     });
@@ -9,11 +9,10 @@ function fullscreen(){
 // Scroll to sections 
 function scrollToSections() {
     // Scroll to sections
-    $('.overlay ul li').find('a').click(function(e) {    
-        e.preventDefault();
+    $('.overlay ul li').find('a').click(function(e) {
         
         var section = $(this).attr('href').split('#')[1];
-        console.log(section)
+        //console.log(section)
 
         $('html, body').animate({
             scrollTop: $('.' + section).offset().top
@@ -42,7 +41,7 @@ $(document).alton({
     scrollMode: 'headerScroll', // Set the scroll mode
 });
 
-// Initialisation
+// Initialisation of particles
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
   particleColor: '#FFF',
@@ -136,7 +135,7 @@ $(function(){
     
     // FUNCTION CALLS
 
-    // Home page to be fulld Height at all resolutionss
+    // Home page to be full Height at all resolutionss
     fullscreen();
 
     // Run the function in case of window resize

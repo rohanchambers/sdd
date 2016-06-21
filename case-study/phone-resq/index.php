@@ -97,8 +97,7 @@
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
-                    <header>                    
-                        <h1>Phone ResQ.</h1>
+                    <header>
                         <img src="/assets/img/case-study/phoneResq/phoneResqLogo.png" alt="PhoneResQ.">
                         <nav>
                             <ul id="controls">
@@ -107,7 +106,7 @@
                                 <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
                             </ul>
                         </nav>
-                        <p><strong>Client: </strong>Phone ResQ.</p>
+                        <p class="first-p"><strong>Client: </strong>Phone ResQ.</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
                     <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                

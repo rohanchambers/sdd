@@ -329,6 +329,11 @@ $tablet-600: new-breakpoint(max-width 600px);
 			left: auto;
 		}		
 	}
+
+	#case-study-outer #case-study #case-study-info header #controls {
+		position: relative;
+		float: right;
+	}
 }
 
 // MOBILE SMALL | max width 320px

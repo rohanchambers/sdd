@@ -14,8 +14,8 @@
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">
-                    <img class="bottom" src="assets/img/clients/hover/Redbull.png" alt="Redbull">
-                    <img class="top" src="assets/img/clients/Redbull.png" alt="Redbull">
+                    <img class="bottom" src="assets/img/clients/hover/redbull.png" alt="Redbull">
+                    <img class="top" src="assets/img/clients/redbull.png" alt="Redbull">
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">

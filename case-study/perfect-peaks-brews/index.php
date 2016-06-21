@@ -97,8 +97,7 @@
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
-                    <header>                    
-                        <h1>Perfect Peaks <br>Brews</h1>
+                    <header>
                         <img src="/assets/img/case-study/perfectPeaksBrews/ppb_logo.jpg" alt="Perfect Peaks Brews">
                         <nav>
                             <ul id="controls">
@@ -107,7 +106,7 @@
                                 <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
                             </ul>
                         </nav>
-                        <p><strong>Client: </strong>Perfect Peaks Brews</p>
+                        <p class="first-p"><strong>Client: </strong>Perfect Peaks Brews</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
                     <p><strong>Tasks:</strong> Project owner and managed a team of graphic and web designers to create the new brand identity of 'Perfect Peaks Brews'. I fully developed the front-end and Wordpress integration of the site.</p>                

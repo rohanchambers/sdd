@@ -37,15 +37,15 @@
                     <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
                         <div>
-                            <i class="fa fa-facebook fa-1x"><a href="http://facebook.com/slamdunkdigital" target="_blank">&nbsp;</a></i>
-                            <i class="fa fa-twitter fa-1x"><a href="http://twitter.com/slamdunkdigital" target="_blank">&nbsp;</a></i>
-                            <i class="fa fa-instagram fa-1x"><a href="http://instagram.com/slamdunkdigital" target="_blank">&nbsp;</a></i>
+                            <i class="fa fa-facebook fa-1x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
+                            <i class="fa fa-twitter fa-1x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
+                            <i class="fa fa-instagram fa-1x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
                         </div>
                     </li>
                     <li class="overlay-share show-hide">
                         <ul>
                             <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital agency specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
                             <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>
