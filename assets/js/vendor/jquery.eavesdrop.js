@@ -35,7 +35,7 @@
 		buildCache: function(){
 			var selector = '.'+this.options.watchClass;
 			this.$element = $(this.element);
-			this.$body = $('body');
+			this.$body = $('html, body');
 			this.$selector = $(selector);
 			this.navAnchor = this.$element.find('a');
 			this.selector = selector;

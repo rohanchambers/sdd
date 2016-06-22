@@ -7,7 +7,7 @@
         <title>Slam Dunk Digital | Home</title>
         <meta name="title" content="Slam Dunk Digital | Home">
         <meta name="author" content="Slam Dunk Digital">
-        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
+        <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -26,7 +26,7 @@
         <!-- Open graph tags -->
         <meta property="og:image"           content="http://slamdunkdigital.co.uk/assets/img/social/social_share.png">
         <meta property="og:title"           content="Welcome to Slam Dunk Digital">
-        <meta property="og:description"     content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
+        <meta property="og:description"     content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.">
         <meta property="og:url"             content="http://slamdunkdigital.co.uk/">
         <meta property="og:image:width"     content="600">
         <meta property="og:image:height"    content="600">
@@ -64,7 +64,7 @@
             <section id="home" class="hero section-home full eavesdrop">
                 <header id="logo">
                     <h1>Slam Dunk Digital</h1>
-                    <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.</p>
+                    <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
                     <ul>
@@ -106,16 +106,15 @@
                 <div class="col col-skew">
                     <header>
                         <h1>What we do</h1>
-                        <p class="intro">Slam Dunk Digital is a creative and digital startup that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creatives technologists.</p>
+                        <p class="intro">Slam Dunk Digital is a creative and digital startup that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
                     </header>
-                    <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for some high profile brands from around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co workers.</p>
+                    <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for high profile brands from all around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
 
-                    <p>Slam Dunk Digital was founded to bring all these talented people together as a collective, comprising of graphic / digital designers, creative developers, user experience and planners to collaborate as one. Being a startup we are still relatively small currently 12 people strong but growing steadily as we win more and more accounts.</p>
+                    <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective, comprising of graphic / digital designers, creative developers, user experience and planners to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
 
                     <p>Together we try to be innovative and passionate when we work on our clients projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
-                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types of brands and businesses of all sizes. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>        
-                    
+                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types and sizes of brands and businesses. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>                    
                 </div>
                 
                 <div class="col col-no-skew">
