@@ -25,13 +25,9 @@ section header {
 	overflow: hidden;
 }
 
-p {
+p, li {
 	font-size: $text-size;
 	line-height: 1.5;
-}
-
-li {
-	list-style: none;
 }
 
 // Global section headers with intro paragaph
@@ -72,7 +68,7 @@ header {
 		}
 }
 
-#logo {
+#site-header {
 	h1 {
 		float: left;
 		width: 380px;
@@ -181,7 +177,7 @@ header {
 			}
 		}
 
-		p {
+		p, li {
 			width: 100%;
 			font-size: rem(14);
 		}

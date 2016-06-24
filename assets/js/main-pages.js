@@ -20,7 +20,7 @@ $(function(){
     });
 
     // Fit text plugin
-    $('#about-row h1').fitText();
+    $('#intro-content h1').fitText();
 
 }); // End of Document ready
 

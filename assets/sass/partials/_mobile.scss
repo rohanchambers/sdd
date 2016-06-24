@@ -1,3 +1,28 @@
+// DESKTOP large | Max 1024px
+$desktop-1200: new-breakpoint(max-width 1200px);
+
+@include media($desktop-1200) {
+	#work {
+		h1, p {
+			float: left;
+			text-align: left;
+		}
+
+		h1 {
+			padding-left: 25px;
+		}
+
+		h1:before {
+			left: 0;
+			right: auto;
+		}
+
+		h1:after {
+			left: 25px;
+		}
+	}
+}
+
 // DESKTOP | Max 1024px
 @include media($large-desktop) {
 	#what-we-do-outer {
@@ -18,7 +43,7 @@
 	
 	// Spacing for header sections
 	section header,
-	#logo,
+	#site-header,
 	.overlay h1 {
 		padding: 0 3%;
 	}
@@ -110,24 +135,6 @@
 			}
 		}
 
-		h1, p {
-			float: left;
-			text-align: left;
-		}
-
-		h1 {
-			padding-left: 25px;
-		}
-
-		h1:before {
-			left: 0;
-			right: auto;
-		}
-
-		h1:after {
-			left: 25px;
-		}
-
 		.view.coming-soon p {
 			font-size: rem(26);
 		}
@@ -182,7 +189,7 @@
 	}
 	
 	// Paddding for col skew on case study page
-	#logo-outer #logo .col-skew,
+	#site-header-outer #site-header .col-skew,
 	#case-study-outer #case-study .col-skew	{
 		min-height: auto;
 		padding: 2% 4%;
@@ -197,7 +204,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 @include media($tablet-600) {
 	#home,
 	.overlay,
-	#logo {
+	#site-header {
 		h1 {
 			width: 150px;
 			line-height: 1em;
@@ -215,7 +222,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 	.overlay {
 		h1 {		  
 	    	position: absolute;
-			left: 10px;		 
+			left: 12px;		 
 		}
 	}
 
@@ -231,7 +238,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 	}
 
 	#home,
-	#logo {
+	#site-header {
 		#social-links ul#share-me {
 			@include media($tablet-600) {
 				top: 120px;

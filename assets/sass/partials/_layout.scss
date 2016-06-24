@@ -7,8 +7,9 @@
 #clients,
 #contact,
 #contact-info,
-#logo,
+#site-header,
 #error-404,
+//#case-study-nav,
 footer {
 	@include outer-container(1024px);
 }
@@ -26,6 +27,14 @@ footer {
 #case-study {
 	.col {
 		@include span-columns(6);
+		@include pad(0);
+		@include omega();
+	}
+}
+
+#case-study-nav {
+	.col {
+		@include span-columns(4);
 		@include pad(0);
 		@include omega();
 	}

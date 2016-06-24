@@ -89,7 +89,8 @@ module.exports = function(grunt){
 		        "assets/css/*.css",
 		        "assets/js/**/*.js",
 		        "*.php",
-		        "incl/*.php"
+		        "incl/*.php",
+		        "case-study/**/*.php"
 		      ]
 		    },
 		    options: {

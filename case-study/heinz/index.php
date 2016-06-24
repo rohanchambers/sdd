@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Phone ResQ.</title>
+        <title>Slam Dunk Digital - Heinz, Get Well Soup</title>
         <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -82,7 +82,7 @@
         </div><!-- End of Site header for pages -->
 
         <!-- Case study Intro -->
-        <div id="case-study-outer" class="theme-red">
+        <div id="case-study-outer" class="theme-red project-heinz">
             <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -91,8 +91,8 @@
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>Phone ResQ</h1>
-                        <p>Strives to create a new and unique experience for its customers</p>
+                        <h1>Heinz,<br> Get Well Soup</h1>
+                        <p>Pesronalised can of Heinz Soup.</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
@@ -107,20 +107,27 @@
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
                     <header>
-                        <img src="img/phoneResqLogo.png" alt="PhoneResQ.">
-                        <p class="first-p"><strong>Client: </strong>Phone ResQ.</p>
-                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
+                        <img src="img/logo.png" alt="Heinz">
+                        <p class="first-p"><strong>Client: </strong>Heinz</p>
+                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
                     <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                
                     <p><strong>Summary:</strong></p>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                    
+                    <p>We designed and developed the Heinz, Get Well Soup microsite.</p>
+                    <p>Once again, we're inviting our fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.
+                    <ul>
+                        <li>Select whether you would like to 'buy' a can or 'share' a digital can of 'Get Well' Soup</li>
+                        <li>Enter your details and the details of your loved one to see how your can will look</li>
+                        <li>If you buy a can you'll be directed to Paypal to confirm your purchase</li>
+                        <li>If you 'share' a can you just need to confirm a few details before posting to your friend's Facebook profile</li>
+                    </ul>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
-                     <img src="img/phoneResq_home.jpg" alt="Phone ResQ">
+                     <img src="img/home.jpg" alt="Heinz, Get Well Soup">
+                     <p><img src="img/buycan.jpg" alt="Heinz, Get Well Soup"></p>
+                     <p><img src="img/buycan_form.jpg" alt="Heinz, Get Well Soup"></p>
+                     <p><img src="img/videoshare.jpg" alt="Heinz, Get Well Soup"></p>
                 </div>
             </section><!-- End of Case study-->
         </div>

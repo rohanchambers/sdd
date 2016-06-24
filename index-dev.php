@@ -46,15 +46,15 @@
         <div id="preloader">
             <div id="status">
                 <div class="sk-cube-grid">
-                  <div class="sk-cube sk-cube1"></div>
-                  <div class="sk-cube sk-cube2"></div>
-                  <div class="sk-cube sk-cube3"></div>
-                  <div class="sk-cube sk-cube4"></div>
-                  <div class="sk-cube sk-cube5"></div>
-                  <div class="sk-cube sk-cube6"></div>
-                  <div class="sk-cube sk-cube7"></div>
-                  <div class="sk-cube sk-cube8"></div>
-                  <div class="sk-cube sk-cube9"></div>
+                    <div class="sk-cube sk-cube1"></div>
+                    <div class="sk-cube sk-cube2"></div>
+                    <div class="sk-cube sk-cube3"></div>
+                    <div class="sk-cube sk-cube4"></div>
+                    <div class="sk-cube sk-cube5"></div>
+                    <div class="sk-cube sk-cube6"></div>
+                    <div class="sk-cube sk-cube7"></div>
+                    <div class="sk-cube sk-cube8"></div>
+                    <div class="sk-cube sk-cube9"></div>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <!-- Home section -->
         <div id="bg-home">
             <section id="home" class="hero section-home full eavesdrop">
-                <header id="logo">
+                <header id="site-header">
                     <h1>Slam Dunk Digital</h1>
                     <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
                 </header>

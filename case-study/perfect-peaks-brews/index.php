@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Phone ResQ.</title>
+        <title>Slam Dunk Digital - Perfect Peaks Brews</title>
         <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -46,24 +46,24 @@
         <div id="preloader">
             <div id="status">
                 <div class="sk-cube-grid">
-                  <div class="sk-cube sk-cube1"></div>
-                  <div class="sk-cube sk-cube2"></div>
-                  <div class="sk-cube sk-cube3"></div>
-                  <div class="sk-cube sk-cube4"></div>
-                  <div class="sk-cube sk-cube5"></div>
-                  <div class="sk-cube sk-cube6"></div>
-                  <div class="sk-cube sk-cube7"></div>
-                  <div class="sk-cube sk-cube8"></div>
-                  </div>
-                  <div class="sk-cube sk-cube9"></div>
+                    <div class="sk-cube sk-cube1"></div>
+                    <div class="sk-cube sk-cube2"></div>
+                    <div class="sk-cube sk-cube3"></div>
+                    <div class="sk-cube sk-cube4"></div>
+                    <div class="sk-cube sk-cube5"></div>
+                    <div class="sk-cube sk-cube6"></div>
+                    <div class="sk-cube sk-cube7"></div>
+                    <div class="sk-cube sk-cube8"></div>
+                    <div class="sk-cube sk-cube9"></div>
+                </div>
             </div>
         </div>
 
-        <!-- Case study section -->
-        <div id="logo-outer">
-            <header id="logo">
+        <!-- Site Header for pages -->
+        <div id="site-header-outer">
+            <header id="site-header">
                 <h1>Slam Dunk Digital</h1>
-                <nav id="social-links" class="nav-global">                    
+                <nav id="social-links" class="nav-global">
                     <ul>
                         <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
                         <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
@@ -79,33 +79,35 @@
                     </ul>
                 </nav>
             </header>
-        </div><!-- End of Nav main -->
+        </div><!-- End of Site header for pages -->
 
 
         <div id="case-study-outer" class="theme-turquoise">
             <div id="case-study-intro">
-                <div class="bg-color bg-color-right"></div>
-                <div id="about-row">
+                <div id="intro-bg-img"></div>
+                <div id="intro-bg-color">
+                    <div class="stars"></div>
+                    <div class="twinkling"></div>
+                </div>
+                <div id="intro-content">
                     <article class="left">
                         <h1>Perfect Peaks Brews</h1>
                          <p>Kicking back after a hard days work</p>
                     </article>
                 </div>
-                <div id="about-row-img" class="about-row-img"></div>
             </div><!-- End of case study intro -->
+
+            <section id="case-study-nav">       
+                <div class="col"><a href="#" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+            </section>
 
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
                     <header>
-                        <img src="/assets/img/case-study/perfectPeaksBrews/ppb_logo.jpg" alt="Perfect Peaks Brews">
-                        <nav>
-                            <ul id="controls">
-                                <li><a href="#" class="go-all" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </nav>
+                        <img src="img/ppb_logo.jpg" alt="Perfect Peaks Brews">
                         <p class="first-p"><strong>Client: </strong>Perfect Peaks Brews</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
@@ -117,13 +119,13 @@
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
-                    <img src="/assets/img/case-study/perfectPeaksBrews/ppb_logo.jpg" alt="Perfect Peaks Brews">
-                    <img src="/assets/img/case-study/perfectPeaksBrews/ppb_bottle.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/ppb_logo.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/ppb_bottle.jpg" alt="Perfect Peaks Brews">
                 </div>
             </section><!-- End of Case study-->
         </div>
 
-        <div id="footer-outer">
+        <div id="footer-outer">/case-study/perfect-peaks-brews
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
