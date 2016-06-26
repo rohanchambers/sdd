@@ -9,6 +9,7 @@
 @import "partials/_layout";
 @import "modules/_hamburger";
 @import "modules/_nav-overlay";
+@import "modules/_cs-themes";
 @import "vendor/_animations";
 @import "vendor/_work-view";
 @import "vendor/_loader";
@@ -394,26 +395,6 @@
     min-height: 350px;
 }
 
-.theme-red #intro-bg-img {
-	background: $black url(/case-study/phone-resq/img/phoneResq_shop.jpg) no-repeat top right;
-    background-size: cover;
-}
-
-.theme-turquoise #intro-bg-img {
-	background: $black url(/case-study/perfect-peaks-brews/img/ppb_bottle.jpg) no-repeat center -110px;
-    background-size: cover;
-}
-
-.theme-yellow #intro-bg-img {
-	background: $black url(/case-study/heineken/img/header.jpg) no-repeat center -70px;
-    background-size: cover;
-}
-
-.project-heinz #intro-bg-img {
-	background: $black url(/case-study/heinz/img/logo.gif) no-repeat center -80px;
-    background-size: cover;
-}
-
 // Case Study Navigation
 #case-study-nav {
 	width: 100%;
@@ -429,7 +410,7 @@
 			width: 100%;
 			color: $white;
 			text-decoration: none;
-			background: rgba(0, 0, 0, 0.5§);			
+			background: rgba(0, 0, 0, 0.5);			
 
 			i {
 				display: block;
@@ -478,7 +459,6 @@
 			position: relative;
 			z-index: 3;
 			clear: none;
-			color: $white;
 		}
 
 		.col-skew {			
@@ -498,8 +478,8 @@
 		// Left column
 		#case-study-info {
 			a {
-				color: $white;
 				font-size: inherit;
+				padding: 3px;
 			}
 			
 			a:hover {
@@ -510,7 +490,6 @@
 			p a:hover {
 				background-color: $white;
 				color: $black;
-				padding: 3px;
 			}
 
 			header {
@@ -567,87 +546,6 @@
 				width: 100%;
 				height: auto;
 			}
-		}			
-	}
-}
-
-
-// THEME RED
-#case-study-outer.theme-red {
-	background-color: $red;
-
-	#case-study {
-		.col-skew:after {
-		    left: 11%;
-		    width: 30%;
-		}
-		
-		.col-skew,
-		.col-skew:after {
-			background-color: $red;
-		}
-	}
-}
-
-// THEME YELLLOW
-#case-study-outer.theme-yellow {
-	background-color: $yellow;
-
-	#case-study {
-		.col-skew:after {
-		    left: -11%;
-		    width: 30%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: $yellow;
-		}
-		
-	 	p,
-	 	#case-study-info a, 
-	 	#case-study-info header h1 {
-			color: $black;
-		}
-
-		#case-study-info header h1:after {
-			background-color: $black;
-		}
-
-		// #case-study-info #controls i {
-		// 	color: $black;
-		// }
-		
-		// #case-study-info #controls i:hover {
-		// 	color: $white;
-		// }		
-	}
-}
-
-// THEME TURQUOISE
-#case-study-outer.theme-turquoise {
-	background-color: #049bf4;
-
-	#case-study {
-		.col-skew:after {
-		    left: 23%;
-		    width: 30%;
-		}
-
-		.col-skew, 
-		.col-skew:after {
-			background-color: #049bf4;
-		}
-
-		p, 
-		#case-study-info a {
-			color: $white;
-		}
-
-		#case-study-info p a:hover {
-			background-color: $white;
-			color: $black;
-			padding: 3px;
 		}			
 	}
 }

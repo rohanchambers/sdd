@@ -1,0 +1,224 @@
+// THEME PHONERESQ.
+.cs-phone-resq {
+	background-color: $red;
+
+	#case-study {
+		.col-skew:after {
+		    left: 12%;
+		    width: 30%;
+		}
+		
+		.col-skew,
+		.col-skew:after {
+			background-color: $red;
+		}
+	}
+
+	// Phone ResQ
+	#intro-bg-img {
+		background: $black url(/case-study/phone-resq/img/banner.jpg) no-repeat top right;
+	    background-size: cover;
+	}	
+}
+
+// THEME PERFECT PEAKS BREWS
+.cs-ppb {
+	background-color: $blue;
+
+	#case-study {
+		.col-skew:after {
+		    left: 23%;
+		    width: 30%;
+		}
+
+		.col-skew, 
+		.col-skew:after {
+			background-color: $blue;
+		}		
+	}
+	
+	#intro-bg-img {
+		background: $black url(/case-study/perfect-peaks-brews/img/home.jpg) no-repeat center -110px;
+	    background-size: cover;
+	}	
+}
+
+// THEME HEINEKEN BEAUTY OF BREWING
+.cs-beauty-of-brewing {
+	background-color: $yellow;
+
+	#case-study {
+		.col-skew:after {
+		    left: -11%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: $yellow;
+		}
+			 	
+	 	#case-study-info {
+	 		p, a {
+				color: $black;
+	 		}
+		}
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
+	    background-size: cover;
+	}	
+}
+
+// THEME HEINZ
+.cs-heinz {
+	background-color: #8eafce;
+
+	#case-study {
+		.col-skew:after {
+		    left: 11%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #8eafce;
+		}
+	 	
+	 	#case-study-info {
+	 		p, a, li {
+				color: $black;
+	 		}
+		}
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+	    background-size: cover;
+	}
+}
+
+// THEME REDBULL
+.cs-redbull {
+	background-color: #2e327b;
+
+	#case-study {
+		.col-skew:after {
+		    left: 20%;
+		    width: 30%;
+		}
+
+		.col-skew, 
+		.col-skew:after {
+			background-color: #2e327b;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/redbull/img/banner.jpg) no-repeat center -70px;
+	    background-size: cover;
+	}	
+}
+
+// THEME HARRY POTTER DEATHLY HALLOWS PART 2.
+.cs-ea-deathly-hallows {
+	background-color: $yellow;
+
+	#case-study {
+		.col-skew:after {
+		    left: 15%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: $yellow;
+		}
+	 	
+	 	#case-study-info {
+	 		p, a, li {
+				color: $black;
+	 		}
+		}
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/ea/img/banner.jpg) no-repeat center center;
+	    background-size: cover;
+	}
+}
+
+// THEME VOLVIC TOUGHMUDDER
+.cs-volvic-toughmudder {
+	background-color: #ff6801;
+
+	#case-study {
+		.col-skew:after {
+		    left: 1%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #ff6801;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/volvic/img/banner.jpg) no-repeat center top;
+	    background-size: cover;
+	}
+
+	// #case-study-nav {
+	// 	.go-prev:hover, 
+	// 	.go-next:hover, 
+	// 	.go-all:hover {
+	// 		background-color: #ff6801;
+	// 	}
+	// }	
+}
+
+// THEME JAGUAR LIVEFEARLESS
+.cs-jaguar-livefearless {
+	background-color: $black;
+
+	#case-study {
+		.col-skew:after {
+		    left: 7%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: $red;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/jaguar/img/banner.jpg) no-repeat center top;
+	    background-size: cover;
+	}
+}
+
+// THEME PG-TIPS CUPPACLUB
+.cs-pgtips-cuppaclub {
+	background-color: #02a85c;
+
+	#case-study {
+		.col-skew:after {
+		    left: 17%;
+		    width: 30%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #02a85c;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
+	    background-size: cover;
+	}
+}

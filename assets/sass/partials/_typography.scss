@@ -157,19 +157,12 @@ header {
 			h1 {
 				font-size: rem(24);
 				margin-bottom: 20px;
-				color: $white;
-				line-height: 1;				
+				line-height: 1;
+				color: $white;				
 			}
 			
 			h1:before {
 				display: none;
-			}
-
-			h1:after  {
-				// left: 0;
-				// width: 165px;
-				// height: 3px;
-				background-color: transparent;
 			}
 			
 			p.first-p {
@@ -180,6 +173,10 @@ header {
 		p, li {
 			width: 100%;
 			font-size: rem(14);
+		}
+
+		p, a, li {
+			color: $white;
 		}
 	}
 }
@@ -221,7 +218,7 @@ header {
 		width: 400px;
 		padding-left: 25px;
 		text-align: left;
-		color: $white;		
+		color: $white;
 	}
 
 	h1:before {
@@ -237,7 +234,7 @@ header {
 
 	p {
 		color: $white;
-		text-align: center;			
+		text-align: center;
 	}	
 }
 

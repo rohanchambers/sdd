@@ -83,7 +83,7 @@
 
         
         <!-- Case study Intro -->
-        <div id="case-study-outer" class="theme-yellow">
+        <div id="case-study-outer" class="cs-beauty-of-brewing">
             <div id="case-study-intro">                
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -99,9 +99,9 @@
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">
-                <div class="col"><a href="#" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../perfect-peaks-brews/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../redbull/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
@@ -117,6 +117,7 @@
                     <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
                     <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold in the winter on all major ski resorts in Switzerland and France.</p>
                     <p>During the summer the other blends will mainly be for the surfer and water sports fan, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
+                    <p>View site: <a href="http://beautyofbrewing.com/" target="_blank">BeautyOfBrewing.com</a></p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

@@ -82,7 +82,7 @@
         </div><!-- End of Site header for pages -->
 
 
-        <div id="case-study-outer" class="theme-turquoise">
+        <div id="case-study-outer" class="cs-ppb">
             <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -98,16 +98,16 @@
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">       
-                <div class="col"><a href="#" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../phone-resq" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../heineken/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
                     <header>
-                        <img src="img/ppb_logo.jpg" alt="Perfect Peaks Brews">
+                        <img src="img/logo.jpg" alt="Perfect Peaks Brews">
                         <p class="first-p"><strong>Client: </strong>Perfect Peaks Brews</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
                     </header>
@@ -119,8 +119,8 @@
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
-                    <img src="img/ppb_logo.jpg" alt="Perfect Peaks Brews">
-                    <img src="img/ppb_bottle.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/logo.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/home.jpg" alt="Perfect Peaks Brews">
                 </div>
             </section><!-- End of Case study-->
         </div>

@@ -82,7 +82,7 @@
         </div><!-- End of Site header for pages -->
 
         <!-- Case study Intro -->
-        <div id="case-study-outer" class="theme-red project-heinz">
+        <div id="case-study-outer" class="cs-heinz">
             <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -98,9 +98,9 @@
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">       
-                <div class="col"><a href="#" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="#" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../redbull/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../ea/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">

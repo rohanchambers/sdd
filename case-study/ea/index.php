@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Phone ResQ.</title>
+        <title>Slam Dunk Digital - EA, Harry Potter Deathly Hallows Part 2.</title>
         <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -81,9 +81,10 @@
             </header>
         </div><!-- End of Site header for pages -->
 
+        
         <!-- Case study Intro -->
-        <div id="case-study-outer" class="cs-phone-resq">
-            <div id="case-study-intro">
+        <div id="case-study-outer" class="cs-ea-deathly-hallows">
+            <div id="case-study-intro">                
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
                     <div class="stars"></div>
@@ -91,36 +92,38 @@
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>Phone ResQ</h1>
-                        <p>Strives to create a new and unique experience for its customers</p>
+                        <h1>EA,<br> Harry Potter</h1>
+                        <p>Deathly Hallows Part 2.</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
 
-            <section id="case-study-nav">       
-                <div class="col"><a href="/#work" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+            <section id="case-study-nav">
+                <div class="col"><a href="../heinz/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../perfect-peaks-brews/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../volvic/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
-                <div id="case-study-info" class="col col-skew">                    
-                    <div id="particle-canvas"></div>                
+                <div id="case-study-info" class="col col-skew">
+                    <div id="particle-canvas"></div>
                     <header>
-                        <img src="img/logo.png" alt="Phone ResQ">
-                        <p class="first-p"><strong>Client: </strong>Phone ResQ.</p>
+                        <img src="img/logo.jpg" alt="EA">
+                        <p class="first-p"><strong>Client: </strong>EA</p>
                         <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
-                    </header>
-                    <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                
+                    </header>                    
+                    <p><strong>Tasks:</strong> Project owner and managed a team of graphic and web designers to create the new brand identity of 'Perfect Peaks Brews'. I fully developed the front-end and Wordpress integration of the site.</p>                
                     <p><strong>Summary:</strong></p>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                    
+                    <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
+                    <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold in the winter on all major ski resorts in Switzerland and France.</p>
+                    <p>During the summer the other blends will mainly be for the surfer and water sports fan, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
+                    <p>View site: Not live anymore</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
-                     <img src="img/home.jpg" alt="Phone ResQ">
+                    <img src="img/home.jpg" alt="EA, Harry Potter Deathly Hallows Part 2.">
+                    <p><img src="img/game.jpg" alt="EA, Harry Potter Deathly Hallows Part 2."></p>
+                    <p><img src="img/pre-order.jpg" alt="EA, Harry Potter Deathly Hallows Part 2."></p>
                 </div>
             </section><!-- End of Case study-->
         </div>
@@ -173,7 +176,7 @@
             <video loop muted autoplay poster="/assets/img/video/space.jpg">
                 <source src="/assets/img/video/space.webm" type="video/webm">
                 <source src="/assets/img/video/space.mp4" type="video/mp4">
-                <source src="/assets/img/video/space.ogv" type="video/ogg">
+                <source src="//assets/img/video/space.ogv" type="video/ogg">
             </video>
             
             <header>
@@ -185,7 +188,7 @@
                     <li class="yellow"><a href="/#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
                     <li class="red"><a href="/#section-work"><span class="red">O</span>ur work</a></li>
                     <li class="green"><a href="/#section-clients"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>                    
+                    <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>
                     <li class="social">
                         <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
                         <i class="fa fa-twitter fa-1x"><a href="#"></a></i>

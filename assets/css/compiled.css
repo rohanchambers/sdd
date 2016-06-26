@@ -563,17 +563,17 @@ header p {
 #case-study #case-study-info header h1 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #FFF;
-  line-height: 1; }
+  line-height: 1;
+  color: #FFF; }
 #case-study #case-study-info header h1:before {
   display: none; }
-#case-study #case-study-info header h1:after {
-  background-color: transparent; }
 #case-study #case-study-info header p.first-p {
   margin: 0; }
 #case-study #case-study-info p, #case-study #case-study-info li {
   width: 100%;
   font-size: 0.875rem; }
+#case-study #case-study-info p, #case-study #case-study-info a, #case-study #case-study-info li {
+  color: #FFF; }
 
 #contact h1,
 #quick-message h1 {
@@ -946,7 +946,8 @@ footer {
   height: calc(100% / 8);
   min-height: 4px;
   padding: 5px 0;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: inherit; }
 
 .overlay ul li.overlay-share {
   position: relative;
@@ -1044,6 +1045,94 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-phone-resq {
+  background-color: #fd070d; }
+  .cs-phone-resq #case-study .col-skew:after {
+    left: 12%;
+    width: 30%; }
+  .cs-phone-resq #case-study .col-skew,
+  .cs-phone-resq #case-study .col-skew:after {
+    background-color: #fd070d; }
+  .cs-phone-resq #intro-bg-img {
+    background: #000 url(/case-study/phone-resq/img/banner.jpg) no-repeat top right;
+    background-size: cover; }
+
+.cs-ppb {
+  background-color: #0074c0; }
+  .cs-ppb #case-study .col-skew:after {
+    left: 23%;
+    width: 30%; }
+  .cs-ppb #case-study .col-skew,
+  .cs-ppb #case-study .col-skew:after {
+    background-color: #0074c0; }
+  .cs-ppb #intro-bg-img {
+    background: #000 url(/case-study/perfect-peaks-brews/img/home.jpg) no-repeat center -110px;
+    background-size: cover; }
+
+.cs-beauty-of-brewing {
+  background-color: #ffc036; }
+  .cs-beauty-of-brewing #case-study .col-skew:after {
+    left: -11%;
+    width: 30%; }
+  .cs-beauty-of-brewing #case-study .col-skew,
+  .cs-beauty-of-brewing #case-study .col-skew:after {
+    background-color: #ffc036; }
+  .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a {
+    color: #000; }
+  .cs-beauty-of-brewing #intro-bg-img {
+    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
+    background-size: cover; }
+
+.cs-heinz {
+  background-color: #8eafce; }
+  .cs-heinz #case-study .col-skew:after {
+    left: 11%;
+    width: 30%; }
+  .cs-heinz #case-study .col-skew,
+  .cs-heinz #case-study .col-skew:after {
+    background-color: #8eafce; }
+  .cs-heinz #case-study #case-study-info p, .cs-heinz #case-study #case-study-info a, .cs-heinz #case-study #case-study-info li {
+    color: #000; }
+  .cs-heinz #intro-bg-img {
+    background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+    background-size: cover; }
+
+.cs-redbull {
+  background-color: #2e327b; }
+  .cs-redbull #case-study .col-skew:after {
+    left: 20%;
+    width: 30%; }
+  .cs-redbull #case-study .col-skew,
+  .cs-redbull #case-study .col-skew:after {
+    background-color: #2e327b; }
+  .cs-redbull #intro-bg-img {
+    background: #000 url(/case-study/redbull/img/banner3.jpg) no-repeat center bottom;
+    background-size: cover; }
+
+.cs-ea-deathly-hallows {
+  background-color: #ffc036; }
+  .cs-ea-deathly-hallows #case-study .col-skew:after {
+    left: 15%;
+    width: 30%; }
+  .cs-ea-deathly-hallows #case-study .col-skew,
+  .cs-ea-deathly-hallows #case-study .col-skew:after {
+    background-color: #ffc036; }
+  .cs-ea-deathly-hallows #intro-bg-img {
+    background: #000 url(/case-study/ea/img/banner.jpg) no-repeat center center;
+    background-size: cover; }
+
+.cs-volvic-toughmudder {
+  background-color: #ff6801; }
+  .cs-volvic-toughmudder #case-study .col-skew:after {
+    left: 1%;
+    width: 30%; }
+  .cs-volvic-toughmudder #case-study .col-skew,
+  .cs-volvic-toughmudder #case-study .col-skew:after {
+    background-color: #ff6801; }
+  .cs-volvic-toughmudder #intro-bg-img {
+    background: #000 url(/case-study/volvic/img/banner.jpg) no-repeat center top;
+    background-size: cover; }
+
 /*animations*/
 /******************
 * Bounce in right *
@@ -3500,6 +3589,7 @@ ul.bxslider {
     #home #social-links li,
     #site-header #social-links li {
       float: left;
+      list-style-type: none;
       margin: 0 10px 0 0; }
       #home #social-links li a,
       #site-header #social-links li a {
@@ -3766,26 +3856,10 @@ ul.bxslider {
   width: 50%;
   min-height: 350px; }
 
-.theme-red #intro-bg-img {
-  background: #000 url(/case-study/phone-resq/img/phoneResq_shop.jpg) no-repeat top right;
-  background-size: cover; }
-
-.theme-turquoise #intro-bg-img {
-  background: #000 url(/case-study/perfect-peaks-brews/img/ppb_bottle.jpg) no-repeat center -150px;
-  background-size: cover; }
-
-.theme-yellow #intro-bg-img {
-  background: #000 url(/case-study/heineken/img/header.jpg) no-repeat center -100px;
-  background-size: cover; }
-
-.project-heinz #intro-bg-img {
-  background: #000 url(/case-study/heinz/img/logo.gif) no-repeat center -80px;
-  background-size: cover; }
-
 #case-study-nav {
   width: 100%;
   position: relative;
-  height: 60px;
+  height: 40px;
   overflow: hidden; }
   #case-study-nav .col a {
     position: relative;
@@ -3793,12 +3867,13 @@ ul.bxslider {
     z-index: 1;
     width: 100%;
     color: #FFF;
-    text-decoration: none; }
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5); }
     #case-study-nav .col a i {
       display: block;
       margin: 0 auto;
       width: 50px;
-      line-height: 60px; }
+      line-height: 42px; }
   #case-study-nav .col a:hover {
     background-color: #FFF;
     -webkit-transition: all 300ms ease;
@@ -3812,7 +3887,7 @@ ul.bxslider {
       -ms-border-radius: all 800ms ease;
       transition: all 800ms ease; }
   #case-study-nav .col a.go-all i {
-    line-height: 64px; }
+    line-height: 46px; }
   #case-study-nav .stars,
   #case-study-nav .twinkling {
     background-color: #000;
@@ -3831,8 +3906,7 @@ ul.bxslider {
     #case-study-outer #case-study p, #case-study-outer #case-study li {
       position: relative;
       z-index: 3;
-      clear: none;
-      color: #FFF; }
+      clear: none; }
     #case-study-outer #case-study .col-skew {
       padding: 2% 2% 2% 3%; }
     #case-study-outer #case-study .col-skew:after {
@@ -3843,16 +3917,15 @@ ul.bxslider {
       bottom: 0;
       -webkit-transform: skewX(-8deg);
       transform: skewX(-8deg); }
-    #case-study-outer #case-study #case-study-info a, #case-study-outer #case-study #case-study-info li {
-      color: #FFF;
-      font-size: inherit; }
+    #case-study-outer #case-study #case-study-info a {
+      font-size: inherit;
+      padding: 3px; }
     #case-study-outer #case-study #case-study-info a:hover {
       text-decoration: none;
       color: #000; }
     #case-study-outer #case-study #case-study-info p a:hover {
       background-color: #FFF;
-      color: #000;
-      padding: 3px; }
+      color: #000; }
     #case-study-outer #case-study #case-study-info header {
       position: relative;
       z-index: 3;
@@ -3902,45 +3975,93 @@ ul.bxslider {
       width: 100%;
       height: auto; }
 
-#case-study-outer.theme-red {
+.cs-phone-resq {
   background-color: #fd070d; }
-  #case-study-outer.theme-red #case-study .col-skew:after {
-    left: 11%;
+  .cs-phone-resq #case-study .col-skew:after {
+    left: 12%;
     width: 30%; }
-  #case-study-outer.theme-red #case-study .col-skew,
-  #case-study-outer.theme-red #case-study .col-skew:after {
+  .cs-phone-resq #case-study .col-skew,
+  .cs-phone-resq #case-study .col-skew:after {
     background-color: #fd070d; }
+  .cs-phone-resq #intro-bg-img {
+    background: #000 url(/case-study/phone-resq/img/banner.jpg) no-repeat top right;
+    background-size: cover; }
 
-#case-study-outer.theme-yellow {
-  background-color: #ffc036; }
-  #case-study-outer.theme-yellow #case-study .col-skew:after {
-    left: -11%;
-    width: 30%; }
-  #case-study-outer.theme-yellow #case-study .col-skew,
-  #case-study-outer.theme-yellow #case-study .col-skew:after {
-    background-color: #ffc036; }
-  #case-study-outer.theme-yellow #case-study p,
-  #case-study-outer.theme-yellow #case-study #case-study-info a,
-  #case-study-outer.theme-yellow #case-study #case-study-info header h1 {
-    color: #000; }
-  #case-study-outer.theme-yellow #case-study #case-study-info header h1:after {
-    background-color: #000; }
-
-#case-study-outer.theme-turquoise {
-  background-color: #049bf4; }
-  #case-study-outer.theme-turquoise #case-study .col-skew:after {
+.cs-ppb {
+  background-color: #0074c0; }
+  .cs-ppb #case-study .col-skew:after {
     left: 23%;
     width: 30%; }
-  #case-study-outer.theme-turquoise #case-study .col-skew,
-  #case-study-outer.theme-turquoise #case-study .col-skew:after {
-    background-color: #049bf4; }
-  #case-study-outer.theme-turquoise #case-study p,
-  #case-study-outer.theme-turquoise #case-study #case-study-info a {
-    color: #FFF; }
-  #case-study-outer.theme-turquoise #case-study #case-study-info p a:hover {
-    background-color: #FFF;
-    color: #000;
-    padding: 3px; }
+  .cs-ppb #case-study .col-skew,
+  .cs-ppb #case-study .col-skew:after {
+    background-color: #0074c0; }
+  .cs-ppb #intro-bg-img {
+    background: #000 url(/case-study/perfect-peaks-brews/img/home.jpg) no-repeat center -110px;
+    background-size: cover; }
+
+.cs-beauty-of-brewing {
+  background-color: #ffc036; }
+  .cs-beauty-of-brewing #case-study .col-skew:after {
+    left: -11%;
+    width: 30%; }
+  .cs-beauty-of-brewing #case-study .col-skew,
+  .cs-beauty-of-brewing #case-study .col-skew:after {
+    background-color: #ffc036; }
+  .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a {
+    color: #000; }
+  .cs-beauty-of-brewing #intro-bg-img {
+    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
+    background-size: cover; }
+
+.cs-heinz {
+  background-color: #8eafce; }
+  .cs-heinz #case-study .col-skew:after {
+    left: 11%;
+    width: 30%; }
+  .cs-heinz #case-study .col-skew,
+  .cs-heinz #case-study .col-skew:after {
+    background-color: #8eafce; }
+  .cs-heinz #case-study #case-study-info p, .cs-heinz #case-study #case-study-info a, .cs-heinz #case-study #case-study-info li {
+    color: #000; }
+  .cs-heinz #intro-bg-img {
+    background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+    background-size: cover; }
+
+.cs-redbull {
+  background-color: #2e327b; }
+  .cs-redbull #case-study .col-skew:after {
+    left: 20%;
+    width: 30%; }
+  .cs-redbull #case-study .col-skew,
+  .cs-redbull #case-study .col-skew:after {
+    background-color: #2e327b; }
+  .cs-redbull #intro-bg-img {
+    background: #000 url(/case-study/redbull/img/banner3.jpg) no-repeat center bottom;
+    background-size: cover; }
+
+.cs-ea-deathly-hallows {
+  background-color: #ffc036; }
+  .cs-ea-deathly-hallows #case-study .col-skew:after {
+    left: 15%;
+    width: 30%; }
+  .cs-ea-deathly-hallows #case-study .col-skew,
+  .cs-ea-deathly-hallows #case-study .col-skew:after {
+    background-color: #ffc036; }
+  .cs-ea-deathly-hallows #intro-bg-img {
+    background: #000 url(/case-study/ea/img/banner.jpg) no-repeat center center;
+    background-size: cover; }
+
+.cs-volvic-toughmudder {
+  background-color: #ff6801; }
+  .cs-volvic-toughmudder #case-study .col-skew:after {
+    left: 1%;
+    width: 30%; }
+  .cs-volvic-toughmudder #case-study .col-skew,
+  .cs-volvic-toughmudder #case-study .col-skew:after {
+    background-color: #ff6801; }
+  .cs-volvic-toughmudder #intro-bg-img {
+    background: #000 url(/case-study/volvic/img/banner2.jpg) no-repeat top right;
+    background-size: cover; }
 
 .page-case-study #nav-mini {
   display: none; }
@@ -4392,7 +4513,7 @@ footer {
 
   .overlay h1 {
     position: absolute;
-    left: 10px; }
+    left: 12px; }
 
   #case-study #case-study-intro h1 {
     line-height: normal;
