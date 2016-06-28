@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Jaguar, LiveFearless</title>
-        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
+        <meta name="title" content="Slam Dunk Digital | Jaguar, LiveFearless ">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -115,19 +115,22 @@
                         <li>Creative direction</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Back-end theme creation with Wordpress</li>
-                        <li>Ecommerce </li>
+                        <li>Tumblr build</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
+                    <p>Our team built the tumblr campaign for Jaguar, Live Fearless. This tumblr theme is a fully responsive theme that allowed users to upload their favourite Jaguar moment or imagery. Again a big name client which was a big thrill for us to be working on. We look foward to working with them again in the near future.</p>
+
+                    <p>The F-TYPE Coupé is Jaguar’s commitment to a life lived by harnessing fear. A hunger and desire to improve, to challenge and to find a better way.
+                    Join us to celebrate the extraordinary for your chance to win a week-long loan of the F-TYPE Coupé and an unforgettable Fearless experience.</p>
+                    
+                    <h2>How it works</h2>
+                    <p>To enter, capture a photo or video that truly embodies being Fearless – this could be an appreciation of Fearlessness (e.g. within Fashion, Design, Food or Music) or your own personal act of conquering fear.</p>
+                    <p>Share your content via Facebook, Twitter or Instagram with the hashtag #LiveFearless to be in with a chance.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
-
+                    <p>Tubmlr build, HTML5, CSS3, jQuery, Bourbon + Neat responsive grid, Fully responsive</p>
                     <h2>View site:</h2> 
-                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+                    <p>Site / campaign ended</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

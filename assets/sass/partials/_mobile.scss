@@ -135,7 +135,8 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 			}
 		}
 
-		.view.coming-soon p {
+		.view.coming-soon p,
+		.view.find-out-more p {
 			font-size: rem(26);
 		}
 	}
