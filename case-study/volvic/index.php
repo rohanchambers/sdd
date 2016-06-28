@@ -107,16 +107,28 @@
                 <div id="case-study-info" class="col col-skew">
                     <div id="particle-canvas"></div>
                     <header>
-                        <img src="img/logo.png" alt="EA">
-                        <p class="first-p"><strong>Client: </strong>Volvic</p>
-                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
-                    </header>                    
-                    <p><strong>Tasks:</strong> Project owner and managed a team of graphic and web designers to create the new brand identity of 'Perfect Peaks Brews'. I fully developed the front-end and Wordpress integration of the site.</p>                
-                    <p><strong>Summary:</strong></p>
-                    <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
-                    <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold in the winter on all major ski resorts in Switzerland and France.</p>
-                    <p>During the summer the other blends will mainly be for the surfer and water sports fan, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
-                    <p>View site: Not live anymore</p>
+                        <h2>Client:</h2>
+                        <p>Volvic</p>
+                    </header>
+                    <h2>Deliverables</h2>
+                    <ul>
+                        <li>Project &amp; Client management</li>
+                        <li>Creative direction</li>
+                        <li>UX wireframing &amp; A/B testing</li>
+                        <li>Design &amp; development</li>
+                        <li>Back-end theme creation with Wordpress</li>
+                        <li>Ecommerce </li>
+                    </ul>
+                    <h2>Project summary</h2>
+                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
+                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
+                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
+
+                    <h2>Technlogies</h2>
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
+
+                    <h2>View site:</h2> 
+                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

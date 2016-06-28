@@ -415,7 +415,7 @@
 			i {
 				display: block;
 				margin: 0 auto;
-				width: 50px;
+				width: 32px;
 				line-height: 42px;
 			}
 		}
@@ -462,7 +462,7 @@
 		}
 
 		.col-skew {			
-			padding: 2% 2% 2% 3%;
+			padding: 25px 2% 2% 3%;
 		}
 
 		.col-skew:after {
@@ -491,47 +491,37 @@
 				background-color: $white;
 				color: $black;
 			}
-
+			
 			header {
 				position: relative;
 				z-index: 3;	
 				padding: 0;
+				
+				.title {
+					display: block;
+				}
 
-				img {
+				h2 {
 					float: left;
+					margin: 0 10px 0 0;
+				}
+				
+				p {				
+					float: left;
+					margin: 0;
+					width: auto;
+				}
+				
+				// This is to style the image on the case study page
+				// Not using now as it clutters design layout
+				img {
+					position: absolute;
+					right: 0;
 					width: 110px;
 					height: auto;
 					margin: 0 10px 0 0;
 					padding: 5px;
 					background-color: $white;
-				}
-
-				#controls {
-					position: absolute;
-					top: -18px;
-					right: 0;
-					padding: 0;
-					z-index: 10;
-
-					li {
-						display: inline-block;
-						float: left;
-						margin-right: 10px;
-
-						i {
-							color: $white;
-						}
-
-						i:hover {
-							color: $black;
-							@include hover-links();
-						}
-
-						.fa-th {
-							margin-top: 2px;
-							font-size: rem(30);
-						}
-					}
 				}
 			}
 			@include particles;
@@ -578,14 +568,6 @@
 	    			height: auto;
 	    		}			    		
 		}
-
-		.mask {
-			//display: none!important;
-		}
-
-		// .view:last-child {
-		// 	display: none;
-		// }
 	}
 }
 
@@ -691,6 +673,7 @@
 	padding: 0;
 	li {
 		text-align: center;
+		list-style-type: none;
 	}
 	i {
 		position: relative;
@@ -940,11 +923,11 @@ footer {
 #error-404 {
 	position: relative;
 	z-index: 1;
+	padding-top: 20px;
 	
 	header {
 		background-color: $white;
 		opacity: 0.8;
-		padding: 5px;
 			
 		p {
 			font-weight: bold;

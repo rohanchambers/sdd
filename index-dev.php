@@ -128,7 +128,7 @@
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team have created. We try to be innovative and passionate when we work on our clients projects; expectations are high but we always deliver a unique sense of style and digital marketing, perfectly blended to create engaging user experiences.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team have created. Every project we have undertaken has always been different but we have always adapted to the latest technologies to provide high quality work.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->

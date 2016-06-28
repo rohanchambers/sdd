@@ -2,29 +2,33 @@
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
                         <h2>Phone ResQ</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/phone-resq/"></a>
                 </div>
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/perfectPeaksBrews_2.jpg" alt="Perfect Peaks Brews" />
                     <div class="mask">
                         <h2>Perfect Peaks Brews</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/perfect-peaks-brews/"></a>
                 </div>                
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
                     <div class="mask">
                         <h2>Heineken, Beauty of Brewing</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/heineken/"></a>
                 </div>
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/redSilverBlue.jpg" alt="Redbull, Editions" /> 
                     <div class="mask">
                         <h2>Redbull, Editions</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                       <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/redbull/"></a>
                 </div>
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />

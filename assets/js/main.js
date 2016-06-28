@@ -54,7 +54,7 @@ var particleCanvas = new ParticleNetwork(canvasDiv, options);
 // Document ready
 $(function(){
     // Fit text plugin
-    $('.coming-soon p, #slogan p, .view .mask h2').fitText();
+    $('.coming-soon p, #slogan p, .view .mask h2').fitText(1, {maxFontSize: '80px' });
 
     // Mini Nav bullets section scroll
     $('#nav-mini').eavesdrop();

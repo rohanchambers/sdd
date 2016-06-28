@@ -59,7 +59,7 @@
 		}
 			 	
 	 	#case-study-info {
-	 		p, a {
+	 		h2, p, a, li {
 				color: $black;
 	 		}
 		}
@@ -87,7 +87,7 @@
 		}
 	 	
 	 	#case-study-info {
-	 		p, a, li {
+	 		h2, p, a, li {
 				color: $black;
 	 		}
 		}
@@ -181,7 +181,7 @@
 
 // THEME JAGUAR LIVEFEARLESS
 .cs-jaguar-livefearless {
-	background-color: $black;
+	background-color: $red;
 
 	#case-study {
 		.col-skew:after {

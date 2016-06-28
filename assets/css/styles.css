@@ -127,6 +127,10 @@ header p {
   left: 25px;
   width: 61%; }
 
+#error-404 h1 {
+  line-height: 1em;
+  padding-bottom: 6px; }
+
 #services h1:before {
   left: 0;
   background-color: #ffc036; }
@@ -135,15 +139,17 @@ header p {
   left: 0;
   background-color: #fd070d; }
 
-#case-study #case-study-info header h1 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  line-height: 1;
-  color: #FFF; }
 #case-study #case-study-info header h1:before {
   display: none; }
-#case-study #case-study-info header p.first-p {
-  margin: 0; }
+#case-study #case-study-info header p {
+  margin: 0;
+  font-weight: bold; }
+#case-study #case-study-info h2 {
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #FFF; }
 #case-study #case-study-info p, #case-study #case-study-info li {
   width: 100%;
   font-size: 0.875rem; }
@@ -652,7 +658,7 @@ footer {
   .cs-beauty-of-brewing #case-study .col-skew,
   .cs-beauty-of-brewing #case-study .col-skew:after {
     background-color: #ffc036; }
-  .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a {
+  .cs-beauty-of-brewing #case-study #case-study-info h2, .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a, .cs-beauty-of-brewing #case-study #case-study-info li {
     color: #000; }
   .cs-beauty-of-brewing #intro-bg-img {
     background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
@@ -666,7 +672,7 @@ footer {
   .cs-heinz #case-study .col-skew,
   .cs-heinz #case-study .col-skew:after {
     background-color: #8eafce; }
-  .cs-heinz #case-study #case-study-info p, .cs-heinz #case-study #case-study-info a, .cs-heinz #case-study #case-study-info li {
+  .cs-heinz #case-study #case-study-info h2, .cs-heinz #case-study #case-study-info p, .cs-heinz #case-study #case-study-info a, .cs-heinz #case-study #case-study-info li {
     color: #000; }
   .cs-heinz #intro-bg-img {
     background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
@@ -711,7 +717,7 @@ footer {
     background-size: cover; }
 
 .cs-jaguar-livefearless {
-  background-color: #000; }
+  background-color: #fd070d; }
   .cs-jaguar-livefearless #case-study .col-skew:after {
     left: 7%;
     width: 30%; }
@@ -2337,6 +2343,12 @@ footer {
   box-shadow: 0 0 5px #000;
   background: #FFF;
   color: #000; }
+#work .view a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 #work .view-first img {
   transition: all 0.2s linear; }
 #work .view-first .mask {
@@ -3473,7 +3485,7 @@ ul.bxslider {
     #case-study-nav .col a i {
       display: block;
       margin: 0 auto;
-      width: 50px;
+      width: 32px;
       line-height: 42px; }
   #case-study-nav .col a:hover {
     background-color: #FFF;
@@ -3509,7 +3521,7 @@ ul.bxslider {
       z-index: 3;
       clear: none; }
     #case-study-outer #case-study .col-skew {
-      padding: 2% 2% 2% 3%; }
+      padding: 25px 2% 2% 3%; }
     #case-study-outer #case-study .col-skew:after {
       content: "";
       position: absolute;
@@ -3531,34 +3543,23 @@ ul.bxslider {
       position: relative;
       z-index: 3;
       padding: 0; }
-      #case-study-outer #case-study #case-study-info header img {
+      #case-study-outer #case-study #case-study-info header .title {
+        display: block; }
+      #case-study-outer #case-study #case-study-info header h2 {
         float: left;
+        margin: 0 10px 0 0; }
+      #case-study-outer #case-study #case-study-info header p {
+        float: left;
+        margin: 0;
+        width: auto; }
+      #case-study-outer #case-study #case-study-info header img {
+        position: absolute;
+        right: 0;
         width: 110px;
         height: auto;
         margin: 0 10px 0 0;
         padding: 5px;
         background-color: #FFF; }
-      #case-study-outer #case-study #case-study-info header #controls {
-        position: absolute;
-        top: -18px;
-        right: 0;
-        padding: 0;
-        z-index: 10; }
-        #case-study-outer #case-study #case-study-info header #controls li {
-          display: inline-block;
-          float: left;
-          margin-right: 10px; }
-          #case-study-outer #case-study #case-study-info header #controls li i {
-            color: #FFF; }
-          #case-study-outer #case-study #case-study-info header #controls li i:hover {
-            color: #000;
-            -webkit-transition: all 300ms ease;
-            -moz-transition: all 300ms ease;
-            -ms-border-radius: all 300ms ease;
-            transition: all 300ms ease; }
-          #case-study-outer #case-study #case-study-info header #controls li .fa-th {
-            margin-top: 2px;
-            font-size: 1.875rem; }
     #case-study-outer #case-study #case-study-info #particle-canvas {
       position: absolute !important;
       z-index: 2;
@@ -3668,7 +3669,8 @@ ul.bxslider {
 #follow-us ul {
   padding: 0; }
   #follow-us ul li {
-    text-align: center; }
+    text-align: center;
+    list-style-type: none; }
   #follow-us ul i {
     position: relative;
     margin-right: 15px; }
@@ -3847,11 +3849,11 @@ footer {
 
 #error-404 {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding-top: 20px; }
   #error-404 header {
     background-color: #FFF;
-    opacity: 0.8;
-    padding: 5px; }
+    opacity: 0.8; }
     #error-404 header p {
       font-weight: bold; }
     #error-404 header ::after {
@@ -4011,7 +4013,7 @@ footer {
   #site-header-outer #site-header .col-skew,
   #case-study-outer #case-study .col-skew {
     min-height: auto;
-    padding: 2% 4%; } }
+    padding: 25px 4%; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,

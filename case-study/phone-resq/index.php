@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--(if target dev)><!-->
         <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/styles.min.css">
         <!--<!(endif)-->
         <!--(if target dist)>
         <link rel="stylesheet" href="assets/css/compiled.min.css">
@@ -105,18 +105,29 @@
 
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">                    
-                    <div id="particle-canvas"></div>                
+                    <div id="particle-canvas"></div>                    
                     <header>
-                        <img src="img/logo.png" alt="Phone ResQ">
-                        <p class="first-p"><strong>Client: </strong>Phone ResQ.</p>
-                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
+                        <h2>Client:</h2>
+                        <p>Phone ResQ.</p>
                     </header>
-                    <p><strong>Tasks:</strong> Fully designed and fully developed the front &amp; back end of this site using Wordpress as well as being project manager.<br> Currently implementing an ecommerce solution with wooCommerce for selling products online.</p>                
-                    <p><strong>Summary:</strong></p>
+                    <h2>Deliverables</h2>
+                    <ul>
+                        <li>Project &amp; Client management</li>
+                        <li>Creative direction</li>
+                        <li>UX wireframing &amp; A/B testing</li>
+                        <li>Design &amp; development</li>
+                        <li>Back-end theme creation with Wordpress</li>
+                        <li>Ecommerce implementation</li>
+                        <li>Deployment to servers</li>
+                    </ul>
+                    <h2>Project summary</h2>
                     <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-                    <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>                    
+                    <p>We took on this project with one thing in mind, fresh new look. Our team were working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done to ensure maximum compatibility.</p>
+                    <h2>Technlogies</h2>
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
+
+                    <h2>View site:</h2> 
+                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

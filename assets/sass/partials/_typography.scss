@@ -137,6 +137,13 @@ header {
 	}
 }
 
+#error-404 {
+	h1 {
+		line-height: 1em;
+		padding-bottom: 6px;
+	}
+}
+
 #services {
 	h1:before {
 		left: 0;
@@ -153,22 +160,24 @@ header {
 
 #case-study {
 	#case-study-info {
-		header {
-			h1 {
-				font-size: rem(24);
-				margin-bottom: 20px;
-				line-height: 1;
-				color: $white;				
-			}
-			
+		header {			
 			h1:before {
 				display: none;
 			}
 			
-			p.first-p {
-				margin: 0;			
+			p {
+				margin: 0;
+				font-weight: bold;
 			}
 		}
+
+		h2 {
+			font-family: $font-thick;
+			font-size: rem(18);
+			text-transform: uppercase;
+			line-height: 1;
+			color: $white;
+		}		
 
 		p, li {
 			width: 100%;

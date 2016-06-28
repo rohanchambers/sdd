@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Perfect Peaks Brews</title>
-        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
+        <meta name="title" content="Slam Dunk Digital | Perfect Peaks Brews">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--(if target dev)><!-->
         <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/styles.min.css">
         <!--<!(endif)-->
         <!--(if target dist)>
         <link rel="stylesheet" href="assets/css/compiled.min.css">
@@ -107,15 +107,20 @@
                 <div id="case-study-info" class="col col-skew">                    
                     <div id="particle-canvas"></div>                
                     <header>
-                        <img src="img/logo.jpg" alt="Perfect Peaks Brews">
-                        <p class="first-p"><strong>Client: </strong>Perfect Peaks Brews</p>
-                        <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
+                        <h2>Client:</h2>
+                        <p>Perfect Peaks Brews</p>
                     </header>
-                    <p><strong>Tasks:</strong> Project owner and managed a team of graphic and web designers to create the new brand identity of 'Perfect Peaks Brews'. I fully developed the front-end and Wordpress integration of the site.</p>                
-                    <p><strong>Summary:</strong></p>
+                    <h2>Deliverables</h2>
+                    <ul>
+                        <li>Project &amp; Client management</li>
+                        <li>Creative direction</li>
+                        <li>Design &amp; rebranding</li>
+                    </ul>
+                    <h2>Project summary</h2>
                     <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
-                    <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold in the winter on all major ski resorts in Switzerland and France.</p>
-                    <p>During the summer the other blends will mainly be for the surfer and water sports fan, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
+                    <p>We were involved in the complete rebranding of this brewery's look and feel, soon to be sold in mass quantity over Switzerland, France and Portugal.</p>
+                    <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold during the winter on all major ski resorts in Switzerland and France.</p>
+                    <p>During the summer the other blends will mainly be for the surfer and water sport fans, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
