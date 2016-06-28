@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--(if target dev)><!-->
         <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/styles.min.css">
         <!--<!(endif)-->
         <!--(if target dist)>
         <link rel="stylesheet" href="assets/css/compiled.min.css">
