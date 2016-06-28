@@ -664,6 +664,18 @@ footer {
     background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
     background-size: cover; }
 
+.cs-redbull {
+  background-color: #2e327b; }
+  .cs-redbull #case-study .col-skew:after {
+    left: 20%;
+    width: 30%; }
+  .cs-redbull #case-study .col-skew,
+  .cs-redbull #case-study .col-skew:after {
+    background-color: #2e327b; }
+  .cs-redbull #intro-bg-img {
+    background: #000 url(/case-study/redbull/img/banner.jpg) no-repeat center -70px;
+    background-size: cover; }
+
 .cs-heinz {
   background-color: #8eafce; }
   .cs-heinz #case-study .col-skew:after {
@@ -678,18 +690,6 @@ footer {
     background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
     background-size: cover; }
 
-.cs-redbull {
-  background-color: #2e327b; }
-  .cs-redbull #case-study .col-skew:after {
-    left: 20%;
-    width: 30%; }
-  .cs-redbull #case-study .col-skew,
-  .cs-redbull #case-study .col-skew:after {
-    background-color: #2e327b; }
-  .cs-redbull #intro-bg-img {
-    background: #000 url(/case-study/redbull/img/banner.jpg) no-repeat center -70px;
-    background-size: cover; }
-
 .cs-ea-deathly-hallows {
   background-color: #ffc036; }
   .cs-ea-deathly-hallows #case-study .col-skew:after {
@@ -698,7 +698,7 @@ footer {
   .cs-ea-deathly-hallows #case-study .col-skew,
   .cs-ea-deathly-hallows #case-study .col-skew:after {
     background-color: #ffc036; }
-  .cs-ea-deathly-hallows #case-study #case-study-info p, .cs-ea-deathly-hallows #case-study #case-study-info a, .cs-ea-deathly-hallows #case-study #case-study-info li {
+  .cs-ea-deathly-hallows #case-study #case-study-info h2, .cs-ea-deathly-hallows #case-study #case-study-info p, .cs-ea-deathly-hallows #case-study #case-study-info a, .cs-ea-deathly-hallows #case-study #case-study-info li {
     color: #000; }
   .cs-ea-deathly-hallows #intro-bg-img {
     background: #000 url(/case-study/ea/img/banner.jpg) no-repeat center center;

@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Heinz, Get Well Soup</title>
-        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
+        <meta name="title" content="Slam Dunk Digital | Heinz, Get Well Soup">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -116,19 +116,21 @@
                         <li>Creative direction</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Back-end theme creation with Wordpress</li>
-                        <li>Ecommerce </li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
-
+                    <p>Our team designed and developed this app. for the Heinz, Get Well Soup campaign. The project was such a pleasure to work on as it wasn't just for a big brand but also for cheering up the ones that were using it.</p>
+                    <p>The premise for the app. was inviting fans to cheer up a loved one who's feeling under the weather with a personalised can of Heinz Soup.</p>
+                    <ul>
+                        <li>Select whether you would like to 'buy' a can or 'share' a digital can of 'Get Well' Soup</li>
+                        <li>Enter your details and the details of your loved one to see how your can will look</li>
+                        <li>If you buy a can you'll be directed to Paypal to confirm your purchase.</li>
+                        <li>If you 'share' a can you just need to confirm a few details before posting to your friend's Facebook profile.</li>
+                    </ul>
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive</p>                    
 
                     <h2>View site:</h2> 
-                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+                    <p>Site &amp; campaign ended</p>
                     </ul>
                 </div><!-- Case study info -->
                 

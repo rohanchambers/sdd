@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Volvic, Toughmudder</title>
-        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
+        <meta name="title" content="Slam Dunk Digital | Volvic, Toughmudder">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -116,19 +116,22 @@
                         <li>Creative direction</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Back-end theme creation with Wordpress</li>
-                        <li>Ecommerce </li>
+                        <li>Social media API's</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
+                    <p>Our team worked on this campaign for the Toughmudder Get the Bottle Facebook app. camapaign. We used the Facebook, Twitter and Instagram API's to make this as socially engaging as possible.</p>
+                    
+                    <p>If you've #GOTTHEBOTTLE go on, show us your Game Face and you'll be in with a chance to win an adrenalin packed trip to Las Vegas or free entry to Tough Mudder.
+                    HOW TO ENTER?</p>                    
+                    <ul>
+                        <li>Step 1: Take a photo of your toughest game face</li>
+                        <li>Step 2: Upload your photo to Twitter or Instagram using #GOTTHEBOTTLE</li>
+                    </ul>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
-
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
                     <h2>View site:</h2> 
-                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+                    <p>Site &amp; campaign ended</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

@@ -117,19 +117,17 @@
                         <li>Creative direction</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Back-end theme creation with Wordpress</li>
-                        <li>Ecommerce </li>
+                        <li>Back-end Wordpress custom theme</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
-                    <p>I took on the project as a designer, developer and project manager. I was working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done.</p>
-                    <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Flordia.</p>
+                    <p>At the time the final instalment to the Harry Potter movies comes the video game 'Harry Potter and the Deathly Hallows Part 2'. This is a supporting site to the game where fans and video gamers can find out the latest news about the game and all things related.</p>                    
+                    <p>Our team was in charge of the complete design and build of the site to then be passed on to our back end and Wordpress developer specialists who integtrated a custom admin CMS for the client to manage. The site was localised in 7 languages and was built using the latest technolgies at the time.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat's responsive grid, CSS3 transitions, Fully responsive</p>                    
 
                     <h2>View site:</h2> 
-                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+                    <p>Site &amp; campaign ended</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

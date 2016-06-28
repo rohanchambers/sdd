@@ -34,16 +34,18 @@
                     <img src="assets/img/work/getWellSoup.jpg" alt="Heinz, Get Well Soup" />
                     <div class="mask">
                         <h2>Heinz, Get Well Soup</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/heinz/"></a>
                 </div>
 
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/deathlyHallowsPart2.jpg" alt="EA, Harry Potter Deathly Hallows Part 2." /> 
                     <div class="mask">
                         <h2>EA, Harry Potter Deathly Hallows</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <<p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
+                    <a href="case-study/ea/"></a>
                 </div>
                 <div class="view view-first coming-soon">
                     <img src="assets/img/work/toughmudder.jpg" alt="Volvic, Toughmudder" />
