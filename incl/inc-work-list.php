@@ -72,7 +72,7 @@
                     </div>
                     <a href="case-study/pgtips/"></a>
                 </div>
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/movember.jpg" alt="HP Sauce, Movember Challenge" />
                     <div class="mask">
                         <h2>HP Sauce, Movember Challenge</h2>
@@ -80,7 +80,7 @@
                     </div>
                     <a href="case-study/hp/"></a>
                 </div>
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/kleenexCollection.jpg" alt="Kleenex, Collection" /> 
                     <div class="mask">
                         <h2>Kleenex, Collection</h2>
@@ -89,7 +89,7 @@
                     <a href="case-study/kleenex/"></a>
                 </div>
 
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/beginBulmers.jpg" alt="Bulmers, Begin with a Bulmers" />
                     <div class="mask">
                         <h2>Bulmers, begin with a Bulmers</h2>
@@ -97,27 +97,27 @@
                     </div>
                     <a href="case-study/bulmers/"></a>
                 </div>
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/playboyUK.jpg" alt="Playboy UK" /> 
                     <div class="mask">
                         <h2>Playboy UK</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div> 
                     <a href="case-study/playboy/"></a>
                 </div>
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
                     <div class="mask">
                         <h2>Olympics 2012, #supportYourTeam</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/olympics/"></a>
                 </div>
-                <div class="view view-first coming-soon">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/enotria.jpg" alt="Olympics 2012, #supportYourTeam" />
                     <div class="mask">
                         <h2>Tesco, Enotria</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">Coming</span> soon!</p>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/tesco/"></a>
                 </div>

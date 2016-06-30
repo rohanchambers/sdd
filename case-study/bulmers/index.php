@@ -119,10 +119,8 @@
                     </ul>
                     <h2>Project summary</h2>
                     
-                    <p>Our team created a Facebook app. for the PG tips, Cuppa Club 2.</p>
-                    <h2>How it works?</h2>
-                    <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
-                    Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
+                    <p>We designed and developed this Facebook app. for both desktop and mobile which lets the user share their Bulmers moments on Facebook or on Twitter, using #beginwithabulmers to win great prizes. Some great graphs, stats and a timeline were displayed to show the progress of how the community was interacting with this campaign.</p>
+                    <p>Our competition is powered by your good times. The more Facebook posts and Tweets you share with us the more rewards we'll unlock. With new weekly winners and massive prizes on offer we've got it covered if you keep the ideas flowing. Enter now to get involved and keep checking back to see when the next prize is revealed.</p>
 
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    

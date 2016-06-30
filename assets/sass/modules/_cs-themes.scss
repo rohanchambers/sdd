@@ -13,6 +13,10 @@
 	}	
 }
 
+@include media($mobile) {
+	
+}
+
 // THEME PERFECT PEAKS BREWS
 .cs-ppb {
 	background-color: $blue;

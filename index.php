@@ -197,7 +197,7 @@
                   if (isset($_REQUEST['email']))  {
                   
                   //Email information
-                  $admin_email = "info@rohanchambers.net";
+                  $admin_email = "info@slamdunkdigital.co.uk";
                   $email = $_REQUEST['email'];
                   $subject = "Slam Dunk Message. message: " . $_REQUEST['subject'];
                   $comment = $_REQUEST['comment'].$phone;

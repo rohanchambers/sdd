@@ -117,12 +117,9 @@
                         <li>Design &amp; development</li>
                         <li>Facebook and Twitter API's</li>
                     </ul>
-                    <h2>Project summary</h2>
-                    
-                    <p>Our team created a Facebook app. for the PG tips, Cuppa Club 2.</p>
-                    <h2>How it works?</h2>
-                    <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
-                    Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
+                    <h2>Project summary</h2>                    
+                    <p>Well what a fun project this was! We love taking on projects that are on the fun side of tech and creativity. Our creatives came up with this great idea of getting all the movember fans to enter this competition to be part of a the Movember community and post their photos of themsleves with the best mustaches around.</p>
+                    <p>This site was obviously for the month of November and for those whoe were brave enough to sign up, upload their photo and take on the challenges set out were in a chance to win hard earned cash. </p>
 
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
@@ -133,6 +130,7 @@
                 <div id="case-study-img" class="col col-no-skew">
                     <img src="img/home.jpg" alt="HP, Movember Challenge">
                     <p><img src="img/challenge.jpg" alt="HP, Movember Challenge"></p>
+                    <p><img src="img/gallery.jpg" alt="HP, Movember Challenge"></p>
                 </div>
             </section><!-- End of Case study-->
         </div>

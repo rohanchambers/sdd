@@ -119,10 +119,9 @@
                     </ul>
                     <h2>Project summary</h2>
                     
-                    <p>Our team created a Facebook app. for the PG tips, Cuppa Club 2.</p>
-                    <h2>How it works?</h2>
-                    <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
-                    Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
+                    <p>This was another Facebook app. design and build for Tesco, The Social Wine campaign.</p>
+                    <p>Take part in creating the world's first community sourced wine.<br>
+                    <p>We're launching a completely bespoke bottle of wine, created entirely by you - our online community. There are fantastic prizes up for grabs and one lucky winner will get the chance to visit the vineyards in South Africa and experience first-hand how the wine is made by the local community.</p>
 
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    

@@ -115,17 +115,12 @@
                         <li>Creative direction</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Facebook and Twitter API's</li>
                     </ul>
-                    <h2>Project summary</h2>
-                    
-                    <p>Our team created a Facebook app. for the PG tips, Cuppa Club 2.</p>
-                    <h2>How it works?</h2>
-                    <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
-                    Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
+                    <h2>Project summary</h2>                    
+                    <p>Support your team to Olympic glory. This site was built during the 2012 London summer Olympics to allow fans to tweet about their favourite event and represent their tweets as a visual reference via a timeline/podium animation. Other data is spread around the site such as latest activity and a leader board panel to show team rankings.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
+                    <p>HTML5, CSS3, jQuery, Fully responsive</p>                    
                     <h2>View site:</h2> 
                     <p>Site / campaign ended</p>
                 </div><!-- Case study info -->

@@ -111,23 +111,17 @@
                     </header>
                     <h2>Deliverables</h2>
                     <ul>
-                        <li>Project &amp; Client management</li>
-                        <li>Creative direction</li>
-                        <li>UX wireframing &amp; A/B testing</li>
-                        <li>Design &amp; development</li>
-                        <li>Facebook and Twitter API's</li>
+                        <li>Front end development</li>
                     </ul>
                     <h2>Project summary</h2>
                     
-                    <p>Our team created a Facebook app. for the PG tips, Cuppa Club 2.</p>
-                    <h2>How it works?</h2>
-                    <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
-                    Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
+                    <p>This was one of the many projects and most rewarding one I worked on as an employee for Playboy UK for over three years. It was the redesign and development of the new playboy.co.uk site that was launched to push the brand further than just the magasine, so online.</p> 
+                    <p>I worked as a front end developer coding up all the landing pages and working along side a third party agency that were implementing a custom back end admin for the site.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
+                    <p>HTML5, CSS3, jQuery</p>                    
                     <h2>View site:</h2> 
-                    <p>Site / campaign ended</p>
+                    <p><a href="http://playboy.co.uk" target="_blank">Playboy.co.uk</a></p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
