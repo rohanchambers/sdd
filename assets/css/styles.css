@@ -628,10 +628,7 @@ footer {
       left: auto; } }
 .cs-phone-resq {
   background-color: #fd070d; }
-  .cs-phone-resq #case-study .col-skew:after {
-    left: 12%; }
-  .cs-phone-resq #case-study .col-skew,
-  .cs-phone-resq #case-study .col-skew:after {
+  .cs-phone-resq .col-skew {
     background-color: #fd070d; }
   .cs-phone-resq #intro-bg-img {
     background: #000 url(/case-study/phone-resq/img/banner.jpg) no-repeat top right;
@@ -639,10 +636,7 @@ footer {
 
 .cs-ppb {
   background-color: #0074c0; }
-  .cs-ppb #case-study .col-skew:after {
-    left: 23%; }
-  .cs-ppb #case-study .col-skew,
-  .cs-ppb #case-study .col-skew:after {
+  .cs-ppb .col-skew {
     background-color: #0074c0; }
   .cs-ppb #intro-bg-img {
     background: #000 url(/case-study/perfect-peaks-brews/img/home.jpg) no-repeat center -110px;
@@ -650,23 +644,17 @@ footer {
 
 .cs-beauty-of-brewing {
   background-color: #ffc036; }
-  .cs-beauty-of-brewing #case-study .col-skew:after {
-    left: -11%; }
-  .cs-beauty-of-brewing #case-study .col-skew,
-  .cs-beauty-of-brewing #case-study .col-skew:after {
+  .cs-beauty-of-brewing .col-skew {
     background-color: #ffc036; }
   .cs-beauty-of-brewing #case-study #case-study-info h2, .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a, .cs-beauty-of-brewing #case-study #case-study-info li {
     color: #000; }
   .cs-beauty-of-brewing #intro-bg-img {
-    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
+    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -60px;
     background-size: cover; }
 
 .cs-redbull {
   background-color: #2e327b; }
-  .cs-redbull #case-study .col-skew:after {
-    left: 20%; }
-  .cs-redbull #case-study .col-skew,
-  .cs-redbull #case-study .col-skew:after {
+  .cs-redbull .col-skew {
     background-color: #2e327b; }
   .cs-redbull #intro-bg-img {
     background: #000 url(/case-study/redbull/img/banner.jpg) no-repeat center -70px;
@@ -674,12 +662,9 @@ footer {
 
 .cs-heinz {
   background-color: #8eafce; }
-  .cs-heinz #case-study .col-skew:after {
-    left: 11%; }
-  .cs-heinz #case-study .col-skew,
-  .cs-heinz #case-study .col-skew:after {
+  .cs-heinz .col-skew {
     background-color: #8eafce; }
-  .cs-heinz #case-study #case-study-info h2, .cs-heinz #case-study #case-study-info p, .cs-heinz #case-study #case-study-info a, .cs-heinz #case-study #case-study-info li {
+  .cs-heinz #case-study-info h2, .cs-heinz #case-study-info p, .cs-heinz #case-study-info a, .cs-heinz #case-study-info li {
     color: #000; }
   .cs-heinz #intro-bg-img {
     background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
@@ -687,10 +672,7 @@ footer {
 
 .cs-ea-deathly-hallows {
   background-color: #ffc036; }
-  .cs-ea-deathly-hallows #case-study .col-skew:after {
-    left: 15%; }
-  .cs-ea-deathly-hallows #case-study .col-skew,
-  .cs-ea-deathly-hallows #case-study .col-skew:after {
+  .cs-ea-deathly-hallows .col-skew {
     background-color: #ffc036; }
   .cs-ea-deathly-hallows #case-study #case-study-info h2, .cs-ea-deathly-hallows #case-study #case-study-info p, .cs-ea-deathly-hallows #case-study #case-study-info a, .cs-ea-deathly-hallows #case-study #case-study-info li {
     color: #000; }
@@ -700,10 +682,7 @@ footer {
 
 .cs-volvic-toughmudder {
   background-color: #ff6801; }
-  .cs-volvic-toughmudder #case-study .col-skew:after {
-    left: 1%; }
-  .cs-volvic-toughmudder #case-study .col-skew,
-  .cs-volvic-toughmudder #case-study .col-skew:after {
+  .cs-volvic-toughmudder .col-skew {
     background-color: #ff6801; }
   .cs-volvic-toughmudder #intro-bg-img {
     background: #000 url(/case-study/volvic/img/banner.jpg) no-repeat center top;
@@ -711,10 +690,7 @@ footer {
 
 .cs-jaguar-livefearless {
   background-color: #fd070d; }
-  .cs-jaguar-livefearless #case-study .col-skew:after {
-    left: 7%; }
-  .cs-jaguar-livefearless #case-study .col-skew,
-  .cs-jaguar-livefearless #case-study .col-skew:after {
+  .cs-jaguar-livefearless .col-skew {
     background-color: #fd070d; }
   .cs-jaguar-livefearless #intro-bg-img {
     background: #000 url(/case-study/jaguar/img/banner2.jpg) no-repeat center top;
@@ -722,32 +698,21 @@ footer {
 
 .cs-pgtips-cuppaclub {
   background-color: #02a85c; }
-  .cs-pgtips-cuppaclub #case-study .col-skew:after {
-    left: 13%; }
-  .cs-pgtips-cuppaclub #case-study .col-skew,
-  .cs-pgtips-cuppaclub #case-study .col-skew:after {
+  .cs-pgtips-cuppaclub .col-skew {
     background-color: #02a85c; }
   .cs-pgtips-cuppaclub #intro-bg-img {
     background: #000 url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
     background-size: cover; }
 
-.cs-hp-movember {
+.cs-hp-movember .col-skew {
   background-color: #0d234e; }
-  .cs-hp-movember #case-study .col-skew:after {
-    left: 13%; }
-  .cs-hp-movember #case-study .col-skew,
-  .cs-hp-movember #case-study .col-skew:after {
-    background-color: #0d234e; }
-  .cs-hp-movember #intro-bg-img {
-    background: #000 url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
-    background-size: cover; }
+.cs-hp-movember #intro-bg-img {
+  background: #000 url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
+  background-size: cover; }
 
 .cs-hp-movember {
   background-color: #132b51; }
-  .cs-hp-movember #case-study .col-skew:after {
-    left: 13%; }
-  .cs-hp-movember #case-study .col-skew,
-  .cs-hp-movember #case-study .col-skew:after {
+  .cs-hp-movember .col-skew {
     background-color: #132b51; }
   .cs-hp-movember #intro-bg-img {
     background: #000 url(/case-study/hp/img/banner.jpg) no-repeat left 0;
@@ -755,10 +720,7 @@ footer {
 
 .cs-kleenex-collection {
   background-color: #3292a0; }
-  .cs-kleenex-collection #case-study .col-skew:after {
-    left: 16%; }
-  .cs-kleenex-collection #case-study .col-skew,
-  .cs-kleenex-collection #case-study .col-skew:after {
+  .cs-kleenex-collection .col-skew {
     background-color: #3292a0; }
   .cs-kleenex-collection #intro-bg-img {
     background: #000 url(/case-study/kleenex/img/banner.jpg) no-repeat center right;
@@ -766,10 +728,7 @@ footer {
 
 .cs-bulmers-begin {
   background-color: #ffc036; }
-  .cs-bulmers-begin #case-study .col-skew:after {
-    left: 20%; }
-  .cs-bulmers-begin #case-study .col-skew,
-  .cs-bulmers-begin #case-study .col-skew:after {
+  .cs-bulmers-begin .col-skew {
     background-color: #ffc036; }
   .cs-bulmers-begin #case-study #case-study-info h2, .cs-bulmers-begin #case-study #case-study-info p, .cs-bulmers-begin #case-study #case-study-info a, .cs-bulmers-begin #case-study #case-study-info li {
     color: #000; }
@@ -779,10 +738,7 @@ footer {
 
 .cs-playboy {
   background-color: #c8082d; }
-  .cs-playboy #case-study .col-skew:after {
-    left: 20%; }
-  .cs-playboy #case-study .col-skew,
-  .cs-playboy #case-study .col-skew:after {
+  .cs-playboy .col-skew {
     background-color: #c8082d; }
   .cs-playboy #intro-bg-img {
     background: #000 url(/case-study/playboy/img/banner.png) no-repeat center center;
@@ -790,10 +746,7 @@ footer {
 
 .cs-olympics {
   background-color: #0172c0; }
-  .cs-olympics #case-study .col-skew:after {
-    left: 9%; }
-  .cs-olympics #case-study .col-skew,
-  .cs-olympics #case-study .col-skew:after {
+  .cs-olympics .col-skew {
     background-color: #0172c0; }
   .cs-olympics #intro-bg-img {
     background: #000 url(/case-study/olympics/img/banner.jpg) no-repeat center -100px;
@@ -801,10 +754,7 @@ footer {
 
 .cs-tesco {
   background-color: #8dbb37; }
-  .cs-tesco #case-study .col-skew:after {
-    left: -10%; }
-  .cs-tesco #case-study .col-skew,
-  .cs-tesco #case-study .col-skew:after {
+  .cs-tesco .col-skew {
     background-color: #8dbb37; }
   .cs-tesco #intro-bg-img {
     background: #000 url(/case-study/tesco/img/banner.jpg) no-repeat center -100px;

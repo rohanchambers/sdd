@@ -1,16 +1,9 @@
 // THEME PHONERESQ.
 .cs-phone-resq {
 	background-color: $red;
-
-	#case-study {
-		.col-skew:after {
-		    left: 12%;
-		}
-		
-		.col-skew,
-		.col-skew:after {
-			background-color: $red;
-		}
+	
+	.col-skew {
+		background-color: $red;
 	}
 
 	// Phone ResQ
@@ -23,16 +16,9 @@
 // THEME PERFECT PEAKS BREWS
 .cs-ppb {
 	background-color: $blue;
-
-	#case-study {
-		.col-skew:after {
-		    left: 23%;
-		}
-
-		.col-skew, 
-		.col-skew:after {
-			background-color: $blue;
-		}		
+	
+	.col-skew {
+		background-color: $blue;
 	}
 	
 	#intro-bg-img {
@@ -43,18 +29,13 @@
 
 // THEME HEINEKEN BEAUTY OF BREWING
 .cs-beauty-of-brewing {
-	background-color: $yellow;
-
+	background-color: $yellow;	
+	
+	.col-skew {
+		background-color: $yellow;
+	}
+		 	
 	#case-study {
-		.col-skew:after {
-		    left: -11%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: $yellow;
-		}
-			 	
 	 	#case-study-info {
 	 		h2, p, a, li {
 				color: $black;
@@ -63,7 +44,7 @@
 	}
 
 	#intro-bg-img {
-		background: $black url(/case-study/heineken/img/banner.jpg) no-repeat center -70px;
+		background: $black url(/case-study/heineken/img/banner.jpg) no-repeat center -60px;
 	    background-size: cover;
 	}	
 }
@@ -71,16 +52,9 @@
 // THEME REDBULL
 .cs-redbull {
 	background-color: #2e327b;
-
-	#case-study {
-		.col-skew:after {
-		    left: 20%;
-		}
-
-		.col-skew, 
-		.col-skew:after {
-			background-color: #2e327b;
-		}	
+	
+	.col-skew {
+		background-color: #2e327b;
 	}
 
 	#intro-bg-img {
@@ -92,22 +66,15 @@
 // THEME HEINZ
 .cs-heinz {
 	background-color: #8eafce;
-
-	#case-study {
-		.col-skew:after {
-		    left: 11%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #8eafce;
-		}
-	 	
-	 	#case-study-info {
-	 		h2, p, a, li {
-				color: $black;
-	 		}
-		}
+	
+	.col-skew {
+		background-color: #8eafce;
+	}
+ 	
+ 	#case-study-info {
+ 		h2, p, a, li {
+			color: $black;
+ 		}
 	}
 
 	#intro-bg-img {
@@ -121,16 +88,11 @@
 .cs-ea-deathly-hallows {
 	background-color: $yellow;
 
+	.col-skew {
+		background-color: $yellow;
+	}
+ 	
 	#case-study {
-		.col-skew:after {
-		    left: 15%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: $yellow;
-		}
-	 	
 	 	#case-study-info {
 	 		h2, p, a, li {
 				color: $black;
@@ -148,15 +110,8 @@
 .cs-volvic-toughmudder {
 	background-color: #ff6801;
 
-	#case-study {
-		.col-skew:after {
-		    left: 1%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #ff6801;
-		}	
+	.col-skew {
+		background-color: #ff6801;
 	}
 
 	#intro-bg-img {
@@ -169,15 +124,8 @@
 .cs-jaguar-livefearless {
 	background-color: $red;
 
-	#case-study {
-		.col-skew:after {
-		    left: 7%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: $red;
-		}	
+	.col-skew {
+		background-color: $red;
 	}
 
 	#intro-bg-img {
@@ -190,15 +138,8 @@
 .cs-pgtips-cuppaclub {
 	background-color: #02a85c;
 
-	#case-study {
-		.col-skew:after {
-		    left: 13%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #02a85c;
-		}	
+	.col-skew {
+		background-color: #02a85c;
 	}
 
 	#intro-bg-img {
@@ -209,17 +150,8 @@
 
 // THEME HP MOVEMBER
 .cs-hp-movember {
-	background-color: #0d234e;
-
-	#case-study {
-		.col-skew:after {
-		    left: 13%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #0d234e;
-		}	
+	.col-skew {
+		background-color: #0d234e;
 	}
 
 	#intro-bg-img {
@@ -231,16 +163,9 @@
 // THEME HP MOVEMBER
 .cs-hp-movember {
 	background-color: #132b51;
-
-	#case-study {
-		.col-skew:after {
-		    left: 13%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #132b51;
-		}	
+	
+	.col-skew {
+		background-color: #132b51;
 	}
 
 	#intro-bg-img {
@@ -253,15 +178,8 @@
 .cs-kleenex-collection {
 	background-color: #3292a0;
 
-	#case-study {
-		.col-skew:after {
-		    left: 16%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #3292a0;
-		}	
+	.col-skew {
+		background-color: #3292a0;
 	}
 
 	#intro-bg-img {
@@ -274,21 +192,16 @@
 .cs-bulmers-begin {
 	background-color: $yellow;
 
+	.col-skew {
+		background-color: $yellow;
+	}
+	
 	#case-study {
-		.col-skew:after {
-		    left: 20%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: $yellow;
-		}
-
 	 	#case-study-info {
 	 		h2, p, a, li {
 				color: $black;
 	 		}
-		}			
+		}
 	}
 
 	#intro-bg-img {
@@ -301,15 +214,8 @@
 .cs-playboy {
 	background-color: #c8082d;
 
-	#case-study {
-		.col-skew:after {
-		    left: 20%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #c8082d;
-		}			
+	.col-skew {
+		background-color: #c8082d;
 	}
 
 	#intro-bg-img {
@@ -322,15 +228,8 @@
 .cs-olympics {
 	background-color: #0172c0;
 
-	#case-study {
-		.col-skew:after {
-		    left: 9%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #0172c0;
-		}			
+	.col-skew {
+		background-color: #0172c0;
 	}
 
 	#intro-bg-img {
@@ -343,15 +242,8 @@
 .cs-tesco {
 	background-color: #8dbb37;
 
-	#case-study {
-		.col-skew:after {
-		    left: -10%;
-		}
-
-		.col-skew,
-		.col-skew:after {
-			background-color: #8dbb37;
-		}			
+	.col-skew {
+		background-color: #8dbb37;
 	}
 
 	#intro-bg-img {
