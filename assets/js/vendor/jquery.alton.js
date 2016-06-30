@@ -706,10 +706,22 @@
           $(document).bind({
             'DOMMouseScroll mousewheel scroll': featuredScroll
           });
-        } else if (settings.scrollMode === 'headerScroll') {
+        } 
+          else if (settings.scrollMode === 'headerScroll') {
           $(document).bind({
             'DOMMouseScroll mousewheel': headerScroll
           });
+
+        // else if (settings.scrollMode === 'headerScroll') { 
+        //     $(document).bind('mousewheel DOMMouseScroll wheel MozMousePixelScroll', function(e){
+        //         e.preventDefault();
+        //         e.stopPropagation();
+        //         if(lethargy.check(e) !== false) {
+        //             headerScroll(e); 
+        //         }
+        //     });
+        // }
+
         }
         $(window).resize(function() {
           $(singleSlide).each(function() {

@@ -108,13 +108,16 @@
                         <h1>What we do</h1>
                         <p class="intro">Slam Dunk Digital is a creative and digital startup that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
                     </header>
+
                     <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for high profile brands from all around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
 
-                    <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective, comprising of graphic / digital designers, creative developers, user experience and planners to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
+                    <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
 
-                    <p>Together we try to be innovative and passionate when we work on our clients projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
+                    <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
-                    <p>We are as you can imagine on the look out for new and upcoming projects to work our magic on, for all types and sizes of brands and businesses. We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>                    
+                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see the level of quality we deliver. Some of these projects were created whilst working at other agencies.</p>
+                    
+                    <p>We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>                    
                 </div>
                 
                 <div class="col col-no-skew">
@@ -128,7 +131,7 @@
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team have created. Every project we have undertaken has always been different but we have always adapted to the latest technologies to provide high quality work.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team has created. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->
@@ -289,6 +292,7 @@
 
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/lethargy/lethargy.min.js"></script>
         <script src="assets/js/vendor/jquery.validate.min.js"></script>
         <script src="assets/js/vendor/jquery.alton.min.js"></script>
         <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
@@ -296,14 +300,14 @@
         <script src="assets/js/vendor/nav-overlay.js"></script>
         <script src="assets/js/vendor/tweenLite.min.js"></script>
         <script src="assets/js/vendor/easePack.min.js"></script>
-        <script src="assets/js/vendor/rAF.js"></script>                  
+        <script src="assets/js/vendor/rAF.js"></script>
         <script src="assets/js/vendor/emitter.js"></script>
         <script src="assets/js/vendor/proximity.js"></script>
         <script src="assets/js/vendor/proximity-trigger.js"></script>
         <script src="assets/js/vendor/css3-animate-it.min.js"></script>
         <script src="assets/js/vendor/jquery.fittext.js"></script>
         <script src="assets/js/vendor/jquery.bxslider.min.js"></script>
-        <script src="assets/js/misc/constellations.js"></script>               
+        <script src="assets/js/misc/constellations.js"></script>
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->
         <!--(if target dist)>

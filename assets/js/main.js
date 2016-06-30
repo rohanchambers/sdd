@@ -51,8 +51,12 @@ var options = {
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
+//var lethargy = new Lethargy();
+
 // Document ready
 $(function(){
+
+
     // Fit text plugin
     $('#slogan p, .view .mask h2, .view .mask p').fitText(1, {maxFontSize: '80px' });
 

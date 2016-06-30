@@ -5,7 +5,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 12%;
-		    width: 30%;
 		}
 		
 		.col-skew,
@@ -28,7 +27,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 23%;
-		    width: 30%;
 		}
 
 		.col-skew, 
@@ -50,7 +48,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: -11%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -78,7 +75,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 20%;
-		    width: 30%;
 		}
 
 		.col-skew, 
@@ -100,7 +96,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 11%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -129,7 +124,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 15%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -157,7 +151,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 1%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -170,14 +163,6 @@
 		background: $black url(/case-study/volvic/img/banner.jpg) no-repeat center top;
 	    background-size: cover;
 	}
-
-	// #case-study-nav {
-	// 	.go-prev:hover, 
-	// 	.go-next:hover, 
-	// 	.go-all:hover {
-	// 		background-color: #ff6801;
-	// 	}
-	// }	
 }
 
 // THEME JAGUAR LIVEFEARLESS
@@ -187,7 +172,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 7%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -197,7 +181,7 @@
 	}
 
 	#intro-bg-img {
-		background: $black url(/case-study/jaguar/img/banner.jpg) no-repeat center top;
+		background: $black url(/case-study/jaguar/img/banner2.jpg) no-repeat center top;
 	    background-size: cover;
 	}
 }
@@ -209,7 +193,6 @@
 	#case-study {
 		.col-skew:after {
 		    left: 13%;
-		    width: 30%;
 		}
 
 		.col-skew,
@@ -222,4 +205,165 @@
 		background: $black url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
 	    background-size: cover;
 	}
+}
+
+// THEME HP MOVEMBER
+.cs-hp-movember {
+	background-color: #0d234e;
+
+	#case-study {
+		.col-skew:after {
+		    left: 13%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #0d234e;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/pgtips/img/banner.jpg) no-repeat center right;
+	    background-size: cover;
+	}
+}
+
+// THEME HP MOVEMBER
+.cs-hp-movember {
+	background-color: #132b51;
+
+	#case-study {
+		.col-skew:after {
+		    left: 13%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #132b51;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/hp/img/banner.jpg) no-repeat left 0;
+	    background-size: cover;
+	}
+}
+
+// THEME KLEENEX COLLECTION
+.cs-kleenex-collection {
+	background-color: #3292a0;
+
+	#case-study {
+		.col-skew:after {
+		    left: 16%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #3292a0;
+		}	
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/kleenex/img/banner.jpg) no-repeat center right;
+	    background-size: cover;
+	}
+}
+
+// THEME BULMERS BEGIN
+.cs-bulmers-begin {
+	background-color: $yellow;
+
+	#case-study {
+		.col-skew:after {
+		    left: 20%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: $yellow;
+		}
+
+	 	#case-study-info {
+	 		h2, p, a, li {
+				color: $black;
+	 		}
+		}			
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/bulmers/img/banner.jpg) no-repeat right -50px;
+	    background-size: cover;
+	}
+}
+
+// THEME PLAYBOY UK
+.cs-playboy {
+	background-color: #c8082d;
+
+	#case-study {
+		.col-skew:after {
+		    left: 20%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #c8082d;
+		}			
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/playboy/img/banner.png) no-repeat center center;
+	    background-size: cover;
+	}
+}
+
+// THEME LONDON 2012
+.cs-olympics {
+	background-color: #0172c0;
+
+	#case-study {
+		.col-skew:after {
+		    left: 9%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #0172c0;
+		}			
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/olympics/img/banner.jpg) no-repeat center -100px;
+	    background-size: cover;
+	}
+}
+
+// THEME TESCO ENOTRIA
+.cs-tesco {
+	background-color: #8dbb37;
+
+	#case-study {
+		.col-skew:after {
+		    left: -10%;
+		}
+
+		.col-skew,
+		.col-skew:after {
+			background-color: #8dbb37;
+		}			
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/tesco/img/banner.jpg) no-repeat center -100px;
+	    background-size: cover;
+	}
+
+	// #case-study-nav {
+	// 	.go-prev:hover, 
+	// 	.go-next:hover, 
+	// 	.go-all:hover {
+	// 		background-color: #8dbb37;
+	// 	}
+	// }		
 }

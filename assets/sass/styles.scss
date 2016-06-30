@@ -16,8 +16,6 @@
 @import "vendor/_section-scroll";
 @import "vendor/_bxslider";
 @import "vendor/_slinky";
-@import "vendor/_twinkling";
-
 
 // NAV MINI
 #nav-mini {
@@ -67,6 +65,11 @@
 #site-header {
 	background-color: $black;
 	color: $white;
+
+	a {
+		text-decoration: none;
+		color: $white;
+	}
 
     // Social media links
     #social-links {
@@ -369,9 +372,10 @@
 		p {
 			font-family: $font-med;
 			font-size: rem(16);
-			line-height: 1.1em;
+			line-height: 1.2em;
 			margin: 10px 0 13px;
 			padding: 0;
+			text-transform: uppercase;
 
 			span {
 				font-size: inherit;
@@ -387,12 +391,27 @@
     left: 0;
 }
 
+	.stars {
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		width:100%;
+		height:100%;
+		display:block;
+		background: url(../img/case-study/stars.png) repeat top center;
+		z-index:0;
+	}
+
+
 #intro-bg-color {
     position: absolute;
     right: 0;
     z-index: 0;
     width: 50%;
     min-height: 350px;
+    background: $black url(../img/case-study/bg-emitter.png) center center no-repeat;
 }
 
 // Case Study Navigation
@@ -452,7 +471,6 @@
 
 	#case-study {
 		position: relative;
-		border-top: 1px solid $white;
 		@include clearfix;
 
 		p, li {
@@ -466,6 +484,7 @@
 		}
 
 		.col-skew:after {
+			display: none;
 		    content:"";
 		    position:absolute;
 		    z-index:1;

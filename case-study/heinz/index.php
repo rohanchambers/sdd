@@ -62,7 +62,7 @@
         <!-- Site Header for pages -->
         <div id="site-header-outer">
             <header id="site-header">
-                <h1>Slam Dunk Digital</h1>
+                <h1><a href="/">Slam Dunk Digital</a></h1>
                 <nav id="social-links" class="nav-global">
                     <ul>
                         <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
@@ -87,12 +87,11 @@
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
                     <div class="stars"></div>
-                    <div class="twinkling"></div>
                 </div>
                 <div id="intro-content">
                     <article class="left">
                         <h1>Heinz,<br> Get Well Soup</h1>
-                        <p>Pesronalised can of Heinz Soup.</p>
+                        <p>Cheer up a loved one with a pesronalised can of Heinz Soup.</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->

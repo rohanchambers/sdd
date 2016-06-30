@@ -62,7 +62,7 @@
         <!-- Site Header for pages -->
         <div id="site-header-outer">
             <header id="site-header">
-                <h1>Slam Dunk Digital</h1>
+                <h1><a href="/">Slam Dunk Digital</a></h1>
                 <nav id="social-links" class="nav-global">
                     <ul>
                         <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
@@ -87,11 +87,11 @@
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
                     <div class="stars"></div>
-                    <div class="twinkling"></div>
                 </div>
                 <div id="intro-content">
                     <article class="left">
                         <h1>PG Tips, Cuppa Club</h1>
+                        <p>Share a photo of your cuppa club</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
@@ -99,7 +99,7 @@
             <section id="case-study-nav">
                 <div class="col"><a href="../jaguar/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="/#work" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../hp/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">

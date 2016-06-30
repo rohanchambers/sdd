@@ -20,7 +20,7 @@ $(function(){
     });
 
     // Fit text plugin
-    $('#intro-content h1').fitText(1, { minFontSize: '30px'});
+    $('#intro-content h1').fitText(1, { minFontSize: '22px'});
 
 }); // End of Document ready
 
