@@ -91,7 +91,7 @@
                 <div id="intro-content">
                     <article class="left">
                         <h1>Playboy UK</h1>
-                        <p>I read it for the articles</p>
+                        <p>I read Playboy for the articles</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
