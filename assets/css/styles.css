@@ -667,7 +667,7 @@ footer {
   .cs-heinz #case-study-info h2, .cs-heinz #case-study-info p, .cs-heinz #case-study-info a, .cs-heinz #case-study-info li {
     color: #000; }
   .cs-heinz #intro-bg-img {
-    background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+    background: #000 url(/case-study/heinz/img/banner.jpg) no-repeat center -100px;
     background-size: cover; }
 
 .cs-ea-deathly-hallows {
@@ -760,6 +760,18 @@ footer {
     background: #000 url(/case-study/tesco/img/banner.jpg) no-repeat center -100px;
     background-size: cover; }
 
+@media screen and (max-width: 479px) {
+  .cs-heinz #intro-bg-img {
+    background-position: center -40px; }
+
+  .cs-ea-deathly-hallows #intro-bg-img {
+    background-position: -250px center; }
+
+  .cs-hp-movember #intro-bg-img {
+    background-position: -50px center; }
+
+  .cs-bulmers-begin #intro-bg-img {
+    background-position: -418px -50px; } }
 /*animations*/
 /******************
 * Bounce in right *

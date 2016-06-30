@@ -13,10 +13,6 @@
 	}	
 }
 
-@include media($mobile) {
-	
-}
-
 // THEME PERFECT PEAKS BREWS
 .cs-ppb {
 	background-color: $blue;
@@ -82,7 +78,7 @@
 	}
 
 	#intro-bg-img {
-		background: $black url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+		background: $black url(/case-study/heinz/img/banner.jpg) no-repeat center -100px;
 	    background-size: cover;
 	}
 }
@@ -261,5 +257,32 @@
 	// 	.go-all:hover {
 	// 		background-color: #8dbb37;
 	// 	}
-	// }		
+	// }
+}
+
+// Reposition background images for mobile 479px
+@include media($mobile) {
+	.cs-heinz {
+		#intro-bg-img {
+			background-position: center -40px;
+		}
+	}
+	
+	.cs-ea-deathly-hallows {
+		#intro-bg-img {
+			background-position: -250px center;
+		}
+	}
+
+	.cs-hp-movember {
+		#intro-bg-img {
+			background-position: -50px center;
+		}
+	}
+
+	.cs-bulmers-begin {
+		#intro-bg-img {
+			background-position: -418px -50px;
+		}
+	}
 }
