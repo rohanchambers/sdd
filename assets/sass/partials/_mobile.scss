@@ -172,7 +172,8 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	}
 	.overlay {
 	 	ul li a.active {
-			background-color: transparent;
+			background: none;
+			color: $white;
 		}
 	}
 
@@ -269,6 +270,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 			p {
 				font-size: rem(36);
+				line-height: 1.1em;
 			}
 
 			span, 
@@ -318,7 +320,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 	}
 
 	.overlay ul li { 
-		height: calc(100% / 12);
+		height: calc(100% / 9);
 			a {
 				font-size: rem(30);
 			}
@@ -414,9 +416,11 @@ $mobile-home: new-breakpoint(max-height 414px);
 			margin-top: 20px;
 		}
 
-		ul li a.active {
-			background-color: transparent;
-		}	
+	 	ul li a.active {
+			background: none;
+			color: $white;
+		}
+
 
 	}
 }

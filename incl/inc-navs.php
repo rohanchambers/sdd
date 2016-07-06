@@ -18,13 +18,18 @@
               <span></span>
             </span>
         </button>
-
+        
+        <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
             <img src="assets/img/video/space.jpg" alt="Space">
             <div id="bg-video">
-                <?php include("inc-nav-bg-video.php"); ?>
-            </div>            
+                <video loop muted autoplay>
+                    <source src="assets/img/video/space.webm" type="video/webm">
+                    <source src="assets/img/video/space.mp4" type="video/mp4">
+                    <source src="assets/img/video/space.ogv" type="video/ogg">
+                </video>
+            </div>
             <header>
                 <h1>Slam Dunk Digital</h1>
             </header>
@@ -45,7 +50,7 @@
                     <li class="overlay-share show-hide">
                         <ul>
                             <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital agency specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
                             <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>

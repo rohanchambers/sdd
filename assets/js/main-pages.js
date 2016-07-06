@@ -20,7 +20,12 @@ $(function(){
     });
 
     // Fit text plugin
-    $('#intro-content h1').fitText(1, { minFontSize: '22px'});
+    $('#intro-content h1').fitText(1, { minFontSize: '20px'});
+
+    // Remove from DOM mobile BG video on main navigation 
+    if (isMobile()) {
+        $('#bg-video').remove();
+    }
 
 }); // End of Document ready
 
@@ -70,6 +75,6 @@ var options = {
 
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
-
-
-
+function isMobile() {
+    return /Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}

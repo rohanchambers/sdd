@@ -1621,28 +1621,23 @@ var options = {
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
-//var lethargy = new Lethargy();
+function isMobile() {
+    return /Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 
 // Document ready
 $(function(){
 
+    // Remove from DOM mobile BG video on main navigation 
+    if (isMobile()) {
+        $('#bg-video').remove();
+    }
 
     // Fit text plugin
     $('#slogan p, .view .mask h2, .view .mask p').fitText(1, {maxFontSize: '80px' });
 
     // Mini Nav bullets section scroll
     $('#nav-mini').eavesdrop();
-
-    // Main Nav section scroll
-    //$('#nav-main').eavesdrop();
-
-    // Responsive carousel
-    // $('.bxslider').bxSlider({
-    //     mode: 'horizontal',
-    //     captions: true,
-    //     easing: 'ease-out',
-    //     auto: true
-    // });
 
     // For testing only: On load scroll to section position | fixme
     //$('html, body').animate({ scrollTop: $('#clients').offset().top + 800 }, 1000);

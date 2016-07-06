@@ -75,7 +75,13 @@ header {
 		width: 380px;
 		padding-top: 5px;
 		font-size: rem(30);
-		z-index: 1;		
+		z-index: 1;
+		
+		img {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
 	}
 
 	h1:before {

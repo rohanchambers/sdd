@@ -504,6 +504,10 @@ header p {
   padding-top: 5px;
   font-size: 1.875rem;
   z-index: 1; }
+  #site-header h1 img {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; }
 #site-header h1:before {
   display: none; }
 #site-header p {
@@ -1092,7 +1096,7 @@ footer {
   .cs-heinz #case-study-info h2, .cs-heinz #case-study-info p, .cs-heinz #case-study-info a, .cs-heinz #case-study-info li {
     color: #000; }
   .cs-heinz #intro-bg-img {
-    background: #000 url(/case-study/heinz/img/banner.gif) no-repeat center -80px;
+    background: #000 url(/case-study/heinz/img/banner.jpg) no-repeat center -100px;
     background-size: cover; }
 
 .cs-ea-deathly-hallows {
@@ -1185,6 +1189,18 @@ footer {
     background: #000 url(/case-study/tesco/img/banner.jpg) no-repeat center -100px;
     background-size: cover; }
 
+@media screen and (max-width: 479px) {
+  .cs-heinz #intro-bg-img {
+    background-position: center -40px; }
+
+  .cs-ea-deathly-hallows #intro-bg-img {
+    background-position: -250px center; }
+
+  .cs-hp-movember #intro-bg-img {
+    background-position: -50px center; }
+
+  .cs-bulmers-begin #intro-bg-img {
+    background-position: -418px -50px; } }
 /*animations*/
 /******************
 * Bounce in right *
@@ -4379,7 +4395,8 @@ footer {
     display: none; }
 
   .overlay ul li a.active {
-    background-color: transparent; }
+    background: none;
+    color: #FFF; }
 
   #case-study .col,
   #case-study #case-study-info,
@@ -4443,7 +4460,8 @@ footer {
     width: 100%; }
 
   #home #slogan p {
-    font-size: 2.25rem; }
+    font-size: 2.25rem;
+    line-height: 1.1em; }
   #home #slogan span,
   #home #slogan span#all-the-time {
     font-size: 1.875rem; }
@@ -4480,7 +4498,7 @@ footer {
       padding: 0; }
 
   .overlay ul li {
-    height: calc(100% / 12); }
+    height: calc(100% / 9); }
     .overlay ul li a {
       font-size: 1.875rem; }
 
@@ -4537,6 +4555,7 @@ footer {
   .overlay li.social {
     margin-top: 20px; }
   .overlay ul li a.active {
-    background-color: transparent; } }
+    background: none;
+    color: #FFF; } }
 
 /*# sourceMappingURL=styles.css.map */
