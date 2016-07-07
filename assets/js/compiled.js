@@ -410,6 +410,36 @@ function isMobile() {
 
 })( jQuery );
 ;(function(){var t;t="undefined"!=typeof exports&&null!==exports?exports:this,t.Lethargy=function(){function t(t,s,i,l){this.stability=null!=t?Math.abs(t):8,this.sensitivity=null!=s?1+Math.abs(s):100,this.tolerance=null!=i?1+Math.abs(i):1.1,this.delay=null!=l?l:150,this.lastUpDeltas=function(){var t,s,i;for(i=[],t=1,s=2*this.stability;s>=1?s>=t:t>=s;s>=1?t++:t--)i.push(null);return i}.call(this),this.lastDownDeltas=function(){var t,s,i;for(i=[],t=1,s=2*this.stability;s>=1?s>=t:t>=s;s>=1?t++:t--)i.push(null);return i}.call(this),this.deltasTimestamp=function(){var t,s,i;for(i=[],t=1,s=2*this.stability;s>=1?s>=t:t>=s;s>=1?t++:t--)i.push(null);return i}.call(this)}return t.prototype.check=function(t){var s;return t=t.originalEvent||t,null!=t.wheelDelta?s=t.wheelDelta:null!=t.deltaY?s=-40*t.deltaY:(null!=t.detail||0===t.detail)&&(s=-40*t.detail),this.deltasTimestamp.push(Date.now()),this.deltasTimestamp.shift(),s>0?(this.lastUpDeltas.push(s),this.lastUpDeltas.shift(),this.isInertia(1)):(this.lastDownDeltas.push(s),this.lastDownDeltas.shift(),this.isInertia(-1))},t.prototype.isInertia=function(t){var s,i,l,a,e,n,h;return s=-1===t?this.lastDownDeltas:this.lastUpDeltas,null===s[0]?t:this.deltasTimestamp[2*this.stability-2]+this.delay>Date.now()&&s[0]===s[2*this.stability-1]?!1:(l=s.slice(0,this.stability),i=s.slice(this.stability,2*this.stability),h=l.reduce(function(t,s){return t+s}),e=i.reduce(function(t,s){return t+s}),n=h/l.length,a=e/i.length,Math.abs(n)<Math.abs(a*this.tolerance)&&this.sensitivity<Math.abs(a)?t:!1)},t.prototype.showLastUpDeltas=function(){return this.lastUpDeltas},t.prototype.showLastDownDeltas=function(){return this.lastDownDeltas},t}()}).call(this);
+;/*!
+ * jQuery Scrollify
+ * Version 1.0.2
+ *
+ * Requires:
+ * - jQuery 1.6 or higher
+ *
+ * https://github.com/lukehaas/Scrollify
+ *
+ * Copyright 2016, Luke Haas
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+!function(e,t){"use strict";"function"==typeof define&&define.amd?define(["jquery"],function(o){return t(o,e,e.document)}):"object"==typeof module&&module.exports?module.exports=function(o,n){return void 0===n&&(n="undefined"!=typeof window?require("jquery"):require("jquery")(o)),t(n,e,e.document),n}:t(jQuery,e,e.document)}("undefined"!=typeof window?window:this,function(e,t,o,n){"use strict";function i(o,n,i){if(H===!0)return!0;if(f[o]){if(S=!1,i&&L.before(o,p),y=1,L.sectionName&&(D!==!0||0!==o))if(history.pushState)try{history.replaceState(null,null,f[o])}catch(s){t.console&&console.warn("Scrollify warning: This needs to be hosted on a server to manipulate the hash value.")}else t.location.hash=f[o];if(n)e(L.target).stop().scrollTop(d[o]),i&&L.after(o,p);else{if(E=!0,e().velocity?e(L.target).stop().velocity("scroll",{duration:L.scrollSpeed,easing:L.easing,offset:d[o],mobileHA:!1}):e(L.target).stop().animate({scrollTop:d[o]},L.scrollSpeed,L.easing),t.location.hash.length&&L.sectionName&&t.console)try{e(t.location.hash).length&&console.warn("Scrollify warning: There are IDs on the page that match the hash value - this will cause the page to anchor.")}catch(s){console.warn("Scrollify warning:",t.location.hash,"is not a valid jQuery expression.")}e(L.target).promise().done(function(){E=!1,D=!1,i&&L.after(o,p)})}}}function s(e){function t(t){for(var o=0,n=e.slice(Math.max(e.length-t,1)),i=0;i<n.length;i++)o+=n[i];return Math.ceil(o/t)}var o=t(10),n=t(70);return o>=n?!0:!1}function r(e,t){for(var o=f.length;o>=0;o--)"string"==typeof e?f[o]===e&&(m=o,i(o,t,!0)):o===e&&(m=o,i(o,t,!0))}var c,a,u,l,h,d=[],f=[],p=[],g=[],m=0,y=1,v=!1,w=e(t),b=w.scrollTop(),S=!1,E=!1,M=!1,H=!1,x=[],T=(new Date).getTime(),D=!0,I=!1,L={section:".section",sectionName:"section-name",interstitialSection:"",easing:"easeOutExpo",scrollSpeed:1100,offset:0,scrollbars:!0,axis:"y",target:"html,body",standardScrollElements:!1,setHeights:!0,overflowScroll:!0,before:function(){},after:function(){},afterResize:function(){},afterRender:function(){}};e.scrollify=function(n){function r(t){e().velocity?e(L.target).stop().velocity("scroll",{duration:L.scrollSpeed,easing:L.easing,offset:t,mobileHA:!1}):e(L.target).stop().animate({scrollTop:t},L.scrollSpeed,L.easing)}function D(){var t=L.section;g=[],L.interstitialSection.length&&(t+=","+L.interstitialSection),e(t).each(function(t){L.setHeights?e(this).is(L.interstitialSection)?g[t]=!1:e(this).css("height","auto").outerHeight()<w.height()||"hidden"===e(this).css("overflow")?(e(this).css({height:w.height()}),g[t]=!1):(e(this).css({height:e(this).height()}),L.overflowScroll?g[t]=!0:g[t]=!1):e(this).outerHeight()<w.height()||L.overflowScroll===!1?g[t]=!1:g[t]=!0})}function N(o){var n=L.section;L.interstitialSection.length&&(n+=","+L.interstitialSection),d=[],f=[],p=[],e(n).each(function(o){o>0?d[o]=parseInt(e(this).offset().top)+L.offset:d[o]=parseInt(e(this).offset().top),L.sectionName&&e(this).data(L.sectionName)?f[o]="#"+e(this).data(L.sectionName).replace(/ /g,"-"):e(this).is(L.interstitialSection)===!1?f[o]="#"+(o+1):f[o]="#",p[o]=e(this),e(f[o]).length&&t.console&&console.warn("Scrollify warning: Section names can't match IDs on the page - this will cause the browser to anchor."),t.location.hash===f[o]&&(m=o,v=!0)}),!0===o?i(m,!1,!1):L.afterRender()}function j(){return g[m]?(b=w.scrollTop(),b>parseInt(d[m])?!1:!0):!0}function k(){return g[m]?(b=w.scrollTop(),b<parseInt(d[m])+(p[m].outerHeight()-w.height())-28?!1:!0):!0}I=!0,e.easing.easeOutExpo=function(e,t,o,n,i){return t==i?o+n:n*(-Math.pow(2,-10*t/i)+1)+o},u={handleMousedown:function(){return H===!0?!0:(S=!1,void(M=!1))},handleMouseup:function(){return H===!0?!0:(S=!0,void(M&&u.calculateNearest()))},handleScroll:function(){return H===!0?!0:(c&&clearTimeout(c),void(c=setTimeout(function(){return M=!0,S===!1?!1:(S=!1,void u.calculateNearest())},200)))},calculateNearest:function(){b=w.scrollTop();for(var e,t=1,o=d.length,n=0,s=Math.abs(d[0]-b);o>t;t++)e=Math.abs(d[t]-b),s>e&&(s=e,n=t);(k()||j())&&(m=n,i(n,!1,!0))},wheelHandler:function(t,o){if(H===!0)return!0;if(L.standardScrollElements&&(e(t.target).is(L.standardScrollElements)||e(t.target).closest(L.standardScrollElements).length))return!0;g[m]||t.preventDefault();var n=(new Date).getTime();if(o=o||-t.originalEvent.detail/3||t.originalEvent.wheelDelta/120,x.length>149&&x.shift(),x.push(Math.abs(10*o)),n-T>200&&(x=[]),T=n,E)return!1;if(0>o){if(m<d.length-1&&k()){if(!s(x))return!1;t.preventDefault(),m++,E=!0,i(m,!1,!0)}}else if(o>0&&m>0&&j()){if(!s(x))return!1;t.preventDefault(),m--,E=!0,i(m,!1,!0)}},keyHandler:function(e){return H===!0?!0:E===!0?!1:void(38==e.keyCode?m>0&&j()&&(m--,i(m,!1,!0)):40==e.keyCode&&m<d.length-1&&k()&&(m++,i(m,!1,!0)))},init:function(){L.scrollbars?(w.bind("mousedown",u.handleMousedown),w.bind("mouseup",u.handleMouseup),w.bind("scroll",u.handleScroll)):e("body").css({overflow:"hidden"}),e(o).bind("DOMMouseScroll mousewheel",u.wheelHandler),e(o).bind("keydown",u.keyHandler)}},l={touches:{touchstart:{y:-1,x:-1},touchmove:{y:-1,x:-1},touchend:!1,direction:"undetermined"},options:{distance:30,timeGap:800,timeStamp:(new Date).getTime()},touchHandler:function(t){if(H===!0)return!0;if(L.standardScrollElements&&(e(t.target).is(L.standardScrollElements)||e(t.target).closest(L.standardScrollElements).length))return!0;var o;if("undefined"!=typeof t&&"undefined"!=typeof t.touches)switch(o=t.touches[0],t.type){case"touchstart":l.touches.touchstart.y=o.pageY,l.touches.touchmove.y=-1,l.touches.touchstart.x=o.pageX,l.touches.touchmove.x=-1,l.options.timeStamp=(new Date).getTime(),l.touches.touchend=!1;case"touchmove":l.touches.touchmove.y=o.pageY,l.touches.touchmove.x=o.pageX,l.touches.touchstart.y!==l.touches.touchmove.y&&Math.abs(l.touches.touchstart.y-l.touches.touchmove.y)>Math.abs(l.touches.touchstart.x-l.touches.touchmove.x)&&(t.preventDefault(),l.touches.direction="y",l.options.timeStamp+l.options.timeGap<(new Date).getTime()&&0==l.touches.touchend&&(l.touches.touchend=!0,l.touches.touchstart.y>-1&&Math.abs(l.touches.touchmove.y-l.touches.touchstart.y)>l.options.distance&&(l.touches.touchstart.y<l.touches.touchmove.y?l.up():l.down())));break;case"touchend":l.touches[t.type]===!1&&(l.touches[t.type]=!0,l.touches.touchstart.y>-1&&l.touches.touchmove.y>-1&&"y"===l.touches.direction&&(Math.abs(l.touches.touchmove.y-l.touches.touchstart.y)>l.options.distance&&(l.touches.touchstart.y<l.touches.touchmove.y?l.up():l.down()),l.touches.touchstart.y=-1,l.touches.touchstart.x=-1,l.touches.direction="undetermined"))}},down:function(){m<=d.length-1&&(k()&&m<d.length-1?(m++,i(m,!1,!0)):Math.floor(p[m].height()/w.height())>y?(r(parseInt(d[m])+w.height()*y),y+=1):r(parseInt(d[m])+(p[m].height()-w.height())))},up:function(){m>=0&&(j()&&m>0?(m--,i(m,!1,!0)):y>2?(y-=1,r(parseInt(d[m])+w.height()*y)):(y=1,r(parseInt(d[m]))))},init:function(){o.addEventListener&&(o.addEventListener("touchstart",l.touchHandler,!1),o.addEventListener("touchmove",l.touchHandler,!1),o.addEventListener("touchend",l.touchHandler,!1))}},h={refresh:function(e){clearTimeout(a),a=setTimeout(function(){D(),N(!0),e&&L.afterResize()},400)},handleUpdate:function(){h.refresh(!1)},handleResize:function(){h.refresh(!0)}},L=e.extend(L,n),D(),N(!1),!0===v?i(m,!1,!0):setTimeout(function(){i(0,!1,!0)},200),d.length&&(u.init(),l.init(),w.bind("resize",h.handleResize),o.addEventListener&&t.addEventListener("orientationchange",h.handleResize,!1))},e.scrollify.move=function(t){return t===n?!1:(t.originalEvent&&(t=e(this).attr("href")),void r(t,!1))},e.scrollify.instantMove=function(e){return e===n?!1:void r(e,!0)},e.scrollify.next=function(){m<f.length&&(m+=1,i(m,!1,!0))},e.scrollify.previous=function(){m>0&&(m-=1,i(m,!1,!0))},e.scrollify.instantNext=function(){m<f.length&&(m+=1,i(m,!0,!0))},e.scrollify.instantPrevious=function(){m>0&&(m-=1,i(m,!0,!0))},e.scrollify.destroy=function(){return I?(L.setHeights&&e(L.section).each(function(){e(this).css("height","auto")}),w.unbind("resize",h.handleResize),L.scrollbars&&(w.unbind("mousedown",u.handleMousedown),w.unbind("mouseup",u.handleMouseup),w.unbind("scroll",u.handleScroll)),e(o).unbind("DOMMouseScroll mousewheel",u.wheelHandler),e(o).unbind("keydown",u.keyHandler),o.addEventListener&&(o.removeEventListener("touchstart",l.touchHandler,!1),o.removeEventListener("touchmove",l.touchHandler,!1),o.removeEventListener("touchend",l.touchHandler,!1)),d=[],f=[],p=[],void(g=[])):!1},e.scrollify.update=function(){return I?void h.handleUpdate():!1},e.scrollify.current=function(){return p[m]},e.scrollify.disable=function(){H=!0},e.scrollify.enable=function(){H=!1},e.scrollify.isDisabled=function(){return H},e.scrollify.setOptions=function(o){return I?void("object"==typeof o?(L=e.extend(L,o),h.handleUpdate()):t.console&&console.warn("Scrollify warning: Options need to be in an object.")):!1}});
+
 ;/*! jQuery Validation Plugin - v1.14.0 - 6/30/2015
  * http://jqueryvalidation.org/
  * Copyright (c) 2015 Jörn Zaefferer; Licensed MIT */
@@ -838,12 +868,6 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
-// $(document).alton({
-//     firstClass : 'hero', // Set the first container class
-//     bodyContainer: 'section-what-we-do', // Set the body container
-//     scrollMode: 'headerScroll', // Set the scroll mode
-// });
-
 // Initialisation of particles
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
@@ -852,7 +876,6 @@ var options = {
   speed: 'high',
   density: 'high'
 };
-
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
 function isMobile() {
@@ -862,8 +885,9 @@ function isMobile() {
 // Document ready
 $(function(){
 
-    // Scroll hijack    
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        scrollOverflow:true
+    });
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {

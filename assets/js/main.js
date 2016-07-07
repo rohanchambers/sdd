@@ -51,11 +51,9 @@ function isMobile() {
 
 // Document ready
 $(function(){
-    // Page highjack
+
     $('#fullpage').fullpage({
-        //scrolloOverflow:true
-        autoScrolling: false,
-        fitToSection: false        
+        scrollOverflow:true
     });
 
     // Remove from DOM mobile BG video on main navigation 
@@ -135,15 +133,15 @@ $(function(){
     // FUNCTION CALLS
 
     // Home page to be full Height at all resolutionss
-    fullscreen();
+    // fullscreen();
 
-    // Run the function in case of window resize
-    $(window).resize(function() {
-        fullscreen();
-    });
+    // // Run the function in case of window resize
+    // $(window).resize(function() {
+    //     fullscreen();
+    // });
 
-    // On click of Main Nav and Mini items 
-    scrollToSections();
+    // // On click of Main Nav and Mini items 
+    // scrollToSections();
 
 }); // End of Document ready
 
