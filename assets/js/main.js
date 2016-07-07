@@ -35,12 +35,6 @@ function hideNav() {
     $(this).parent().addClass('active');    
 }
 
-// $(document).alton({
-//     firstClass : 'hero', // Set the first container class
-//     bodyContainer: 'section-what-we-do', // Set the body container
-//     scrollMode: 'headerScroll', // Set the scroll mode
-// });
-
 // Initialisation of particles
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
@@ -57,6 +51,10 @@ function isMobile() {
 
 // Document ready
 $(function(){
+    // Page highjack
+    $('#fullpage').fullpage({
+        scrolloOverflow:true
+    });
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {

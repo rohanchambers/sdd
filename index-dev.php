@@ -59,8 +59,9 @@
             </div>
         </div>
 
+    <div id="fullpage">
         <!-- Home section -->
-        <div id="bg-home">
+        <div id="bg-home" class="section">
             <section id="home" class="hero section-home full eavesdrop">
                 <header id="site-header">
                     <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital" /></h1>
@@ -128,6 +129,7 @@
             </section><!-- End of home-->
         </div>  
 
+    </div>
 
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
@@ -293,6 +295,8 @@
 
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/fullpage.js/jquery.fullpage.min.js"></script>
+        <script src="bower_components/fullpage.js/vendors/scrolloverflow.min.js"></script>        
         <script src="assets/js/vendor/jquery.validate.min.js"></script>
         <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
