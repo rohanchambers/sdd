@@ -2646,7 +2646,7 @@ a.tooltip.right:after {
   bottom: -8px; }
 
 a.tooltip.right:hover:after {
-  left: 22px;
+  left: 26px;
   bottom: -8px; }
 
 a.tooltip.right:before {
@@ -2656,8 +2656,8 @@ a.tooltip.right:before {
   bottom: -1px; }
 
 a.tooltip.right:hover:before {
-  left: 12px;
-  bottom: -1px; }
+  left: 16px;
+  bottom: 0px; }
 
 a.tooltip.darkNav:after {
   background: #000;

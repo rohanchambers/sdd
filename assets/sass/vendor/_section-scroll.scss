@@ -148,7 +148,7 @@ a.tooltip:hover:before{ visibility: visible; opacity: 1; bottom: 14px; }
 
 /* tips on the right */
 a.tooltip.right:after { left: 12px; bottom: -8px; }
-a.tooltip.right:hover:after { left: 22px; bottom: -8px; }
+a.tooltip.right:hover:after { left: 26px; bottom: -8px; }
 
 a.tooltip.right:before {
   border-width: 5px 10px 5px 0;
@@ -156,7 +156,7 @@ a.tooltip.right:before {
   left: 2px;
   bottom: -1px;
 }
-a.tooltip.right:hover:before { left: 12px; bottom: -1px; }
+a.tooltip.right:hover:before { left: 16px; bottom: 0px; }
 
 // Dark Tooltip: black
 a.tooltip.darkNav:after {
