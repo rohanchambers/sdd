@@ -53,7 +53,9 @@ function isMobile() {
 $(function(){
     // Page highjack
     $('#fullpage').fullpage({
-        scrolloOverflow:true
+        //scrolloOverflow:true
+        autoScrolling: false,
+        fitToSection: false        
     });
 
     // Remove from DOM mobile BG video on main navigation 
