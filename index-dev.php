@@ -101,7 +101,7 @@
         </div>
 
 
-        <div id="what-we-do-outer">
+        <div id="what-we-do-outer" class="section">
             <section id="what-we-do" class="section-what-we-do full eavesdrop">
                 <div class="col col-skew">
                     <header>
@@ -126,7 +126,8 @@
 
                 <div id="particle-canvas"></div> 
             </section><!-- End of home-->
-        </div>
+        </div>  
+
 
         <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
@@ -292,9 +293,7 @@
 
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/lethargy/lethargy.min.js"></script>
         <script src="assets/js/vendor/jquery.validate.min.js"></script>
-        <script src="assets/js/vendor/jquery.alton.min.js"></script>
         <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
@@ -306,7 +305,6 @@
         <script src="assets/js/vendor/proximity-trigger.js"></script>
         <script src="assets/js/vendor/css3-animate-it.min.js"></script>
         <script src="assets/js/vendor/jquery.fittext.js"></script>
-        <script src="assets/js/vendor/jquery.bxslider.min.js"></script>
         <script src="assets/js/misc/constellations.js"></script>
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->

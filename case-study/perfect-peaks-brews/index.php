@@ -124,6 +124,7 @@
                 
                 <div id="case-study-img" class="col col-no-skew">
                     <img src="img/logo.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/variations.jpg" alt="Perfect Peaks Brews">                    
                     <img src="img/home.jpg" alt="Perfect Peaks Brews">
                 </div>
             </section><!-- End of Case study-->
@@ -162,7 +163,7 @@
             </footer>
         </div>
 
-        <?php include("inc-navs-cs.php"); ?>
+        <?php include("../../incl/inc-navs-cs.php"); ?>
         
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="/assets/js/vendor/nav-overlay.js"></script>

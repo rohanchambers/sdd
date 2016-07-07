@@ -1078,7 +1078,7 @@ footer {
   .cs-beauty-of-brewing #case-study #case-study-info h2, .cs-beauty-of-brewing #case-study #case-study-info p, .cs-beauty-of-brewing #case-study #case-study-info a, .cs-beauty-of-brewing #case-study #case-study-info li {
     color: #000; }
   .cs-beauty-of-brewing #intro-bg-img {
-    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -60px;
+    background: #000 url(/case-study/heineken/img/banner.jpg) no-repeat center -50px;
     background-size: cover; }
 
 .cs-redbull {
@@ -1190,6 +1190,9 @@ footer {
     background-size: cover; }
 
 @media screen and (max-width: 479px) {
+  .cs-beauty-of-brewing #intro-bg-img {
+    background-position: center -70px; }
+
   .cs-heinz #intro-bg-img {
     background-position: center -40px; }
 

@@ -53,9 +53,9 @@
                 </div>
             </div>
         </div>
-
+        <div id="fullpage">
         <!-- Home section -->
-        <div id="bg-home">
+        <div id="bg-home" class="section">
             <section id="home" class="hero section-home full eavesdrop">
                 <header id="site-header">
                     <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital" /></h1>
@@ -96,7 +96,7 @@
         </div>
 
 
-        <div id="what-we-do-outer">
+        <div id="what-we-do-outer" class="section">
             <section id="what-we-do" class="section-what-we-do full eavesdrop">
                 <div class="col col-skew">
                     <header>
@@ -122,8 +122,9 @@
                 <div id="particle-canvas"></div> 
             </section><!-- End of home-->
         </div>
+</div>    
 
-        <section id="work" class="section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="work" class="section section-work full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team has created. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
@@ -135,7 +136,7 @@
         </section>
 
 
-        <section id="clients" class="section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="clients" class="section section-clients full eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>

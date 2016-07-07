@@ -44,7 +44,7 @@
 	}
 
 	#intro-bg-img {
-		background: $black url(/case-study/heineken/img/banner.jpg) no-repeat center -60px;
+		background: $black url(/case-study/heineken/img/banner.jpg) no-repeat center -50px;
 	    background-size: cover;
 	}	
 }
@@ -262,6 +262,12 @@
 
 // Reposition background images for mobile 479px
 @include media($mobile) {
+	.cs-beauty-of-brewing {
+		#intro-bg-img {
+			background-position: center -70px;
+		}
+	}
+
 	.cs-heinz {
 		#intro-bg-img {
 			background-position: center -40px;
