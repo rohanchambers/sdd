@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<style type="text/css">
+	body { font-family: Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold;}
+	table { border-collapse: collapse;}
+	table, th, td, tr  { border: 1px dotted #ccc;}
+	th { background: #f1f1f1;}
+	td, th { width: 42px; height: 19px; text-align:center; line-height: 19px;}
+	td:hover { background: #3065af;}
+	.hover { background-color: #eaeff7;}	
+</style>
+<script type="text/javascript">
+$(function() {
+    var $cols = $('colgroup');
+
+    $('td').live('mouseover', function(){
+        var i = $(this).prevAll('td, th').length;
+        $(this).parent().addClass('hover')
+        $($cols[i]).addClass('hover');
+    
+    }).live('mouseout', function(){
+        var i = $(this).prevAll('td, th').length;
+        $(this).parent().removeClass('hover');
+        $($cols[i]).removeClass('hover');
+    })
+    
+    $('table').mouseleave(function(){
+        $cols.removeClass('hover');
+    })
+});
+</script>
+</head>
+
+<body>
+
+<table width="695" cellspacing="0" cellpadding="0">
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+	<colgroup></colgroup>
+  <thead>
+	  <tr>
+	    <th>Feb</th>
+	    <th>Sat 19</th>
+	    <th>Sun 20</th>
+	    <th>Mon 21</th>
+	    <th>Tue 22</th>
+	    <th>Wed 23</th>
+	    <th>Sat 24</th>
+	    <th>Sat 25</th>
+	    <th>Sat 26</th>
+	    <th>Sat 27</th>
+	    <th>Sat 28</th>
+	  </tr>
+	</thead>
+  <tbody>
+	  <tr>
+	    <th>09:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="6" height="6" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	  </tr>
+	  <tr>
+	    <th>10:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>11:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>12:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>13:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>14:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>15:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>16:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+	  <tr>
+	    <th>17:00</th>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+	  </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

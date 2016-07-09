@@ -9,14 +9,19 @@ function fullscreen(){
 // Scroll to sections 
 function scrollToSections() {
     // Scroll to sections
-    $('.overlay ul li').find('a').click(function(e) {
+    $('.overlay ul li, .scroll-down').find('a').click(function(e) {
         
         var section = $(this).attr('href').split('#')[1];
         //console.log(section)
 
         $('html, body').animate({
-            scrollTop: $('.' + section).offset().top
+            scrollTop: $('.' + section).offset().top + 1 + 'px'
         }, 300);
+    });
+
+    // Back to the top button
+    $('#back-to-top').click( function(){
+        $('html, body').animate({ scrollTop: $('#home').offset().top}, 300);
     });
 
     // Add class of active on items for main and mini nav.
@@ -32,22 +37,16 @@ function hideNav() {
     $('body').toggleClass('show-nav');
     $('#nav-icon, .overlay').toggleClass('open');
     $('.overlay ul li').removeClass('active');
-    $(this).parent().addClass('active');    
+    $(this).parent().addClass('active');
 }
-
-// $(document).alton({
-//     firstClass : 'hero', // Set the first container class
-//     bodyContainer: 'section-what-we-do', // Set the body container
-//     scrollMode: 'headerScroll', // Set the scroll mode
-// });
 
 // Initialisation of particles
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
-  particleColor: '#FFF',
-  interactive: false,
-  speed: 'high',
-  density: 'high'
+    particleColor: '#FFF',
+    interactive: false,
+    speed: 'high',
+    density: 'high'
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
@@ -163,6 +162,15 @@ $(document).on('scroll',function(){
 
     } else {
         $('.page-home .hamburger, #nav-mini, #nav-mini a').removeClass('darkNav');
+    }
+
+    // Back to top show hide after home page
+    var homeSectionHeight = $('#home').height();
+
+    if( $(document).scrollTop() > homeSectionHeight) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
     }
 });
 

@@ -260,6 +260,21 @@
 	// }
 }
 
+// THEME Honda Prototype
+.cs-honda-prototype {
+	background-color: $red;
+
+	.col-skew {
+		background-color: $red;
+	}
+
+	#intro-bg-img {
+		background: $black url(/case-study/honda/img/banner.jpg) no-repeat center -50px;
+	    background-size: cover;
+	}
+}
+
+
 // Reposition background images for mobile 479px
 @include media($mobile) {
 	.cs-beauty-of-brewing {
@@ -291,4 +306,10 @@
 			background-position: -418px -50px;
 		}
 	}
+	
+	.cs-honda-prototype {
+		#intro-bg-img {
+			background-position: -55px -50px;
+		}
+	}	
 }

@@ -1,0 +1,177 @@
+body { font-family: Helvetica, Verdana, Arial; font-size: 12px; background: #dadada}
+h1 { padding: 0 0 25px 0; font-size: 18px; color: #666; clear: both;}
+h1 span { font-weight: normal;}
+h2 { padding: 0 0 25px 0; font-size: 18px; color: #666; clear: both;}
+h3 { font-size: 12px; font-weight: bold; color: #666; margin: 0 0 10px 0;}
+p { padding: 5px 0; line-height: 1.3;}
+.hr { background: #ccc; height: 1px; width: 80%; margin: 40px 0 15px 0; clear: both;}
+a { color: red;}
+a:hover { color: red; text-decoration: none;}
+#container { width: 100%; background: url(../../img/global/bg-gradient.gif) repeat-x; height: 1177px; }
+#header, #content, #page, #steps li { margin: 0 auto; width: 960px;}
+
+/* Slider to move through steps*/
+#content { overflow: hidden; position: relative; background-color: #FFF; padding: 15px 0 0 0;}
+#nav { margin-top: 30px; width: 960px; height: 39px;}
+#nav.step1 { background: url(../../img/global/step-heading-1.jpg);}
+#nav.step2 { background: url(../../img/global/step-heading-2.jpg);}
+#nav.step3 { background: url(../../img/global/step-heading-3.jpg);}
+#nav.step4 { background: url(../../img/global/step-heading-4.jpg);}
+#nav.step5 { background: url(../../img/global/step-heading-5.jpg);}
+ul#steps { position: relative; width: 4960px;}
+#steps li { float: left; width: 960px;}
+#nav div { float: left; height: 30px; margin-right: 12px; width: 180px; }
+#nav div.active { cursor: pointer; }
+
+/* Side panel Summary  */
+#car-summary { background: url(../../img/global/summary-box.jpg); position: absolute; z-index: 3; margin: 0 0 0 20px; width: 183px; height: 200px;}
+#car-summary #chosen-car a { display: block; margin-top: 10px; }
+#postcode-selector { margin: 10px 0 0 0; clear: both;}
+#chosen-car { position: absolute; z-index: 3; margin: 70px 0 0 10px;}
+#chosen-car #car-props { text-align: center; margin: -6px 0 10px 0; }
+#chosen-car span { font-size: 10px; color: #666; margin-right: 4px; text-transform: uppercase; font-weight: bold; }
+
+#chosen-dealer { background: url(../../img/dealers/summary-dealer-chiswick.jpg); position: absolute; z-index: 3; margin: 200px 0 0 0; width: 183px; height: 147px;}
+#chosen-dealer.chiswick { background: url(../../img/dealers/summary-dealer-chiswick.jpg);}
+#chosen-dealer.guildford { background: url(../../img/dealers/summary-dealer-guildford.jpg);}
+#chosen-dealer.newton { background: url(../../img/dealers/summary-dealer-newton.jpg);}
+#chosen-time { background: url(../../img/global/summary-time.jpg); position: absolute; z-index: 3; margin: 347px 0 0 0; width: 183px; height: 128px;}
+#chosen-time .display-selected-time { font-size: 14px; line-height: 1.3; margin: 45px 0 0 12px; width: 100px;}
+
+/* Buttons and section spacings */
+#dealers, #timetable-container, #map { clear: both;}
+#dealers  { margin-top: 30px;}
+#timetable-container { margin: 0;}
+#timetable-container p { float: left; width: 435px; margin: 15px 0 0 0;} 
+#map { margin: 50px 0;}
+a.btn-change-car { position: absolute; text-indent: -999px; background: url(../../img/btn/btn-change-car.jpg) no-repeat; width: 90px; height: 13px;}
+a.btn-change-dealer { position: absolute; margin: 115px 0 0 12px; text-indent: -999px; background: url(../../img/btn/btn-dealer-link.jpg) no-repeat; width: 102px; height: 10px;}
+a.btn-test-drive { display: block; margin: 30px 0 0 12px;}
+a.btn-change-time { position: absolute; margin: 20px 0 0 12px; text-indent: -999px; background: url(../../img/btn/btn-change-time.jpg) no-repeat; width: 95px; height: 16px;}
+a.btn-no-find-dealer { position: absolute; margin: -15px 0 0 0; text-indent: -999px; background: url(../../img/btn/btn-no-find-dealer.jpg) no-repeat; width: 265px; height: 9px;}
+a.btn-no-find-dealer { position: absolute; margin: -15px 0 0 0; text-indent: -999px; background: url(../../img/btn/btn-no-find-dealer.jpg) no-repeat; width: 265px; height: 9px;}
+a#btn-book-time { display: block; float: right; background: url(../../img/btn/btn-book.png) no-repeat 0 0; margin: 0 8px 5px 0; width: 133px; height: 19px; border:none;}
+a#btn-book-time:hover { display: block; background: url(../../img/btn/btn-book.png) no-repeat 0 -19px; margin: 0 8px 5px 0; width: 133px; height: 19px; border:none;}
+a#btn-no-find-dealer { display: block; float: right; background: url(../../img/btn/btn-dealer-other.png) no-repeat 0 0; margin: 0 8px 5px 0; width: 133px; height: 19px; border:none;}
+a#btn-no-find-dealer:hover { display: block; float: right; background: url(../../img/btn/btn-dealer-other.png) no-repeat 0 -19px; margin: 0 8px 5px 0; width: 133px; height: 19px; border:none;}
+#timetable-container a.btn-change-dealer { position: relative!important; margin: 0!important;}
+
+/* 1. Step | Choose a Car */
+#choose-a-car h1 { margin-left: 25px;}
+ul#cars { width: 875px; margin: 0 auto;}
+ul#cars li { display: inline; width: auto; margin: 0 15px 15px 0; height: 98px; min-height: 0; position: relative; text-align: center; width: 154px;  }
+ul#cars li a { outline: 0;}
+ul#cars li img { padding: 2px;  background: #FFF;}
+ul#cars li.inactive { opacity: 0.5; }
+ul#cars li.inactive:hover { opacity: 1;}
+ul#cars li.active { opacity: 1; }
+ul#cars li .holder { background: #fff; position: relative; float: left; padding-bottom: 5px;}
+ul#cars li.active .holder { -webkit-box-shadow: 0px 0px 10px #999; z-index: 2; }
+ul#cars li .refine-search { display: none; }
+ul#cars li.active .refine-search { display: block; }
+ul#cars li .refine-search img { display: block; }
+ul#cars li .refine { margin: 0 0 5px 12px;}
+ul#cars li .refine { background: url(../../img/btn/btn-preferences.png) no-repeat 0 0; width: 103px; height: 19px; cursor: pointer; border:none;}
+ul#cars li .refine:hover { background: url(../../img/btn/btn-preferences.png) no-repeat 0 -19px; width: 103px; height: 19px; cursor: pointer; border:none;}
+
+
+ul#cars li .choose-car {  margin: 0 0 5px 12px; float: left;}
+ul#cars li .choose-car { display: block; background: url(../../img/btn/btn-book-car.png) no-repeat 0 0; width: 103px; height: 19px; cursor: pointer; border:none;}
+ul#cars li .choose-car:hover { display: block; background: url(../../img/btn/btn-book-car.png) no-repeat 0 -19px; width: 103px; height: 19px; cursor: pointer; border:none;}
+ul#cars li .close { position: absolute; top: -20px; right: 4px; font-size: 11px; color: #666; font-weight: bold; cursor: pointer; }
+ul#cars li .close:hover { text-decoration: underline; }
+ul#cars li .car-options { font-size: 11px; color: #343434; margin: 0px 0 0px 10px; float: left;}
+ul#cars li .car-options div { float: left; border-top: 1px dotted #343434; padding: 8px 0; }
+ul#cars li .car-options div:first-child { border: 0 none; }
+ul#cars li label { float: left; width: 70px; text-align: left; }
+ul#cars li label:first-child { width: 58px; }
+ul#cars li input { float: right; width: auto; width: 10px; height: 10px; border: 0 none; padding: 0; margin: 0 8px 0 0; }
+ul#cars li p.preferences { text-align: left; margin-left: 12px; width: 130px; color: #333; font-size: 11px;}
+
+/* 2. Step | Choose a Dealers */
+.steps-content { float: right; padding-left: 35px; width: 720px; height: auto;}
+#postcode-selector h2 { margin: 0 0 0 0!important;}
+#postcode-selector label { display: none;}
+#postcode-selector input { float: left; margin: 0;}
+#postcode-selector button { background: url(../../img/btn/btn-search.png) no-repeat 0 0; margin: 1px 0 0 10px; width: 72px; height: 19px; border:none;}
+#postcode-selector button:hover { background: url(../../img/btn/btn-search.png) no-repeat 0 -19px; margin: 1px 0 0 10px; width: 72px; height: 19px; border:none;}
+
+#map_canvas { width: 695px; height: 520px;}
+ul#dealers-map-list { display: none;} 
+
+ul#select-dealers { height: 110px; margin-top: 20px;}
+ul#select-dealers li { display: inline; margin-right: 25px; width: 190px;}
+ul#select-dealers li img { clear: both;}
+ul#select-dealers li a { float: right;}
+ul#select-dealers li .btn-position { float: right; background: url(../../img/btn/btn-dealer.png) no-repeat 0 0; width: 123px; height: 18px; margin-right: 22px; border:none;}
+ul#select-dealers li .btn-position:hover { background: url(../../img/btn/btn-dealer.png) no-repeat 0 -19px; width: 123px; height: 18px; border:none;}
+
+span.display-selected-time { display: block; float: left; margin-left: 20px; font-size: 15px; color: #cc0000; font-weight: bold;}
+span.choose-time-slot { display: block; float: right; width: 220px; font-size: 14px; color: #333333;}
+span.chosen-title { display: block; clear: both; margin: 0 0 0 20px; font-size: 16px; color: #333333;}
+
+.booking-container .display-selected-time { float: left; margin: 0;}
+p.selected-date a { float: right;}
+input.error, input.error:hover  { background: #e5a29e; }
+p.error { color: #f00 }
+
+/* 3. Step | Choose Time */
+table { border-collapse: collapse; font-family: Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold;}
+table, th, td, tr  { border: 1px dotted #ccc;}
+th { background: #f1f1f1;}
+td, th { width: 42px; height: 19px; text-align:center; line-height: 19px;}
+table#timetable td img { padding-top: 8px;}
+td:hover.selected, .selected { background: #3065af;}
+td:hover, .hover { background-color: #eaeff7;}
+.display-selected-time b { color: #000;}
+.hidden { display: none; }
+.red-cross-bg { background: #F1F1F1;}
+#timetable thead th { background: #d1d1d1;}
+#timetable tr th { background: #e3e3e3;}
+
+table#key { margin-top: 20px; float: left;}
+table#key td { text-align: left; vertical-align: middle; padding: 3px 0 3px 5px;}
+table#key tr td { width: 215px; font-weight: normal;}
+table#key tr td:first-child { width: 32px;}
+table#key tr td:nth-child(2) { padding-left: 15px;}
+table#key td:hover { background-color: transparent;}
+table#key .hover { background-color: transparent;}
+
+/* 4. Step | Enter Details */
+.selected-time { margin: 40px 0 0 12px; width: 135px; height: 40px; font-size: 16px; line-height: 1.3; color: #666;}
+ul#form-style li.spacer { margin-bottom: 8px;}
+
+legend { display: none;}
+label { display: block; float: left; font-weight:bold; text-align: right; width: 140px; padding: 2px 5px 0 0; font-weight: normal; line-height: 1.3;}
+
+input.radio { width: auto;  font-weight: normal; line-height: 1.3;} 
+label.radio-label { width: auto!important; padding: 0 0 5px 7px;}
+label.error { width: 120px; display: block; float: left; color: red;  padding: 7px 5px 0 0;} 
+label.auto { width: auto!important;}
+
+input, select { float:left; background: #f6f6f6; font-size:12px; padding:2px 2px; border:solid 1px #ccc; width: 190px; margin:2px 0 10px 10px;}
+input:hover, input:focus { background: #FFF;}
+fieldset { border: none;}
+select { width: 195px; margin: 0 0 5px 10px;}
+button.submit-btn { background: url(../../img/btn/btn-submit.png) no-repeat 0 0; width: 65px; height: 19px; margin: 15px 0 15px 275px; border: none;}
+button.submit-btn:hover { background: url(../../img/btn/btn-submit.png) no-repeat 0 -19px; width: 65px; height: 19px; margin: 15px 0 15px 275px; border: none;}
+
+.required { color: red;}
+
+ul#preferences { margin: 10px 0 0 0;}
+ul#preferences label { display: block; float: left; font-weight:bold; text-align: left; width: 350px; padding-top: 2px; font-weight: normal; line-height: 1.3;}
+ul#preferences label.error { width: 130px; display: block; float: left; color: red; padding-left: 10px; } 
+
+/* 5. Step | Confirmation */
+.normal-content { width: 580px; height: 550px; float: left; padding-left: 25px; background: url(../../img/global/bg-confirmation-car.jpg) no-repeat bottom right;}
+.normal-content div { width: 370px;}
+.normal-content div h2 { width: 420px;}
+.booking-container { float: left; width: 300px; height: 315px; padding: 20px; background: #f9f9f9; border: 1px solid #cccccc;}
+.booking-container a { color: red;}
+.booking-container p { line-height: 1.3;}
+.date, .address, .dealer { display: block; line-height: 1.3;}
+.date, .dealer { font-size: 16px; padding-bottom: 10px;}
+.address { width: 85px;}
+#dealer-confirmed { display: block; clear: both; margin-top: 25px; width: 186px; height: 110px;}
+.hr-confirmation { background: #ccc; height: 1px; width: 80%; margin: 20px 0;}
+.large-font { font-size: 15px;}

@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Honda Book a Test Drive | User testing</title>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jQuery.Validate/1.6/jQuery.Validate.min.js"></script>
+<script type="text/javascript" src="assets/js/global.js"></script>
+<script type="text/javascript" src="assets/js/validation.js"></script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="assets/js/dealer-map.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="page">
+			<div id="header">
+				<img src="img/global/nav.jpg" alt="nav" width="960" height="75" />
+				<img src="img/global/header.png" alt="header" style="margin: 1px 0 0 0;" width="956" height="164" />
+				<div id="nav" class="step1">
+					<div id="step1"></div>
+					<div id="step2"></div>
+					<div id="step3"></div>
+					<div id="step4"></div>
+					<div id="step4"></div>
+				</div>
+			</div>
+			<!-- End of Header -->
+			<div id="content">						
+				<div id="car-summary">
+					<div id="chosen-car">
+						
+						<div id="car-props">
+							<span id="car-transmission"></span>
+							<span id="car-fuel"></span>
+							<span id="car-litre"></span>
+						</div>
+						<a class="btn-change-car" href="#">Change car</a>
+					</div>
+					
+					<div id="chosen-dealer">
+						<a class="btn-change-dealer" href="#">Change dealer</a>
+					</div>
+					
+					<div id="chosen-time">
+						<div class="display-selected-time"></div>
+						<a class="btn-change-time" href="#">Change time</a>
+					</div>
+				</div>
+				<!-- End of Summary -->
+				<ul id="steps">
+					<li id="choose-a-car">
+						<h1>Select the car you would like to drive <span>- our dealers will try their best to match you up</span></h1>
+						<ul id="cars">
+							<li>
+								<div class="holder">
+									<a href="#car1" id="accord-saloon"><img src="img/cars/accord-saloon.png" alt="accord-saloon" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-accord-saloon">Manual <input type="radio" name="transmission-accord-saloon" id="manual-accord-saloon" /></label>
+												<label for="automatic-accord-saloon">Automatic <input type="radio" name="transmission-accord-saloon" id="automatic-accord-saloon" /></label>
+											</div>
+											<div>
+												<label for="petrol-accord-saloon">Petrol <input type="radio" name="fuel-accord-saloon" id="petrol-accord-saloon" /></label>
+												<label for="diesel-accord-saloon">Diesel <input type="radio" name="fuel-accord-saloon" id="diesel-accord-saloon" /></label>
+											</div>
+											<div>
+												<label for="two-accord-saloon">2.0 litre <input type="radio" name="litre-accord-saloon" id="two-accord-saloon" /></label>
+												<label for="twotwo-accord-saloon">2.2 litre <input type="radio" name="litre-accord-saloon" id="twotwo-accord-saloon" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="accord-tourer"><img src="img/cars/accord-tourer.png" alt="accord-tourer" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-accord-tourer">Manual <input type="radio" name="transmission-accord-tourer" id="manual-accord-tourer" /></label>
+												<label for="automatic-accord-tourer">Automatic <input type="radio" name="transmission-accord-tourer" id="automatic-accord-tourer" /></label>
+											</div>
+											<div>
+												<label for="petrol-accord-tourer">Petrol <input type="radio" name="fuel-accord-tourer" id="petrol-accord-tourer" /></label>
+												<label for="diesel-accord-tourer">Diesel <input type="radio" name="fuel-accord-tourer" id="diesel-accord-tourer" /></label>
+											</div>
+											<div>
+												<label for="two-accord-tourer">2.0 litre <input type="radio" name="litre-accord-tourer" id="two-accord-tourer" /></label>
+												<label for="twotwo-accord-tourer">2.2 litre <input type="radio" name="litre-accord-tourer" id="twotwo-accord-tourer" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="civic-3-door"><img src="img/cars/civic-3-door.png" alt="civic-3-door" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-civic-3-door">Manual <input type="radio" name="transmission-civic-3-door" id="manual-civic-3-door" /></label>
+												<label for="automatic-civic-3-door">Automatic <input type="radio" name="transmission-civic-3-door" id="automatic-civic-3-door" /></label>
+											</div>
+											<div>
+												<label for="petrol-civic-3-door">Petrol <input type="radio" name="fuel-civic-3-door" id="petrol-civic-3-door" /></label>
+												<label for="diesel-civic-3-door">Diesel <input type="radio" name="fuel-civic-3-door" id="diesel-civic-3-door" /></label>
+											</div>
+											<div>
+												<label for="two-civic-3-door">2.0 litre <input type="radio" name="litre-civic-3-door" id="two-civic-3-door" /></label>
+												<label for="twotwo-civic-3-door">2.2 litre <input type="radio" name="litre-civic-3-door" id="twotwo-civic-3-door" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="civic-5-door"><img src="img/cars/civic-5-door.png" alt="civic-5-door" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-civic-5-door">Manual <input type="radio" name="transmission-civic-5-door" id="manual-civic-5-door" /></label>
+												<label for="automatic-civic-5-door">Automatic <input type="radio" name="transmission-civic-5-door" id="automatic-civic-5-door" /></label>
+											</div>
+											<div>
+												<label for="petrol-civic-5-door">Petrol <input type="radio" name="fuel-civic-5-door" id="petrol-civic-5-door" /></label>
+												<label for="diesel-civic-5-door">Diesel <input type="radio" name="fuel-civic-5-door" id="diesel-civic-5-door" /></label>
+											</div>
+											<div>
+												<label for="two-civic-5-door">2.0 litre <input type="radio" name="litre-civic-5-door" id="two-civic-5-door" /></label>
+												<label for="twotwo-civic-5-door">2.2 litre <input type="radio" name="litre-civic-5-door" id="twotwo-civic-5-door" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="civic-hybrid"><img src="img/cars/civic-hybrid.png" alt="civic-hybrid" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-civic-hybrid">Manual <input type="radio" name="transmission-civic-hybrid" id="manual-civic-hybrid" /></label>
+												<label for="automatic-civic-hybrid">Automatic <input type="radio" name="transmission-civic-hybrid" id="automatic-civic-hybrid" /></label>
+											</div>
+											<div>
+												<label for="petrol-civic-hybrid">Petrol <input type="radio" name="fuel-civic-hybrid" id="petrol-civic-hybrid" /></label>
+												<label for="diesel-civic-hybrid">Diesel <input type="radio" name="fuel-civic-hybrid" id="diesel-civic-hybrid" /></label>
+											</div>
+											<div>
+												<label for="two-civic-hybrid">2.0 litre <input type="radio" name="litre-civic-hybrid" id="two-civic-hybrid" /></label>
+												<label for="twotwo-civic-hybrid">2.2 litre <input type="radio" name="litre-civic-hybrid" id="twotwo-civic-hybrid" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="civic-type-R"><img src="img/cars/civic-type-R.png" alt="civic-type-R" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-civic-type-R">Manual <input type="radio" name="transmission-civic-type-R" id="manual-civic-type-R" /></label>
+												<label for="automatic-civic-type-R">Automatic <input type="radio" name="transmission-civic-type-R" id="automatic-civic-type-R" /></label>
+											</div>
+											<div>
+												<label for="petrol-civic-type-R">Petrol <input type="radio" name="fuel-civic-type-R" id="petrol-civic-type-R" /></label>
+												<label for="diesel-civic-type-R">Diesel <input type="radio" name="fuel-civic-type-R" id="diesel-civic-type-R" /></label>
+											</div>
+											<div>
+												<label for="two-civic-type-R">2.0 litre <input type="radio" name="litre-civic-type-R" id="two-civic-type-R" /></label>
+												<label for="twotwo-civic-type-R">2.2 litre <input type="radio" name="litre-civic-type-R" id="twotwo-civic-type-R" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="cr-V"><img src="img/cars/cr-V.png" alt="cr-V" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-cr-V">Manual <input type="radio" name="transmission-cr-V" id="manual-cr-V" /></label>
+												<label for="automatic-cr-V">Automatic <input type="radio" name="transmission-cr-V" id="automatic-cr-V" /></label>
+											</div>
+											<div>
+												<label for="petrol-cr-V">Petrol <input type="radio" name="fuel-cr-V" id="petrol-cr-V" /></label>
+												<label for="diesel-cr-V">Diesel <input type="radio" name="fuel-cr-V" id="diesel-cr-V" /></label>
+											</div>
+											<div>
+												<label for="two-cr-V">2.0 litre <input type="radio" name="litre-cr-V" id="two-cr-V" /></label>
+												<label for="twotwo-cr-V">2.2 litre <input type="radio" name="litre-cr-V" id="twotwo-cr-V" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="cr-Z"><img src="img/cars/cr-Z.png" alt="cr-Z" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-cr-Z">Manual <input type="radio" name="transmission-cr-Z" id="manual-cr-Z" /></label>
+												<label for="automatic-cr-Z">Automatic <input type="radio" name="transmission-cr-Z" id="automatic-cr-Z" /></label>
+											</div>
+											<div>
+												<label for="petrol-cr-Z">Petrol <input type="radio" name="fuel-cr-Z" id="petrol-cr-Z" /></label>
+												<label for="diesel-cr-Z">Diesel <input type="radio" name="fuel-cr-Z" id="diesel-cr-Z" /></label>
+											</div>
+											<div>
+												<label for="two-cr-Z">2.0 litre <input type="radio" name="litre-cr-Z" id="two-cr-Z" /></label>
+												<label for="twotwo-cr-Z">2.2 litre <input type="radio" name="litre-cr-Z" id="twotwo-cr-Z" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="insight"><img src="img/cars/insight.png" alt="insight" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-insight">Manual <input type="radio" name="transmission-insight" id="manual-insight" /></label>
+												<label for="automatic-insight">Automatic <input type="radio" name="transmission-insight" id="automatic-insight" /></label>
+											</div>
+											<div>
+												<label for="petrol-insight">Petrol <input type="radio" name="fuel-insight" id="petrol-insight" /></label>
+												<label for="diesel-insight">Diesel <input type="radio" name="fuel-insight" id="diesel-insight" /></label>
+											</div>
+											<div>
+												<label for="two-insight">2.0 litre <input type="radio" name="litre-insight" id="two-insight" /></label>
+												<label for="twotwo-insight">2.2 litre <input type="radio" name="litre-insight" id="twotwo-insight" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="holder">
+									<a href="#car1" id="jazz"><img src="img/cars/jazz.png" alt="jazz" width="150" height="90" /></a>
+									<div class="refine-search">
+										<p class="close">Close x</p>
+										<p class="preferences">Do you have any specific requirements for your test drive? If not just book this car</p>										
+										<div class="refine"></div>
+										<div class="car-options">
+											<div>
+												<label for="manual-jazz">Manual <input type="radio" name="transmission-jazz" id="manual-jazz" /></label>
+												<label for="automatic-jazz">Automatic <input type="radio" name="transmission-jazz" id="automatic-jazz" /></label>
+											</div>
+											<div>
+												<label for="petrol-jazz">Petrol <input type="radio" name="fuel-jazz" id="petrol-jazz" /></label>
+												<label for="diesel-jazz">Diesel <input type="radio" name="fuel-jazz" id="diesel-jazz" /></label>
+											</div>
+											<div>
+												<label for="two-jazz">2.0 litre <input type="radio" name="litre-jazz" id="two-jazz" /></label>
+												<label for="twotwo-jazz">2.2 litre <input type="radio" name="litre-jazz" id="twotwo-jazz" /></label>
+											</div>
+										</div>
+										<div class="choose-car"></div>
+									</div>
+								</div>
+							</li>						
+						</ul>
+					</li>
+										
+					
+					<li id="choose-a-dealer">
+						<div class="steps-content">
+							<div id="postcode-selector">
+								<h2>Enter your postcode or town to find your nearest dealer</h2>
+								<form action="#" id="postcodeform">
+									<label>Search</label>
+									<input type="text" name="name" id="postcode" />
+									<button class="submit-btn" type="submit"></button>
+									<p class="error hidden" id="postcode-error">Please enter a postcode</p>
+								</form>
+							</div>		
+							<div class="hr"></div>												
+							<div id="dealers">
+								<h2>Select the dealer where you would like to take your test drive</h2>	
+ 								<ul id="select-dealers">
+									<li>
+										<a href="#" id="chiswick"><img src="img/dealers/dealer-chiswick.png" alt="dealer-chiswick" width="165" height="109" />
+										<div class="btn-position"></div></a>
+									</li>
+									<li>
+										<a href="#" id="guildford"><img src="img/dealers/dealer-guildford.png" alt="dealer-chiswick" width="165" height="109" />
+										<div class="btn-position"></div></a>
+									</li>
+									<li>
+										<a href="#" id="newton"><img src="img/dealers/dealer-newton.png" alt="dealer-newton" width="165" height="109" />
+										<div class="btn-position"></div></a>
+									</li>
+								</ul>
+							</div>									
+							<div id="map">
+								<div id="map_canvas"></div>
+							</div>
+							<ul id="dealers-map-list">
+								<li>
+									<a href="#">Chiswick Honda</a>
+									<address>
+										<span class="postcode">W4 5YT</span>
+									</address>
+								</li>
+								<li>
+									<a href="#">Honda Guildford</a>
+									<address>
+										<span class="postcode">GU3 3LD</span>
+									</address>
+								</li>
+								<li>
+									<a href="#">Newton Honda</a>
+									<address>
+										<span class="postcode">CR2 6ES</span>
+									</address>
+								</li>								
+							</ul>
+						</div>
+					</li>
+
+					
+					
+					<li id="choose-a-time">
+						<div class="steps-content">
+							<h2>Choose a time for your test drive</h2>
+							<script type="text/javascript">
+								$(function() {
+								    var $cols = $('colgroup');
+
+								    $('td').live('mouseover', function(){
+								        var i = $(this).prevAll('td, th').length;
+								        $(this).parent().addClass('hover')
+								        $($cols[i]).addClass('hover');
+								    
+								    }).live('mouseout', function(){
+								        var i = $(this).prevAll('td, th').length;
+								        $(this).parent().removeClass('hover');
+								        $($cols[i]).removeClass('hover');
+								    });
+								    
+								    $('table').mouseleave(function(){
+								        $cols.removeClass('hover');
+								    });
+								    var cells = $("tbody td");
+									var choose_time_slot = $('.choose-time-slot');									    
+								    cells.click(function(e) {
+								    	var cell = $(this);
+								    	if (cell.children(':eq(0)').attr('src') == 'img/table/tick.png') {
+									    	cells.removeClass('selected');
+									    	cell.addClass('selected');
+									    	
+									    	var book_time = $('#btn-book-time');
+									    	var row = cell.parent();
+									    	var thead_row = row.parents('table').find('.head')
+									    	var time = row.children().eq(0).text();
+											var month = thead_row.children().eq(0).text();
+											var date =  thead_row
+															.children()
+															.eq(cell.index())
+															.text();
+											var date_string = date + ' ' + month + ' ' + time;
+											$('.display-selected-time').fadeOut('100', function() {
+												$(this).text(date_string).fadeIn('100');
+												book_time.fadeIn
+												();
+												choose_time_slot.hide();
+												$('.chosen-title').show();
+												$('#btn-no-find-dealer').hide()
+											});
+										} else {
+										
+										}
+								    });
+								});
+							</script>
+							<div id="timetable-container">
+								<table id="timetable" width="695" cellspacing="0" cellpadding="0">
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+									<colgroup></colgroup>
+								  <thead>
+									  <tr class="head">
+									    <th style="background: #424242; color: #fff; ">Feb<span class="hidden">ruary</span></th>
+									    <th>Tue<span class="hidden">sday</span> 15</th>
+									    <th>Wed<span class="hidden">nesday</span> 16</th>
+									    <th>Thu<span class="hidden">rsday</span> 17</th>
+									    <th>Fri<span class="hidden">day</span> 18</th>
+									    <th>Sat<span class="hidden">urday</span> 19</th>
+									    <th>Sun<span class="hidden">day</span> 20</th>
+									    <th>Mon<span class="hidden">day</span> 21</th>
+									    <th>Tue<span class="hidden">sday</span> 22</th>
+									    <th>Wed<span class="hidden">nesday</span> 23</th>
+									    <th>Thur<span class="hidden">sday</span> 24</th>
+									  </tr>
+								  </thead>
+								  <tbody>
+									  <tr>
+									    <th>09:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									  </tr>
+									  <tr>
+									    <th>10:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>11:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>12:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>13:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									  </tr>
+									  <tr>
+									    <th>14:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>15:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>16:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+									  <tr>
+									    <th>17:00</th>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td class="red-cross-bg"><img src="img/table/cross-red.png" alt="cross" width="6" height="6" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/cross.png" alt="cross" width="7" height="5" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									    <td><img src="img/table/tick.png" alt="cross" width="8" height="7" /></td>
+									  </tr>
+								  </tbody>
+								</table>
+								
+								<!-- Table key -->
+								<table id="key" cellspacing="0" cellpadding="0">
+								  <tr>
+								    <td><img src="img/table/key-tick.jpg" alt="" /></td>
+								    <td>Available</td>
+								  </tr>
+								  <tr>
+								    <td><img src="img/table/key-selected.jpg" alt="" width="27" height="17" /></td>
+								    <td>Selected</td>
+								  </tr>
+								  <tr>
+								    <td><img src="img/table/key-grey-cross.jpg" alt="" width="27" height="17" /></td>
+								    <td>Sorry already taken</td>
+								  </tr>
+								  <tr>
+								    <td><img src="img/table/key-red-cross.jpg" alt="" width="27" height="17" /></td>
+								    <td>Want a test drive today or tomorrow? <br /><a href="#"><img src="img/btn/btn-contact.png" class="btn_contact" /></a></td>
+								  </tr>
+								</table>
+								<p>
+									<a href="#" id="btn-no-find-dealer" class="btn-change-dealer"></a>
+									<span class="choose-time-slot">Cant see the slot your looking for</span>									
+									
+									<span class="chosen-title">You have chosen</span>
+									<a href="#" id="btn-book-time"></a>
+									<span class="display-selected-time"></span>
+								</p>	
+							</div>
+						</div>
+					</li>					
+					
+					
+					<li id="enter-your-details">
+						<div class="steps-content">
+							<h2>Please enter your details to complete your booking</h2>							
+							<div id="form">
+								<form id="form1" method="post" action="">
+									<fieldset>
+									<legend>Please enter your details to complete your booking</legend>
+									<ul id="form-style">
+										<li class="spacer"><span class="required">*</span> Required field</li>
+										<li>
+										<label>Title <span class="required">*</span></label>
+										<select name="title" id="title">
+											<option value="">Please select a title...</option>
+											<option value="mr">Mr.</option>
+											<option value="mrs">Mrs.</option>
+											<option value="miss">Miss</option>
+											<option value="sir">Sir.</option>
+										</select>
+										</li>	
+										<li>
+											<label>First name <span class="required">*</span></label>
+											<input type="text" name="first_name" id="first-name" />
+										</li>
+										<li>
+											<label>Last name <span class="required">*</span></label>
+											<input type="text" name="last_name" id="last-name" />
+										</li>
+										<li>
+											<label>House name/number <span class="required">*</span></label>
+											<input type="text" name="house_name" id="house-name" />
+										</li>
+										<li>
+											<label>Postcode <span class="required">*</span></label>
+											<input type="text" name="postcode" id="postcode" />
+										</li>
+										<li>
+											<label>Address <span class="required">*</span></label>
+											<input type="text" name="address" id="address" />
+										</li>
+										<li>
+											<label>&nbsp;</label>
+											<input type="text" />
+										</li>
+										<li>
+											<label>&nbsp;</label>
+											<input type="text" />
+										</li>
+										<li>
+											<label>&nbsp;</label>
+											<input type="text" />
+										</li>
+										<li>
+											<label>&nbsp;</label>
+											<input type="text" />
+										</li>
+										<li>
+											<label>Town <span class="required">*</span></label>
+											<input type="text" name="town" id="town" />
+										</li>
+									
+										<li><h3>My contact preferences</h3></li>
+									
+										<li class="spacer">
+											<label>What is your preferred method of Contact: <span class="required">*</span></label>
+											<select name="contact" id="contact">
+												<option value="">Please select an option</option>
+												<option value="telephone">telephone</option>											
+												<option value="mobile">Mobile</option>
+												<option value="email">Email</option>
+												<option value="post">Post</option>
+											</select>
+										</li>
+										<li class="spacer">
+											<label>Preferred telephone number: <span class="required">*</span></label>
+											<input type="text" name="telephone" id="telephone" />
+										</li>
+										<li class="spacer">
+											<label>Is this number:</label>
+											<label class="radio-label">Day</label><input class="radio" type="radio" name="type_of_number" value="day" />
+											<label class="radio-label">Evening</label><input class="radio" type="radio" name="type_of_number" value="evening" />
+											<label class="radio-label">Mobile</label><input class="radio" type="radio" name="type_of_number" value="mobile" />
+										</li>
+										<li class="spacer">
+											<label>Email address: <span class="required">*</span></label>
+											<input type="text" name="email" id="email" />
+										</li>
+									</ul>
+									
+									<ul id="preferences">
+										<li>
+											<label class="auto">Please tick this box if you are happy to be contacted by email:</label>
+											<input class="radio" type="checkbox" name="contact_by_email" value="" />
+										</li>
+										<li>
+											<label style="font-size: 11px;">Honda's privacy commitment to you: Thank you for taking the time to fill out this form. This helps us to serve you better
+											and provide you with information that we believe is relevant to you. We value the trust you place in us by giving us details 
+											about yourself and feel strongly about protecting you privacy. From time to time Honda, its associated companies, authorised dealers 
+											or third parties working on behalf of Honda may wish to contact you regarding our products, services, offers, technical development or 
+											your opinions which may be used for marketing, research or analysis purposes.</label>
+										</li>
+										<li>
+											<label style="font-size: 11px;">If you DO NOT wish to be contacted by either of the following methods please tick the relevant box:</label>
+											<p style="clear: both; ">
+											<label class="radio-label" style="font-size: 11px;">Post</label>
+											<input class="radio" type="checkbox" name="no_contact" value="post" />
+											<label class="radio-label" style="font-size: 11px;">Telephone</label>
+											<input class="radio" type="checkbox" name="no_contact" value="telephone" />
+											</p>
+										</li>
+										<li>
+											<label style="font-size: 11px;">If you wish to update your details or see our privacy policy in full, please visit <a href="http://www.honda.co.uk/">www.honda.co.uk</a> or call our Contact Centre on 0845 200 8000</label>
+										</li>
+										<li><button type="submit" value="submit" class="submit-btn"></button></li>
+									</ul>
+									</fieldset>
+									<div class="spacer"></div>
+								</form>
+							</div>
+						</div>
+					</li>
+
+
+					<li id="confirmation">
+						<div class="normal-content">
+							<div>
+								<h2>Your booking is confirmed</h2>
+								<p>An email with all the details you see here has also been sent to: <span id="users-email"></span></p>
+								<p>Don’t worry if you need to reschedule your booking at any time – simply call your chosen dealer and they will be happy to make a new booking for you.</p>
+								<div class="hr-confirmation"></div>
+								<h2>Is this your first Honda test drive?</h2>
+								<p>If you have any questions you may like to...</p>
+								<p><a href="#"><img src="img/btn/btn-short-film.jpg" alt="btn-view-map" width="144" height="10" /></a></p>
+								<p></p><a href="#"><img src="img/btn/btn-faqs.jpg" alt="btn-view-map" width="75" height="10" /></a></p>
+							</div>
+						</div>
+						<div class="booking-container">
+							<h2>Your booking</h2>
+							<p class="large-font">We look forward to seeing you on:</p>
+							<span class="display-selected-time">Thursday 10th Feb - 10:00am</span>
+							<div id="dealer-confirmed"></div>
+							<p><a href="#">www.chiswickhonda.co.uk</a><br />
+							<a href="mailto:info@chiswickhonda.co.uk">info@chiswickhonda.co.uk</a></p>
+							<p><a href="#" class="btn-view-map"><img src="img/btn/btn-view-map.jpg" alt="btn-view-map" width="133" height="9" /></a></p>
+							<p><a href="#"><img src="img/btn/btn-print.png" alt="btn-view-map" width="158" height="18" style="margin-top: 20px;" /></a></p>
+						</div>					
+					</li>
+				</ul>
+				<!-- End of Steps -->
+			</div>
+			<!-- End of Content -->
+			<div id="footer"></div>
+		</div>
+		<!-- End of page -->
+	</div>
+	<!-- End of container -->
+</body>
+</html>

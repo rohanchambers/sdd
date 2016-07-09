@@ -55,6 +55,51 @@
 	}
 }
 
+#back-to-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	height: 33px;
+	width: 40px;
+	background: $white url(../img/global/iconArrowUpDark.png) center center no-repeat;
+	border: none;
+	outline: 0;
+	opacity: 0.6;
+	display: none;	
+}
+
+	#back-to-top:hover {
+		opacity: 1;
+		@include hover-links();
+	}
+
+// Section Scroll Down
+#what-we-do-outer,
+#work, 
+#clients {
+	.scroll-down {
+		position: relative;
+		z-index: 2000;
+		float: none;
+
+		a {
+			margin: 50px auto 0 auto;
+			display: block;
+			width: 25px;
+			height: 25px;
+			background: url(../img/global/iconArrowDown.png);
+			opacity: 0.6;
+			@include hide-text;
+			@include hover-links();
+		}
+
+		a:hover {
+			opacity: 1;
+		}	
+	}
+}
+
 // HOME SECTION
 #bg-home {
 	position: relative;
@@ -113,7 +158,7 @@
     }
 
 	#slogan {
-		width: 55%;//700px;
+		width: 55%;
 		position: absolute;
 		top: 55%;
 		left: 50%;
@@ -226,13 +271,13 @@
 
 // WHAT WE DO SECTION
 #what-we-do-outer {
-	overflow: hidden;
-	height: auto;
 	@include particles;
 }
 
 #what-we-do {
+	overflow: hidden;
 	position: relative;
+	height: 1000px;
 	background-color: $yellow;
     @include clearfix;
 
@@ -256,7 +301,7 @@
 	}
 
 	.col-skew {
-		padding: 2% 4%;//25px 30px 25px 65px;
+		padding: 2% 4%;
 		background-color: $yellow;
 	}
 
@@ -266,7 +311,7 @@
 	    z-index:1;
 	    top:0;
 	    bottom:0;
-	    left:22%;
+	    left:25%;
 	    width:30%;
 	    background: $yellow;
 	    -webkit-transform:skewX(-8deg);
@@ -718,7 +763,7 @@
 #quick-message {
 	position: relative;
 	padding: 25px 0;
-	// background: url(../img/global/smoke.jpg) center center;	
+	background: url(../img/global/bg-worldmap.png) center center;	
 	// background-size: cover;
 	background-color: #054B79;
 
@@ -905,7 +950,7 @@ footer {
 			#border-blue {
 				position: absolute;
 				right: 0;
-				bottom: 14px;
+				bottom: 16px;
 				height: 80px;
 				border-right: 10px solid $blue;
 			}

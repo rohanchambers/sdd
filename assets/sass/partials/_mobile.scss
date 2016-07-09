@@ -23,13 +23,14 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	}
 }
 
-// DESKTOP | Max 1024px
-@include media($large-desktop) {
-	#what-we-do-outer {
-		overflow: hidden;		
-		height: 1000px;
-	}
-}
+// DESKTOP | Min 1025px
+// @include media($large-desktop) {
+// 	#what-we-do-outer {
+// 		overflow: hidden;
+// 		height: 1000px;
+// 		background: red;
+// 	}
+// }
 
 // DESKTOP | Max 1024px
 @include media($desktop) {

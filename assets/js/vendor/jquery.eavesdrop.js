@@ -29,7 +29,7 @@
 		
 		destroy: function(){
 			this.unbindEvents();
-      this.$element.removeData();
+      		this.$element.removeData();
 		},
 		
 		buildCache: function(){
@@ -71,9 +71,12 @@
 		},
 
 		clickParams: function(data){
+			// Rohan edit to add 1px down otherwise navs were not registering.
+			// Var not working so hard coded it.
+			var addOnePx = 1 + 'px';
 			var router = data.currentTarget.hash.split('#')[1];
 			var target = this.selector + '[data-connect="'+ router +'"]';
-			var targetOffset = $(target).offset().top;
+			var targetOffset = $(target).offset().top + 1 + 'px';
 			this.$body.trigger(router[1] + '-inView');
 			this.$body.animate({ scrollTop: (targetOffset) });
 		},
