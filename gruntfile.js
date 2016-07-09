@@ -38,7 +38,9 @@ module.exports = function(grunt){
 					separator: '\n;',
 				},
 				src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/**/*.js', 'assets/js/main.js'],
-				dest: 'assets/js/compiled.js'
+				dest: 'assets/js/compiled.js',
+				src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/modernizr-custom.js', 'assets/js/vendor/nav-overlay.js', 'assets/js/vendor/classie.js', 'assets/js/vendor/css3-animate-it.min.js', 'assets/js/vendor/jquery.fittext.js', 'assets/js/vendor/constellations.js', 'assets/js/main-pages.js'],
+				dest: 'assets/js/cs-compiled.js',
 			}
 		},
 
@@ -58,6 +60,7 @@ module.exports = function(grunt){
             all: {
                 files: {
                     'assets/js/compiled.min.js': 'assets/js/compiled.js',
+                    'assets/js/cs-compiled.min.js': 'assets/js/cs-compiled.js',
                 }
             }
         },
@@ -103,20 +106,47 @@ module.exports = function(grunt){
 		targethtml: {
 		  dist: {
 		    files: {
-		      'index.php': 'index-dev.php'
+		      'index.php': 'index-dev.php',
+
 		    }
 		  }
 		},
 
 		htmlmin: {                                     	 // Task
 			dist: {                                      // Target
-			  options: {                                 // Target options
+			  options: {                             // Target options
+		        removeComments: true,
+		        collapseWhitespace: true
 			  },
 			  files: {                           // Dictionary of files
 			    'index.php': 'index-dev.php'     // 'destination': 'source'
 			  }
 			}
-		}			
+		},
+		
+		imagemin: {
+		   home: {
+		      options: {
+		        optimizationLevel: 5
+		      },
+
+		      files: [{
+		         expand: true,
+		         cwd: 'assets/img-uncompressed',
+		         src: ['**/*.{png,jpg,gif}'],
+		         dest: 'assets/img'
+		      }]
+		   },
+
+		   cs: {
+		      files: [{
+		         expand: true,
+		         cwd: 'case-study/**/img',
+		         src: ['**/*.{png,jpg,gif}'],
+		         dest: 'case-study/**/dist'
+		      }]
+		   }
+		}
 
 	});
 
@@ -129,7 +159,12 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-targethtml');
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'targethtml', 'watch']);
+	// Minify images
+	grunt.registerTask('minifyImg', ['imagemin']);
+
+
 
 };

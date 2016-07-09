@@ -37,7 +37,4 @@
                         <li><a href="#"><img src="assets/img/what-we-do/pringles.jpg" alt="Pringle Help the Oversharers" width="290" height="165"><div class="pe-description"><h2>Pringle </h2><p>Help the Oversharers</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/tiger.jpg" alt="Tiger Beer Zodia Pairs" width="290" height="165"><div class="pe-description"><h2>Tiger Beer</h2><p>Zodia Pairs</p></div></a></li>
                         <li><a href="#"><img src="assets/img/what-we-do/jaguar_cricket.jpg" alt="Jaguar Cricket India" width="290" height="165"><div class="pe-description"><h2>Jaguar </h2><p>Cricket India</p></div></a></li>
-                        <!-- <li><a href="#"><img src="assets/img/what-we-do/jaguar_map.jpg" alt="F-TYPE Sketch" width="290" height="165"><div class="pe-description"><h2>Jaguar UK</h2><p>F-TYPE Sketch</p></div></a></li>                         -->
-<!--                         <li><a href="#"><img src="assets/img/what-we-do/rohan.jpg" alt="Rohan" width="290" height="165"><div class="pe-description"><h2>Rohan</h2><p>CEO and founder of Slam Dunk Digital</p></div></a></li>
-                        <li><a href="#"><img src="assets/img/what-we-do/phoneResq.jpg" alt="Phone Resq." /><div class="pe-description"><h2>PhoneResQ.</h2><p>Since time, and his predestinated end</p></div></a></li> -->
                   </ul>

@@ -258,8 +258,7 @@ footer {
 #work,
 #clients,
 #contact {
-  margin-top: 100px;
-  overflow: hidden; }
+  margin-top: 100px; }
   #services::after,
   #work::after,
   #clients::after,
@@ -267,6 +266,9 @@ footer {
     clear: both;
     content: "";
     display: table; }
+
+#what-we-do-outer {
+  position: relative; }
 
 #what-we-do .col,
 #case-study .col {
@@ -299,17 +301,23 @@ footer {
   .col-no-skew .pe-thumbs li:last-child {
     margin-right: 0; }
 
-#work .row .view {
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 33.33333%;
-  border: 1px solid #FFF; }
-  #work .row .view:last-child {
-    margin-right: 0; }
+#work .row {
+  display: block; }
+  #work .row::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #work .row .view {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 33.33333%;
+    border: 1px solid #FFF; }
+    #work .row .view:last-child {
+      margin-right: 0; }
 
 #clients {
-  min-height: 800px; }
+  min-height: 1000px; }
   #clients .row {
     display: block; }
     #clients .row::after {
@@ -764,6 +772,14 @@ footer {
     background: #000 url(/case-study/tesco/img/banner.jpg) no-repeat center -100px;
     background-size: cover; }
 
+.cs-honda-prototype {
+  background-color: #fd070d; }
+  .cs-honda-prototype .col-skew {
+    background-color: #fd070d; }
+  .cs-honda-prototype #intro-bg-img {
+    background: #000 url(/case-study/honda/img/banner.jpg) no-repeat center -50px;
+    background-size: cover; }
+
 @media screen and (max-width: 479px) {
   .cs-beauty-of-brewing #intro-bg-img {
     background-position: center -70px; }
@@ -778,7 +794,10 @@ footer {
     background-position: -50px center; }
 
   .cs-bulmers-begin #intro-bg-img {
-    background-position: -418px -50px; } }
+    background-position: -418px -50px; }
+
+  .cs-honda-prototype #intro-bg-img {
+    background-position: -55px -50px; } }
 /*animations*/
 /******************
 * Bounce in right *
@@ -3146,6 +3165,53 @@ ul.bxslider {
 #nav-mini.darkNav li a {
   background-color: #000; }
 
+#back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  height: 33px;
+  width: 40px;
+  background: #FFF url(../img/global/iconArrowUpDark.png) center center no-repeat;
+  border: none;
+  outline: 0;
+  opacity: 0.6;
+  display: none; }
+
+#back-to-top:hover {
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-border-radius: all 300ms ease;
+  transition: all 300ms ease; }
+
+#what-we-do-outer .scroll-down,
+#work .scroll-down,
+#clients .scroll-down {
+  position: relative;
+  z-index: 2000;
+  float: none; }
+  #what-we-do-outer .scroll-down a,
+  #work .scroll-down a,
+  #clients .scroll-down a {
+    margin: 50px auto 0 auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/global/iconArrowDown.png);
+    opacity: 0.6;
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-border-radius: all 300ms ease;
+    transition: all 300ms ease; }
+  #what-we-do-outer .scroll-down a:hover,
+  #work .scroll-down a:hover,
+  #clients .scroll-down a:hover {
+    opacity: 1; }
+
 #bg-home {
   position: relative;
   background-color: #000; }
@@ -3287,23 +3353,22 @@ ul.bxslider {
     transform: translate(-50%, -50%);
     z-index: -1; }
 
-#what-we-do-outer {
-  overflow: hidden;
-  height: auto; }
-  #what-we-do-outer #particle-canvas {
-    position: absolute !important;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%; }
-    #what-we-do-outer #particle-canvas div {
-      background: transparent !important; }
-    #what-we-do-outer #particle-canvas canvas {
-      width: 100%; }
+#what-we-do-outer #particle-canvas {
+  position: absolute !important;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%; }
+  #what-we-do-outer #particle-canvas div {
+    background: transparent !important; }
+  #what-we-do-outer #particle-canvas canvas {
+    width: 100%; }
 
 #what-we-do {
+  overflow: hidden;
   position: relative;
+  height: 1000px;
   background-color: #ffc036; }
   #what-we-do::after {
     clear: both;
@@ -3329,7 +3394,7 @@ ul.bxslider {
     z-index: 1;
     top: 0;
     bottom: 0;
-    left: 22%;
+    left: 25%;
     width: 30%;
     background: #ffc036;
     -webkit-transform: skewX(-8deg);
@@ -3670,6 +3735,7 @@ ul.bxslider {
 #quick-message {
   position: relative;
   padding: 25px 0;
+  background: url(../img/global/bg-worldmap.png) center center;
   background-color: #054B79; }
   #quick-message #contact-form {
     position: relative;
@@ -3805,7 +3871,7 @@ footer {
     footer #copyright-info #border-blue {
       position: absolute;
       right: 0;
-      bottom: 14px;
+      bottom: 16px;
       height: 80px;
       border-right: 10px solid #0074c0; }
     footer #copyright-info ul {
@@ -3858,10 +3924,6 @@ footer {
     right: auto; }
   #work h1:after {
     left: 25px; } }
-@media screen and (min-width: 1025px) {
-  #what-we-do-outer {
-    overflow: hidden;
-    height: 1000px; } }
 @media screen and (max-width: 1024px) {
   #home h1 {
     width: auto; }

@@ -13,6 +13,7 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-htmlmin": "^1.4.0",
+    "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-sass": "*",
     "grunt-contrib-watch": "^1.0.0",

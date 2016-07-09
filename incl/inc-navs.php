@@ -3,7 +3,6 @@
             <ul>
                 <li><a href="#section-home" class="black tooltip animate right" data-tool="Home">&nbsp;</a></li>
                 <li><a href="#section-what-we-do" class="yellow tooltip animate right" data-tool="What we do">&nbsp;</a></li>
-                <!-- <li class="services"><a href="#section-services" class="yellow tooltip animate right" data-tool="Services">&nbsp;</a></li> -->
                 <li><a href="#section-work" class="red tooltip animate right" data-tool="Our work">&nbsp;</a></li>
                 <li><a href="#section-clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
                 <li><a href="#section-contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
@@ -18,6 +17,8 @@
               <span></span>
             </span>
         </button>
+        
+        <button id="back-to-top"></button>
         
         <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
