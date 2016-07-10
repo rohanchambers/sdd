@@ -308,7 +308,7 @@
         <script src="assets/js/vendor/proximity-trigger.js"></script>
         <script src="assets/js/vendor/css3-animate-it.min.js"></script>
         <script src="assets/js/vendor/jquery.fittext.js"></script>
-        <script src="assets/js/misc/constellations.js"></script>
+        <script src="assets/js/vendor/constellations.js"></script>
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->
         <!--(if target dist)>

@@ -7,16 +7,18 @@
               <span></span>
             </span>
         </button>
-        
+
+        <button id="back-to-top"></button>
+                
         <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
-            <img src="../../assets/img/video/space.jpg" alt="Space">
-            <div id="bg-video">
+            <img src="../../assets/video/space.jpg" alt="Space">
+            <div id="space-video">
                 <video loop muted autoplay>
-                    <source src="../../assets/img/video/space.webm" type="video/webm">
-                    <source src="../../assets/img/video/space.mp4" type="video/mp4">
-                    <source src="../../assets/img/video/space.ogv" type="video/ogg">
+                    <source src="../../assets/video/space.webm" type="video/webm">
+                    <source src="../../assets/video/space.mp4" type="video/mp4">
+                    <source src="../../assets/video/space.ogv" type="video/ogg">
                 </video>
             </div>            
             <header>

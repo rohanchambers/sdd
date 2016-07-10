@@ -33,14 +33,19 @@ module.exports = function(grunt){
 				src: ['bower_components/normalize-css/normalize.css', 'assets/css/styles.css'],
 				dest: 'assets/css/compiled.css'
 			},
-			js: {
+			jsHome: {
 				options: {
 					separator: '\n;',
 				},
 				src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/**/*.js', 'assets/js/main.js'],
-				dest: 'assets/js/compiled.js',
+				dest: 'assets/js/compiled.js'
+			},
+			jsCS: {
+				options: {
+					separator: '\n;',
+				},
 				src: ['bower_components/jquery/dist/jquery.min.js', 'assets/js/vendor/modernizr-custom.js', 'assets/js/vendor/nav-overlay.js', 'assets/js/vendor/classie.js', 'assets/js/vendor/css3-animate-it.min.js', 'assets/js/vendor/jquery.fittext.js', 'assets/js/vendor/constellations.js', 'assets/js/main-pages.js'],
-				dest: 'assets/js/cs-compiled.js',
+				dest: 'assets/js/cs-compiled.js'
 			}
 		},
 
@@ -164,7 +169,5 @@ module.exports = function(grunt){
 	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'targethtml', 'watch']);
 	// Minify images
 	grunt.registerTask('minifyImg', ['imagemin']);
-
-
 
 };

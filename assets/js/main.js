@@ -59,7 +59,7 @@ $(function(){
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
-        $('#bg-video').remove();
+        $('#space-video').remove();
     }
 
     // Fit text plugin

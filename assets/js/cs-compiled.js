@@ -183,6 +183,11 @@ $(function(){
         hideNav();
     });
 
+    // Back to the top button
+    $('#back-to-top').click( function(){
+        $('html, body').animate({ scrollTop: $('body').offset().top}, 300);
+    });
+
     // Bind a click event to anything with the class 'toggle-nav'
     $('.hamburger').click(function() {  
         // Toggle the Body Class 'show-nav'
@@ -201,7 +206,7 @@ $(function(){
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
-        $('#bg-video').remove();
+        $('#space-video').remove();
     }
 
 }); // End of Document ready
@@ -209,6 +214,7 @@ $(function(){
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){
+
     // If scroll top is 400 + show hide intro paragraph
     if($(document).scrollTop() > 400) {
         // Hide social sharing on nav open 
@@ -216,12 +222,10 @@ $(document).on('scroll',function(){
         $('#share-me').addClass('goAway');
     }
 
-    // Change nav to dark version when sections have white BG
-    if( $(document).scrollTop() > 2050){
-        $('.page-home .hamburger, #nav-mini, #nav-mini a').addClass('darkNav');
-
-    } else {
-        $('.page-home .hamburger, #nav-mini, #nav-mini a').removeClass('darkNav');
+    if($(document).scrollTop() > 100) {
+        $('#back-to-top').fadeIn();
+    }else {
+        $('#back-to-top').fadeOut();
     }
 });
 
@@ -244,7 +248,7 @@ function hideNav() {
 var canvasDiv = document.getElementById('particle-canvas');
 
 var options = {
-    particleColor: '#FFF',    
+    particleColor: '#FFF',
     interactive: true,
     speed: 'high',
     density: 'high'
