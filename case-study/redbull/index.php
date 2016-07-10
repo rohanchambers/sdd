@@ -18,12 +18,12 @@ $PRODUCTION = true;
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         <?php if ($PRODUCTION) { ?>
-            <link rel="stylesheet" href="/assets/css/compiled.min.css">
-        <?php } else { ?>
-            <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-            <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-            <script src="/assets/js/vendor/modernizr-custom.js"></script>            
-        <?php }
+                <link rel="stylesheet" href="/assets/css/compiled.min.css">
+            <?php } else { ?>
+                <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+                <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+                <script src="/assets/js/vendor/modernizr-custom.js"></script>
+            <?php }
         ?>
 
         <!-- Open graph tags -->
@@ -191,7 +191,7 @@ $PRODUCTION = true;
             <script src="/assets/js/vendor/constellations.js"></script>
             <script src="/assets/js/main-pages.js"></script>
         <?php }
-        ?>        
+        ?>
 
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
