@@ -113,11 +113,11 @@
 
                     <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
 
-                    <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high but we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
+                    <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
-                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see the level of quality we deliver. Some of these projects were created whilst working at other agencies.</p>
+                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level of quality we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
                     
-                    <p>We look forward to collaborating with you to boost your social and online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section.</p>                    
+                    <p>We look forward to collaborating with you to boost your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
                 </div>
                 
                 <div class="col col-no-skew">
@@ -280,10 +280,11 @@
                             <li class="social">
                                 <i class="fa fa-facebook fa-2x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
                                 <i class="fa fa-twitter fa-2x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
-                                <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>                                
+                                <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
                             </li>
                         </ul>
-                        <p>Slam Dunk Digital Limited<br>
+                        <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
+                        Slam Dunk Digital Limited<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
@@ -293,6 +294,27 @@
             
         <!-- Main nav / Sharing nav / nav mini bullets -->
         <?php include("incl/inc-navs.php"); ?>
+        
+        <!-- Lightbox -->         
+        <div class="cd-modal">
+            <div class="modal-content">
+                <div>
+                    <h1>Site credits</h1>
+                    <p>We always like to give credit where credit is due, if we have used somebody else's plugin or any bit of functionality. Why re-invent the wheel!</p>
+                    <ul>
+                        <li>Animated Background Headers from Article on Codrops</li>
+                        <li>Alemansdesign.it for space video on main navigation</li>
+                        <li>Thumbnail Proximity Effect</li>
+                    </ul>
+                </div>
+            </div> <!-- .modal-content -->         
+            <a href="#0" class="modal-close">
+                <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+            </a>
+        </div> <!-- .cd-modal -->         
+        <div class="cd-transition-layer"> 
+            <div class="bg-layer"></div>
+        </div> <!-- .cd-transition-layer -->
 
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -309,6 +331,7 @@
         <script src="assets/js/vendor/css3-animate-it.min.js"></script>
         <script src="assets/js/vendor/jquery.fittext.js"></script>
         <script src="assets/js/vendor/constellations.js"></script>
+        <script src="assets/js/vendor/lightbox.js"></script>
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->
         <!--(if target dist)>

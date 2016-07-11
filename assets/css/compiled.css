@@ -3557,6 +3557,238 @@ ul.bxslider {
     transform: rotateX(80deg) rotateZ(-45deg); }
   100% {
     transform: rotateX(80deg) rotateZ(-405deg); } }
+/* -------------------------------- 
+
+Main Content
+
+-------------------------------- */
+.cd-main-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  /* vertically align its content */
+  display: table;
+  background-color: #e4dcca; }
+
+.cd-main-content .center {
+  /* vertically align inside parent element */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+/* -------------------------------- 
+
+Modal window 
+
+-------------------------------- */
+.cd-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2100;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s; }
+
+.cd-modal .modal-content {
+  height: 100%;
+  overflow-y: auto;
+  padding: 3em 5%;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.cd-modal h1 {
+  text-align: center; }
+
+.cd-modal h1::after {
+  /* ink/brush separation */
+  content: '';
+  display: block;
+  width: 130px;
+  height: 18px;
+  background: url(../img/global/lightbox/ink-separation.svg) no-repeat center center;
+  margin: .2em auto 0; }
+
+.cd-modal div {
+  margin: 2em auto;
+  max-width: 800px; }
+
+.cd-modal .modal-close {
+  /* 'X' icon */
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 5%;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #FFF;
+  /* image replacement */
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s; }
+  .cd-modal .modal-close i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0px 0 -18px;
+    color: #000; }
+
+.no-touch .cd-modal .modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.cd-modal.visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.7s, visibility 0s;
+  -moz-transition: opacity 0.7s, visibility 0s;
+  transition: opacity 0.7s, visibility 0s; }
+
+.cd-modal.visible .modal-content {
+  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+  -webkit-overflow-scrolling: touch; }
+
+.cd-modal.visible .modal-close {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+  -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1); }
+
+@media only screen and (min-width: 1100px) {
+  .cd-modal .modal-content {
+    padding: 6em 5%; }
+
+  .cd-modal .modal-close {
+    height: 60px;
+    width: 60px; } }
+/* -------------------------------- 
+
+Transition Layer 
+
+-------------------------------- */
+.cd-transition-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden; }
+
+.cd-transition-layer .bg-layer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-2%);
+  -moz-transform: translateY(-50%) translateX(-2%);
+  -ms-transform: translateY(-50%) translateX(-2%);
+  -o-transform: translateY(-50%) translateX(-2%);
+  transform: translateY(-50%) translateX(-2%);
+  /* its dimentions will be overwritten using jQuery to proportionally fit the viewport */
+  height: 100%;
+  /* our sprite is composed of 25 frames */
+  width: 2500%;
+  background: url(../img/global/lightbox/ink.png) no-repeat 0 0;
+  background-size: 100% 100%; }
+
+.cd-transition-layer.visible {
+  opacity: 1;
+  visibility: visible; }
+
+.cd-transition-layer.opening .bg-layer {
+  -webkit-animation: cd-sequence 0.8s steps(24);
+  -moz-animation: cd-sequence 0.8s steps(24);
+  animation: cd-sequence 0.8s steps(24);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.cd-transition-layer.closing .bg-layer {
+  -webkit-animation: cd-sequence-reverse 0.8s steps(24);
+  -moz-animation: cd-sequence-reverse 0.8s steps(24);
+  animation: cd-sequence-reverse 0.8s steps(24);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.no-cssanimations .cd-transition-layer {
+  display: none; }
+
+@-webkit-keyframes cd-sequence {
+  0% {
+    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+    -webkit-transform: translateY(-50%) translateX(-2%); }
+  100% {
+    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+    -webkit-transform: translateY(-50%) translateX(-98%); } }
+@-moz-keyframes cd-sequence {
+  0% {
+    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+    -moz-transform: translateY(-50%) translateX(-2%); }
+  100% {
+    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+    -moz-transform: translateY(-50%) translateX(-98%); } }
+@keyframes cd-sequence {
+  0% {
+    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+    -webkit-transform: translateY(-50%) translateX(-2%);
+    -moz-transform: translateY(-50%) translateX(-2%);
+    -ms-transform: translateY(-50%) translateX(-2%);
+    -o-transform: translateY(-50%) translateX(-2%);
+    transform: translateY(-50%) translateX(-2%); }
+  100% {
+    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+    -webkit-transform: translateY(-50%) translateX(-98%);
+    -moz-transform: translateY(-50%) translateX(-98%);
+    -ms-transform: translateY(-50%) translateX(-98%);
+    -o-transform: translateY(-50%) translateX(-98%);
+    transform: translateY(-50%) translateX(-98%); } }
+@-webkit-keyframes cd-sequence-reverse {
+  0% {
+    -webkit-transform: translateY(-50%) translateX(-98%); }
+  100% {
+    -webkit-transform: translateY(-50%) translateX(-2%); } }
+@-moz-keyframes cd-sequence-reverse {
+  0% {
+    -moz-transform: translateY(-50%) translateX(-98%); }
+  100% {
+    -moz-transform: translateY(-50%) translateX(-2%); } }
+@keyframes cd-sequence-reverse {
+  0% {
+    -webkit-transform: translateY(-50%) translateX(-98%);
+    -moz-transform: translateY(-50%) translateX(-98%);
+    -ms-transform: translateY(-50%) translateX(-98%);
+    -o-transform: translateY(-50%) translateX(-98%);
+    transform: translateY(-50%) translateX(-98%); }
+  100% {
+    -webkit-transform: translateY(-50%) translateX(-2%);
+    -moz-transform: translateY(-50%) translateX(-2%);
+    -ms-transform: translateY(-50%) translateX(-2%);
+    -o-transform: translateY(-50%) translateX(-2%);
+    transform: translateY(-50%) translateX(-2%); } }
 #nav-mini {
   position: fixed;
   top: 50%;
@@ -3603,6 +3835,19 @@ ul.bxslider {
   opacity: 0.6;
   display: none; }
 
+#back-to-top.buttonTopPulse {
+  animation: buttonTopPulse 200ms;
+  animation-iteration-count: 5;
+  -webkit-animation-iteration-count: 5; }
+@keyframes buttonTopPulse {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 0.6; } }
 #back-to-top:hover {
   opacity: 1;
   -webkit-transition: all 300ms ease;
@@ -3616,6 +3861,11 @@ ul.bxslider {
   position: relative;
   z-index: 2000;
   float: none; }
+@-webkit-keyframes arrow-jump {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   #what-we-do-outer .scroll-down a,
   #work .scroll-down a,
   #clients .scroll-down a {
@@ -3624,17 +3874,28 @@ ul.bxslider {
     width: 25px;
     height: 25px;
     background: url(../img/global/iconArrowDown.png);
-    opacity: 0.6;
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-border-radius: all 300ms ease;
-    transition: all 300ms ease; }
+    transition: all 300ms ease;
+    -webkit-animation: arrow-jump ease-in-out 1.2s infinite;
+    /* Safari 4+ */
+    -moz-animation: arrow-jump ease-in-out 1.2s infinite;
+    /* Fx 5+ */
+    -o-animation: arrow-jump ease-in-out 1.2s infinite;
+    /* Opera 12+ */
+    animation: arrow-jump ease-in-out 1.2s infinite;
+    /* IE 10+, Fx 29+ */ }
   #what-we-do-outer .scroll-down a:hover,
   #work .scroll-down a:hover,
   #clients .scroll-down a:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
     opacity: 1; }
 
 #bg-home {
@@ -3968,6 +4229,17 @@ ul.bxslider {
       -moz-transition: all 800ms ease;
       -ms-border-radius: all 800ms ease;
       transition: all 800ms ease; }
+@keyframes buttonPulse {
+  0% {
+    color: #000; }
+  50% {
+    color: #FFF; }
+  100% {
+    color: #000; } }
+  #case-study-nav .col a.buttonPulse i {
+    animation: buttonPulse 200ms;
+    animation-iteration-count: 5;
+    -webkit-animation-iteration-count: 5; }
   #case-study-nav .col a.go-all i {
     line-height: 46px; }
   #case-study-nav .stars,
@@ -4279,7 +4551,8 @@ footer {
     text-transform: uppercase;
     line-height: 1em;
     margin: 0; }
-  footer #footer-info a:hover {
+  footer #footer-info a:hover,
+  footer #copyright-info p a:hover {
     color: #0074c0;
     text-decoration: none; }
   footer #copyright {
@@ -4297,7 +4570,7 @@ footer {
       position: absolute;
       right: 0;
       bottom: 16px;
-      height: 80px;
+      height: 92px;
       border-right: 10px solid #0074c0; }
     footer #copyright-info ul {
       margin: 0; }

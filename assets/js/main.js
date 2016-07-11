@@ -168,9 +168,9 @@ $(document).on('scroll',function(){
     var homeSectionHeight = $('#home').height();
 
     if( $(document).scrollTop() > homeSectionHeight) {
-            $('#back-to-top').fadeIn();
+            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
         } else {
-            $('#back-to-top').fadeOut();
+            $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
     }
 });
 

@@ -222,11 +222,12 @@ $(document).on('scroll',function(){
         $('#share-me').addClass('goAway');
     }
 
+    // 
     if($(document).scrollTop() > 100) {
-        $('#back-to-top').fadeIn();
-    }else {
-        $('#back-to-top').fadeOut();
-    }
+            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
+        } else {
+            $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
+    } 
 });
 
 // Toggle with hitting of ESC
