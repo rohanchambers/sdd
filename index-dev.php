@@ -59,11 +59,13 @@
             </div>
         </div>
 
+
         <!-- Home section -->
         <div id="bg-home">
+
             <section id="home" class="section-home eavesdrop">
                 <header id="site-header">
-                    <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital" /></h1>
+                    <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
                     <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
@@ -74,7 +76,7 @@
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
@@ -116,18 +118,18 @@
                     <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
                     <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level of quality we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
-                    
+
                     <p>We look forward to collaborating with you to boost your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
                 </div>
-                
+
                 <div class="col col-no-skew">
                      <?php include("incl/inc-what-we-do-thumbs.php"); ?>
                 </div>
 
-                <div id="particle-canvas"></div> 
+                <div id="particle-canvas"></div>
             </section><!-- End of home-->
             <p class="scroll-down"><a href="#section-work">Scroll down</a></p>
-        </div>  
+        </div>
 
 
         <section id="work" class="section-work eavesdrop animatedParent animateOnce" data-sequence='500'>
@@ -149,7 +151,7 @@
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
             </header>
             <div class="row">
-                <!-- Client list -->          
+                <!-- Client list -->
                 <?php include("incl/inc-client-list.php"); ?>
             </div>
             <p class="scroll-down"><a href="#section-contact">Scroll down</a></p>
@@ -164,7 +166,7 @@
         </section>
 
         <div id="map"></div>
-        
+
         <section id="contact-info">
             <div id="offices">
                 <h2>Our offices</h2>
@@ -204,7 +206,7 @@
             <?php
                 //if "email" variable is filled out, send email
                   if (isset($_REQUEST['email']))  {
-                  
+
                   //Email information
                   $admin_email = "info@slamdunkdigital.co.uk";
                   $email = $_REQUEST['email'];
@@ -215,11 +217,11 @@
 
                   //send email
                   mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
-                  
+
                   //Email response
                   echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.</p>";
                   }
-                  
+
                   //if "email" variable is not filled out, display the form
                   else  {
                 ?>
@@ -241,7 +243,7 @@
                             <input type="number" placeholder="Phone number (optional)" name="phone" id="resqPhone">
                             <span></span>
                             <label for="resqPhone"></label>
-                        </p>        
+                        </p>
                         <p id="textarea">
                             <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
                             <span></span>
@@ -254,7 +256,7 @@
                 </form>
             <?php
               }
-            ?>           
+            ?>
         </section>
 
 
@@ -262,7 +264,7 @@
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
-                    Dunk<br> 
+                    Dunk<br>
                     Digital</p>
 
                     <p>+44 (0)79 17044058<br>
@@ -291,11 +293,11 @@
                 </div>
             </footer>
         </div>
-            
+
         <!-- Main nav / Sharing nav / nav mini bullets -->
         <?php include("incl/inc-navs.php"); ?>
-        
-        <!-- Lightbox -->         
+
+        <!-- Lightbox -->
         <div class="cd-modal">
             <div class="modal-content">
                 <div>
@@ -307,12 +309,12 @@
                         <li>Thumbnail Proximity Effect</li>
                     </ul>
                 </div>
-            </div> <!-- .modal-content -->         
+            </div> <!-- .modal-content -->
             <a href="#0" class="modal-close">
                 <i class="fa fa-times fa-3x" aria-hidden="true"></i>
             </a>
-        </div> <!-- .cd-modal -->         
-        <div class="cd-transition-layer"> 
+        </div> <!-- .cd-modal -->
+        <div class="cd-transition-layer">
             <div class="bg-layer"></div>
         </div> <!-- .cd-transition-layer -->
 
@@ -336,7 +338,7 @@
         <!--<!(endif)-->
         <!--(if target dist)>
         <script src="assets/js/compiled.min.js"></script>
-        <!(endif)-->      
+        <!(endif)-->
 
         <!-- Google Maps api -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbg28ypvSj8dLIBHiCsF38eb0hYJ3p_Go&callback=initMap"></script>
@@ -349,7 +351,7 @@
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=820043481429990";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-        </script>  
+        </script>
         <!-- Twitter share -->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <!-- Google + share -->
@@ -369,9 +371,9 @@
         </script>
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
-        var sc_project=11006368; 
-        var sc_invisible=1; 
-        var sc_security="096fd4e3"; 
+        var sc_project=11006368;
+        var sc_invisible=1;
+        var sc_security="096fd4e3";
         var scJsHost = (("https:" == document.location.protocol) ?
         "https://secure." : "http://www.");
         document.write("<sc"+"ript type='text/javascript' src='" +
@@ -383,6 +385,6 @@
         class="statcounter"
         src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
         hit counter"></a></div></noscript>
-        <!-- End of StatCounter Code for Default Guide -->        
-    </body> 
+        <!-- End of StatCounter Code for Default Guide -->
+    </body>
 </html>

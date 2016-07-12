@@ -147,7 +147,11 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 			.client {
 				@include span-columns(4);
 				@include omega-reset(4n);
-			}		
+			}
+		}
+
+		.scroll-down a {
+			background: url(../img/global/iconArrowDown.png);
 		}
 	}
 

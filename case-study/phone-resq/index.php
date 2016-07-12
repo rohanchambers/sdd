@@ -16,7 +16,7 @@ $PRODUCTION = true;
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        
+
         <?php if ($PRODUCTION) { ?>
                 <link rel="stylesheet" href="/assets/css/compiled.min.css">
             <?php } else { ?>
@@ -42,7 +42,7 @@ $PRODUCTION = true;
         <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">    
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
     </head>
     <body class="page-case-study">
         <!-- Preloader -->
@@ -74,7 +74,7 @@ $PRODUCTION = true;
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
@@ -99,15 +99,15 @@ $PRODUCTION = true;
                 </div>
             </div><!-- End of case study intro -->
 
-            <section id="case-study-nav">       
+            <section id="case-study-nav">
                 <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../perfect-peaks-brews/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
-                <div id="case-study-info" class="col col-skew">                    
-                    <div id="particle-canvas"></div>                    
+                <div id="case-study-info" class="col col-skew">
+                    <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
                         <p>Phone ResQ.</p>
@@ -126,12 +126,12 @@ $PRODUCTION = true;
                     <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
                     <p>We took on this project with one thing in mind, fresh new look. Our team were working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done to ensure maximum compatibility.</p>
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>                    
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
 
-                    <h2>View site:</h2> 
+                    <h2>View site:</h2>
                     <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
                 </div><!-- Case study info -->
-                
+
                 <div id="case-study-img" class="col col-no-skew">
                      <img src="img/home.jpg" alt="Phone ResQ">
                 </div>
@@ -142,7 +142,7 @@ $PRODUCTION = true;
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
-                    Dunk<br> 
+                    Dunk<br>
                     Digital</p>
 
                     <p>+44 (0)79 17044058<br>
@@ -171,54 +171,12 @@ $PRODUCTION = true;
             </footer>
         </div>
 
-        <!-- Full sceen Navigation -->
-        <button class="hamburger darkNav" id="trigger-overlay" type="button">
-            <span id="nav-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-        </button>
+        <?php include("../../incl/inc-navs-cs.php"); ?>
 
-        <div class="overlay overlay-hugeinc">
-            <div class="overlay-layer"></div>
-            <img src="/assets/img/video/space.jpg" alt="Space">
-            <video loop muted autoplay poster="/assets/img/video/space.jpg">
-                <source src="/assets/img/video/space.webm" type="video/webm">
-                <source src="/assets/img/video/space.mp4" type="video/mp4">
-                <source src="/assets/img/video/space.ogv" type="video/ogg">
-            </video>
-            
-            <header>
-                <h1>Slam Dunk Digital</h1>
-            </header>
-            <nav>
-                <ul>
-                    <li><a href="/#section-home"><span class="letter-yellow">H</span><span class="letter-red">o</span><span class="letter-green">m</span><span class="letter-blue">e</span></a></li>
-                    <li class="yellow"><a href="/#section-what-we-do"><span class="yellow">W</span>hat we do</a></li>
-                    <li class="red"><a href="/#section-work"><span class="red">O</span>ur work</a></li>
-                    <li class="green"><a href="/#section-clients"><span class="green">C</span>lients</a></li>
-                    <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>                    
-                    <li class="social">
-                        <i class="fa fa-facebook fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-twitter fa-1x"><a href="#"></a></i>
-                        <i class="fa fa-instagram fa-1x"><a href="#"></a></i>
-                    </li>
-                    <li class="overlay-share show-hide">
-                        <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
-                            <li><div class="g-plusone" data-annotation="none"></div></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
         <?php if ($PRODUCTION) { ?>
             <script src="/assets/js/cs-compiled.min.js"></script>
         <?php } else { ?>
-            <script src="/assets/js/vendor/modernizr-custom.js"></script> 
+            <script src="/assets/js/vendor/modernizr-custom.js"></script>
             <script src="/bower_components/jquery/dist/jquery.min.js"></script>
             <script src="/assets/js/vendor/nav-overlay.js"></script>
             <script src="/assets/js/vendor/classie.js"></script>
@@ -237,8 +195,8 @@ $PRODUCTION = true;
           js = d.createElement(s); js.id = id;
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=168519230210632";
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));   
-        </script>  
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
         <!-- Twitter share -->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <!-- Google + share -->
@@ -254,6 +212,6 @@ $PRODUCTION = true;
                 $('#case-study-nav a').addClass('buttonPulse');
             })
         //]]>
-        </script>        
-    </body> 
+        </script>
+    </body>
 </html>

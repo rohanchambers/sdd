@@ -3470,8 +3470,10 @@ Transition Layer
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
-    animation-play-state: paused;
-    opacity: 1; }
+    animation-play-state: paused; }
+
+#clients .scroll-down a {
+  background: url(../img/global/iconArrowDownWhite.png); }
 
 #bg-home {
   position: relative;
@@ -3909,24 +3911,26 @@ Transition Layer
     width: 100%;
     height: auto; }
 
-#clients .row .client {
-  position: relative; }
-  #clients .row .client img {
-    display: block;
-    width: 100%;
-    height: auto; }
-  #clients .row .client img.top,
-  #clients .row .client img.bottom {
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    -webkit-backface-visibility: hidden; }
-  #clients .row .client img.top:hover {
-    opacity: 0; }
+#clients {
+  background: url(../img/clients/client_bg.png) no-repeat center 360px; }
+  #clients .row .client {
+    position: relative; }
+    #clients .row .client img {
+      display: block;
+      width: 100%;
+      height: auto; }
+    #clients .row .client img.top,
+    #clients .row .client img.bottom {
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: opacity .5s ease-in-out;
+      -moz-transition: opacity .5s ease-in-out;
+      -o-transition: opacity .5s ease-in-out;
+      transition: opacity .5s ease-in-out;
+      -webkit-backface-visibility: hidden; }
+    #clients .row .client img.top:hover {
+      opacity: 0; }
 
 #map {
   margin-top: 30px;
@@ -4286,6 +4290,8 @@ footer {
       margin-right: 0%; }
     #clients .row .client:nth-child(4n+1) {
       clear: none; }
+  #clients .scroll-down a {
+    background: url(../img/global/iconArrowDown.png); }
 
   #contact p {
     width: 100%;

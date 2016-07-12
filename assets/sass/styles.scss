@@ -29,9 +29,9 @@
 	li {
 		display: block;
 		width: 10px;
-		height: 10px;			
+		height: 10px;
 		margin-bottom: 13px;
-		
+
 		a {
 			display: block;
 			width: 12px;
@@ -47,7 +47,7 @@
 	a.yellow:hover, li.active a.yellow { background-color: $yellow;}
 	a.red:hover, li.active a.red { background-color: $red;}
 	a.green:hover, li.active a.green { background-color: $green;}
-	a.blue:hover, li.active a.blue { background-color: $blue;}	
+	a.blue:hover, li.active a.blue { background-color: $blue;}
 }
 
 #nav-mini.darkNav {
@@ -77,7 +77,7 @@
 			90% { opacity: 1;}
 			100% { opacity: 0.6;}
 	    }
-	    
+
 		animation: buttonTopPulse 200ms;
 		animation-iteration-count: 5;
 			-webkit-animation-iteration-count: 5;
@@ -90,16 +90,16 @@
 
 // Section Scroll Down
 #what-we-do-outer,
-#work, 
+#work,
 #clients {
 	.scroll-down {
 		position: relative;
 		z-index: 2000;
-		float: none;	
+		float: none;
 
 		@-webkit-keyframes arrow-jump {
 			0%   { opacity: 0;}
-			100% { opacity: 1; 
+			100% { opacity: 1;
 				// -webkit-transform: translateY(10px);
 				// 	-moz-transform: translateY(10px);
 				// 		-o-transform: translateY(10px);
@@ -125,7 +125,16 @@
 		    -webkit-animation-play-state: paused;
 		    -moz-animation-play-state: paused;
 		    -o-animation-play-state: paused;
-		    animation-play-state: paused;		
+		    animation-play-state: paused;
+		}
+	}
+}
+
+// Arrow scroll down in white for clients section
+#clients {
+	.scroll-down {
+		a {
+			background: url(../img/global/iconArrowDownWhite.png);
 		}
 	}
 }
@@ -165,15 +174,15 @@
 	            	font-size: rem(24);
 	            }
 	        }
-	                
+
 	        a:hover {
 	            color: $blue;
-				@include hover-links();	            
-	        }  
+				@include hover-links();
+	        }
         }
     }
 
-    #social-links ul#share-me {	
+    #social-links ul#share-me {
         position: absolute;
         top: 55px;
         right: -3px;
@@ -183,7 +192,7 @@
 
         li {
             display: block;
-            width: auto;          
+            width: auto;
         }
     }
 
@@ -235,13 +244,13 @@
 
         .fa-angle-down {
             display: none;
-            position: absolute;        
-            left: -1px; 
+            position: absolute;
+            left: -1px;
             color: #ddd;
         }
 
-            .angle-down-1 {            
-                bottom: -5px;            
+            .angle-down-1 {
+                bottom: -5px;
             }
 
             .angle-down-2 {
@@ -253,14 +262,14 @@
             position: absolute;
             top: 0;
         }
-         
+
         .icon-animate {
             width: 25px;
             height: 45px;
             top: 0%;
             border-radius: 20px;
         }
-         
+
         .icon-animate:before {
             content: '';
             width: 5px;
@@ -276,7 +285,7 @@
               -webkit-animation-name: scroll;
                 animation-name: scroll;
             }
-         
+
         @-webkit-keyframes scroll {
             0% {
                 opacity: 1;
@@ -287,15 +296,15 @@
                 transform: translateY(20px);
             }
         }
-		
+
 		// EMMITER SECTION: Fountain of colors
-		canvas { 
+		canvas {
 			position: fixed;
 			top: 50%;
 			left: 0;
 			transform: translate(-50%, -50%);
 			z-index: -1;
-		}        	
+		}
 }
 
 
@@ -326,7 +335,7 @@
 
 		img {
 			width: 100%;
-			height: auto;	
+			height: auto;
 		}
 	}
 
@@ -354,7 +363,7 @@
 		.pe-thumbs {
 			margin: 0;
 			padding: 0;
-		}	
+		}
 
 		.pe-thumbs li a,
 		.pe-thumbs li a img {
@@ -366,7 +375,7 @@
 		.pe-thumbs li a img {
 			opacity: 0.5;
 		}
-		
+
 		.pe-thumbs li a div.pe-description {
 			width: 200px;
 			height: 100px;
@@ -405,7 +414,7 @@
 // Site Header for Pages
 #site-header-outer	{
 	background-color: $black;
-	
+
 	#site-header {
 		@include clearfix;
 		margin-bottom: 0;
@@ -423,7 +432,7 @@
     @include span-columns(6 of 12, block-collapse);
     min-height: 200px;
     position: relative;
-    z-index: 1;    	
+    z-index: 1;
 	float: right;
 
     article {
@@ -457,7 +466,7 @@
 			}
 		}
     }
-}            
+}
 
 #intro-bg-img {
     width: 50%;
@@ -495,7 +504,7 @@
 	position: relative;
 	height: 40px;
 	overflow: hidden;
-	
+
 	.col {
 		a {
 			position: relative;
@@ -533,12 +542,12 @@
 				50% {color: $white;}
 				100% {color: $black;}
 		    }
-		    
+
 		    i {
 				animation: buttonPulse 200ms;
 				animation-iteration-count: 5;
 					-webkit-animation-iteration-count: 5;
-		    }	
+		    }
 		}
 
 		a.go-all i {
@@ -546,7 +555,7 @@
 		}
 	}
 
-	.stars, 
+	.stars,
 	.twinkling {
 		background-color: $black;
 		position: relative;
@@ -568,7 +577,7 @@
 			clear: none;
 		}
 
-		.col-skew {			
+		.col-skew {
 			padding: 25px 2% 2% 3%;
 		}
 
@@ -589,7 +598,7 @@
 				font-size: inherit;
 				padding: 3px;
 			}
-			
+
 			a:hover {
 				text-decoration: none;
 				color: $black;
@@ -599,12 +608,12 @@
 				background-color: $white;
 				color: $black;
 			}
-			
+
 			header {
 				position: relative;
-				z-index: 3;	
+				z-index: 3;
 				padding: 0;
-				
+
 				.title {
 					display: block;
 				}
@@ -613,13 +622,13 @@
 					float: left;
 					margin: 0 10px 0 0;
 				}
-				
-				p {				
+
+				p {
 					float: left;
 					margin: 0;
 					width: auto;
 				}
-				
+
 				// This is to style the image on the case study page
 				// Not using now as it clutters design layout
 				img {
@@ -644,7 +653,7 @@
 				width: 100%;
 				height: auto;
 			}
-		}			
+		}
 	}
 }
 
@@ -659,29 +668,29 @@
 #work {
 	h1:after {
 		float: right;
-		text-align: right;		
+		text-align: right;
 		right: 25px;
-	 	width: 72%;		
+	 	width: 72%;
 	}
 }
 
 #work {
-	.row {		
+	.row {
 		.view {
 			background-color: $black;
-	    		
+
 	    		img {
 	    			display: block;
 	    			width: 100%;
 	    			height: auto;
-	    		}			    		
+	    		}
 		}
 	}
 }
 
 #clients {
-	//background: url(../img/bg-stripes.jpg) no-repeat bottom center;
-	.row {		
+	background: url(../img/clients/client_bg.png) no-repeat center 360px;
+	.row {
 		.client {
 			position:relative;
 
@@ -700,14 +709,14 @@
 					-moz-transition: opacity .5s ease-in-out;
 						-o-transition: opacity .5s ease-in-out;
 							transition: opacity .5s ease-in-out;
-							-webkit-backface-visibility: hidden;				
+							-webkit-backface-visibility: hidden;
     		}
 
 			img.top:hover {
 				opacity:0;
-			}	
+			}
 		}
-	}	
+	}
 }
 
 // CONTACT SECTION
@@ -715,9 +724,9 @@
 	margin-top: 30px;
 	width: 100%;
 	height: 375px;
-	    
+
 	    #map-info {
-	        padding: 5px 0 0 20px; 
+	        padding: 5px 0 0 20px;
 	        h1 {
 	            margin: 0;
 	            font-size: rem(20);
@@ -768,7 +777,7 @@
 	padding-right: 5px;
 }
 
-#get-in-touch a:hover, 
+#get-in-touch a:hover,
 #offices a:hover {
 	text-decoration: none;
 	background-color: $blue;
@@ -777,7 +786,7 @@
 	@include hover-links();
 }
 
-#follow-us ul { 
+#follow-us ul {
 	padding: 0;
 	li {
 		text-align: center;
@@ -807,7 +816,7 @@
 #quick-message {
 	position: relative;
 	padding: 25px 0;
-	background: url(../img/global/bg-worldmap.png) center center;	
+	background: url(../img/global/bg-worldmap.png) center center;
 	// background-size: cover;
 	background-color: #054B79;
 
@@ -839,7 +848,7 @@
 	        background-color: transparent;
 	        border: 0;
 	        border-bottom: 2px solid $white;
-	        color: $white;            
+	        color: $white;
 	        -webkit-appearance: none;
 	    }
 
@@ -854,7 +863,7 @@
 	            background-color: $red;
 	                -moz-transition: width 0.5s ease;
 	                    -webkit-transition: width 0.5s ease;
-	                        transition: width 0.5s ease;                  
+	                        transition: width 0.5s ease;
 	        }
 
 	        label {
@@ -864,12 +873,12 @@
 	            color: $white;
 	            font-size: rem(12);
 	        }
-	    
+
 	    #textarea span {
 	        bottom: 6px;
 	    }
 
-	    input, 
+	    input,
 	    input[type=submit],
 	    textarea,
 	    button,
@@ -877,7 +886,7 @@
 	    option {
 	        // Remove focus glow
 	        outline-color: transparent;
-	        outline-style: none;        
+	        outline-style: none;
 	    }
 
 	    textarea {
@@ -885,18 +894,18 @@
 
 	        -webkit-transition: height 0.3s;
 	        -o-transition: height 0.3s;
-	        transition: height 0.3s;                      
+	        transition: height 0.3s;
 	    }
 
 	    textarea:focus {
 	        height: 150px;
 	    }
-	    
+
 	    // Change color for textarea placeholder (value)
 	    ::-webkit-input-placeholder { color: $white;}
 	    ::-moz-placeholder {color: $white;}
-	    :-ms-input-placeholder { color: $white;} 
-	    :-o-input-placeholder { color: $white;} 
+	    :-ms-input-placeholder { color: $white;}
+	    :-o-input-placeholder { color: $white;}
 
 	    #btn-submit {
 	        margin-top: 15px;
@@ -913,7 +922,7 @@
 	    }
 
 	    #btn-submit:hover {
-	        background-color: $blue;                   
+	        background-color: $blue;
 	        border: 3px solid $blue;
 	        border-radius: 5px;
 	    }
@@ -928,7 +937,7 @@
 }
 
 footer {
-	height: auto;	
+	height: auto;
 
 	.col {
 		padding: 25px 0;
@@ -939,7 +948,7 @@ footer {
 		color: $white;
 		font-family: Verdana, Arial, sans-serif;
 	}
-	
+
 	ul {
 		li {
 			i {
@@ -961,7 +970,7 @@ footer {
 			}
 		}
 	}
-	
+
 	#footer-logo {
 		font-size: 24px;
 		font-family: $font-thick;
@@ -991,7 +1000,7 @@ footer {
 		height: 215px;
 		vertical-align: bottom;
 		padding-right: 20px;
-			
+
 			#border-blue {
 				position: absolute;
 				right: 0;
@@ -1033,11 +1042,11 @@ footer {
 	position: relative;
 	z-index: 1;
 	padding-top: 20px;
-	
+
 	header {
 		background-color: $white;
 		opacity: 0.8;
-			
+
 		p {
 			font-weight: bold;
 		}
@@ -1049,7 +1058,7 @@ footer {
 
 	ul {
 		clear: both;
-		
+
 		li {
 			margin-bottom: 5px;
 			list-style-type: disc;
@@ -1060,7 +1069,7 @@ footer {
 
 			a:hover {
 				text-decoration: none;
-			}	
+			}
 		}
 
 	}
