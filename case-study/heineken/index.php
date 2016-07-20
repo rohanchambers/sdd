@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -112,6 +112,10 @@ $PRODUCTION = true;
                     <header>
                         <h2>Client:</h2>
                         <p>Heineken</p>
+                    </header>
+                    <header>
+                        <h2>Agency:</h2>
+                        <p>We Are Social</p>
                     </header>
                     <h2>Deliverables</h2>
                     <ul>

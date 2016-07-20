@@ -110,7 +110,11 @@ $PRODUCTION = true;
                     <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
-                        <p>Heinz</p>
+                        <p>Heineken</p>
+                    </header>
+                    <header>
+                        <h2>Agency:</h2>
+                        <p>We Are Social</p>
                     </header>
                     <h2>Deliverables</h2>
                     <ul>

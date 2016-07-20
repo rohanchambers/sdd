@@ -145,6 +145,12 @@
 	background-color: $black;
 }
 
+// Static bg image for mobile devices see emitter.js for isMobile()
+.isMobile-home-bg {
+	background: url(../img/global/bg-emitter.png) -94px center no-repeat;
+	background-size: contain;
+}
+
 #home,
 #site-header {
 	background-color: $black;
@@ -524,7 +530,7 @@
 		}
 
 		a:hover {
-			background-color: $white;
+			background: rgba(255, 255, 255, 0.7);
 			@include hover-links();
 
 			i {
@@ -607,16 +613,16 @@
 			p a:hover {
 				background-color: $white;
 				color: $black;
+			}			
+
+			.inline {
+				float: left;
+				margin: 0 10px 0 0;
+				width: auto;
+				@include clearfix;
 			}
 
 			header {
-				position: relative;
-				z-index: 3;
-				padding: 0;
-
-				.title {
-					display: block;
-				}
 
 				h2 {
 					float: left;
@@ -627,18 +633,6 @@
 					float: left;
 					margin: 0;
 					width: auto;
-				}
-
-				// This is to style the image on the case study page
-				// Not using now as it clutters design layout
-				img {
-					position: absolute;
-					right: 0;
-					width: 110px;
-					height: auto;
-					margin: 0 10px 0 0;
-					padding: 5px;
-					background-color: $white;
 				}
 			}
 			@include particles;

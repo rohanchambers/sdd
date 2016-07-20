@@ -25,11 +25,6 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 
 // DESKTOP | Min 1025px
 // @include media($large-desktop) {
-// 	#what-we-do-outer {
-// 		overflow: hidden;
-// 		height: 1000px;
-// 		background: red;
-// 	}
 // }
 
 // DESKTOP | Max 1024px
@@ -50,7 +45,8 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	}
 	
 	// Reset padding to even out columns
-	#case-study-intro {
+	#case-study-intro,
+	#case-study-info header {
 		padding: 0;
 	}
 	
@@ -96,6 +92,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	#home {
 		background: url(../img/global/bg-emitter.png) center center no-repeat;
 		background-size: contain;
+
 		#slogan {
 			width: 82%;			
 	
@@ -110,6 +107,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	}
 
 	#what-we-do {
+		height: auto;
 		background-color: $yellow;
 		
 		.col {

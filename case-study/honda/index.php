@@ -112,6 +112,10 @@ $PRODUCTION = true;
                         <h2>Client:</h2>
                         <p>Honda UK</p>
                     </header>
+                    <header>
+                        <h2>Agency:</h2>
+                        <p>Collective London</p>
+                    </header>                    
                     <h2>Deliverables</h2>
                     <ul>
                         <li>Project &amp; Client management</li>

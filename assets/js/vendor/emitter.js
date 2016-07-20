@@ -1,7 +1,6 @@
-// <!-- Don't download these scripts on mobile | See emmiter.js -->
-// Remove iPad to get emmiter working on home page
+// Don't download these scripts on mobile | See emmiter.js
 function isMobile() {
-    return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    return /Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 (function() {
@@ -14,6 +13,9 @@ function isMobile() {
         initHeader();
         addListeners();
         initAnimation();
+    } else {
+        // Add static bg image if isMobile
+        $('#home').addClass('isMobile-home-bg');
     }
 
     function initHeader() {
