@@ -75,7 +75,7 @@ header p {
 
 #site-header h1 {
   float: left;
-  width: 380px;
+  width: auto;
   padding-top: 5px;
   font-size: 1.875rem;
   z-index: 1; }
@@ -83,7 +83,8 @@ header p {
     position: absolute;
     top: -9999px;
     left: -9999px; }
-#site-header h1:before {
+#site-header h1:before,
+#site-header h1:after {
   display: none; }
 #site-header p {
   overflow: hidden;

@@ -132,8 +132,6 @@ $PRODUCTION = true;
 
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
-                    <h2>View site:</h2> 
-                    <p>Site / campaign ended</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

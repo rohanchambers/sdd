@@ -90,9 +90,8 @@
                         Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
                         Creativity <span class="green">/</span><br>
                         &amp; style <span class="blue">/</span><br>
-                        10 out of 10 <span class="white">/</span><br>
                     </p>
-                    <span id="all-the-time">Every time!</span>
+                    <span id="all-the-time">10 out of 10, every time!</span>
                 </div><!-- End of Slogan -->
                 <div id="mouse-scroll">
                     <div class='icon-animate'></div>

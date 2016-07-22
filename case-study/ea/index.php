@@ -130,10 +130,7 @@ $PRODUCTION = true;
                     <p>Our team was in charge of the complete design and build of the site to then be passed on to our back end and Wordpress developer specialists who integtrated a custom admin CMS for the client to manage. The site was localised in 7 languages and was built using the latest technolgies at the time.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat's responsive grid, CSS3 transitions, Fully responsive</p>                    
-
-                    <h2>View site:</h2> 
-                    <p>Site &amp; campaign ended</p>
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat's responsive grid, CSS3 transitions, Fully responsive</p>
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">

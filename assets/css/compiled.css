@@ -500,7 +500,7 @@ header p {
 
 #site-header h1 {
   float: left;
-  width: 380px;
+  width: auto;
   padding-top: 5px;
   font-size: 1.875rem;
   z-index: 1; }
@@ -508,7 +508,8 @@ header p {
     position: absolute;
     top: -9999px;
     left: -9999px; }
-#site-header h1:before {
+#site-header h1:before,
+#site-header h1:after {
   display: none; }
 #site-header p {
   overflow: hidden;
@@ -4286,27 +4287,21 @@ Transition Layer
     #case-study-outer #case-study #case-study-info p a:hover {
       background-color: #FFF;
       color: #000; }
-    #case-study-outer #case-study #case-study-info header {
-      position: relative;
-      z-index: 3;
-      padding: 0; }
-      #case-study-outer #case-study #case-study-info header .title {
-        display: block; }
-      #case-study-outer #case-study #case-study-info header h2 {
-        float: left;
-        margin: 0 10px 0 0; }
-      #case-study-outer #case-study #case-study-info header p {
-        float: left;
-        margin: 0;
-        width: auto; }
-      #case-study-outer #case-study #case-study-info header img {
-        position: absolute;
-        right: 0;
-        width: 110px;
-        height: auto;
-        margin: 0 10px 0 0;
-        padding: 5px;
-        background-color: #FFF; }
+    #case-study-outer #case-study #case-study-info .inline {
+      float: left;
+      margin: 0 10px 0 0;
+      width: auto; }
+      #case-study-outer #case-study #case-study-info .inline::after {
+        clear: both;
+        content: "";
+        display: table; }
+    #case-study-outer #case-study #case-study-info header h2 {
+      float: left;
+      margin: 0 10px 0 0; }
+    #case-study-outer #case-study #case-study-info header p {
+      float: left;
+      margin: 0;
+      width: auto; }
     #case-study-outer #case-study #case-study-info #particle-canvas {
       position: absolute !important;
       z-index: 2;
@@ -4639,7 +4634,8 @@ footer {
   .overlay h1 {
     padding: 0 3%; }
 
-  #case-study-intro {
+  #case-study-intro,
+  #case-study-info header {
     padding: 0; }
 
   .overlay {
