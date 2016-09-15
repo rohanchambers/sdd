@@ -3530,17 +3530,16 @@ Transition Layer
       width: auto; }
   #home #slogan,
   #site-header #slogan {
-    background-color: red;
     position: absolute;
     top: 55%;
     left: 50%;
     width: 55%;
     transform: translate(-50%, -55%); }
-    #home #slogan #intro-parallax,
-    #site-header #slogan #intro-parallax {
+    #home #slogan #intro-parallax.active,
+    #site-header #slogan #intro-parallax.active {
       position: absolute;
       width: 100%;
-      top: -200px; }
+      top: -145px; }
     #home #slogan p,
     #site-header #slogan p {
       font-family: Arial, Verdana, sans-serif;

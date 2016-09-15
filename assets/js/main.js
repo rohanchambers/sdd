@@ -57,25 +57,31 @@ function isMobile() {
 
 // Document ready
 $(function(){
-
-    // Create cross browser requestAnimationFrame method:
-    window.requestAnimationFrame = window.requestAnimationFrame
-     || window.mozRequestAnimationFrame
-     || window.webkitRequestAnimationFrame
-     || window.msRequestAnimationFrame
-     || function(f){setTimeout(f, 1000/60)}
-     
-    var slogan = document.getElementById('intro-parallax')
-     
-    function parallax(){
-        var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
-        //console.log(scrolltop);
-        slogan.style.top = -scrolltop * .4 - 200 + 'px' // move bubble1 at 20% of scroll rate
+    // Add parallax to intro copy only for desktop otherwise 
+    // mobile vertical center alignment is off
+    var windowHeight = jQuery(window).height()
+    
+    if ( windowHeight > 375 ) {
+        $('#intro-parallax').addClass('active');
+        // Create cross browser requestAnimationFrame method:
+        window.requestAnimationFrame = window.requestAnimationFrame
+         || window.mozRequestAnimationFrame
+         || window.webkitRequestAnimationFrame
+         || window.msRequestAnimationFrame
+         || function(f){setTimeout(f, 1000/60)}
+         
+        var slogan = document.getElementById('intro-parallax')
+         
+        function parallax(){
+            var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
+            // 145 is the same in the css and the the position the element starts before parallax starts
+            slogan.style.top = -scrolltop * .4 - 145 + 'px' // move bubble1 at 20% of scroll rate
+        }
+         
+        window.addEventListener('scroll', function(){ // on page scroll
+            requestAnimationFrame(parallax) // call parallaxbubbles() on next available screen paint
+        }, false)        
     }
-     
-    window.addEventListener('scroll', function(){ // on page scroll
-        requestAnimationFrame(parallax) // call parallaxbubbles() on next available screen paint
-    }, false)
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
