@@ -321,6 +321,7 @@
         <!--(if target dev)><!-->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="assets/js/vendor/jquery.validate.min.js"></script>
+        <script src="assets/js/vendor/jquery.easing.1.3.js"></script>
         <script src="assets/js/vendor/jquery.eavesdrop.js"></script>
         <script src="assets/js/vendor/classie.js"></script>
         <script src="assets/js/vendor/nav-overlay.js"></script>
