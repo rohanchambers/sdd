@@ -57,7 +57,6 @@
 
         <!-- Home section -->
         <div id="bg-home">
-
             <section id="home" class="section-home eavesdrop">
                 <header id="site-header">
                     <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
@@ -70,7 +69,7 @@
                         <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
+                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>
                                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
@@ -80,13 +79,15 @@
                 </nav>
                 <div id="slogan">
                     <canvas id="emitter"></canvas>
-                    <span>We stand for</span>
-                    <p>
-                        Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
-                        Creativity <span class="green">/</span><br>
-                        &amp; style <span class="blue">/</span><br>
-                    </p>
-                    <span id="all-the-time">10 out of 10, every time!</span>
+                    <div id="intro-parallax">
+                        <span>We stand for</span>
+                        <p>
+                            Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
+                            Creativity <span class="green">/</span><br>
+                            &amp; style <span class="blue">/</span><br>
+                        </p>
+                        <span id="all-the-time">10 out of 10, every time!</span>
+                        </div><!-- End of Parallax -->
                 </div><!-- End of Slogan -->
                 <div id="mouse-scroll">
                     <div class='icon-animate'></div>
@@ -111,7 +112,7 @@
 
                     <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
 
-                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level of quality we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
+                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
 
                     <p>We look forward to collaborating with you to boost your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
                 </div>
@@ -129,7 +130,7 @@
         <section id="work" class="section-work eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team has created. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our team has worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->

@@ -128,12 +128,12 @@ $PRODUCTION = true;
                 <div id="case-study-img" class="col col-no-skew">
                     <img src="img/logo.jpg" alt="Perfect Peaks Brews">
                     <img src="img/variations.jpg" alt="Perfect Peaks Brews">                    
-                    <img src="img/home.jpg" alt="Perfect Peaks Brews">
+                    <img src="img/winter.jpg" alt="Perfect Peaks Brews">
                 </div>
             </section><!-- End of Case study-->
         </div>
 
-        <div id="footer-outer">/case-study/perfect-peaks-brews
+        <div id="footer-outer">
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>

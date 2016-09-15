@@ -115,7 +115,7 @@ $PRODUCTION = true;
                     </header>
                     <header>
                         <h2>Agency:</h2>
-                        <p>We Are Social</p>
+                        <p>Collective London</p>
                     </header>                    
                     <h2>Deliverables</h2>
                     <ul>

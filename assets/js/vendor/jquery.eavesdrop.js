@@ -78,7 +78,8 @@
 			var target = this.selector + '[data-connect="'+ router +'"]';
 			var targetOffset = $(target).offset().top + 1 + 'px';
 			this.$body.trigger(router[1] + '-inView');
-			this.$body.animate({ scrollTop: (targetOffset) });
+			// Change speed
+			this.$body.animate({ scrollTop: (targetOffset) }, 1000);
 		},
 
 		scrollParams: function(){

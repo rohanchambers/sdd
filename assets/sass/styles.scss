@@ -203,11 +203,18 @@
     }
 
 	#slogan {
-		width: 55%;
+		background-color: red;
 		position: absolute;
 		top: 55%;
 		left: 50%;
+		width: 55%;		
 		transform: translate(-50%, -55%);
+
+		#intro-parallax {
+			position: absolute;
+			width: 100%;
+			top: -200px;
+		}
 
 		p {
 			font-family: $font-med;

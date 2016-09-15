@@ -1,27 +1,28 @@
-// Defining a function to set size for #home (Home page) 
+// Animate speed scroll
+var speed = 1000;
+
+// Defining a function to set height size for #home slide to take up the whole screen (Home page) 
 function fullscreen(){
     $('#home, .overlay').css({
-        //width: jQuery(window).width(),
         height: jQuery(window).height()
     });
 }
 
 // Scroll to sections 
 function scrollToSections() {
-    // Scroll to sections
+    // Scroll by end of section arrows and main nav
     $('.overlay ul li, .scroll-down').find('a').click(function(e) {
-        
+
         var section = $(this).attr('href').split('#')[1];
-        //console.log(section)
 
         $('html, body').animate({
             scrollTop: $('.' + section).offset().top + 1 + 'px'
-        }, 300);
+        }, speed);
     });
 
     // Back to the top button
     $('#back-to-top').click( function(){
-        $('html, body').animate({ scrollTop: $('#home').offset().top}, 300);
+        $('html, body').animate({ scrollTop: $('#home').offset().top}, speed);
     });
 
     // Add class of active on items for main and mini nav.
@@ -57,12 +58,31 @@ function isMobile() {
 // Document ready
 $(function(){
 
+    // Create cross browser requestAnimationFrame method:
+    window.requestAnimationFrame = window.requestAnimationFrame
+     || window.mozRequestAnimationFrame
+     || window.webkitRequestAnimationFrame
+     || window.msRequestAnimationFrame
+     || function(f){setTimeout(f, 1000/60)}
+     
+    var slogan = document.getElementById('intro-parallax')
+     
+    function parallax(){
+        var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
+        //console.log(scrolltop);
+        slogan.style.top = -scrolltop * .4 - 200 + 'px' // move bubble1 at 20% of scroll rate
+    }
+     
+    window.addEventListener('scroll', function(){ // on page scroll
+        requestAnimationFrame(parallax) // call parallaxbubbles() on next available screen paint
+    }, false)
+
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
         $('#space-video').remove();
     }
 
-    // Fit text plugin
+    // Fit text js plugin
     $('#slogan p, .view .mask h2, .view .mask p').fitText(1, {maxFontSize: '80px' });
 
     // Mini Nav bullets section scroll
@@ -104,7 +124,7 @@ $(function(){
     // Icon mouse show hide intro text only if it hasn't scrolled down
     $('.icon-animate').click( function(){
         var goToNextSlide = jQuery(window).height();
-        $('html, body').animate({scrollTop : goToNextSlide}, 350);
+        $('html, body').animate({scrollTop : goToNextSlide}, speed);
     });
 
     // Show hide value of form inputs and textarea

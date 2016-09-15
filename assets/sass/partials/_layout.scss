@@ -46,7 +46,7 @@ footer {
 	.pe-thumbs li {
 		@include span-columns(4);
 		@include omega();
-	}	
+	}
 }
 
 #work {
@@ -68,7 +68,7 @@ footer {
 			@include span-columns(3);
 			@include omega(4n);
 			border: 1px solid $white;
-		}		
+		}
 	}
 }
 
