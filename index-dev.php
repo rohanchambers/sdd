@@ -187,7 +187,7 @@
                 Angel, Upper High Street<br>
                 London<br>
                 N1 0YL, UK</p>
-                <p><a href="tel:+4407917044058"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 058</a></p>
+                <p><a href="tel:+4407917044052"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 052</a></p>
             </div>
 
             <div id="get-in-touch">

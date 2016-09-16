@@ -4072,17 +4072,46 @@ Transition Layer
     clear: both;
     content: "";
     display: table; }
-  #what-we-do .intro {
+  #what-we-do #specialties ul {
+    float: left;
+    margin-top: 20px; }
+  #what-we-do .intro,
+  #what-we-do #specialties li {
     font-size: 1.3125rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     line-height: 1.2;
     margin-bottom: 0; }
-  #what-we-do .col header, #what-we-do .col p {
+  #what-we-do #specialties li {
+    margin-bottom: 15px;
+    background-color: #FFF;
+    color: #FFF;
+    padding: 5px; }
+    #what-we-do #specialties li span {
+      color: #000; }
+  #what-we-do .col header, #what-we-do .col p,
+  #what-we-do .col #specialties ul {
     position: relative;
     z-index: 3; }
   #what-we-do .col img {
     width: 100%;
     height: auto; }
+  #what-we-do h1 {
+    padding-right: 0; }
+  #what-we-do .show-hide {
+    position: relative;
+    float: right;
+    display: block;
+    z-index: 30;
+    font-size: 3rem;
+    color: #000; }
+    #what-we-do .show-hide:hover {
+      color: #FFF;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-border-radius: all 300ms ease;
+      transition: all 300ms ease; }
+  #what-we-do #specialties {
+    display: none; }
   #what-we-do .col-skew {
     padding: 2% 4%;
     background-color: #ffc036; }
@@ -4133,6 +4162,36 @@ Transition Layer
       font-size: 0.75rem;
       font-style: italic;
       border-top: 1px solid rgba(255, 255, 255, 0.3); }
+
+#what-we-do.switch-text {
+  background-color: #000;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-border-radius: all 300ms ease;
+  transition: all 300ms ease; }
+  #what-we-do.switch-text h1:after {
+    background-color: #FFF; }
+  #what-we-do.switch-text .col-skew {
+    background-color: #000;
+    color: #FFF;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-border-radius: all 300ms ease;
+    transition: all 300ms ease; }
+    #what-we-do.switch-text .col-skew:after {
+      background-color: #000;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-border-radius: all 300ms ease;
+      transition: all 300ms ease; }
+    #what-we-do.switch-text .col-skew #about {
+      display: none;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-border-radius: all 300ms ease;
+      transition: all 300ms ease; }
+    #what-we-do.switch-text .col-skew #specialties {
+      display: block; }
 
 #site-header-outer {
   background-color: #000; }

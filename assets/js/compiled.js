@@ -952,6 +952,12 @@ $(function(){
         }, false)        
     }
 
+    // What we do, show hide content
+    $('.show-hide').hover( function(e){
+        e.preventDefault();
+        $('#what-we-do').toggleClass('switch-text');
+    });
+
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
         $('#space-video').remove();

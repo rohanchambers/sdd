@@ -331,7 +331,7 @@
 	height: 1000px;
 	background-color: $yellow;
     @include clearfix;
-	
+
 	#specialties ul {
 		float: left;
 		margin-top: 20px;
@@ -357,7 +357,7 @@
 	}
 
 	.col {
-		header, p, 
+		header, p,
 		#specialties ul {
 		    position: relative;
 		    z-index: 3;
@@ -368,7 +368,7 @@
 			height: auto;
 		}
 	}
-	
+
 	h1 {
 		padding-right: 0;
 	}
@@ -380,7 +380,7 @@
 		display: block;
 		z-index: 30;
 		font-size: 3rem;
-	 	color: $black;		
+	 	color: $black;
 
 	 	&:hover {
 			color: $white;
@@ -392,7 +392,7 @@
 	#specialties {
 		display: none;
 	}
-	
+
 	.col-skew {
 		padding: 2% 4%;
 		background-color: $yellow;
