@@ -206,7 +206,7 @@
 		position: absolute;
 		top: 55%;
 		left: 50%;
-		width: 55%;		
+		width: 55%;
 		transform: translate(-50%, -55%);
 
 		#intro-parallax.active {
@@ -331,16 +331,34 @@
 	height: 1000px;
 	background-color: $yellow;
     @include clearfix;
+	
+	#specialties ul {
+		float: left;
+		margin-top: 20px;
+	}
 
-	.intro {
+	.intro,
+	#specialties li {
 		font-size: rem(21);
 		font-family: $font-thick;
 		line-height: 1.2;
 		margin-bottom: 0;
 	}
 
+	#specialties li {
+		margin-bottom: 15px;
+		background-color: $white;
+		color: $white;
+		padding: 5px;
+
+		span {
+			color: $black;
+		}
+	}
+
 	.col {
-		header, p {
+		header, p, 
+		#specialties ul {
 		    position: relative;
 		    z-index: 3;
 		}
@@ -350,7 +368,31 @@
 			height: auto;
 		}
 	}
+	
+	h1 {
+		padding-right: 0;
+	}
 
+	// Trigger show hide text in what we do
+	.show-hide {
+		position: relative;
+		float: right;
+		display: block;
+		z-index: 30;
+		font-size: 3rem;
+	 	color: $black;		
+
+	 	&:hover {
+			color: $white;
+			@include hover-links;
+	 	}
+	}
+
+	// Default hidden
+	#specialties {
+		display: none;
+	}
+	
 	.col-skew {
 		padding: 2% 4%;
 		background-color: $yellow;
@@ -415,6 +457,36 @@
 			font-size: rem(12);
 			font-style: italic;
 			border-top: 1px solid rgba(255,255,255,0.3);
+		}
+	}
+}
+
+// Switch bg color styling of this section
+#what-we-do.switch-text {
+	background-color: $black;
+	@include hover-links;
+
+	h1:after {
+		background-color: $white;
+	}
+
+	.col-skew {
+		background-color: $black;
+		color: $white;
+		@include hover-links;
+
+		&:after {
+			background-color: $black;
+			@include hover-links;
+		}
+
+		#about {
+			display: none;
+			@include hover-links;
+		}
+
+		#specialties {
+			display: block;
 		}
 	}
 }
@@ -619,7 +691,7 @@
 			p a:hover {
 				background-color: $white;
 				color: $black;
-			}			
+			}
 
 			.inline {
 				float: left;

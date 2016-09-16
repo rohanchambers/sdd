@@ -105,21 +105,34 @@
 
         <div id="what-we-do-outer">
             <section id="what-we-do" class="section-what-we-do eavesdrop">
-                <div class="col col-skew">
+                <div class="col col-skew">                
                     <header>
-                        <h1>What we do</h1>
-                        <p class="intro">Slam Dunk Digital is a creative and digital collective that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
+                        <h1>What we do 
+                            <i class="fa fa-question-circle show-hide" aria-hidden="true"></i>
+                        </h1>
                     </header>
 
-                    <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for high profile brands from all around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
+                    <article id="about">                        
+                        <p class="intro">Slam Dunk Digital is a creative and digital collective that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
+                        <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for high profile brands from all around the world. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
+                        <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
+                        <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
+                        <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
+                        <p>We look forward to collaborating with you to boost your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
+                    </article>
 
-                    <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
-
-                    <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
-
-                    <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level we work at. Some of these projects were created while working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
-
-                    <p>We look forward to collaborating with you to boost your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
+                    <article id="specialties">
+                        <ul>
+                            <li><span>Full re-brand identities</span></li>
+                            <li><span>Web design</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>Print design</span></li>
+                            <li><span>Motion graphics</span></li>
+                            <li><span>Video</span></li>
+                            <li><span>3D modelling &amp; animation</span></li>
+                            <li><span>Social media management</span></li>
+                        </ul>
+                    </article>
                 </div>
 
                 <div class="col col-no-skew">
