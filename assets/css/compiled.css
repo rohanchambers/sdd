@@ -661,6 +661,7 @@ header p {
 #contact-info,
 #site-header,
 #error-404,
+#page-packages,
 footer {
   max-width: 1024px;
   margin-left: auto;
@@ -675,6 +676,7 @@ footer {
   #contact-info::after,
   #site-header::after,
   #error-404::after,
+  #page-packages::after,
   footer::after {
     clear: both;
     content: "";
@@ -708,14 +710,16 @@ footer {
   #case-study .col:last-child {
     margin-right: 0; }
 
-#case-study-nav .col {
+#case-study-nav .col,
+#page-packages .col {
   float: left;
   display: block;
   margin-right: 0%;
   width: 33.33333%;
   padding: 0;
   margin-right: 0; }
-  #case-study-nav .col:last-child {
+  #case-study-nav .col:last-child,
+  #page-packages .col:last-child {
     margin-right: 0; }
 
 .col-no-skew .pe-thumbs li {
@@ -4642,6 +4646,9 @@ footer {
     footer #copyright-info ul {
       margin: 0; }
 
+#packages-banner {
+  background: url(../img/global/social_banner.png) center center; }
+
 .page-error-404 {
   width: 100%;
   height: 100%; }
@@ -4695,6 +4702,7 @@ footer {
 
   section header,
   #site-header,
+  #page-packages,
   .overlay h1 {
     padding: 0 3%; }
 
@@ -4822,10 +4830,33 @@ footer {
   #case-study .col-skew:after {
     display: none; }
 
+  #page-packages .col-3 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #page-packages .col-3:last-child {
+      margin-right: 0; }
+
   #site-header-outer #site-header .col-skew,
   #case-study-outer #case-study .col-skew {
     min-height: auto;
-    padding: 25px 4%; } }
+    padding: 25px 4%; }
+
+  #page-packages .col-6 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #page-packages .col-6:last-child {
+      margin-right: 0; }
+  #page-packages .col-12 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #page-packages .col-12:last-child {
+      margin-right: 0; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,
@@ -4853,6 +4884,14 @@ footer {
     top: 120px;
     right: -15px; } }
 
+@media screen and (max-width: 600px) {
+  #page-packages .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #page-packages .col:last-child {
+      margin-right: 0; } }
 @media screen and (max-width: 479px) {
   #work,
   #clients,

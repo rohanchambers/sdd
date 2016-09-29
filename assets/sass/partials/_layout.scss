@@ -11,7 +11,7 @@
 #error-404,
 footer {
 	@include outer-container(1024px);
-}
+}	
 
 #services,
 #work,
@@ -38,6 +38,15 @@ footer {
 	.col {
 		@include span-columns(4);
 		@include pad(0);
+		@include omega();
+	}
+}
+
+#package-deals {
+	@include outer-container(1200px);
+
+	.col {
+		@include span-columns(4);
 		@include omega();
 	}
 }

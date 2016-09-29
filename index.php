@@ -152,7 +152,6 @@
             <p class="scroll-down"><a href="#section-clients">Scroll down</a></p>
         </section>
 
-
         <section id="clients" class="section-clients eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>

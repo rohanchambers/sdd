@@ -293,6 +293,23 @@ footer {
   #case-study-nav .col:last-child {
     margin-right: 0; }
 
+#package-deals {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  #package-deals::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #package-deals .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 33.33333%;
+    margin-right: 0; }
+    #package-deals .col:last-child {
+      margin-right: 0; }
+
 .col-no-skew .pe-thumbs li {
   float: left;
   display: block;
@@ -4217,6 +4234,77 @@ footer {
     footer #copyright-info ul {
       margin: 0; }
 
+#packages-banner {
+  background: red url(../img/global/social_banner.jpg) center center;
+  height: 234px;
+  width: 100%; }
+
+#package-deals {
+  margin-bottom: 50px; }
+  #package-deals header {
+    margin-top: 15px;
+    padding: 0; }
+    #package-deals header h1 {
+      padding: 0 0 0 25px; }
+    #package-deals header h1:before {
+      left: 0;
+      background-color: #000; }
+    #package-deals header h1:after {
+      left: 25px;
+      width: 35%;
+      padding: 0; }
+  #package-deals article h2 {
+    position: relative;
+    padding-left: 25px; }
+    #package-deals article h2:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 25px;
+      width: 12px;
+      background-color: #fd070d;
+      content: ''; }
+  #package-deals article ul {
+    width: 95%;
+    padding-left: 18px; }
+    #package-deals article ul li {
+      margin-bottom: 15px; }
+  #package-deals article .btn-price {
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 25px;
+    width: auto;
+    padding: 5px 10px;
+    clear: both;
+    border: none;
+    color: #FFF;
+    font-size: 1.5rem; }
+    #package-deals article .btn-price:after {
+      position: absolute;
+      top: 0;
+      right: -7px;
+      width: 5px;
+      height: 100%;
+      background-color: #ffc036;
+      content: ''; }
+  #package-deals #basic h2:before,
+  #package-deals #basic :after,
+  #package-deals #basic span {
+    background-color: #ffc036; }
+  #package-deals #business h2:before,
+  #package-deals #business :after,
+  #package-deals #business span {
+    background-color: #fd070d; }
+  #package-deals #premium h2:before,
+  #package-deals #premium :after,
+  #package-deals #premium span {
+    background-color: #009f5e; }
+  #package-deals #extras h2:before,
+  #package-deals #extras :after,
+  #package-deals #extras span {
+    background-color: #0074c0; }
+
 .page-error-404 {
   width: 100%;
   height: 100%; }
@@ -4263,15 +4351,27 @@ footer {
     left: 0;
     right: auto; }
   #work h1:after {
-    left: 25px; } }
+    left: 25px; }
+
+  #package-deals {
+    padding: 0 3%;
+    transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear; } }
 @media screen and (max-width: 1024px) {
   #home h1 {
     width: auto; }
 
   section header,
   #site-header,
+  #package-deals,
   .overlay h1 {
-    padding: 0 3%; }
+    padding: 0 3%;
+    transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear; }
 
   #case-study-intro,
   #case-study-info header {
@@ -4397,10 +4497,33 @@ footer {
   #case-study .col-skew:after {
     display: none; }
 
+  #page-packages .col-3 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #page-packages .col-3:last-child {
+      margin-right: 0; }
+
   #site-header-outer #site-header .col-skew,
   #case-study-outer #case-study .col-skew {
     min-height: auto;
-    padding: 25px 4%; } }
+    padding: 25px 4%; }
+
+  #package-deals .col-6 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #package-deals .col-6:last-child {
+      margin-right: 0; }
+  #package-deals .col-12 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #package-deals .col-12:last-child {
+      margin-right: 0; } }
 @media screen and (max-width: 600px) {
   #home h1,
   .overlay h1,
@@ -4428,6 +4551,14 @@ footer {
     top: 120px;
     right: -15px; } }
 
+@media screen and (max-width: 600px) {
+  #package-deals .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #package-deals .col:last-child {
+      margin-right: 0; } }
 @media screen and (max-width: 479px) {
   #work,
   #clients,

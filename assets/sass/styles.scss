@@ -1087,6 +1087,120 @@ footer {
 	}
 }
 
+
+// DEAL PACKAGES
+#packages-banner {
+	background: red url(../img/global/social_banner.jpg) center center;
+	height: 234px;
+	width: 100%;
+}
+
+#package-deals {
+	margin-bottom: 50px;
+
+	header {
+		margin-top: 15px;
+		padding: 0;
+
+			h1 {
+				padding: 0 0 0 25px;
+			}
+
+			h1:before {
+				left: 0;
+				background-color: $black;
+			}
+
+			h1:after {
+				left: 25px;
+				width: 35%;
+				padding: 0;
+			}
+	}
+
+	article {
+		h2 {
+			position: relative;
+			padding-left: 25px;
+
+				&:before {
+					position: absolute;
+					left: 0;
+					top: 0;
+					height: 25px;
+					width: 12px;
+					background-color: $red;
+					content: '';
+				}
+		}
+		
+		ul {
+			width: 95%;
+			padding-left: 18px;			
+
+			li {
+				margin-bottom: 15px;
+			}
+		}
+
+		.btn-price {
+			position: relative;
+			display: block;
+			float: right;
+			margin-right: 25px;
+			width: auto;
+			padding: 5px 10px;
+			clear: both;
+			border: none;
+			color: $white;
+			font-size: 1.5rem;
+			
+				&:after {
+					position: absolute;
+					top: 0;
+					right: -7px;
+					width: 5px;
+					height: 100%;
+					background-color: $yellow;
+					content: '';
+				}
+		}
+	}
+
+	#basic {
+		h2:before,
+		:after,
+		span {
+			background-color: $yellow;
+		}	
+	}
+
+	#business {
+		h2:before,
+		:after,
+		span {
+			background-color: $red;
+		}
+	}
+
+	#premium { 
+		h2:before,
+		:after,
+		span {
+			background-color: $green;
+		}
+	}
+
+	#extras { 
+		h2:before,
+		:after,
+		span {
+			background-color: $blue;
+		}
+	}	
+
+}
+
 // 404 SECTION
 .page-error-404 {
 	width: 100%;

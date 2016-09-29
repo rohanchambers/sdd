@@ -21,6 +21,11 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 			left: 25px;
 		}
 	}
+
+	#package-deals {
+		padding: 0 3%;
+		@include transition();
+	}	
 }
 
 // DESKTOP | Min 1025px
@@ -40,8 +45,10 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	// Spacing for header sections
 	section header,
 	#site-header,
+	#package-deals,
 	.overlay h1 {
 		padding: 0 3%;
+		@include transition();
 	}
 	
 	// Reset padding to even out columns
@@ -192,7 +199,13 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 			display: none;
 		}			
 	}
-	
+
+	#page-packages {
+		.col-3 {
+			@include span-columns(12);
+		}
+	}
+
 	// Paddding for col skew on case study page
 	#site-header-outer #site-header .col-skew,
 	#case-study-outer #case-study .col-skew	{
@@ -200,6 +213,15 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		padding: 25px 4%;
 	}
 
+	#package-deals {
+		.col-6 {
+			@include span-columns(6);
+		}
+		
+		.col-12 {
+			@include span-columns(12);
+		}
+	}
 
 }
 
@@ -251,6 +273,12 @@ $tablet-600: new-breakpoint(max-width 600px);
 			}
 		}		
 	}
+
+	#package-deals {
+		.col {
+			@include span-columns(12);
+		}
+	}	
 }
 
 

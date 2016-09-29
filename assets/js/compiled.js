@@ -870,14 +870,14 @@ function isMobile() {
 ;// Animate speed scroll
 var speed = 1000;
 
-// Defining a function to set height size for #home slide to take up the whole screen (Home page) 
+// Defining a function to set height size for #home slide to take up the whole screen (Home page)
 function fullscreen(){
     $('#home, .overlay').css({
         height: jQuery(window).height()
     });
 }
 
-// Scroll to sections 
+// Scroll to sections
 function scrollToSections() {
     // Scroll by end of section arrows and main nav
     $('.overlay ul li, .scroll-down').find('a').click(function(e) {
@@ -926,10 +926,10 @@ function isMobile() {
 
 // Document ready
 $(function(){
-    // Add parallax to intro copy only for desktop otherwise 
+    // Add parallax to intro copy only for desktop otherwise
     // mobile vertical center alignment is off
     var windowHeight = jQuery(window).height()
-    
+
     if ( windowHeight > 375 ) {
         $('#intro-parallax').addClass('active');
         // Create cross browser requestAnimationFrame method:
@@ -938,27 +938,33 @@ $(function(){
          || window.webkitRequestAnimationFrame
          || window.msRequestAnimationFrame
          || function(f){setTimeout(f, 1000/60)}
-         
+
         var slogan = document.getElementById('intro-parallax')
-         
+
         function parallax(){
-            var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
+            var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
             // 145 is the same in the css and the the position the element starts before parallax starts
             slogan.style.top = -scrolltop * .4 - 145 + 'px' // move bubble1 at 20% of scroll rate
         }
-         
+
         window.addEventListener('scroll', function(){ // on page scroll
             requestAnimationFrame(parallax) // call parallaxbubbles() on next available screen paint
-        }, false)        
+        }, false)
     }
 
-    // What we do, show hide content
-    $('.show-hide').hover( function(e){
-        e.preventDefault();
-        $('#what-we-do').toggleClass('switch-text');
-    });
+    // What we do, show hide content. Click or hover depending on devcie state
+    if (isMobile()) {
+        $('.show-hide').click( function(e){
+            e.preventDefault();
+            $('#what-we-do').toggleClass('switch-text');
+        });
+    } else {
+        $('.show-hide').hover( function(){
+            $('#what-we-do').toggleClass('switch-text');
+        });
+    }
 
-    // Remove from DOM mobile BG video on main navigation 
+    // Remove from DOM mobile BG video on main navigation
     if (isMobile()) {
         $('#space-video').remove();
     }
@@ -978,11 +984,11 @@ $(function(){
     });
 
     // Bind a click event to anything with the class 'toggle-nav'
-    $('.hamburger').click(function() {  
+    $('.hamburger').click(function() {
         // Toggle the Body Class 'show-nav'
         $('body').toggleClass('show-nav');
         $('#nav-icon').toggleClass('open');
-        // Hide social sharing on nav open 
+        // Hide social sharing on nav open
         $('#share-me').removeClass('go');
         $('#share-me').addClass('goAway');
         //$('.overlay ul li.overlay-share').toggleClass('show-hide');
@@ -991,7 +997,7 @@ $(function(){
     });
 
     // Disable clicks of thumbs on the  'what-we-do' section
-    $('.pe-thumbs li').click( function(e){      
+    $('.pe-thumbs li').click( function(e){
         e.preventDefault();
     });
 
@@ -1031,7 +1037,7 @@ $(function(){
     $('#btn-submit').click( function(){
         $('#contact-form').submit();
     });
-    
+
     // FUNCTION CALLS
 
     // Home page to be full Height at all resolutionss
@@ -1042,7 +1048,7 @@ $(function(){
         fullscreen();
     });
 
-    // On click of Main Nav and Mini items 
+    // On click of Main Nav and Mini items
     scrollToSections();
 
 }); // End of Document ready
@@ -1052,7 +1058,7 @@ $(function(){
 $(document).on('scroll',function(){
     // If scroll top is 400 hide share me from top right of screen
     if($(document).scrollTop() > 400) {
-        // Hide social sharing on nav open 
+        // Hide social sharing on nav open
         $('#share-me').removeClass('go');
         $('#share-me').addClass('goAway');
     }
@@ -1080,17 +1086,17 @@ $(document).keyup(function(e) {
     if (e.keyCode === 27) {
         $('body').toggleClass('show-nav');
         $('#nav-icon, .overlay').toggleClass('open');
-    } 
+    }
 });
 
 // Load Google maps
 function initMap() {
-     
+
     var slamDunkDigital = {lat: 51.534377, lng: -0.105573};
 
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 16,
-        scrollwheel: false,        
+        scrollwheel: false,
         center: slamDunkDigital
     });
 
@@ -1100,7 +1106,7 @@ function initMap() {
         position: slamDunkDigital,
         map: map,
         icon: image,
-        title: 'Slam Dunk Digital'   
+        title: 'Slam Dunk Digital'
     });
 
     var contentString = '<div id="map-info">'+
@@ -1114,7 +1120,7 @@ function initMap() {
           'http://slamDunkDigital.co.uk/</a> <br>'+
           'Email: <a href="@mailto:info@slamDunkDigital.co.uk/">'+
           'info@slamDunkDigital.co.uk</a><br>'+
-          'Phone: <a href="tel:+447917044058">+44 (0)79 170 44 058</a>'+   
+          'Phone: <a href="tel:+447917044052">+44 (0)79 170 44 052</a>'+
           '</div>'+
       '</div>';
 
