@@ -11,7 +11,7 @@
 #error-404,
 footer {
 	@include outer-container(1024px);
-}	
+}
 
 #services,
 #work,
@@ -47,7 +47,17 @@ footer {
 
 	.col {
 		@include span-columns(4);
-		@include omega();
+		padding-right: 15px;
+	}
+}
+
+#process-steps {
+	@include outer-container(1200px);
+
+	.col {
+		@include span-columns(3);
+		@include omega(4n);	
+		padding-right: 15px;
 	}
 }
 

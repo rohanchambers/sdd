@@ -22,7 +22,8 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
-	#package-deals {
+	#package-deals,
+	#process-steps {
 		padding: 0 3%;
 		@include transition();
 	}	
@@ -63,6 +64,22 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 
 	footer .col {
 		padding: 2% 3%;
+	}
+
+	#package-deals {
+		.col {
+			@include span-columns(6);
+		}
+		
+		.col-12 {
+			@include span-columns(12);
+		}
+	}
+
+	#process-steps {
+		.col {
+			@include span-columns(6);
+		}
 	}
 }
 
@@ -212,17 +229,6 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		min-height: auto;
 		padding: 25px 4%;
 	}
-
-	#package-deals {
-		.col-6 {
-			@include span-columns(6);
-		}
-		
-		.col-12 {
-			@include span-columns(12);
-		}
-	}
-
 }
 
 // TABLET 600PX | Logo stack: ;
@@ -274,8 +280,9 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}		
 	}
 
-	#package-deals {
-		.col {
+	#package-deals,
+	#process-steps {
+		.col, .col-4 {
 			@include span-columns(12);
 		}
 	}	
