@@ -41,13 +41,6 @@
                     <li class="red"><a href="/#section-work"><span class="red">O</span>ur work</a></li>
                     <li class="green"><a href="/#section-clients"><span class="green">C</span>lients</a></li>
                     <li class="blue"><a href="/#section-contact"><span class="blue">C</span>ontact</a></li>
-                    <li class="social">
-                        <div>
-                            <i class="fa fa-facebook fa-1x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
-                            <i class="fa fa-twitter fa-1x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
-                            <i class="fa fa-instagram fa-1x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
-                        </div>
-                    </li>
                     <li class="overlay-share show-hide">
                         <ul>
                             <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>

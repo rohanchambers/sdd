@@ -1,5 +1,5 @@
 <?php
-// ENV. status
+// ENV. status. Rung grunt
 $PRODUCTION = false;
 ?>
 <!DOCTYPE html>
@@ -68,10 +68,7 @@ $PRODUCTION = false;
                 <h1><a href="/">Slam Dunk Digital</a></h1>
                 <nav id="social-links" class="nav-global">
                     <ul>
-                        <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
-                        <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
+                        <li><span class="share-text">Share</span><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
                                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
@@ -89,13 +86,14 @@ $PRODUCTION = false;
         <section id="package-deals">
             <header>
                 <h1>Web design package deals</h1>
-                <p>All packages will be using Wordpress as a CMS allowing you to have complete control over your content.</p>
+                <p>All packages will be using Wordpress as a CMS allowing you to have complete control over your site's content and homepage.</p>
             </header>
 
             <article id="basic" class="col">
                 <h2>Basic package</h2>
                 <ul>
                     <li>Free Initial Consultation</li>
+                    <li>The use of one of our premium template designs</li>
                     <li>Set up and launch of your site. We'll move it to your web host of choice if necessary</li>
                     <li>Integration of CMS for you to manually update content
                         <br>eg. menus, dish of the day on the homepage</li>
@@ -108,14 +106,15 @@ $PRODUCTION = false;
                     <li>Additional features upon request after during consultation</li>
                     <li>Ready in 2-3 weeks</li>
                 </ul>
-                <span class="btn-price">£2,500</span>
+                <span class="btn-price">CHF 2,990</span>
             </article>
 
             <article id="business" class="col">
                 <h2>Business package</h2>
                 <ul>
                     <li>Free Initial Consultation</li>
-                    <li>Set up and launch of your site. We'll move it to your web host of choice if necessary</li>
+                    <li>The use of one of our premium template designs</li>
+                    <li>Set up and launch of your site. We'll move it to your web host of choice if necessary</li>                    
                     <li>Integration of CMS for you to manually update content
                         <br>eg. menus, dish of the day on the homepage</li>
                     <li>Optimized for mobile devices</li>
@@ -129,7 +128,7 @@ $PRODUCTION = false;
                     <li>Additional features upon request after consultation</li>
                     <li>Ready in 3-4 weeks</li>
                 </ul>
-                <span class="btn-price">£5,000</span>
+                <span class="btn-price">CHF 4,990</span>
             </article>
 
             <article id="premium" class="col col-12">
@@ -153,14 +152,14 @@ $PRODUCTION = false;
                     <li>Additional features upon request after consultation</li>
                     <li>Ready in 6 - 8 weeks +</li>
                 </ul>
-                <span class="btn-price">£10,000+</span>
+                <span class="btn-price">CHF 10,000+</span>
             </article>
 
             <article id="extras" class="col col-12">
                 <h2>Additional features</h2>
                 <ul>
-                    <li>Add a blog to any website to share your thoughts or promote your business. Creating posts is simple with our CMS tools.</li>
                     <li>Logo design / rebranding / Colour schemes</li>
+                    <li>Add a blog to any website to share your thoughts or promote your business. Creating posts is simple with our CMS tools.</li>
                 </ul>
                 <span class="btn-price">Get in touch</span>
             </article>
@@ -169,40 +168,40 @@ $PRODUCTION = false;
         <section id="process-steps">
             <header>
                 <h1>Process of a web project</h1>
-                <p>To get an idea of how the process of our journey together will unfold please have a look below. Please understand all projects are different s the below is a rough outline. Some fully customised designs i.e the Premium package will go through many more revisions and one to one attention.</p>
+                <p>To get an idea of how the process of our journey together will unfold please have a look below. Please understand all projects are different so the below is a rough outline. Some fully customised designs i.e the Premium package will go through many more revisions and a lot more one to one attention.</p>
             </header>
             <div class="row">
                 <article class="col">
                     <h2>1. Package Selection</h2>
-                    <p>Get in touch with us and we can speak on a one to one basis and help you choose the package that fits your website needs and available budget.</p>
+                    <p>Get an idea of which package you want that fits your needs and available budget and we can then speak one to one to help you through the process.</p>
                 </article>
                 <article class="col">
                     <h2>2. Accept Estimate &amp; Pay</h2>
-                    <p>One we have agreed on the package and any additional features added if needed, we can agree on a price and a delivery date.</p>
+                    <p>Once we have agreed on the package and any additional features you think are necessary, we can agree on a total quote and a delivery date.</p>
                 </article>
                 <article class="col">
                     <h2>3. Discovery Call</h2>
-                    <p>Using skype or over the phone, we'll work together to construct your website's infrastructure &amp; pages.</p>
+                    <p>Using skype or over the phone, we'll work together to construct your website's infrastructure &amp; pages. It's important to get this perfect from the start to avoid future unecessary changes during the coding phase.</p>
                 </article>
                 <article class="col">
                     <h2>4. Design</h2>
-                    <p>Working with the page layouts we created in step 3, our creative team will customize your website.</p>
+                    <p>Working with the page layouts we created in step 3, depending on which package you chose our creative team will customize your website. We will always give you a preview of the final design before we commence coding the site.</p>
                 </article>
                 <article class="col">
                     <h2>5. Development</h2>
-                    <p>We integrate any required functionality &amp; ensure the site works great on mobile.</p>
+                    <p>The coding / programming commences and we integrate any required functionality &amp; ensure the site works great on mobile.</p>
                 </article>
                 <article class="col">
                     <h2>6. Edit Call</h2>
-                    <p>With your working website ready for review, we do a final review to make tweaks across the site.</p>
+                    <p>With your working website ready for review, we do the final cosmetic checks to make tweaks across the site.</p>
                 </article>
                 <article class="col">
                     <h2>7. Final Review</h2>
-                    <p>If the content has been provided to us, we add it and do a final review of your new site.</p>
+                    <p>If the content has been provided to us, we add it and do anohter final site review. This is optional, you are free to put in the content manually via the CMS.</p>
                 </article>
                 <article class="col">
                     <h2>8. Ready for launch</h2>
-                    <p>Upon final transfer of the funds, if this was agreed we will upload your site to the web.</p>
+                    <p>Upon final transfer of the total quote (if agreed to do in instalments), we will upload your site to the web and voila!</p>
                 </article>
             </div>
         </section>
@@ -225,13 +224,6 @@ $PRODUCTION = false;
 
                 <div id="copyright" class="col">
                     <div id="copyright-info">
-                        <ul>
-                            <li class="social">
-                                <i class="fa fa-facebook fa-2x"><a href="#"></a></i>
-                                <i class="fa fa-twitter fa-2x"><a href="#"></a></i>
-                                <i class="fa fa-instagram fa-2x"><a href="#"></a></i>
-                            </li>
-                        </ul>
                         <p>Slam Dunk Digital Limited<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
@@ -240,7 +232,7 @@ $PRODUCTION = false;
             </footer>
         </div>
 
-        <?php include("incl/inc-navs-cs.php"); ?>
+        <?php include("../incl/inc-navs-cs.php"); ?>
 
         <?php if ($PRODUCTION) { ?>
             <script src="/assets/js/cs-compiled.min.js"></script>

@@ -167,11 +167,19 @@
     	z-index: 100;
     	top: 0;
     	right: 90px;
-
+		
         li {
+        	position: relative;
         	float: left;
         	list-style-type: none;
             margin: 0 10px 0 0;
+				
+			.share-text {
+				position: absolute;
+				left: -70px;
+	        	font-family: $font-thick;
+	        	text-transform: uppercase;
+			}
 
 	        a {
 	            color: $white;
@@ -190,7 +198,7 @@
 
     #social-links ul#share-me {
         position: absolute;
-        top: 55px;
+        top: 38px;
         right: -3px;
         height: auto;
         width: 290px;
@@ -1076,8 +1084,8 @@ footer {
 			#border-blue {
 				position: absolute;
 				right: 0;
-				bottom: 16px;
-				height: 92px;
+				bottom: 15px;
+				height: 50px;
 				border-right: 10px solid $blue;
 			}
 
@@ -1090,7 +1098,7 @@ footer {
 
 // DEAL PACKAGES
 #packages-banner {
-	background: red url(../img/global/social_banner.jpg) center center;
+	background: url(../img/global/social_banner.jpg) center center;
 	height: 234px;
 	width: 100%;
 }

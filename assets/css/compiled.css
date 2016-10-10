@@ -730,7 +730,8 @@ footer {
     float: left;
     display: block;
     margin-right: 0%;
-    width: 33.33333%; }
+    width: 33.33333%;
+    padding-right: 15px; }
     #package-deals .col:last-child {
       margin-right: 0; }
 
@@ -746,7 +747,8 @@ footer {
     float: left;
     display: block;
     margin-right: 0%;
-    width: 25%; }
+    width: 25%;
+    padding-right: 15px; }
     #process-steps .col:last-child {
       margin-right: 0; }
     #process-steps .col:nth-child(4n) {
@@ -3961,9 +3963,16 @@ Transition Layer
     right: 90px; }
     #home #social-links li,
     #site-header #social-links li {
+      position: relative;
       float: left;
       list-style-type: none;
       margin: 0 10px 0 0; }
+      #home #social-links li .share-text,
+      #site-header #social-links li .share-text {
+        position: absolute;
+        left: -70px;
+        font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+        text-transform: uppercase; }
       #home #social-links li a,
       #site-header #social-links li a {
         color: #FFF; }
@@ -3980,7 +3989,7 @@ Transition Layer
   #home #social-links ul#share-me,
   #site-header #social-links ul#share-me {
     position: absolute;
-    top: 55px;
+    top: 38px;
     right: -3px;
     height: auto;
     width: 290px;
@@ -4672,14 +4681,14 @@ footer {
     footer #copyright-info #border-blue {
       position: absolute;
       right: 0;
-      bottom: 16px;
-      height: 92px;
+      bottom: 15px;
+      height: 50px;
       border-right: 10px solid #0074c0; }
     footer #copyright-info ul {
       margin: 0; }
 
 #packages-banner {
-  background: red url(../img/global/social_banner.jpg) center center;
+  background: url(../img/global/social_banner.jpg) center center;
   height: 234px;
   width: 100%; }
 

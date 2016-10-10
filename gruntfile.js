@@ -96,6 +96,7 @@ module.exports = function(grunt){
 		      src: [
 		        "assets/css/*.css",
 		        "assets/js/**/*.js",
+		        "packages/*.php",
 		        "*.php",
 		        "incl/*.php",
 		        "case-study/**/*.php"
@@ -112,7 +113,7 @@ module.exports = function(grunt){
 		  dist: {
 		    files: {
 		      'index.php': 'index-dev.php',
-
+		      'packages/index.php': 'packages/index-dev.php'
 		    }
 		  }
 		},

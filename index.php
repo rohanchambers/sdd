@@ -63,11 +63,8 @@
                     <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
-                    <ul>
-                        <li><a href="https://www.facebook.com/slamdunkdigital" title="Facebook share" target="_blank"><i class="fa fa-facebook fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://twitter.com/slamdunkdigital" title="Twitter share" target="_blank"><i class="fa fa-twitter fa-1x btn-animate"></i></a></li>
-                        <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
-                        <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
+                    <ul>                
+                        <li><span class="share-text">Share</span> <a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>
                                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
@@ -285,13 +282,6 @@
 
                 <div id="copyright" class="col">
                     <div id="copyright-info">
-                        <ul>
-                            <li class="social">
-                                <i class="fa fa-facebook fa-2x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
-                                <i class="fa fa-twitter fa-2x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
-                                <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
-                            </li>
-                        </ul>
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
                         Slam Dunk Digital Limited<br>
                         ©2016 Slam Dunk Digital. All rights reserved</p>
