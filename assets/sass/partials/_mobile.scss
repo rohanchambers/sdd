@@ -26,7 +26,14 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	#process-steps {
 		padding: 0 3%;
 		@include transition();
-	}	
+	}
+	
+	// Packages section even up columns height
+	#package-deals  {
+		article {
+			min-height: 900px;
+		}
+	}
 }
 
 // DESKTOP | Min 1025px
@@ -69,6 +76,8 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	#package-deals {
 		.col {
 			@include span-columns(6);
+			width: 48%;
+			margin-right: 2%;
 		}
 		
 		.col-12 {
@@ -79,8 +88,20 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	#process-steps {
 		.col {
 			@include span-columns(6);
+			width: 48%;
+			margin-right: 2%;
+			height: auto;
 		}
 	}
+
+	#package-deals {
+		article {
+			min-height: 0;
+				p.guarantee {
+					margin-top: 25px;	
+				}
+		}
+	}	
 }
 
 // TABLET | Max width 800px
@@ -226,7 +247,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	// Paddding for col skew on case study page
 	#site-header-outer #site-header .col-skew,
 	#case-study-outer #case-study .col-skew	{
-		min-height: auto;
+		height: auto;
 		padding: 25px 4%;
 	}
 }
@@ -279,11 +300,29 @@ $tablet-600: new-breakpoint(max-width 600px);
 			}
 		}		
 	}
-
+	
 	#package-deals,
-	#process-steps {
-		.col, .col-4 {
+	#process-steps,
+	#pck-services .container {
+		.col, .col-4, .col-6 {
 			@include span-columns(12);
+		}		
+	}
+	
+	#package-deals #business h2	.star-pop {
+			top: -36px;
+	    	right: -7px;			
+	}
+
+	.packages-banner {
+		.three-points {
+			width: 100%;
+		}
+	}
+
+	#process-steps {
+		article {
+			min-height: 0;
 		}
 	}	
 }

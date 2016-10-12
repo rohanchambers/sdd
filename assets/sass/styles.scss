@@ -167,13 +167,13 @@
     	z-index: 100;
     	top: 0;
     	right: 90px;
-		
+
         li {
         	position: relative;
         	float: left;
         	list-style-type: none;
             margin: 0 10px 0 0;
-				
+
 			.share-text {
 				position: absolute;
 				left: -70px;
@@ -871,6 +871,7 @@
 	li {
 		text-align: center;
 		list-style-type: none;
+		margin-bottom: 10px;
 	}
 	i {
 		position: relative;
@@ -1096,16 +1097,148 @@ footer {
 }
 
 
-// DEAL PACKAGES
-#packages-banner {
-	background: url(../img/global/social_banner.jpg) center center;
-	height: 234px;
-	width: 100%;
+// Global buttons for banner and packages
+.btn-price {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	display: block;
+	float: right;
+	margin-right: 25px;
+	width: auto;
+	padding: 8px 12px;
+	clear: both;
+	border: none;
+	color: $white;
+	font-size: 1.1rem;
+	-webkit-box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+		-moz-box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+			box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+
+		&:after {
+			position: absolute;
+			top: 0;
+			right: -7px;
+			width: 5px;
+			height: 100%;
+			background-color: $yellow;
+			content: '';
+		}
 }
 
+// DEAL PACKAGES
+.packages-banner {
+	position: relative;
+	background: url(../img/packages/macbook.jpg) center center;
+	background-size: cover;
+	min-height: 450px;
+	width: 100%;
+
+	.language {
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		color: $white;
+		z-index: 10;
+
+			a {
+				font-size: 0.9rem;
+				color: $white;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+	}
+
+	.three-points {
+		position: relative;
+		width: 50%;
+		height: auto;
+		padding: 25px 20px 20px 20px;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: $white;
+		border-right: 1px solid $white;
+		@include clearfix;
+
+		h1 {
+			text-transform: uppercase;
+			margin: 0;
+			font-size: 1.8rem;
+		}
+
+		 p {
+			color: $white;
+		 }
+
+		ul {
+			padding-left: 0;
+
+			li {
+				font-size: 1.2rem;
+				list-style-type: none;
+
+					i {
+						color: $red;
+					}
+			}
+		}
+
+		.btn-price {
+			position: relative!important;
+			margin-top: 10px;
+			background-color: $red;
+			text-decoration: none;
+
+				&:after {
+					background-color: $red;
+				}
+
+				&:hover {
+					opacity: 0.8;
+				}
+		}
+	}
+}
+
+// Web developement process of project
+.packages-banner.process {
+	background: url(../img/packages/process.jpg) center center;
+	background-size: cover;
+	overflow: hidden;
+
+	.three-points {
+		float: right;
+		background-color: rgba(0, 0, 0, 0.7);
+		border-left: 1px solid $white;
+
+		li i {
+			color: $blue;
+		}
+
+		p {
+			line-height: 1.2;
+		}
+	}
+
+	.btn-price {
+		background-color: $blue;
+
+		&:after {
+			background-color: $blue;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+
+// Package Sections
 #package-deals,
 #process-steps {
-	margin-bottom: 50px;
+	margin-top: 20px;
 
 	header {
 		margin-top: 15px;
@@ -1128,52 +1261,53 @@ footer {
 			}
 	}
 
+	// Different Packages columns
 	article {
+		position: relative;
+		padding-bottom: 45px;
+		-webkit-box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+			-moz-box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+				box-shadow: 4px 6px 10px -1px rgba(176,176,176,1);
+
 		h2 {
 			position: relative;
-			padding-left: 25px;
+			margin: 0;
+			padding: 8px 25px 9px 25px;
+			background-color: $black;
+			color: $white;
 
 				&:before {
 					position: absolute;
 					left: 0;
 					top: 0;
-					height: 25px;
+					height: 100%;
 					width: 12px;
 					background-color: $blue;
 					content: '';
 				}
 		}
+
+		p.guarantee {
+			margin-top: 120px;
+		}
+
+		p.guarantee.lang-fr {
+			margin-top: 60px;
+		}
 		
+
 		ul {
 			width: 95%;
-			padding-left: 18px;			
+			padding-left: 18px;
 
 			li {
-				margin-bottom: 15px;
+				margin-bottom: 5px;
 			}
 		}
 
-		.btn-price {
-			position: relative;
-			display: block;
-			float: right;
-			margin-right: 25px;
-			width: auto;
-			padding: 5px 10px;
-			clear: both;
-			border: none;
-			color: $white;
-			font-size: 1.5rem;
-			
-				&:after {
-					position: absolute;
-					top: 0;
-					right: -7px;
-					width: 5px;
-					height: 100%;
-					background-color: $yellow;
-					content: '';
-				}
+		p, li {
+			margin-left: 13px;
+			margin-right: 5px;
 		}
 	}
 
@@ -1182,7 +1316,7 @@ footer {
 		:after,
 		span {
 			background-color: $yellow;
-		}	
+		}
 	}
 
 	#business {
@@ -1191,9 +1325,48 @@ footer {
 		span {
 			background-color: $red;
 		}
+
+		h2 {
+			position: relative;
+
+			.star-pop {
+				display: block;
+				position: absolute;
+				top: -50px;
+				right: -20px;
+				background-color: transparent;
+				z-index: 10;
+
+					&:before {
+						font-family: FontAwesome;
+						content: "\f005";
+						font-size: 7rem;
+						color: $red;
+					}
+
+					span {
+						position: absolute;
+						top: 30%;
+						left: 12%;
+						font-size: 1.2rem;
+						background-color: transparent;
+						text-align: center;
+						line-height: 1;
+						color: $white;
+						font-weight: normal;
+						font-family: $font-thick;
+						text-shadow: 2px 2px #000;
+					}
+
+					span.fr {
+						left: 4%;
+
+					}
+			}
+		}
 	}
 
-	#premium { 
+	#premium {
 		h2:before,
 		:after,
 		span {
@@ -1201,18 +1374,68 @@ footer {
 		}
 	}
 
-	#extras { 
+	#extras {
 		h2:before,
 		:after,
 		span {
 			background-color: $blue;
 		}
-	}	
+	}
+}
+
+// Specific section overrides
+#package-deals  {
+	article {
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	#extras {
+		min-height: 0!important;
+	}
 }
 
 #process-steps {
-	margin-top: 150px;
+	margin-top: 20px;
+
+	article {
+		min-height: 220px;
+		margin-bottom: 30px;
+		padding-bottom: 10px;
+
+		h2 {
+			font-size: 1rem;
+			text-transform: uppercase;
+		}
+
+		p {
+			padding: 10px;
+			margin: 0;
+		}
+	}
 }
+
+#pck-services {
+	background: url(../img/packages/folders.jpg) center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid $white;
+	color: $white;
+	padding: 35px 0;
+
+		article {
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 15px;
+
+				h2 {
+					text-transform: uppercase;
+					margin-top: 0;
+				}
+		}
+}
+
+
 
 // 404 SECTION
 .page-error-404 {

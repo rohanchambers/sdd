@@ -193,6 +193,7 @@
             <div id="follow-us">
                 <h2>Follow us on</h2>
                 <ul>
+                    <li>Coming soon!</li>
                     <li class="social">
                         <i class="fa fa-facebook fa-3x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
                         <i class="fa fa-twitter fa-3x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
@@ -271,7 +272,7 @@
                     Dunk<br>
                     Digital</p>
 
-                    <p>+44 (0)79 17044058<br>
+                    <p>+44 (0)79 17044052<br>
                     <a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
 
                     <p>CTB Studios,<br>

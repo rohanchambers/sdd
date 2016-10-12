@@ -293,21 +293,41 @@ footer {
   #case-study-nav .col:last-child {
     margin-right: 0; }
 
-#package-deals {
+#package-deals,
+.packages-banner.container,
+#pck-services .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
-  #package-deals::after {
+  #package-deals::after,
+  .packages-banner.container::after,
+  #pck-services .container::after {
     clear: both;
     content: "";
     display: table; }
-  #package-deals .col {
+  #package-deals .col,
+  .packages-banner.container .col,
+  #pck-services .container .col {
     float: left;
     display: block;
     margin-right: 0%;
     width: 33.33333%;
-    padding-right: 15px; }
-    #package-deals .col:last-child {
+    width: 31.3333%;
+    margin-right: 2%; }
+    #package-deals .col:last-child,
+    .packages-banner.container .col:last-child,
+    #pck-services .container .col:last-child {
+      margin-right: 0; }
+  #package-deals .col-6,
+  .packages-banner.container .col-6,
+  #pck-services .container .col-6 {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #package-deals .col-6:last-child,
+    .packages-banner.container .col-6:last-child,
+    #pck-services .container .col-6:last-child {
       margin-right: 0; }
 
 #process-steps {
@@ -323,7 +343,8 @@ footer {
     display: block;
     margin-right: 0%;
     width: 25%;
-    padding-right: 15px; }
+    width: 23%;
+    margin-right: 2%; }
     #process-steps .col:last-child {
       margin-right: 0; }
     #process-steps .col:nth-child(4n) {
@@ -4098,7 +4119,8 @@ Transition Layer
   padding: 0; }
   #follow-us ul li {
     text-align: center;
-    list-style-type: none; }
+    list-style-type: none;
+    margin-bottom: 10px; }
   #follow-us ul i {
     position: relative;
     margin-right: 15px; }
@@ -4262,14 +4284,105 @@ footer {
     footer #copyright-info ul {
       margin: 0; }
 
-#packages-banner {
-  background: url(../img/global/social_banner.jpg) center center;
-  height: 234px;
+.btn-price {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  display: block;
+  float: right;
+  margin-right: 25px;
+  width: auto;
+  padding: 8px 12px;
+  clear: both;
+  border: none;
+  color: #FFF;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 4px 6px 10px -1px #b0b0b0;
+  -moz-box-shadow: 4px 6px 10px -1px #b0b0b0;
+  box-shadow: 4px 6px 10px -1px #b0b0b0; }
+  .btn-price:after {
+    position: absolute;
+    top: 0;
+    right: -7px;
+    width: 5px;
+    height: 100%;
+    background-color: #ffc036;
+    content: ''; }
+
+.packages-banner {
+  position: relative;
+  background: url(../img/packages/macbook.jpg) center center;
+  background-size: cover;
+  min-height: 450px;
   width: 100%; }
+  .packages-banner .language {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: #FFF;
+    z-index: 10; }
+    .packages-banner .language a {
+      font-size: 0.9rem;
+      color: #FFF; }
+    .packages-banner .language a:hover {
+      text-decoration: none; }
+  .packages-banner .three-points {
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding: 25px 20px 20px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    border-right: 1px solid #FFF; }
+    .packages-banner .three-points::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .packages-banner .three-points h1 {
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 1.8rem; }
+    .packages-banner .three-points p {
+      color: #FFF; }
+    .packages-banner .three-points ul {
+      padding-left: 0; }
+      .packages-banner .three-points ul li {
+        font-size: 1.2rem;
+        list-style-type: none; }
+        .packages-banner .three-points ul li i {
+          color: #fd070d; }
+    .packages-banner .three-points .btn-price {
+      position: relative !important;
+      margin-top: 10px;
+      background-color: #fd070d;
+      text-decoration: none; }
+      .packages-banner .three-points .btn-price:after {
+        background-color: #fd070d; }
+      .packages-banner .three-points .btn-price:hover {
+        opacity: 0.8; }
+
+.packages-banner.process {
+  background: url(../img/packages/process.jpg) center center;
+  background-size: cover;
+  overflow: hidden; }
+  .packages-banner.process .three-points {
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-left: 1px solid #FFF; }
+    .packages-banner.process .three-points li i {
+      color: #0074c0; }
+    .packages-banner.process .three-points p {
+      line-height: 1.2; }
+  .packages-banner.process .btn-price {
+    background-color: #0074c0; }
+    .packages-banner.process .btn-price:after {
+      background-color: #0074c0; }
+    .packages-banner.process .btn-price:hover {
+      opacity: 0.8; }
 
 #package-deals,
 #process-steps {
-  margin-bottom: 50px; }
+  margin-top: 20px; }
   #package-deals header,
   #process-steps header {
     margin-top: 15px;
@@ -4287,47 +4400,47 @@ footer {
       left: 0;
       width: 30%;
       padding: 0; }
-  #package-deals article h2,
-  #process-steps article h2 {
+  #package-deals article,
+  #process-steps article {
     position: relative;
-    padding-left: 25px; }
-    #package-deals article h2:before,
-    #process-steps article h2:before {
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 25px;
-      width: 12px;
-      background-color: #0074c0;
-      content: ''; }
-  #package-deals article ul,
-  #process-steps article ul {
-    width: 95%;
-    padding-left: 18px; }
-    #package-deals article ul li,
-    #process-steps article ul li {
-      margin-bottom: 15px; }
-  #package-deals article .btn-price,
-  #process-steps article .btn-price {
-    position: relative;
-    display: block;
-    float: right;
-    margin-right: 25px;
-    width: auto;
-    padding: 5px 10px;
-    clear: both;
-    border: none;
-    color: #FFF;
-    font-size: 1.5rem; }
-    #package-deals article .btn-price:after,
-    #process-steps article .btn-price:after {
-      position: absolute;
-      top: 0;
-      right: -7px;
-      width: 5px;
-      height: 100%;
-      background-color: #ffc036;
-      content: ''; }
+    padding-bottom: 45px;
+    -webkit-box-shadow: 4px 6px 10px -1px #b0b0b0;
+    -moz-box-shadow: 4px 6px 10px -1px #b0b0b0;
+    box-shadow: 4px 6px 10px -1px #b0b0b0; }
+    #package-deals article h2,
+    #process-steps article h2 {
+      position: relative;
+      margin: 0;
+      padding: 8px 25px 9px 25px;
+      background-color: #000;
+      color: #FFF; }
+      #package-deals article h2:before,
+      #process-steps article h2:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 12px;
+        background-color: #0074c0;
+        content: ''; }
+    #package-deals article p.guarantee,
+    #process-steps article p.guarantee {
+      margin-top: 120px; }
+    #package-deals article p.guarantee.lang-fr,
+    #process-steps article p.guarantee.lang-fr {
+      margin-top: 60px; }
+    #package-deals article ul,
+    #process-steps article ul {
+      width: 95%;
+      padding-left: 18px; }
+      #package-deals article ul li,
+      #process-steps article ul li {
+        margin-bottom: 5px; }
+    #package-deals article p, #package-deals article li,
+    #process-steps article p,
+    #process-steps article li {
+      margin-left: 13px;
+      margin-right: 5px; }
   #package-deals #basic h2:before,
   #package-deals #basic :after,
   #package-deals #basic span,
@@ -4342,6 +4455,39 @@ footer {
   #process-steps #business :after,
   #process-steps #business span {
     background-color: #fd070d; }
+  #package-deals #business h2,
+  #process-steps #business h2 {
+    position: relative; }
+    #package-deals #business h2 .star-pop,
+    #process-steps #business h2 .star-pop {
+      display: block;
+      position: absolute;
+      top: -50px;
+      right: -20px;
+      background-color: transparent;
+      z-index: 10; }
+      #package-deals #business h2 .star-pop:before,
+      #process-steps #business h2 .star-pop:before {
+        font-family: FontAwesome;
+        content: "\f005";
+        font-size: 7rem;
+        color: #fd070d; }
+      #package-deals #business h2 .star-pop span,
+      #process-steps #business h2 .star-pop span {
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        font-size: 1.2rem;
+        background-color: transparent;
+        text-align: center;
+        line-height: 1;
+        color: #FFF;
+        font-weight: normal;
+        font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+        text-shadow: 2px 2px #000; }
+      #package-deals #business h2 .star-pop span.fr,
+      #process-steps #business h2 .star-pop span.fr {
+        left: 4%; }
   #package-deals #premium h2:before,
   #package-deals #premium :after,
   #package-deals #premium span,
@@ -4357,8 +4503,39 @@ footer {
   #process-steps #extras span {
     background-color: #0074c0; }
 
+#package-deals article {
+  height: auto;
+  margin-bottom: 30px; }
+#package-deals #extras {
+  min-height: 0 !important; }
+
 #process-steps {
-  margin-top: 150px; }
+  margin-top: 20px; }
+  #process-steps article {
+    min-height: 220px;
+    margin-bottom: 30px;
+    padding-bottom: 10px; }
+    #process-steps article h2 {
+      font-size: 1rem;
+      text-transform: uppercase; }
+    #process-steps article p {
+      padding: 10px;
+      margin: 0; }
+
+#pck-services {
+  background: url(../img/packages/folders.jpg) center center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  padding: 35px 0; }
+  #pck-services article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px; }
+    #pck-services article h2 {
+      text-transform: uppercase;
+      margin-top: 0; }
 
 .page-error-404 {
   width: 100%;
@@ -4414,7 +4591,10 @@ footer {
     transition: all .5s linear;
     -o-transition: all .5s linear;
     -moz-transition: all .5s linear;
-    -webkit-transition: all .5s linear; } }
+    -webkit-transition: all .5s linear; }
+
+  #package-deals article {
+    min-height: 900px; } }
 @media screen and (max-width: 1024px) {
   #home h1 {
     width: auto; }
@@ -4443,7 +4623,9 @@ footer {
     float: left;
     display: block;
     margin-right: 0%;
-    width: 50%; }
+    width: 50%;
+    width: 48%;
+    margin-right: 2%; }
     #package-deals .col:last-child {
       margin-right: 0; }
   #package-deals .col-12 {
@@ -4458,9 +4640,17 @@ footer {
     float: left;
     display: block;
     margin-right: 0%;
-    width: 50%; }
+    width: 50%;
+    width: 48%;
+    margin-right: 2%;
+    height: auto; }
     #process-steps .col:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  #package-deals article {
+    min-height: 0; }
+    #package-deals article p.guarantee {
+      margin-top: 25px; } }
 @media screen and (max-width: 800px) {
   header h1,
   .overlay h1,
@@ -4586,7 +4776,7 @@ footer {
 
   #site-header-outer #site-header .col-skew,
   #case-study-outer #case-study .col-skew {
-    min-height: auto;
+    height: auto;
     padding: 25px 4%; } }
 @media screen and (max-width: 600px) {
   #home h1,
@@ -4616,17 +4806,35 @@ footer {
     right: -15px; } }
 
 @media screen and (max-width: 600px) {
-  #package-deals .col, #package-deals .col-4,
+  #package-deals .col, #package-deals .col-4, #package-deals .col-6,
   #process-steps .col,
-  #process-steps .col-4 {
+  #process-steps .col-4,
+  #process-steps .col-6,
+  #pck-services .container .col,
+  #pck-services .container .col-4,
+  #pck-services .container .col-6 {
     float: left;
     display: block;
     margin-right: 0%;
     width: 100%; }
-    #package-deals .col:last-child, #package-deals .col-4:last-child,
+    #package-deals .col:last-child, #package-deals .col-4:last-child, #package-deals .col-6:last-child,
     #process-steps .col:last-child,
-    #process-steps .col-4:last-child {
-      margin-right: 0; } }
+    #process-steps .col-4:last-child,
+    #process-steps .col-6:last-child,
+    #pck-services .container .col:last-child,
+    #pck-services .container .col-4:last-child,
+    #pck-services .container .col-6:last-child {
+      margin-right: 0; }
+
+  #package-deals #business h2 .star-pop {
+    top: -36px;
+    right: -7px; }
+
+  .packages-banner .three-points {
+    width: 100%; }
+
+  #process-steps article {
+    min-height: 0; } }
 @media screen and (max-width: 479px) {
   #work,
   #clients,

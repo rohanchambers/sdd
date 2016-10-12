@@ -83,97 +83,93 @@ $PRODUCTION = true;
 
         <section class="packages-banner">
             <div class="language">
-                <a href="#">English</a> | <a href="french.php">Francais</a>
+                <a href="index.php">English</a> | <a href="#">Francais</a>
             </div>
             <div class="container">
                 <article class="three-points">
-                    <h1>Rebrand your restaurant’s image at an affordable price!</h1>
-                    <p>Finally an agency that can give you access to the best designs without paying premium prices.</p>
+                    <h1>Rénovez l’image de votre restaurant à un prix abordable!</h1>
+                    <p>Finalement une agence qui donne accès aux meilleurs designs sans payer de prix astronomiques.</p>
                     <ul>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Dedicated to restaurants</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Complete control to promote your menus</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Invest according to your needs</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Dédié aux restaurateurs</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Une autonomie totale pour promouvoir vos menus</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Investissement à la taille de vos besoins</li>
                     </ul>
-                    <!-- <a href="#package-deals" class="btn-price">Find out more below</a> -->
                 </article>
             </div>
         </section>
 
         <section id="package-deals">
             <article id="basic" class="col">
-                <h2>Basic package</h2>
-                <p><strong>We provide:</strong></p>
+                <h2>Offre "Basic"</h2>
+                <p><strong>Nous fournissons:</strong></p>
                 <ul>
-                    <li>Choice between <strong>3 different</strong> web designs</li>
-                    <li><strong>1 page</strong> website</li>
-                    <li><strong>2 revisions</strong></li>
-                    <li><strong>No free changes</strong> after handover. </li>
-                    <li>All changes at additional cost</li>
-                    <li><strong>One training</strong> session (1 hour each) over Skype</li>
-                    <li><strong>1 week free support</strong> after handover</li>                    
-                    <li>Ready in 2-3 weeks as of reception of all content material</li>
+                    <li>Choix entre <strong>3 designs différents</strong></li>
+                    <li>Site web d’<strong>une page</strong></li>
+                    <li><strong>2 révisions</strong> possibles</li>
+                    <li><strong>Pas de changement</strong> gratuit après remise du site</li>
+                    <li>Tous changements additionnels sur offre</li>
+                    <li><strong>Une session</strong> de formation (1-2 heures) sur Skype</li>
+                    <li><strong>Une semaine de support</strong> gratuite après remise du site</li>
+                    <li>Livraison du site <strong>2-3 semaines</strong> dès réception de tous les éléments</li>
                 </ul>
 
-                <p class="guarantee"><strong>We guarantee:</strong></p>
+                <p class="guarantee lang-fr"><strong>Nous garantissons:</strong></p>
                 <ul>
-                    <li>Simple access to back-office to manually update yourself the menu and daily offers</li>
-                    <li>Uploading of all content and images provided by you (for the first time only)</li>
-                    <li>Responsive design for all devices</li>
-                    <li>SEO best practices</li>
-                    <li>Integration of social media platforms and share buttons</li>
+                    <li>Accès au back-office simple et aisé pour adapter les menus et plats du jour</li>
+                    <li>Mise en place de tous vos textes et photos qui nous seront fournies (uniquement la 1ère fois)</li>
+                    <li>Site web adaptatif sur tous les dispositifs smartphone, tablettes et ordinateurs</li>
+                    <li>Meilleures pratiques SEO</li>
+                    <li>Intégration des plateformes sociales avec boutons de partage</li>
                 </ul>
                 <span class="btn-price">CHF 2,990</span>
             </article>
 
             <article id="business" class="col">
-                <h2>Business package <span class="star-pop"> <span>Most<br> Popular</span></span></h2>
-                <p><strong>We provide:</strong></p>
+                <h2>Offre "Business"<span class="star-pop"> <span class="fr">Le plus<br> Populaire</span></span></h2>
+                <p><strong>Nous fournissons:</strong></p>
                 <ul>
-                    <li>Choice between <strong>5 different</strong> web designs</li>
-                    <li><strong>5 pages</strong> website</li>
-                    <li><strong>5 revisions</strong> </li>
-                    <li><strong>1 free page/content change</strong> after handover.</li>
-                    <li>After that, additional changes at cost</li>
-                    <li><strong>Two training</strong> session (1 hour each) over Skype</li>
-                    <li><strong>1 month free support</strong> after handover</li>                    
-                    <li>Ready in 2-3 weeks as of reception of all content material</li>
+                    <li>Choix entre <strong>5 designs différents</strong></li>
+                    <li>Site web de <strong>5 pages</strong></li>
+                    <li><strong>5 révisions</strong> possibles</li>
+                    <li><strong>Un changement gratuit</strong> d’une page/contenu après remise du site</li>
+                    <li>Tous changements additionnels sur offre</li>
+                    <li><strong>Deux sessions</strong> de formation (1-2 heures chacune) sur Skype</li>
+                    <li><strong>1 mois de support</strong> gratuit après remise <br>du site</li>
+                    <li>Livraison du site <strong>2-3 semaines</strong> dès réception de tous les éléments</li>
                 </ul>
 
-                <p class="guarantee"><strong>We guarantee:</strong></p>
+                <p class="guarantee lang-fr"><strong>Nous garantissons:</strong></p>
                 <ul>
-                    <li>Simple access to back-office to manually  update yourself the menu and daily offers</li>
-                    <li>Uploading of all content and images provided by you (for the first time only)</li>
-                    <li>Responsive design for all devices</li>
-                    <li>SEO best practices</li>
-                    <li>Integration of social media platforms and share buttons</li>
+                    <li>Accès au back-office simple et aisé pour adapter les menus et plats du jour</li>
+                    <li>Mise en place de tous vos textes et photos qui nous seront fournies (uniquement la 1ère fois)</li>
+                    <li>Site web adaptatif sur tous les dispositifs smartphone, tablettes et ordinateurs</li>
+                    <li>Meilleures pratiques SEO</li>
+                    <li>Intégration des plateformes sociales avec boutons de partage</li>
                 </ul>
                 <span class="btn-price">CHF 4,990</span>
             </article>
 
             <article id="premium" class="col col-12">
-                <h2>Premium package</h2>
-                <p><strong>We provide:</strong></p>
+                <h2>Offre "Premium"</h2>
+                <p><strong>Nous fournissons:</strong></p>
                 <ul>
-                    <li><strong>Free</strong> choice of designs or custom made</li>
-                    <li><strong>Unlimited</strong> pages</li>
-                    <li><strong>Unlimited</strong> revisions</li>
-                    <li><strong>3 free page/content changes</strong> after handover</li>
-                    <li>After that, additional changes at cost</li>
-                    <li><strong>1 month</strong> free support after handover</li>
-                    <li><strong>Unlimited</strong> training session over Skype</li>                    
-                    <li><strong>3 months free support</strong> after handover</li>                    
-                    <li>Possible to build e-commerce platform</li>
-                    <li>We'll move it to your web host of choice if necessary</li>
-                    <li>Ready in <strong>4-6+ weeks</strong> as of reception of all content material</li>
+                    <li><strong>Libre choix de design</strong> ou site web fait sur mesure</li>
+                    <li><strong>Nombre illimité</strong> de pages</li>
+                    <li><strong>Nombre illimité</strong> de revisions</li>
+                    <li><strong>3 changements gratuit</strong> d’une page/contenu après remise du site</li>
+                    <li>Tous changements additionnels sur offre</li>
+                    <li><strong>Nombre illimité de sessions</strong> de formation sur Skype</li>
+                    <li><strong>3 mois de support</strong> gratuit après remise du site</li>
+                    <li>Livraison du site <strong>4-6 semaines</strong> dès réception de tous les éléments</li>
                 </ul>
 
-                <p><strong>We guarantee:</strong></p>
+                <p class="guarantee lang-fr"><strong>Nous garantissons:</strong></p>
                 <ul>
-                    <li>Simple access to back-office to manually  update yourself the menu and daily offers</li>
-                    <li>Uploading of all content and images provided by you (for the first time only)</li>
-                    <li>Responsive design for all devices</li>
-                    <li>SEO best practices</li>
-                    <li>Integration of social media platforms and share buttons</li>
+                    <li>Accès au back-office simple et aisé pour adapter les menus et plats du jour</li>
+                    <li>Mise en place de tous vos textes et photos qui nous seront fournies (uniquement la 1ère fois)</li>
+                    <li>Site web adaptatif sur tous les dispositifs smartphone, tablettes et ordinateurs</li>
+                    <li>Meilleures pratiques SEO</li>
+                    <li>Intégration des plateformes sociales avec boutons de partage</li>
                 </ul>
                 <span class="btn-price">CHF 10,000+</span>
             </article>
@@ -181,12 +177,11 @@ $PRODUCTION = true;
             <article id="extras" class="col col-12">
                 <h2>Additional features</h2>
                 <ul>
-                    <li>Logo design / rebranding / Colour schemes</li>
-                    <li>Add a blog to any website to share your thoughts or promote your business. Creating posts is simple with our CMS tools.</li>
-                    <li>Ecommerce store setup</li>
-                    <li>Social media platforms creation: facebook, instagram, pinterest, youtube, tumblr, etc.</li>
-                    <li>Google analytics reports on traffic to website</li>
-                    <li>Professional photography</li>
+                    <li>Branding, logo, identité visuelle</li>
+                    <li>Rajout d’un blog pour partager votre philosophie et promouvoir votre établissement. Créer facilement un post grâce à nos modèles</li>
+                    <li>Création des plateformes media: facebook, instagram, pinterest, youtube, tumblr, etc</li>
+                    <li>Rapports google analytics sur trafic du site</li>
+                    <li>Photos professionnelles</li>
                 </ul>
                 <span class="btn-price">Get in touch with us</span>
             </article>
@@ -195,12 +190,12 @@ $PRODUCTION = true;
         <section class="packages-banner process">
             <div class="container">
                 <article class="three-points">
-                    <h1>Our journey together building your online presence</h1>
-                    <p>To get an idea of how the process of our journey together will unfold please have a look below. Please understand all projects are different so the below is a rough outline. Some fully customised designs such as our premium package may have lots more one on one interaction.</p>
+                    <h1>Process of a web project</h1>
+                    <p>To get an idea of how the process of our journey together will unfold please have a look below. Please understand all projects are different so the below is a rough outline. Some fully customised designs...</p>
                     <ul>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Organised and good communication skills</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Fully reachable via email or Skype during the whole process</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Friendly and approachable. Good at explaining the technical terms in plain English</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Dédié aux restaurateurs</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Une autonomie totale pour promouvoir ses menus</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Investissement à la taille de vos besoins</li>
                     </ul>
                 </article>
             </div>
@@ -212,19 +207,19 @@ $PRODUCTION = true;
             <div class="row">
                 <article class="col">
                     <h2>1. Package Selection</h2>
-                    <p>Get an idea of which package you want that fits your needs and available budget and we can then speak on a one to one basis to help you through the process.</p>
+                    <p>Get an idea of which package you want that fits your needs and available budget and we can then speak one to one to help you through the process.</p>
                 </article>
                 <article class="col">
-                    <h2>2. Accept Estimate &amp; Price</h2>
-                    <p>Once we have agreed on the package and any additional features you think are necessary, we can agree on a total quote and a delivery date. <br>A 25% deposit will have to be paid before commencing any work.</p>
+                    <h2>2. Accept Estimate &amp; Pay</h2>
+                    <p>Once we have agreed on the package and any additional features you think are necessary, we can agree on a total quote and a delivery date.</p>
                 </article>
                 <article class="col">
                     <h2>3. Discovery Call</h2>
-                    <p>Using skype or over the phone, we'll work together to construct your website's infrastructure &amp; pages. It's important to get this perfect from the start to minimise revisions.</p>
+                    <p>Using skype or over the phone, we'll work together to construct your website's infrastructure &amp; pages. It's important to get this perfect from the start...</p>
                 </article>
                 <article class="col">
                     <h2>4. Design</h2>
-                    <p>Working with the page layouts we created in step 3, depending on which package you chose our creative team will customize your website. <br>We will always give you a preview of the final design before we commence coding the site.</p>
+                    <p>Working with the page layouts we created in step 3, depending on which package you chose our creative team will customize your website. We will always give you a preview of the final design before we commence coding the site.</p>
                 </article>
                 <article class="col">
                     <h2>5. Development</h2>
@@ -232,15 +227,15 @@ $PRODUCTION = true;
                 </article>
                 <article class="col">
                     <h2>6. Edit Call</h2>
-                    <p>With your working website ready for review, we address any cosmetic changes necessary across the whole site.</p>
+                    <p>With your working website ready for review, we do the final cosmetic checks to make tweaks across the site.</p>
                 </article>
                 <article class="col">
                     <h2>7. Final Review</h2>
-                    <p>By this time the content should have been signed off and provided to us so that we can add it to the site and do a final site review. <br>This is optional, you are free to put in the content manually via the CMS.</p>
+                    <p>If the content has been provided to us, we add it and do anohter final site review. This is optional, you are free to put in the content manually via the CMS.</p>
                 </article>
                 <article class="col">
                     <h2>8. Ready for launch</h2>
-                    <p>Upon final transfer of the total quote, we will upload your site to the web and voila!</p>
+                    <p>Upon final transfer of the total quote (if agreed to do in instalments), we will upload your site to the web and voila!</p>
                 </article>
             </div>
         </section>
@@ -248,14 +243,13 @@ $PRODUCTION = true;
         <section id="pck-services">
             <div class="container">
                 <article class="col-6">
-                    <h1>What you need to provide to complete the order?</h1>
+                    <h1>What we need to complete the order?</h1>
                     <ol>
                         <li>WordPress login details if available</li>
                         <li>Hosting / cPanel / FTP login details</li>
                         <li>All content signed off and provided by you</li>
                         <li>All imagery assets that you want on the site provided</li> 
                     </ol>
-                    <p>*Please note that all content material needs to be provided by your own means. The time to final delivery of the website starts as of reception of all material. <br>We will go over all of this together and make a little checklist to stay organised and effective.</p>
                 </article>
             </div>
         </section>

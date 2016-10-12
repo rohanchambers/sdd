@@ -113,7 +113,8 @@ module.exports = function(grunt){
 		  dist: {
 		    files: {
 		      'index.php': 'index-dev.php',
-		      'packages/index.php': 'packages/index-dev.php'
+		      'packages/index.php': 'packages/index-dev.php',
+		      'packages/french.php': 'packages/french-dev.php'
 		    }
 		  }
 		},

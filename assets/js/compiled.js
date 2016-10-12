@@ -1031,6 +1031,11 @@ $(function(){
         });
     });
 
+    // Prevent default links
+    $('#follow-us a').click( function(e){
+        e.preventDefault();
+    });
+
     // Validate form
     $("#contact-form").validate();
 

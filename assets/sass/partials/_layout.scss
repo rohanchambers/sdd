@@ -42,13 +42,20 @@ footer {
 	}
 }
 
-#package-deals {
+#package-deals,
+.packages-banner.container,
+#pck-services .container {
 	@include outer-container(1200px);
 
 	.col {
 		@include span-columns(4);
-		padding-right: 15px;
+		width: 31.3333%;
+		margin-right: 2%;		
 	}
+
+	.col-6 {
+		@include span-columns(6);
+	}	
 }
 
 #process-steps {
@@ -57,7 +64,8 @@ footer {
 	.col {
 		@include span-columns(3);
 		@include omega(4n);	
-		padding-right: 15px;
+		width: 23%;
+		margin-right: 2%;
 	}
 }
 
