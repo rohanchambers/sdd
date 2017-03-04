@@ -1,3 +1,18 @@
+// THEME SOHO Film Finance.
+.cs-sff {
+	background-color: #8ea4af;
+	
+	.col-skew {
+		background-color: #8ea4af;
+	}
+
+	// Phone ResQ
+	#intro-bg-img {
+		background: $black url(/case-study/soho-film-finance/img/banner.jpg) no-repeat -471px -60px;
+	    background-size: cover;
+	}	
+}
+
 // THEME PHONERESQ.
 .cs-phone-resq {
 	background-color: $red;
@@ -273,7 +288,6 @@
 	    background-size: cover;
 	}
 }
-
 
 // Reposition background images for mobile 479px
 @include media($mobile) {

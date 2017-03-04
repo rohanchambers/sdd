@@ -250,11 +250,11 @@ function initMap() {
           '</div>'+
           '<h1 id="firstHeading" class="firstHeading">Welcome to Slam Dunk Digital</h1>'+
           '<div id="bodyContent">'+
-          '<p>We repair and improve all of your handheld devices and home computers. ' +
+          '<p>Slam Dunk Digital is a creative and digital collective that specialises in user friendly web design and development...  ' +
           '<p>CTB Studios,<br> Angel High Street<br> London,<br> N1 0YL, UK</p>'+
           '<p>Website: <a href="http://slamDunkDigital.co.uk/" target="_blank">'+
           'http://slamDunkDigital.co.uk/</a> <br>'+
-          'Email: <a href="@mailto:info@slamDunkDigital.co.uk/">'+
+          'Email: <a href="mailto:info@slamDunkDigital.co.uk">'+
           'info@slamDunkDigital.co.uk</a><br>'+
           'Phone: <a href="tel:+447917044052">+44 (0)79 170 44 052</a>'+
           '</div>'+

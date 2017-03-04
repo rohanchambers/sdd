@@ -16,7 +16,7 @@ $PRODUCTION = true;
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        
+
         <?php if ($PRODUCTION) { ?>
                 <link rel="stylesheet" href="/assets/css/compiled.min.css">
             <?php } else { ?>
@@ -42,7 +42,7 @@ $PRODUCTION = true;
         <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">    
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
     </head>
     <body class="page-case-study">
         <!-- Preloader -->
@@ -74,7 +74,7 @@ $PRODUCTION = true;
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
@@ -99,7 +99,7 @@ $PRODUCTION = true;
                 </div>
             </div><!-- End of case study intro -->
 
-            <section id="case-study-nav">       
+            <section id="case-study-nav">
                 <div class="col"><a href="../redbull/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../ea/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
@@ -135,7 +135,7 @@ $PRODUCTION = true;
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive</p>
                 </div><!-- Case study info -->
-                
+
                 <div id="case-study-img" class="col col-no-skew">
                      <img src="img/home.jpg" alt="Heinz, Get Well Soup">
                      <p><img src="img/buycan.jpg" alt="Heinz, Get Well Soup"></p>
@@ -149,7 +149,7 @@ $PRODUCTION = true;
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
-                    Dunk<br> 
+                    Dunk<br>
                     Digital</p>
 
                     <p>+44 (0)79 17044058<br>
@@ -171,7 +171,7 @@ $PRODUCTION = true;
                             </li>
                         </ul>
                         <p>Slam Dunk Digital Limited<br>
-                        ©2016 Slam Dunk Digital. All rights reserved</p>
+                        &copy;<?php echo date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
                 </div>
@@ -179,11 +179,11 @@ $PRODUCTION = true;
         </div>
 
         <?php include("../../incl/inc-navs-cs.php"); ?>
-        
+
         <?php if ($PRODUCTION) { ?>
             <script src="/assets/js/cs-compiled.min.js"></script>
         <?php } else { ?>
-            <script src="/assets/js/vendor/modernizr-custom.js"></script> 
+            <script src="/assets/js/vendor/modernizr-custom.js"></script>
             <script src="/bower_components/jquery/dist/jquery.min.js"></script>
             <script src="/assets/js/vendor/nav-overlay.js"></script>
             <script src="/assets/js/vendor/classie.js"></script>
@@ -202,8 +202,8 @@ $PRODUCTION = true;
           js = d.createElement(s); js.id = id;
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=168519230210632";
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));   
-        </script>  
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
         <!-- Twitter share -->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <!-- Google + share -->
@@ -219,6 +219,23 @@ $PRODUCTION = true;
                 $('#case-study-nav a').addClass('buttonPulse');
             })
         //]]>
-        </script>        
-    </body> 
+        </script>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=11006368;
+        var sc_invisible=1;
+        var sc_security="096fd4e3";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="free hit
+        counter" href="http://statcounter.com/" target="_blank"><img
+        class="statcounter"
+        src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
+        hit counter"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+    </body>
 </html>

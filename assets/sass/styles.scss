@@ -726,7 +726,10 @@
 
 		// Right column
 		#case-study-img {
-
+		     p {
+		     	margin-top: 35px;
+		     }
+		     
 			img {
 				display: block;
 				margin: 0 auto;
@@ -764,8 +767,12 @@
 	    			width: 100%;
 	    			height: auto;
 	    		}
+
+	    	&:last-child {
+	    		display: none;
+	    	}
 		}
-	}
+	}	
 }
 
 #clients {

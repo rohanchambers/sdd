@@ -13,7 +13,15 @@
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/perfect-peaks-brews/"></a>
-                </div>                
+                </div>
+                <div class="view view-first find-out-more">
+                    <img src="assets/img/work/sohoFilmFinance.jpg" alt="SOHO Film Finance" />
+                    <div class="mask">
+                        <h2>SOHO Film Finance</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
+                    </div>
+                    <a href="case-study/soho-film-finance/"></a>
+                </div>                               
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
                     <div class="mask">

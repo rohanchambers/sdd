@@ -16,7 +16,7 @@ $PRODUCTION = true;
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        
+
         <?php if ($PRODUCTION) { ?>
                 <link rel="stylesheet" href="/assets/css/compiled.min.css">
             <?php } else { ?>
@@ -42,7 +42,7 @@ $PRODUCTION = true;
         <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">    
+        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
     </head>
     <body class="page-case-study">
         <!-- Preloader -->
@@ -74,7 +74,7 @@ $PRODUCTION = true;
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
@@ -83,10 +83,10 @@ $PRODUCTION = true;
                 </nav>
             </header>
         </div><!-- End of Site header for pages -->
-        
+
         <!-- Case study Intro -->
         <div id="case-study-outer" class="cs-volvic-toughmudder">
-            <div id="case-study-intro">                
+            <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
                     <div class="stars"></div>
@@ -115,7 +115,7 @@ $PRODUCTION = true;
                     <header>
                         <h2>Agency:</h2>
                         <p>We Are Social</p>
-                    </header>                    
+                    </header>
                     <h2>Deliverables</h2>
                     <ul>
                         <li>Project &amp; Client management</li>
@@ -126,18 +126,18 @@ $PRODUCTION = true;
                     </ul>
                     <h2>Project summary</h2>
                     <p>Our team worked on this campaign for the Toughmudder Get the Bottle Facebook app. camapaign. We used the Facebook, Twitter and Instagram API's to make this as socially engaging as possible.</p>
-                    
+
                     <p>If you've #GOTTHEBOTTLE go on, show us your Game Face and you'll be in with a chance to win an adrenalin packed trip to Las Vegas or free entry to Tough Mudder.
-                    HOW TO ENTER?</p>                    
+                    HOW TO ENTER?</p>
                     <ul>
                         <li>Step 1: Take a photo of your toughest game face</li>
                         <li>Step 2: Upload your photo to Twitter or Instagram using #GOTTHEBOTTLE</li>
                     </ul>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
                 </div><!-- Case study info -->
-                
+
                 <div id="case-study-img" class="col col-no-skew">
                     <img src="img/home.jpg" alt="Volvic, Toughmudder">
                     <p><img src="img/mobile.jpg" alt="Volvic, Toughmudder"></p>
@@ -149,7 +149,7 @@ $PRODUCTION = true;
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>
-                    Dunk<br> 
+                    Dunk<br>
                     Digital</p>
 
                     <p>+44 (0)79 17044058<br>
@@ -171,7 +171,7 @@ $PRODUCTION = true;
                             </li>
                         </ul>
                         <p>Slam Dunk Digital Limited<br>
-                        ©2016 Slam Dunk Digital. All rights reserved</p>
+                        &copy;<?php echo date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
                 </div>
@@ -179,11 +179,11 @@ $PRODUCTION = true;
         </div>
 
         <?php include("../../incl/inc-navs-cs.php"); ?>
-        
+
         <?php if ($PRODUCTION) { ?>
             <script src="/assets/js/cs-compiled.min.js"></script>
         <?php } else { ?>
-            <script src="/assets/js/vendor/modernizr-custom.js"></script> 
+            <script src="/assets/js/vendor/modernizr-custom.js"></script>
             <script src="/bower_components/jquery/dist/jquery.min.js"></script>
             <script src="/assets/js/vendor/nav-overlay.js"></script>
             <script src="/assets/js/vendor/classie.js"></script>
@@ -202,8 +202,8 @@ $PRODUCTION = true;
           js = d.createElement(s); js.id = id;
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=168519230210632";
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));   
-        </script>  
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
         <!-- Twitter share -->
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <!-- Google + share -->
@@ -219,6 +219,23 @@ $PRODUCTION = true;
                 $('#case-study-nav a').addClass('buttonPulse');
             })
         //]]>
-        </script>        
-    </body> 
+        </script>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=11006368;
+        var sc_invisible=1;
+        var sc_security="096fd4e3";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="free hit
+        counter" href="http://statcounter.com/" target="_blank"><img
+        class="statcounter"
+        src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
+        hit counter"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+    </body>
 </html>

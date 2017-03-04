@@ -176,6 +176,10 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 			.view {
 				@include span-columns(6);
 				@include omega-reset(3n);
+
+		    	&:last-child {
+		    		display: block;
+		    	}				
 			}
 		}
 

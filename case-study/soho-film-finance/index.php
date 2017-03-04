@@ -8,8 +8,8 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - HP, Movember Challenge</title>
-        <meta name="title" content="Slam Dunk Digital | HP, Movember Challenge">
+        <title>Slam Dunk Digital - SOHO Film Finance</title>
+        <meta name="title" content="Slam Dunk Digital | SOHO Film Finance">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -84,8 +84,8 @@ $PRODUCTION = true;
             </header>
         </div><!-- End of Site header for pages -->
 
-        <!-- Case study Intro -->
-        <div id="case-study-outer" class="cs-hp-movember">
+
+        <div id="case-study-outer" class="cs-sff">
             <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -93,16 +93,16 @@ $PRODUCTION = true;
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>HP, Movember Challenge</h1>
-                        <p>Do you accept the challenge</p>
+                        <h1>SOHO Film Finance</h1>
+                         <p>Joy is an alternative investment</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">
-                <div class="col"><a href="../pgtips/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../perfect-peaks-brews/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../kleenex/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../heineken/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
@@ -110,32 +110,28 @@ $PRODUCTION = true;
                     <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
-                        <p>HP Sauce</p>
-                    </header>
-                    <header>
-                        <h2>Agency:</h2>
-                        <p>We Are Social</p>
+                        <p>SOHO Film Finance</p>
                     </header>
                     <h2>Deliverables</h2>
                     <ul>
                         <li>Project &amp; Client management</li>
                         <li>Creative direction</li>
+                        <li>Design &amp; rebranding</li>
                         <li>UX wireframing &amp; A/B testing</li>
                         <li>Design &amp; development</li>
-                        <li>Facebook and Twitter API's</li>
+                        <li>Back-end theme creation with Wordpress</li>
+                        <li>Deployment to servers</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>Well what a fun project this was! We love taking on projects that are on the fun side of tech and creativity. Our creatives came up with this great idea of getting all the movember fans to enter this competition to be part of a the Movember community and post their photos of themsleves with the best mustaches around.</p>
-                    <p>This site was obviously for the month of November and for those whoe were brave enough to sign up, upload their photo and take on the challenges set out were in a chance to win hard earned cash. </p>
-
-                    <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
+                    <p>SOHO Film Finance is a EIS Film Investment Company based in London, specialising in sourcing high profile film and television projects in order to reach the highest possible returns for our clients.</p>
+                    <p>We took on this project in the film finance business as firstly at Slam Dunk we are all movie buffs and secondly we enjoy going to some of the premieres.<br>
+                    The site was based on a brochure that was previously designed by the creative director Laurent Graudens. The company liked it so much they asked us to create their whole identify around this theme. The other guideline was that they wanted the site to have movement and motion so to this we created some parallax effects along with some brochue style design layouts.</p>
+                    <h2>View site</h2>
+                    <p><a href="http://sohofilmfinance.com/" target="_blank">http://sohofilmfinance.com/</a></p>
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
-                    <img src="img/home.jpg" alt="HP, Movember Challenge">
-                    <p><img src="img/challenge.jpg" alt="HP, Movember Challenge"></p>
-                    <p><img src="img/gallery.jpg" alt="HP, Movember Challenge"></p>
+                    <img src="img/home.jpg" alt="SOHO Film Finance">
                 </div>
             </section><!-- End of Case study-->
         </div>

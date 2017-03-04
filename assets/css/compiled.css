@@ -1123,6 +1123,14 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-sff {
+  background-color: #8ea4af; }
+  .cs-sff .col-skew {
+    background-color: #8ea4af; }
+  .cs-sff #intro-bg-img {
+    background: #000 url(/case-study/soho-film-finance/img/banner.jpg) no-repeat -471px -60px;
+    background-size: cover; }
+
 .cs-phone-resq {
   background-color: #fd070d; }
   .cs-phone-resq .col-skew {
@@ -4443,6 +4451,8 @@ Transition Layer
         background: transparent !important; }
       #case-study-outer #case-study #case-study-info #particle-canvas canvas {
         width: 100%; }
+    #case-study-outer #case-study #case-study-img p {
+      margin-top: 35px; }
     #case-study-outer #case-study #case-study-img img {
       display: block;
       margin: 0 auto;
@@ -4464,6 +4474,8 @@ Transition Layer
     display: block;
     width: 100%;
     height: auto; }
+  #work .row .view:last-child {
+    display: none; }
 
 #clients {
   background: url(../img/clients/client_bg.png) no-repeat center 360px; }
@@ -5134,6 +5146,8 @@ footer {
       margin-right: 0%; }
     #work .row .view:nth-child(3n+1) {
       clear: none; }
+    #work .row .view:last-child {
+      display: block; }
   #work .view.coming-soon p,
   #work .view.find-out-more p {
     font-size: 1.625rem; }

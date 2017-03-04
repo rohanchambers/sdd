@@ -104,19 +104,26 @@ module.exports = function(grunt){
 		    },
 		    options: {
 		      watchTask: true,
+		      open: true,
 				proxy: "sdd.dev/index-dev.php"
 		    }
 		  }
 		},
 
 		targethtml: {
-		  dist: {
-		    files: {
-		      'index.php': 'index-dev.php',
-		      'packages/index.php': 'packages/index-dev.php',
-		      'packages/french.php': 'packages/french-dev.php'
-		    }
-		  }
+			options: {
+				curlyTags: {
+					rlsdate: '<%= grunt.template.today("yyyymmdd") %>'
+				}
+			},
+
+			dist: {
+				files: {
+					'index.php': 'index-dev.php',
+					'packages/index.php': 'packages/index-dev.php',
+					'packages/french.php': 'packages/french-dev.php'
+				}
+			}
 		},
 
 		htmlmin: {                                     	 // Task
@@ -168,8 +175,12 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-	grunt.registerTask('default', ['browserSync', 'concat', 'cssmin', 'uglify', 'targethtml', 'watch']);
+	// Dev
+	grunt.registerTask('default', ['browserSync', 'watch']);
+
+	// Production - Build app
+	grunt.registerTask('prod', ['concat' ,'cssmin', 'uglify', 'targethtml', 'browserSync', 'watch']);
+	
 	// Minify images
 	grunt.registerTask('minifyImg', ['imagemin']);
-
 };
