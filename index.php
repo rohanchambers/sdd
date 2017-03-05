@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20170107">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20170305">
         
         
 
@@ -283,7 +283,7 @@
                 <div id="copyright" class="col">
                     <div id="copyright-info">
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
-                        Slam Dunk Digital Limited<br>
+                        Slam Dunk Digital Limited | Company no. 10282716<br>
                         ©<?php echo date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
@@ -317,7 +317,7 @@
 
         
         
-        <script src="assets/js/compiled.min.js?20170107"></script>
+        <script src="assets/js/compiled.min.js?20170305"></script>
         
 
         <!-- Google Maps api -->

@@ -288,7 +288,7 @@
                 <div id="copyright" class="col">
                     <div id="copyright-info">
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
-                        Slam Dunk Digital Limited<br>
+                        Slam Dunk Digital Limited | Company no. 10282716<br>
                         ©<?php echo date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
