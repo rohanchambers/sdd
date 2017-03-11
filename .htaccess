@@ -1,2 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^slamdunkdigital.com$ [NC]
+RewriteRule ^(.*)$ http://www.slamdunkdigital.com/$1 [R=301,L]
 
 ErrorDocument 404 http://slamdunkdigital.co.uk/404.html
