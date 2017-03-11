@@ -252,10 +252,10 @@ function initMap() {
           '<div id="bodyContent">'+
           '<p>Slam Dunk Digital is a creative and digital collective that specialises in user friendly web design and development...  ' +
           '<p>CTB Studios,<br> Angel High Street<br> London,<br> N1 0YL, UK</p>'+
-          '<p>Website: <a href="http://slamDunkDigital.co.uk/" target="_blank">'+
-          'http://slamDunkDigital.co.uk/</a> <br>'+
-          'Email: <a href="mailto:info@slamDunkDigital.co.uk">'+
-          'info@slamDunkDigital.co.uk</a><br>'+
+          '<p>Website: <a href="http://slamDunkDigital.com/" target="_blank">'+
+          'http://www.slamDunkDigital.com</a> <br>'+
+          'Email: <a href="mailto:info@slamDunkDigital.com">'+
+          'info@slamDunkDigital.com</a><br>'+
           'Phone: <a href="tel:+447917044052">+44 (0)79 170 44 052</a>'+
           '</div>'+
       '</div>';

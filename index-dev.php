@@ -24,10 +24,10 @@
         <!--<!(endif)-->
 
         <!-- Open graph tags -->
-        <meta property="og:image"           content="http://slamdunkdigital.co.uk/assets/img/social/social_share.png">
+        <meta property="og:image"           content="http://slamdunkdigital.com/assets/img/social/social_share.png">
         <meta property="og:title"           content="Welcome to Slam Dunk Digital">
         <meta property="og:description"     content="Slam Dunk Digital is a creative and digital collective that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.">
-        <meta property="og:url"             content="http://slamdunkdigital.co.uk/">
+        <meta property="og:url"             content="http://slamdunkdigital.com/">
         <meta property="og:image:width"     content="600">
         <meta property="og:image:height"    content="600">
         <meta property="og:image:type"      content="image/jpg">
@@ -38,8 +38,8 @@
         <meta name="twitter:title"          content="Welcome to Slam Dunk Digital">
         <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital collective specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
-        <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
+        <meta name="twitter:image:src"      content="http://slamdunkdigital.com/">
+        <meta name="twitter:domain"         content="slamdunkdigital.com">
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -71,9 +71,9 @@
                     <ul>                
                         <li><span class="share-text">Share</span> <a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
-                                <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
+                                <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
                         </li>
@@ -218,7 +218,7 @@
                   if (isset($_REQUEST['email']))  {
 
                   //Email information
-                  $admin_email = "info@slamdunkdigital.co.uk";
+                  $admin_email = "info@slamdunkdigital.com";
                   $email = $_REQUEST['email'];
                   $subject = "Slam Dunk Message. message: " . $_REQUEST['subject'];
                   $comment = $_REQUEST['comment'].$phone;
