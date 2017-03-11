@@ -345,7 +345,7 @@
         <!(endif)-->
 
         <!-- Google Maps api -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbg28ypvSj8dLIBHiCsF38eb0hYJ3p_Go&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
