@@ -1,3 +1,16 @@
+// THEME VARCALE ENTERTAINMENT
+.cs-varcale-entertainment {
+	background-color: $red;
+	
+	.col-skew {
+		background-color: $red;
+	}
+
+	#intro-bg-img {
+		background: $white url(/case-study/varcale-entertainment/img/banner.jpg) no-repeat center 15px;
+	}	
+}
+
 // THEME SOHO Film Finance.
 .cs-sff {
 	background-color: #8ea4af;
@@ -291,6 +304,12 @@
 
 // Reposition background images for mobile 479px
 @include media($mobile) {
+	.cs-varcale-entertainment {
+		#intro-bg-img {
+			background-size: 100%;
+		}	
+	}
+
 	.cs-beauty-of-brewing {
 		#intro-bg-img {
 			background-position: center -70px;

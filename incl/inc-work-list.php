@@ -1,4 +1,12 @@
                 <div class="view view-first find-out-more">
+                    <img src="assets/img/work/varcale-entertainment.jpg" alt="Varcale Entertainment" />
+                    <div class="mask">
+                        <h2>Varcale Entertainment</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
+                    </div>
+                    <a href="case-study/varcale-entertainment/"></a>
+                </div>
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
                         <h2>Phone ResQ</h2>
