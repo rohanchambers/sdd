@@ -27,10 +27,10 @@ $PRODUCTION = true;
         ?>
 
         <!-- Open graph tags -->
-        <meta property="og:image"           content="http://slamdunkdigital.co.uk/">
+        <meta property="og:image"           content="http://slamdunkdigital.com/">
         <meta property="og:title"           content="Welcome to Slam Dunk Digital">
         <meta property="og:description"     content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
-        <meta property="og:url"             content="http://slamdunkdigital.co.uk/">
+        <meta property="og:url"             content="http://slamdunkdigital.com/">
         <meta property="og:image:width"     content="600">
         <meta property="og:image:height"    content="600">
         <meta property="og:image:type"      content="image/jpg">
@@ -41,8 +41,8 @@ $PRODUCTION = true;
         <meta name="twitter:title"          content="Welcome to Slam Dunk Digital">
         <meta name="twitter:description"    content="Slam Dunk Digital is a creative and digital agency specialising in web design and development based in London.">
         <meta name="twitter:creator"        content="@slamdunkdigital">
-        <meta name="twitter:image:src"      content="http://slamdunkdigital.co.uk/">
-        <meta name="twitter:domain"         content="slamdunkdigital.co.uk">
+        <meta name="twitter:image:src"      content="http://slamdunkdigital.com/">
+        <meta name="twitter:domain"         content="slamdunkdigital.com">
     </head>
     <body class="page-case-study">
         <!-- Preloader -->
@@ -73,9 +73,9 @@ $PRODUCTION = true;
                         <li><a href="https://www.instagram.com/slamdunkdigital" title="Instagram share" target="_blank"><i class="fa fa-instagram fa-1x btn-animate"></i></a></li>
                         <li><a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button_count"></div></li>
-                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
-                                <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button_count"></div></li>
+                                <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
+                                <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
                         </li>
@@ -123,7 +123,7 @@ $PRODUCTION = true;
                         <li>Prototyping</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>We developed a prototype for the Honda book a test drive section to improve the current one on the Honda.co.uk website. Its a step by step process with multiple variations of routes/user journeys for the user to end up booking a car.</p>
+                    <p>We developed a prototype for the Honda book a test drive section to improve the current one on the Honda.com website. Its a step by step process with multiple variations of routes/user journeys for the user to end up booking a car.</p>
                     <p>It was tested in a professional environement to understand how users were interacting with the interface and the journey. Amends were then made with the feedback we received/observed from the test users. As this was just a prototype it was developed for Google Chrome only to then be passed on to the Honda in house developers.</p>
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Google Chrome</p>
