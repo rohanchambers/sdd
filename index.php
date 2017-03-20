@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20170311">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20170320">
         
         
 
@@ -121,7 +121,7 @@
                             <li><span>Print design</span></li>
                             <li><span>Motion graphics (Promotional videos)</span></li>
                             <li><span>Video</span></li>
-                            <li><span>3D modelling &amp; animationasdfasdf</span></li>                            
+                            <li><span>3D modelling &amp; animation</span></li>                            
                         </ul>
                         <p>To find out in more detail what we do and how we can help you, please get in touch in with us in the contact section.</p>
                     </article>
@@ -318,7 +318,7 @@
 
         
         
-        <script src="assets/js/compiled.min.js?20170311"></script>
+        <script src="assets/js/compiled.min.js?20170320"></script>
         
 
         <!-- Google Maps api -->
