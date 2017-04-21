@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20170320">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20170321">
         
         
 
@@ -318,7 +318,7 @@
 
         
         
-        <script src="assets/js/compiled.min.js?20170320"></script>
+        <script src="assets/js/compiled.min.js?20170321"></script>
         
 
         <!-- Google Maps api -->

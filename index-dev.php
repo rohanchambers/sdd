@@ -126,7 +126,7 @@
                             <li><span>Print design</span></li>
                             <li><span>Motion graphics (Promotional videos)</span></li>
                             <li><span>Video</span></li>
-                            <li><span>3D modelling &amp; animationasdfasdf</span></li>                            
+                            <li><span>3D modelling &amp; animation</span></li>                            
                         </ul>
                         <p>To find out in more detail what we do and how we can help you, please get in touch in with us in the contact section.</p>
                     </article>

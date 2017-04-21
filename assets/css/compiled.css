@@ -1123,6 +1123,13 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-varcale-entertainment {
+  background-color: #fd070d; }
+  .cs-varcale-entertainment .col-skew {
+    background-color: #fd070d; }
+  .cs-varcale-entertainment #intro-bg-img {
+    background: #FFF url(/case-study/varcale-entertainment/img/banner.jpg) no-repeat center 15px; }
+
 .cs-sff {
   background-color: #8ea4af; }
   .cs-sff .col-skew {
@@ -1274,6 +1281,9 @@ footer {
     background-size: cover; }
 
 @media screen and (max-width: 479px) {
+  .cs-varcale-entertainment #intro-bg-img {
+    background-size: 100%; }
+
   .cs-beauty-of-brewing #intro-bg-img {
     background-position: center -70px; }
 
