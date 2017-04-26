@@ -3734,6 +3734,8 @@ Transition Layer
   #what-we-do #specialties ul {
     float: left;
     margin-top: 20px; }
+  #what-we-do #specialties p {
+    clear: both; }
   #what-we-do .intro,
   #what-we-do #specialties li {
     font-size: 1.3125rem;
