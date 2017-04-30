@@ -110,7 +110,7 @@ $PRODUCTION = true;
                     <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
-                        <p>Heineken</p>
+                        <p>Heinz</p>
                     </header>
                     <header>
                         <h2>Agency:</h2>
@@ -134,6 +134,9 @@ $PRODUCTION = true;
                     </ul>
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive</p>
+                    
+                    <h2>View site:</h2>
+                    <p>Campaign / Site offline</p>                    
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">

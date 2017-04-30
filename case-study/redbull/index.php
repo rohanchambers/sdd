@@ -139,7 +139,7 @@ $PRODUCTION = true;
                     <p>HTML5, CSS3, jQuery, PHP, Instagram API, Grunt, Bourbon + Neat responsive grid, Fully responsive.</p>
 
                     <h2>View site:</h2>
-                    <p><a href="http://redsilverblue.redbull.com" target="_blank">RedSilverBlue.Redbull.com</a></p>
+                    <p>Campaign / Site offline</p>
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
@@ -148,7 +148,7 @@ $PRODUCTION = true;
             </section><!-- End of Case study-->
         </div>
 
-        <div id="footer-outer">/case-study/perfect-peaks-brews
+        <div id="footer-outer">
             <footer>
                 <div id="footer-info" class="col">
                     <p id="footer-logo">Slam<br>

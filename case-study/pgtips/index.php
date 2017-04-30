@@ -132,7 +132,10 @@ $PRODUCTION = true;
                     Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
+
+                    <h2>View site:</h2>
+                    <p>Campaign / Site offline</p>                                        
                 </div><!-- Case study info -->
                 
                 <div id="case-study-img" class="col col-no-skew">
