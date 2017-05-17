@@ -35,6 +35,7 @@
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.com/">
         <meta name="twitter:domain"         content="slamdunkdigital.com">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -63,7 +64,7 @@
                     <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
-                    <ul>                
+                    <ul>
                         <li><span class="share-text">Share</span> <a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
@@ -97,14 +98,14 @@
 
         <div id="what-we-do-outer">
             <section id="what-we-do" class="section-what-we-do eavesdrop">
-                <div class="col col-skew">                
+                <div class="col col-skew">
                     <header>
-                        <h1>What we do 
+                        <h1>What we do
                             <i class="fa fa-question-circle show-hide" aria-hidden="true"></i>
                         </h1>
                     </header>
 
-                    <article id="about">                        
+                    <article id="about">
                         <p class="intro">Slam Dunk Digital is a creative and digital collective that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
                         <p>Founder of Slam Dunk Digital, Rohan Chambers has worked for some of the top digital agencies in London and for some of the biggest brands from around the world i.e. Have a look on the right for a glimpse of this. In other words he has worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
                         <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 12 people strong but growing steadily as we win more and more accounts.</p>
@@ -121,7 +122,7 @@
                             <li><span>Print design</span></li>
                             <li><span>Motion graphics (Promotional videos)</span></li>
                             <li><span>Video</span></li>
-                            <li><span>3D modelling &amp; animation</span></li>                            
+                            <li><span>3D modelling &amp; animation</span></li>
                         </ul>
                         <p>To find out in more detail what we do and how we can help you, please get in touch in with us in the contact section.</p>
                     </article>
@@ -256,6 +257,9 @@
                         </p>
                         <p>
                             <button type="submit" id="btn-submit" class="btn-animate">Send</button>
+                        </p>
+                        <p>
+                            <div class="g-recaptcha" data-sitekey="6LfJ1yEUAAAAAL2ZlymSLabuqU45SgoelLH6_w8-"></div>
                         </p>
                     </fieldset>
                 </form>
