@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20170426">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20170517">
         
         
 
@@ -318,7 +318,7 @@
 
         
         
-        <script src="assets/js/compiled.min.js?20170426"></script>
+        <script src="assets/js/compiled.min.js?20170517"></script>
         
 
         <!-- Google Maps api -->
@@ -347,7 +347,7 @@
                 $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
                 $('body').delay(350).css({'overflow':'visible'});
                 $('#bg-video').load('incl/inc-nav-bg-video.php');
-            })
+            });
         //]]>
         </script>
         <!-- Start of StatCounter Code for Default Guide -->
