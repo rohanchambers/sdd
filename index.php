@@ -219,7 +219,7 @@
                   //Email information
                   $admin_email = "info@slamdunkdigital.com";
                   $email = $_REQUEST['email'];
-                  $subject = "Slam Dunk Message. message: " . $_REQUEST['subject'];
+                  $subject = "Slam Dunk Digital Message: " . $_REQUEST['subject'];
                   $comment = $_REQUEST['comment'].$phone;
                   $phone = $_REQUEST['phone'];
                   $comment_phone = $comment . "\n\n Phone: ".$phone;
@@ -257,6 +257,10 @@
                             <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
                             <span></span>
                             <label for="resqMessage"></label>
+                        </p>
+                        <p>
+                            <div class="g-recaptcha" data-sitekey="6LfJ1yEUAAAAAL2ZlymSLabuqU45SgoelLH6_w8-" data-callback="correctCaptcha"></div>
+                            <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">                            
                         </p>
                         <p>
                             <button type="submit" id="btn-submit" class="btn-animate">Send</button>

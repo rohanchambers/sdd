@@ -1036,12 +1036,26 @@ $(function(){
         e.preventDefault();
     });
 
-    // Validate form
-    $("#contact-form").validate();
+    // Validate form with Google recpatcha validation
+    $("#contact-form").validate({
+        ignore: ".ignore",
+        rules: {
+            hiddenRecaptcha: {
+                required: function () {
+                    if (grecaptcha.getResponse() == '') {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }           
+        }        
+    });
 
     $('#btn-submit').click( function(){
         $('#contact-form').submit();
     });
+
 
     // FUNCTION CALLS
 

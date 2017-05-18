@@ -966,6 +966,13 @@
 	            font-size: rem(12);
 	        }
 
+			#hiddenRecaptcha-error {
+				position: relative;
+				text-align: center;
+				margin-top: 10px;
+				color: $white;
+			}	        
+
 	    #textarea span {
 	        bottom: 6px;
 	    }
@@ -1022,7 +1029,10 @@
 		.g-recaptcha {
 			width: 300px;
 			margin: 0 auto;
+			padding-top: 10px;
 		}
+
+
 	}
 }
 

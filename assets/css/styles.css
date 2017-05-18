@@ -4207,6 +4207,11 @@ Transition Layer
       display: block;
       color: #FFF;
       font-size: 0.75rem; }
+    #quick-message #contact-form #hiddenRecaptcha-error {
+      position: relative;
+      text-align: center;
+      margin-top: 10px;
+      color: #FFF; }
     #quick-message #contact-form #textarea span {
       bottom: 6px; }
     #quick-message #contact-form input,
@@ -4250,7 +4255,8 @@ Transition Layer
       border-radius: 5px; }
     #quick-message #contact-form .g-recaptcha {
       width: 300px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-top: 10px; }
 
 #footer-outer {
   width: 100%;
