@@ -40,7 +40,9 @@
         <meta name="twitter:creator"        content="@slamdunkdigital">
         <meta name="twitter:image:src"      content="http://slamdunkdigital.com/">
         <meta name="twitter:domain"         content="slamdunkdigital.com">
-        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <!-- Google recaptcha ver.2 -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -214,6 +216,7 @@
             <header>
                 <h1>Quick message</h1>
             </header>
+
             <?php
                 //if "email" variable is filled out, send email
                   if (isset($_REQUEST['email']))  {
@@ -262,9 +265,6 @@
                         </p>
                         <p>
                             <button type="submit" id="btn-submit" class="btn-animate">Send</button>
-                        </p>
-                        <p>
-                            <div class="g-recaptcha" data-sitekey="6LfJ1yEUAAAAAL2ZlymSLabuqU45SgoelLH6_w8-"></div>
                         </p>
                     </fieldset>
                 </form>
