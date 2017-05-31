@@ -136,7 +136,7 @@
 
                 <div id="particle-canvas"></div>
             </section><!-- End of home-->
-            <p class="scroll-down"><a href="#section-work">Scroll down</a></p>
+            <p class="scroll-down"><a href="#work">Scroll down</a></p>
         </div>
 
 
