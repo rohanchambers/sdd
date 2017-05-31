@@ -7,7 +7,7 @@
                 <li><a href="#clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
                 <li><a href="#contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
             </ul>
-        </nav>
+        </nav> 
 
         <!-- Full sceen Navigation -->
         <button class="hamburger" id="trigger-overlay" type="button">
