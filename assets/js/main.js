@@ -59,7 +59,7 @@ function isMobile() {
 $(function(){
     // Add parallax to intro copy only for desktop otherwise
     // mobile vertical center alignment is off
-    var windowHeight = jQuery(window).height()
+    var windowHeight = jQuery(window).height();
 
     if ( windowHeight > 375 ) {
         $('#intro-parallax').addClass('active');
@@ -68,19 +68,19 @@ $(function(){
          || window.mozRequestAnimationFrame
          || window.webkitRequestAnimationFrame
          || window.msRequestAnimationFrame
-         || function(f){setTimeout(f, 1000/60)}
+         || function(f){setTimeout(f, 1000/60)};
 
-        var slogan = document.getElementById('intro-parallax')
+        var slogan = document.getElementById('intro-parallax');
 
         function parallax(){
-            var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
+            var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
             // 145 is the same in the css and the the position the element starts before parallax starts
-            slogan.style.top = -scrolltop * .4 - 145 + 'px' // move bubble1 at 20% of scroll rate
+            slogan.style.top = -scrolltop * .4 - 145 + 'px';// move bubble1 at 20% of scroll rate
         }
 
         window.addEventListener('scroll', function(){ // on page scroll
-            requestAnimationFrame(parallax) // call parallaxbubbles() on next available screen paint
-        }, false)
+            requestAnimationFrame(parallax); // call parallaxbubbles() on next available screen paint
+        }, false);
     }
 
     // What we do, show hide content. Click or hover depending on devcie state

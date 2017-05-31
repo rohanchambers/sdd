@@ -82,16 +82,16 @@
                         </li>
                     </ul>
                 </nav>
-                <div id="slogan">
+                <div id="slogan" class="animatedParent" data-sequence='1000'>
                     <canvas id="emitter"></canvas>
                     <div id="intro-parallax">
-                        <span>We stand for</span>
-                        <p>
+                        <span class="animated fadeInDown" data-id='1'>We stand for</span>
+                        <p class="animated fadeInLeft" data-id='2'>
                             Flair <span class="yellow">/</span> Motion <span class="red">/</span> <br>
                             Creativity <span class="green">/</span><br>
                             &amp; style <span class="blue">/</span><br>
                         </p>
-                        <span id="all-the-time">10 out of 10, every time!</span>
+                        <span id="all-the-time" class="animated fadeInUp" data-id='3'>10 out of 10, every time!</span>
                         </div><!-- End of Parallax -->
                 </div><!-- End of Slogan -->
                 <div id="mouse-scroll">
@@ -160,7 +160,7 @@
         <section id="clients" class="section-clients eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients / agencies / companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients, agencies and companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
             </header>
             <div class="row">
                 <!-- Client list -->

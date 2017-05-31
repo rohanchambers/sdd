@@ -71,8 +71,6 @@ Modal window
   left: 5%;
   height: 45px;
   width: 45px;
-  border-radius: 50%;
-  background: $white;
   /* image replacement */
   // overflow: hidden;
   // text-indent: 100%;
@@ -93,7 +91,7 @@ Modal window
       top: 50%;
       left: 50%;
       margin: -24px 0px 0 -18px;
-      color: $black;
+      color: $white;
     }
 }
 .no-touch .cd-modal .modal-close:hover {
