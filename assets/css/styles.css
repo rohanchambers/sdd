@@ -91,44 +91,44 @@ header p {
   text-indent: 101%;
   white-space: nowrap; }
 
-#what-we-do h1, #what-we-do p,
+#section-what-we-do h1, #section-what-we-do p,
 #case-study h1,
 #case-study p {
   width: 100%; }
-#what-we-do h1:before,
+#section-what-we-do h1:before,
 #case-study h1:before {
   display: none; }
-#what-we-do h1:after,
+#section-what-we-do h1:after,
 #case-study h1:after {
   left: 0;
   width: 222px; }
 
-#work h1, #work p {
+#section-work h1, #section-work p {
   float: right;
   text-align: right; }
-#work h1:after {
+#section-work h1:after {
   right: 25px;
   width: 72%; }
 
-#services h1, #services p,
-#clients h1,
-#clients p,
-#error-404 h1,
-#error-404 p {
+#section-services h1, #section-services p,
+#section-clients h1,
+#section-clients p,
+#section-error-404 h1,
+#section-error-404 p {
   float: left;
   text-align: left; }
-#services h1,
-#clients h1,
-#error-404 h1 {
+#section-services h1,
+#section-clients h1,
+#section-error-404 h1 {
   padding-left: 25px; }
-#services h1:before,
-#clients h1:before,
-#error-404 h1:before {
+#section-services h1:before,
+#section-clients h1:before,
+#section-error-404 h1:before {
   left: 0;
   background-color: #009f5e; }
-#services h1:after,
-#clients h1:after,
-#error-404 h1:after {
+#section-services h1:after,
+#section-clients h1:after,
+#section-error-404 h1:after {
   left: 25px;
   width: 61%; }
 
@@ -136,7 +136,7 @@ header p {
   line-height: 1em;
   padding-bottom: 6px; }
 
-#services h1:before {
+#section-services h1:before {
   left: 0;
   background-color: #ffc036; }
 
@@ -161,26 +161,26 @@ header p {
 #case-study #case-study-info p, #case-study #case-study-info a, #case-study #case-study-info li {
   color: #FFF; }
 
-#contact h1,
+#section-contact h1,
 #quick-message h1 {
   margin: 0 auto 18px auto;
   padding: 0;
   width: 245px;
   text-align: center; }
-#contact h1:before,
+#section-contact h1:before,
 #quick-message h1:before {
   left: 0;
   background-color: #0074c0; }
-#contact h1:after,
+#section-contact h1:after,
 #quick-message h1:after {
   left: 26px;
   width: 65%; }
-#contact p,
+#section-contact p,
 #quick-message p {
   margin: 0 15%;
   text-align: center; }
 
-#contact p {
+#section-contact p {
   width: 50%;
   margin: 0 22%; }
 
@@ -226,13 +226,12 @@ header p {
 .overlay h1:before {
   display: none; }
 
-#home,
+#section-home,
 .overlay h1,
-#services header,
-#work header,
-#clients header,
-#clients,
-#contact,
+#section-work header,
+#section-clients header,
+#section-clients,
+#section-contact,
 #contact-info,
 #site-header,
 #error-404,
@@ -240,13 +239,12 @@ footer {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto; }
-  #home::after,
+  #section-home::after,
   .overlay h1::after,
-  #services header::after,
-  #work header::after,
-  #clients header::after,
-  #clients::after,
-  #contact::after,
+  #section-work header::after,
+  #section-clients header::after,
+  #section-clients::after,
+  #section-contact::after,
   #contact-info::after,
   #site-header::after,
   #error-404::after,
@@ -255,15 +253,15 @@ footer {
     content: "";
     display: table; }
 
-#services,
-#work,
-#clients,
-#contact {
+#section-services,
+#section-work,
+#section-clients,
+#section-contact {
   margin-top: 100px; }
-  #services::after,
-  #work::after,
-  #clients::after,
-  #contact::after {
+  #section-services::after,
+  #section-work::after,
+  #section-clients::after,
+  #section-contact::after {
     clear: both;
     content: "";
     display: table; }
@@ -271,7 +269,7 @@ footer {
 #what-we-do-outer {
   position: relative; }
 
-#what-we-do .col,
+#section-what-we-do .col,
 #case-study .col {
   float: left;
   display: block;
@@ -279,7 +277,7 @@ footer {
   width: 50%;
   padding: 0;
   margin-right: 0; }
-  #what-we-do .col:last-child,
+  #section-what-we-do .col:last-child,
   #case-study .col:last-child {
     margin-right: 0; }
 
@@ -361,40 +359,40 @@ footer {
   .col-no-skew .pe-thumbs li:last-child {
     margin-right: 0; }
 
-#work .row {
+#section-work .row {
   display: block; }
-  #work .row::after {
+  #section-work .row::after {
     clear: both;
     content: "";
     display: table; }
-  #work .row .view {
+  #section-work .row .view {
     float: left;
     display: block;
     margin-right: 0%;
     width: 33.33333%;
     border: 1px solid #FFF; }
-    #work .row .view:last-child {
+    #section-work .row .view:last-child {
       margin-right: 0; }
 
-#clients {
+#section-clients {
   min-height: 1000px; }
-  #clients .row {
+  #section-clients .row {
     display: block; }
-    #clients .row::after {
+    #section-clients .row::after {
       clear: both;
       content: "";
       display: table; }
-    #clients .row .client {
+    #section-clients .row .client {
       float: left;
       display: block;
       margin-right: 0%;
       width: 25%;
       border: 1px solid #FFF; }
-      #clients .row .client:last-child {
+      #section-clients .row .client:last-child {
         margin-right: 0; }
-      #clients .row .client:nth-child(4n) {
+      #section-clients .row .client:nth-child(4n) {
         margin-right: 0; }
-      #clients .row .client:nth-child(4n+1) {
+      #section-clients .row .client:nth-child(4n+1) {
         clear: left; }
 
 #contact-info {
@@ -2407,21 +2405,21 @@ footer {
   -webkit-animation-name: fadeInLeftShort;
   animation-name: fadeInLeftShort; }
 
-#work .view {
+#section-work .view {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
   text-align: center;
   cursor: default; }
-#work .view .mask, #work .view .content {
+#section-work .view .mask, #section-work .view .content {
   width: 100%;
   height: 100%;
   position: absolute;
   overflow: hidden;
   top: 0;
   left: 0; }
-#work .view h2 {
+#section-work .view h2 {
   font-family: futuraLT, arial_black, Arial;
   text-transform: uppercase;
   color: #fff;
@@ -2432,8 +2430,8 @@ footer {
   padding: 1%;
   background: #fd070d;
   margin: 20px 0 0 0; }
-#work .view p,
-#work .view p {
+#section-work .view p,
+#section-work .view p {
   position: relative;
   font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-size: 1.875rem;
@@ -2444,16 +2442,16 @@ footer {
   text-align: center;
   text-transform: uppercase;
   float: none; }
-  #work .view p .case-study,
-  #work .view p .case-study {
+  #section-work .view p .case-study,
+  #section-work .view p .case-study {
     position: absolute;
     top: 12%;
     left: 50%;
     margin-left: -52px;
     font-size: 1.125rem;
     display: block; }
-#work .view p::after,
-#work .view p::after {
+#section-work .view p::after,
+#section-work .view p::after {
   display: inline-block;
   width: 50%;
   height: 3px;
@@ -2461,7 +2459,7 @@ footer {
   background-color: #FFF;
   content: "~";
   text-align: center; }
-#work .view a.info {
+#section-work .view a.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
@@ -2469,46 +2467,46 @@ footer {
   color: #fff;
   box-shadow: 0 0 1px #000;
   margin-top: 20px; }
-#work .view a.info:hover {
+#section-work .view a.info:hover {
   box-shadow: 0 0 5px #000;
   background: #FFF;
   color: #000; }
-#work .view a {
+#section-work .view a {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
-#work .view-first img {
+#section-work .view-first img {
   transition: all 0.2s linear; }
-#work .view-first .mask {
+#section-work .view-first .mask {
   opacity: 0;
   background: rgba(0, 0, 0, 0.6);
   transition: all 0.4s ease-in-out; }
-#work .view-first h2 {
+#section-work .view-first h2 {
   transform: translateY(-100px);
   opacity: 0;
   transition: all 0.2s ease-in-out; }
-#work .view-first p {
+#section-work .view-first p {
   transform: translateY(100px);
   opacity: 0;
   transition: all 0.2s linear; }
-#work .view-first a.info {
+#section-work .view-first a.info {
   opacity: 0;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-border-radius: all 300ms ease;
   transition: all 300ms ease; }
-#work .view-first:hover img {
+#section-work .view-first:hover img {
   transform: scale(1.1); }
-#work .view-first:hover .mask {
+#section-work .view-first:hover .mask {
   opacity: 1; }
-#work .view-first:hover h2,
-#work .view-first:hover p,
-#work .view-first:hover a.info {
+#section-work .view-first:hover h2,
+#section-work .view-first:hover p,
+#section-work .view-first:hover a.info {
   opacity: 1;
   transform: translateY(0px); }
-#work .view-first:hover p {
+#section-work .view-first:hover p {
   transition-delay: 0.1s; }
 
 /* Preloader */
@@ -3507,8 +3505,8 @@ Transition Layer
   transition: all 300ms ease; }
 
 #what-we-do-outer .scroll-down,
-#work .scroll-down,
-#clients .scroll-down {
+#section-work .scroll-down,
+#section-clients .scroll-down {
   position: relative;
   z-index: 2000;
   float: none; }
@@ -3518,8 +3516,8 @@ Transition Layer
   100% {
     opacity: 1; } }
   #what-we-do-outer .scroll-down a,
-  #work .scroll-down a,
-  #clients .scroll-down a {
+  #section-work .scroll-down a,
+  #section-clients .scroll-down a {
     margin: 50px auto 0 auto;
     display: block;
     width: 25px;
@@ -3541,14 +3539,14 @@ Transition Layer
     animation: arrow-jump ease-in-out 1.2s infinite;
     /* IE 10+, Fx 29+ */ }
   #what-we-do-outer .scroll-down a:hover,
-  #work .scroll-down a:hover,
-  #clients .scroll-down a:hover {
+  #section-work .scroll-down a:hover,
+  #section-clients .scroll-down a:hover {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
     animation-play-state: paused; }
 
-#clients .scroll-down a {
+#section-clients .scroll-down a {
   background: url(../img/global/iconArrowDownWhite.png); }
 
 #bg-home {
@@ -3559,46 +3557,46 @@ Transition Layer
   background: url(../img/global/bg-emitter.png) -94px center no-repeat;
   background-size: contain; }
 
-#home,
+#section-home,
 #site-header {
   background-color: #000;
   color: #FFF; }
-  #home a,
+  #section-home a,
   #site-header a {
     text-decoration: none;
     color: #FFF; }
-  #home #social-links,
+  #section-home #social-links,
   #site-header #social-links {
     position: absolute;
     z-index: 100;
     top: 0;
     right: 90px; }
-    #home #social-links li,
+    #section-home #social-links li,
     #site-header #social-links li {
       position: relative;
       float: left;
       list-style-type: none;
       margin: 0 10px 0 0; }
-      #home #social-links li .share-text,
+      #section-home #social-links li .share-text,
       #site-header #social-links li .share-text {
         position: absolute;
         left: -70px;
         font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
         text-transform: uppercase; }
-      #home #social-links li a,
+      #section-home #social-links li a,
       #site-header #social-links li a {
         color: #FFF; }
-        #home #social-links li a i,
+        #section-home #social-links li a i,
         #site-header #social-links li a i {
           font-size: 1.5rem; }
-      #home #social-links li a:hover,
+      #section-home #social-links li a:hover,
       #site-header #social-links li a:hover {
         color: #0074c0;
         -webkit-transition: all 300ms ease;
         -moz-transition: all 300ms ease;
         -ms-border-radius: all 300ms ease;
         transition: all 300ms ease; }
-  #home #social-links ul#share-me,
+  #section-home #social-links ul#share-me,
   #site-header #social-links ul#share-me {
     position: absolute;
     top: 38px;
@@ -3606,23 +3604,23 @@ Transition Layer
     height: auto;
     width: 290px;
     padding: 0; }
-    #home #social-links ul#share-me li,
+    #section-home #social-links ul#share-me li,
     #site-header #social-links ul#share-me li {
       display: block;
       width: auto; }
-  #home #slogan,
+  #section-home #slogan,
   #site-header #slogan {
     position: absolute;
     top: 55%;
     left: 50%;
     width: 55%;
     transform: translate(-50%, -55%); }
-    #home #slogan #intro-parallax.active,
+    #section-home #slogan #intro-parallax.active,
     #site-header #slogan #intro-parallax.active {
       position: absolute;
       width: 100%;
       top: -145px; }
-    #home #slogan p,
+    #section-home #slogan p,
     #site-header #slogan p {
       font-family: Arial, Verdana, sans-serif;
       font-size: 5rem;
@@ -3631,19 +3629,19 @@ Transition Layer
       line-height: .95em;
       margin: 20px 0 13px;
       padding: 0; }
-      #home #slogan p span,
+      #section-home #slogan p span,
       #site-header #slogan p span {
         font-size: inherit; }
-    #home #slogan span,
+    #section-home #slogan span,
     #site-header #slogan span {
       display: inline-block;
       font-family: Helvetica, Verdana, sans-serif;
       font-size: 2.1875rem;
       font-style: italic; }
-    #home #slogan span#all-the-time,
+    #section-home #slogan span#all-the-time,
     #site-header #slogan span#all-the-time {
       font-size: 2.1875rem; }
-  #home #mouse-scroll,
+  #section-home #mouse-scroll,
   #site-header #mouse-scroll {
     position: absolute;
     bottom: 2%;
@@ -3655,31 +3653,31 @@ Transition Layer
     background-image: url(../img/global/iconMouseDown.png);
     clear: both;
     cursor: pointer; }
-  #home .fa-angle-down,
+  #section-home .fa-angle-down,
   #site-header .fa-angle-down {
     display: none;
     position: absolute;
     left: -1px;
     color: #ddd; }
-  #home .angle-down-1,
+  #section-home .angle-down-1,
   #site-header .angle-down-1 {
     bottom: -5px; }
-  #home .angle-down-2,
+  #section-home .angle-down-2,
   #site-header .angle-down-2 {
     bottom: -15px; }
-  #home .icon-animate,
-  #home .icon-animate:before,
+  #section-home .icon-animate,
+  #section-home .icon-animate:before,
   #site-header .icon-animate,
   #site-header .icon-animate:before {
     position: absolute;
     top: 0; }
-  #home .icon-animate,
+  #section-home .icon-animate,
   #site-header .icon-animate {
     width: 25px;
     height: 45px;
     top: 0%;
     border-radius: 20px; }
-  #home .icon-animate:before,
+  #section-home .icon-animate:before,
   #site-header .icon-animate:before {
     content: '';
     width: 5px;
@@ -3701,7 +3699,7 @@ Transition Layer
     opacity: 0;
     -webkit-transform: translateY(20px);
     transform: translateY(20px); } }
-  #home canvas,
+  #section-home canvas,
   #site-header canvas {
     position: fixed;
     top: 50%;
@@ -3721,61 +3719,61 @@ Transition Layer
   #what-we-do-outer #particle-canvas canvas {
     width: 100%; }
 
-#what-we-do {
+#section-what-we-do {
   overflow: hidden;
   position: relative;
   height: 1000px;
   background-color: #ffc036; }
-  #what-we-do::after {
+  #section-what-we-do::after {
     clear: both;
     content: "";
     display: table; }
-  #what-we-do #specialties ul {
+  #section-what-we-do #specialties ul {
     float: left;
     margin-top: 20px; }
-  #what-we-do #specialties p {
+  #section-what-we-do #specialties p {
     clear: both; }
-  #what-we-do .intro,
-  #what-we-do #specialties li {
+  #section-what-we-do .intro,
+  #section-what-we-do #specialties li {
     font-size: 1.3125rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     line-height: 1.2;
     margin-bottom: 0; }
-  #what-we-do #specialties li {
+  #section-what-we-do #specialties li {
     margin-bottom: 15px;
     background-color: #FFF;
     color: #FFF;
     padding: 5px; }
-    #what-we-do #specialties li span {
+    #section-what-we-do #specialties li span {
       color: #000; }
-  #what-we-do .col header, #what-we-do .col p,
-  #what-we-do .col #specialties ul {
+  #section-what-we-do .col header, #section-what-we-do .col p,
+  #section-what-we-do .col #specialties ul {
     position: relative;
     z-index: 3; }
-  #what-we-do .col img {
+  #section-what-we-do .col img {
     width: 100%;
     height: auto; }
-  #what-we-do h1 {
+  #section-what-we-do h1 {
     padding-right: 0; }
-  #what-we-do .show-hide {
+  #section-what-we-do .show-hide {
     position: relative;
     float: right;
     display: block;
     z-index: 30;
     font-size: 3rem;
     color: #000; }
-    #what-we-do .show-hide:hover {
+    #section-what-we-do .show-hide:hover {
       color: #FFF;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-  #what-we-do #specialties {
+  #section-what-we-do #specialties {
     display: none; }
-  #what-we-do .col-skew {
+  #section-what-we-do .col-skew {
     padding: 2% 4%;
     background-color: #ffc036; }
-  #what-we-do .col-skew:after {
+  #section-what-we-do .col-skew:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -3786,19 +3784,19 @@ Transition Layer
     background: #ffc036;
     -webkit-transform: skewX(-8deg);
     transform: skewX(-8deg); }
-  #what-we-do .col-no-skew {
+  #section-what-we-do .col-no-skew {
     background-color: #000; }
-    #what-we-do .col-no-skew .pe-thumbs {
+    #section-what-we-do .col-no-skew .pe-thumbs {
       margin: 0;
       padding: 0; }
-    #what-we-do .col-no-skew .pe-thumbs li a,
-    #what-we-do .col-no-skew .pe-thumbs li a img {
+    #section-what-we-do .col-no-skew .pe-thumbs li a,
+    #section-what-we-do .col-no-skew .pe-thumbs li a img {
       display: block;
       position: relative;
       cursor: default; }
-    #what-we-do .col-no-skew .pe-thumbs li a img {
+    #section-what-we-do .col-no-skew .pe-thumbs li a img {
       opacity: 0.5; }
-    #what-we-do .col-no-skew .pe-thumbs li a div.pe-description {
+    #section-what-we-do .col-no-skew .pe-thumbs li a div.pe-description {
       width: 200px;
       height: 100px;
       background: rgba(0, 0, 0, 0.8);
@@ -3809,48 +3807,48 @@ Transition Layer
       display: none !important;
       z-index: 1001;
       text-align: left; }
-    #what-we-do .col-no-skew .pe-description h2 {
+    #section-what-we-do .col-no-skew .pe-description h2 {
       padding: 10px 10px 0px 10px;
       line-height: 20px;
       font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
       font-size: 1rem;
       margin: 0px; }
-    #what-we-do .col-no-skew .pe-description p {
+    #section-what-we-do .col-no-skew .pe-description p {
       padding: 10px 0px;
       margin: 10px;
       font-size: 0.75rem;
       font-style: italic;
       border-top: 1px solid rgba(255, 255, 255, 0.3); }
 
-#what-we-do.switch-text {
+#section-what-we-do.switch-text {
   background-color: #000;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-border-radius: all 300ms ease;
   transition: all 300ms ease; }
-  #what-we-do.switch-text h1:after {
+  #section-what-we-do.switch-text h1:after {
     background-color: #FFF; }
-  #what-we-do.switch-text .col-skew {
+  #section-what-we-do.switch-text .col-skew {
     background-color: #000;
     color: #FFF;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-border-radius: all 300ms ease;
     transition: all 300ms ease; }
-    #what-we-do.switch-text .col-skew:after {
+    #section-what-we-do.switch-text .col-skew:after {
       background-color: #000;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-    #what-we-do.switch-text .col-skew #about {
+    #section-what-we-do.switch-text .col-skew #about {
       display: none;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-    #what-we-do.switch-text .col-skew #specialties {
+    #section-what-we-do.switch-text .col-skew #specialties {
       display: block; }
 
 #site-header-outer {
@@ -4048,31 +4046,31 @@ Transition Layer
 .page-case-study #nav-mini {
   display: none; }
 
-#work h1:after {
+#section-work h1:after {
   float: right;
   text-align: right;
   right: 25px;
   width: 72%; }
 
-#work .row .view {
+#section-work .row .view {
   background-color: #000; }
-  #work .row .view img {
+  #section-work .row .view img {
     display: block;
     width: 100%;
     height: auto; }
-  #work .row .view:last-child {
+  #section-work .row .view:last-child {
     display: none; }
 
-#clients {
+#section-clients {
   background: url(../img/clients/client_bg.png) no-repeat center 360px; }
-  #clients .row .client {
+  #section-clients .row .client {
     position: relative; }
-    #clients .row .client img {
+    #section-clients .row .client img {
       display: block;
       width: 100%;
       height: auto; }
-    #clients .row .client img.top,
-    #clients .row .client img.bottom {
+    #section-clients .row .client img.top,
+    #section-clients .row .client img.bottom {
       position: absolute;
       top: 0;
       left: 0;
@@ -4081,7 +4079,7 @@ Transition Layer
       -o-transition: opacity .5s ease-in-out;
       transition: opacity .5s ease-in-out;
       -webkit-backface-visibility: hidden; }
-    #clients .row .client img.top:hover {
+    #section-clients .row .client img.top:hover {
       opacity: 0; }
 
 #map {
@@ -4606,15 +4604,15 @@ footer {
         text-decoration: none; }
 
 @media screen and (max-width: 1200px) {
-  #work h1, #work p {
+  #section-work h1, #section-work p {
     float: left;
     text-align: left; }
-  #work h1 {
+  #section-work h1 {
     padding-left: 25px; }
-  #work h1:before {
+  #section-work h1:before {
     left: 0;
     right: auto; }
-  #work h1:after {
+  #section-work h1:after {
     left: 25px; }
 
   #package-deals,
@@ -4628,7 +4626,7 @@ footer {
   #package-deals article {
     min-height: 900px; } }
 @media screen and (max-width: 1024px) {
-  #home h1 {
+  #section-home h1 {
     width: auto; }
 
   section header,
@@ -4687,10 +4685,10 @@ footer {
   header h1,
   .overlay h1,
   header .intro,
-  #what-we-do .intro,
+  #section-what-we-do .intro,
   #contact-info h2,
   footer #footer-logo,
-  #work .row .view .mask p span {
+  #section-work .row .view .mask p span {
     font-family: arial_blackregular, Arial, Verdana, sans-serif; }
 
   header h1 {
@@ -4699,69 +4697,69 @@ footer {
   header h1:before {
     height: 31px; }
 
-  #contact h1 {
+  #section-contact h1 {
     padding-left: 25px;
     text-align: left; }
 
-  #what-we-do header {
+  #section-what-we-do header {
     padding: 0; }
 
-  #home {
+  #section-home {
     background: url(../img/global/bg-emitter.png) center center no-repeat;
     background-size: contain; }
-    #home #slogan {
+    #section-home #slogan {
       width: 82%; }
-      #home #slogan p {
+      #section-home #slogan p {
         font-size: 4.5rem; }
 
   #what-we-do-outer {
     height: auto; }
 
-  #what-we-do {
+  #section-what-we-do {
     height: auto;
     background-color: #ffc036; }
-    #what-we-do .col {
+    #section-what-we-do .col {
       min-height: auto; }
-    #what-we-do .col-skew {
+    #section-what-we-do .col-skew {
       width: 100%;
       height: auto;
       padding: 5%; }
-    #what-we-do .col-no-skew,
-    #what-we-do .col-skew:after {
+    #section-what-we-do .col-no-skew,
+    #section-what-we-do .col-skew:after {
       display: none; }
 
-  #work .row .view {
+  #section-work .row .view {
     float: left;
     display: block;
     margin-right: 0%;
     width: 50%; }
-    #work .row .view:last-child {
+    #section-work .row .view:last-child {
       margin-right: 0; }
-    #work .row .view:nth-child(3n) {
+    #section-work .row .view:nth-child(3n) {
       margin-right: 0%; }
-    #work .row .view:nth-child(3n+1) {
+    #section-work .row .view:nth-child(3n+1) {
       clear: none; }
-    #work .row .view:last-child {
+    #section-work .row .view:last-child {
       display: block; }
-  #work .view.coming-soon p,
-  #work .view.find-out-more p {
+  #section-work .view.coming-soon p,
+  #section-work .view.find-out-more p {
     font-size: 1.625rem; }
 
-  #clients .row .client {
+  #section-clients .row .client {
     float: left;
     display: block;
     margin-right: 0%;
     width: 33.33333%; }
-    #clients .row .client:last-child {
+    #section-clients .row .client:last-child {
       margin-right: 0; }
-    #clients .row .client:nth-child(4n) {
+    #section-clients .row .client:nth-child(4n) {
       margin-right: 0%; }
-    #clients .row .client:nth-child(4n+1) {
+    #section-clients .row .client:nth-child(4n+1) {
       clear: none; }
-  #clients .scroll-down a {
+  #section-clients .scroll-down a {
     background: url(../img/global/iconArrowDown.png); }
 
-  #contact p {
+  #section-contact p {
     width: 100%;
     margin: 0%; }
 
@@ -4813,7 +4811,7 @@ footer {
     height: auto;
     padding: 25px 4%; } }
 @media screen and (max-width: 600px) {
-  #home h1,
+  #section-home h1,
   .overlay h1,
   #site-header h1 {
     width: 150px;
@@ -4821,7 +4819,7 @@ footer {
     font-size: 1.5625rem;
     padding-left: 0; }
 
-  #home #slogan p {
+  #section-home #slogan p {
     font-size: 4rem; }
 
   .overlay h1 {
@@ -4834,7 +4832,7 @@ footer {
   #case-study #case-study-intro h1:after {
     width: 170px; } }
 @media screen and (max-width: 600px) and (max-width: 600px) {
-  #home #social-links ul#share-me,
+  #section-home #social-links ul#share-me,
   #site-header #social-links ul#share-me {
     top: 120px;
     right: -15px; } }
@@ -4870,13 +4868,13 @@ footer {
   #process-steps article {
     min-height: 0; } }
 @media screen and (max-width: 479px) {
-  #work,
-  #clients,
-  #contact {
+  #section-work,
+  #section-clients,
+  #section-contact {
     margin-top: 25px; }
-    #work::after,
-    #clients::after,
-    #contact::after {
+    #section-work::after,
+    #section-clients::after,
+    #section-contact::after {
       clear: both;
       content: "";
       display: table; }
@@ -4884,27 +4882,27 @@ footer {
   header p {
     width: 100%; }
 
-  #home #slogan p {
+  #section-home #slogan p {
     font-size: 2.25rem;
     line-height: 1.1em; }
-  #home #slogan span,
-  #home #slogan span#all-the-time {
+  #section-home #slogan span,
+  #section-home #slogan span#all-the-time {
     font-size: 1.875rem; }
 
-  #work .row .view {
+  #section-work .row .view {
     float: left;
     display: block;
     margin-right: 0%;
     width: 100%; }
-    #work .row .view:last-child {
+    #section-work .row .view:last-child {
       margin-right: 0; }
 
-  #clients .row .client {
+  #section-clients .row .client {
     float: left;
     display: block;
     margin-right: 0%;
     width: 50%; }
-    #clients .row .client:last-child {
+    #section-clients .row .client:last-child {
       margin-right: 0; }
 
   .fa-1x {
@@ -4942,7 +4940,7 @@ footer {
     position: relative;
     float: right; } }
 @media screen and (max-width: 320px) {
-  #what-we-do h1 {
+  #section-what-we-do h1 {
     font-size: 2.125rem; }
 
   #social-links {
@@ -4951,20 +4949,20 @@ footer {
   #quick-message h1 {
     font-size: 1.7rem; } }
 @media screen and (max-height: 414px) {
-  #home #slogan {
+  #section-home #slogan {
     width: 40%; }
-    #home #slogan p {
+    #section-home #slogan p {
       font-size: 1.875rem;
       line-height: 1.1em; }
-    #home #slogan span,
-    #home #slogan span#all-the-time {
+    #section-home #slogan span,
+    #section-home #slogan span#all-the-time {
       font-size: 1.875rem; }
-  #home #mouse-scroll {
+  #section-home #mouse-scroll {
     display: none; }
-  #home #social-links {
+  #section-home #social-links {
     display: none; }
 
-  #home h1,
+  #section-home h1,
   .overlay h1,
   #case-study h1 {
     font-size: 1.25rem; }

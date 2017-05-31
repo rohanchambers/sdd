@@ -2,7 +2,7 @@
 $desktop-1200: new-breakpoint(max-width 1200px);
 
 @include media($desktop-1200) {
-	#work {
+	#section-work {
 		h1, p {
 			float: left;
 			text-align: left;
@@ -44,7 +44,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 @include media($desktop) {
 
 	// Logo spacing
-	#home {
+	#section-home {
 		h1 {
 			width: auto;
 		}
@@ -110,10 +110,10 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	header h1,
 	.overlay h1, 
 	header .intro,
-	#what-we-do .intro, 
+	#section-what-we-do .intro, 
 	#contact-info h2, 
 	footer #footer-logo, 
-	#work .row .view .mask p span {
+	#section-work .row .view .mask p span {
 		font-family: arial_blackregular, Arial, Verdana, sans-serif;
 	}
 
@@ -125,16 +125,16 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		height: 31px;
 	}
 	
-	#contact h1 {
+	#section-contact h1 {
 		padding-left: 25px;
 		text-align: left;
 	}
 
-	#what-we-do header {
+	#section-what-we-do header {
 		padding: 0;
 	}
 
-	#home {
+	#section-home {
 		background: url(../img/global/bg-emitter.png) center center no-repeat;
 		background-size: contain;
 
@@ -151,7 +151,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		height: auto;
 	}
 
-	#what-we-do {
+	#section-what-we-do {
 		height: auto;
 		background-color: $yellow;
 		
@@ -171,7 +171,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}	
 	}
 
-	#work {
+	#section-work {
 		.row {
 			.view {
 				@include span-columns(6);
@@ -189,7 +189,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
-	#clients {
+	#section-clients {
 		.row {
 			.client {
 				@include span-columns(4);
@@ -202,7 +202,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
-	#contact {
+	#section-contact {
 		p {
 			width: 100%;
 			margin: 0%;
@@ -260,7 +260,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 $tablet-600: new-breakpoint(max-width 600px);
 
 @include media($tablet-600) {
-	#home,
+	#section-home,
 	.overlay,
 	#site-header {
 		h1 {
@@ -271,7 +271,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	} 
 
-	#home {
+	#section-home {
 		#slogan p {
 			font-size: rem(64);
 		}
@@ -295,7 +295,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	#home,
+	#section-home,
 	#site-header {
 		#social-links ul#share-me {
 			@include media($tablet-600) {
@@ -335,9 +335,9 @@ $tablet-600: new-breakpoint(max-width 600px);
 // MOBILE | max width 479px
 @include media($mobile) {
 
-	#work,
-	#clients,
-	#contact {
+	#section-work,
+	#section-clients,
+	#section-contact {
 		margin-top: 25px;
 		@include clearfix();
 	}
@@ -346,7 +346,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		width: 100%	;
 	}
 
-	#home {
+	#section-home {
 		#slogan {
 
 			p {
@@ -361,7 +361,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	#work {
+	#section-work {
 		.row {
 			.view {
 				@include span-columns(12);
@@ -369,7 +369,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
-	#clients {
+	#section-clients {
 		.row {
 			.client {
 				@include span-columns(6);
@@ -429,7 +429,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
-	#what-we-do h1 {
+	#section-what-we-do h1 {
 		font-size: rem(34);
 	}
 
@@ -446,7 +446,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 $mobile-home: new-breakpoint(max-height 414px);
 
 @include media($mobile-home) {
-	#home {
+	#section-home {
 		#slogan {
 			width: 40%;
 
@@ -470,7 +470,7 @@ $mobile-home: new-breakpoint(max-height 414px);
 		}		
 	}
 	
-	#home h1, 
+	#section-home h1, 
 	.overlay h1,
 	#case-study h1 {
 		font-size: rem(20);

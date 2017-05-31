@@ -65,7 +65,7 @@
 
         <!-- Home section -->
         <div id="bg-home">
-            <section id="home" class="section-home eavesdrop">
+            <section id="section-home" class="home eavesdrop">
                 <header id="site-header">
                     <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
                     <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
@@ -82,7 +82,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div id="slogan" class="animatedParent" data-sequence='1000'>
+                <div id="slogan" class="animatedParent animateOnce" data-sequence='1000'>
                     <canvas id="emitter"></canvas>
                     <div id="intro-parallax">
                         <span class="animated fadeInDown" data-id='1'>We stand for</span>
@@ -104,7 +104,7 @@
 
 
         <div id="what-we-do-outer">
-            <section id="what-we-do" class="section-what-we-do eavesdrop">
+            <section id="section-what-we-do" class="what-we-do eavesdrop">
                 <div class="col col-skew">
                     <header>
                         <h1>What we do
@@ -145,7 +145,7 @@
         </div>
 
 
-        <section id="work" class="section-work eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="section-work" class="work eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our collective have worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
@@ -154,10 +154,10 @@
                 <!-- Work project list -->
                 <?php include("incl/inc-work-list.php"); ?>
             </div>
-            <p class="scroll-down"><a href="#section-clients">Scroll down</a></p>
+            <p class="scroll-down"><a href="#clients">Scroll down</a></p>
         </section>
 
-        <section id="clients" class="section-clients eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="section-clients" class="clients eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
                 <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients, agencies and companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
@@ -166,11 +166,11 @@
                 <!-- Client list -->
                 <?php include("incl/inc-client-list.php"); ?>
             </div>
-            <p class="scroll-down"><a href="#section-contact">Scroll down</a></p>
+            <p class="scroll-down"><a href="#contact">Scroll down</a></p>
         </section>
 
 
-        <section id="contact" class="section-contact eavesdrop animatedParent animateOnce" data-sequence='500'>
+        <section id="section-contact" class="contact eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInUp" data-id='1' data-appear-top-offset='500'>Contact</h1>
                 <p class="animated fadeIn" data-id='1' data-appear-top-offset='500'>Please feel free to get in touch with us with any queries via email or send us a quick message using the form below, even if it's just to say hello.</p>

@@ -1,11 +1,10 @@
 // NEAT GRID LAYOUT FOR SECTIONS (desktop version only)
-#home,
+#section-home,
 .overlay h1,
-#services header,
-#work header,
-#clients header,
-#clients,
-#contact,
+#section-work header,
+#section-clients header,
+#section-clients,
+#section-contact,
 #contact-info,
 #site-header,
 #error-404,
@@ -13,10 +12,10 @@ footer {
 	@include outer-container(1024px);
 }
 
-#services,
-#work,
-#clients,
-#contact {
+#section-services,
+#section-work,
+#section-clients,
+#section-contact {
 	margin-top: 100px;
 	@include clearfix();
 }
@@ -25,7 +24,7 @@ footer {
 	position: relative;
 }
 
-#what-we-do,
+#section-what-we-do,
 #case-study {
 	.col {
 		@include span-columns(6);
@@ -76,7 +75,7 @@ footer {
 	}
 }
 
-#work {
+#section-work {
 	.row {
 		@include row();
 		.view {
@@ -87,7 +86,7 @@ footer {
 	}
 }
 
-#clients {
+#section-clients {
 	min-height: 1000px;
 	.row {
 		@include row();

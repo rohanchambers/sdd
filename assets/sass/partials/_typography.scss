@@ -94,7 +94,7 @@ header {
 	}
 }
 
-#what-we-do,
+#section-what-we-do,
 #case-study {
 	h1, p {
 		width: 100%;
@@ -110,7 +110,7 @@ header {
 	}
 }
 
-#work {
+#section-work {
 	h1, p {
 		float: right;
 		text-align: right;
@@ -122,9 +122,9 @@ header {
 	}
 }
 
-#services,
-#clients,
-#error-404 {
+#section-services,
+#section-clients,
+#section-error-404 {
 	h1, p {
 		float: left;
 		text-align: left;
@@ -152,7 +152,7 @@ header {
 	}
 }
 
-#services {
+#section-services {
 	h1:before {
 		left: 0;
 		background-color: $yellow;
@@ -198,7 +198,7 @@ header {
 	}
 }
 
-#contact,
+#section-contact,
 #quick-message {
 	h1 {
 		margin: 0 auto 18px auto;
@@ -223,7 +223,7 @@ header {
 	}
 }
 
-#contact {
+#section-contact {
 	p {
 		width: 50%;
 		margin: 0 22%;

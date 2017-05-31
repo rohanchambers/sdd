@@ -3,7 +3,7 @@ var speed = 1000;
 
 // Defining a function to set height size for #home slide to take up the whole screen (Home page)
 function fullscreen(){
-    $('#home, .overlay').css({
+    $('#section-home, .overlay').css({
         height: jQuery(window).height()
     });
 }
@@ -14,6 +14,7 @@ function scrollToSections() {
     $('.overlay ul li, .scroll-down').find('a').click(function(e) {
 
         var section = $(this).attr('href').split('#')[1];
+        console.log(section)
 
         $('html, body').animate({
             scrollTop: $('.' + section).offset().top + 1 + 'px'
@@ -22,7 +23,7 @@ function scrollToSections() {
 
     // Back to the top button
     $('#back-to-top').click( function(){
-        $('html, body').animate({ scrollTop: $('#home').offset().top}, speed);
+        $('html, body').animate({ scrollTop: $('#section-home').offset().top}, speed);
     });
 
     // Add class of active on items for main and mini nav.
@@ -87,11 +88,11 @@ $(function(){
     if (isMobile()) {
         $('.show-hide').click( function(e){
             e.preventDefault();
-            $('#what-we-do').toggleClass('switch-text');
+            $('#section-what-we-do').toggleClass('switch-text');
         });
     } else {
         $('.show-hide').hover( function(){
-            $('#what-we-do').toggleClass('switch-text');
+            $('#section-what-we-do').toggleClass('switch-text');
         });
     }
 
@@ -222,7 +223,7 @@ $(document).on('scroll',function(){
     }
 
     // Back to top show hide after home page
-    var homeSectionHeight = $('#home').height();
+    var homeSectionHeight = $('#section-home').height();
 
     if( $(document).scrollTop() > homeSectionHeight) {
             $('#back-to-top').fadeIn().addClass('buttonTopPulse');

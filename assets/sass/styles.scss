@@ -90,8 +90,8 @@
 
 // Section Scroll Down
 #what-we-do-outer,
-#work,
-#clients {
+#section-work,
+#section-clients {
 	.scroll-down {
 		position: relative;
 		z-index: 2000;
@@ -131,7 +131,7 @@
 }
 
 // Arrow scroll down in white for clients section
-#clients {
+#section-clients {
 	.scroll-down {
 		a {
 			background: url(../img/global/iconArrowDownWhite.png);
@@ -151,7 +151,7 @@
 	background-size: contain;
 }
 
-#home,
+#section-home,
 #site-header {
 	background-color: $black;
 	color: $white;
@@ -334,7 +334,7 @@
 	@include particles;
 }
 
-#what-we-do {
+#section-what-we-do {
 	overflow: hidden;
 	position: relative;
 	height: 1000px;
@@ -475,7 +475,7 @@
 }
 
 // Switch bg color styling of this section
-#what-we-do.switch-text {
+#section-what-we-do.switch-text {
 	background-color: $black;
 	@include hover-links;
 
@@ -753,7 +753,7 @@
 
 
 // WORK SECTION
-#work {
+#section-work {
 	h1:after {
 		float: right;
 		text-align: right;
@@ -762,7 +762,7 @@
 	}
 }
 
-#work {
+#section-work {
 	.row {
 		.view {
 			background-color: $black;
@@ -780,7 +780,7 @@
 	}	
 }
 
-#clients {
+#section-clients {
 	background: url(../img/clients/client_bg.png) no-repeat center 360px;
 	.row {
 		.client {
