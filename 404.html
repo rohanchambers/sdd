@@ -37,16 +37,7 @@
                 </ul>
             </header>
         </section>
-
-        <!-- Full sceen Navigation -->
-        <button class="hamburger" id="trigger-overlay" type="button">
-            <span id="nav-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-        </button>
-
+        
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
             <img src="assets/video/space.jpg" alt="Space">
@@ -85,15 +76,6 @@
 
             var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
-            // Document ready
-            $(function(){
-                // Bind a click event to anything with the class 'toggle-nav'
-                $('.hamburger').click(function() {
-                    // Toggle the Body Class 'show-nav'
-                    $('body').toggleClass('show-nav');
-                    $('#nav-icon').toggleClass('open');
-                });
-            }); // End of Document ready
         </script>
     </body>
 </html>
