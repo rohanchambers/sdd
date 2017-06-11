@@ -124,7 +124,7 @@ header {
 
 #section-services,
 #section-clients,
-#section-error-404 {
+#page-error-404 {
 	h1, p {
 		float: left;
 		text-align: left;
@@ -149,6 +149,16 @@ header {
 	h1 {
 		line-height: 1em;
 		padding-bottom: 6px;
+		padding-left: 25px;
+
+			&:before {
+				top: 0;
+			}
+
+			&:after {
+				left: 25px;
+				width: 36%;
+			}
 	}
 }
 

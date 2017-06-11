@@ -538,28 +538,34 @@ header p {
 #section-services h1, #section-services p,
 #section-clients h1,
 #section-clients p,
-#section-error-404 h1,
-#section-error-404 p {
+#page-error-404 h1,
+#page-error-404 p {
   float: left;
   text-align: left; }
 #section-services h1,
 #section-clients h1,
-#section-error-404 h1 {
+#page-error-404 h1 {
   padding-left: 25px; }
 #section-services h1:before,
 #section-clients h1:before,
-#section-error-404 h1:before {
+#page-error-404 h1:before {
   left: 0;
   background-color: #009f5e; }
 #section-services h1:after,
 #section-clients h1:after,
-#section-error-404 h1:after {
+#page-error-404 h1:after {
   left: 25px;
   width: 61%; }
 
 #error-404 h1 {
   line-height: 1em;
-  padding-bottom: 6px; }
+  padding-bottom: 6px;
+  padding-left: 25px; }
+  #error-404 h1:before {
+    top: 0; }
+  #error-404 h1:after {
+    left: 25px;
+    width: 36%; }
 
 #section-services h1:before {
   left: 0;
@@ -5016,8 +5022,6 @@ footer {
     opacity: 0.8; }
     #error-404 header p {
       font-weight: bold; }
-    #error-404 header ::after {
-      width: 76%; }
   #error-404 ul {
     clear: both; }
     #error-404 ul li {
