@@ -14,7 +14,6 @@ function scrollToSections() {
     $('.overlay ul li, .scroll-down').find('a').click(function(e) {
 
         var section = $(this).attr('href').split('#')[1];
-        console.log(section)
 
         $('html, body').animate({
             scrollTop: $('.' + section).offset().top + 1 + 'px'

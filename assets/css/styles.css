@@ -4269,7 +4269,7 @@ Transition Layer
 footer {
   height: auto; }
   footer .col {
-    padding: 25px 0; }
+    padding: 25px 0 10px; }
   footer p, footer i, footer a {
     font-size: 0.75rem;
     color: #FFF;
@@ -4308,7 +4308,7 @@ footer {
   footer #copyright-info {
     position: relative;
     display: table-cell;
-    height: 215px;
+    height: 198px;
     vertical-align: bottom;
     padding-right: 20px; }
     footer #copyright-info #border-blue {

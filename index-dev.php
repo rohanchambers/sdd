@@ -186,7 +186,7 @@
                 Angel, Upper High Street<br>
                 London<br>
                 N1 0YL, UK</p>
-                <p><a href="tel:+4407917044052"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 052</a></p>
+                <!-- <p><a href="tel:+4407917044052"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 052</a></p> -->
             </div>
 
             <div id="get-in-touch">
@@ -285,8 +285,7 @@
                     Dunk<br>
                     Digital</p>
 
-                    <p>+44 (0)79 17044052<br>
-                    <a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
+                    <p><a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
 
                     <p>CTB Studios,<br>
                     Angel, Islington High Street<br>
@@ -298,7 +297,8 @@
                     <div id="copyright-info">
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
                         Slam Dunk Digital Limited | Company no. 10282716<br>
-                        ©<?php echo date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
+                        <?php date_default_timezone_set('Europe/London'); ?>
+                        ©<?= date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
                 </div>
