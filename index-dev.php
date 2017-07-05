@@ -128,10 +128,10 @@
                             <li><span>Social media marketing &amp; management</span></li>
                             <li><span>Print design</span></li>
                             <li><span>Motion graphics (Promotional videos)</span></li>
-                            <li><span>Video</span></li>
+                            <li><span>Video montage &amp; editing</span></li>
                             <li><span>3D modelling &amp; animation</span></li>
                         </ul>
-                        <p>To find out in more detail what we do and how we can help you, please get in touch in with us in the contact section.</p>
+                        <p>To find out in more detail what we do and how we can help you, please get in touch with us in the contact section.</p>
                     </article>
                 </div>
 
@@ -298,7 +298,7 @@
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">credits</a><br>
                         Slam Dunk Digital Limited | Company no. 10282716<br>
                         <?php date_default_timezone_set('Europe/London'); ?>
-                        ©<?= date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
+                        &copy;<?= date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
                     </div>
                 </div>
@@ -348,29 +348,7 @@
         <script src="assets/js/vendor/lightbox.js"></script>
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->
-        <!--(if target dist)>
-        <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
-        <!(endif)-->
 
-        <!-- Google Maps api -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
-        <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=820043481429990";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-        </script>
-        <!-- Twitter share -->
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <!-- Google + share -->
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <!-- Linkedin Share -->
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-        <!-- Google Maps api -->
         <script>
         //<![CDATA[
             $(window).load(function() { // makes sure the whole site is loaded
@@ -381,7 +359,23 @@
             });
         //]]>
         </script>
-        <!-- Start of StatCounter Code for Default Guide -->
+
+        <!--(if target dist)>
+        <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
+        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=820043481429990";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
         <script type="text/javascript">
         var sc_project=11006368;
         var sc_invisible=1;
@@ -397,6 +391,7 @@
         class="statcounter"
         src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
         hit counter"></a></div></noscript>
-        <!-- End of StatCounter Code for Default Guide -->
+
+        <!(endif)-->
     </body>
 </html>
