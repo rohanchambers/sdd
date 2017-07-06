@@ -23,7 +23,7 @@
                     <ul>
                         <li><span class="share-text">Share</span> <a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>
                             <ul id="share-me" class="animated fadeInDown fast share-me-panel">
-                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button_count"></div></li>
+                                <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
                                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                                 <li><div class="g-plusone" data-annotation="none"></div></li>
