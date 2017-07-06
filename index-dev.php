@@ -62,7 +62,6 @@
             </div>
         </div>
 
-
         <!-- Home section -->
         <div id="bg-home">
             <section id="section-home" class="home eavesdrop">
@@ -287,7 +286,7 @@
 
                     <p><a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
 
-                    <p>CTB Studios,<br>
+                    <p>CTB Studios,<b=r>
                     Angel, Islington High Street<br>
                     London<br>
                     N1 0YL, UK</p>
@@ -349,17 +348,6 @@
         <script src="assets/js/main.js"></script>
         <!--<!(endif)-->
 
-        <script>
-        //<![CDATA[
-            $(window).load(function() { // makes sure the whole site is loaded
-                $('#status').fadeOut(); // will first fade out the loading animation
-                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                $('body').delay(350).css({'overflow':'visible'});
-                $('#bg-video').load('incl/inc-nav-bg-video.php');
-            });
-        //]]>
-        </script>
-
         <!--(if target dist)>
         <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
         
@@ -391,7 +379,17 @@
         class="statcounter"
         src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
         hit counter"></a></div></noscript>
-
         <!(endif)-->
+
+        <script>
+        //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow':'visible'});
+                $('#bg-video').load('incl/inc-nav-bg-video.php');
+            });
+        //]]>
+        </script>        
     </body>
 </html>
