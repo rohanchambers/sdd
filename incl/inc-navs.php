@@ -7,7 +7,7 @@
                 <li><a href="#clients" class="green tooltip animate right" data-tool="Clients">&nbsp;</a></li>
                 <li><a href="#contact" class="blue tooltip animate right" data-tool="Contact us">&nbsp;</a></li>
             </ul>
-        </nav> 
+        </nav>
 
         <!-- Full sceen Navigation -->
         <button class="hamburger" id="trigger-overlay" type="button">
@@ -17,9 +17,9 @@
               <span></span>
             </span>
         </button>
-        
+
         <button id="back-to-top"></button>
-        
+
         <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
@@ -43,12 +43,12 @@
                     <li class="blue"><a href="/#contact"><span class="blue">C</span>ontact</a></li>
                     <li class="overlay-share show-hide">
                         <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>                            
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
-                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
+                            <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>
                     </li>
-                </ul>              
-            </nav>          
+                </ul>
+            </nav>
         </div>
