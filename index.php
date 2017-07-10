@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20170706">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20170710">
         
         
 
@@ -119,8 +119,8 @@
                         <ul>
                             <li><span>Full re-brand identities</span></li>
                             <li><span>Web design &amp; development</span></li>
-                            <li><span>Social media marketing &amp; management</span></li>
-                            <li><span>Print design</span></li>
+                            <li><span>Print design</span></li>                            
+                            <li><span>Social media marketing &amp; management</span></li>                            
                             <li><span>Motion graphics (Promotional videos)</span></li>
                             <li><span>Video montage &amp; editing</span></li>
                             <li><span>3D modelling &amp; animation</span></li>
@@ -281,7 +281,7 @@
 
                     <p><a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
 
-                    <p>CTB Studios,<b=r>
+                    <p>CTB Studios,<br>
                     Angel, Islington High Street<br>
                     London<br>
                     N1 0YL, UK</p>
@@ -326,8 +326,9 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20170706"></script>
+        <script src="assets/js/compiled.min.js?20170710"></script>
         
+
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -356,8 +357,6 @@
         class="statcounter"
         src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
         hit counter"></a></div></noscript>
-        
-
         <script>
         //<![CDATA[
             $(window).load(function() { // makes sure the whole site is loaded
@@ -367,6 +366,6 @@
                 $('#bg-video').load('incl/inc-nav-bg-video.php');
             });
         //]]>
-        </script>        
+        </script>       
     </body>
 </html>

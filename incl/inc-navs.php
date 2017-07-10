@@ -43,7 +43,7 @@
                     <li class="blue"><a href="/#contact"><span class="blue">C</span>ontact</a></li>
                     <li class="overlay-share show-hide">
                         <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>
+                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>                            
                             <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>                            
                             <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>

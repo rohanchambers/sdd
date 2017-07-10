@@ -57,9 +57,9 @@
                     <li class="blue"><a href="/#contact"><span class="blue">C</span>ontact</a></li>
                     <li class="overlay-share show-hide">
                         <ul>
-                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.co.uk/" data-layout="button"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.co.uk/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
-                            <li><script type="IN/Share" data-url="http://slamdunkdigital.co.uk/"></script></li>
+                            <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                            <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>
                     </li>
