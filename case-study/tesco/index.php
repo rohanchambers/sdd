@@ -94,10 +94,7 @@ $PRODUCTION = true;
                     <p>We're launching a completely bespoke bottle of wine, created entirely by you - our online community. There are fantastic prizes up for grabs and one lucky winner will get the chance to visit the vineyards in South Africa and experience first-hand how the wine is made by the local community.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
-
-                    <h2>View site:</h2>
-                    <p>Campaign / Site offline</p>                        
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">

@@ -90,10 +90,7 @@ $PRODUCTION = true;
                     <p>Support your team to Olympic glory. This site was built during the 2012 London summer Olympics to allow fans to tweet about their favourite event and represent their tweets as a visual reference via a timeline/podium animation. Other data is spread around the site such as latest activity and a leader board panel to show team rankings.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Fully responsive</p>
-
-                    <h2>View site:</h2>
-                    <p>Campaign / Site offline</p>                        
+                    <p>HTML5, CSS3, jQuery, Fully responsive</p>                      
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">

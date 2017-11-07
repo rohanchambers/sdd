@@ -93,10 +93,7 @@ $PRODUCTION = true;
                     <p>Join us in celebrating the launch of our new Limited Edition Collections range and you could win: £1000 of Vouchers. We'd like you to create your own style statement collage using our new Collection Cube designs. Go on...show off your style!</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
-
-                    <h2>View site:</h2>
-                    <p>Campaign / Site offline</p>                        
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                     
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
