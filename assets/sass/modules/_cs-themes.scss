@@ -11,6 +11,21 @@
 	}	
 }
 
+// THEME Michel Jordi.
+.cs-jordi {
+	background-color: #e3000f;
+	
+	.col-skew {
+		background-color: #e3000f;
+	}
+
+	// Phone ResQ
+	#intro-bg-img {
+		background: $black url(/case-study/jordi/img/banner.jpg) no-repeat center bottom;
+	    background-size: cover;
+	}	
+}
+
 // THEME SOHO Film Finance.
 .cs-sff {
 	background-color: #8ea4af;
