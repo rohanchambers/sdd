@@ -6,14 +6,14 @@
                     </div>
                     <a href="case-study/varcale-entertainment/"></a>
                 </div> -->
-                <div class="view view-first find-out-more">
+<!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/jordi.jpg" alt="Michel Jordi" />
                     <div class="mask">
                         <h2>Michel Jordi</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/jordi/"></a>
-                </div>
+                </div> -->
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
@@ -128,7 +128,7 @@
                     </div> 
                     <a href="case-study/playboy/"></a>
                 </div>
-<!--                  <div class="view view-first find-out-more">
+                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/2012.jpg" alt="Olympics 2012, #supportYourTeam" />
                     <div class="mask">
                         <h2>Olympics 2012, #supportYourTeam</h2>
@@ -136,7 +136,7 @@
                     </div>
                     <a href="case-study/olympics/"></a>
                 </div>
-                <div class="view view-first find-out-more">
+<!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/enotria.jpg" alt="Olympics 2012, #supportYourTeam" />
                     <div class="mask">
                         <h2>Tesco, Enotria</h2>
