@@ -99,9 +99,6 @@ $PRODUCTION = true;
 
                     <h2>Technlogies</h2>
                     <p>Tubmlr build, HTML5, CSS3, jQuery, Bourbon + Neat responsive grid, Fully responsive</p>
-                    
-                    <h2>View site:</h2>
-                    <p>Campaign / Site offline</p>                        
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">

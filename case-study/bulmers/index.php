@@ -93,10 +93,7 @@ $PRODUCTION = true;
                     <p>Our competition is powered by your good times. The more Facebook posts and Tweets you share with us the more rewards we'll unlock. With new weekly winners and massive prizes on offer we've got it covered if you keep the ideas flowing. Enter now to get involved and keep checking back to see when the next prize is revealed.</p>
 
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
-
-                    <h2>View site:</h2>
-                    <p>Campaign / Site offline</p>                        
+                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                     
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
