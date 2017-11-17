@@ -90,7 +90,7 @@ $PRODUCTION = true;
                     <p>HTML5, CSS3, jQuery, Grunt Bourbon + Neat responsive grid, Fully responsive.</p>
 
                     <h2>View site:</h2>
-                    <p><a href="http://www.mjordi.com/" class="targetBlank" target="_blank">http://www.micheljordi.net</a></p>
+                    <p><a href="http://www.micheljordi.net/" class="targetBlank" target="_blank">http://www.micheljordi.net</a></p>
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
