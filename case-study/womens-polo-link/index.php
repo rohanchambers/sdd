@@ -84,10 +84,10 @@ $PRODUCTION = true;
                         <li>Deployment to servers</li>
                     </ul>
                     <h2>Project summary</h2>
-                        <p>Women's Polo Link is a company that was founded to bring women in the polo world together. The client wanted a unique branding and identity to break in to this market to have an impact that would serperate themeselves from the rest.</p>
-                        <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall brand. There is currently also a holding page that we developed that will become the full fledged site with all the functionalities that are necessary to get the client's vision to reality.</p>
+                        <p>Women's Polo Link is a company that was founded to bring women in the polo world together. The client wanted a unique branding and identity to break this market and have an impact that would serperate them selves from the rest.</p>
+                        <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall brand. There is also a holding page that we developed, that will become the full fledged site with all the functionalities that are necessary to get the client's vision to reality in the next phase.</p>
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome.</p>
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome, Mail chimp.</p>
 
                     <h2>View site:</h2>
                     <p><a href="http://www.womenspololink.com/" class="targetBlank" target="_blank">http://www.womenspololink.com</a></p>
