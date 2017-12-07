@@ -1128,6 +1128,14 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-womens-polo-link {
+  background-color: #a42f91; }
+  .cs-womens-polo-link .col-skew {
+    background-color: #a42f91; }
+  .cs-womens-polo-link #intro-bg-img {
+    background: #FFF url(/case-study/womens-polo-link/img/banner.jpg) no-repeat center 0px;
+    background-size: cover; }
+
 .cs-varcale-entertainment {
   background-color: #fd070d; }
   .cs-varcale-entertainment .col-skew {
@@ -1294,6 +1302,9 @@ footer {
     background-size: cover; }
 
 @media screen and (max-width: 479px) {
+  .cs-womens-polo-link #intro-bg-img {
+    background-position: 0 0; }
+
   .cs-varcale-entertainment #intro-bg-img {
     background-size: 100%; }
 

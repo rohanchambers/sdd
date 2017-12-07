@@ -8,8 +8,8 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Phone ResQ.</title>
-        <meta name="title" content="Slam Dunk Digital | Phone ResQ.">
+        <title>Slam Dunk Digital - Women's Polo Link</title>
+        <meta name="title" content="Slam Dunk Digital | Women's Polo Link">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -56,7 +56,7 @@ $PRODUCTION = true;
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>Phone ResQ</h1>
+                        <h1>Women's Polo Link</h1>
                         <p>Strives to create a new and unique experience for its customers</p>
                     </article>
                 </div>
@@ -73,7 +73,7 @@ $PRODUCTION = true;
                     <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
-                        <p>Phone ResQ.</p>
+                        <p>Women's Polo Link</p>
                     </header>
                     <h2>Deliverables</h2>
                     <ul>
@@ -92,7 +92,7 @@ $PRODUCTION = true;
                     <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>
 
                     <h2>View site:</h2>
-                    <p><a href="http://phoneresq.com/" class="targetBlank" target="_blank">http://phoneresq.com</a></p>
+                    <p><a href="http://www.phoneresq.com/" class="targetBlank" target="_blank">http://www.phoneresq.com</a></p>
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">

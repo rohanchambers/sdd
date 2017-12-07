@@ -147,7 +147,7 @@
         <section id="section-work" class="work eavesdrop animatedParent animateOnce" data-sequence='500'>
             <header>
                 <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our collective have worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide orginal high-end quality work.</p>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our collective have worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide original high-end quality work.</p>
             </header>
             <div class="row">
                 <!-- Work project list -->

@@ -8,8 +8,8 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Varcale Entertainment</title>
-        <meta name="title" content="Slam Dunk Digital | Varcale Entertainment">
+        <title>Slam Dunk Digital - Women's Polo Link</title>
+        <meta name="title" content="Slam Dunk Digital | Women's Polo Link">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -48,7 +48,7 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
    
         <!-- Case study Intro -->
-        <div id="case-study-outer" class="cs-varcale-entertainment">
+        <div id="case-study-outer" class="cs-womens-polo-link">
             <div id="case-study-intro">
                 <div id="intro-bg-img"></div>
                 <div id="intro-bg-color">
@@ -56,57 +56,50 @@ $PRODUCTION = true;
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>Varcale Entertainment</h1>
-                        <p>Joy is an alternative investment</p>
+                        <h1>Women's Polo Link</h1>
+                        <p>The one stop shop for women's polo</p>
                     </article>
                 </div>
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">
-                <div class="col"><a href="../jordi/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../phone-resq/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../jordi/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study">
                 <div id="case-study-info" class="col col-skew">
                     <div id="particle-canvas"></div>
                     <header>
-                        <h2>Client:</h2>
-                        <p>Varcale Entertainment</p>
+                        <h2>Client:</h2> 
+                        <p>Women's Polo Link</p>
                     </header>
-
                     <h2>Deliverables</h2>
                     <ul>
                         <li>Project &amp; Client management</li>
                         <li>Creative direction</li>
-                        <li>UX wireframing &amp; A/B testing</li>
-                        <li>Design &amp; development</li>
-                        <li>Social media page setups</li>
+                        <li>Logo design / rebranding</li>
+                        <li>Site Design &amp; development</li>
+                        <li>Deployment to servers</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>Our team worked on this campaign for the Toughmudder Get the Bottle Facebook app. camapaign. We used the Facebook, Twitter and Instagram API's to make this as socially engaging as possible.</p>
-
-                    <p>If you've #GOTTHEBOTTLE go on, show us your Game Face and you'll be in with a chance to win an adrenalin packed trip to Las Vegas or free entry to Tough Mudder.
-                    HOW TO ENTER?</p>
-                    <ul>
-                        <li>Step 1: Take a photo of your toughest game face</li>
-                        <li>Step 2: Upload your photo to Twitter or Instagram using #GOTTHEBOTTLE</li>
-                    </ul>
-
+                        <p>Women's Polo Link is a company that was founded to bring women in the polo world together. The client wanted a unique branding and identity to break in to this market to have an impact that would serperate themeselves from the rest.</p>
+                        <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall brand. There is currently also a holding page that we developed that will become the full fledged site with all the functionalities that are necessary to get the client's vision to reality.</p>
                     <h2>Technlogies</h2>
-                    <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
+                    <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome.</p>
 
                     <h2>View site:</h2>
-                    <p><a href="http://www.varcaleentertainment.tv/" class="targetBlank" target="_blank">www.varcaleentertainment.tv</a></p>
+                    <p><a href="http://www.womenspololink.com/" class="targetBlank" target="_blank">http://www.womenspololink.com</a></p>
                 </div><!-- Case study info -->
 
                 <div id="case-study-img" class="col col-no-skew">
-                    <img src="img/varcale-entertainment.jpg" alt="Varcale Entertainment">
+                     <img src="img/logo.jpg" alt="Women's Polo Link logo">
+                     <img src="img/final.jpg" alt="Women's Polo Link color scheme">                  
                 </div>
             </section><!-- End of Case study-->
         </div>
-
-        <?php include("../../incl/inc-footer-cs.php"); ?> 
+        
+        <?php include("../../incl/inc-footer-cs.php"); ?>         
     </body>
 </html>
