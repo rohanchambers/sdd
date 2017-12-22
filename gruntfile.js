@@ -105,7 +105,7 @@ module.exports = function(grunt){
 		    options: {
 		      watchTask: true,
 		      open: true,
-				proxy: "sdd.dev/index-dev.php"
+				proxy: "sdd.local/index-dev.php"
 		    }
 		  }
 		},
