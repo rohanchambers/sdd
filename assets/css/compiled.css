@@ -5174,6 +5174,9 @@ footer {
     #section-what-we-do .col-no-skew,
     #section-what-we-do .col-skew:after {
       display: none; }
+    #section-what-we-do .show-hide {
+      float: none;
+      display: inline-block; }
 
   #section-work .row .view {
     float: left;

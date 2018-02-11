@@ -8,7 +8,7 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Women's Polo Link</title>
+        <title>Slam Dunk Digital - Phone ResQ</title>
         <meta name="title" content="Slam Dunk Digital | Women's Polo Link">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -56,7 +56,7 @@ $PRODUCTION = true;
                 </div>
                 <div id="intro-content">
                     <article class="left">
-                        <h1>Women's Polo Link</h1>
+                        <h1>Phone ResQ</h1>
                         <p>Strives to create a new and unique experience for its customers</p>
                     </article>
                 </div>
@@ -73,7 +73,7 @@ $PRODUCTION = true;
                     <div id="particle-canvas"></div>
                     <header>
                         <h2>Client:</h2>
-                        <p>Women's Polo Link</p>
+                        <p>Phone ResQ</p>
                     </header>
                     <h2>Deliverables</h2>
                     <ul>
@@ -86,7 +86,7 @@ $PRODUCTION = true;
                         <li>Deployment to servers</li>
                     </ul>
                     <h2>Project summary</h2>
-                    <p>PhoneResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
+                    <p>Phone ResQ is a privately owned business that repairs and improves all handheld devices and home computers. They needed a complete identity rebrand and a fresh rebuild of their site.</p>
                     <p>We took on this project with one thing in mind, fresh new look. Our team were working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done to ensure maximum compatibility.</p>
                     <h2>Technlogies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive, Font awesome.</p>

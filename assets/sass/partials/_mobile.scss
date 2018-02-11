@@ -169,6 +169,12 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		.col-skew:after {
 			display: none;
 		}	
+
+		// Trigger show hide text in what we do
+		.show-hide {
+			float: none;
+			display: inline-block;
+		}		
 	}
 
 	#section-work {
