@@ -93,7 +93,7 @@ $PRODUCTION = true;
                     <p>The site was fully responsive for all major devices which was one of our biggest challenge on this project. There was a lot of interaction between the designers and developers on this project to get all the animations and tweenings perfectly coordinated as well as getting all the other design elements to fit correctly.</p>
                     <p>The beauty of brewing is that it's a natural process, enhanced by craftsmanship to create the perfect beverage.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Skrollr plugin, CSS3 transitions, Fully responsive.</p>
 
                     <h2>View site:</h2>

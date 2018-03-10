@@ -95,7 +95,7 @@ $PRODUCTION = true;
                         <li>If you buy a can you'll be directed to Paypal to confirm your purchase.</li>
                         <li>If you 'share' a can you just need to confirm a few details before posting to your friend's Facebook profile.</li>
                     </ul>
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive</p>
                 </div><!-- Case study info -->
 

@@ -91,7 +91,7 @@ $PRODUCTION = true;
                     <p>Well what a fun project this was! We love taking on projects that are on the fun side of tech and creativity. Our creatives came up with this great idea of getting all the movember fans to enter this competition to be part of a the Movember community and post their photos of themsleves with the best mustaches around.</p>
                     <p>This site was obviously for the month of November and for those whoe were brave enough to sign up, upload their photo and take on the challenges set out were in a chance to win hard earned cash. </p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
                 </div><!-- Case study info -->
 

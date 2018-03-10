@@ -97,7 +97,7 @@ $PRODUCTION = true;
                     <p>To enter, capture a photo or video that truly embodies being Fearless – this could be an appreciation of Fearlessness (e.g. within Fashion, Design, Food or Music) or your own personal act of conquering fear.</p>
                     <p>Share your content via Facebook, Twitter or Instagram with the hashtag #LiveFearless to be in with a chance.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>Tubmlr build, HTML5, CSS3, jQuery, Bourbon + Neat responsive grid, Fully responsive</p>
                 </div><!-- Case study info -->
 

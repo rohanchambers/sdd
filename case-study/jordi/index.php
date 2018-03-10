@@ -86,7 +86,7 @@ $PRODUCTION = true;
                     <h2>Project summary</h2>
                     <p>Michel Jordi is about to launch his new biography and got in touch with us to create a landing page for his new book 'Michel Jordi, Guts, Giving up is not an option!'. He wanted the ability for users to buy his book online using Paypal's payment system. The site was localised for multiple languages.</p>
                     <p>Michel Jodi is the creator of LE CLIP and the legendary "Swiss Ethno Watch" which he introduced at the occasion of the 700-year anniversary of Switzerland in 1991. A complete line of products and accessories were marketed under the "Spirit of Switzerland" brand, which gave him international fame and appreciation.</p>
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt Bourbon + Neat responsive grid, Fully responsive.</p>
 
                     <h2>View site:</h2>

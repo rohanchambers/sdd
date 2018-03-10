@@ -94,7 +94,7 @@ $PRODUCTION = true;
                         <li>Step 2: Upload your photo to Twitter or Instagram using #GOTTHEBOTTLE</li>
                     </ul>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
 
                     <h2>View site:</h2>

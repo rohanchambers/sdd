@@ -93,7 +93,7 @@ $PRODUCTION = true;
                     <p>Take part in creating the world's first community sourced wine.<br>
                     <p>We're launching a completely bespoke bottle of wine, created entirely by you - our online community. There are fantastic prizes up for grabs and one lucky winner will get the chance to visit the vineyards in South Africa and experience first-hand how the wine is made by the local community.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                    
                 </div><!-- Case study info -->
 

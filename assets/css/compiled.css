@@ -1128,6 +1128,14 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-shrimp-festival {
+  background-color: #1857ab; }
+  .cs-shrimp-festival .col-skew {
+    background-color: #1857ab; }
+  .cs-shrimp-festival #intro-bg-img {
+    background: #FFF url(/case-study/shrimp-festival/img/banner.jpg) no-repeat center 0px;
+    background-size: cover; }
+
 .cs-womens-polo-link {
   background-color: #a42f91; }
   .cs-womens-polo-link .col-skew {

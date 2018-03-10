@@ -92,7 +92,7 @@ $PRODUCTION = true;
                     <p>At the time the final instalment to the Harry Potter movies comes the video game 'Harry Potter and the Deathly Hallows Part 2'. This is a supporting site to the game where fans and video gamers can find out the latest news about the game and all things related.</p>
                     <p>Our team was in charge of the complete design and build of the site to then be passed on to our back end and Wordpress developer specialists who integtrated a custom admin CMS for the client to manage. The site was localised in 7 languages and was built using the latest technolgies at the time.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat's responsive grid, CSS3 transitions, Fully responsive</p>                     
                 </div><!-- Case study info -->
 

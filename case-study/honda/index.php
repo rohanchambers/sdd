@@ -88,7 +88,7 @@ $PRODUCTION = true;
                     <h2>Project summary</h2>
                     <p>We developed a prototype for the Honda book a test drive section to improve the current one on the Honda.com website. Its a step by step process with multiple variations of routes/user journeys for the user to end up booking a car.</p>
                     <p>It was tested in a professional environement to understand how users were interacting with the interface and the journey. Amends were then made with the feedback we received/observed from the test users. As this was just a prototype it was developed for Google Chrome only to then be passed on to the Honda in house developers.</p>
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Google Chrome</p>
 
                     <h2>View site:</h2>

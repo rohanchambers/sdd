@@ -92,7 +92,7 @@ $PRODUCTION = true;
                     <p>This was another fun project to work. We created this Facebook app. which allows the user to design his/her Kleenex box to be entered into a competition and be displayer on the gallery section of the app. and best entry was selected to win a prize.</p>
                     <p>Join us in celebrating the launch of our new Limited Edition Collections range and you could win: £1000 of Vouchers. We'd like you to create your own style statement collage using our new Collection Cube designs. Go on...show off your style!</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                     
                 </div><!-- Case study info -->
 

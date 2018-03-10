@@ -92,7 +92,7 @@ $PRODUCTION = true;
                     <p>We designed and developed this Facebook app. for both desktop and mobile which lets the user share their Bulmers moments on Facebook or on Twitter, using #beginwithabulmers to win great prizes. Some great graphs, stats and a timeline were displayed to show the progress of how the community was interacting with this campaign.</p>
                     <p>Our competition is powered by your good times. The more Facebook posts and Tweets you share with us the more rewards we'll unlock. With new weekly winners and massive prizes on offer we've got it covered if you keep the ideas flowing. Enter now to get involved and keep checking back to see when the next prize is revealed.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>                     
                 </div><!-- Case study info -->
 

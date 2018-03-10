@@ -131,7 +131,7 @@ $PRODUCTION = true;
                     <p>Isn't it all nice and shiny? Why don't you share a photo of your own cuppa club to be in with a chance of winning a free pack of PG tips, with your very own Cuppa Club points on it, of course<br>
                     Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, Fully responsive</p>
                 </div><!-- Case study info -->
                 

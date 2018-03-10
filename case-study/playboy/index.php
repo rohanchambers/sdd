@@ -84,7 +84,7 @@ $PRODUCTION = true;
                     <p>This was one of the many projects and most rewarding one I worked on as an employee for Playboy UK for over three years. It was the redesign and development of the new playboy.com site that was launched to push the brand further than just the magasine, so online.</p>
                     <p>I worked as a front end developer coding up all the landing pages and working along side a third party agency that were implementing a custom back end admin for the site.</p>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery</p>
                     <h2>View site:</h2>
                     <p><a href="http://playboy.com" target="_blank">Playboy.com</a></p>

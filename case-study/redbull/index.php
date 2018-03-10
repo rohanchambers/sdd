@@ -97,7 +97,7 @@ $PRODUCTION = true;
                         <li>Give your Instagram Wings: The most inspiring Instagrams as chosen by our editors will be exhibited in cities across the UK.</li>
                     </ul>
 
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, PHP, Instagram API, Grunt, Bourbon + Neat responsive grid, Fully responsive.</p>
                 </div><!-- Case study info -->
 

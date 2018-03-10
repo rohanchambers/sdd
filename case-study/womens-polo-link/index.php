@@ -63,7 +63,7 @@ $PRODUCTION = true;
             </div><!-- End of case study intro -->
 
             <section id="case-study-nav">
-                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../shrimp-festival/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../jordi/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
@@ -87,7 +87,7 @@ $PRODUCTION = true;
                     <h2>Project summary</h2>
                         <p>Women's Polo Link is a company that was founded to bring women in the polo world together. The client wanted a unique branding and identity to break this market and have an impact that would separate them selves from the rest.</p>
                         <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall look and feel. There is also a holding page that we developed to get a buzz going and collect potential customers and investors. In the second phase it will become a full fledged site with all the functionalities that are necessary to get the client's vision become a reality.</p>
-                    <h2>Technlogies</h2>
+                    <h2>Technologies</h2>
                     <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome, Mail chimp.</p>
 
                     <h2>View site:</h2>
