@@ -1,11 +1,11 @@
-// DESKTOP large | Max 1024px
+// DESKTOP large | Min 1024px
 $desktop-1440: new-breakpoint(min-width 1440px);
 
 @include media($desktop-1440) {
 	footer {
 		max-width: 94%;
 		margin: 0 3%;
-	}
+	} 
 }
 
 // DESKTOP large | Max 1024px

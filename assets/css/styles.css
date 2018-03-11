@@ -4633,7 +4633,7 @@ footer {
       #error-404 ul li a:hover {
         text-decoration: none; }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 1440px) {
   footer {
     max-width: 94%;
     margin: 0 3%; } }
