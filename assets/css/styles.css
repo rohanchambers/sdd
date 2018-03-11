@@ -4633,6 +4633,10 @@ footer {
       #error-404 ul li a:hover {
         text-decoration: none; }
 
+@media screen and (min-width: 1380px) {
+  footer {
+    max-width: 94%;
+    margin: 0 3%; } }
 @media screen and (max-width: 1200px) {
   #section-work h1, #section-work p {
     float: left;
