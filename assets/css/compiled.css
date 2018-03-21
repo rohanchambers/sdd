@@ -1128,6 +1128,14 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-new-wild {
+  background-color: #000; }
+  .cs-new-wild .col-skew {
+    background-color: #000; }
+  .cs-new-wild #intro-bg-img {
+    background: #FFF url(/case-study/off-the-fence/img/newWild_cover.jpg) no-repeat center -50px;
+    background-size: cover; }
+
 .cs-shrimp-festival {
   background-color: #1857ab; }
   .cs-shrimp-festival .col-skew {
@@ -1310,6 +1318,9 @@ footer {
     background-size: cover; }
 
 @media screen and (max-width: 479px) {
+  .cs-new-wild #intro-bg-img {
+    background-position: center top; }
+
   .cs-womens-polo-link #intro-bg-img {
     background-position: 0 0; }
 
