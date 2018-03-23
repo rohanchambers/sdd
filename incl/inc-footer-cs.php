@@ -134,6 +134,7 @@
             <script src="/assets/js/vendor/constellations.js"></script>
             <script src="assets/js/vendor/lightbox.js"></script>
             <script src="/assets/js/main-pages.js"></script>
+            <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>            
         <?php }
         ?>
         <script>

@@ -928,7 +928,7 @@ function isMobile() {
 }
 
 // Document ready
-$(function(){
+$(function() {     
     // Add parallax to intro copy only for desktop otherwise
     // mobile vertical center alignment is off
     var windowHeight = jQuery(window).height();

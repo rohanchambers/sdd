@@ -49,12 +49,12 @@ footer {
 	.col {
 		@include span-columns(4);
 		width: 31.3333%;
-		margin-right: 2%;		
+		margin-right: 2%;
 	}
 
 	.col-6 {
 		@include span-columns(6);
-	}	
+	}
 }
 
 #process-steps {
@@ -62,7 +62,7 @@ footer {
 
 	.col {
 		@include span-columns(3);
-		@include omega(4n);	
+		@include omega(4n);
 		width: 23%;
 		margin-right: 2%;
 	}
@@ -112,5 +112,222 @@ footer {
 	@include row();
 	.col {
 		@include span-columns(6);
+	}
+}
+
+// Case study new
+#case-study-custom {
+	.row {
+		@include row();
+	}
+
+	.col {
+		@include pad(20px);
+
+		h1, h2 {
+			margin: 0;
+			font-size: 4rem;
+		    line-height: 3rem;
+			text-transform: uppercase;
+		    font-family: 'futuraLT', sans-serif;
+		    font-weight: 400;
+		}
+
+		h2 {
+			font-size: 2rem;
+
+	    	span {
+	    		font-family: $font-med;
+	    		font-size: 1.2rem;
+	    		text-transform: none;
+	    	}
+		}
+	}
+
+	.top-content {
+		min-height: 570px;
+		padding-top: 150px;
+		padding-bottom: 40px;
+		background: #f1f4f9 url(../../case-study/off-the-fence/img/new_wild_bg_top.jpg) repeat-x top center;
+
+		@include media($tablet) {
+			padding-top: 50px;
+		}
+
+		.col {
+			@include span-columns(4);
+			min-height: 450px;
+
+				img {
+					display: block;
+					margin: 0 auto;
+					-webkit-box-shadow: 0 8px 6px -6px black;
+					   -moz-box-shadow: 0 8px 6px -6px black;
+					        box-shadow: 0 12px 10px -10px black;
+				}
+
+				@include media($desktop) {
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+
+				@include media($tablet) {
+					img {
+						display: block;
+						margin: 0 auto 0 auto;
+					}
+				}
+		}
+
+		@include media($large-desktop) {
+			.col {
+				h1, p {
+					width: 75%;
+				}
+			}
+		}
+
+		.col:nth-of-type(2n) {
+			@include span-columns(8);
+			background: url(../../case-study/off-the-fence/img/sled.jpg) no-repeat right bottom;
+			background-size: 100%;
+			padding-right: 150px;
+			padding-left: 20px;
+
+			@include media($desktop) {
+				padding-right: 50px;
+			}
+		}
+	}
+
+
+	.middle-content {
+		.col {
+			@include span-columns(6);
+			min-height: 500px;
+			background: #FFF;
+		}
+
+		.col.content {
+			display: table;
+
+			article {
+			  display: table-cell;
+			  vertical-align: middle;
+			}
+
+			@include media($large-desktop) {
+				h2, p {
+					width: 75%;
+				}
+			}
+
+			@include media($tablet) {
+				min-height: 300px;
+			}
+
+				p {
+					margin-top: 0px;
+				}
+
+				a {
+					color: $black;
+					padding: 2px;
+
+						&:hover {
+							background: $black;
+							color: $white;
+							text-decoration: none;
+						}
+				}
+		}
+
+		.col.img {
+			background: url(../../case-study/off-the-fence/img/jungle_cat.jpg) no-repeat center center;
+			background-size: cover;
+		}
+	}
+
+	.middle-content.middle-content-2 {
+		.col.img {
+			background: url(../../case-study/off-the-fence/img/goat.jpg) no-repeat left center;
+			background-size: cover;
+		}
+
+		.col.content {
+
+			@include media($large-desktop) {
+				h2, p {
+					float: right;
+				}
+			}
+		}
+	}
+
+
+	.bottom-content {
+		background: #FFF;
+		//padding-top: 25px;
+
+		.col {
+			@include span-columns(6);
+			@include shift(3);
+			text-align: center;
+
+				ul {
+
+
+						li {
+							list-style: none;
+						}
+				}
+		}
+
+		@include media($tablet) {
+			.col {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+	}
+
+
+	.carousel-content {
+		margin: 0 0 50px 0;
+
+		.col {
+
+			.single {
+				min-width: 100%;
+				text-align: center;
+
+
+					@include media($desktop) {
+						img {
+							width: 100%;
+						}
+					}
+			}
+	}
+
+		@include media($desktop) {
+			.col {
+				@include span-columns(12);
+				@include shift(0);
+			}
+		}
+	}
+}
+
+@include media($tablet) {
+	#case-study-custom {
+		.row {
+			.col,
+			.col:nth-of-type(2n) {
+				@include span-columns(12);
+			}
+		}
 	}
 }

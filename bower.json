@@ -20,7 +20,8 @@
     "jquery": "^2.2.2",
     "bourbon": "^4.2.6",
     "neat": "^1.7.4",
-    "normalize-css": "^4.0.0"
+    "normalize-css": "^4.0.0",
+    "flickity": "^2.1.0"
   },
   "devDependencies": {
     "html5shiv": "^3.7.3"

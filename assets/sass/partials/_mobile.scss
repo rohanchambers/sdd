@@ -245,6 +245,10 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
+	#case-study-outer {
+		padding: 0 2%;	
+	}
+
 	#case-study {
 		.col,
 		#case-study-info,

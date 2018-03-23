@@ -1,6 +1,14 @@
 // Document ready
 $(function(){    
 
+    // Flickity carousel plugin
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        wrapAround: true,
+        resize: true
+    });   
+
     // Hide fullscreen nav and hover active states
     $('.overlay ul li a').click( function(){
         hideNav();
@@ -25,13 +33,12 @@ $(function(){
     });
 
     // Fit text plugin
-    $('#intro-content h1').fitText(1, { minFontSize: '20px'});
+    $('#intro-content h1, #case-study-custom h1').fitText(1, { minFontSize: '20px',  maxFontSize: '50px'});
 
     // Remove from DOM mobile BG video on main navigation 
     if (isMobile()) {
         $('#space-video').remove();
     }
-
 }); // End of Document ready
 
 
@@ -78,7 +85,9 @@ var options = {
     density: 'high'
 };
 
-var particleCanvas = new ParticleNetwork(canvasDiv, options);
+if($('body').hasClass('.page-case-study')) {
+    var particleCanvas = new ParticleNetwork(canvasDiv, options);    
+}
 
 function isMobile() {
     return /Android|webOS|iPad|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

@@ -1,11 +1,11 @@
-<!--                 <div class="view view-first find-out-more">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/newWild.jpg" alt="Shrimp Festival 2018" />
                     <div class="mask">
                         <h2>New Wild</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/off-the-fence/"></a>
-                </div> -->
+                </div>
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/shrimp_festival.jpg" alt="Shrimp Festival 2018" />
                     <div class="mask">
