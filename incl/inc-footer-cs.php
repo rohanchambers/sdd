@@ -33,7 +33,7 @@
         </button>
 
         <button id="back-to-top"></button>
-                
+
         <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
             <div class="overlay-layer"></div>
@@ -44,7 +44,7 @@
                     <source src="../../assets/video/space.mp4" type="video/mp4">
                     <source src="../../assets/video/space.ogv" type="video/ogg">
                 </video>
-            </div>            
+            </div>
             <header>
                 <h1>Slam Dunk Digital</h1>
             </header>
@@ -58,7 +58,7 @@
                     <li class="overlay-share show-hide">
                         <ul>
                             <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
-                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>                            
+                            <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                             <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
                             <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>
@@ -90,7 +90,7 @@
 
         <?php if ($PRODUCTION) { ?>
             <script src="/assets/js/cs-compiled.min.js"></script>
-   
+
             <!-- Load Facebook SDK for JavaScript -->
             <div id="fb-root"></div>
             <script>(function(d, s, id) {
@@ -123,7 +123,7 @@
             class="statcounter"
             src="//c.statcounter.com/11006368/0/096fd4e3/1/" alt="free
             hit counter"></a></div></noscript>
-            <!-- End of StatCounter Code for Default Guide -->            
+            <!-- End of StatCounter Code for Default Guide -->
         <?php } else { ?>
             <script src="/assets/js/vendor/modernizr-custom.js"></script>
             <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -133,8 +133,8 @@
             <script src="/assets/js/vendor/jquery.fittext.js"></script>
             <script src="/assets/js/vendor/constellations.js"></script>
             <script src="assets/js/vendor/lightbox.js"></script>
+            <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
             <script src="/assets/js/main-pages.js"></script>
-            <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>            
         <?php }
         ?>
         <script>
@@ -146,4 +146,4 @@
                 $('#case-study-nav a').addClass('buttonPulse');
             })
         //]]>
-        </script>  
+        </script>

@@ -85,7 +85,7 @@ var options = {
     density: 'high'
 };
 
-if($('body').hasClass('.page-case-study')) {
+if( $('body').hasClass('page-case-study') ) {
     var particleCanvas = new ParticleNetwork(canvasDiv, options);    
 }
 
