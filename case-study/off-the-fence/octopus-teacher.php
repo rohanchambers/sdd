@@ -65,7 +65,8 @@ $PRODUCTION = false;
                     <div class="col">
                         <article>
                             <h1>Octopus Teacher</h1>
-                            <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. The company has created almost 400 hours of television content for a wide range of international broadcasters including History Channel, MTV, BBC, Channel 4, MSNBC, PBS, National Geographic Channel, Discovery and The Weather Channel. Their films aim to give a fresh perspective and high production values across a range of genres that include: science, history, adventure, human stories, and natural history.</p>
+                            <p>In a dessperate attempt to come to terms with an existential crisis, a burn-out filmkaker pledges to free dive without a wetsuit every day in the freezing ocean at the tip of Africa. Utilizing the tracking skills taught to him by Kalahari bushmen, he endeavours to uncover the secrets of the great South African sea forest - one of the most remarkable yet hitherto undocumented habitats on the planet.</p>
+                            <p>His life changes when he meets a young octopus who displays remarkable intelligence. Slowly he wins the animal'strust and they develop a never-seen-before bond between human and wild animal.</p>
                         </article>
                     </div>
                 </div>

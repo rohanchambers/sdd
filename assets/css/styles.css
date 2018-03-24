@@ -742,6 +742,9 @@ footer {
 .cs-new-wild #case-study-custom .middle-content.middle-content-2 .col.img {
   background: url(../../case-study/off-the-fence/img/new_wild/goat.jpg) no-repeat right bottom;
   background-size: cover; }
+.cs-new-wild #case-study-custom .middle-content.middle-content-3 .col.img {
+  background: url(../../case-study/off-the-fence/img/new_wild/northern_lights.jpg) no-repeat right bottom;
+  background-size: cover; }
 
 .cs-octopus-teacher #case-study-nav {
   background: #54739a; }
@@ -1076,8 +1079,10 @@ footer {
     text-align: center; }
     #case-study-custom .bottom-content .col:last-child {
       margin-right: 0; }
-    #case-study-custom .bottom-content .col ul li {
-      list-style: none; }
+    #case-study-custom .bottom-content .col ul {
+      padding: 0; }
+      #case-study-custom .bottom-content .col ul li {
+        list-style: none; }
   @media screen and (max-width: 800px) {
     #case-study-custom .bottom-content .col {
       float: left;
