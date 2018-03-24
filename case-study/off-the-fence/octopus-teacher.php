@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Europe's New Wild Nature Unleashed"</title>
+        <title>Slam Dunk Digital - Octopus Teacher</title>
         <meta name="title" content="Slam Dunk Digital | Europe's New Wild Nature Unleashed">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -49,8 +49,7 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-new-wild">
-
+        <div class="cs-octopus-teacher">
             <section id="case-study-nav">
                 <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
@@ -60,12 +59,14 @@ $PRODUCTION = true;
             <section id="case-study-custom">                
                 <div class="row top-content">
                     <div class="col">
-                        <img src="img/poster.jpg" alt="Europe's New Wild" width="310" />
+                        <img src="img/octopus_teacher/poster.jpg" alt="Octopus Teacher" width="310" />
                     </div>
 
                     <div class="col">
-                        <h1>Europe's New Wild</h1>
-                        <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. The company has created almost 400 hours of television content for a wide range of international broadcasters including History Channel, MTV, BBC, Channel 4, MSNBC, PBS, National Geographic Channel, Discovery and The Weather Channel. Their films aim to give a fresh perspective and high production values across a range of genres that include: science, history, adventure, human stories, and natural history.</p>
+                        <article>
+                            <h1>Octopus Teacher</h1>
+                            <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. The company has created almost 400 hours of television content for a wide range of international broadcasters including History Channel, MTV, BBC, Channel 4, MSNBC, PBS, National Geographic Channel, Discovery and The Weather Channel. Their films aim to give a fresh perspective and high production values across a range of genres that include: science, history, adventure, human stories, and natural history.</p>
+                        </article>
                     </div>
                 </div>
 
@@ -114,11 +115,8 @@ $PRODUCTION = true;
                 <div class="row carousel-content">
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/newWild_home.jpg" alt="Home" /></div>
-                            <div class="carousel-cell single"><img src="img/newWild_partners.jpg" alt="Partners"  /></div>
-                            <div class="carousel-cell single"><img src="img/newWild_map.jpg" alt="Map" /></div>
-                            <div class="carousel-cell single"><img src="img/newWild_social.jpg" alt="Social" /></div>
-                            <div class="carousel-cell single"><img src="img/newWild_nav.jpg" alt="Responsive nav" /></div>
+                            <div class="carousel-cell single"><img src="img/octopus_teacher/page_home.jpg" alt="Home" /></div>
+                            <div class="carousel-cell single"><img src="img/octopus_teacher/page_about.jpg" alt="About"  /></div>
                         </div>
                     </div>
                 </div>

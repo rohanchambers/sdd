@@ -1,10 +1,103 @@
 // New wild
-.cs-new-wild {
-	background-color: #FFF;	
-	
-		#case-study-nav {
-			background: #54739a;
+.cs-new-wild {	
+	#case-study-nav {
+		background: #54739a;
+	}
+
+	#case-study-custom {
+		.top-content {
+			min-height: 570px;
+			padding-top: 150px;
+			padding-bottom: 40px;
+			background: #f1f4f9 url(../../case-study/off-the-fence/img/new_wild/new_wild_bg_top.jpg) repeat-x top center;
+			
+				@include media($tablet) {
+					padding-top: 50px;
+				}		
+
+				.col:nth-of-type(2n) {
+					@include span-columns(8);
+					background: url(../../case-study/off-the-fence/img/new_wild/sled.jpg) no-repeat right bottom;
+					background-size: 100%;
+					padding-right: 150px;
+					padding-left: 20px;
+
+					@include media($desktop) {
+						padding-right: 50px;
+					}
+
+					@include media($tablet) {
+						@include span-columns(12);
+						padding-right: 20px;
+					}						
+				}					
+		}	
+
+		.middle-content {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/new_wild/jungle_cat.jpg) no-repeat center center;
+				background-size: cover;
+			}		
+		}	
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/new_wild/goat.jpg) no-repeat right bottom;
+				background-size: cover;
+			}
+		}			
+	}				
+}
+
+// Octopus Teacher
+.cs-octopus-teacher {
+	#case-study-nav {
+		background: #54739a;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: #f1f4f9 url(../../case-study/off-the-fence/img/octopus_teacher/sea_bg.jpg) no-repeat top center;
+			background-size: cover;
+			padding: 10px 0;		
+
+				.col {
+					position: relative;
+					min-height: 450px;				
+					
+					@include media($tablet) {
+						min-height: 350px;
+					}			
+
+					article {
+						position: absolute;
+						bottom: 0;
+				
+							@include media($desktop) {
+								bottom: auto;
+							}					
+					}				
+				}
+
+				h1, p {
+					color: #FFF;	
+				}
 		}
+
+		.middle-content {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/octopus_teacher/eye.jpg) no-repeat center center;
+				background-size: cover;
+			}		
+		}	
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/octopus_teacher/octopus.jpg) no-repeat right bottom;
+				background-size: cover;
+			}
+		}			
+	}
 }
 
 // SHRIMP FESTIVAL
