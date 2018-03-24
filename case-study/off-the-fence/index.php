@@ -57,7 +57,7 @@ $PRODUCTION = true;
                 <div class="col"><a href="../shrimp-festival/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
-            <section id="case-study-custom">
+            <section id="case-study-custom">                
                 <div class="row top-content">
                     <div class="col">
                         <img src="img/poster.jpg" alt="Europe's New Wild" width="310" />
