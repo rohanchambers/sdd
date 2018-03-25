@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = false;
+$PRODUCTION = true;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ $PRODUCTION = false;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Octopus Teacher</title>
+        <title>Slam Dunk Digital - My Octopus Teacher</title>
         <meta name="title" content="Slam Dunk Digital | Europe's New Wild Nature Unleashed">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -64,9 +64,9 @@ $PRODUCTION = false;
 
                     <div class="col">
                         <article>
-                            <h1>Octopus Teacher</h1>
+                            <h1>My Octopus Teacher</h1>
                             <p>In a dessperate attempt to come to terms with an existential crisis, a burn-out filmkaker pledges to free dive without a wetsuit every day in the freezing ocean at the tip of Africa. Utilizing the tracking skills taught to him by Kalahari bushmen, he endeavours to uncover the secrets of the great South African sea forest - one of the most remarkable yet hitherto undocumented habitats on the planet.</p>
-                            <p>His life changes when he meets a young octopus who displays remarkable intelligence. Slowly he wins the animal'strust and they develop a never-seen-before bond between human and wild animal.</p>
+<!--                             <p>His life changes when he meets a young octopus who displays remarkable intelligence. Slowly he wins the animal's trust and they develop a never-seen-before bond between human and wild animal.</p> -->
                         </article>
                     </div>
                 </div>
@@ -77,39 +77,34 @@ $PRODUCTION = false;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://www.offthefence.com" target="_blank">Off the Fence</a></span></h2>
-                            
+                            <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. </p>
                             <h2>Brief:</h2>
-                            <p>Off the Fence wanted a way to present their latest documentary series in development: 'Europe's New Wild' to raise production-financing for the show. Not only would this be for client presentations, it would also be a way to pass on all relevant information regarding the production of this program to investors via an online solution. This would mean no more lengthy pdf creations for the series and more importantly an easy way to update content that can all be done online in a matter of minutes. Up until the documentary launches the site will only be available to potential investors, thereafter it will act as a supporting site and a way of promoting the documentary online and via social media.</p>
-                            <p>The brief was slick, simple and allowed Slamdunk Digital to create an easy to navigate informational microsite showing off some of the gorgeous shots taken by the film crew.</p>
+                            <p>A one pager info site / brochure for one of Off the Fence's documentaries, 'My Octopus Teacher'. A simple layout was needed to display all the relevant information of the title, to help pitch to potential investors.</p>
                         </article>
                     </div>
                 </div>
 
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
-                        <h2>Technologies:</h2>
-                        <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
-                        <h2>Reach:</h2>
-                        <p>When the site launches it will only be viewable by potential investors that Off the Fence choose to share it with. Once the documentary launches it will become public and act as a supporting site and a way for followers to find out the latest news and info about the show.</p>
+                        <article>
+                            <h2>Reach:</h2>
+                            <p>This project is shared internally within Off the Fence and to potential investors.</p>
+          
+                            <h2>Deliverables</h2>
+                            <ul>
+                                <li>Project &amp; Client management</li>
+                                <li>Creative direction</li>
+                                <li>Brochure design</li>
+                            </ul>
 
-                        <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
-                        <h2>Project Link:</h2> <p>Internal link only (until launch)</p>
+                            <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
+                        </article>
                     </div>
                     <div class="col img"></div>
                 </div>
 
                 <div class="row bottom-content">
                     <div class="col">
-                        <h2>Deliverables</h2>
-                        <p>The site is fully responsive allowing viewers to browse the site's content on all types of devices (Desktop/Mobile phone/Tablet). We expect to be doing many more of these supporting sites for Off the Fence in the upcoming future.</p>
-                        <ul>
-                            <li>Project &amp; Client management</li>
-                            <li>Creative direction</li>
-                            <li>UX / Wireframing &amp; A/B testing</li>
-                            <li>Site Design &amp; development</li>
-                            <li>Deployment to servers</li>
-                            <li>Social media branding</li>
-                        </ul>
                     </div>
                 </div>
 

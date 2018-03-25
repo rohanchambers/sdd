@@ -17,9 +17,13 @@
 		}
 
 		h2 {
+			position: relative;
 			font-size: 2rem;
 
 	    	span {
+	    		position: absolute;
+	    		left: 100px;
+	    		top: 2px;
 	    		font-family: $font-med;
 	    		font-size: 1.2rem;
 	    		text-transform: none;
@@ -28,11 +32,8 @@
 	}
 
 	.top-content {
-		min-height: 570px;
-
 		.col {
 			@include span-columns(4);
-			min-height: 450px;
 
 				img {
 					display: block;
@@ -60,7 +61,7 @@
 		@include media($large-desktop) {
 			.col {
 				h1, p {
-					width: 75%;
+					width: 80%;
 				}
 			}
 		}
@@ -117,12 +118,26 @@
 		.col.content {
 
 			@include media($large-desktop) {
-				h2, p {
+				h2, p, ul {
 					float: right;
+				}
+				ul {
+					float: left;
+					margin-left: 140px;
 				}
 			}
 		}
 	}
+	
+	// Remove third image div when in tablet and under
+	@include media($tablet) {
+		.middle-content.middle-content-3 {
+			.img {
+				display: none;
+			}
+		}
+	}	
+
 
 	.bottom-content {
 		background: #FFF;

@@ -86,7 +86,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <h2>Brief:</h2>
                         <p>Off the Fence wanted a way to present their latest documentary series in development: 'Europe's New Wild' to raise production-financing for the show. Not only would this be for client presentations, it would also be a way to pass on all relevant information regarding the production of this program to investors via an online solution. This would mean no more lengthy pdf creations for the series and more importantly an easy way to update content that can all be done online in a matter of minutes. Up until the documentary launches the site will only be available to potential investors, thereafter it will act as a supporting site and a way of promoting the documentary online and via social media.</p>
-                        <p>The brief was slick, simple and allowed Slamdunk Digital to create an easy to navigate informational microsite showing off some of the gorgeous shots taken by the film crew.</p>
+                        <p>The brief was slick, simple and allowed Slam Dunk Digital to create an easy to navigate informational microsite showing off some of the gorgeous shots taken by the film crew.</p>
                     </div>
                     <div class="col img"></div>
                 </div>
