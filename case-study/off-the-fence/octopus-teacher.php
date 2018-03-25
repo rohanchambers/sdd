@@ -88,7 +88,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Reach:</h2>
-                            <p>This project is shared internally within Off the Fence and to potential investors.</p>
+                            <p>This project is shared internally within Off the Fence and to potential investors. We hope this first project is the start of a new collaboration for some of Off the fence's upcoming online needs.</p>                            
           
                             <h2>Deliverables</h2>
                             <ul>
