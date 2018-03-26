@@ -79,7 +79,7 @@ $PRODUCTION = true;
                             <h2>Client: <span><a href="http://www.offthefence.com" target="_blank">Off the Fence</a></span></h2>
                             <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. </p>
                             <h2>Brief:</h2>
-                            <p>A one pager info site / brochure for one of Off the Fence's documentaries, 'My Octopus Teacher'. A simple layout was needed to display all the relevant information of the title, to help pitch to potential investors.</p>
+                            <p>A one pager info site &amp; brochure for one of Off the Fence's documentaries, 'My Octopus Teacher'. A simple layout was needed to display all the relevant information of this title to help pitch to potential investors.</p>
                         </article>
                     </div>
                 </div>
@@ -88,13 +88,14 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Reach:</h2>
-                            <p>This project is shared internally within Off the Fence and to potential investors. We hope this first project is the start of a new collaboration for some of Off the fence's upcoming online needs.</p>                            
+                            <p>This project is only shared internally within Off the Fence and to potential investors. We hope this first project is the start of a new collaboration for some of Off the fence's upcoming online needs.</p>                            
           
                             <h2>Deliverables</h2>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
                                 <li>Brochure design</li>
+                                <li>One pager development build</li>
                             </ul>
 
                             <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
