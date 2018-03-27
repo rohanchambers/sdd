@@ -703,6 +703,74 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-mjordi #case-study-nav {
+  background: red; }
+.cs-mjordi #case-study-custom .top-content {
+  background: url(../../case-study/jordi/img/bg.jpg) no-repeat center -360px;
+  background-size: cover;
+  padding: 10px 0; }
+  .cs-mjordi #case-study-custom .top-content h1, .cs-mjordi #case-study-custom .top-content p {
+    color: #000; }
+  .cs-mjordi #case-study-custom .top-content .col:nth-of-type(2n) {
+    display: table; }
+  .cs-mjordi #case-study-custom .top-content .col {
+    min-height: 500px; }
+    @media screen and (max-width: 800px) {
+      .cs-mjordi #case-study-custom .top-content .col {
+        min-height: 200px; } }
+    .cs-mjordi #case-study-custom .top-content .col article {
+      display: table-cell;
+      vertical-align: middle; }
+      @media screen and (max-width: 1024px) {
+        .cs-mjordi #case-study-custom .top-content .col article {
+          bottom: auto; } }
+@media screen and (max-width: 800px) {
+  .cs-mjordi #case-study-custom .middle-content .col,
+  .cs-mjordi #case-study-custom .middle-content .col.content {
+    min-height: 300px; } }
+.cs-mjordi #case-study-custom .middle-content .col.img {
+  background: url(../../case-study/jordi/img/top_img.jpg) no-repeat center center;
+  background-size: cover; }
+.cs-mjordi #case-study-custom .middle-content.middle-content-2 .col.img {
+  background: url(../../case-study/jordi/img/bottom_img.jpg) no-repeat center center;
+  background-size: cover; }
+
+.cs-womens-polo #case-study-nav {
+  background: #000; }
+.cs-womens-polo #case-study-custom .top-content {
+  background: #f1f4f9 url(../../case-study/womens-polo-link/img/banner.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 10px 0; }
+  .cs-womens-polo #case-study-custom .top-content .col:nth-of-type(2n) {
+    display: table; }
+  .cs-womens-polo #case-study-custom .top-content .col {
+    min-height: 375px; }
+    .cs-womens-polo #case-study-custom .top-content .col img {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    @media screen and (max-width: 800px) {
+      .cs-womens-polo #case-study-custom .top-content .col {
+        min-height: 200px; } }
+    .cs-womens-polo #case-study-custom .top-content .col article {
+      display: table-cell;
+      vertical-align: bottom; }
+      @media screen and (max-width: 1024px) {
+        .cs-womens-polo #case-study-custom .top-content .col article {
+          bottom: auto; } }
+  .cs-womens-polo #case-study-custom .top-content h1, .cs-womens-polo #case-study-custom .top-content p {
+    color: #FFF; }
+@media screen and (max-width: 800px) {
+  .cs-womens-polo #case-study-custom .middle-content .col,
+  .cs-womens-polo #case-study-custom .middle-content .col.content {
+    min-height: 300px; } }
+.cs-womens-polo #case-study-custom .middle-content .col.img {
+  background: url(../../case-study/womens-polo-link/img/logo_original.jpg) no-repeat center center;
+  background-size: contain; }
+.cs-womens-polo #case-study-custom .middle-content.middle-content-2 .col.img {
+  background: url(../../case-study/womens-polo-link/img/logo_purple.jpg) no-repeat center center;
+  background-size: contain; }
+
 .cs-new-wild #case-study-nav {
   background: #54739a; }
 .cs-new-wild #case-study-custom .top-content {
@@ -756,7 +824,6 @@ footer {
   .cs-octopus-teacher #case-study-custom .top-content .col:nth-of-type(2n) {
     display: table; }
   .cs-octopus-teacher #case-study-custom .top-content .col {
-    position: relative;
     min-height: 450px; }
     @media screen and (max-width: 800px) {
       .cs-octopus-teacher #case-study-custom .top-content .col {
@@ -1016,6 +1083,13 @@ footer {
       font-family: Arial, Verdana, sans-serif;
       font-size: 1.2rem;
       text-transform: none; }
+  #case-study-custom .col a {
+    color: #000;
+    padding: 2px; }
+    #case-study-custom .col a:hover {
+      background: #000;
+      color: #FFF;
+      text-decoration: none; }
 #case-study-custom .top-content .col {
   float: left;
   display: block;
@@ -1056,6 +1130,8 @@ footer {
   background: #FFF; }
   #case-study-custom .middle-content .col:last-child {
     margin-right: 0; }
+  #case-study-custom .middle-content .col p {
+    margin-top: 0px; }
 #case-study-custom .middle-content .col.content {
   display: table; }
   #case-study-custom .middle-content .col.content article {
@@ -1067,15 +1143,6 @@ footer {
   @media screen and (max-width: 800px) {
     #case-study-custom .middle-content .col.content {
       min-height: 300px; } }
-  #case-study-custom .middle-content .col.content p {
-    margin-top: 0px; }
-  #case-study-custom .middle-content .col.content a {
-    color: #000;
-    padding: 2px; }
-    #case-study-custom .middle-content .col.content a:hover {
-      background: #000;
-      color: #FFF;
-      text-decoration: none; }
 @media screen and (min-width: 1025px) {
   #case-study-custom .middle-content.middle-content-2 .col.content h2, #case-study-custom .middle-content.middle-content-2 .col.content p, #case-study-custom .middle-content.middle-content-2 .col.content ul {
     float: right; }

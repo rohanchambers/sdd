@@ -29,6 +29,17 @@
 	    		text-transform: none;
 	    	}
 		}
+
+		a {
+			color: $black;
+			padding: 2px;
+
+				&:hover {
+					background: $black;
+					color: $white;
+					text-decoration: none;
+				}
+		}			
 	}
 
 	.top-content {
@@ -76,7 +87,11 @@
 		.col {
 			@include span-columns(6);
 			min-height: 500px;
-			background: #FFF;
+			background: #FFF;	
+			
+					p {
+						margin-top: 0px;
+					}				
 		}
 
 		.col.content {
@@ -96,21 +111,6 @@
 			@include media($tablet) {
 				min-height: 300px;
 			}
-
-				p {
-					margin-top: 0px;
-				}
-
-				a {
-					color: $black;
-					padding: 2px;
-
-						&:hover {
-							background: $black;
-							color: $white;
-							text-decoration: none;
-						}
-				}
 		}
 	}
 

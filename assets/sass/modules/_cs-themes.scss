@@ -1,3 +1,134 @@
+// MICHEL JORDI
+.cs-mjordi {
+	#case-study-nav {
+		background: red;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: url(../../case-study/jordi/img/bg.jpg) no-repeat center -360px;
+			background-size: cover;
+			padding: 10px 0;
+				
+				h1, p {
+					color: #000;
+				}
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 500px;
+					
+
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: middle;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+
+
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/jordi/img/top_img.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/jordi/img/bottom_img.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+// WOMENS POLO LINK
+.cs-womens-polo {
+	#case-study-nav {
+		background: #000;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: #f1f4f9 url(../../case-study/womens-polo-link/img/banner.jpg) no-repeat top center;
+			background-size: cover;
+			padding: 10px 0;
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 375px;
+					
+					img {
+					-webkit-box-shadow: none;
+					   -moz-box-shadow: none;
+					        box-shadow: none;						
+					}
+
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: bottom;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+
+				h1, p {
+					color: #FFF;
+				}
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/womens-polo-link/img/logo_original.jpg) no-repeat center center;
+				background-size: contain;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/womens-polo-link/img/logo_purple.jpg) no-repeat center center;
+				background-size: contain;
+			}
+		}
+	}
+}
+
 // New wild
 .cs-new-wild {
 	#case-study-nav {
@@ -76,7 +207,6 @@
 				}
 
 				.col {
-					position: relative;
 					min-height: 450px;
 
 					@include media($tablet) {
