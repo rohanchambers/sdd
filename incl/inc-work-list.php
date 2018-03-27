@@ -15,14 +15,6 @@
                     <a href="case-study/womens-polo-link/"></a>
                 </div>
                 <div class="view view-first find-out-more">
-                    <img src="assets/img/work/shrimp_festival.jpg" alt="Shrimp Festival 2018" />
-                    <div class="mask">
-                        <h2>Shrimp Festival '18</h2>
-                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
-                    </div>
-                    <a href="case-study/shrimp-festival/"></a>
-                </div>
-                <div class="view view-first find-out-more">
                     <img src="assets/img/work/jordi.jpg" alt="Michel Jordi" />
                     <div class="mask">
                         <h2>Michel Jordi</h2>
@@ -30,6 +22,14 @@
                     </div>
                     <a href="case-study/jordi/"></a>
                 </div>
+                <div class="view view-first find-out-more">
+                    <img src="assets/img/work/shrimp_festival.jpg" alt="Shrimp Festival 2018" />
+                    <div class="mask">
+                        <h2>Shrimp Festival '18</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
+                    </div>
+                    <a href="case-study/shrimp-festival/"></a>
+                </div>                
 <!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/varcale-entertainment.jpg" alt="Varcale Entertainment" />
                     <div class="mask">
