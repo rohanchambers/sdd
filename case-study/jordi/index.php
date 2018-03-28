@@ -80,7 +80,7 @@ $PRODUCTION = true;
                             <p>Watchmakers from father to son. Since my early childhood I have been fascinated by the art of watchmaking that I first discovered in my father's workshop, and then in the mythical valleys of the Swiss Jura mountains.</p>
                             <h2>Brief:</h2>
                             <p>Michel Jordi is about to launch his new biography and got in touch with us to create a landing page for his new book 'Michel Jordi, Guts, Giving up is not an option!'. He wanted the ability for users to buy his book online using Paypal's payment system. The site was localised for multiple languages.</p>
-                            <h2>Work link:</h2> <p><a href="http://www.micheljordi.net" target="_blank">www.micheljordi.net</a></p>                            
+                            <h2>Work link:</h2> <p><a href="http://www.micheljordi.net" target="_blank">www.micheljordi.net</a></p>
                         </article>
                     </div>
                 </div>
@@ -102,11 +102,6 @@ $PRODUCTION = true;
                         </article>
                     </div>
                     <div class="col img"></div>
-                </div>
-
-                <div class="row bottom-content">
-                    <div class="col">
-                    </div>
                 </div>
             </section><!-- End of Case study-->
         </div>
