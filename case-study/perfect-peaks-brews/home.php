@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - My Octopus Teacher</title>
+        <title>Slam Dunk Digital - Perfect Peaks Brews</title>
         <meta name="title" content="Slam Dunk Digital | Europe's New Wild Nature Unleashed">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -49,9 +49,9 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-octopus-teacher">
+        <div class="cs-perfect-peaks-brews">
             <section id="case-study-nav">
-                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../womens-polo-link/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../shrimp-festival/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
@@ -59,14 +59,14 @@ $PRODUCTION = true;
             <section id="case-study-custom">                
                 <div class="row top-content">
                     <div class="col">
-                        <img src="img/octopus_teacher/poster.jpg" alt="Octopus Teacher" width="310" />
+                        <img src="img/logo.jpg" alt="Pefect Peaks Brews" width="310" />
                     </div>
 
                     <div class="col">
                         <article>
-                            <h1>My Octopus Teacher</h1>
-                            <p>In a desperate attempt to come to terms with an existential crisis, a burn-out filmkaker pledges to free dive without a wetsuit every day in the freezing ocean at the tip of Africa. Utilizing the tracking skills taught to him by Kalahari bushmen, he endeavours to uncover the secrets of the great South African sea forest - one of the most remarkable yet hitherto undocumented habitats on the planet.</p>
-<!--                             <p>His life changes when he meets a young octopus who displays remarkable intelligence. Slowly he wins the animal's trust and they develop a never-seen-before bond between human and wild animal.</p> -->
+                            <h1>Perfect Peaks Brews 
+                                <span>Kicking back after a hard days work with a nice cold brew</span>
+                            </h1>                        
                         </article>
                     </div>
                 </div>
@@ -76,10 +76,13 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span><a href="http://www.offthefence.com" target="_blank">Off the Fence</a></span></h2>
-                            <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. </p>
+                            <h2>Client: <span>Perfect Peaks Brews</span></h2>
+                            <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
+
                             <h2>Brief:</h2>
-                            <p>A one pager info site &amp; brochure for one of Off the Fence's documentaries, 'My Octopus Teacher'. A simple layout was needed to display all the relevant information of this title to help pitch to potential investors.</p>
+                            <p>We were involved in the complete rebranding of this brewery's look and feel, soon to be sold in mass quantity over Switzerland, France and Portugal. The new base for this brewery is now in Portugal, Cascais.</p>
+                            
+                            <h2>Work link:</h2> <p><a href="http://www.perfectpeaksbrews.com" target="_blank">www.perfectpeaksbrews.com</a></p>
                         </article>
                     </div>
                 </div>
@@ -87,36 +90,26 @@ $PRODUCTION = true;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <article>
-                            <h2>Reach:</h2>
-                            <p>This project is only shared internally within Off the Fence and to potential investors. We hope this first project is the start of a new collaboration for some of Off the fence's upcoming online needs.</p>                            
-          
+                            <h2>Reach</h2>
+                            <p>The target audience of this beer is for the snow sports fans who after a hard days work can kick back with a cold brew. It will be sold during the winter on all major ski resorts in Switzerland and France. During the summer the beer will be sold in Portugal, Cascais aimed at the surfers and the same goes, kicking back with a cold brew after a long day of hardcore surfing.</p>
                             <h2>Deliverables</h2>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
-                                <li>Brochure design</li>
-                                <li>One pager development build</li>
+                                <li>Design &amp; rebranding</li>
                             </ul>
-
-                            <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
                         </article>
                     </div>
                     <div class="col img"></div>
                 </div>
 
-                <div class="row bottom-content">
-                    <div class="col">
-                    </div>
-                </div>
-
                 <div class="row carousel-content">
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/octopus_teacher/page_home.jpg" alt="Home" /></div>
-                            <div class="carousel-cell single"><img src="img/octopus_teacher/page_about.jpg" alt="About"  /></div>
+                            <div class="carousel-cell single"><img src="img/variations.jpg" alt="Home" /></div>
                         </div>
                     </div>
-                </div>
+                </div>                
             </section><!-- End of Case study-->
         </div>
 

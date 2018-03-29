@@ -1,4 +1,69 @@
 // MICHEL JORDI
+.cs-perfect-peaks-brews {
+	#case-study-nav {
+		background: #000;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: url(../../case-study/perfect-peaks-brews/img/winter.jpg) no-repeat center center;
+			background-size: cover;
+			padding: 10px 0;
+				
+				h1, p {
+					color: #FFF;
+				}
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					// /min-height: auto;
+					
+
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: bottom;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+
+
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/perfect-peaks-brews/img/home.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/perfect-peaks-brews/img/logo.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+
+// MICHEL JORDI
 .cs-mjordi {
 	#case-study-nav {
 		background: red;
