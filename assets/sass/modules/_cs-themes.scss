@@ -6,7 +6,7 @@
 
 	#case-study-custom {
 		.top-content {
-			background: url(../../case-study/perfect-peaks-brews/img/winter.jpg) no-repeat center center;
+			background: red url(../../case-study/perfect-peaks-brews/img/bottles.jpg) no-repeat left center;
 			background-size: cover;
 			padding: 10px 0;
 				
@@ -19,16 +19,13 @@
 				}
 
 				.col {
-					// /min-height: auto;
-					
-
 					@include media($tablet) {
 						min-height: 200px;
 					}
 
 					article {
 						  display: table-cell;
-						  vertical-align: bottom;
+						  vertical-align: top;
 
 							@include media($desktop) {
 								bottom: auto;

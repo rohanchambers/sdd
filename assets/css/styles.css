@@ -706,7 +706,7 @@ footer {
 .cs-perfect-peaks-brews #case-study-nav {
   background: #000; }
 .cs-perfect-peaks-brews #case-study-custom .top-content {
-  background: url(../../case-study/perfect-peaks-brews/img/winter.jpg) no-repeat center center;
+  background: red url(../../case-study/perfect-peaks-brews/img/bottles.jpg) no-repeat left center;
   background-size: cover;
   padding: 10px 0; }
   .cs-perfect-peaks-brews #case-study-custom .top-content h1, .cs-perfect-peaks-brews #case-study-custom .top-content p {
@@ -718,7 +718,7 @@ footer {
       min-height: 200px; } }
   .cs-perfect-peaks-brews #case-study-custom .top-content .col article {
     display: table-cell;
-    vertical-align: bottom; }
+    vertical-align: top; }
     @media screen and (max-width: 1024px) {
       .cs-perfect-peaks-brews #case-study-custom .top-content .col article {
         bottom: auto; } }
