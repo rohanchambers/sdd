@@ -6,7 +6,7 @@
 
 	#case-study-custom {
 		.top-content {
-			background: red url(../../case-study/perfect-peaks-brews/img/bottles.jpg) no-repeat left center;
+			background: url(../../case-study/off-the-fence/img/octopus_teacher/sea_bg.jpg) no-repeat left center;
 			background-size: cover;
 			padding: 10px 0;
 				
@@ -45,14 +45,15 @@
 			}
 
 			.col.img {
-				background: url(../../case-study/perfect-peaks-brews/img/home.jpg) no-repeat center center;
+				background: url(../../case-study/perfect-peaks-brews/img/home.jpg) no-repeat left center;
 				background-size: cover;
 			}
 		}
 
 		.middle-content.middle-content-2 {
+			margin-bottom: 35px;
 			.col.img {
-				background: url(../../case-study/perfect-peaks-brews/img/logo.jpg) no-repeat center center;
+				background: url(../../case-study/perfect-peaks-brews/img/bottles.jpg) no-repeat left center;
 				background-size: cover;
 			}
 		}

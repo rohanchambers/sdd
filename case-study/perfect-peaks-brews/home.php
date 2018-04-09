@@ -59,7 +59,7 @@ $PRODUCTION = false;
             <section id="case-study-custom">                
                 <div class="row top-content">
                     <div class="col">
-                        <img src="img/logo.jpg" alt="Pefect Peaks Brews" width="310" />
+                        <img src="img/logo_turq.png" alt="Pefect Peaks Brews" width="310" />
                     </div>
 
                     <div class="col">
@@ -77,12 +77,10 @@ $PRODUCTION = false;
                     <div class="col content">
                         <article>
                             <h2>Client: <span>Perfect Peaks Brews</span></h2>
-                            <p>Perfect Peaks Brews is a privately owned startup brewery in Switzerland, Geneva that produces 6 blends of Ale and soon to be 3 Ciders.</p>
+                            <p>Perfect Peaks Brewing is a personal brewing project inspired by the craft brewing movement by creating quality beers for moods and moments. Beer to refresh,recover and reanimate. Cascais, Lisbon, Portugal.</p>
 
                             <h2>Brief:</h2>
                             <p>We were involved in the complete rebranding of this brewery's look and feel, soon to be sold in mass quantity over Switzerland, France and Portugal. The new base for this brewery is now in Portugal, Cascais.</p>
-                            
-                            <h2>Work link:</h2> <p><a href="http://www.perfectpeaksbrews.com" target="_blank">www.perfectpeaksbrews.com</a></p>
                         </article>
                     </div>
                 </div>
@@ -106,7 +104,11 @@ $PRODUCTION = false;
                 <div class="row carousel-content">
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/variations.jpg" alt="Home" /></div>
+                            <div class="carousel-cell single"><img src="img/golden_ale.jpg" alt="Golden ale" /></div>
+                            <div class="carousel-cell single"><img src="img/red_ale.jpg" alt="Red ale" /></div>
+                            <div class="carousel-cell single"><img src="img/black_ale.jpg" alt="Black ale" /></div>
+                            <div class="carousel-cell single"><img src="img/winter.jpg" alt="Winter brew" /></div>
+                            <div class="carousel-cell single"><img src="img/variations.jpg" alt="Logo and label variations" /></div>
                         </div>
                     </div>
                 </div>                
