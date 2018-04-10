@@ -9,7 +9,7 @@ $PRODUCTION = true;
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - Women's Polo Link</title>
-        <meta name="title" content="Slam Dunk Digital | Europe's New Wild Nature Unleashed">
+        <meta name="title" content="Slam Dunk Digital | Women's Polo Link">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">

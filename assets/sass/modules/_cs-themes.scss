@@ -1,4 +1,191 @@
-// MICHEL JORDI
+// SHRIMP FESTIVAL
+.cs-shrimp-festival {
+	#case-study-nav {
+		background: #000;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: url(../../case-study/shrimp-festival/img/banner.jpg) no-repeat center center;
+			background-size: cover;
+			padding: 10px 0;
+				
+				h1, p {
+					color: #FFF;
+				}
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 300px;
+					
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: top;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/shrimp-festival/img/logo-hero.png) no-repeat center center;
+				background-size: contain;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			margin-bottom: 35px;
+			.col.img {
+				background: url(../../case-study/shrimp-festival/img/shrimp_coal.jpg) no-repeat center top;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+// SOHO FLIM FINANCE
+.cs-sff {
+	#case-study-nav {
+		background: #000;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: url(../../case-study/soho-film-finance/img/banner.jpg) no-repeat center center;
+			background-size: cover;
+			padding: 10px 0;
+				
+				h1, p {
+					color: #000;
+				}
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 300px;
+					
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: top;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat left center;
+				background-size: contain;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			margin-bottom: 35px;
+			.col.img {
+				background: url(../../case-study/soho-film-finance/img/home.jpg) no-repeat left center;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+// PhoneResq
+.cs-phoneresq {
+	#case-study-nav {
+		background: red;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: url(../../case-study/phone-resq/img/hero_img.jpg) no-repeat center center;
+			background-size: cover;
+			padding: 10px 0;
+				
+				h1, p {
+					color: #FFF;
+				}
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 300px;
+					
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: middle;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				@include media($tablet) {
+					min-height: 300px;
+				}
+			}
+
+			.col.img {
+				background: url(../../case-study/phone-resq/img/logo_large.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			margin-bottom: 35px;
+			.col.img {
+				background: url(../../case-study/phone-resq/img/working.jpg) no-repeat right center;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+
+// PERFECT PEAKS BREWS
 .cs-perfect-peaks-brews {
 	#case-study-nav {
 		background: #000;
@@ -315,18 +502,18 @@
 }
 
 // SHRIMP FESTIVAL
-.cs-shrimp-festival {
-	background-color: #1857ab;
+// .cs-shrimp-festival {
+// 	background-color: #1857ab;
 
-	.col-skew {
-		background-color: #1857ab;
-	}
+// 	.col-skew {
+// 		background-color: #1857ab;
+// 	}
 
-	#intro-bg-img {
-		background: $white url(/case-study/shrimp-festival/img/banner.jpg) no-repeat center 0px;
-		background-size: cover;
-	}
-}
+// 	#intro-bg-img {
+// 		background: $white url(/case-study/shrimp-festival/img/banner.jpg) no-repeat center 0px;
+// 		background-size: cover;
+// 	}
+// }
 
 // WOMEN'S POLO LINK
 .cs-womens-polo-link {
@@ -371,19 +558,19 @@
 }
 
 // THEME SOHO Film Finance.
-.cs-sff {
-	background-color: #8ea4af;
+// .cs-sff {
+// 	background-color: #8ea4af;
 
-	.col-skew {
-		background-color: #8ea4af;
-	}
+// 	.col-skew {
+// 		background-color: #8ea4af;
+// 	}
 
-	// Phone ResQ
-	#intro-bg-img {
-		background: $black url(/case-study/soho-film-finance/img/banner.jpg) no-repeat -471px -60px;
-	    background-size: cover;
-	}
-}
+// 	// Phone ResQ
+// 	#intro-bg-img {
+// 		background: $black url(/case-study/soho-film-finance/img/banner.jpg) no-repeat -471px -60px;
+// 	    background-size: cover;
+// 	}
+// }
 
 // THEME PHONERESQ.
 .cs-phone-resq {

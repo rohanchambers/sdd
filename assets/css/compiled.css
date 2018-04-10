@@ -1132,6 +1132,108 @@ footer {
       width: 45%;
       position: relative;
       left: auto; } }
+.cs-shrimp-festival #case-study-nav {
+  background: #000; }
+.cs-shrimp-festival #case-study-custom .top-content {
+  background: url(../../case-study/shrimp-festival/img/banner.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 10px 0; }
+  .cs-shrimp-festival #case-study-custom .top-content h1, .cs-shrimp-festival #case-study-custom .top-content p {
+    color: #FFF; }
+  .cs-shrimp-festival #case-study-custom .top-content .col:nth-of-type(2n) {
+    display: table; }
+  .cs-shrimp-festival #case-study-custom .top-content .col {
+    min-height: 300px; }
+    @media screen and (max-width: 800px) {
+      .cs-shrimp-festival #case-study-custom .top-content .col {
+        min-height: 200px; } }
+    .cs-shrimp-festival #case-study-custom .top-content .col article {
+      display: table-cell;
+      vertical-align: top; }
+      @media screen and (max-width: 1024px) {
+        .cs-shrimp-festival #case-study-custom .top-content .col article {
+          bottom: auto; } }
+@media screen and (max-width: 800px) {
+  .cs-shrimp-festival #case-study-custom .middle-content .col,
+  .cs-shrimp-festival #case-study-custom .middle-content .col.content {
+    min-height: 300px; } }
+.cs-shrimp-festival #case-study-custom .middle-content .col.img {
+  background: url(../../case-study/shrimp-festival/img/logo-hero.png) no-repeat center center;
+  background-size: contain; }
+.cs-shrimp-festival #case-study-custom .middle-content.middle-content-2 {
+  margin-bottom: 35px; }
+  .cs-shrimp-festival #case-study-custom .middle-content.middle-content-2 .col.img {
+    background: url(../../case-study/shrimp-festival/img/shrimp_coal.jpg) no-repeat center top;
+    background-size: cover; }
+
+.cs-sff #case-study-nav {
+  background: #000; }
+.cs-sff #case-study-custom .top-content {
+  background: url(../../case-study/soho-film-finance/img/banner.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 10px 0; }
+  .cs-sff #case-study-custom .top-content h1, .cs-sff #case-study-custom .top-content p {
+    color: #000; }
+  .cs-sff #case-study-custom .top-content .col:nth-of-type(2n) {
+    display: table; }
+  .cs-sff #case-study-custom .top-content .col {
+    min-height: 300px; }
+    @media screen and (max-width: 800px) {
+      .cs-sff #case-study-custom .top-content .col {
+        min-height: 200px; } }
+    .cs-sff #case-study-custom .top-content .col article {
+      display: table-cell;
+      vertical-align: top; }
+      @media screen and (max-width: 1024px) {
+        .cs-sff #case-study-custom .top-content .col article {
+          bottom: auto; } }
+@media screen and (max-width: 800px) {
+  .cs-sff #case-study-custom .middle-content .col,
+  .cs-sff #case-study-custom .middle-content .col.content {
+    min-height: 300px; } }
+.cs-sff #case-study-custom .middle-content .col.img {
+  background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat left center;
+  background-size: contain; }
+.cs-sff #case-study-custom .middle-content.middle-content-2 {
+  margin-bottom: 35px; }
+  .cs-sff #case-study-custom .middle-content.middle-content-2 .col.img {
+    background: url(../../case-study/soho-film-finance/img/home.jpg) no-repeat left center;
+    background-size: cover; }
+
+.cs-phoneresq #case-study-nav {
+  background: red; }
+.cs-phoneresq #case-study-custom .top-content {
+  background: url(../../case-study/phone-resq/img/hero_img.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 10px 0; }
+  .cs-phoneresq #case-study-custom .top-content h1, .cs-phoneresq #case-study-custom .top-content p {
+    color: #FFF; }
+  .cs-phoneresq #case-study-custom .top-content .col:nth-of-type(2n) {
+    display: table; }
+  .cs-phoneresq #case-study-custom .top-content .col {
+    min-height: 300px; }
+    @media screen and (max-width: 800px) {
+      .cs-phoneresq #case-study-custom .top-content .col {
+        min-height: 200px; } }
+    .cs-phoneresq #case-study-custom .top-content .col article {
+      display: table-cell;
+      vertical-align: middle; }
+      @media screen and (max-width: 1024px) {
+        .cs-phoneresq #case-study-custom .top-content .col article {
+          bottom: auto; } }
+@media screen and (max-width: 800px) {
+  .cs-phoneresq #case-study-custom .middle-content .col,
+  .cs-phoneresq #case-study-custom .middle-content .col.content {
+    min-height: 300px; } }
+.cs-phoneresq #case-study-custom .middle-content .col.img {
+  background: url(../../case-study/phone-resq/img/logo_large.jpg) no-repeat center center;
+  background-size: cover; }
+.cs-phoneresq #case-study-custom .middle-content.middle-content-2 {
+  margin-bottom: 35px; }
+  .cs-phoneresq #case-study-custom .middle-content.middle-content-2 .col.img {
+    background: url(../../case-study/phone-resq/img/working.jpg) no-repeat right center;
+    background-size: cover; }
+
 .cs-perfect-peaks-brews #case-study-nav {
   background: #000; }
 .cs-perfect-peaks-brews #case-study-custom .top-content {
@@ -1311,14 +1413,6 @@ footer {
   background: url(../../case-study/off-the-fence/img/octopus_teacher/octopus.jpg) no-repeat right bottom;
   background-size: cover; }
 
-.cs-shrimp-festival {
-  background-color: #1857ab; }
-  .cs-shrimp-festival .col-skew {
-    background-color: #1857ab; }
-  .cs-shrimp-festival #intro-bg-img {
-    background: #FFF url(/case-study/shrimp-festival/img/banner.jpg) no-repeat center 0px;
-    background-size: cover; }
-
 .cs-womens-polo-link {
   background-color: #a42f91; }
   .cs-womens-polo-link .col-skew {
@@ -1340,14 +1434,6 @@ footer {
     background-color: #e3000f; }
   .cs-jordi #intro-bg-img {
     background: #000 url(/case-study/jordi/img/banner.jpg) no-repeat center bottom;
-    background-size: cover; }
-
-.cs-sff {
-  background-color: #8ea4af; }
-  .cs-sff .col-skew {
-    background-color: #8ea4af; }
-  .cs-sff #intro-bg-img {
-    background: #000 url(/case-study/soho-film-finance/img/banner.jpg) no-repeat -471px -60px;
     background-size: cover; }
 
 .cs-phone-resq {
