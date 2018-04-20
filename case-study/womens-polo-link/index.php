@@ -78,7 +78,7 @@ $PRODUCTION = true;
                             <h2>Client: <span>Women's Polo Link</span></h2>
                             <h2>Brief:</h2>
                             <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall look and feel. There is also a holding page that we developed to get a buzz going and collect potential customers and investors. In the second phase it will become a full fledged site with all the functionalities that are necessary to get the client's vision become a reality.</p>
-                            <h2>Project link:</h2> 
+                            <h2>Site link:</h2> 
                             <p><a href="http://www.womenspololink.com" target="_blank">www.womenspololink.com</a></p>                            
                         </article>
                     </div>

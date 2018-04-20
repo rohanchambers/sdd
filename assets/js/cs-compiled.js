@@ -258,7 +258,8 @@ $(function(){
         // options
         cellAlign: 'left',
         wrapAround: true,
-        resize: true
+        resize: true,
+        imagesLoaded: true
     });   
 
     // Hide fullscreen nav and hover active states

@@ -86,8 +86,8 @@ $PRODUCTION = true;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <article>
-                            <h2>Project link:</h2>
-                            <p><a href="http://www.sohofilmfinance.com/" target="_blank">http://www.sohofilmfinance.com</a></p>
+                            <h2>Site link:</h2>
+                            <p><a href="http://www.sohofilmfinance.com/" target="_blank">www.sohofilmfinance.com</a></p>
                             <h2>Deliverables</h2>
                             <ul>
                                 <li>Project &amp; Client management</li>

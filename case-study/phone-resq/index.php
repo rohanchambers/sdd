@@ -82,7 +82,7 @@ $PRODUCTION = true;
                             <h2>Brief:</h2>
                             <p>We took on this project with one thing in mind, fresh new look. Our team were working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done to ensure maximum compatibility.</p>
 
-                            <h2>Project link:</h2>
+                            <h2>Site link:</h2>
                             <p><a href="http://phoneresq.com/" target="_blank">www.phoneresq.com</a></p>
                         </article>
                     </div>
