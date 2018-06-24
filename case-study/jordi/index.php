@@ -53,7 +53,7 @@ $PRODUCTION = true;
             <section id="case-study-nav">
                 <div class="col"><a href="../womens-polo-link/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../shrimp-festival/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../phone-resq/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">                
@@ -79,7 +79,7 @@ $PRODUCTION = true;
                             <p>Watchmakers from father to son. Since my early childhood I have been fascinated by the art of watchmaking that I first discovered in my father's workshop, and then in the mythical valleys of the Swiss Jura mountains.</p>
                             <h2>Brief:</h2>
                             <p>Michel Jordi is about to launch his new biography and got in touch with us to create a landing page for his new book 'Michel Jordi, Guts, Giving up is not an option!'. He wanted the ability for users to buy his book online using Paypal's payment system. The site was localised for multiple languages.</p>
-                            <h2>Site link:</h2> <p><a href="http://www.micheljordi.net" target="_blank">www.micheljordi.net</a></p>
+  <!--                           <h2>Site link:</h2> <p><a href="http://www.micheljordi.net" target="_blank">www.micheljordi.net</a></p> -->
                         </article>
                     </div>
                 </div>
@@ -102,6 +102,14 @@ $PRODUCTION = true;
                     </div>
                     <div class="col img"></div>
                 </div>
+
+                <div class="row carousel-content">
+                    <div class="col">
+                        <div class="main-carousel">
+                            <div class="carousel-cell single"><img src="img/home.jpg" alt="PhoneResQ Home" /></div>
+                        </div>
+                    </div>
+                </div>                    
             </section><!-- End of Case study-->
         </div>
 

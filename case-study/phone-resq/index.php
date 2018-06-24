@@ -51,7 +51,7 @@ $PRODUCTION = true;
         <!-- Case study Intro -->
         <div class="cs-phoneresq">
             <section id="case-study-nav">
-                <div class="col"><a href="../shrimp-festival/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../jordi/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../perfect-peaks-brews/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
@@ -82,8 +82,8 @@ $PRODUCTION = true;
                             <h2>Brief:</h2>
                             <p>We took on this project with one thing in mind, fresh new look. Our team were working directly with the owner and other members of staff to complete all tasks from proposing color scheme ideas to the intial design proposal and presentation to final deployment on their servers. The site had to be fully responsive on all major mobiles, tablets and computers so a lot of cross browser testing was done to ensure maximum compatibility.</p>
 
-                            <h2>Site link:</h2>
-                            <p><a href="http://phoneresq.com/" target="_blank">www.phoneresq.com</a></p>
+<!--                             <h2>Site link:</h2>
+                            <p><a href="http://phoneresq.com/" target="_blank">www.phoneresq.com</a></p> -->
                         </article>
                     </div>
                 </div>

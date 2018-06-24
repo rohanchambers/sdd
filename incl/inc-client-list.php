@@ -1,4 +1,9 @@
                 <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/infohealth.jpg" alt="Infohealth">
+                    <img class="top" src="assets/img/clients/infohealth.jpg" alt="Infohealth">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/off_the_fence.jpg" alt="Off the Fence">
                     <img class="top" src="assets/img/clients/off_the_fence.jpg" alt="Off the Fence">
                     <img src="assets/img/clients/transparent.png" alt="">
@@ -49,12 +54,12 @@
                     <img class="top" src="assets/img/clients/harrods.png" alt="harrods"> 
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
-
+<!-- 
                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/bulmers_white.png" alt="Bulmers">
                     <img class="top" src="assets/img/clients/bulmers.png" alt="Bulmers">
                     <img src="assets/img/clients/transparent.png" alt="">
-                </div>  
+                </div>   -->
                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/playboy.png" alt="Playboy UK">
                     <img class="top" src="assets/img/clients/playboy.png" alt="Playboy UK">

@@ -1,3 +1,11 @@
+<!--                 <div class="view view-first find-out-more">
+                    <img src="assets/img/work/infohealth.jpg" alt="Infohealth, Live Well" />
+                    <div class="mask">
+                        <h2>Infohealth, Live Well</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
+                    </div>
+                    <a href="case-study/infohealth/"></a>
+                </div> -->
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/newWild.jpg" alt="Shrimp Festival 2018" />
                     <div class="mask">
@@ -22,14 +30,14 @@
                     </div>
                     <a href="case-study/jordi/"></a>
                 </div>
-                <div class="view view-first find-out-more">
+<!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/shrimp_festival.jpg" alt="Shrimp Festival 2018" />
                     <div class="mask">
                         <h2>Shrimp Festival '18</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/shrimp-festival/"></a>
-                </div>                
+                </div>    -->             
 <!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/varcale-entertainment.jpg" alt="Varcale Entertainment" />
                     <div class="mask">

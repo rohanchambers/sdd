@@ -240,7 +240,7 @@
                 ?>
                 <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
 
-                <form id="contact-form" method="post" action="index.php#quick-message">
+                <form id="contact-form" method="post" action="index.php">
                     <fieldset>
                         <p>
                             <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
