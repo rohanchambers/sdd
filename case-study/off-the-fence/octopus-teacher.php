@@ -109,6 +109,9 @@ $PRODUCTION = true;
 
                 <div class="row carousel-content">
                     <div class="col">
+                        <h2>Project screenshots</h2>
+                    </div>                         
+                    <div class="col">
                         <div class="main-carousel">
                             <div class="carousel-cell single"><img src="img/octopus_teacher/page_home.jpg" alt="Home" /></div>
                             <div class="carousel-cell single"><img src="img/octopus_teacher/page_about.jpg" alt="About"  /></div>

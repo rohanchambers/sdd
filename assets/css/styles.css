@@ -4381,7 +4381,7 @@ Transition Layer
       clear: both;
       content: "";
       display: table; }
-    #site-header-outer #site-header h1 span {
+    #site-header-outer #site-header h1 a span {
       font-size: 1.25rem;
       background: #fd070d;
       padding: 0 5px; }
@@ -4726,7 +4726,7 @@ Transition Layer
       right: 0;
       display: block;
       color: #FFF;
-      font-size: 1.2rem; }
+      font-size: 0.8rem; }
     #quick-message #contact-form #hiddenRecaptcha-error {
       position: relative;
       text-align: center;
