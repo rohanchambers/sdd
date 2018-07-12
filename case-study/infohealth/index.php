@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -74,10 +74,9 @@ $PRODUCTION = true;
                             <h2>Client: <span><a href="http://www.infohealth.co.uk" target="_blank">Infohealth</a></span></h2>
                             <h2>Project Link:</h2> <a href="http://www.infohealth.co.uk/" target="_blank">www.infohealth.co.uk</a></p>
                             <h2>Reach:</h2>
-                            <p>When the site launches it will only be viewable by potential investors that Off the Fence choose to share it with. Once the documentary launches it will become public and act as a supporting site and a way for followers to find out the latest news and info about the show.</p>
+                            <p>We are expecting to target all the exsiting customers but more importantly gaining more their trust in using the site and it's online shops and payment process. The overall look and feel has been tranposed to their social media pages to keep inline with the rebrand.</p>
                             <h2>Technologies:</h2>
-                            <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
-                            
+                            <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
                         </article>
                     </div>
                 </div>
@@ -85,8 +84,9 @@ $PRODUCTION = true;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <h2>Brief:</h2>
-                        <p>Off the Fence wanted a way to present their latest documentary series in development: 'Europe's New Wild' to raise production-financing for the show. Not only would this be for client presentations, it would also be a way to pass on all relevant information regarding the production of this program to investors via an online solution. This would mean no more lengthy pdf creations for the series and more importantly an easy way to update content that can all be done online in a matter of minutes. Up until the documentary launches the site will only be available to potential investors, thereafter it will act as a supporting site and a way of promoting the documentary online and via social media.</p>
-                        <p>The brief was slick, simple and allowed Slam Dunk Digital to create an easy to navigate informational microsite showing off some of the gorgeous shots taken by the film crew.</p>
+                        <p>The brief was simple, make the site more user friendly and seperate the divisons of Infohealth with a unison layout and keep them in line with the branding colors across all the sites. They wanted to drive more of their customers and patients to using their online shops and registering their details and giving them the ablility to create and amend prescriptions and recurrences over the months/weeks.</p>
+
+                        <p>The design for each of the divisions were minimilstic yet slick, using two variation colors from their respective logo brand colors to differentiate them apart. The imagery and video were sourced from Getty images to add that touch of movement for the headers and high quality finish for the content. The design had to be obviously unique to set them apart from all the other Pharmaceutical companies out there.</p>
                     </div>
                     <div class="col img"></div>
                 </div>
@@ -96,34 +96,24 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Reach:</h2>
-                            <p>When the site launches it will only be viewable by potential investors that Off the Fence choose to share it with. Once the documentary launches it will become public and act as a supporting site and a way for followers to find out the latest news and info about the show.</p>
-
-                            <h2>Technologies:</h2>
-                            <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
-
-                            <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
-                            <h2>Project Link:</h2> <p>Internal link only (until launch)</p>
+                            <h2>Deliverables</h2>
+                            <p>A full rebranding for the Infohealth brand to set them apart from all the other Pharmaceutical companies. We are already seeing a much higher site view count the moment it went live. The site is fully mobile responsive and has been fully optimised to perform on all devices.</p>
+                            <ul>
+                                <li>Project &amp; Client management</li>
+                                <li>Creative direction</li>
+                                <li>UX / Wireframing &amp; A/B testing</li>
+                                <li>Site Design &amp; development</li>
+                                <li>Deployment to servers</li>
+                                <li>Social media branding</li>
+                            </ul>
                         </article>
                     </div>
                 </div>
 
-                <div class="row bottom-content">
-                    <div class="col">
-                        <h2>Deliverables</h2>
-                        <p>The site is fully responsive allowing viewers to browse the site's content on all types of devices (Desktop/Mobile phone/Tablet). We expect to be doing many more of these supporting sites for Off the Fence in the upcoming future.</p>
-                        <ul>
-                            <li>Project &amp; Client management</li>
-                            <li>Creative direction</li>
-                            <li>UX / Wireframing &amp; A/B testing</li>
-                            <li>Site Design &amp; development</li>
-                            <li>Deployment to servers</li>
-                            <li>Social media branding</li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div class="row carousel-content">
+                    <div class="col">
+                        <h2>Project screenshots</h2>
+                    </div>
                     <div class="col">
                         <div class="main-carousel">
                             <div class="carousel-cell single"><img src="img/carousel/manufacturing.jpg" alt="Infohealth Manufacturing" /></div>

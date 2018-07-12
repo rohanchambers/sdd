@@ -1167,21 +1167,23 @@ footer {
     .cs-infohealth #case-study-custom .top-content .col h1, .cs-infohealth #case-study-custom .top-content .col p {
       color: #000;
       width: 100%; }
-@media screen and (max-width: 800px) {
-  .cs-infohealth #case-study-custom .middle-content .col,
-  .cs-infohealth #case-study-custom .middle-content .col.content {
-    min-height: 400px; } }
-@media screen and (max-width: 479px) {
-  .cs-infohealth #case-study-custom .middle-content .col,
-  .cs-infohealth #case-study-custom .middle-content .col.content {
-    min-height: 250px; } }
+.cs-infohealth #case-study-custom .middle-content .col,
+.cs-infohealth #case-study-custom .middle-content .col.content {
+  min-height: 375px; }
+  @media screen and (max-width: 800px) {
+    .cs-infohealth #case-study-custom .middle-content .col,
+    .cs-infohealth #case-study-custom .middle-content .col.content {
+      min-height: 400px; } }
+  @media screen and (max-width: 479px) {
+    .cs-infohealth #case-study-custom .middle-content .col,
+    .cs-infohealth #case-study-custom .middle-content .col.content {
+      min-height: 250px; } }
 .cs-infohealth #case-study-custom .middle-content .col.img {
-  background: url(../../case-study/infohealth/img/logo_layout.jpg) no-repeat top center;
+  background: url(../../case-study/infohealth/img/logo_layout.jpg) no-repeat center -30px;
   background-size: 100%; }
   @media screen and (max-width: 800px) {
     .cs-infohealth #case-study-custom .middle-content .col.img {
-      background-position: center center;
-      background-size: cover; } }
+      background-position: center center; } }
 .cs-infohealth #case-study-custom .middle-content.middle-content-2 .col.img {
   background: url(../../case-study/infohealth/img/manufacturing.jpg) no-repeat top center;
   background-size: cover; }
@@ -1190,6 +1192,8 @@ footer {
   .cs-infohealth #case-study-custom .middle-content.middle-content-3 .col.img {
     background: url(../../case-study/infohealth/img/distribution.jpg) no-repeat center center;
     background-size: cover; }
+.cs-infohealth #case-study-custom .carousel-content .col h2 {
+  text-align: center; }
 
 .cs-shrimp-festival #case-study-nav {
   background: #000; }

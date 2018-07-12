@@ -45,6 +45,8 @@
 		.middle-content {
 			.col,
 			.col.content {
+				min-height: 375px;
+				
 				@include media($tablet) {
 					min-height: 400px;
 				}
@@ -55,12 +57,11 @@
 			}
 
 			.col.img {
-				background: url(../../case-study/infohealth/img/logo_layout.jpg) no-repeat top center;
+				background: url(../../case-study/infohealth/img/logo_layout.jpg) no-repeat center -30px;
 				background-size: 100%;
 
 					@include media($tablet) {
 						background-position: center center;
-						background-size: cover;
 					}
 			}
 		}
@@ -77,6 +78,12 @@
 			.col.img {
 				background: url(../../case-study/infohealth/img/distribution.jpg) no-repeat center center;
 				background-size: cover;
+			}
+		}
+
+		.carousel-content {
+			.col h2 {
+				text-align: center;
 			}
 		}
 	}
