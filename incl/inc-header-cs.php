@@ -18,7 +18,7 @@
         <!-- Site Header for pages -->
         <div id="site-header-outer">
             <header id="site-header">
-                <h1><a href="/">Slam Dunk Digital - Case Studies </a></h1>
+                <h1><a href="/">Slam Dunk Digital | <span>Case Studies</span></a></h1>
                 <nav id="social-links" class="nav-global">
                     <ul>
                         <li><span class="share-text">Share</span> <a href="#nogo" id="share-me-cta" class="animatedClick fast" title="Share this site" data-target="share-me-panel"><i class="fa fa-1x fa-share-alt btn-animate"></i></a>

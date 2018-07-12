@@ -4381,6 +4381,10 @@ Transition Layer
       clear: both;
       content: "";
       display: table; }
+    #site-header-outer #site-header h1 span {
+      font-size: 1.25rem;
+      background: #fd070d;
+      padding: 0 5px; }
 
 #case-study-intro {
   display: block;

@@ -517,6 +517,14 @@
 		@include clearfix;
 		margin-bottom: 0;
 		padding-bottom: 10px;
+		
+			h1 {
+				a span {
+					font-size: 1.25rem;
+					background: $red;
+					padding: 0 5px;
+				}
+			}
 	}
 }
 
