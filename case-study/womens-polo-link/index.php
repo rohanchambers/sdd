@@ -114,6 +114,9 @@ $PRODUCTION = true;
 
                 <div class="row carousel-content">
                     <div class="col">
+                        <h2>Project screenshots</h2>
+                    </div>                    
+                    <div class="col">
                         <div class="main-carousel">
                             <div class="carousel-cell single"><img src="img/carousel/round_2_small_1.jpg" alt="Round 2" /></div>
                             <div class="carousel-cell single"><img src="img/carousel/round_2_small_2.jpg" alt="Round 2" /></div>

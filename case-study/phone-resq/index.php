@@ -112,6 +112,9 @@ $PRODUCTION = true;
 
                 <div class="row carousel-content">
                     <div class="col">
+                        <h2>Project screenshot</h2>
+                    </div>                    
+                    <div class="col">
                         <div class="main-carousel">
                             <div class="carousel-cell single"><img src="img/home.jpg" alt="PhoneResQ Home" /></div>
                         </div>

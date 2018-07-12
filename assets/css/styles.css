@@ -763,8 +763,6 @@ footer {
   .cs-infohealth #case-study-custom .middle-content.middle-content-3 .col.img {
     background: url(../../case-study/infohealth/img/distribution.jpg) no-repeat center center;
     background-size: cover; }
-.cs-infohealth #case-study-custom .carousel-content .col h2 {
-  text-align: center; }
 
 .cs-shrimp-festival #case-study-nav {
   background: #000; }
@@ -1369,6 +1367,8 @@ footer {
         margin-right: 0; } }
 #case-study-custom .carousel-content {
   margin: 0 0 50px 0; }
+  #case-study-custom .carousel-content .col h2 {
+    text-align: center; }
   #case-study-custom .carousel-content .col .single {
     min-width: 100%;
     text-align: center; }
