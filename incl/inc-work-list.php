@@ -1,4 +1,4 @@
-                <div class="view view-first find-out-more">
+                <div class="view view-first find-out-more"> 
                     <img src="assets/img/work/infohealth.jpg" alt="Infohealth, Live Well" />
                     <div class="mask">
                         <h2>Infohealth, Live Well</h2>
