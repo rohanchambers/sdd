@@ -95,9 +95,6 @@ $PRODUCTION = true;
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
                                 <li>Logo design / rebranding</li>
-                                <LI>UX / Wireframing &amp; A/B testing</LI>
-                                <li>Site Design &amp; development</li>
-                                <li>Deployment to servers</li>
                             </ul>
 
                             <h2>Technologies</h2>
