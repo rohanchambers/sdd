@@ -56,7 +56,7 @@ $PRODUCTION = true;
                 <div class="col"><a href="../jordi/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
-            <section id="case-study-custom">                
+            <section id="case-study-custom">
                 <div class="row top-content">
                     <div class="col">
                         <img src="img/logo_white_trans.png" alt="Women's Polo Link" width="310" />
@@ -76,10 +76,10 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span>Women's Polo Link</span></h2>
+                            <h2>Work link:</h2> 
+                            <p><a href="http://www.womenspololink.com" target="_blank">www.womenspololink.com</a></p>
                             <h2>Brief:</h2>
                             <p>Curently we have just completed the first phase of this project which was to create the rebranding, such as the logo and the color scheme for the overall look and feel. There is also a holding page that we developed to get a buzz going and collect potential customers and investors. In the second phase it will become a full fledged site with all the functionalities that are necessary to get the client's vision become a reality.</p>
-                            <h2>Site link:</h2> 
-                            <p><a href="http://www.womenspololink.com" target="_blank">www.womenspololink.com</a></p>                            
                         </article>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Reach:</h2>
-                            <p>When the site launches with all it's features we expect it will have a huge impact in the world of women's polo. The whole idea behind the site is still under wraps but there are some great things to come.</p>                            
+                            <p>When the site launches with all it's features we expect it will have a huge impact in the world of women's polo. The whole idea behind the site is still under wraps but there are some great things to come.</p>
 
                             <h2>Deliverables</h2>
                             <ul>
@@ -118,7 +118,7 @@ $PRODUCTION = true;
                             <div class="carousel-cell single"><img src="img/carousel/round_2_small_1.jpg" alt="Round 2" /></div>
                             <div class="carousel-cell single"><img src="img/carousel/round_2_small_2.jpg" alt="Round 2" /></div>
                             <div class="carousel-cell single"><img src="img/carousel/round_1_small_1.jpg" alt="Round 1" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/round_1_small_2.jpg" alt="Round 1" /></div>        
+                            <div class="carousel-cell single"><img src="img/carousel/round_1_small_2.jpg" alt="Round 1" /></div>
                         </div>
                     </div>
                 </div>

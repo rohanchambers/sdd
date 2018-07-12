@@ -75,7 +75,7 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span>Michel Jordi</span></h2>
+                            <h2>Client: <span><a href="http://www.micheljordi.ch/" target="_blank">Michel Jordi</a></span></h2>
                             <p>Watchmakers from father to son. Since my early childhood I have been fascinated by the art of watchmaking that I first discovered in my father's workshop, and then in the mythical valleys of the Swiss Jura mountains.</p>
                             <h2>Brief:</h2>
                             <p>Michel Jordi is about to launch his new biography and got in touch with us to create a landing page for his new book 'Michel Jordi, Guts, Giving up is not an option!'. He wanted the ability for users to buy his book online using Paypal's payment system. The site was localised for multiple languages.</p>

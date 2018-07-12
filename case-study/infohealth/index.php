@@ -49,23 +49,20 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-new-wild">
+        <div class="cs-infohealth">
 
             <section id="case-study-nav">
                 <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../womens-polo-link/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../off-the-fence/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">
                 <div class="row top-content">
                     <div class="col">
-                        <img src="img/new_wild/poster.jpg" alt="Europe's New Wild" width="310" />
-                    </div>
-
-                    <div class="col">
                         <h1>Infohealth, Live Well</h1>
                         <p>Operating for over a decade, our business divisions span across the pharmaceutical supply chain from Product Licensing, Commercialisation, Distribution through to Multi-Channel Retail.</p>
+                        <p>Our customer’s health and well-being remain our number one priority at Infohealth Ltd. Which is why we are One of most trusted pharmaceuticals distributers in the United Kingdom. Integrity, Quality, Teamwork, Passion and Care are embedded deep into our company foundations.</p>
                     </div>
                 </div>
 
@@ -75,8 +72,12 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://www.infohealth.co.uk" target="_blank">Infohealth</a></span></h2>
-                            <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. The company has created almost 400 hours of television content for a wide range of international broadcasters including History Channel, MTV, BBC, Channel 4, MSNBC, PBS, National Geographic Channel, Discovery and The Weather Channel. Their films aim to give a fresh perspective and high production values across a range of genres that include: science, history, adventure, human stories, and natural history. The creative team have been recognised by more than 80 awards, including Royal Television Society, Emmy, Golden Panda and Grand Teton.</p> 
-                            <p>Off the Fence Productions ranked number 5 in the Top 30 True Indies in the 2014 Broadcast Indie Survey, and took the number 1 position in the top producers of ‘Popular Factual’. </p>
+                            <h2>Project Link:</h2> <a href="http://www.infohealth.co.uk/" target="_blank">www.infohealth.co.uk</a></p>
+                            <h2>Reach:</h2>
+                            <p>When the site launches it will only be viewable by potential investors that Off the Fence choose to share it with. Once the documentary launches it will become public and act as a supporting site and a way for followers to find out the latest news and info about the show.</p>
+                            <h2>Technologies:</h2>
+                            <p>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
+                            
                         </article>
                     </div>
                 </div>
@@ -125,11 +126,10 @@ $PRODUCTION = true;
                 <div class="row carousel-content">
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/new_wild/newWild_home.jpg" alt="Home" /></div>
-                            <div class="carousel-cell single"><img src="img/new_wild/newWild_partners.jpg" alt="Partners"  /></div>
-                            <div class="carousel-cell single"><img src="img/new_wild/newWild_map.jpg" alt="Map" /></div>
-                            <div class="carousel-cell single"><img src="img/new_wild/newWild_social.jpg" alt="Social" /></div>
-                            <div class="carousel-cell single"><img src="img/new_wild/newWild_nav.jpg" alt="Responsive nav" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/manufacturing.jpg" alt="Infohealth Manufacturing" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/distribution.jpg" alt="Infohealth Distribution"  /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/retail.jpg" alt="Infohealth Retail" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/mailorder.jpg" alt="Infohealth Mailorder" /></div>
                         </div>
                     </div>
                 </div>

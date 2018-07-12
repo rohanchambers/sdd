@@ -97,8 +97,6 @@ $PRODUCTION = true;
                                 <li>Brochure design</li>
                                 <li>One pager development build</li>
                             </ul>
-
-                            <h2>Client Site:</h2> <p><a href="http://www.offthefence.com" target="_blank">www.offthefence.com</a></p>
                         </article>
                     </div>
                     <div class="col img"></div>

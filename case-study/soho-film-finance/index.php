@@ -75,10 +75,9 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://www.sohofilmfinance.com/" target="_blank">SOHO Film Finance</a></span></h2>
+                            <h2>Work link:</h2>
+                            <p><a href="http://www.sohofilmfinance.com/" target="_blank">www.sohofilmfinance.com</a></p>                            
                             <p>SOHO Film Finance is a EIS Film Investment Company based in London, specialising in sourcing high profile film and television projects in order to reach the highest possible returns for our clients.</p>
-                            <h2>Brief:</h2>
-                            <p>We took on this project in the film finance business as firstly at Slam Dunk we are all movie buffs and secondly we enjoy going to some of the premieres.<br>
-                            The site was based on a brochure that was previously designed by the creative director Laurent Graudens. The company liked it so much they asked us to create their whole identify around this theme. The other guideline was that they wanted the site to have movement and motion so to this we created some parallax effects along with some brochue style design layouts.</p>
                         </article>
                     </div>
                 </div>
@@ -86,8 +85,9 @@ $PRODUCTION = true;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <article>
-                            <h2>Site link:</h2>
-                            <p><a href="http://www.sohofilmfinance.com/" target="_blank">www.sohofilmfinance.com</a></p>
+                            <h2>Brief:</h2>
+                            <p>We took on this project in the film finance business as firstly at Slam Dunk we are all movie buffs and secondly we enjoy going to some of the premieres.<br>
+                            The site was based on a brochure that was previously designed by the creative director Laurent Graudens. The company liked it so much they asked us to create their whole identify around this theme. The other guideline was that they wanted the site to have movement and motion so to this we created some parallax effects along with some brochue style design layouts.</p>                            
                             <h2>Deliverables</h2>
                             <ul>
                                 <li>Project &amp; Client management</li>
