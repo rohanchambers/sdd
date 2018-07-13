@@ -706,7 +706,7 @@ footer {
 .cs-infohealth #case-study-custom .top-content {
   background: url(../../case-study/infohealth/img/banner.jpg) no-repeat center center;
   background-size: cover;
-  padding: 10px 0; }
+  padding: 0; }
   .cs-infohealth #case-study-custom .top-content .col:nth-of-type(2n) {
     display: table; }
   .cs-infohealth #case-study-custom .top-content .col {
