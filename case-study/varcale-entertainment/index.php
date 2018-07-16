@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = false;
+$PRODUCTION = true;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +63,6 @@ $PRODUCTION = false;
                         <h1>Varcale Entertainment</h1>
                         <p>A one-stop shop for Film Finance investment opportunities.</p>
                         <p>Located in Soho, London’s Entertainment district the company was formed by experienced individuals from: Investment, Distribution, Production and Film music composition. Varcale Entertainment specialise in film as an alternative investment and aim to deliver capital growth, tax efficiency and glamour experiences to our investors from a team you can trust.</p>
-                        <p>Our development team are working on a host of new film projects for 2017 so for more details click here</p>
                     </div>
                 </div>
 
@@ -92,7 +91,9 @@ $PRODUCTION = false;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <h2>Brief:</h2>
-                        <p></p>
+                        <p>The brief for Varcale Entertainment was to create an original site that would stand out from the other Film investment companies. A design that would say we are in Films but we are a young and creative company ready to work with all genres of film.</p>
+                        <p>The site itself was an informational site so potential investors could see what Varcale Entertaiment were all about, such as the films they invested in and the team they have behind them. This was all decorated using nice imagery and video to complement this content.</p>
+                        <p>The idea behind the home page design was inspired by the James Bond opening theme scene of looking down into a barrel of a gun and at the end seeing the brand logo. We created some movement so the user would feel like they were pointing and aiming for a target.</p>
                     </div>
                     <div class="col img"></div>
                 </div>
@@ -107,7 +108,6 @@ $PRODUCTION = false;
                             <div class="carousel-cell single"><img src="img/investments.jpg" alt="Investments" /></div>
                             <div class="carousel-cell single"><img src="img/projects.jpg" alt="Projects"  /></div>
                             <div class="carousel-cell single"><img src="img/team.jpg" alt="Team" /></div>
-
                         </div>
                     </div>
                 </div>
