@@ -72,7 +72,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://varcalecap.co.uk/" target="_blank">Varcale Capital Management</a></span></h2>
-                            <h2>Project Link:</h2> <a href="http://www.slamdunkdigital.com/clients/varcaleE/" target="_blank">Showcase link</a></p>
+                            <h2>Project Link:</h2> <a href="http://www.slamdunkdigital.com/clients/varcaleE/" target="_blank">www.varcaleentertainment.tv</a></p>
                             <h2>Deliverables</h2>
                             <ul>
                                 <li>Project &amp; Client management</li>
@@ -91,9 +91,9 @@ $PRODUCTION = true;
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
                         <h2>Brief:</h2>
-                        <p>The brief for Varcale Entertainment was to create an original site that would stand out from the other Film investment companies. A design that would say we are in Films but we are a young and creative company ready to work with all genres of film.</p>
+                        <p>The brief for Varcale Entertainment was to create an original site that would stand out from the other film investment companies. A design that would say we are in films but we are a young and creative company ready to work with all genres of film.</p>
                         <p>The site itself was an informational site so potential investors could see what Varcale Entertaiment were all about, such as the films they invested in and the team they have behind them. This was all decorated using nice imagery and video to complement this content.</p>
-                        <p>The idea behind the home page design was inspired by the James Bond opening theme scene of looking down into a barrel of a gun and at the end seeing the brand logo. We created some movement so the user would feel like they were pointing and aiming for a target.</p>
+                        <p>The idea behind the home page design was inspired by the James Bond opening theme scene of looking down into a barrel of a gun and at the end of it seeing the brand logo. We created some movement so the user would feel like they were pointing and aiming for a target.</p>
                     </div>
                     <div class="col img"></div>
                 </div>
