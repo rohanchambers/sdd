@@ -7,7 +7,7 @@
                     <a href="case-study/infohealth/"></a>
                 </div>
                 <div class="view view-first find-out-more">
-                    <img src="assets/img/work/newWild.jpg" alt="Shrimp Festival 2018" />
+                    <img src="assets/img/work/newWild.jpg" alt="Europe's New Wild" />
                     <div class="mask">
                         <h2>Europe's New Wild</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
@@ -38,14 +38,14 @@
                     </div>
                     <a href="case-study/jordi/"></a>
                 </div>        
-                <div class="view view-first find-out-more">
+<!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/varcale-entertainment.jpg" alt="Varcale Entertainment" />
                     <div class="mask">
                         <h2>Varcale Entertainment</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/varcale-entertainment/"></a>
-                </div>                
+                </div>      -->           
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/phoneResQ.jpg" alt="PhoneResQ" />
                     <div class="mask">
