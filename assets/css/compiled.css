@@ -4727,7 +4727,7 @@ Transition Layer
   overflow: hidden;
   position: relative;
   height: 1000px;
-  background-color: #ffc036; }
+  background-color: #fc3; }
   #section-what-we-do::after {
     clear: both;
     content: "";
@@ -4776,7 +4776,7 @@ Transition Layer
     display: none; }
   #section-what-we-do .col-skew {
     padding: 2% 4%;
-    background-color: #ffc036; }
+    background-color: #fc3; }
   #section-what-we-do .col-skew:after {
     content: "";
     position: absolute;
@@ -4785,7 +4785,7 @@ Transition Layer
     bottom: 0;
     left: 25%;
     width: 30%;
-    background: #ffc036;
+    background: #fc3;
     -webkit-transform: skewX(-8deg);
     transform: skewX(-8deg); }
   #section-what-we-do .col-no-skew {

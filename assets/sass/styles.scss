@@ -339,7 +339,7 @@
 	overflow: hidden;
 	position: relative;
 	height: 1000px;
-	background-color: $yellow;
+	background-color: #fc3;
     @include clearfix;
 
 	#specialties ul {
@@ -409,7 +409,7 @@
 
 	.col-skew {
 		padding: 2% 4%;
-		background-color: $yellow;
+		background-color: #fc3;
 	}
 
 	.col-skew:after {
@@ -420,7 +420,7 @@
 	    bottom:0;
 	    left:25%;
 	    width:30%;
-	    background: $yellow;
+	    background: #fc3;
 	    -webkit-transform:skewX(-8deg);
 	    	transform:skewX(-8deg);
 	}
