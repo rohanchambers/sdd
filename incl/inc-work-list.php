@@ -14,14 +14,14 @@
                     </div>
                     <a href="case-study/off-the-fence/"></a>
                 </div>
-<!--                 <div class="view view-first find-out-more">
+                <div class="view view-first find-out-more">
                     <img src="assets/img/work/octopusTeacher.jpg" alt="My Octopus Teacher" />
                     <div class="mask">
                         <h2>My Octopus Teacher</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/off-the-fence/octopus-teacher.php"></a>
-                </div>   -->              
+                </div>                
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/womensPoloLink.jpg" alt="Michel Jordi" />
                     <div class="mask">

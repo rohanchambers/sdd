@@ -9,6 +9,7 @@ $PRODUCTION = true;
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Slam Dunk Digital - My Octopus Teacher</title>
+        <META NAME="robots" CONTENT="noindex">
         <meta name="title" content="Slam Dunk Digital | My Octopus Teacher">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -51,9 +52,9 @@ $PRODUCTION = true;
         <!-- Case study Intro -->
         <div class="cs-octopus-teacher">
             <section id="case-study-nav">
-                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../off-the-fence/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../shrimp-festival/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../womens-polo-link/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">                
