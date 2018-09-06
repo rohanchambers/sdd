@@ -77,7 +77,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://www.offthefence.com" target="_blank">Off the Fence</a></span></h2>
-                            <h2>Project Link:</h2> <p><a href="http://www.europesnewwild.com" target="_blank">www.europesnewwild.com</a></p>
+                            <h2>Project Link: <span><a href="http://www.europesnewwild.com" target="_blank">www.europesnewwild.com</a></span></h2> 
                             <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. The company has created almost 400 hours of television content for a wide range of international broadcasters including History Channel, MTV, BBC, Channel 4, MSNBC, PBS, National Geographic Channel, Discovery and The Weather Channel. Their films aim to give a fresh perspective and high production values across a range of genres that include: science, history, adventure, human stories, and natural history. The creative team have been recognised by more than 80 awards, including Royal Television Society, Emmy, Golden Panda and Grand Teton.</p> 
                             <p>Off the Fence Productions ranked number 5 in the Top 30 True Indies in the 2014 Broadcast Indie Survey, and took the number 1 position in the top producers of ‘Popular Factual’. </p>
                         </article>

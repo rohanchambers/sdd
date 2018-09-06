@@ -880,12 +880,15 @@ footer {
       @media screen and (max-width: 1024px) {
         .cs-sff #case-study-custom .top-content .col article {
           bottom: auto; } }
-@media screen and (max-width: 800px) {
-  .cs-sff #case-study-custom .middle-content .col,
-  .cs-sff #case-study-custom .middle-content .col.content {
-    min-height: 300px; } }
+.cs-sff #case-study-custom .middle-content .col,
+.cs-sff #case-study-custom .middle-content .col.content {
+  min-height: 250px; }
+  @media screen and (min-width: 1025px) {
+    .cs-sff #case-study-custom .middle-content .col,
+    .cs-sff #case-study-custom .middle-content .col.content {
+      min-height: 325px; } }
 .cs-sff #case-study-custom .middle-content .col.img {
-  background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat left center;
+  background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat center center;
   background-size: contain; }
 .cs-sff #case-study-custom .middle-content.middle-content-2 {
   margin-bottom: 35px; }
@@ -1022,10 +1025,10 @@ footer {
           bottom: auto; } }
   .cs-womens-polo #case-study-custom .top-content h1, .cs-womens-polo #case-study-custom .top-content p {
     color: #FFF; }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1025px) {
   .cs-womens-polo #case-study-custom .middle-content .col,
   .cs-womens-polo #case-study-custom .middle-content .col.content {
-    min-height: 300px; } }
+    min-height: 400px; } }
 .cs-womens-polo #case-study-custom .middle-content .col.img {
   background: url(../../case-study/womens-polo-link/img/logo_original.jpg) no-repeat center center;
   background-size: contain; }
@@ -1051,8 +1054,7 @@ footer {
     width: 66.66667%;
     background: url(../../case-study/off-the-fence/img/new_wild/sled.jpg) no-repeat right bottom;
     background-size: 100%;
-    padding-right: 150px;
-    padding-left: 20px; }
+    padding: 0 150px 150px 20px; }
     .cs-new-wild #case-study-custom .top-content .col:nth-of-type(2n):last-child {
       margin-right: 0; }
     @media screen and (max-width: 1024px) {
@@ -1320,9 +1322,6 @@ footer {
     position: relative;
     font-size: 2rem; }
     #case-study-custom .col h2 span {
-      position: absolute;
-      left: 100px;
-      top: 2px;
       font-family: Arial, Verdana, sans-serif;
       font-size: 1rem;
       text-transform: none; }

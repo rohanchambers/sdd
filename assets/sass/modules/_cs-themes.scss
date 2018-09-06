@@ -272,13 +272,14 @@
 		.middle-content {
 			.col,
 			.col.content {
-				@include media($tablet) {
-					min-height: 300px;
+				min-height: 250px;
+				@include media($large-desktop) {
+					min-height: 325px;
 				}
 			}
 
 			.col.img {
-				background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat left center;
+				background: url(../../case-study/soho-film-finance/img/logo.jpg) no-repeat center center;
 				background-size: contain;
 			}
 		}
@@ -532,8 +533,8 @@
 		.middle-content {
 			.col,
 			.col.content {
-				@include media($tablet) {
-					min-height: 300px;
+				@include media($large-desktop) {
+					min-height: 400px;
 				}
 			}
 
@@ -576,8 +577,7 @@
 					@include span-columns(8);
 					background: url(../../case-study/off-the-fence/img/new_wild/sled.jpg) no-repeat right bottom;
 					background-size: 100%;
-					padding-right: 150px;
-					padding-left: 20px;
+					padding: 0 150px 150px 20px;
 
 					@include media($desktop) {
 						padding-right: 50px;

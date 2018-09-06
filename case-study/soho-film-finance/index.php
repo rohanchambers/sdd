@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -75,8 +75,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span><a href="http://www.sohofilmfinance.com/" target="_blank">SOHO Film Finance</a></span></h2>
-                            <h2>Work link:</h2>
-                            <p><a href="http://www.sohofilmfinance.com/" target="_blank">www.sohofilmfinance.com</a></p>                            
+                            <h2>Work link: <span><a href="http://www.sohofilmfinance.com/" target="_blank">www.sohofilmfinance.com</a></span></h2>                         
                             <p>SOHO Film Finance is a EIS Film Investment Company based in London, specialising in sourcing high profile film and television projects in order to reach the highest possible returns for our clients.</p>
                         </article>
                     </div>
