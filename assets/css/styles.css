@@ -241,6 +241,7 @@ header p {
 #contact-info,
 #site-header,
 #error-404,
+#terms,
 footer {
   max-width: 1024px;
   margin-left: auto;
@@ -254,6 +255,7 @@ footer {
   #contact-info::after,
   #site-header::after,
   #error-404::after,
+  #terms::after,
   footer::after {
     clear: both;
     content: "";
@@ -5177,6 +5179,9 @@ footer {
       #error-404 ul li a:hover {
         text-decoration: none; }
 
+body.terms {
+  overflow: visible; }
+
 @media screen and (min-width: 1440px) {
   footer {
     max-width: 94%;
@@ -5258,7 +5263,10 @@ footer {
   #package-deals article {
     min-height: 0; }
     #package-deals article p.guarantee {
-      margin-top: 25px; } }
+      margin-top: 25px; }
+
+  #terms {
+    padding: 0 3%; } }
 @media screen and (max-width: 800px) {
   header h1,
   .overlay h1,

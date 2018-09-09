@@ -112,6 +112,10 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 				}
 		}
 	}	
+
+	#terms {
+		padding: 0 3%;
+	}
 }
 
 // TABLET | Max width 800px
