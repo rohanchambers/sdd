@@ -70,14 +70,14 @@
                     </div>
                     <a href="case-study/soho-film-finance/"></a>
                 </div>         
-                <div class="view view-first find-out-more">
+<!--                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/merchant.jpg" alt="SOHO Film Finance" />
                     <div class="mask">
                         <h2>Merchant Adventurers' Club</h2>
                         <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
                     </div>
                     <a href="case-study/merchant/"></a>
-                </div>                                               
+                </div>     -->                                           
                 <div class="view view-first find-out-more">
                     <img src="assets/img/work/beautyOfBrewing.jpg" alt="Heineken, Beauty of Brewing" />
                     <div class="mask">

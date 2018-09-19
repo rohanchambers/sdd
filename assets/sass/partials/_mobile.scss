@@ -286,12 +286,21 @@ $tablet-600: new-breakpoint(max-width 600px);
 @include media($tablet-600) {
 	#section-home,
 	.overlay,
-	#site-header {
+	#site-header-outer #site-header {
 		h1 {
 			width: 150px;
 			line-height: 1em;
 			font-size: rem(25);
 			padding-left: 0;
+			padding: 5px;
+			
+				a {				
+					span {
+						width: auto;
+						padding: 3px 5px;
+						margin-top: 4px;					
+					}
+				}
 		}
 	} 
 

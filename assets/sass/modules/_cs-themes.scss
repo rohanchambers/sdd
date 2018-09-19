@@ -58,7 +58,7 @@
 
 			.col.img {
 				background: url(../../case-study/merchant/img/merchant_logo.png) no-repeat center center;
-				background-size: cover;
+				background-size: contain;
 
 					@include media($tablet) {
 						background-position: center center;

@@ -4500,7 +4500,7 @@ Transition Layer
       content: "";
       display: table; }
     #site-header-outer #site-header h1 a span {
-      font-size: 1.25rem;
+      display: block;
       background: #fd070d;
       padding: 0 5px; }
 
@@ -5468,11 +5468,18 @@ body.terms {
 @media screen and (max-width: 600px) {
   #section-home h1,
   .overlay h1,
-  #site-header h1 {
+  #site-header-outer #site-header h1 {
     width: 150px;
     line-height: 1em;
     font-size: 1.5625rem;
-    padding-left: 0; }
+    padding-left: 0;
+    padding: 5px; }
+    #section-home h1 a span,
+    .overlay h1 a span,
+    #site-header-outer #site-header h1 a span {
+      width: auto;
+      padding: 3px 5px;
+      margin-top: 4px; }
 
   #section-home #slogan p {
     font-size: 4rem; }

@@ -60,8 +60,9 @@ $PRODUCTION = true;
                 <div class="row top-content">
                     <div class="col">
                         <h1>Merchant Adventurers' Club</h1>
-                        <p>Operating for over a decade, our business divisions span across the pharmaceutical supply chain from Product Licensing, Commercialisation, Distribution through to Multi-Channel Retail.</p>
-                        <p>Our customer’s health and well-being remain our number one priority at Infohealth Ltd. Which is why we are One of most trusted pharmaceuticals distributers in the United Kingdom. Integrity, Quality, Teamwork, Passion and Care are embedded deep into our company foundations.</p>
+                        <p>The world's first lifestyle network for ultra-growth business leaders and investors</p>
+                        <p>The Merchant Adventurers' Club is a private members club like no other. Our purpose is to enrich our members in every sense of the word.<br>
+                        The principal benefit of membership is the opportunity to engage with high-profile leaders and carefully vetted senior executives from multiple industries in intimate and off-the-record settings in a series of carefully curated events throughout the year.</p>
                     </div>
                 </div>
 

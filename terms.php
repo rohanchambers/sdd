@@ -16,7 +16,7 @@
     <body class="terms">
         <div id="site-header-outer">
             <header id="site-header">
-                <h1>Slam Dunk Digital</h1>
+                <h1><a href="/">Slam Dunk Digital</a></h1>
             </header>
         </div><!-- End of Nav main -->
 
