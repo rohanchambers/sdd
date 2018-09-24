@@ -28,7 +28,7 @@
 
 					article {
 						  display: table-cell;
-						  vertical-align: top;
+						  vertical-align: middle;
 
 							@include media($desktop) {
 								bottom: auto;
@@ -45,7 +45,7 @@
 		.middle-content {
 			.col,
 			.col.content {
-				min-height: 375px;
+				min-height: 400px;
 				
 				@include media($tablet) {
 					min-height: 400px;
@@ -57,8 +57,7 @@
 			}
 
 			.col.img {
-				background: url(../../case-study/merchant/img/merchant_logo.png) no-repeat center center;
-				background-size: contain;
+				background: #000 url(../../case-study/merchant/img/merchant_logo.png) no-repeat center center;
 
 					@include media($tablet) {
 						background-position: center center;
@@ -70,6 +69,15 @@
 			.col.img {
 				background: url(../../case-study/merchant/img/join.jpg) no-repeat top center;
 				background-size: cover;
+			}
+
+			article {
+				display: table-cell;
+				vertical-align: middle;
+
+					@include media($desktop) {
+						bottom: auto;
+					}				
 			}
 		}
 

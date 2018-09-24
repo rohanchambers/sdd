@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = false;
+$PRODUCTION = true;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,9 +51,9 @@ $PRODUCTION = false;
         <!-- Case study Intro -->
         <div class="cs-merchant">
             <section id="case-study-nav">
-                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../soho-film-finance/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../off-the-fence/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../heineken/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">
@@ -72,7 +72,7 @@ $PRODUCTION = false;
                     <div class="col content">
                         <article>
                             <h2>Client: <span>Merchant Adventurers' Club</span></h2>
-                            <h2>Project Link:</h2> <a href="http://www.merchantadventurersclub.co.uk" target="_blank">www.merchantadventurersclub.co.uk</a>
+                            <h2>Project Link:</h2> <p><a href="http://www.merchantadventurersclub.co.uk" target="_blank">www.merchantadventurersclub.co.uk</a></p>
                             <h2>Reach:</h2>
                             <p>This is an exclusive site so they will only be targeting there current members and only a select few new members as time goes by.</p>
                             <h2>Technologies:</h2>
@@ -83,8 +83,11 @@ $PRODUCTION = false;
 
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
-                        <h2>Brief:</h2>
-                        <p>The brief was simple, make the site more user friendly and seperate the divisons of Infohealth with a unison layout and keep them in line with the branding colors across all the sites. They wanted to drive more of their customers and patients to using their online shops and registering their details and giving them the ablility to create and amend prescriptions and recurrences over the months/weeks.</p>
+                        <article>
+                            <h2>Brief:</h2>
+                            <p>The client's brief was that they wanted a site that reflected an upscale and premium look. We used appropriate imagery to portray this as the major reason for it was that it was exclusive to members only.</p>
+                            <p>There is a members only area that contains exclusive information such as video interviews, research, details of upcoming events and lot more.</p>
+                        </article>
                     </div>
                     <div class="col img"></div>
                 </div>
@@ -95,7 +98,7 @@ $PRODUCTION = false;
                     <div class="col content">
                         <article>
                             <h2>Deliverables</h2>
-                            <p>A full rebranding for the Infohealth brand to set them apart from all the other Pharmaceutical companies. We are already seeing a much higher site view count the moment it went live.</p>
+                            <p>The word got out very quickly and in the following new members were signing up to receive these privileges.</p>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
