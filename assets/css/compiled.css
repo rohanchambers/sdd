@@ -4940,7 +4940,7 @@ Transition Layer
     #site-header-outer #site-header h1 a span {
       display: block;
       background: #fd070d;
-      padding: 0 5px;
+      padding: 2px 5px;
       font-size: 1.6rem; }
 
 #case-study-intro {
