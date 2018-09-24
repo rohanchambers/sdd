@@ -170,6 +170,131 @@
 }
 
 
+// New wild
+.cs-new-wild {
+	#case-study-nav {
+		background: #54739a;
+	}
+
+	#case-study-custom {
+		.top-content {
+			padding-top: 150px;
+			padding-bottom: 40px;
+			background: #f1f4f9 url(../../case-study/off-the-fence/img/new_wild/new_wild_bg_top.jpg) repeat-x top center;
+
+				@include media($tablet) {
+					padding-top: 50px;
+				}
+
+				.col {
+					min-height: 450px;
+					padding-top: 0;
+				}
+
+				.col:nth-of-type(2n) {
+					@include span-columns(8);
+					background: url(../../case-study/off-the-fence/img/new_wild/sled.jpg) no-repeat right bottom;
+					background-size: 100%;
+					padding: 0 150px 150px 20px;
+
+					@include media($desktop) {
+						padding-right: 50px;
+					}
+
+					@include media($tablet) {
+						@include span-columns(12);
+						padding-right: 20px;
+					}
+				}
+		}
+
+		.middle-content {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/new_wild/jungle_cat.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/new_wild/goat.jpg) no-repeat right bottom;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-3 {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/new_wild/northern_lights.jpg) no-repeat right bottom;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+// Octopus Teacher
+.cs-octopus-teacher {
+	#case-study-nav {
+		background: #0f3b57;
+	}
+
+	#case-study-custom {
+		.top-content {
+			background: #f1f4f9 url(../../case-study/off-the-fence/img/octopus_teacher/sea_bg.jpg) no-repeat top center;
+			background-size: cover;
+			padding: 10px 0;
+
+				.col:nth-of-type(2n) {
+					display: table;
+				}
+
+				.col {
+					min-height: 450px;
+
+					@include media($tablet) {
+						min-height: 200px;
+					}
+
+					article {
+						  display: table-cell;
+						  vertical-align: bottom;
+
+							@include media($desktop) {
+								bottom: auto;
+							}
+					}
+				}
+
+				h1, p {
+					color: #FFF;
+				}
+		}
+
+		.middle-content {
+			.col,
+			.col.content {
+				min-height: 350px;
+
+					@include media($tablet) {
+						min-height: 200px;
+					}
+			}
+
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/octopus_teacher/eye.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.middle-content.middle-content-2 {
+			.col.img {
+				background: url(../../case-study/off-the-fence/img/octopus_teacher/octopus.jpg) no-repeat right bottom;
+				background-size: cover;
+			}
+		}
+	}
+}
+
+
 // VARCALE ENTERTAINMENT
 .cs-varcale-entertainment {
 	#case-study-nav {
@@ -634,129 +759,6 @@
 			.col.img {
 				background: url(../../case-study/womens-polo-link/img/logo_purple.jpg) no-repeat center center;
 				background-size: contain;
-			}
-		}
-	}
-}
-
-// New wild
-.cs-new-wild {
-	#case-study-nav {
-		background: #54739a;
-	}
-
-	#case-study-custom {
-		.top-content {
-			padding-top: 150px;
-			padding-bottom: 40px;
-			background: #f1f4f9 url(../../case-study/off-the-fence/img/new_wild/new_wild_bg_top.jpg) repeat-x top center;
-
-				@include media($tablet) {
-					padding-top: 50px;
-				}
-
-				.col {
-					min-height: 450px;
-				}
-
-				.col:nth-of-type(2n) {
-					@include span-columns(8);
-					background: url(../../case-study/off-the-fence/img/new_wild/sled.jpg) no-repeat right bottom;
-					background-size: 100%;
-					padding: 0 150px 150px 20px;
-
-					@include media($desktop) {
-						padding-right: 50px;
-					}
-
-					@include media($tablet) {
-						@include span-columns(12);
-						padding-right: 20px;
-					}
-				}
-		}
-
-		.middle-content {
-			.col.img {
-				background: url(../../case-study/off-the-fence/img/new_wild/jungle_cat.jpg) no-repeat center center;
-				background-size: cover;
-			}
-		}
-
-		.middle-content.middle-content-2 {
-			.col.img {
-				background: url(../../case-study/off-the-fence/img/new_wild/goat.jpg) no-repeat right bottom;
-				background-size: cover;
-			}
-		}
-
-		.middle-content.middle-content-3 {
-			.col.img {
-				background: url(../../case-study/off-the-fence/img/new_wild/northern_lights.jpg) no-repeat right bottom;
-				background-size: cover;
-			}
-		}
-	}
-}
-
-// Octopus Teacher
-.cs-octopus-teacher {
-	#case-study-nav {
-		background: #0f3b57;
-	}
-
-	#case-study-custom {
-		.top-content {
-			background: #f1f4f9 url(../../case-study/off-the-fence/img/octopus_teacher/sea_bg.jpg) no-repeat top center;
-			background-size: cover;
-			padding: 10px 0;
-
-				.col:nth-of-type(2n) {
-					display: table;
-				}
-
-				.col {
-					min-height: 450px;
-
-					@include media($tablet) {
-						min-height: 200px;
-					}
-
-					article {
-						  display: table-cell;
-						  vertical-align: bottom;
-
-							@include media($desktop) {
-								bottom: auto;
-							}
-					}
-				}
-
-				h1, p {
-					color: #FFF;
-				}
-		}
-
-		.middle-content {
-			.col,
-			.col.content {
-				min-height: 350px;
-
-					@include media($tablet) {
-						min-height: 200px;
-					}
-			}
-
-			.col.img {
-				background: url(../../case-study/off-the-fence/img/octopus_teacher/eye.jpg) no-repeat center center;
-				background-size: cover;
-			}
-		}
-
-		.middle-content.middle-content-2 {
-			.col.img {
-				background: url(../../case-study/off-the-fence/img/octopus_teacher/octopus.jpg) no-repeat right bottom;
-				background-size: cover;
 			}
 		}
 	}

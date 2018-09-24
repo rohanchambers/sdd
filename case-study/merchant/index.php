@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -74,7 +74,7 @@ $PRODUCTION = true;
                             <h2>Client: <span>Merchant Adventurers' Club</span></h2>
                             <h2>Project Link:</h2> <a href="http://www.merchantadventurersclub.co.uk" target="_blank">www.merchantadventurersclub.co.uk</a>
                             <h2>Reach:</h2>
-                            <p>We are expecting to target all the exsiting customers but more importantly gaining more their trust in using the site and it's online shops and payment process. The overall look and feel has been tranposed to their social media pages to keep inline with the rebrand.</p>
+                            <p>This is an exclusive site so they will only be targeting there current members and only a select few new members as time goes by.</p>
                             <h2>Technologies:</h2>
                             <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
                         </article>
@@ -85,8 +85,6 @@ $PRODUCTION = true;
                     <div class="col content">
                         <h2>Brief:</h2>
                         <p>The brief was simple, make the site more user friendly and seperate the divisons of Infohealth with a unison layout and keep them in line with the branding colors across all the sites. They wanted to drive more of their customers and patients to using their online shops and registering their details and giving them the ablility to create and amend prescriptions and recurrences over the months/weeks.</p>
-
-                        <p>The design for each of the divisions were minimilstic yet slick, using two variation colors from their respective logo brand colors to differentiate them apart. The imagery and video were sourced from Getty images to add that touch of movement for the headers and high quality finish for the content. The design had to be obviously unique to set them apart from all the other Pharmaceutical companies out there.</p>
                     </div>
                     <div class="col img"></div>
                 </div>
@@ -97,7 +95,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Deliverables</h2>
-                            <p>A full rebranding for the Infohealth brand to set them apart from all the other Pharmaceutical companies. We are already seeing a much higher site view count the moment it went live. The site is fully mobile responsive and has been fully optimised to perform on all devices.</p>
+                            <p>A full rebranding for the Infohealth brand to set them apart from all the other Pharmaceutical companies. We are already seeing a much higher site view count the moment it went live.</p>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
