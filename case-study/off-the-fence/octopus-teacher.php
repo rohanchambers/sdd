@@ -8,9 +8,9 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - My Octopus Teacher</title>
+        <title>Slam Dunk Digital - Underwater tracker</title>
         <META NAME="robots" CONTENT="noindex">
-        <meta name="title" content="Slam Dunk Digital | My Octopus Teacher">
+        <meta name="title" content="Slam Dunk Digital | Underwater tracker">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -60,12 +60,12 @@ $PRODUCTION = true;
             <section id="case-study-custom">                
                 <div class="row top-content">
                     <div class="col">
-                        <img src="img/octopus_teacher/poster.jpg" alt="Octopus Teacher" width="310" />
+                        <img src="img/octopus_teacher/poster.jpg" alt="Underwater tracker" width="310" />
                     </div>
 
                     <div class="col">
                         <article>
-                            <h1>My Octopus Teacher</h1>
+                            <h1>Underwater tracker</h1>
                             <p>In a desperate attempt to come to terms with an existential crisis, a burn-out filmkaker pledges to free dive without a wetsuit every day in the freezing ocean at the tip of Africa. Utilizing the tracking skills taught to him by Kalahari bushmen, he endeavours to uncover the secrets of the great South African sea forest - one of the most remarkable yet hitherto undocumented habitats on the planet.</p>
 <!--                             <p>His life changes when he meets a young octopus who displays remarkable intelligence. Slowly he wins the animal's trust and they develop a never-seen-before bond between human and wild animal.</p> -->
                         </article>
@@ -80,7 +80,7 @@ $PRODUCTION = true;
                             <h2>Client: <span><a href="http://www.offthefence.com" target="_blank">Off the Fence</a></span></h2>
                             <p>Off the Fence Productions is an award-winning producer of factual television and digital cinema content, which is broadcast worldwide. </p>
                             <h2>Brief:</h2>
-                            <p>A one pager info site &amp; brochure for one of Off the Fence's documentaries, 'My Octopus Teacher'. A simple layout was needed to display all the relevant information of this title to help pitch to potential investors.</p>
+                            <p>A one pager info site &amp; brochure for one of Off the Fence's documentaries, 'Underwater tracker'. A simple layout was needed to display all the relevant information of this title to help pitch to potential investors.</p>
                         </article>
                     </div>
                 </div>
