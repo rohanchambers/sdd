@@ -51,7 +51,7 @@ $PRODUCTION = true;
         <!-- Case study Intro -->
         <div class="cs-womens-polo">
             <section id="case-study-nav">
-                <div class="col"><a href="../off-the-fence/underwater_tracker.php" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../off-the-fence/underwater-tracker.php" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="../jordi/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
