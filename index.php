@@ -37,7 +37,7 @@
         <meta name="twitter:domain"         content="slamdunkdigital.com">
 
         <!-- Google recaptcha ver.2 -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -261,7 +261,7 @@
         
         <script src="assets/js/compiled.min.js?20190606"></script>
 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
