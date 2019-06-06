@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20190417">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20190606">
         
         
  
@@ -205,73 +205,6 @@
             </div>
         </section><!-- End of contact info -->
 
-
-        <section id="quick-message">
-            <header>
-                <h1>Quick message</h1>
-            </header>
-
-            <?php
-                //if "email" variable is filled out, send email
-                  if (isset($_REQUEST['email']))  {
-
-                  //Email information
-                  $admin_email = "info@slamdunkdigital.com";
-                  $email = $_REQUEST['email'];
-                  $subject = "Slam Dunk Digital Message: " . $_REQUEST['subject'];
-                  $comment = $_REQUEST['comment'].$phone;
-                  $phone = $_REQUEST['phone'];
-                  $comment_phone = $comment . "\n\n Phone: ".$phone;
-
-                  //send email
-                  mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
-
-                  //Email response
-                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.</p>";
-                  }
-
-                  //if "email" variable is not filled out, display the form
-                  else  {
-                ?>
-                <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
-
-                <form id="contact-form" method="post" action="index.php">
-                    <fieldset>
-                        <p>
-                            <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
-                            <span></span>
-                            <label for="resqFullname"></label>
-                        </p>
-                        <p>
-                            <input type="email" placeholder="Email" name="email" id="resqEmail" required>
-                            <span></span>
-                            <label for="resqEmail"></label>
-                        </p>
-                        <p>
-                            <input type="number" placeholder="Phone number (optional)" name="phone" id="resqPhone">
-                            <span></span>
-                            <label for="resqPhone"></label>
-                        </p>
-                        <p id="textarea">
-                            <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
-                            <span></span>
-                            <label for="resqMessage"></label>
-                        </p>
-                        <p>
-                            <div class="g-recaptcha" data-sitekey="6LfJ1yEUAAAAAL2ZlymSLabuqU45SgoelLH6_w8-" data-callback="correctCaptcha"></div>
-                            <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
-                        </p>
-                        <p>
-                            <button type="submit" id="btn-submit" class="btn-animate">Send</button>
-                        </p>
-                    </fieldset>
-                </form>
-            <?php
-              }
-            ?>
-        </section>
-
-
         <div id="footer-outer">
             <footer>
                 <div id="footer-info" class="col">
@@ -326,7 +259,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20190417"></script>
+        <script src="assets/js/compiled.min.js?20190606"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjk6nT2G48ymz2arA9YSIt-iGOKkUMfk&callback=initMap"></script>
         <div id="fb-root"></div>
