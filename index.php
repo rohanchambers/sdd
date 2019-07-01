@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20190606">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20190702">
         
         
  
@@ -71,7 +71,6 @@
                                 <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
                                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="Slam Dunk Digital is a London digital collective specialising in web design and development." data-via="slamdunkdigital">Tweet</a></li>
                                 <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
-                                <li><div class="g-plusone" data-annotation="none"></div></li>
                             </ul>
                         </li>
                     </ul>
@@ -259,7 +258,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20190606"></script>
+        <script src="assets/js/compiled.min.js?20190702"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>

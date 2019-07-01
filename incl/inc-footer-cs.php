@@ -5,10 +5,7 @@
                     Dunk<br>
                     Digital</p>
                     <p><a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
-                    <p>CTB Studios,<br>
-                    Angel, Islington High Street<br>
-                    London<br>
-                    N1 0YL, UK</p>
+                    <p>Based in London, UK</p>
                 </div>
 
                 <div id="copyright" class="col">
@@ -55,14 +52,13 @@
                     <li class="red"><a href="/#work"><span class="red">O</span>ur work</a></li>
                     <li class="green"><a href="/#clients"><span class="green">C</span>lients</a></li>
                     <li class="blue"><a href="/#contact"><span class="blue">C</span>ontact</a></li>
-                    <li class="overlay-share show-hide">
+<!--                     <li class="overlay-share show-hide">
                         <ul>
                             <li><div class="fb-share-button" data-href="http://slamdunkdigital.com/" data-layout="button"></div></li>
                             <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://slamdunkdigital.com/" data-text="We stand for FLAIR / MOTION / CREATIVITY / &amp; STYLE / 10 OUT OF 10 / Every time!" data-via="slamdunkdigital">Tweet</a></li>
                             <li><script type="IN/Share" data-url="http://slamdunkdigital.com/"></script></li>
-                            <li><div class="g-plusone" data-annotation="none"></div></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>

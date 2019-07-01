@@ -8,8 +8,8 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Infohealth, Live Well</title>
-        <meta name="title" content="Slam Dunk Digital | Infohealth, Live Well">
+        <title>Slam Dunk Digital - Ignite That Spark</title>
+        <meta name="title" content="Slam Dunk Digital | Ignite That Spark">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -49,20 +49,20 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-infohealth">
+        <div class="cs-its">
 
             <section id="case-study-nav">
-                <div class="col"><a href="../ignite-that-spark/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../off-the-fence/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../infohealth/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">
                 <div class="row top-content">
                     <div class="col">
-                        <h1>Infohealth, Live Well</h1>
-                        <p>Operating for over a decade, our business divisions span across the pharmaceutical supply chain from Product Licensing, Commercialisation, Distribution through to Multi-Channel Retail.</p>
-                        <p>Our customer’s health and well-being remain our number one priority at Infohealth Ltd. Which is why we are One of most trusted pharmaceuticals distributers in the United Kingdom. Integrity, Quality, Teamwork, Passion and Care are embedded deep into our company foundations.</p>
+                        <h1>Ignite That Spark</h1>
+                        <p>Ignite That Spark inspires you to develop your entrepreneurial mindset, live up to your full potential and contribute to make the world a better place. The Ultimate Freedom! To be an entrepreneur is to break free, to live your passion, to be your own boss.</p>
+                        <p>Michel Jordi, serial entrepreneur, is the founder and chairman of a new movement entitled "IGNITE THAT SPARK". To break free, do what we love, and make the world a better place should be our ultimate goal. His daughter Kim is the co-founder and accompanies him to ignite that spark around the world.</p>
                     </div>
                 </div>
 
@@ -71,22 +71,24 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span><a href="http://www.infohealth.co.uk" target="_blank">Infohealth</a></span></h2>
-                            <h2>Project Link: <span><a href="http://www.infohealth.co.uk/" target="_blank">www.infohealth.co.uk</a></span></h2>
+                            <h2>Client: <span>Ignite That Spark</span></h2>
+                            <h2>Project Link: <span><a href="https://ignitethatspark.com" target="_blank">ignitethatspark.com</a></span></h2>
                             <h2>Reach:</h2>
-                            <p>We are expecting to target all the exsiting customers but more importantly gaining more their trust in using the site and it's online shops and payment process. The overall look and feel has been tranposed to their social media pages to keep inline with the rebrand.</p>
+                            <p>Ignite That Spark has a wide demographic of users which is why a lot time was spent in the UX phase to make sure the user journey was straight foward. In the near futue Michel Jordi will be speaking at some of the top univeristy's in Switzerland of which some have pre-orderd his book to be introduced in their curriculums, expanding his audience and reach.</p>
                             <h2>Technologies:</h2>
-                            <p>HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive.</p>
+                            <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Parallax integration, Video editing, Motion graphic animations, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and eCommerce integration.</p>
                         </article>
                     </div>
                 </div>
 
                 <div class="row middle-content middle-content-2">
                     <div class="col content">
-                        <h2>Brief:</h2>
-                        <p>The brief was simple, make the site more user friendly and seperate the divisons of Infohealth with a unison layout and keep them in line with the branding colors across all the sites. They wanted to drive more of their customers and patients to using their online shops and registering their details and giving them the ablility to create and amend prescriptions and recurrences over the months/weeks.</p>
+                        <article>
+                            <h2>Brief:</h2>
+                            <p>The brief from the client was that they wanted a premium looking site that completely stood out from their competition. There were going to be many parts to the business but putting his new book, Ignite That Spark in prominence was essential which complemented very well the eCommerce side to this build. Each section of the business had to stand alone as if it were it's own page but at the same time keeping in line with the overall look and feel of the branding. It was essential the site delivered the content as if it were a story unfolding as the user scrolled through each section slowly learning about the man behind the brand.</p>
 
-                        <p>The design for each of the divisions were minimilstic yet slick, using two variation colors from their respective logo brand colors to differentiate them apart. The imagery and video were sourced from Getty images to add that touch of movement for the headers and high quality finish for the content. The design had to be obviously unique to set them apart from all the other Pharmaceutical companies out there.</p>
+                            <p>As this was a lengthy one pager site with rich graphics and parallax elements and transitions, load time was of particuliar concern especially for mobile. A lot of testing was carried out to maximise the performance and speed of the site as to not make the user wait too long during the preloading.</p>
+                        </article>
                     </div>
                     <div class="col img"></div>
                 </div>
@@ -97,14 +99,14 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Deliverables</h2>
-                            <p>A full rebranding for the Infohealth brand to set them apart from all the other Pharmaceutical companies. We are already seeing a much higher site view count the moment it went live. The site is fully mobile responsive and has been fully optimised to perform on all devices.</p>
+                            <p>We delivered a premium looking and functioning site that is not just an average boring content heavy site that you see around a lot these days. More importantly it didn't look like anohter wordpress template. Everything from the design to the build was original and built from the ground up. The brand and company will most likely grow over the next 6 months necessitating new sections and maintenance.</p>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
                                 <li>UX / Wireframing &amp; A/B testing</li>
                                 <li>Site Design &amp; development</li>
                                 <li>Deployment to servers</li>
-                                <li>Social media branding</li>
+                                <li>Social media setup and integration</li>
                             </ul>
                         </article>
                     </div>
@@ -116,10 +118,10 @@ $PRODUCTION = true;
                     </div>
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/carousel/manufacturing.jpg" alt="Infohealth Manufacturing" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/distribution.jpg" alt="Infohealth Distribution"  /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/retail.jpg" alt="Infohealth Retail" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/mailorder.jpg" alt="Infohealth Mailorder" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/home.jpg" alt="Infohealth Manufacturing" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/freedom.jpg" alt="Infohealth Distribution"  /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/timeline.jpg" alt="Infohealth Retail" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/bio.jpg" alt="Infohealth Mailorder" /></div>
                         </div>
                     </div>
                 </div>

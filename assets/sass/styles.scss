@@ -173,7 +173,7 @@
         	position: relative;
         	float: left;
         	list-style-type: none;
-            margin: 0 10px 0 0;
+            margin: 0 0 0 10px;
 
 			.share-text {
 				position: absolute;
@@ -202,18 +202,23 @@
         top: 38px;
         right: -3px;
         height: auto;
-        width: 290px;
+        width: 215px;
         padding: 0;
 
         li {
             display: block;
             width: auto;
+            float: right;
+        }
+
+        li:nth-child(2n) {
+        	margin-top: 3px;
         }
     }
 
 	#slogan {
 		position: absolute;
-		top: 55%;
+		top: 50%;
 		left: 50%;
 		width: 55%;
 		transform: translate(-50%, -55%);
@@ -1117,7 +1122,7 @@ footer {
 	#copyright-info {
 		position: relative;
 		display: table-cell;
-		height: 198px;
+		height: 140px;
 		vertical-align: bottom;
 		padding-right: 20px;
 

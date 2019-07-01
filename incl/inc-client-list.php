@@ -1,4 +1,9 @@
                 <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/its.png" alt="Ignite That Spark">
+                    <img class="top" src="assets/img/clients/its.png" alt="Ignite That Spark">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/infohealth.jpg" alt="Infohealth">
                     <img class="top" src="assets/img/clients/infohealth.jpg" alt="Infohealth">
                     <img src="assets/img/clients/transparent.png" alt="">
@@ -28,12 +33,11 @@
                     <img class="top" src="assets/img/clients/redbull.png" alt="Redbull">
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
-                <div class="client">
+<!--                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/jaguar.png" alt="heinz">
                     <img class="top" src="assets/img/clients/jaguar.png" alt="Jaguar">
                     <img src="assets/img/clients/transparent.png" alt="">
-                </div>
-
+                </div> -->
                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/heinz.png" alt="heinz">
                     <img class="top" src="assets/img/clients/heinz.png" alt="heinz">

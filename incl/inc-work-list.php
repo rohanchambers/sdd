@@ -1,4 +1,12 @@
                 <div class="view view-first find-out-more"> 
+                    <img src="assets/img/work/ignite_that_spark.jpg" alt="Ignite That Spark" />
+                    <div class="mask">
+                        <h2>Ignite That Spark</h2>
+                        <p><span class="case-study">Case study</span> <span class="red">View</span> More</p>
+                    </div>
+                    <a href="case-study/ignite-that-spark/"></a>
+                </div>
+                <div class="view view-first find-out-more"> 
                     <img src="assets/img/work/infohealth.jpg" alt="Infohealth, Live Well" />
                     <div class="mask">
                         <h2>Infohealth, Live Well</h2>

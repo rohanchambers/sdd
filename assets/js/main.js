@@ -265,7 +265,7 @@ function initMap() {
           '<h1 id="firstHeading" class="firstHeading">Welcome to Slam Dunk Digital</h1>'+
           '<div id="bodyContent">'+
           '<p>Slam Dunk Digital is a creative and digital collective that specialises in user friendly web design and development...  ' +
-          '<p>CTB Studios,<br> Angel High Street<br> London,<br> N1 0YL, UK</p>'+
+          '<p>London, UK</p>'+
           '<p>Website: <a href="http://slamDunkDigital.com/" target="_blank">'+
           'http://www.slamDunkDigital.com</a> <br>'+
           'Email: <a href="mailto:info@slamDunkDigital.com">'+
