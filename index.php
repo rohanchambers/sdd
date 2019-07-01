@@ -175,10 +175,7 @@
         <section id="contact-info">
             <div id="offices">
                 <h2>Our offices</h2>
-                <p>CMB Studios,<br>
-                Angel, Upper High Street<br>
-                London<br>
-                N1 0YL, UK</p>
+                <p>London, UK</p>
                 <!-- <p><a href="tel:+4407917044052"><i class="fa fa-phone fa-lg"></i>+44 (0)79 170 44 052</a></p> -->
             </div>
 
@@ -210,13 +207,8 @@
                     <p id="footer-logo">Slam<br>
                     Dunk<br>
                     Digital</p>
-
                     <p><a href="mailto:info@slamdunkdigital.com">info@slamdunkdigital.com</a></p>
-
-                    <p>CTB Studios,<br>
-                    Angel, Islington High Street<br>
-                    London<br>
-                    N1 0YL, UK</p>
+                    <p>Based in London, UK</p>
                 </div>
 
                 <div id="copyright" class="col">
