@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20190702">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20190707">
         
         
  
@@ -61,8 +61,8 @@
         <div id="bg-home">
             <section id="section-home" class="home eavesdrop">
                 <header id="site-header">
-                    <h1>Slam Dunk Digital<img src="assets/img/social/social_share.jpg" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
-                    <p>Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.</p>
+                    <h1><span>Slam Dunk Digital</span><img src="assets/img/global/sdd_logo.png" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
+                    <p>London, UK based <br />Creative &amp; Digital agency.</p>
                 </header>
                 <nav id="social-links" class="nav-global">
                     <ul>
@@ -250,7 +250,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20190702"></script>
+        <script src="assets/js/compiled.min.js?20190707"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>

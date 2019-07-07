@@ -284,7 +284,6 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 $tablet-600: new-breakpoint(max-width 600px);
 
 @include media($tablet-600) {
-	#section-home,
 	.overlay,
 	#site-header-outer #site-header {
 		h1 {

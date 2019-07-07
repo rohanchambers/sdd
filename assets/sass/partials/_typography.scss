@@ -70,14 +70,21 @@ header {
 }
 
 #site-header {
+	position: relative;
+	z-index: 10;
+	
 	h1 {
 		float: left;
 		width: auto;
-		padding-top: 5px;
+		padding-top: 10px;
 		font-size: rem(30);
 		z-index: 1;
 		
 		img {
+			width: 50%;
+		}
+
+		span {
 			position: absolute;
 			top: -9999px;
 			left: -9999px;
@@ -90,7 +97,8 @@ header {
 	}
 
 	p {
-		@include hide-text;
+		font-size: 0.8rem;
+		//@include hide-text;
 	}
 }
 

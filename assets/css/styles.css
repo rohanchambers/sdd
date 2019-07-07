@@ -73,23 +73,26 @@ header p {
   width: 70%;
   clear: both; }
 
-#site-header h1 {
-  float: left;
-  width: auto;
-  padding-top: 5px;
-  font-size: 1.875rem;
-  z-index: 1; }
-  #site-header h1 img {
-    position: absolute;
-    top: -9999px;
-    left: -9999px; }
-#site-header h1:before,
-#site-header h1:after {
-  display: none; }
-#site-header p {
-  overflow: hidden;
-  text-indent: 101%;
-  white-space: nowrap; }
+#site-header {
+  position: relative;
+  z-index: 10; }
+  #site-header h1 {
+    float: left;
+    width: auto;
+    padding-top: 10px;
+    font-size: 1.875rem;
+    z-index: 1; }
+    #site-header h1 img {
+      width: 50%; }
+    #site-header h1 span {
+      position: absolute;
+      top: -9999px;
+      left: -9999px; }
+  #site-header h1:before,
+  #site-header h1:after {
+    display: none; }
+  #site-header p {
+    font-size: 0.8rem; }
 
 #section-what-we-do h1, #section-what-we-do p,
 #case-study h1,
@@ -5543,7 +5546,6 @@ body.terms {
     height: auto;
     padding: 25px 4%; } }
 @media screen and (max-width: 600px) {
-  #section-home h1,
   .overlay h1,
   #site-header-outer #site-header h1 {
     width: 150px;
@@ -5551,7 +5553,6 @@ body.terms {
     font-size: 1.5625rem;
     padding-left: 0;
     padding: 5px; }
-    #section-home h1 a span,
     .overlay h1 a span,
     #site-header-outer #site-header h1 a span {
       width: auto;
