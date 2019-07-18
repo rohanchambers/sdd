@@ -59,6 +59,7 @@
                     <div class="sk-cube sk-cube8"></div>
                     <div class="sk-cube sk-cube9"></div>
                 </div>
+                <p>Site loading, please wait...</p>
             </div>
         </div>
 
@@ -67,7 +68,7 @@
             <section id="section-home" class="home eavesdrop">
                 <header id="site-header">
                     <h1><span>Slam Dunk Digital</span><img src="assets/img/global/sdd_logo.png" alt="Slam Dunk Digital" title="Slam Dunk Digital"></h1>
-                    <p>London, UK based <br />Creative &amp; Digital agency.</p>
+                    <p>London, UK based <br />Creative &amp; Digital Collective</p>
                 </header>
                 <nav id="social-links" class="nav-global">
                     <ul>

@@ -210,6 +210,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	}
 
 	#section-clients {
+		background-position: center bottom;
 		.row {
 			.client {
 				@include span-columns(4);
@@ -218,7 +219,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 
 		.scroll-down a {
-			background: url(../img/global/iconArrowDown.png);
+			background: url(../img/global/iconArrowDown.png) no-repeat center center;
 		}
 	}
 
@@ -471,6 +472,14 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 	#quick-message h1 {
 		font-size: 1.7rem;
+	}
+
+	#section-home {
+		#slogan {
+			 #intro-parallax.active {
+					top: -100px;
+			}			
+		}
 	}
 }
 

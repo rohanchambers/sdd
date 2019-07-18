@@ -534,7 +534,8 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #FFF; }
+  background-color: #FFF;
+  display: block !important; }
   .overlay i {
     position: relative;
     margin-right: 15px;
@@ -588,14 +589,14 @@ footer {
   text-align: center;
   position: relative;
   top: 50%;
-  height: 60%;
+  height: 47%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .overlay ul {
   position: relative;
   display: inline-block;
-  height: 100%;
+  height: 125%;
   padding: 0;
   margin: 0 auto;
   list-style: none;
@@ -3248,6 +3249,9 @@ body {
   /* centers the loading animation vertically one the screen */
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */ }
+  #status p {
+    color: #FFF;
+    text-align: center; }
 
 .sk-cube-grid {
   width: 75px;
@@ -4234,9 +4238,9 @@ Transition Layer
   #section-clients .scroll-down a {
     margin: 50px auto 0 auto;
     display: block;
-    width: 25px;
+    width: 100%;
     height: 25px;
-    background: url(../img/global/iconArrowDown.png);
+    background: url(../img/global/iconArrowDown.png) no-repeat center center;
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
@@ -5477,19 +5481,21 @@ body.terms {
   #section-work .view.find-out-more p {
     font-size: 1.625rem; }
 
-  #section-clients .row .client {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 33.33333%; }
-    #section-clients .row .client:last-child {
-      margin-right: 0; }
-    #section-clients .row .client:nth-child(4n) {
-      margin-right: 0%; }
-    #section-clients .row .client:nth-child(4n+1) {
-      clear: none; }
-  #section-clients .scroll-down a {
-    background: url(../img/global/iconArrowDown.png); }
+  #section-clients {
+    background-position: center bottom; }
+    #section-clients .row .client {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 33.33333%; }
+      #section-clients .row .client:last-child {
+        margin-right: 0; }
+      #section-clients .row .client:nth-child(4n) {
+        margin-right: 0%; }
+      #section-clients .row .client:nth-child(4n+1) {
+        clear: none; }
+    #section-clients .scroll-down a {
+      background: url(../img/global/iconArrowDown.png) no-repeat center center; }
 
   #section-contact p {
     width: 100%;
@@ -5687,7 +5693,10 @@ body.terms {
     display: none; }
 
   #quick-message h1 {
-    font-size: 1.7rem; } }
+    font-size: 1.7rem; }
+
+  #section-home #slogan #intro-parallax.active {
+    top: -100px; } }
 @media screen and (max-height: 414px) {
   #section-home #slogan {
     width: 40%; }
