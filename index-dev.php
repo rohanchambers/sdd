@@ -42,7 +42,7 @@
         <meta name="twitter:domain"         content="slamdunkdigital.com">
 
         <!-- Google recaptcha ver.2 -->
-        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body class="page-home">
         <!-- Preloader -->
@@ -236,7 +236,7 @@
                 ?>
                 <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
 
-                <form id="contact-form" method="post" action="index.php">
+                <form id="contact-form" method="post" action="index-dev.php">
                     <fieldset>
                         <p>
                             <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
@@ -271,7 +271,7 @@
               }
             ?>
         </section>
-        
+
         <div id="footer-outer">
             <footer>
                 <div id="footer-info" class="col">
