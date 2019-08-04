@@ -231,7 +231,7 @@
                 ?>
                 <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
 
-                <form id="contact-form" method="post" action="index.php">
+                <form id="contact-form" method="post" action="index.php#contact-form">
                     <fieldset>
                         <p>
                             <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
