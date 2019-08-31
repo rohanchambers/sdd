@@ -197,7 +197,6 @@
             <div id="follow-us">
                 <h2>Follow us on</h2>
                 <ul>
-                    <li>Coming soon!</li>
                     <li class="social">
                         <i class="fa fa-facebook fa-3x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
                         <i class="fa fa-twitter fa-3x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
@@ -207,7 +206,7 @@
             </div>
         </section><!-- End of contact info -->
 
-        <section id="quick-message">
+<!--         <section id="quick-message">
             <header>
                 <h1>Quick message</h1>
             </header>
@@ -270,7 +269,7 @@
             <?php
               }
             ?>
-        </section>
+        </section> -->
 
         <div id="footer-outer">
             <footer>

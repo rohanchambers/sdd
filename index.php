@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20190804">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20190831">
         
         
  
@@ -192,7 +192,6 @@
             <div id="follow-us">
                 <h2>Follow us on</h2>
                 <ul>
-                    <li>Coming soon!</li>
                     <li class="social">
                         <i class="fa fa-facebook fa-3x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
                         <i class="fa fa-twitter fa-3x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
@@ -202,7 +201,7 @@
             </div>
         </section><!-- End of contact info -->
 
-        <section id="quick-message">
+<!--         <section id="quick-message">
             <header>
                 <h1>Quick message</h1>
             </header>
@@ -265,7 +264,7 @@
             <?php
               }
             ?>
-        </section>
+        </section> -->
 
         <div id="footer-outer">
             <footer>
@@ -316,7 +315,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20190804"></script>
+        <script src="assets/js/compiled.min.js?20190831"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>

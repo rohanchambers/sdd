@@ -1035,9 +1035,9 @@ $(function() {
     });
 
     // Prevent default links
-    $('#follow-us a').click( function(e){
-        e.preventDefault();
-    });
+    // $('#follow-us a').click( function(e){
+    //     e.preventDefault();
+    // });
 
     // Validate form with Google recpatcha validation
     $("#contact-form").validate({
