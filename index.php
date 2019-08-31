@@ -19,7 +19,7 @@
         
  
         <!-- Open graph tags -->
-        <meta property="og:image"           content="http://slamdunkdigital.com/assets/img/social/social_share.png">
+        <meta property="og:image"           content="http://slamdunkdigital.com/assets/img/social/share.png">
         <meta property="og:title"           content="Welcome to Slam Dunk Digital">
         <meta property="og:description"     content="Slam Dunk Digital is a creative and digital collective that specialises in user friendly web design and development based in London. We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists and creative developers.">
         <meta property="og:url"             content="http://slamdunkdigital.com/">
