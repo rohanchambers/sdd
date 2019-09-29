@@ -1,6 +1,7 @@
 // NEAT GRID LAYOUT FOR SECTIONS (desktop version only)
 #section-home,
 .overlay h1,
+#section-what-we-do,
 #section-work header,
 #section-clients header,
 #section-clients,
@@ -21,11 +22,19 @@ footer {
 	@include clearfix();
 }
 
-#what-we-do-outer {
+#who-we-are-outer {
 	position: relative;
 }
 
-#section-what-we-do,
+#section-what-we-do {
+	.col {
+		@include span-columns(4);
+		@include pad(15px);
+		@include omega();
+	}
+}
+
+#section-who-we-are,
 #case-study {
 	.col {
 		@include span-columns(6);

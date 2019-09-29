@@ -87,11 +87,11 @@ $(function() {
     if (isMobile()) {
         $('.show-hide').click( function(e){
             e.preventDefault();
-            $('#section-what-we-do').toggleClass('switch-text');
+            $('#section-who-we-are').toggleClass('switch-text');
         });
     } else {
         $('.show-hide').hover( function(){
-            $('#section-what-we-do').toggleClass('switch-text');
+            $('#section-who-we-are').toggleClass('switch-text');
         });
     }
 

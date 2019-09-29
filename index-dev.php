@@ -102,11 +102,84 @@
         </div>
 
 
-        <div id="what-we-do-outer">
-            <section id="section-what-we-do" class="what-we-do eavesdrop">
+        <section id="section-what-we-do-outer" class="what-we-do eavesdrop">
+            <div id="section-what-we-do">
+                <header>
+                    <h1>What we do</h1>
+                    <h2>We Offer Custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
+                    <span class="hl-wrapper">Digital<span class="hl green"></span></span> Solutions</h2>
+                    <p class="what-we-do-list">Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Motion Graphic videos | Web Hosting and Domain Registration | Mobile App Development | Social Media Services </p>
+                </header>
+
+                <h2 class="category">Our Specialties</h2>
+                <div class="col">
+                    <h2>Web Design</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+                <div class="col">
+                    <h2>Graphic Design</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+                <div class="col">
+                    <h2>UX / UI Design</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>                
+
+                <div class="col">
+                    <h2>Web development</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>   
+                <div class="col">
+                    <h2>Web hosting &amp; Domain Registration</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+                <div class="col">
+                    <h2>SEO / Analytics Setup</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+
+                <div class="col">
+                    <h2>Social Media Services</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+                <div class="col">
+                    <h2>Motion Graphic Videos</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>
+                <div class="col">
+                    <h2>Mobile App. development</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                </div>   
+                            
+                <h2 class="category">Our Packages</h2>     
+                <div class="col">
+                    <h2>Basic</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p><strong>£1,999</strong></p>
+                </div>
+                <div class="col">
+                    <h2>Medium</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p><strong>£4,999</strong></p>
+                </div>
+                <div class="col">
+                    <h2>Advanced</h2>
+                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p><strong>£9,999+</strong></p>
+                </div>  
+                <footer>
+                    <p>To find out in more detail what we can specifically do for you, please get in touch with us and we can talk further.</p>
+                    <p class="scroll-down"><a href="#who-we-are-outer">Scroll down</a></p>
+                </footer>
+            </div>
+        </section>
+
+
+        <div id="who-we-are-outer">
+            <section id="section-who-we-are" class="who-we-are eavesdrop">
                 <div class="col col-skew">
                     <header>
-                        <h1>What we do
+                        <h1>Who we are
                             <i class="fa fa-question-circle show-hide" aria-hidden="true"></i>
                         </h1>
                     </header>

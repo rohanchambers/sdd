@@ -124,7 +124,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 	header h1,
 	.overlay h1, 
 	header .intro,
-	#section-what-we-do .intro, 
+	#section-who-we-are .intro, 
 	#contact-info h2, 
 	footer #footer-logo, 
 	#section-work .row .view .mask p span {
@@ -144,7 +144,7 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		text-align: left;
 	}
 
-	#section-what-we-do header {
+	#section-who-we-are header {
 		padding: 0;
 	}
 
@@ -161,11 +161,11 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
-	#what-we-do-outer {
+	#who-we-are-outer {
 		height: auto;
 	}
 
-	#section-what-we-do {
+	#section-who-we-are {
 		height: auto;
 		background-color: $yellow;
 		
@@ -462,7 +462,7 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
-	#section-what-we-do h1 {
+	#section-who-we-are h1 {
 		font-size: rem(34);
 	}
 

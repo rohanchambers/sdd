@@ -90,7 +90,8 @@
 	}
 
 // Section Scroll Down
-#what-we-do-outer,
+#section-what-we-do,
+#who-we-are-outer,
 #section-work,
 #section-clients {
 	.scroll-down {
@@ -336,11 +337,62 @@
 
 
 // WHAT WE DO SECTION
-#what-we-do-outer {
+#section-what-we-do-outer {
+	overflow: hidden;
+	position: relative;
+	min-height: 1000px;
+	background: #000 url(../img/what-we-do/bg_dark_laptop.jpg) no-repeat center 25px;
+}	
+
+#section-what-we-do {
+	header {
+		margin-top: 425px;
+	}
+
+	.col {
+		color: white;
+		
+			h2 {
+				font-size: rem(16);
+				color: $blue;
+				text-align: center;
+			}
+
+			p {
+				text-align: center;
+			}
+			
+			strong {
+				font-size: rem(30);
+				background: $blue;
+				padding: 5px;
+			}
+	}	
+
+	footer {
+		float: left;
+		
+		p {
+			text-align: center;
+			font-size: rem(30);
+			font-family: $font-thick;
+			width: 75%;
+			margin: 10% 12.5% 0 12.5%;
+			clear: both;
+		}
+	}	
+}
+
+
+
+
+
+// WHO WE ARE SECTION
+#who-we-are-outer {
 	@include particles;
 }
 
-#section-what-we-do {
+#section-who-we-are {
 	overflow: hidden;
 	position: relative;
 	height: 1000px;
@@ -481,7 +533,7 @@
 }
 
 // Switch bg color styling of this section
-#section-what-we-do.switch-text {
+#section-who-we-are.switch-text {
 	background-color: $black;
 	@include hover-links;
 
