@@ -95,8 +95,8 @@
                 </div><!-- End of Slogan -->
                 <div id="mouse-scroll">
                     <div class='icon-animate'></div>
-                    <i class="fa fa-angle-down fa-3x angle-down-1"></i>
-                    <i class="fa fa-angle-down fa-3x  angle-down-2"></i>
+                    <i class="fa fa-angle-down fa-2x angle-down-1"></i>
+                    <i class="fa fa-angle-down fa-2x  angle-down-2"></i>
                 </div>
             </section><!-- End of home -->
         </div>
@@ -106,74 +106,112 @@
             <div id="section-what-we-do">
                 <header>
                     <h1>What we do</h1>
-                    <h2>We Offer Custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
+                    <h2>is Offer Custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
                     <span class="hl-wrapper">Digital<span class="hl green"></span></span> Solutions</h2>
                     <p class="what-we-do-list">Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Motion Graphic videos | Web Hosting and Domain Registration | Mobile App Development | Social Media Services </p>
                 </header>
+                
+                <div class="hr"></div>
 
                 <h2 class="category">Our Specialties</h2>
                 <div class="col">
+                    <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
                     <h2>Web Design</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>Professional bespoke Web Design tailored to suit your online business needs. All designs are started from scratch.</p>
                 </div>
                 <div class="col">
+                    <i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i>
                     <h2>Graphic Design</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>Top quality graphic design work as well as full rebrands for your business, including logo design and much more...</p>
                 </div>
                 <div class="col">
+                    <i class="fa fa-picture-o fa-2x" aria-hidden="true"></i>
                     <h2>UX / UI Design</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>A detailed outline and blueprint of your app/website, using storyboarding and wireframes. "You don't build a house without a blueprint"</p>
                 </div>                
 
                 <div class="col">
+                    <i class="fa fa-keyboard-o fa-2x" aria-hidden="true"></i>
                     <h2>Web development</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>We do front &amp; back end tailored builds of all sizes, from small to large sites to satisfy your project requirements.</p>
                 </div>   
                 <div class="col">
+                    <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                     <h2>Web hosting &amp; Domain Registration</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>We help and guide you register your domain and hosting accounts so that you always remain in control of your websites.</p>
                 </div>
                 <div class="col">
+                    <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
                     <h2>SEO / Analytics Setup</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>All our websites are built with the best SEO practices for high Google ranking results and full analytical data on how your site performs.</p>
                 </div>
 
                 <div class="col">
+                    <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
                     <h2>Social Media Services</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>We help get your company set up with all your Social Media Profiles branded to your business and manage their growth until you are ready to take them over.</p>
                 </div>
                 <div class="col">
+                    <i class="fa fa-video-camera fa-2x" aria-hidden="true"></i>
                     <h2>Motion Graphic Videos</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>Motion graphics are a way to communicate with the viewer to add depth to your business. Together with music and effective copy, it can help describe your company's message.</p>
                 </div>
                 <div class="col">
+                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
                     <h2>Mobile App. development</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
+                    <p>The development of mobile applications can be a positive and helpful marketing tool for your business.</p>
                 </div>   
-                            
-                <h2 class="category">Our Packages</h2>     
+
+                <div class="hr"></div>
+                <h2 class="category">Our Packages</h2> 
+                <p class="category-outline">All projects are different and depending on the scope and functionality you require, the price can vary. The below is just to give you an idea of what the costs can be for the type of project you need.</p>   
+
                 <div class="col">
                     <h2>Basic</h2>
                     <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p><strong>£1,999</strong></p>
+                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£1,999</a></p>
                 </div>
                 <div class="col">
                     <h2>Medium</h2>
                     <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p><strong>£4,999</strong></p>
+                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£4,999</a></p>
                 </div>
                 <div class="col">
                     <h2>Advanced</h2>
                     <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p><strong>£9,999+</strong></p>
+                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£9,999</a></p>
                 </div>  
                 <footer>
+                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">Contact us, now!</a></p>
                     <p>To find out in more detail what we can specifically do for you, please get in touch with us and we can talk further.</p>
-                    <p class="scroll-down"><a href="#who-we-are-outer">Scroll down</a></p>
+                    <p class="scroll-down"><a href="#work">Scroll down</a></p>
                 </footer>
             </div>
         </section>
 
+        <section id="section-work" class="work eavesdrop animatedParent animateOnce" data-sequence='500'>
+            <header>
+                <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our collective have worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide original high-end quality work.</p>
+            </header>
+            <div class="row">
+                <!-- Work project list -->
+                <?php include("incl/inc-work-list.php"); ?>
+            </div>
+            <p class="scroll-down"><a href="#clients">Scroll down</a></p>
+        </section>
+
+        <section id="section-clients" class="clients eavesdrop animatedParent animateOnce" data-sequence='500'>
+            <header>
+                <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
+                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients, agencies and companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
+            </header>
+            <div class="row">
+                <!-- Client list -->
+                <?php include("incl/inc-client-list.php"); ?>
+            </div>
+            <p class="scroll-down"><a href="#who-we-are">Scroll down</a></p>
+        </section>
 
         <div id="who-we-are-outer">
             <section id="section-who-we-are" class="who-we-are eavesdrop">
@@ -213,33 +251,8 @@
 
                 <div id="particle-canvas"></div>
             </section><!-- End of home-->
-            <p class="scroll-down"><a href="#work">Scroll down</a></p>
-        </div>
-
-
-        <section id="section-work" class="work eavesdrop animatedParent animateOnce" data-sequence='500'>
-            <header>
-                <h1 class="animated fadeInRight" data-id='1' data-appear-top-offset='500'>Our work</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>Below is a selection of some of the work our collective have worked on. Every project we have undertaken has always been different but we have always adapted to the latest technologies and gone beyond just the trends of the time to provide original high-end quality work.</p>
-            </header>
-            <div class="row">
-                <!-- Work project list -->
-                <?php include("incl/inc-work-list.php"); ?>
-            </div>
-            <p class="scroll-down"><a href="#clients">Scroll down</a></p>
-        </section>
-
-        <section id="section-clients" class="clients eavesdrop animatedParent animateOnce" data-sequence='500'>
-            <header>
-                <h1 class="animated fadeInLeft" data-id='1' data-appear-top-offset='500'>Clients</h1>
-                <p class="animated fadeIn" data-id='2' data-appear-top-offset='500'>We have had the pleasure of working with and for some great clients, agencies and companies over the years. To name a few: Heineken, Redbull, Jaguar UK, Harrods, Playboy UK, EA Games, London 2012 Olympics, Wunderman, Collective London and We Are Social.</p>
-            </header>
-            <div class="row">
-                <!-- Client list -->
-                <?php include("incl/inc-client-list.php"); ?>
-            </div>
             <p class="scroll-down"><a href="#contact">Scroll down</a></p>
-        </section>
+        </div>
 
 
         <section id="section-contact" class="contact eavesdrop animatedParent animateOnce" data-sequence='500'>
@@ -271,9 +284,9 @@
                 <h2>Follow us on</h2>
                 <ul>
                     <li class="social">
-                        <i class="fa fa-facebook fa-3x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
-                        <i class="fa fa-twitter fa-3x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
-                        <i class="fa fa-instagram fa-3x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
+                        <i class="fa fa-facebook fa-2x"><a href="http://facebook.com/slamdunkdigital" target="_blank"></a></i>
+                        <i class="fa fa-twitter fa-2x"><a href="http://twitter.com/slamdunkdigital" target="_blank"></a></i>
+                        <i class="fa fa-instagram fa-2x"><a href="http://instagram.com/slamdunkdigital" target="_blank"></a></i>
                     </li>
                 </ul>
             </div>
@@ -318,7 +331,7 @@
                 </div>
             </div> <!-- .modal-content -->
             <a href="#0" class="modal-close">
-                <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-times fa-2x" aria-hidden="true"></i>
             </a>
         </div> <!-- .cd-modal -->
         <div class="cd-transition-layer">

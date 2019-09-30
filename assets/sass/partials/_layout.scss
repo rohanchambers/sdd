@@ -29,7 +29,7 @@ footer {
 #section-what-we-do {
 	.col {
 		@include span-columns(4);
-		@include pad(15px);
+		@include pad(10px);
 		@include omega();
 	}
 }

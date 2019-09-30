@@ -11,7 +11,7 @@ function fullscreen(){
 // Scroll to sections
 function scrollToSections() {
     // Scroll by end of section arrows and main nav
-    $('.overlay ul li, .scroll-down').find('a').click(function(e) {
+    $('.overlay ul li, .scroll-down, .contact-cta').find('a').click(function(e) {
 
         var section = $(this).attr('href').split('#')[1];
 
@@ -187,6 +187,10 @@ $(function() {
         $('#contact-form').submit();
     });
 
+    // Prevent default, what we do price buttons
+    $('.col .contact-cta a').click(function(e) {
+        e.stopImmediatePropagation();  
+    });    
 
     // FUNCTION CALLS
 

@@ -101,7 +101,7 @@ header p {
   padding-left: 25px; }
   #section-what-we-do-outer header h1:before {
     left: 0;
-    background: #0074c0; }
+    background: #0074B7; }
 #section-what-we-do-outer header h2 {
   font-size: 2.5rem;
   margin: 0;
@@ -123,7 +123,7 @@ header p {
         background: #0074c0; }
 #section-what-we-do-outer header .what-we-do-list {
   width: 100%;
-  margin-top: 60px;
+  margin: 60px 0 10px 0;
   font-size: 1.375rem;
   text-align: center;
   font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
@@ -135,6 +135,19 @@ header p {
   text-transform: uppercase;
   font-size: 1.875rem;
   padding-top: 20px;
+  clear: both; }
+#section-what-we-do-outer h2.category:nth-of-type(2n) {
+  margin-top: 75px; }
+#section-what-we-do-outer p.category-outline {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  padding: 0 15%; }
+#section-what-we-do-outer .hr {
+  width: 50px;
+  height: 3px;
+  margin: 0 auto;
+  background: #0074c0;
   clear: both; }
 
 #section-who-we-are h1, #section-who-we-are p,
@@ -278,6 +291,47 @@ header p {
 .overlay h1:before {
   display: none; }
 
+.what-we-do-cta {
+  -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
+  -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+  background: -moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+  background-color: #2dabf9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+  text-transform: uppercase;
+  margin-top: 25px; }
+
+.what-we-do-cta:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+  background: -moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+  background-color: #0688fa; }
+
+.what-we-do-cta:active {
+  position: relative;
+  top: 1px; }
+
 #section-home,
 .overlay h1,
 #section-what-we-do,
@@ -330,7 +384,7 @@ footer {
   display: block;
   margin-right: 0%;
   width: 33.33333%;
-  padding: 15px;
+  padding: 10px;
   margin-right: 0; }
   #section-what-we-do .col:last-child {
     margin-right: 0; }
@@ -4322,6 +4376,7 @@ Transition Layer
     -o-animation-play-state: paused;
     animation-play-state: paused; }
 
+#section-what-we-do .scroll-down a,
 #section-clients .scroll-down a {
   background: url(../img/global/iconArrowDownWhite.png) no-repeat center center; }
 
@@ -4498,24 +4553,32 @@ Transition Layer
 #section-what-we-do .col {
   color: white; }
   #section-what-we-do .col h2 {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: #0074c0;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   #section-what-we-do .col p {
     text-align: center; }
   #section-what-we-do .col strong {
     font-size: 1.875rem;
     background: #0074c0;
     padding: 5px; }
+  #section-what-we-do .col i {
+    display: block;
+    text-align: center; }
 #section-what-we-do footer {
-  float: left; }
+  float: left;
+  padding-bottom: 35px; }
   #section-what-we-do footer p {
     text-align: center;
     font-size: 1.875rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     width: 75%;
-    margin: 10% 12.5% 0 12.5%;
-    clear: both; }
+    margin: 5% 12.5% 0 12.5%;
+    clear: both;
+    line-height: 1.3em; }
+  #section-what-we-do footer .contact-cta {
+    margin: 0 auto; }
 
 #who-we-are-outer #particle-canvas {
   position: absolute !important;
