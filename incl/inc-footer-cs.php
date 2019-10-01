@@ -11,7 +11,7 @@
                 <div id="copyright" class="col">
                     <div id="copyright-info">
                         <p>Site <a href="#" class="cd-btn cd-modal-trigger">Credits</a> | <a href="/terms.php">Terms &amp; Conditions</a><br>
-                        Slam Dunk Digital Limited<br>
+                        Slam Dunk Digital Limited | Company no. 10282716<br>
                         <?php date_default_timezone_set('Europe/London'); ?>
                         &copy;<?= date("Y"); ?> Slam Dunk Digital. All rights reserved</p>
                         <span id="border-blue"></span>
