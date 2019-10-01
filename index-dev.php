@@ -189,7 +189,7 @@
                             <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
                             <li>Domain &amp; web hosting registration setup</li>
                             <li><strong>Worpress theme installation</strong></li>  
-                            <li>1-4 pages site</li>  
+                            <li>1-4 pages website</li>  
                             <li>Additional functionality plugins</li>
                             <li>Integration of your existing brand</li>
                             <li>Input all agreed content, images and data into the sites CMS</li>
@@ -390,7 +390,7 @@
                 ?>
                 <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
 
-                <form id="contact-form" method="post" action="index-dev.php">
+                <form id="contact-form" method="post" action="/index.php#contact">
                     <fieldset>
                         <p>
                             <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
