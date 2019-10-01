@@ -114,7 +114,7 @@
                 <div class="hr"></div>
 
                 <h2 class="category">Our Specialties</h2>
-                <p class="category-outline">Please get in touch if you would like to know more specifically about some of our specialties and how they can best work for you.</p>
+                <p class="category-outline">Please get in touch if you would like to know in more depth about some of our specialties and how they can best work for you.</p>
                 <div class="col">
                     <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
                     <h2>Web Design</h2>
