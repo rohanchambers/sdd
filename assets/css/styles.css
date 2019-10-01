@@ -4615,12 +4615,20 @@ Transition Layer
 #section-what-we-do .packages .col p {
   text-align: left;
   padding: 0 1%; }
+#section-what-we-do .packages .col .site-example {
+  padding: 2px 5px;
+  background: #009f5e;
+  color: #FFF; }
+  #section-what-we-do .packages .col .site-example:hover {
+    background: #FFF;
+    color: #000;
+    text-decoration: none; }
 #section-what-we-do footer {
   float: left;
   padding: 50px 0 35px 0; }
   #section-what-we-do footer p {
     text-align: center;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     width: 75%;
     margin: 3% 12.5% 0 12.5%;

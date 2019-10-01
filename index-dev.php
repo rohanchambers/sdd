@@ -150,7 +150,7 @@
                 <div class="col">
                     <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
                     <h2>Social Media Services</h2>
-                    <p>We help get your company set up with all your Social Media Profiles branded to your business and manage their growth until you are ready to take them over.</p>
+                    <p>We help get your company set up with all your Social Media Profiles (branded to your business) and manage their growth until you are ready to take them over.</p>
                 </div>
                 <div class="col">
                     <i class="fa fa-video-camera fa-2x" aria-hidden="true"></i>
@@ -179,7 +179,9 @@
                             <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
+
                         <p>Time of Delivery: <strong>3 days</strong></p>
+                        <p>Site Example: <a href="http://www.womenspololink.com/" target="_blank" class="site-example">www.WomensPoloLink.com</a></p>
                         <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£599</a></p>
                     </div>
                     <div class="col package-2">
@@ -196,14 +198,21 @@
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>10 days</strong></p>
+                        <p>Site Example: <a href="http://www.europesnewwild.com/" target="_blank" class="site-example">www.EuropesNewWild.com</a></p>
+                        
                         <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£1,599</a></p>
                     </div>
                     <div class="col package-3">
                         <h2>Professional</h2>
-                        <p>A full re-branding and original design and development website tailored to your online business. We work closely with you all the way through from our first meeting to the launch of your site. You can be involved as much as you want in the creative process as we always believe the client has invaluable ideas on what they want and expect.</p>
+                        <p>A full re-branding and original design and development website tailored to your online business. We work closely with you all the way through from our first meeting to the launch of your site. You can be involved as much as you want in the creative process as we always believe the client have invaluable ideas on what they want and expect.</p>
                         <ul>
                             <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
-                            <li><strong>Original, branding and web design</strong></li>
+                            <li>Domain &amp; web hosting registration setup</li>
+                            <li><strong>Original, branding and web design</strong>
+                                <ul>
+                                    <li>Professional look and feel of site</li>
+                                </ul>
+                            </li>
                             <li><strong>Bespoke Front end development</strong></li>
                             <li>Back end development and basic CMS integration, if required</li>
                             <li>Additional agreed functionality <br /> e.g. eCommerce, Blog</li>
@@ -211,7 +220,8 @@
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>8 weeks</strong></p>
-                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£4,599</a></p>
+                        <p>Site Example: <a href="https://www.infohealth.co.uk/manufacturing" target="_blank" class="site-example">www.infohealth.co.uk/manufacturing</a></p>
+                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£6,999</a></p>
                     </div>
                     <div class="col package-4">
                         <h2>Premium</h2>
@@ -244,12 +254,13 @@
                             <li>Site launch on an agreed day of choice</li>
                         </ul>                    
                         <p>Time of Delivery: <strong>12 weeks</strong></p>
+                        <p>Site Example: <a href="https://www.ignitethatspark.com/" target="_blank" class="site-example">www.IgniteThatSpark.com</a></p>
                         <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£9,999 +</a></p>
                     </div>
                 </div> 
                 <footer>
                     <p class="contact-cta"><a href="#contact" class="what-we-do-cta">Contact us, now!</a></p>
-                    <p>To find out in more detail what we can specifically do for you, please get in touch with us and we can talk further.</p>
+                    <p>To find out in more detail what we can specifically do for you, please get in touch with us for a free consultation. We look forward to helping you exceed your business goals with a first class product.</p>
                     <p class="scroll-down"><a href="#work">Scroll down</a></p>
                 </footer>
             </div>
@@ -390,7 +401,7 @@
                 ?>
                 <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
 
-                <form id="contact-form" method="post" action="/index.php#contact">
+                <form id="contact-form" method="post" action="/#contact">
                     <fieldset>
                         <p>
                             <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
