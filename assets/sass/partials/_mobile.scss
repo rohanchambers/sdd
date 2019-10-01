@@ -273,6 +273,12 @@ $desktop-1200: new-breakpoint(max-width 1200px);
 		}
 	}
 
+	#section-what-we-do {
+		.col {
+			@include span-columns(6);
+		}
+	}
+
 	// Paddding for col skew on case study page
 	#site-header-outer #site-header .col-skew,
 	#case-study-outer #case-study .col-skew	{
@@ -394,6 +400,12 @@ $tablet-600: new-breakpoint(max-width 600px);
 		}
 	}
 
+	#section-what-we-do {
+		.col {
+			@include span-columns(12);
+		}
+	}
+	
 	#section-work {
 		.row {
 			.view {

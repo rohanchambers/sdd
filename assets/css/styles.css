@@ -99,9 +99,12 @@ header p {
 #section-what-we-do-outer header h1 {
   font-size: 3rem;
   padding-left: 25px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer header h1 {
+      font-size: 2.5rem; } }
   #section-what-we-do-outer header h1:before {
     left: 0;
-    background: #0074B7; }
+    background: #0074c0; }
 #section-what-we-do-outer header h2 {
   font-size: 2.5rem;
   margin: 0;
@@ -110,7 +113,8 @@ header p {
   #section-what-we-do-outer header h2 .hl-wrapper {
     position: relative;
     display: inline-block;
-    z-index: 10; }
+    z-index: 10;
+    text-transform: uppercase; }
     #section-what-we-do-outer header h2 .hl-wrapper .hl {
       position: absolute;
       left: 0;
@@ -141,8 +145,10 @@ header p {
 #section-what-we-do-outer p.category-outline {
   text-align: center;
   color: #FFF;
-  font-weight: bold;
-  padding: 0 15%; }
+  padding: 0 25%; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer p.category-outline {
+      padding: 0 3%; } }
 #section-what-we-do-outer .hr {
   width: 50px;
   height: 3px;
@@ -330,7 +336,7 @@ header p {
 
 .what-we-do-cta:active {
   position: relative;
-  top: 1px; }
+  top: 0px; }
 
 #section-home,
 .overlay h1,
@@ -388,6 +394,21 @@ footer {
   margin-right: 0; }
   #section-what-we-do .col:last-child {
     margin-right: 0; }
+#section-what-we-do .packages .col {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%; }
+  #section-what-we-do .packages .col:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do .packages .col {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 100%; }
+      #section-what-we-do .packages .col:last-child {
+        margin-right: 0; } }
 
 #section-who-we-are .col,
 #case-study .col {
@@ -4347,14 +4368,18 @@ Transition Layer
   #who-we-are-outer .scroll-down a,
   #section-work .scroll-down a,
   #section-clients .scroll-down a {
-    margin: 50px auto 0 auto;
+    margin: 50px auto 25px auto;
     display: block;
     width: 100%;
     height: 25px;
+    padding-top: 40px;
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    line-height: 1.75em;
+    clear: both;
     background: url(../img/global/iconArrowDown.png) no-repeat center center;
-    overflow: hidden;
-    text-indent: 101%;
-    white-space: nowrap;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-border-radius: all 300ms ease;
@@ -4378,7 +4403,11 @@ Transition Layer
 
 #section-what-we-do .scroll-down a,
 #section-clients .scroll-down a {
-  background: url(../img/global/iconArrowDownWhite.png) no-repeat center center; }
+  background: url(../img/global/iconArrowDownWhite.png) no-repeat center center;
+  color: #FFF; }
+
+#section-clients .scroll-down a {
+  margin-top: 10px; }
 
 #bg-home {
   position: relative;
@@ -4547,9 +4576,15 @@ Transition Layer
   position: relative;
   min-height: 1000px;
   background: #000 url(../img/what-we-do/bg_dark_laptop.jpg) no-repeat center 25px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer {
+      background-size: 125%; } }
 
 #section-what-we-do header {
   margin-top: 425px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do header {
+      margin-top: 225px; } }
 #section-what-we-do .col {
   color: white; }
   #section-what-we-do .col h2 {
@@ -4560,23 +4595,41 @@ Transition Layer
   #section-what-we-do .col p {
     text-align: center; }
   #section-what-we-do .col strong {
-    font-size: 1.875rem;
     background: #0074c0;
     padding: 5px; }
   #section-what-we-do .col i {
     display: block;
     text-align: center; }
+  #section-what-we-do .col ul {
+    padding-left: 20px; }
+    #section-what-we-do .col ul ul {
+      margin-top: 5px; }
+  #section-what-we-do .col li {
+    margin-bottom: 10px; }
+  #section-what-we-do .col .what-we-do-cta {
+    cursor: default; }
+#section-what-we-do .packages .col h2 {
+  color: #FFF;
+  padding: 8px;
+  background: #0074c0; }
+#section-what-we-do .packages .col p {
+  text-align: left;
+  padding: 0 1%; }
 #section-what-we-do footer {
   float: left;
-  padding-bottom: 35px; }
+  padding: 50px 0 35px 0; }
   #section-what-we-do footer p {
     text-align: center;
     font-size: 1.875rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     width: 75%;
-    margin: 5% 12.5% 0 12.5%;
+    margin: 3% 12.5% 0 12.5%;
     clear: both;
     line-height: 1.3em; }
+    @media screen and (max-width: 479px) {
+      #section-what-we-do footer p {
+        width: 92%;
+        margin: 3%; } }
   #section-what-we-do footer .contact-cta {
     margin: 0 auto; }
 
@@ -5698,6 +5751,14 @@ body.terms {
     #page-packages .col-3:last-child {
       margin-right: 0; }
 
+  #section-what-we-do .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #section-what-we-do .col:last-child {
+      margin-right: 0; }
+
   #site-header-outer #site-header .col-skew,
   #case-study-outer #case-study .col-skew {
     height: auto;
@@ -5785,6 +5846,14 @@ body.terms {
   #section-home #slogan span,
   #section-home #slogan span#all-the-time {
     font-size: 1.875rem; }
+
+  #section-what-we-do .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #section-what-we-do .col:last-child {
+      margin-right: 0; }
 
   #section-work .row .view {
     float: left;

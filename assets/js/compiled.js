@@ -883,7 +883,7 @@ function fullscreen(){
 // Scroll to sections
 function scrollToSections() {
     // Scroll by end of section arrows and main nav
-    $('.overlay ul li, .scroll-down').find('a').click(function(e) {
+    $('.overlay ul li, .scroll-down, .contact-cta').find('a').click(function(e) {
 
         var section = $(this).attr('href').split('#')[1];
 
@@ -959,11 +959,11 @@ $(function() {
     if (isMobile()) {
         $('.show-hide').click( function(e){
             e.preventDefault();
-            $('#section-what-we-do').toggleClass('switch-text');
+            $('#section-who-we-are').toggleClass('switch-text');
         });
     } else {
         $('.show-hide').hover( function(){
-            $('#section-what-we-do').toggleClass('switch-text');
+            $('#section-who-we-are').toggleClass('switch-text');
         });
     }
 
@@ -1059,6 +1059,10 @@ $(function() {
         $('#contact-form').submit();
     });
 
+    // Prevent default, what we do price buttons
+    $('.col .contact-cta a').click(function(e) {
+        e.stopImmediatePropagation();  
+    });    
 
     // FUNCTION CALLS
 

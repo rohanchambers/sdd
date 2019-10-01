@@ -32,6 +32,14 @@ footer {
 		@include pad(10px);
 		@include omega();
 	}
+
+	.packages .col {
+		@include span-columns(6);
+		
+			@include media($mobile) {
+				@include span-columns(12);
+			}
+	}
 }
 
 #section-who-we-are,

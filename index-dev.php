@@ -81,7 +81,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div id="slogan" class="animatedParent animateOnce" data-sequence='1000'>
+                <div id="slogan" class="animatedParent animateOnce" data-sequence='750'>
                     <canvas id="emitter"></canvas>
                     <div id="intro-parallax">
                         <span class="animated fadeInDown" data-id='1'>We stand for</span>
@@ -104,25 +104,26 @@
 
         <section id="section-what-we-do-outer" class="what-we-do eavesdrop">
             <div id="section-what-we-do">
-                <header>
-                    <h1>What we do</h1>
-                    <h2>is Offer Custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
-                    <span class="hl-wrapper">Digital<span class="hl green"></span></span> Solutions</h2>
-                    <p class="what-we-do-list">Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Motion Graphic videos | Web Hosting and Domain Registration | Mobile App Development | Social Media Services </p>
+                <header class="animatedParent animateOnce" data-sequence='750'>
+                    <h1 class="animated fadeInUp" data-id='1'>What we do</h1>
+                    <h2 class="animated fadeInUp" data-id='2'>is offer custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
+                    <span class="hl-wrapper">Digital<span class="hl green"></span></span> solutions</h2>
+                    <p class="what-we-do-list animated fadeInUp" data-id='3'>Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Web Hosting and Domain Registration | SEO &amp; Web Analytics Setup | Social Media Services | Motion Graphic videos | Mobile App Development</p>
                 </header>
                 
                 <div class="hr"></div>
 
                 <h2 class="category">Our Specialties</h2>
+                <p class="category-outline">Please get in touch if you would like to know more specifically about some of our specialties and how they can best work for you.</p>
                 <div class="col">
                     <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
                     <h2>Web Design</h2>
-                    <p>Professional bespoke Web Design tailored to suit your online business needs. All designs are started from scratch.</p>
+                    <p>Professional custom Web Design tailored to suit your brand and online needs. All our designs are premium and started from scratch.</p>
                 </div>
                 <div class="col">
                     <i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i>
                     <h2>Graphic Design</h2>
-                    <p>Top quality graphic design work as well as full rebrands for your business, including logo design and much more...</p>
+                    <p>Top quality graphic design work as well as full rebrands for your business or product, including logo design and much more...</p>
                 </div>
                 <div class="col">
                     <i class="fa fa-picture-o fa-2x" aria-hidden="true"></i>
@@ -133,17 +134,17 @@
                 <div class="col">
                     <i class="fa fa-keyboard-o fa-2x" aria-hidden="true"></i>
                     <h2>Web development</h2>
-                    <p>We do front &amp; back end tailored builds of all sizes, from small to large sites to satisfy your project requirements.</p>
+                    <p>Front &amp; back end custom builds of all sizes, from small to large sites to satisfy your project requirements, including eCommerce solutions.</p>
                 </div>   
                 <div class="col">
                     <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                     <h2>Web hosting &amp; Domain Registration</h2>
-                    <p>We help and guide you register your domain and hosting accounts so that you always remain in control of your websites.</p>
+                    <p>We help and guide you to register your domain and hosting accounts so that you always remain in control of your websites.</p>
                 </div>
                 <div class="col">
                     <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
-                    <h2>SEO / Analytics Setup</h2>
-                    <p>All our websites are built with the best SEO practices for high Google ranking results and full analytical data on how your site performs.</p>
+                    <h2>SEO &amp; Web Analytics Setup</h2>
+                    <p>All our websites are built with the best SEO practices in mind for high Google ranking results. Full analytical data reports on how your site performs.</p>
                 </div>
 
                 <div class="col">
@@ -163,24 +164,88 @@
                 </div>   
 
                 <div class="hr"></div>
-                <h2 class="category">Our Packages</h2> 
-                <p class="category-outline">All projects are different and depending on the scope and functionality you require, the price can vary. The below is just to give you an idea of what the costs can be for the type of project you need.</p>   
-
-                <div class="col">
-                    <h2>Basic</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£1,999</a></p>
-                </div>
-                <div class="col">
-                    <h2>Medium</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£4,999</a></p>
-                </div>
-                <div class="col">
-                    <h2>Advanced</h2>
-                    <p>Professional Web Design and Development options to getting your Business online.</p>
-                    <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£9,999</a></p>
-                </div>  
+                <h2 class="category">Our Web Packages</h2> 
+                <p class="category-outline">All projects are different and depending on the scope and functionality you require, the price can vary. The packages below are just an outline to give you an idea of what the costs can be for the type of project you want.</p>
+                
+                <div class="packages">
+                    <div class="col package-1">
+                        <h2>One pager</h2>
+                        <p>Setup of a one pager site using your branding. This allows you to get an online presence at its minimum so that the public can at least reach you, while you are thinking about the getting real thing.</p>
+                        <ul>
+                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>Domain &amp; web hosting registration setup</li>
+                            <li><strong>One page design and development</strong></li>                        
+                            <li>Integration of your existing brand</li>
+                            <li>Input all agreed content, images and data into the sites CMS</li>
+                            <li>Site launch on an agreed day of choice</li>
+                        </ul>
+                        <p>Time of Delivery: <strong>3 days</strong></p>
+                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£599</a></p>
+                    </div>
+                    <div class="col package-2">
+                        <h2>Quick Starter</h2>
+                        <p>Full setup of your informational website using your branding and content. You provide all the assets and we get it up and running using the best Wordpress theme suited to your brand or the one of your choice.</p>
+                        <ul>
+                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>Domain &amp; web hosting registration setup</li>
+                            <li><strong>Worpress theme installation</strong></li>                        
+                            <li>Additional functionality plugins</li>
+                            <li>Integration of your existing brand</li>
+                            <li>Input all agreed content, images and data into the sites CMS</li>
+                            <li>Site launch on an agreed day of choice</li>
+                        </ul>
+                        <p>Time of Delivery: <strong>10 days</strong></p>
+                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£1,599</a></p>
+                    </div>
+                    <div class="col package-3">
+                        <h2>Professional</h2>
+                        <p>Full re-branding and original design and development website tailored to your online business. We work closely with you all the way through the process and you can be involved as much as you want in the creative process.</p>
+                        <ul>
+                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li><strong>Original, branding and web design</strong></li>
+                            <li><strong>Bespoke Front end development</strong></li>
+                            <li>Back end development and basic CMS integration if required</li>
+                            <li>Additional agreed functionality <br /> e.g. eCommerce, Blog</li>
+                            <li>Input all agreed content, images and data into the site</li>
+                            <li>Site launch on an agreed day of choice</li>
+                        </ul>
+                        <p>Time of Delivery: <strong>8 weeks</strong></p>
+                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£4,599</a></p>
+                    </div>
+                    <div class="col package-4">
+                        <h2>Premium</h2>
+                        <p>Our premium package is what you would expect to get from a high end digital agency such as the likes of Wunderman, AKQA to name a few but at a fraction of the cost. We go through the whole process with you...</p>
+                        <ul>
+                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>Domain &amp; web hosting registration setup</li>
+                            <li>UX, site outline with storyboards and wireframing</li>
+                            <li><strong>Original, branding and web design</strong>
+                                <ul>
+                                    <li>Extended time invested in design</li>
+                                    <li>Premium look and feel</li>
+                                </ul>
+                            </li>
+                            <li><strong>Bespoke Front end development</strong>
+                                <ul>
+                                    <li>Extended time invested in front end development</li>
+                                    <li>Advanced page transitions and element animations</li>
+                                    <li>Minor or full parallax implementation</li>
+                                </ul>
+                            </li>
+                            <li>Back end development
+                                <ul>
+                                    <li>Bespoke CMS integration if required</li>
+                                    <li>Various custom back end functionality integration</li>
+                                </ul>
+                            </li>
+                            <li>Additional agreed functionality<br /> e.g. API intergration, eCommerce, Blog</li>
+                            <li>Input all agreed content, images and data into the site</li>
+                            <li>Site launch on an agreed day of choice</li>
+                        </ul>                    
+                        <p>Time of Delivery: <strong>12 weeks</strong></p>
+                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£9,999 +</a></p>
+                    </div>
+                </div> 
                 <footer>
                     <p class="contact-cta"><a href="#contact" class="what-we-do-cta">Contact us, now!</a></p>
                     <p>To find out in more detail what we can specifically do for you, please get in touch with us and we can talk further.</p>
@@ -235,11 +300,13 @@
                         <ul>
                             <li><span>Full re-brand identities</span></li>
                             <li><span>Web design &amp; development</span></li>
-                            <li><span>Print design</span></li>
+                            <li><span>UX / UI Design</span></li> 
+                            <li><span>Graphic Design</span></li>
+                            <li><span>Web Hosting and Domain Registration</span></li>
+                            <li><span>SEO &amp; Web Analytics Setup</span></li>
                             <li><span>Social media marketing &amp; management</span></li>
-                            <li><span>Motion graphics (Promotional videos)</span></li>
-                            <li><span>Video montage &amp; editing</span></li>
-                            <li><span>3D modelling &amp; animation</span></li>
+                            <li><span>Motion graphics</span></li>
+                            <li><span>Mobile App Development</span></li>                    
                         </ul>
                         <p>To find out in more detail what we do and how we can help you, please get in touch with us in the contact section.</p>
                     </article>
@@ -291,6 +358,72 @@
                 </ul>
             </div>
         </section><!-- End of contact info -->
+
+
+       <section id="quick-message">
+            <header>
+                <h1>Quick message</h1>
+            </header>
+
+            <?php
+                //if "email" variable is filled out, send email
+                  if (isset($_REQUEST['email']))  {
+
+                  //Email information
+                  $admin_email = "info@slamdunkdigital.com";
+                  $email = $_REQUEST['email'];
+                  $subject = "Slam Dunk Digital Message: " . $_REQUEST['subject'];
+                  $comment = $_REQUEST['comment'].$phone;
+                  $phone = $_REQUEST['phone'];
+                  $comment_phone = $comment . "\n\n Phone: ".$phone;
+
+                  //send email
+                  mail($admin_email, "$subject", "Comment: \n" . $comment_phone, "From:" . $email);
+
+                  //Email response
+                  echo "<p>Thank you, your message has been sent successfully! We will be in touch with your very soon.</p>";
+                  }
+
+                  //if "email" variable is not filled out, display the form
+                  else  {
+                ?>
+                <p>To send us a quick meassage, <br>please fill in the form below and we'll get back to you shortly.</p>
+
+                <form id="contact-form" method="post" action="index-dev.php">
+                    <fieldset>
+                        <p>
+                            <input type="text" placeholder="Name" name="subject" id="resqFullname" required>
+                            <span></span>
+                            <label for="resqFullname"></label>
+                        </p>
+                        <p>
+                            <input type="email" placeholder="Email" name="email" id="resqEmail" required>
+                            <span></span>
+                            <label for="resqEmail"></label>
+                        </p>
+                        <p>
+                            <input type="number" placeholder="Phone number (optional)" name="phone" id="resqPhone">
+                            <span></span>
+                            <label for="resqPhone"></label>
+                        </p>
+                        <p id="textarea">
+                            <textarea placeholder="Your message" name="comment" id="resqMessage" required></textarea>
+                            <span></span>
+                            <label for="resqMessage"></label>
+                        </p>
+                        <p>
+                            <div class="g-recaptcha" data-sitekey="6LfJ1yEUAAAAAL2ZlymSLabuqU45SgoelLH6_w8-" data-callback="correctCaptcha"></div>
+                            <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
+                        </p>
+                        <p>
+                            <button type="submit" id="btn-submit" class="btn-animate">Send</button>
+                        </p>
+                    </fieldset>
+                </form>
+            <?php
+              }
+            ?>
+        </section>
 
         <div id="footer-outer">
             <footer>

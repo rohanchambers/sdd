@@ -523,14 +523,76 @@ header p {
   #site-header p {
     font-size: 0.8rem; }
 
-#section-what-we-do h1, #section-what-we-do p,
+#section-what-we-do-outer header h1, #section-what-we-do-outer header h2, #section-what-we-do-outer header p {
+  color: #FFF; }
+#section-what-we-do-outer header h1 {
+  font-size: 3rem;
+  padding-left: 25px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer header h1 {
+      font-size: 2.5rem; } }
+  #section-what-we-do-outer header h1:before {
+    left: 0;
+    background: #0074c0; }
+#section-what-we-do-outer header h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 1.2em;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif; }
+  #section-what-we-do-outer header h2 .hl-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    text-transform: uppercase; }
+    #section-what-we-do-outer header h2 .hl-wrapper .hl {
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      width: 100%;
+      height: 20px;
+      background: #0074c0;
+      z-index: -1; }
+      #section-what-we-do-outer header h2 .hl-wrapper .hl.green {
+        background: #0074c0; }
+#section-what-we-do-outer header .what-we-do-list {
+  width: 100%;
+  margin: 60px 0 10px 0;
+  font-size: 1.375rem;
+  text-align: center;
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+  font-weight: bold; }
+#section-what-we-do-outer h2.category {
+  font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  padding-top: 20px;
+  clear: both; }
+#section-what-we-do-outer h2.category:nth-of-type(2n) {
+  margin-top: 75px; }
+#section-what-we-do-outer p.category-outline {
+  text-align: center;
+  color: #FFF;
+  padding: 0 25%; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer p.category-outline {
+      padding: 0 3%; } }
+#section-what-we-do-outer .hr {
+  width: 50px;
+  height: 3px;
+  margin: 0 auto;
+  background: #0074c0;
+  clear: both; }
+
+#section-who-we-are h1, #section-who-we-are p,
 #case-study h1,
 #case-study p {
   width: 100%; }
-#section-what-we-do h1:before,
+#section-who-we-are h1:before,
 #case-study h1:before {
   display: none; }
-#section-what-we-do h1:after,
+#section-who-we-are h1:after,
 #case-study h1:after {
   left: 0;
   width: 222px; }
@@ -664,8 +726,50 @@ header p {
 .overlay h1:before {
   display: none; }
 
+.what-we-do-cta {
+  -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
+  -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+  background: -moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: -ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+  background-color: #2dabf9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+  text-transform: uppercase;
+  margin-top: 25px; }
+
+.what-we-do-cta:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+  background: -moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: -ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+  background-color: #0688fa; }
+
+.what-we-do-cta:active {
+  position: relative;
+  top: 0px; }
+
 #section-home,
 .overlay h1,
+#section-what-we-do,
 #section-work header,
 #section-clients header,
 #section-clients,
@@ -680,6 +784,7 @@ footer {
   margin-right: auto; }
   #section-home::after,
   .overlay h1::after,
+  #section-what-we-do::after,
   #section-work header::after,
   #section-clients header::after,
   #section-clients::after,
@@ -706,10 +811,35 @@ footer {
     content: "";
     display: table; }
 
-#what-we-do-outer {
+#who-we-are-outer {
   position: relative; }
 
-#section-what-we-do .col,
+#section-what-we-do .col {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 33.33333%;
+  padding: 10px;
+  margin-right: 0; }
+  #section-what-we-do .col:last-child {
+    margin-right: 0; }
+#section-what-we-do .packages .col {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%; }
+  #section-what-we-do .packages .col:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do .packages .col {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 100%; }
+      #section-what-we-do .packages .col:last-child {
+        margin-right: 0; } }
+
+#section-who-we-are .col,
 #case-study .col {
   float: left;
   display: block;
@@ -717,7 +847,7 @@ footer {
   width: 50%;
   padding: 0;
   margin-right: 0; }
-  #section-what-we-do .col:last-child,
+  #section-who-we-are .col:last-child,
   #case-study .col:last-child {
     margin-right: 0; }
 
@@ -4651,7 +4781,8 @@ Transition Layer
   -ms-border-radius: all 300ms ease;
   transition: all 300ms ease; }
 
-#what-we-do-outer .scroll-down,
+#section-what-we-do .scroll-down,
+#who-we-are-outer .scroll-down,
 #section-work .scroll-down,
 #section-clients .scroll-down {
   position: relative;
@@ -4662,17 +4793,22 @@ Transition Layer
     opacity: 0; }
   100% {
     opacity: 1; } }
-  #what-we-do-outer .scroll-down a,
+  #section-what-we-do .scroll-down a,
+  #who-we-are-outer .scroll-down a,
   #section-work .scroll-down a,
   #section-clients .scroll-down a {
-    margin: 50px auto 0 auto;
+    margin: 50px auto 25px auto;
     display: block;
     width: 100%;
     height: 25px;
+    padding-top: 40px;
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    line-height: 1.75em;
+    clear: both;
     background: url(../img/global/iconArrowDown.png) no-repeat center center;
-    overflow: hidden;
-    text-indent: 101%;
-    white-space: nowrap;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-border-radius: all 300ms ease;
@@ -4685,7 +4821,8 @@ Transition Layer
     /* Opera 12+ */
     animation: arrow-jump ease-in-out 1.2s infinite;
     /* IE 10+, Fx 29+ */ }
-  #what-we-do-outer .scroll-down a:hover,
+  #section-what-we-do .scroll-down a:hover,
+  #who-we-are-outer .scroll-down a:hover,
   #section-work .scroll-down a:hover,
   #section-clients .scroll-down a:hover {
     -webkit-animation-play-state: paused;
@@ -4693,8 +4830,13 @@ Transition Layer
     -o-animation-play-state: paused;
     animation-play-state: paused; }
 
+#section-what-we-do .scroll-down a,
 #section-clients .scroll-down a {
-  background: url(../img/global/iconArrowDownWhite.png) no-repeat center center; }
+  background: url(../img/global/iconArrowDownWhite.png) no-repeat center center;
+  color: #FFF; }
+
+#section-clients .scroll-down a {
+  margin-top: 10px; }
 
 #bg-home {
   position: relative;
@@ -4858,73 +5000,135 @@ Transition Layer
     transform: translate(-50%, -50%);
     z-index: -1; }
 
-#what-we-do-outer #particle-canvas {
+#section-what-we-do-outer {
+  overflow: hidden;
+  position: relative;
+  min-height: 1000px;
+  background: #000 url(../img/what-we-do/bg_dark_laptop.jpg) no-repeat center 25px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer {
+      background-size: 125%; } }
+
+#section-what-we-do header {
+  margin-top: 425px; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do header {
+      margin-top: 225px; } }
+#section-what-we-do .col {
+  color: white; }
+  #section-what-we-do .col h2 {
+    font-size: 0.875rem;
+    color: #0074c0;
+    text-align: center;
+    text-transform: uppercase; }
+  #section-what-we-do .col p {
+    text-align: center; }
+  #section-what-we-do .col strong {
+    background: #0074c0;
+    padding: 5px; }
+  #section-what-we-do .col i {
+    display: block;
+    text-align: center; }
+  #section-what-we-do .col ul {
+    padding-left: 20px; }
+    #section-what-we-do .col ul ul {
+      margin-top: 5px; }
+  #section-what-we-do .col li {
+    margin-bottom: 10px; }
+  #section-what-we-do .col .what-we-do-cta {
+    cursor: default; }
+#section-what-we-do .packages .col h2 {
+  color: #FFF;
+  padding: 8px;
+  background: #0074c0; }
+#section-what-we-do .packages .col p {
+  text-align: left;
+  padding: 0 1%; }
+#section-what-we-do footer {
+  float: left;
+  padding: 50px 0 35px 0; }
+  #section-what-we-do footer p {
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
+    width: 75%;
+    margin: 3% 12.5% 0 12.5%;
+    clear: both;
+    line-height: 1.3em; }
+    @media screen and (max-width: 479px) {
+      #section-what-we-do footer p {
+        width: 92%;
+        margin: 3%; } }
+  #section-what-we-do footer .contact-cta {
+    margin: 0 auto; }
+
+#who-we-are-outer #particle-canvas {
   position: absolute !important;
   z-index: 2;
   top: 0;
   left: 0;
   width: 50%;
   height: 100%; }
-  #what-we-do-outer #particle-canvas div {
+  #who-we-are-outer #particle-canvas div {
     background: transparent !important; }
-  #what-we-do-outer #particle-canvas canvas {
+  #who-we-are-outer #particle-canvas canvas {
     width: 100%; }
 
-#section-what-we-do {
+#section-who-we-are {
   overflow: hidden;
   position: relative;
   height: 1000px;
   background-color: #fc3; }
-  #section-what-we-do::after {
+  #section-who-we-are::after {
     clear: both;
     content: "";
     display: table; }
-  #section-what-we-do #specialties ul {
+  #section-who-we-are #specialties ul {
     float: left;
     margin-top: 20px; }
-  #section-what-we-do #specialties p {
+  #section-who-we-are #specialties p {
     clear: both; }
-  #section-what-we-do .intro,
-  #section-what-we-do #specialties li {
+  #section-who-we-are .intro,
+  #section-who-we-are #specialties li {
     font-size: 1.3125rem;
     font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
     line-height: 1.2;
     margin-bottom: 0; }
-  #section-what-we-do #specialties li {
+  #section-who-we-are #specialties li {
     margin-bottom: 15px;
     background-color: #FFF;
     color: #FFF;
     padding: 5px; }
-    #section-what-we-do #specialties li span {
+    #section-who-we-are #specialties li span {
       color: #000; }
-  #section-what-we-do .col header, #section-what-we-do .col p,
-  #section-what-we-do .col #specialties ul {
+  #section-who-we-are .col header, #section-who-we-are .col p,
+  #section-who-we-are .col #specialties ul {
     position: relative;
     z-index: 3; }
-  #section-what-we-do .col img {
+  #section-who-we-are .col img {
     width: 100%;
     height: auto; }
-  #section-what-we-do h1 {
+  #section-who-we-are h1 {
     padding-right: 0; }
-  #section-what-we-do .show-hide {
+  #section-who-we-are .show-hide {
     position: relative;
     float: right;
     display: block;
     z-index: 30;
     font-size: 3rem;
     color: #000; }
-    #section-what-we-do .show-hide:hover {
+    #section-who-we-are .show-hide:hover {
       color: #FFF;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-  #section-what-we-do #specialties {
+  #section-who-we-are #specialties {
     display: none; }
-  #section-what-we-do .col-skew {
+  #section-who-we-are .col-skew {
     padding: 2% 4%;
     background-color: #fc3; }
-  #section-what-we-do .col-skew:after {
+  #section-who-we-are .col-skew:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -4935,19 +5139,19 @@ Transition Layer
     background: #fc3;
     -webkit-transform: skewX(-8deg);
     transform: skewX(-8deg); }
-  #section-what-we-do .col-no-skew {
+  #section-who-we-are .col-no-skew {
     background-color: #000; }
-    #section-what-we-do .col-no-skew .pe-thumbs {
+    #section-who-we-are .col-no-skew .pe-thumbs {
       margin: 0;
       padding: 0; }
-    #section-what-we-do .col-no-skew .pe-thumbs li a,
-    #section-what-we-do .col-no-skew .pe-thumbs li a img {
+    #section-who-we-are .col-no-skew .pe-thumbs li a,
+    #section-who-we-are .col-no-skew .pe-thumbs li a img {
       display: block;
       position: relative;
       cursor: default; }
-    #section-what-we-do .col-no-skew .pe-thumbs li a img {
+    #section-who-we-are .col-no-skew .pe-thumbs li a img {
       opacity: 0.5; }
-    #section-what-we-do .col-no-skew .pe-thumbs li a div.pe-description {
+    #section-who-we-are .col-no-skew .pe-thumbs li a div.pe-description {
       width: 200px;
       height: 100px;
       background: rgba(0, 0, 0, 0.8);
@@ -4958,48 +5162,48 @@ Transition Layer
       display: none !important;
       z-index: 1001;
       text-align: left; }
-    #section-what-we-do .col-no-skew .pe-description h2 {
+    #section-who-we-are .col-no-skew .pe-description h2 {
       padding: 10px 10px 0px 10px;
       line-height: 20px;
       font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
       font-size: 1rem;
       margin: 0px; }
-    #section-what-we-do .col-no-skew .pe-description p {
+    #section-who-we-are .col-no-skew .pe-description p {
       padding: 10px 0px;
       margin: 10px;
       font-size: 0.75rem;
       font-style: italic;
       border-top: 1px solid rgba(255, 255, 255, 0.3); }
 
-#section-what-we-do.switch-text {
+#section-who-we-are.switch-text {
   background-color: #000;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-border-radius: all 300ms ease;
   transition: all 300ms ease; }
-  #section-what-we-do.switch-text h1:after {
+  #section-who-we-are.switch-text h1:after {
     background-color: #FFF; }
-  #section-what-we-do.switch-text .col-skew {
+  #section-who-we-are.switch-text .col-skew {
     background-color: #000;
     color: #FFF;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-border-radius: all 300ms ease;
     transition: all 300ms ease; }
-    #section-what-we-do.switch-text .col-skew:after {
+    #section-who-we-are.switch-text .col-skew:after {
       background-color: #000;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-    #section-what-we-do.switch-text .col-skew #about {
+    #section-who-we-are.switch-text .col-skew #about {
       display: none;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-border-radius: all 300ms ease;
       transition: all 300ms ease; }
-    #section-what-we-do.switch-text .col-skew #specialties {
+    #section-who-we-are.switch-text .col-skew #specialties {
       display: block; }
 
 #site-header-outer {
@@ -5847,7 +6051,7 @@ body.terms {
   header h1,
   .overlay h1,
   header .intro,
-  #section-what-we-do .intro,
+  #section-who-we-are .intro,
   #contact-info h2,
   footer #footer-logo,
   #section-work .row .view .mask p span {
@@ -5863,7 +6067,7 @@ body.terms {
     padding-left: 25px;
     text-align: left; }
 
-  #section-what-we-do header {
+  #section-who-we-are header {
     padding: 0; }
 
   #section-home {
@@ -5874,22 +6078,22 @@ body.terms {
       #section-home #slogan p {
         font-size: 4.5rem; }
 
-  #what-we-do-outer {
+  #who-we-are-outer {
     height: auto; }
 
-  #section-what-we-do {
+  #section-who-we-are {
     height: auto;
     background-color: #ffc036; }
-    #section-what-we-do .col {
+    #section-who-we-are .col {
       min-height: auto; }
-    #section-what-we-do .col-skew {
+    #section-who-we-are .col-skew {
       width: 100%;
       height: auto;
       padding: 5%; }
-    #section-what-we-do .col-no-skew,
-    #section-what-we-do .col-skew:after {
+    #section-who-we-are .col-no-skew,
+    #section-who-we-are .col-skew:after {
       display: none; }
-    #section-what-we-do .show-hide {
+    #section-who-we-are .show-hide {
       float: none;
       display: inline-block; }
 
@@ -5974,6 +6178,14 @@ body.terms {
     margin-right: 0%;
     width: 100%; }
     #page-packages .col-3:last-child {
+      margin-right: 0; }
+
+  #section-what-we-do .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 50%; }
+    #section-what-we-do .col:last-child {
       margin-right: 0; }
 
   #site-header-outer #site-header .col-skew,
@@ -6064,6 +6276,14 @@ body.terms {
   #section-home #slogan span#all-the-time {
     font-size: 1.875rem; }
 
+  #section-what-we-do .col {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    #section-what-we-do .col:last-child {
+      margin-right: 0; }
+
   #section-work .row .view {
     float: left;
     display: block;
@@ -6115,7 +6335,7 @@ body.terms {
     position: relative;
     float: right; } }
 @media screen and (max-width: 320px) {
-  #section-what-we-do h1 {
+  #section-who-we-are h1 {
     font-size: 2.125rem; }
 
   #social-links {

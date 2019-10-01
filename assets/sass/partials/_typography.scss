@@ -112,9 +112,13 @@ header {
 			font-size: rem(48);
 			padding-left: 25px;
 			
+			@include media($mobile) {
+				font-size: rem(40);
+			}
+			
 			&:before {
 				left: 0;
-				background:#0074B7;
+				background: $blue;
 			}
 		}
 
@@ -128,6 +132,7 @@ header {
 					position: relative;
 					display: inline-block;
 					z-index: 10;
+					text-transform: uppercase;
 						
 						.hl {
 							position: absolute;
@@ -172,8 +177,11 @@ header {
 	p.category-outline {
 		text-align: center;
 		color: $white;
-		font-weight: bold;
-		padding: 0 15%;
+		padding: 0 25%;
+		
+			@include media($mobile) {
+				padding: 0 3%;
+			}			
 	}
 
 	.hr {
@@ -433,5 +441,5 @@ header {
 }
 .what-we-do-cta:active {
 	position:relative;
-	top:1px;
+	top:0px;
 }
