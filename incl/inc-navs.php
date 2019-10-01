@@ -23,7 +23,7 @@
 
         <!-- Main navigation -->
         <div class="overlay overlay-hugeinc">
-            <div class="overlay-layer"></div>
+            <div class="overlay-layer"></div> 
             <img src="assets/video/space.jpg" alt="Space">
             <div id="space-video">
                 <video loop muted autoplay>
