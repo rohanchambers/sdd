@@ -103,7 +103,7 @@
                     <h1 class="animated fadeInUp" data-id='1'>What we do</h1>
                     <h2 class="animated fadeInUp" data-id='2'>is offer custom <span class="hl-wrapper">Creative<span class="hl"></span></span><br />
                     <span class="hl-wrapper">Digital<span class="hl green"></span></span> solutions</h2>
-                    <p class="what-we-do-list animated fadeInUp" data-id='3'>Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Web Hosting and Domain Registration | SEO &amp; Web Analytics Setup | Social Media Services | Motion Graphic videos | Mobile App Development</p>
+                    <p class="what-we-do-list animated fadeInUp" data-id='3'>Re-branding | Web Design | Web Development | UX / UI Design | Graphic Design | Web Hosting and Domain Registration | SEO &amp; Web Analytics Setup | Social Media Services | Motion Graphic videos | Mobile App. Development</p>
                 </header>
                 
                 <div class="hr"></div>
@@ -139,7 +139,7 @@
                 <div class="col">
                     <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
                     <h2>SEO &amp; Web Analytics Setup</h2>
-                    <p>All our websites are built with the best SEO practices in mind for high Google ranking results. Full analytical data reports on how your site performs.</p>
+                    <p>All our websites are built with the best SEO practices in mind for high Google ranking results. We can provide full analytical data reports on how your site performs.</p>
                 </div>
 
                 <div class="col">
@@ -165,13 +165,13 @@
                 <div class="packages">
                     <div class="col package-1">
                         <h2>One pager</h2>
-                        <p>Setup of a one pager site using your branding. This allows you to get an online presence at its minimum so that the public can at least reach you, while you are thinking about the getting real thing.</p>
+                        <p>The setup of a one pager site using your branding. This allows you to have an online presence at the bare minimum so that your viewers know who you are and how to get in touch with you. This can also give you more time to think about a more premium solution with us.</p>
                         <ul>
-                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
                             <li>Domain &amp; web hosting registration setup</li>
-                            <li><strong>One page design and development</strong></li>                        
+                            <li><strong>One page site design and development</strong></li>                        
                             <li>Integration of your existing brand</li>
-                            <li>Input all agreed content, images and data into the sites CMS</li>
+                            <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>3 days</strong></p>
@@ -179,11 +179,12 @@
                     </div>
                     <div class="col package-2">
                         <h2>Quick Starter</h2>
-                        <p>Full setup of your informational website using your branding and content. You provide all the assets and we get it up and running using the best Wordpress theme suited to your brand or the one of your choice.</p>
+                        <p>Full setup of your informational website using your branding and content. You provide all the assets and we get it up and running using the best Wordpress theme suited to your brand or a one of your choice.</p>
                         <ul>
-                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
                             <li>Domain &amp; web hosting registration setup</li>
-                            <li><strong>Worpress theme installation</strong></li>                        
+                            <li><strong>Worpress theme installation</strong></li>  
+                            <li>1-4 pages site</li>  
                             <li>Additional functionality plugins</li>
                             <li>Integration of your existing brand</li>
                             <li>Input all agreed content, images and data into the sites CMS</li>
@@ -194,12 +195,12 @@
                     </div>
                     <div class="col package-3">
                         <h2>Professional</h2>
-                        <p>Full re-branding and original design and development website tailored to your online business. We work closely with you all the way through the process and you can be involved as much as you want in the creative process.</p>
+                        <p>A full re-branding and original design and development website tailored to your online business. We work closely with you all the way through from our first meeting to the launch of your site. You can be involved as much as you want in the creative process as we always believe the client has invaluable ideas on what they want and expect.</p>
                         <ul>
-                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
                             <li><strong>Original, branding and web design</strong></li>
                             <li><strong>Bespoke Front end development</strong></li>
-                            <li>Back end development and basic CMS integration if required</li>
+                            <li>Back end development and basic CMS integration, if required</li>
                             <li>Additional agreed functionality <br /> e.g. eCommerce, Blog</li>
                             <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
@@ -209,31 +210,31 @@
                     </div>
                     <div class="col package-4">
                         <h2>Premium</h2>
-                        <p>Our premium package is what you would expect to get from a high end digital agency such as the likes of Wunderman, AKQA to name a few but at a fraction of the cost. We go through the whole process with you...</p>
+                        <p>Our premium package is what you would expect to get from a high end digital agency such as Wunderman, We are Social, AKQA to name a few but at a fraction of the cost. We go through the whole web process and keep you updated every step of the way, from inital creative talks to UX wireframing, full design preliminaries to high end web development.</p>
                         <ul>
-                            <li>One to one meeting to go over content, creative ideas and the projet deliverables</li>
+                            <li>One to one meeting to go over content, creative ideas and the project deliverables</li>
                             <li>Domain &amp; web hosting registration setup</li>
-                            <li>UX, site outline with storyboards and wireframing</li>
+                            <li>UX, site outline wireframing and storyboards</li>
                             <li><strong>Original, branding and web design</strong>
                                 <ul>
-                                    <li>Extended time invested in design</li>
-                                    <li>Premium look and feel</li>
+                                    <li>Extended time invested in creative design stages</li>
+                                    <li>Premium look and feel of site</li>
                                 </ul>
                             </li>
                             <li><strong>Bespoke Front end development</strong>
                                 <ul>
                                     <li>Extended time invested in front end development</li>
                                     <li>Advanced page transitions and element animations</li>
-                                    <li>Minor or full parallax implementation</li>
+                                    <li>Minor or full parallax implementation and much more...</li>
                                 </ul>
                             </li>
                             <li>Back end development
                                 <ul>
-                                    <li>Bespoke CMS integration if required</li>
+                                    <li>Bespoke CMS integration, if required</li>
                                     <li>Various custom back end functionality integration</li>
                                 </ul>
                             </li>
-                            <li>Additional agreed functionality<br /> e.g. API intergration, eCommerce, Blog</li>
+                            <li>Additional agreed functionality<br /> e.g. API integration, eCommerce, Blog</li>
                             <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>                    
