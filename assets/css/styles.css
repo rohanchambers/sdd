@@ -4481,9 +4481,6 @@ Transition Layer
       display: block;
       width: auto;
       float: right; }
-    #section-home #social-links ul#share-me li:nth-child(2n),
-    #site-header #social-links ul#share-me li:nth-child(2n) {
-      margin-top: 3px; }
   #section-home #slogan,
   #site-header #slogan {
     position: absolute;
