@@ -530,15 +530,21 @@ header p {
   padding-left: 25px; }
   @media screen and (max-width: 479px) {
     #section-what-we-do-outer header h1 {
-      font-size: 2.5rem; } }
+      font-size: 2.125rem; } }
   #section-what-we-do-outer header h1:before {
     left: 0;
     background: #0074c0; }
+    @media screen and (max-width: 479px) {
+      #section-what-we-do-outer header h1:before {
+        height: 26px; } }
 #section-what-we-do-outer header h2 {
   font-size: 2.5rem;
   margin: 0;
   line-height: 1.2em;
   font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer header h2 {
+      font-size: 1.875rem; } }
   #section-what-we-do-outer header h2 .hl-wrapper {
     position: relative;
     display: inline-block;
@@ -561,6 +567,10 @@ header p {
   text-align: center;
   font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   font-weight: bold; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do-outer header .what-we-do-list {
+      text-align: left;
+      margin-top: 40px; } }
 #section-what-we-do-outer h2.category {
   font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
   text-align: center;
@@ -4912,7 +4922,7 @@ Transition Layer
     #site-header #slogan #intro-parallax.active {
       position: absolute;
       width: 100%;
-      top: -145px; }
+      top: -125px; }
     #section-home #slogan p,
     #site-header #slogan p {
       font-family: Arial, Verdana, sans-serif;
@@ -5055,6 +5065,9 @@ Transition Layer
 #section-what-we-do footer {
   float: left;
   padding: 50px 0 35px 0; }
+  @media screen and (max-width: 479px) {
+    #section-what-we-do footer {
+      padding: 0; } }
   #section-what-we-do footer p {
     text-align: center;
     font-size: 1.5rem;
@@ -5069,6 +5082,9 @@ Transition Layer
         margin: 3%; } }
   #section-what-we-do footer .contact-cta {
     margin: 0 auto; }
+    @media screen and (max-width: 479px) {
+      #section-what-we-do footer .contact-cta {
+        margin: 0 auto 30px auto; } }
 
 #who-we-are-outer #particle-canvas {
   position: absolute !important;
@@ -6350,10 +6366,7 @@ body.terms {
     display: none; }
 
   #quick-message h1 {
-    font-size: 1.7rem; }
-
-  #section-home #slogan #intro-parallax.active {
-    top: -100px; } }
+    font-size: 1.7rem; } }
 @media screen and (max-height: 414px) {
   #section-home #slogan {
     width: 40%; }

@@ -373,7 +373,6 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 // MOBILE | max width 479px
 @include media($mobile) {
-
 	#section-work,
 	#section-clients,
 	#section-contact {
@@ -484,14 +483,6 @@ $tablet-600: new-breakpoint(max-width 600px);
 
 	#quick-message h1 {
 		font-size: 1.7rem;
-	}
-
-	#section-home {
-		#slogan {
-			 #intro-parallax.active {
-					top: -100px;
-			}			
-		}
 	}
 }
 

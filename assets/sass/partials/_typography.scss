@@ -113,12 +113,16 @@ header {
 			padding-left: 25px;
 			
 			@include media($mobile) {
-				font-size: rem(40);
+				font-size: rem(34);
 			}
 			
 			&:before {
 				left: 0;
 				background: $blue;
+				
+				@include media($mobile) {
+					height: 26px;
+				}				
 			}
 		}
 
@@ -127,6 +131,10 @@ header {
 			margin: 0;
 			line-height: 1.2em;
 			font-family: $font-thick;
+			
+			@include media($mobile) {
+				font-size: rem(30);
+			}			
 			
 				.hl-wrapper {
 					position: relative;
@@ -157,6 +165,11 @@ header {
 			text-align: center;
 			font-family: $font-thick;
 			font-weight: bold;
+			
+				@include media($mobile) {
+					text-align: left;
+					margin-top: 40px;
+				}			
 		}
 	}
 

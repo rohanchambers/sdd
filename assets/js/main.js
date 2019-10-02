@@ -75,7 +75,7 @@ $(function() {
         function parallax(){
             var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
             // 145 is the same in the css and the the position the element starts before parallax starts
-            slogan.style.top = -scrolltop * .4 - 145 + 'px';// move bubble1 at 20% of scroll rate
+            slogan.style.top = -scrolltop * .4 - 125 + 'px';// move bubble1 at 20% of scroll rate
         }
 
         window.addEventListener('scroll', function(){ // on page scroll
