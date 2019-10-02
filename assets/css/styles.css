@@ -728,7 +728,7 @@ footer {
 .overlay nav {
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 45%;
   height: 47%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -4429,7 +4429,6 @@ Transition Layer
 
 #section-home,
 #site-header {
-  background-color: #000;
   color: #FFF; }
   #section-home a,
   #site-header a {
