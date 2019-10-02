@@ -574,7 +574,7 @@ header p {
 #section-what-we-do-outer p.category-outline {
   text-align: center;
   color: #FFF;
-  padding: 0 25%; }
+  padding: 0 23%; }
   @media screen and (max-width: 479px) {
     #section-what-we-do-outer p.category-outline {
       padding: 0 3%; } }

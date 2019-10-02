@@ -160,7 +160,7 @@
 
                 <div class="hr"></div>
                 <h2 class="category">Our Web Packages</h2> 
-                <p class="category-outline">All projects are different and depending on the scope and functionality you require, the price can vary. The packages below are just an outline to give you an idea of what the costs can be for the type of project you want.</p>
+                <p class="category-outline">The packages below are aimed to be an outline and guide to give you an idea of what the costs can be for the type of project you want. As you can imagine all projects are different and depending on the scope and functionality you require, the price can vary depending on specific requirements.</p>
                 
                 <div class="packages">
                     <div class="col package-1">
