@@ -183,27 +183,29 @@
     #social-links {
     	position: absolute;
     	z-index: 100;
-    	top: -7px;
-    	right: 60px;
+    	top: -9px;
+    	right: 55px;
 
         li {
         	position: relative;
         	float: left;
         	list-style-type: none;
-            margin: 0 0 0 10px;
+            margin: 0 0 0 8px;
+            font-size: rem(13);
 
 			.share-text {
 				position: absolute;
-				left: -70px;
+				left: -60px;
 	        	font-family: $font-thick;
 	        	text-transform: uppercase;
+	        	line-height: 1.9em;
 			}
 
 	        a {
 	            color: $white;
 
 	            i {
-	            	font-size: rem(24);
+	            	margin-right: 5px;
 	            }
 	        }
 

@@ -4868,26 +4868,28 @@ Transition Layer
   #site-header #social-links {
     position: absolute;
     z-index: 100;
-    top: -7px;
-    right: 60px; }
+    top: -9px;
+    right: 55px; }
     #section-home #social-links li,
     #site-header #social-links li {
       position: relative;
       float: left;
       list-style-type: none;
-      margin: 0 0 0 10px; }
+      margin: 0 0 0 8px;
+      font-size: 0.8125rem; }
       #section-home #social-links li .share-text,
       #site-header #social-links li .share-text {
         position: absolute;
-        left: -70px;
+        left: -60px;
         font-family: "Arial black", arial_blackregular, Verdana, Arial, sans-serif;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 1.9em; }
       #section-home #social-links li a,
       #site-header #social-links li a {
         color: #FFF; }
         #section-home #social-links li a i,
         #site-header #social-links li a i {
-          font-size: 1.5rem; }
+          margin-right: 5px; }
       #section-home #social-links li a:hover,
       #site-header #social-links li a:hover {
         color: #0074c0;
