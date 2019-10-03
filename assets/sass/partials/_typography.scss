@@ -191,14 +191,18 @@ header {
 		text-align: center;
 		color: $white;
 		padding: 3% 23%;
-		
-			&:nth-of-type(2n) {
-				padding: 0 23%;				
-			}
-		
+
 			@include media($mobile) {
 				padding: 0 3%;
-			}			
+			}		
+						
+			&:nth-of-type(2n) {
+				padding: 0 20%;				
+				
+				@include media($mobile) {
+					padding: 0 3%;
+				}	
+			}
 	}
 
 	.hr {

@@ -585,11 +585,14 @@ header p {
   text-align: center;
   color: #FFF;
   padding: 3% 23%; }
-  #section-what-we-do-outer p.category-outline:nth-of-type(2n) {
-    padding: 0 23%; }
   @media screen and (max-width: 479px) {
     #section-what-we-do-outer p.category-outline {
       padding: 0 3%; } }
+  #section-what-we-do-outer p.category-outline:nth-of-type(2n) {
+    padding: 0 20%; }
+    @media screen and (max-width: 479px) {
+      #section-what-we-do-outer p.category-outline:nth-of-type(2n) {
+        padding: 0 3%; } }
 #section-what-we-do-outer .hr {
   width: 50px;
   height: 3px;
