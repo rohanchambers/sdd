@@ -1,6 +1,6 @@
 <?php
 // ENV. status
-$PRODUCTION = true;
+$PRODUCTION = false;
 ?>
 <!DOCTYPE html>
 <html lang="en">

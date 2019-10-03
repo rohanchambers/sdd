@@ -190,7 +190,11 @@ header {
 	p.category-outline {
 		text-align: center;
 		color: $white;
-		padding: 0 23%;
+		padding: 3% 23%;
+		
+			&:nth-of-type(2n) {
+				padding: 0 23%;				
+			}
 		
 			@include media($mobile) {
 				padding: 0 3%;
@@ -432,7 +436,6 @@ header {
 	border-radius:3px;
 	border:1px solid #0b0e07;
 	display:inline-block;
-	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:18px;

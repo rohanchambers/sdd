@@ -1034,11 +1034,6 @@ $(function() {
         });
     });
 
-    // Prevent default links
-    // $('#follow-us a').click( function(e){
-    //     e.preventDefault();
-    // });
-
     // Validate form with Google recpatcha validation
     $("#contact-form").validate({
         ignore: ".ignore",
@@ -1058,11 +1053,6 @@ $(function() {
     $('#btn-submit').click( function(){
         $('#contact-form').submit();
     });
-
-    // Prevent default, what we do price buttons
-    $('.col .contact-cta a').click(function(e) {
-        e.stopImmediatePropagation();  
-    });    
 
     // FUNCTION CALLS
 

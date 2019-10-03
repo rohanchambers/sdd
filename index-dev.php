@@ -119,7 +119,6 @@
                 <div class="hr"></div>
 
                 <h2 class="category">Our Specialties</h2>
-                <p class="category-outline">Please get in touch if you would like to know in more depth about some of our specialties and how they can best work for you.</p>
                 <div class="col">
                     <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
                     <h2>Web Design</h2>
@@ -169,8 +168,11 @@
                 </div>   
 
                 <div class="hr"></div>
+
+                <p class="category-outline"><strong>Please get in touch if you would like to know in more depth about some of our specialties and how they can best work for you.</strong></p>
+                
                 <h2 class="category">Our Web Packages</h2> 
-                <p class="category-outline">The packages below are aimed to be an outline and guide to give you an idea of what the costs can be for the type of project you want. As you can imagine all projects are different and depending on the scope and functionality you require, the price can vary depending on specific requirements.</p>
+                <p class="category-outline">The packages below are aimed to be an outline and guide to give you an idea of what the costs can be for the type of project you want. As you can imagine all projects are different and depending on the scope and functionality you require, the price can vary.</p>
                 
                 <div class="packages">
                     <div class="col package-1">
@@ -187,7 +189,7 @@
 
                         <p>Time of Delivery: <strong>3 days</strong></p>
                         <p>Site Example: <a href="http://www.womenspololink.com/" target="_blank" class="site-example">www.WomensPoloLink.com</a></p>
-                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£599</a></p>
+                        <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£599</a></p>
                     </div>
                     <div class="col package-2">
                         <h2>Quick Starter</h2>
@@ -205,7 +207,7 @@
                         <p>Time of Delivery: <strong>10 days</strong></p>
                         <p>Site Example: <a href="http://www.europesnewwild.com/" target="_blank" class="site-example">www.EuropesNewWild.com</a></p>
                         
-                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£1,599</a></p>
+                        <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£1,599</a></p>
                     </div>
                     <div class="col package-3">
                         <h2>Professional</h2>
@@ -220,13 +222,13 @@
                             </li>
                             <li><strong>Bespoke Front end development</strong></li>
                             <li>Back end development and basic CMS integration, if required</li>
-                            <li>Additional agreed functionality <br /> e.g. eCommerce, Blog</li>
+                            <li>Additional agreed functionality <br /> e.g. E-commerce, Blog</li>
                             <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>8 weeks</strong></p>
-                        <p>Site Example: <a href="https://www.infohealth.co.uk/manufacturing" target="_blank" class="site-example">www.infohealth.co.uk/manufacturing</a></p>
-                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£6,999</a></p>
+                        <p>Site Example: <a href="http://www.slamdunkdigital.com/clients/varcaleE/" target="_blank" class="site-example">www.FilmEntertainement.com</a></p>
+                        <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£6,999</a></p>
                     </div>
                     <div class="col package-4">
                         <h2>Premium</h2>
@@ -254,13 +256,13 @@
                                     <li>Various custom back end functionality integration</li>
                                 </ul>
                             </li>
-                            <li>Additional agreed functionality<br /> e.g. API integration, eCommerce, Blog</li>
+                            <li>Additional agreed functionality<br /> e.g. API integration, E-commerce, Blog</li>
                             <li>Input all agreed content, images and data into the site</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>                    
                         <p>Time of Delivery: <strong>12 weeks</strong></p>
                         <p>Site Example: <a href="https://www.ignitethatspark.com/" target="_blank" class="site-example">www.IgniteThatSpark.com</a></p>
-                        <p class="contact-cta"><a href="#contact" class="what-we-do-cta">£9,999 +</a></p>
+                        <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£9,999 +</a></p>
                     </div>
                 </div> 
                 <footer>
@@ -377,7 +379,7 @@
         </section><!-- End of contact info -->
 
 
-       <section id="quick-message">
+       <section id="quick-message" class="quick-message">
             <header>
                 <h1>Quick message</h1>
             </header>

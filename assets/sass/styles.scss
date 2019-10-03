@@ -352,6 +352,9 @@
 		}
 }
 
+.page-case-study-custom #site-header-outer #site-header #social-links {
+	right: 0;
+}
 
 // WHAT WE DO SECTION
 #section-what-we-do-outer {
@@ -408,10 +411,6 @@
 
 			li {
 				margin-bottom: 10px;
-			}
-
-			.what-we-do-cta {
-				cursor: default;
 			}
 	}	
 	

@@ -155,7 +155,9 @@ header p {
 #section-what-we-do-outer p.category-outline {
   text-align: center;
   color: #FFF;
-  padding: 0 23%; }
+  padding: 3% 23%; }
+  #section-what-we-do-outer p.category-outline:nth-of-type(2n) {
+    padding: 0 23%; }
   @media screen and (max-width: 479px) {
     #section-what-we-do-outer p.category-outline {
       padding: 0 3%; } }
@@ -324,7 +326,6 @@ header p {
   border-radius: 3px;
   border: 1px solid #0b0e07;
   display: inline-block;
-  cursor: pointer;
   color: #ffffff;
   font-family: Arial;
   font-size: 18px;
@@ -4579,6 +4580,9 @@ Transition Layer
     transform: translate(-50%, -50%);
     z-index: -1; }
 
+.page-case-study-custom #site-header-outer #site-header #social-links {
+  right: 0; }
+
 #section-what-we-do-outer {
   overflow: hidden;
   position: relative;
@@ -4614,8 +4618,6 @@ Transition Layer
       margin-top: 10px; }
   #section-what-we-do .col li {
     margin-bottom: 10px; }
-  #section-what-we-do .col .what-we-do-cta {
-    cursor: default; }
 #section-what-we-do .packages .col h2 {
   color: #FFF;
   padding: 8px;
