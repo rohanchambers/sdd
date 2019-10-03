@@ -171,7 +171,7 @@
 
                 <p class="category-outline"><strong>Please get in touch if you would like to know in more depth about some of our specialties and how they can best work for you.</strong></p>
                 
-                <h2 class="category">Our Web Packages</h2> 
+                <h2 class="category">Our Website Packages</h2> 
                 <p class="category-outline">The packages below are aimed to be an outline and guide to give you an idea of what the costs can be for the type of project you want. As you can imagine all projects are different and depending on the scope and functionality you require, the price can vary.</p>
                 
                 <div class="packages">
@@ -184,6 +184,7 @@
                             <li><strong>One page site design and development</strong></li>                        
                             <li>Integration of your existing brand</li>
                             <li>Input all agreed content, images and data into the site</li>
+                            <li>Setup of social media sharing and mailing list collection sign up</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
 
@@ -202,6 +203,7 @@
                             <li>Additional functionality plugins</li>
                             <li>Integration of your existing brand</li>
                             <li>Input all agreed content, images and data into the sites CMS</li>
+                            <li>Setup of social media sharing and mailing list collection sign up</li>
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>10 days</strong></p>
