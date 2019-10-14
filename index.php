@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20191003">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20191014">
         
         
  
@@ -40,6 +40,31 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body class="page-home">
+    <!-- Load Facebook SDK for JavaScript -->
+          <div id="fb-root"></div>
+          <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                xfbml            : true,
+                version          : 'v4.0'
+              });
+            };
+
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="1298295400200191"
+        theme_color="#0074c0">
+        </div>
+
         <!-- Preloader -->
         <div id="preloader">
             <div id="status">
@@ -490,7 +515,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20191003"></script>
+        <script src="assets/js/compiled.min.js?20191014"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>
