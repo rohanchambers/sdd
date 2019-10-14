@@ -40,14 +40,14 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body class="page-home">
-        <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
         window.fbAsyncInit = function() {
-        FB.init({
-        xfbml            : true,
-        version          : 'v4.0'
-        });
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
         };
 
         (function(d, s, id) {
@@ -56,15 +56,14 @@
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-        <!-- Your customer chat code -->
-        <div class="fb-customerchat"
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
         attribution=setup_tool
         page_id="106640149483325"
-        theme_color="#0074c0">
-        </div>
-
+  theme_color="#0074c0">
+      </div>
         <!-- Preloader -->
         <div id="preloader">
             <div id="status">
