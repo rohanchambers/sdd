@@ -47,7 +47,7 @@
 			.col,
 			.col.content {
 				min-height: 450px;
-				
+
 				@include media($tablet) {
 					min-height: 400px;
 				}
@@ -59,14 +59,14 @@
 
 			.col.img {
 				background: #000 url(../../case-study/cafesoriya/img/logo.png) no-repeat center center;
-				
+
 				@include media($mobile) {
 					background-size: 50%;
-				}								
+				}
 			}
 		}
 
-		.middle-content.middle-content-2 {	
+		.middle-content.middle-content-2 {
 			.col.img {
 				background: url(../../case-study/cafesoriya/img/menu_seafood.jpg) no-repeat top center;
 				background-size: cover;
@@ -83,7 +83,7 @@
 	}
 }
 
-// IGNITE THAT SPARK 
+// IGNITE THAT SPARK
 .cs-its {
 	#case-study-nav {
 		background: #000;
@@ -131,7 +131,7 @@
 			.col,
 			.col.content {
 				min-height: 450px;
-				
+
 				@include media($tablet) {
 					min-height: 400px;
 				}
@@ -151,7 +151,7 @@
 			}
 		}
 
-		.middle-content.middle-content-2 {	
+		.middle-content.middle-content-2 {
 			.col.img {
 				background: url(../../case-study/ignite-that-spark/img/start_here.jpg) no-repeat top center;
 				background-size: cover;
@@ -217,7 +217,7 @@
 			.col,
 			.col.content {
 				min-height: 400px;
-				
+
 				@include media($tablet) {
 					min-height: 400px;
 				}
@@ -248,7 +248,7 @@
 
 					@include media($desktop) {
 						bottom: auto;
-					}				
+					}
 			}
 		}
 
@@ -311,7 +311,7 @@
 			.col,
 			.col.content {
 				min-height: 375px;
-				
+
 				@include media($tablet) {
 					min-height: 400px;
 				}
@@ -524,7 +524,7 @@
 		.middle-content {
 			.col,
 			.col.content {
-				min-height: 500px;			
+				min-height: 500px;
 
 				@include media($mobile) {
 					min-height: 250px;
@@ -855,7 +855,7 @@
 			.col,
 			.col.content {
 				min-height: 400px;
-				
+
 				@include media($tablet) {
 					min-height: 300px;
 				}
