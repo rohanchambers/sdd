@@ -8,7 +8,7 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Ignite That Spark</title>
+        <title>Slam Dunk Digital - Cafe Soriya</title>
         <meta name="title" content="Slam Dunk Digital | Ignite That Spark">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
@@ -49,20 +49,20 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-its">
+        <div class="cs-soriya">
 
             <section id="case-study-nav">
-                <div class="col"><a href="../cafesoriya/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../infohealth/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../ignite-that-spark/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">
                 <div class="row top-content">
                     <div class="col">
-                        <h1>Ignite That Spark</h1>
-                        <p>Ignite That Spark inspires you to develop your entrepreneurial mindset, live up to your full potential and contribute to make the world a better place. The Ultimate Freedom! To be an entrepreneur is to break free, to live your passion, to be your own boss.</p>
-                        <p>Michel Jordi, serial entrepreneur, is the founder and chairman of a new movement entitled "IGNITE THAT SPARK". To break free, do what we love, and make the world a better place should be our ultimate goal. His daughter Kim is the co-founder and accompanies him to ignite that spark around the world.</p>
+                        <h1>Cafe Soriya</h1>
+                        <p>Cafe Soriya offers a comfort food menu with free delivery in the heart of Cambodia, Siem Reap. Their dishes are always freshly made and will soon be available in their new restaurant opening.</p>
+                        <p>The branding needed to stand out and the website had to be simple yet attractive, showing off their uniqueness with their quality dishes.</p>
                     </div>
                 </div>
 
@@ -71,12 +71,12 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span>Ignite That Spark</span></h2>
-                            <h2>Project Link: <span><a href="https://ignitethatspark.com" target="_blank">ignitethatspark.com</a></span></h2>
+                            <h2>Client: <span>Cafe Soriya</span></h2>
+                            <h2>Project Link: <span><a href="http://www.cafesoriya.com" target="_blank">CafeSoriya.com</a></span></h2>
                             <h2>Reach:</h2>
-                            <p>Ignite That Spark has a wide demographic of users which is why a lot time was spent in the UX phase to make sure the user journey was straight foward. In the near futue Michel Jordi will be speaking at some of the top univeristy's in Switzerland of which some have pre-orderd his book to be introduced in their curriculums, expanding his audience and reach.</p>
+                            <p>This is a brand new venture so the main focus will be to promote Cafe Soriya all over Siem Reap, Cambodia with the help of social media and other marketing strategies we have put in place.</p>
                             <h2>Technologies:</h2>
-                            <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Parallax integration, Video editing, Motion graphic animations, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and eCommerce integration.</p>
+                            <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Parallax integration, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and an eCommerce integration coming soon.</p>
                         </article>
                     </div>
                 </div>
@@ -85,9 +85,8 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Brief:</h2>
-                            <p>The brief from the client was that they wanted a premium looking site that completely stood out from their competition. There were going to be many parts to the business but putting his new book, Ignite That Spark in prominence was essential which complemented very well the eCommerce side to this build. Each section of the business had to stand alone as if it were it's own page but at the same time keeping in line with the overall look and feel of the branding. It was essential the site delivered the content as if it were a story unfolding as the user scrolled through each section slowly learning about the man behind the brand.</p>
-
-                            <p>As this was a lengthy one pager site with rich graphics and parallax elements and transitions, load time was of particuliar concern especially for mobile. A lot of testing was carried out to maximise the performance and speed of the site as to not make the user wait too long during the preloading.</p>
+                            <p>The brief from the client was simplicty, one color and that the branding logo could stand out and attract at night for the shop sign to lure new clientele. The focus was obviously on the food and their signature 'Bucket Prawn' dish that was gonna be the main attraction and talk of the town.</p>
+                            <p>Siem Reap, Cambodia has a big community of expats so this venture is both for the locals and expats and the client is hoping to have a wide variety of clientele. <p>                           
                         </article>
                     </div>
                     <div class="col img"></div>
@@ -99,10 +98,11 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Deliverables</h2>
-                            <p>We delivered a premium looking and functioning site that is not just an average boring content heavy site that you see around a lot these days. More importantly it didn't look like another Wordpress template. Everything from the design to the build was original and built from the ground up. The brand and company will most likely grow over the next 6 months necessitating new sections and maintenance.</p>
+                            <p>We delivered a premium rebranding and a functioning site that is not just an average boring template that you can see on everyones site. Everything from the design to the build was original and developed from the ground up. We look forward to seeing the brand grow over the next year with the buzz we are implementing hopefully attracting many new customers.</p>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
+                                <li>Logo design</li>
                                 <li>UX / Wireframing &amp; A/B testing</li>
                                 <li>Site Design &amp; development</li>
                                 <li>Deployment to servers</li>
@@ -118,10 +118,8 @@ $PRODUCTION = true;
                     </div>
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/carousel/home.jpg" alt="Infohealth Manufacturing" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/freedom.jpg" alt="Infohealth Distribution"  /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/timeline.jpg" alt="Infohealth Retail" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/bio.jpg" alt="Infohealth Mailorder" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_home.jpg" alt="Infohealth Distribution"  /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_dish.jpg" alt="Infohealth Retail" /></div>
                         </div>
                     </div>
                 </div>
