@@ -59,7 +59,10 @@
 
 			.col.img {
 				background: #000 url(../../case-study/cafesoriya/img/logo.png) no-repeat center center;
-				background-size: contain;
+				
+				@include media($mobile) {
+					background-size: 50%;
+				}								
 			}
 		}
 

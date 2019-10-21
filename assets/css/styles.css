@@ -901,8 +901,10 @@ footer {
     .cs-soriya #case-study-custom .middle-content .col.content {
       min-height: 250px; } }
 .cs-soriya #case-study-custom .middle-content .col.img {
-  background: #000 url(../../case-study/cafesoriya/img/logo.png) no-repeat center center;
-  background-size: contain; }
+  background: #000 url(../../case-study/cafesoriya/img/logo.png) no-repeat center center; }
+  @media screen and (max-width: 479px) {
+    .cs-soriya #case-study-custom .middle-content .col.img {
+      background-size: 50%; } }
 .cs-soriya #case-study-custom .middle-content.middle-content-2 .col.img {
   background: url(../../case-study/cafesoriya/img/menu_seafood.jpg) no-repeat top center;
   background-size: cover; }
