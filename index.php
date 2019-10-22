@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20191021">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20191022">
         
         
  
@@ -490,7 +490,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20191021"></script>
+        <script src="assets/js/compiled.min.js?20191022"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>

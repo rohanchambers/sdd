@@ -103,6 +103,7 @@ $PRODUCTION = true;
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
                                 <li>Logo design</li>
+                                <li>Food menus</li>
                                 <li>UX / Wireframing &amp; A/B testing</li>
                                 <li>Site Design &amp; development</li>
                                 <li>Deployment to servers</li>
@@ -118,8 +119,10 @@ $PRODUCTION = true;
                     </div>
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_home.jpg" alt="Infohealth Distribution"  /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_dish.jpg" alt="Infohealth Retail" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_home.jpg" alt="Cafe Soriya, Home"  /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_dish.jpg" alt="Cafe Soriya, Dishes" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/breakfast_menu.jpg" alt="Cafe Soriya, Breakfast menu" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/seafood_menu.jpg" alt="Cafe Soriya, Seafood menu" /></div>
                         </div>
                     </div>
                 </div>
