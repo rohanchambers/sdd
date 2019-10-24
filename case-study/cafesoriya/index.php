@@ -74,7 +74,7 @@ $PRODUCTION = true;
                             <h2>Client: <span>Cafe Soriya</span></h2>
                             <h2>Project Link: <span><a href="http://www.cafesoriya.com" target="_blank">CafeSoriya.com</a></span></h2>
                             <h2>Reach:</h2>
-                            <p>This is a brand new venture so the main focus will be to promote Cafe Soriya all over Siem Reap, Cambodia with the help of social media and other marketing strategies we have put in place.</p>
+                            <p>This is a brand new venture for the client who prior to this was a hotel manager for some of the biggest hotels in Cambodia. The main focus was to promote Cafe Soriya's new branding all over Siem Reap, Cambodia with the help of social media and other marketing strategies we have put in place.</p>
                             <h2>Technologies:</h2>
                             <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Parallax integration, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and an eCommerce integration coming soon.</p>
                         </article>
@@ -86,7 +86,9 @@ $PRODUCTION = true;
                         <article>
                             <h2>Brief:</h2>
                             <p>The brief from the client was simplicty, one color and that the branding logo could stand out and attract at night for the shop sign to lure new clientele. The focus was obviously on the food and their signature 'Bucket Prawn' dish that was gonna be the main attraction and talk of the town.</p>
-                            <p>Siem Reap, Cambodia has a big community of expats so this venture is both for the locals and expats and the client is hoping to have a wide variety of clientele. <p>                           
+                            <p>Siem Reap, Cambodia has a big community of expats so this spot is both for the locals and expats and the client is hoping to attract a wide variety of customers.</p>
+                            <p>The branding needed to be extensible in the way that 'Cafe Soriya' could be franchised all around Cambodia and more importanlty could eventually branch out into letting and renting out villas for holiday makers.<br /> 
+                            The founder and owner was trained at Switzlerland's 'Ecole Hoteliere de Lausanne' which is one of the best hotel schools in the world and has been managing 4 star hotels in Cambodia for the last 20 years. A good recipe for success!</p>
                         </article>
                     </div>
                     <div class="col img"></div>
@@ -99,6 +101,7 @@ $PRODUCTION = true;
                         <article>
                             <h2>Deliverables</h2>
                             <p>We delivered a premium rebranding and a functioning site that is not just an average boring template that you can see on everyones site. Everything from the design to the build was original and developed from the ground up. We look forward to seeing the brand grow over the next year with the buzz we are implementing hopefully attracting many new customers.</p>
+                            <p>We look forward to working on this brand again very soon.</p>
                             <ul>
                                 <li>Project &amp; Client management</li>
                                 <li>Creative direction</li>
@@ -123,6 +126,8 @@ $PRODUCTION = true;
                             <div class="carousel-cell single"><img src="img/carousel/cafesoriya_dish.jpg" alt="Cafe Soriya, Dishes" /></div>
                             <div class="carousel-cell single"><img src="img/carousel/breakfast_menu.jpg" alt="Cafe Soriya, Breakfast menu" /></div>
                             <div class="carousel-cell single"><img src="img/carousel/seafood_menu.jpg" alt="Cafe Soriya, Seafood menu" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/drinks_menu_front.jpg" alt="Cafe Soriya, Drinks menu front" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/drinks_menu_back.jpg" alt="Cafe Soriya, Drinks menu back" /></div>
                         </div>
                     </div>
                 </div>
