@@ -189,7 +189,7 @@
                         </ul>
 
                         <p>Time of Delivery: <strong>3 days</strong></p>
-                        <p>Site Example: <a href="http://www.womenspololink.com/" target="_blank" class="site-example">www.WomensPoloLink.com</a></p>
+                        <p>Site Example: <a href="http://cafesoriya.com/" target="_blank" class="site-example">www.CafeSoriya.com</a></p>
                         <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£599</a></p>
                     </div>
                     <div class="col package-2">
@@ -312,7 +312,7 @@
                         <p class="intro">Slam Dunk Digital is a creative and digital collective that primarily specialises in user friendly web design and development, based in London. <br>We transform brands to make them fresh, young and vibrant with the help of a new breed of thinkers, planners, strategists, designers and creative developers.</p>
                         <p>Slam Dunk Digital and its collective have worked for some of the top digital agencies in London and for some of the biggest brands from around the world i.e. Have a look on the right for a glimpse of this. In other words we have worked with some very talented people along the way who in turn have become great friends and trusted co-workers.</p>
                         <p>Slam Dunk Digital was founded to bring all of these talented people together as a collective to collaborate as one. Being a startup, we are still relatively small, currently 15 people strong but growing steadily as we win more and more accounts.</p>
-                        <p>Together we try to be innovative and passionate when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
+                        <p>Together we are passionate and innovative when we work on our clients' projects. Expectations are high and we always deliver a unique sense of style and digital marketing perfectly blended to create engaging user experiences.</p>
                         <p>We are on the look out for new and upcoming projects to work our magic on; for all types and sizes of brands and businesses. Please have a look at our portfolio below to see at what level we work at. Some of these projects were created whilst working for other agencies which in turn has given us priceless knowledge and lessons for delivering successful projects.</p>
                         <p>We look forward to collaborating with you to create your online presence with a new look and engaging end product. Please feel free to get in touch with us in the contact section below.</p>
                     </article>
@@ -381,7 +381,7 @@
         </section><!-- End of contact info -->
 
 
-       <section id="quick-message" class="quick-message">
+<!--        <section id="quick-message" class="quick-message">
             <header>
                 <h1>Quick message</h1>
             </header>
@@ -444,7 +444,7 @@
             <?php
               }
             ?>
-        </section>
+        </section> -->
 
         <div id="footer-outer">
             <footer>
