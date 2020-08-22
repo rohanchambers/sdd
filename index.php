@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
         
-        <link rel="stylesheet" href="assets/css/compiled.min.css?20200805">
+        <link rel="stylesheet" href="assets/css/compiled.min.css?20200822">
         
         
  
@@ -202,7 +202,7 @@
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>10 days</strong></p>
-                        <p>Site Example: <a href="http://www.europesnewwild.com/" target="_blank" class="site-example">www.EuropesNewWild.com</a></p>
+                        <p>Site Example: <a href="http://www.slamdunkdigital.com/clients/offTheFence" target="_blank" class="site-example">www.EuropesNewWild.com</a></p>
                         
                         <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£1,599</a></p>
                     </div>
@@ -224,7 +224,7 @@
                             <li>Site launch on an agreed day of choice</li>
                         </ul>
                         <p>Time of Delivery: <strong>8 weeks</strong></p>
-                        <p>Site Example: <a href="http://www.slamdunkdigital.com/clients/varcaleE/" target="_blank" class="site-example">www.FilmEntertainement.com</a></p>
+                        <p>Site Example: <a href="http://www.slamdunkdigital.com/clients/film-entertainment/" target="_blank" class="site-example">www.FilmEntertainement.com</a></p>
                         <p class="contact-cta"><a href="#quick-message" class="what-we-do-cta">£6,999</a></p>
                     </div>
                     <div class="col package-4">
@@ -425,7 +425,7 @@
         
 
         
-        <script src="assets/js/compiled.min.js?20200805"></script>
+        <script src="assets/js/compiled.min.js?20200822"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGHXcxyyVjhoQx392cu-u4qN5NanUpB9s&callback=initMap"></script>
         <div id="fb-root"></div>
