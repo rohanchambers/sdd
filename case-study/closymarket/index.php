@@ -8,8 +8,8 @@ $PRODUCTION = true;
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slam Dunk Digital - Cafe Soriya</title>
-        <meta name="title" content="Slam Dunk Digital | Ignite That Spark">
+        <title>Slam Dunk Digital - Closy Market</title>
+        <meta name="title" content="Slam Dunk Digital | Closy Market">
         <meta name="author" content="Slam Dunk Digital">
         <meta name="description" content="Slam Dunk Digital is a creative and digital agency that specialises in user friendly web design and development based in London. We transform brands to make them fresh young, and vibrant with the help of a new breed of thinkers, planners, strategists and creatives technologists.">
         <meta name="keywords" content="slam dunk digital, digital agency, web design, web development, respsonive design, UX, online marketing, strategy, social media, print">
@@ -49,20 +49,19 @@ $PRODUCTION = true;
         <?php include("../../incl/inc-header-cs.php"); ?>
 
         <!-- Case study Intro -->
-        <div class="cs-soriya">
+        <div class="cs-closy">
 
             <section id="case-study-nav">
-                <div class="col"><a href="../closymarket/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../tesco/" class="go-prev" title="Previous Project"><i class="fa fa-2x fa-chevron-circle-left" aria-hidden="true"></i></a></div>
                 <div class="col"><a href="/#work" class="go-all" title="All Projects"><i class="fa fa-th fa-2x" aria-hidden="true"></i></a></div>
-                <div class="col"><a href="../ignite-that-spark/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
+                <div class="col"><a href="../cafesoriya/" class="go-next" title="Next Project"><i class="fa fa-2x fa-chevron-circle-right" aria-hidden="true"></i></a></div>
             </section>
 
             <section id="case-study-custom">
                 <div class="row top-content">
                     <div class="col">
-                        <h1>Cafe Soriya</h1>
-                        <p>Cafe Soriya offers a comfort food menu with free delivery in the heart of Cambodia, Siem Reap. Their dishes are always freshly made and will soon be available in their new restaurant opening.</p>
-                        <p>The branding needed to stand out and the website had to be simple yet attractive, showing off their uniqueness with their quality dishes.</p>
+                        <h1>Closy Market</h1>
+                        <p>Closy Market is a successful online delivery service providing specialty foods and groceries in conjunction with some of the UK well known markets has arrived in London. <br />Butcher’s, bakeries, fishmongers, fresh produce, homemade preservatives, are just some examples of the opportunities we bring to the consumer.</p>                
                     </div>
                 </div>
 
@@ -71,12 +70,13 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span>Cafe Soriya</span></h2>
-                            <h2>Project Link: <span><a href="http://www.cafesoriya.com" target="_blank">CafeSoriya.com</a></span></h2>
+                            <h2>Client: <span>Closy Market</span></h2>
+                            <h2>Project Link: <span><a href="http://www.closymarket.com" target="_blank">ClosyMarket.com</a></span></h2>
                             <h2>Reach:</h2>
-                            <p>This is a brand new venture for the client who prior to this was a hotel manager for some of the biggest hotels in Cambodia. The main focus was to promote Cafe Soriya's new branding all over Siem Reap, Cambodia with the help of social media and other marketing strategies we have put in place.</p>
+                            <p>Closy’s main focus is bringing the high street into your home and provide people with the best of local. We work with a number of local stores and producers to provide our customers with the best produce from a single marketplace – Closy market place.<br>
+                            Closy was meant to be launched in both London and Barcelona but due to Covid, launches will be slightly delayed.</p>
                             <h2>Technologies:</h2>
-                            <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Parallax integration, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and an eCommerce integration coming soon.</p>
+                            <p>UX, Wireframing, Design and build, HTML5, CSS3, jQuery, Grunt, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive and eCommerce integration.</p>
                         </article>
                     </div>
                 </div>
@@ -85,10 +85,8 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Brief:</h2>
-                            <p>The brief from the client was simplicty, one color and that the branding logo could stand out and attract at night for the shop sign to lure new clientele. The focus was obviously on the food and their signature 'Bucket Prawn' dish that was gonna be the main attraction and talk of the town.</p>
-                            <p>Siem Reap, Cambodia has a big community of expats so this spot is both for the locals and expats and the client is hoping to attract a wide variety of customers.</p>
-                            <p>The branding needed to be extensible in the way that 'Cafe Soriya' could be franchised all around Cambodia and more importantly could eventually branch out into letting and renting out villas for holiday makers.<br /> 
-                            The founder and owner was trained at Switzlerland's 'Ecole Hoteliere de Lausanne' which is one of the best hotel schools in the world and has been managing 4 star hotels in Cambodia for the last 20 years. A good recipe for success!</p>
+                            <p>The brief from the client was "We need a fresh new branding and website to replace the dated look we currently have". Our job was to bring Closy market up to date with a premium looking site that was gonna attract new customers and create more purchases. Closy market is about, fresh food from local markets delivered to your door with a big emphasis on eco friendly vans used for all deliveries.</p>
+                            <p>Closy Market originally launched in London and we were suppose to push the new branding in both London and Barcelona but due to Covid restrictions some delays took affect and we are waiting for the right time to launch, hopefully soon. The next phase which is currenlty in progress is creating the iphone and android app. for all online shopping and deliveries.</p>
                         </article>
                     </div>
                     <div class="col img"></div>
@@ -122,12 +120,9 @@ $PRODUCTION = true;
                     </div>
                     <div class="col">
                         <div class="main-carousel">
-                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_home.jpg" alt="Cafe Soriya, Home"  /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/cafesoriya_dish.jpg" alt="Cafe Soriya, Dishes" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/breakfast_menu.jpg" alt="Cafe Soriya, Breakfast menu" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/seafood_menu.jpg" alt="Cafe Soriya, Seafood menu" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/drinks_menu_front.jpg" alt="Cafe Soriya, Drinks menu front" /></div>
-                            <div class="carousel-cell single"><img src="img/carousel/drinks_menu_back.jpg" alt="Cafe Soriya, Drinks menu back" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/closy_home.jpg" alt="Closy Market Home"  /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/closy_product.jpg" alt="Closy Market Product" /></div>
+                            <div class="carousel-cell single"><img src="img/carousel/closy_delivery.jpg" alt="Closy Market Delivery" /></div>
                         </div>
                     </div>
                 </div>
