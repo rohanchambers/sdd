@@ -71,8 +71,8 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span><a href="http://www.infohealth.co.uk" target="_blank">Infohealth</a></span></h2>
-                            <h2>Project Link: <span><a href="http://www.infohealth.co.uk/" target="_blank">www.infohealth.co.uk</a></span></h2>
+                            <h2>Client: <span>Infohealth</span></h2>
+                            <h2>Project Link: <span><a href="http://www.slamdunkdigital.com/clients/infohealth/" target="_blank">www.infohealth.co.uk</a></span></h2>
                             <h2>Reach:</h2>
                             <p>We are expecting to target all the exsiting customers but more importantly gaining more their trust in using the site and it's online shops and payment process. The overall look and feel has been tranposed to their social media pages to keep inline with the rebrand.</p>
                             <h2>Technologies:</h2>

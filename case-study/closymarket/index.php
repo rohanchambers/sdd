@@ -71,7 +71,7 @@ $PRODUCTION = true;
                     <div class="col content">
                         <article>
                             <h2>Client: <span>Closy Market</span></h2>
-                            <h2>Project Link: <span><a href="http://www.closymarket.com" target="_blank">ClosyMarket.com</a></span></h2>
+                            <h2>Project Link: <span><a href="http://www.slamdunkdigital.com/clients/closymarket/" target="_blank">Closy Market</a></span></h2> Due to Covid, one week before launch this project was put on hold.</h2>
                             <h2>Reach:</h2>
                             <p>Closy’s main focus is bringing the high street into your home and provide people with the best of local. We work with a number of local stores and producers to provide our customers with the best produce from a single marketplace – Closy market place.<br>
                             Closy was meant to be launched in both London and Barcelona but due to Covid, launches will be slightly delayed.</p>
