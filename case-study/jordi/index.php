@@ -65,7 +65,7 @@ $PRODUCTION = true;
                     <div class="col">
                         <article>
                             <h1>Michel Jordi Biography, Giving up is not an option!</h1>
-                            <p>Michel Jodi is the creator of LE CLIP and the legendary "Swiss Ethno Watch" which he introduced at the occasion of the 700-year anniversary of Switzerland in 1991. A complete line of products and accessories were marketed under the "Spirit of Switzerland" brand, which gave him international fame and appreciation (<a href="http://www.micheljordi.ch/" target="_blank">www.micheljordi.ch</a>).</p>
+                            <p>Michel Jodi is the creator of LE CLIP and the legendary "Swiss Ethno Watch" which he introduced at the occasion of the 700-year anniversary of Switzerland in 1991. A complete line of products and accessories were marketed under the "Spirit of Switzerland" brand, which gave him international fame and appreciation (<a href="http://www.ignitethatspark.com/" target="_blank">www.micheljordi.ch</a>).</p>
                         </article>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ $PRODUCTION = true;
 
                     <div class="col content">
                         <article>
-                            <h2>Client: <span><a href="http://www.micheljordi.ch/" target="_blank">Michel Jordi</a></span></h2>
+                            <h2>Client: <span><a href="http://www.ignitethatspark.com/" target="_blank">Michel Jordi</a></span></h2>
                             <p>Watchmakers from father to son. Since my early childhood I have been fascinated by the art of watchmaking that I first discovered in my father's workshop, and then in the mythical valleys of the Swiss Jura mountains.</p>
                             <h2>Brief:</h2>
                             <p>Michel Jordi is about to launch his new biography and got in touch with us to create a landing page for his new book 'Michel Jordi, Guts, Giving up is not an option!'. He wanted the ability for users to buy his book online using Paypal's payment system. The site was localised for multiple languages.</p>
